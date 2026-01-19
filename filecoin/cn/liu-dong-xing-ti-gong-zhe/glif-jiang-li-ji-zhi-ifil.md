@@ -1,0 +1,67 @@
+---
+description: 流动性提供者通過持有 iFIL 代币以赚取奖励
+---
+
+# GLIF 奖励机制 - iFIL
+
+## 关于 iFIL
+
+iFIL 是 GLIF 的奖励代币 - 部署在 FEVM 上的 ERC20 代币。流动性提供者 (LP) 通過持有 iFIL 代币以赚取奖励。
+
+当 LP 将 FIL 存入资金池时，他们会根据 iFIL 的当前价格获得相应数量的 iFIL 代币作为回报。随着存储提供商 (SP) 借入 FIL 後累積利息，iFIL 的价格会上涨。
+
+當LP 选择提取时，可以将 iFIL 兑换回 FIL。iFIL 亦可以转移到其他钱包、在二级市场上交易、或在其他 DeFi 协议中使用。
+
+## iFIL 的计算 
+
+iFIL的價格 (每个 iFIL 代币能兑换的FIL數量)，是通过将资金池中的总累计资产除以 iFIL 代币的流通供应量所计算的。因此，iFIL 的价格每个区块都会上涨。 iFIL 价格的计算公式为：
+
+$$
+iFIL 价格 = 资金池总资产 / iFIL流通供应量
+$$
+
+而:
+
+$$
+资金池总资产 = LP 存款 + 应计费用 - 金库费用
+$$
+
+### 基本示例：
+
+1. **iFIL 价格**：假設iFIL 的当前价格为 1 FIL，因此 `1 iFIL == 1 FIL`
+2. **LP 存款**：LP 将 1 FIL 存入 GLIF 并获得 1 iFIL
+3. **SP 借款并产生利息**：随着 SP 借款并产生利息 (随着时间的推移)，这代表着资金池的总资产增加 
+4. **价值增加**：iFIL 价格隨即上涨，因为资金池赚取了更多的总资产。如果 iFIL 价值增加 5%，那么 1 iFIL 现在就会价值 1.05 FIL
+5. **提取**：LP 可以通过兑换 1 iFIL 提取 1.05 FIL
+
+## 奖励来源
+
+奖励来自于从 GLIF 借入 FIL 的存储提供商所产生的利息。从存储提供商获得的预計利息按比例分配给 iFIL 持有者，并自动在 GLIF 中复利。 
+
+从经济角度来看，GLIF 实施了应计制会计方法。换句话说，在任何付款之前，它将存储提供商所欠的利息计算为其总资产的一部分。因此，GLIF 流动性提供者每个区块都能获得奖励。
+
+## 奖励率
+
+存储提供商以 15% 的固定利率从资金池中借入 FIL。 而只有存储提供商借入的 FIL 会产生奖励。借入的 FIL 与资金池中总 FIL 的比例被称为资金池的"利用率"
+
+利用率的计算公式为：
+
+$$
+利用率 =借出FIL/资金池总FIL * 100\%
+$$
+
+分配给流动性提供者的奖励计算公式为：
+
+$$
+奖励 =SP支付利率 * 利用率 *90\%
+$$
+
+當中的 90% 代表已減去 GLIF 协议金库收取的 10% 费用
+
+## 查看您的奖励
+
+流动性提供者可以通过将钱包连接到 GLIF，或访问特定地址的[钱包](https://www.glif.io/en/wallet)或[多签](https://www.glif.io/en/multisig)页面，来检查其持有的 iFIL 可兌換的 FIL 价值。&#x20;
+
+iFIL 回报显示在 "_代币"_ 部分中：
+
+<figure><img src="https://lh7-us.googleusercontent.com/docsz/AD_4nXceJhIlPoW8eiSHHp4UI9OxvJEWmm8ewUaYGqcFYvczUDH-DA5CwEcYqK3mp1aeAMzE7hZ_ZC2D3FhoyjwwpjFT4qxJlbP9TdYjKOKXZKQhtRIvMH8npmLXI8IcnE3RkMV0gZCL3p6azpC0ppONEFnuajA?key=B4TufszgVJXBgC3iG30KYw" alt=""><figcaption></figcaption></figure>
