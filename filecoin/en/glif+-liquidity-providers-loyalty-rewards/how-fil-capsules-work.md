@@ -89,4 +89,7 @@ Using our earlier numbers, assume:
 
 We can define the Capsules that Alice and Bob receive:
 
-<table data-full-width="true"><thead><tr><th>Card Holder</th><th>FIL Encapsulation Amount</th><th>Estimated Exchange Rate Premium</th><th>Exchange Rate</th><th>$GLF Required To Unlock FIL</th><th>Validity Duration</th></tr></thead><tbody><tr><td>Bob</td><td>33.333 FIL</td><td>+1%</td><td>0.00505 FIL/GLF</td><td>6,600.59 $GLF</td><td>30 Days</td></tr><tr><td>Alice</td><td>66.666 FIL</td><td>+25%</td><td>0.00625 FIL/GLF</td><td>10,666.56 $GLF</td><td>30 Days</td></tr></tbody></table>
+| Card Holder | FIL Encapsulation Amount | Estimated Exchange Rate Premium | Exchange Rate   | $GLF Required To Unlock FIL | Validity Duration |
+| ----------- | ------------------------ | ------------------------------- | --------------- | --------------------------- | ----------------- |
+| Bob         | 33.333 FIL               | +1%                             | 0.00505 FIL/GLF | 6,600.59 $GLF               | 30 Days           |
+| Alice       | 66.666 FIL               | +25%                            | 0.00625 FIL/GLF | 10,666.56 $GLF              | 30 Days           |
