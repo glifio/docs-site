@@ -4,7 +4,7 @@ description: 建立在 $GLF 代币之上的会员奖励计划
 
 # 流动性提供者会员卡
 
-<div align="left"><figure><img src="../.gitbook/assets/image.png" alt="" width="491"><figcaption></figcaption></figure></div>
+![流动性提供者会员卡](../.gitbook/assets/image.png)
 
 GLIF+ 流动性提供者 (LP) 会员卡让 iFIL 与 $GLF 代币持有者能够获得真实的链上权益。GLIF+ 的核心是 GLIF+ 会员卡，这是一种不可转让的 NFT，用户可以通过向卡片质押 $GLF 与 iFIL 的组合，获得协议内的专属权益。
 

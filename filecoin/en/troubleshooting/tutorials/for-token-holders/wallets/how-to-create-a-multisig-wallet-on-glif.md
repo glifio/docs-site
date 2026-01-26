@@ -8,15 +8,15 @@ Using a GLIF multisig wallet to deposit your FIL tokens provides increased secur
 
 Ensure you have a Filecoin-compatible wallet with an f1 wallet address, such as a [FilSnap wallet](how-to-obtain-a-filsnap-wallet-as-the-intermediary-wallet.md), [Ledger](how-to-obtain-a-ledger-wallet-as-the-intermediary-wallet.md), or even a [burner wallet](how-to-obtain-a-burner-wallet-as-the-intermediary-wallet.md). Find the step-by-step guide for setting up these wallets by clicking on them.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (286).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![Connect wallet](../../../../.gitbook/assets/image (286).png)
 
 2. Visit the [GLIF website](https://glif.io) and navigate to the "**Multisig"** tab
 
-<figure><img src="../../../../.gitbook/assets/image (285).png" alt=""><figcaption></figcaption></figure>
+![Tutorial step](../../../../.gitbook/assets/image (285).png)
 
 3. Click on **"Create new multisig"** in the left sidebar of the website
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (333).png" alt="" width="262"><figcaption></figcaption></figure></div>
+![Create multisig](../../../../.gitbook/assets/image (333).png)
 
 {% hint style="info" %}
 You need some FIL in your wallet to cover the gas fee.
@@ -32,17 +32,17 @@ Pleaese remember that Ethereum addresses are not allowed as multisig signers. Yo
 
 Next, set the required number of approvals for transactions and enter the deposit amount. Additionally, you can configure a vesting schedule if needed (optional). Review the details and click **"Send".**
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (335).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![Send button](../../../../.gitbook/assets/image (335).png)
 
 5. **Confirm in wallet**&#x20;
 
 A confirmation prompt will appear in your wallet (e.g., FilSnap or Ledger). Click "**Approve**".
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (309).png" alt=""><figcaption></figcaption></figure></div>
+![Approve button](../../../../.gitbook/assets/image (309).png)
 
 After approving the transaction, please wait as it may take a few minutes for it to be confirmed on the network.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (293).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![Confirmation result](../../../../.gitbook/assets/image (293).png)
 
 6. **Access Your Multisig Wallet**
 
@@ -52,7 +52,7 @@ If you don't see your multisig wallet immediately, reconnect your wallet and cli
 
 In the multisig page, you can view your token holdings, proposals, required approvals, and transaction history.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (295).png" alt=""><figcaption></figcaption></figure></div>
+![Connect wallet](../../../../.gitbook/assets/image (295).png)
 
 ## **Conclusion**
 

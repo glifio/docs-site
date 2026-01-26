@@ -42,7 +42,7 @@ For details on creating an intermediary wallet, please refer to the tutorial by 
 1. Connect to one of the wallets that is a signer for your agent's multisig wallet.
 2. Navigate to the "**Withdraw"** tab within the agent.
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (281).png" alt=""><figcaption></figcaption></figure></div>
+![Withdrawal step](../../../.gitbook/assets/image (281).png)
 
 3. Enter the intermediary wallet you created in[ Step 1 ](how-to-withdraw-fil-from-the-agent-to-an-exchange-at-glif.md#step-1-setting-up-your-intermediary-wallet)as the recipient.
 4. Enter the amount to withdraw.
@@ -52,11 +52,11 @@ For details on creating an intermediary wallet, please refer to the tutorial by 
 Wallets with no prior transactions on chain are not supported as the intermediary wallet. Please make some transactions with this wallet before this step.
 {% endhint %}
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (279).png" alt="" width="375"><figcaption></figcaption></figure></div>
+![Withdraw FIL](../../../.gitbook/assets/image (279).png)
 
 6. Click "**Sign Transaction"**.
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (284).png" alt="" width="375"><figcaption></figcaption></figure></div>
+![Sign prompt](../../../.gitbook/assets/image (284).png)
 
 7. After signing the transaction, you will receive a signed credential that **expires in around 5 minutes**. Complete the transaction within this time.
 8. Click "**Send"**.
@@ -65,17 +65,17 @@ Wallets with no prior transactions on chain are not supported as the intermediar
 If you do not complete the transaction and **sign the proposal with your other signer wallets within 5 minutes**, you will need to repeat this step.
 {% endhint %}
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (296).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![Withdrawal step](../../../.gitbook/assets/image (296).png)
 
 9. Approve the transaction in your wallet.
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (286).png" alt="" width="367"><figcaption></figcaption></figure></div>
+![Approval step](../../../.gitbook/assets/image (286).png)
 
 10. Wait for the transaction to be processed. This may take 1-2 minutes.
 11. Sign in to the additional signer wallet in your agent’s multisig wallet.&#x20;
 12. Click on the proposal just made in the "**Owner Proposals**" tab on the agent page..
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (287).png" alt=""><figcaption></figcaption></figure></div>
+![Toggle button](../../../.gitbook/assets/image (287).png)
 
 13. Click "**Approve proposal**".
 
@@ -83,12 +83,12 @@ If you do not complete the transaction and **sign the proposal with your other s
 Make sure all signer wallets have **enough gas fees** to proceed with the transaction.
 {% endhint %}
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (288).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![Approve proposal](../../../.gitbook/assets/image (288).png)
 
 14. Wait for the transaction to be processed. This may take 1-2 minutes.
 15. Once the multisig proposal is complete, it will disappear, and a successful transaction will be displayed in the "**Transaction**" tab.
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (290).png" alt=""><figcaption></figcaption></figure></div>
+![Approve proposal](../../../.gitbook/assets/image (290).png)
 
 16. Verify your balance in the intermediary wallet to ensure the transaction was successful on the GLIF **"wallet"** page, or verify it by searching your f1 address on [filfox.info](https://filfox.info/en).
 
@@ -99,17 +99,17 @@ Make sure all signer wallets have **enough gas fees** to proceed with the transa
 
 * **1st Command**: `glif agent --help`
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (291).png" alt=""><figcaption></figcaption></figure></div>
+![Withdrawal step](../../../.gitbook/assets/image (291).png)
 
 * **2nd Command**: `glif agent withdraw --help`
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (292).png" alt=""><figcaption></figcaption></figure></div>
+![Withdraw FIL](../../../.gitbook/assets/image (292).png)
 
 * **3rd Command**: `glif agent withdraw 100 f1...abc`
   * Replace **100** with the amount you want to withdraw.
   * Replace **f1...abc** with your intermediary wallet address.
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (293).png" alt=""><figcaption></figcaption></figure></div>
+![Withdrawal step](../../../.gitbook/assets/image (293).png)
 
 3. Verify your balance in the intermediary wallet to ensure the transaction was successful on the GLIF **"wallet"** page, or verify it by searching your f1 wallet address on [filfox.info](https://filfox.info/en).
 
@@ -117,21 +117,21 @@ Make sure all signer wallets have **enough gas fees** to proceed with the transa
 
 1. Connect to your intermediary wallet made in [step 1](how-to-withdraw-fil-from-the-agent-to-an-exchange-at-glif.md#step-1a-creating-an-intermediary-wallet-burner-wallet). On the GLIF website, click **"Send FIL."**
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (158).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![Send button](../../../.gitbook/assets/image (158).png)
 
 2. Paste your f1 address on the exchange in the recipient field.
 3. Enter the desired amount of FIL to transfer.
 4. Click **"Send"** and confirm the transaction.
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (159).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![Transaction confirmation](../../../.gitbook/assets/image (159).png)
 
 5. After the transaction completed, you can check the transaction hash in the bottom right corner of the GLIF page.
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (160).png" alt="" width="188"><figcaption></figcaption></figure></div>
+![Transaction complete](../../../.gitbook/assets/image (160).png)
 
 6. Once the transaction is completed, you can verify the balance of your final f1 address on[ filfox.info ](https://filfox.info/en)or by pasting your address after [https://www.glif.io/en/address](https://www.glif.io/en/address/your_f1_address)/(your f1 address).
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (161).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![Transfer FIL](../../../.gitbook/assets/image (161).png)
 
 7. Congrats! Your FIL has been successfully withdraw FIL from your agent to your f1 address on the exchange!
 

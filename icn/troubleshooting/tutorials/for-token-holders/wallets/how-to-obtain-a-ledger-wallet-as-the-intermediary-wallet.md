@@ -12,17 +12,17 @@ To obtain a Ledger wallet address, you will need to setup your Ledger device ([N
 
 Make sure you have your device connected to your computer (e.g., with the supplied cable), and enter your pin to unlock it.
 
-<figure><img src="../../../../.gitbook/assets/image (162).png" alt=""><figcaption></figcaption></figure>
+![Connect wallet](../../../../.gitbook/assets/image (162).png)
 
 ## Step 2. Connect your wallet to GLIF
 
 1. Go to [GLIF website](https://www.glif.io) and click on **Connect Wallet** in the top right of the screen. You will see a list of wallets to connect. Choose ‘**Ledger (Filecoin)**’.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (164).png" alt=""><figcaption></figcaption></figure></div>
+![Toggle button](../../../../.gitbook/assets/image (164).png)
 
 2. If your hardware wallet is unlocked and connected, you will see a pop-up in your browser asking to connect the HID device.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (165).png" alt=""><figcaption></figcaption></figure></div>
+![Connect wallet](../../../../.gitbook/assets/image (165).png)
 
 3. Make sure the Filecoin app is open on your device before you try to connect it.&#x20;
 
@@ -30,26 +30,26 @@ Make sure you have your device connected to your computer (e.g., with the suppli
 If you have a problem adding the Filecoin app to your Ledger, please check the tutorial [here](https://docs.filecoin.io/basics/assets/metamask-setup#install-the-ledger-app).
 {% endhint %}
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (166).png" alt=""><figcaption></figcaption></figure></div>
+![MetaMask prompt](../../../../.gitbook/assets/image (166).png)
 
 4. When the device says "**Filecoin Ready"**, then select the device in the browser popup and hit "**Connect"**.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (168).png" alt=""><figcaption></figcaption></figure></div>
+![Connect wallet](../../../../.gitbook/assets/image (168).png)
 
 5. Once you are connected, you will see your hardware wallet Filecoin address in the top right of the GLIF website, as well as your total FIL balance.
 6. Copy the f1 address for later use. This will be your first Ledger address.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (32).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![Copy address](../../../../.gitbook/assets/image (32).png)
 
 ## Step 3: Generate a second address (optional)
 
 1. If you need to generate a second address, click “**Wallet**” in the top left navigation bar.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (30).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![Connect wallet](../../../../.gitbook/assets/image (30).png)
 
 2. Click **“Add Account”** on the left side of the screen. Copy the second address for later use if needed.
 
-<div align="left"><figure><img src="https://miro.medium.com/v2/resize:fit:700/0*L0iNyYyAE-q7hKvp" alt="" width="375"><figcaption></figcaption></figure></div>
+![Copy address](https://miro.medium.com/v2/resize:fit:700/0*L0iNyYyAE-q7hKvp)
 
 ## Conclusion
 

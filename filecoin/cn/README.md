@@ -2,7 +2,7 @@
 
 
 
-<figure><picture><source srcset=".gitbook/assets/long_white.png" media="(prefers-color-scheme: dark)"><img src=".gitbook/assets/long_dark.png" alt="GLIF Logo"></picture><figcaption></figcaption></figure>
+![GLIF Logo](.gitbook/assets/long_dark.png)
 
 * 🚀 如果你是 FIL 持有者并希望获得奖励，请点击[这里](liu-dong-xing-ti-gong-zhe/cun-ru-fil.md)
 * 📦 如果你是存储提供商并希望借入 FIL，请点击[这里](cun-chu-ti-gong-shang/jie-ru-fil.md)

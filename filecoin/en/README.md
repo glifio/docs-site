@@ -1,6 +1,6 @@
 # Quick Guide
 
-<figure><picture><source srcset=".gitbook/assets/long_white.png" media="(prefers-color-scheme: dark)"><img src=".gitbook/assets/long_dark.png" alt="GLIF Logo"></picture><figcaption></figcaption></figure>
+![GLIF Logo](.gitbook/assets/long_dark.png)
 
 * 🚀 Start here if you are a [**FIL token holder**](/broken/pages/lbDhdSl21VPzXy4e3aow) and looking to earn rewards
 * 📦 Learn more if you are a [**Storage Provider**](/broken/pages/734S4U1BiSY1YNxLKl32) and want to borrow FIL

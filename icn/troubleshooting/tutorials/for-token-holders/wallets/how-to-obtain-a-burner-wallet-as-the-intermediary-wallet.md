@@ -10,31 +10,31 @@ To obtain a Burner wallet, you will need to:
 
 1. Visit the GLIF website and click **"Connect Wallet"** in the top right corner.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (217).png" alt="" width="378"><figcaption></figcaption></figure></div>
+![GLIF connect button](../../../../.gitbook/assets/image (217).png)
 
 2. Select **"Burner Wallet"** from the options.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (175).png" alt="" width="427"><figcaption></figcaption></figure></div>
+![Wallet selection](../../../../.gitbook/assets/image (175).png)
 
 3. Choose **"Filecoin (f1...)"** as the address type. Click **"Create Seed Phrase"** to generate a new 24-word seed phrase.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (187).png" alt=""><figcaption></figcaption></figure></div>
+![Connect wallet](../../../../.gitbook/assets/image (187).png)
 
 4. Click **"Copy"** and save the seed phrase in a safe place, as it will be used to regain access to the burner wallet if you get disconnected. Then, click **"I've recorded my seed phrase."**&#x20;
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (188).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![Tutorial step](../../../../.gitbook/assets/image (188).png)
 
 5. Then, you are required to type in several words from your seed phrase to double-check your record of the seed phrase. Finally, click **"Connect."**
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (189).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![Tutorial step](../../../../.gitbook/assets/image (189).png)
 
 6. After connecting, you will see your burner wallet's f1 and 0x addresses.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (150).png" alt="" width="375"><figcaption></figcaption></figure></div>
+![Connect wallet](../../../../.gitbook/assets/image (150).png)
 
 7. Copy the burner wallet's f1 address for later use.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (149).png" alt="" width="375"><figcaption></figcaption></figure></div>
+![Copy address](../../../../.gitbook/assets/image (149).png)
 
 {% hint style="info" %}
 It is highly recommended to **disconnect and reconnect** your newly created burner wallet before transferring any FIL to ensure you understand how to access it in the future, minimizing the risk of losing access to your funds.

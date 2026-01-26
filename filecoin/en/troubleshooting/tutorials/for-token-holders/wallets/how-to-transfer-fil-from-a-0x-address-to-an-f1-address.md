@@ -49,19 +49,19 @@ It will be easier to manage the transaction if you open **two tabs**:
 
 1. Visit the GLIF website and click **"Connect Wallet."** Select your **main wallet**, which is the one holding your FIL.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (128).png" alt="" width="378"><figcaption></figcaption></figure></div>
+![GLIF connect button](../../../../.gitbook/assets/image (128).png)
 
 2. Connect your main wallet to the Filecoin mainnet. Click "**Connect**".
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (376).png" alt="" width="355"><figcaption></figcaption></figure></div>
+![Mainnet connection](../../../../.gitbook/assets/image (376).png)
 
 3. If you see this page, it means your wallet is connected.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (131).png" alt=""><figcaption></figcaption></figure></div>
+![Send FIL](../../../../.gitbook/assets/image (131).png)
 
 4. In the top right corner of GLIF website, click **"Send / Forward FIL"** .
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (86).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![Send button](../../../../.gitbook/assets/image (86).png)
 
 5. In the "**Forward FIL**" page, paste your **intermediary wallet's f1 address** in the recipient field. This is the wallet created in [Step 1](how-to-transfer-fil-from-a-0x-address-to-an-f1-address.md#step-1-set-up-your-intermediary-wallet). Burner wallet is used as an example here.
 6. Enter the amount of FIL you wish to transfer (start with a small test amount).
@@ -70,7 +70,7 @@ It will be easier to manage the transaction if you open **two tabs**:
 **Before your send any FIL to the burner wallet, test it with a small amount of FIL.**
 {% endhint %}
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (88).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![Transfer FIL](../../../../.gitbook/assets/image (88).png)
 
 7. Click **"Confirm"** in MetaMask.
 
@@ -78,7 +78,7 @@ It will be easier to manage the transaction if you open **two tabs**:
 Please ensure you have sufficient FIL for gas fees; 0.001 FIL is usually more than enough.
 {% endhint %}
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (135).png" alt="" width="284"><figcaption></figcaption></figure></div>
+![Send FIL](../../../../.gitbook/assets/image (135).png)
 
 {% hint style="info" %}
 If you are unable to get a confirmation in your main wallet (e.g. MetaMask), there may be an internal error. Try these steps:
@@ -92,7 +92,7 @@ If you are unable to get a confirmation in your main wallet (e.g. MetaMask), the
 
 8. In the bottom right corner of the webpage, a notification box will appear, indicating **"Transaction Pending"** and providing you with a tx hash. When the transaction is completed, it will change to **"Transaction Completed".**
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (89).png" alt="" width="375"><figcaption></figcaption></figure></div>
+![Send FIL](../../../../.gitbook/assets/image (89).png)
 
 {% hint style="info" %}
 The GLIF team **cannot** help you find your tx hash. Please record your tx hash for tracking your transaction.
@@ -101,33 +101,33 @@ The GLIF team **cannot** help you find your tx hash. Please record your tx hash 
 9. &#x20;You can check the transaction details on [filfox.info](https://filfox.info/en) by searching the tx hash.
 10. To confirm that the FIL you transferred went to your burner address, click **"internal transfer"** on the [filfox.info](https://filfox.info/en) transaction details page to view the address details. The **"To"** address should match your burner wallet's f1 address.
 
-<figure><img src="../../../../.gitbook/assets/image (91).png" alt=""><figcaption></figcaption></figure>
+![Transaction confirmation](../../../../.gitbook/assets/image (91).png)
 
 11. Once the transaction is completed, disconnect MetaMask (main wallet). Then, click **"Connect Wallet"** and connect your intermediary wallet by importing the seed phrase you saved earlier.&#x20;
 
 For the burner wallet, remember to choose **"Filecoin (f1...)"** as the address type.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (144).png" alt="" width="503"><figcaption></figcaption></figure></div>
+![Send FIL](../../../../.gitbook/assets/image (144).png)
 
 12. Check your intermediary wallet balance on the GLIF **"wallet"** page, or verify it by searching your burner wallet's f1 address on [filfox.info](https://filfox.info/en).
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (92).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![Balance view](../../../../.gitbook/assets/image (92).png)
 
 ## Step 3: Transfer FIL from Burner Wallet to your f1 address (final destination)
 
 1. Stay connected to your burner wallet. On the GLIF website, click **"Send FIL."**
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (93).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![Send button](../../../../.gitbook/assets/image (93).png)
 
 2. Paste your final f1 destination address in the recipient field.
 3. Enter the desired amount of FIL to transfer.
 4. Click **"Send"** and confirm the transaction.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (94).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![Transaction confirmation](../../../../.gitbook/assets/image (94).png)
 
 5. After the transaction completed, you can check the transaction hash in the bottom right corner of the GLIF page.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (95).png" alt="" width="188"><figcaption></figcaption></figure></div>
+![Transaction complete](../../../../.gitbook/assets/image (95).png)
 
 6. Once the transaction is completed, you can verify the balance of your final f1 address on[ filfox.info ](https://filfox.info/en)or by pasting your address after [https://www.glif.io/en/address](https://www.glif.io/en/address/your_f1_address)/(your f1 address).
 7. Congrats! Your FIL has been successfully transferred from a 0x address to your f1 address!

@@ -4,7 +4,7 @@ description: A Loyalty Rewards Program powered by $GLF
 
 # Liquidity Provider Loyalty Card
 
-<div align="left"><figure><img src="../.gitbook/assets/image (272).png" alt="" width="491"><figcaption></figcaption></figure></div>
+![Liquidity Provider Loyalty Card](../.gitbook/assets/image (272).png)
 
 GLIF+ Liquidity Provider Loyalty Cards allow iFIL and $GLF token holders to receive real, on-chain benefits. GLIF+ is powered by the GLIF+ Loyalty Card, which is a non-transferable NFT that enables users to receive in-protocol benefits by staking a mix of $GLF and iFIL.
 

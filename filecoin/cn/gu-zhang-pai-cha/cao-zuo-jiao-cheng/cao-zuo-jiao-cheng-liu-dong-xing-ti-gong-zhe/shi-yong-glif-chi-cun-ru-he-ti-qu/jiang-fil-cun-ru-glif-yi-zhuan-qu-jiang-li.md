@@ -16,11 +16,11 @@
 
 1. 访问 [GLIF 官网](https://glif.io)，并点击右上角的“**连接钱包**”。
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (61).png" alt="" width="375"><figcaption></figcaption></figure></div>
+![步骤 2：将您的钱包连接到 G](../../../../.gitbook/assets/image (61).png)
 
 2. 选择您想要连接且已拥有 FIL 的钱包。
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (62).png" alt="" width="375"><figcaption></figcaption></figure></div>
+![步骤 2：将您的钱包连接到 G](../../../../.gitbook/assets/image (62).png)
 
 ## 步骤 2.5：将 Filecoin 网络添加到您的钱包（仅限 Chrome 扩展）
 
@@ -33,17 +33,17 @@
 1. 将钱包连接到 GLIF 后，您的 Filecoin 余额会显示在 GLIF 界面中。
 2. 点击主页上的“**存入**”，或前往“**池**”页面。
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (64).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![步骤 3：在 GLIF 上存入](../../../../.gitbook/assets/image (64).png)
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (63).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![MetaMask prompt](../../../../.gitbook/assets/image (63).png)
 
 3. 输入您要存入的数量，然后点击“**存款**”。
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (65).png" alt="" width="375"><figcaption></figcaption></figure></div>
+![步骤 3：在 GLIF 上存入](../../../../.gitbook/assets/image (65).png)
 
 4. 接着点击“**发送**”。
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (66).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![步骤 3：在 GLIF 上存入](../../../../.gitbook/assets/image (66).png)
 
 {% hint style="warning" %}
 请确保您的钱包中留有足够的 FIL 来支付 Gas 费用。
@@ -51,7 +51,7 @@
 
 5. 在您的钱包中点击“**确认**”。
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (67).png" alt="" width="354"><figcaption></figcaption></figure></div>
+![步骤 3：在 GLIF 上存入](../../../../.gitbook/assets/image (67).png)
 
 ## 步骤 4：查看您的 iFIL 余额 
 
@@ -63,17 +63,17 @@
 
 如果您想查看更详细的持仓信息，可以点击 GLIF 左上方中的“**钱包**”，在“**代币**”部分查看钱包的 FIL 和 iFIL。
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (68).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![步骤 4：查看您的 iFIL](../../../../.gitbook/assets/image (68).png)
 
 ## 步骤 5：将 iFIL 添加到您的钱包资产列表（仅限 Chrome 插件）
 
 1. 如果您想在 MetaMask 中查看您的 iFIL，只需将该代币地址添加到钱包即可。在“**代币**”部分，找到 iFIL 代币旁的“**...**”按钮，并点击“**添加 iFIL 到 MetaMask**”。
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (69).png" alt=""><figcaption></figcaption></figure></div>
+![MetaMask prompt](../../../../.gitbook/assets/image (69).png)
 
 2. 在 MetaMask 中点击“**加入代币**”。
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (70).png" alt="" width="335"><figcaption></figcaption></figure></div>
+![MetaMask prompt](../../../../.gitbook/assets/image (70).png)
 
 ## 结论 
 

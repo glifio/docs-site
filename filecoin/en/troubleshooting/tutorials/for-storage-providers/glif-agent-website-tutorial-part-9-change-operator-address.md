@@ -30,19 +30,19 @@ In this part of the tutorial, we will guide you through the process of changing 
 1. Navigate to the "**Admin**" section on your Agent page. Make sure you are in the "**Owner mode**"
 2. Click the icon next to the operator.
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (263).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![The Icon button](../../../.gitbook/assets/image (263).png)
 
 3. In the "**Change Operator of Your Agent**" multisig proposal interface, enter the new operator address for the miner.
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (264).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![Address input](../../../.gitbook/assets/image (264).png)
 
 4. Click “**Send**” and approve the transaction in your wallet.
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (265).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![Approve button](../../../.gitbook/assets/image (265).png)
 
 5. Wait for the transaction to complete. A "**Transfer Operator**" proposal will appear in the "**Agent Owner Proposals**" section.
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (266).png" alt=""><figcaption></figcaption></figure></div>
+![Transaction pending](../../../.gitbook/assets/image (266).png)
 
 ### Step 2: Approve the Proposal
 
@@ -50,7 +50,7 @@ In this part of the tutorial, we will guide you through the process of changing 
 2. Navigate to the "**Agent Owner Proposals**" section and find the "**Transfer Operator**" proposal.
 3. Click “**Approve Proposal**”.
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (267).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![Proposal approval](../../../.gitbook/assets/image (267).png)
 
 4. Confirm the transaction in your wallet.
 
@@ -60,11 +60,11 @@ In this part of the tutorial, we will guide you through the process of changing 
 2. Navigate to the "**Admin**" section of the Agent page. You will see the address of the pending operator.
 3. Click "**Accept operator role**".
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (269).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![Approve proposal](../../../.gitbook/assets/image (269).png)
 
 4. Click “**Send**”.
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (270).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![Send button](../../../.gitbook/assets/image (270).png)
 
 5. Wait for the transaction to complete (1–2 minutes). The updated operator address will appear in the "**Admin**" panel.
 

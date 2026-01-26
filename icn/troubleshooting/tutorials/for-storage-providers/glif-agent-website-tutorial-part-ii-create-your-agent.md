@@ -28,37 +28,37 @@ The Agent Creation Wizard on the GLIF website will walk you through these steps.
 
 **Step 1 —** go to [https://glif.io/agent](https://glif.io/agent) and click the “**Create new agent**” button on the left hand panel:
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (259).png" alt=""><figcaption></figcaption></figure></div>
+![Agent creation](../../../.gitbook/assets/image (259).png)
 
 ***
 
 **Step 2 —** Connect the “proposer” Filecoin Snap wallet you created in [Part I](glif-agent-website-tutorial-part-i-preparation-setup.md) of the tutorial.
 
-<figure><img src="../../../.gitbook/assets/image (109).png" alt=""><figcaption></figcaption></figure>
+![Agent creation](../../../.gitbook/assets/image (109).png)
 
 Once you click the “Connect” button, you must approve GLIF to connect to your wallet. You may see this popup appear two times, you should approve both requests to connect.
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (19).png" alt="" width="375"><figcaption></figcaption></figure></div>
+![Approve button](../../../.gitbook/assets/image (19).png)
 
 Your FilSnap wallet needs some funds to perform the transactions required to create a new Agent.&#x20;
 
 If your wallet is empty, please make a deposit from another wallet using the 'Deposit' button, or send funds to the wallet's address from an exchange. If you encounter any issues with the deposit, check the tutorial [here](../for-token-holders/transfer-fil-to-from-exchanges/).
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure></div>
+![Create your Agent on](../../../.gitbook/assets/image (20).png)
 
 ***
 
 **Step 3** — Enter your two additional wallet addresses (“approver”, “backup”) signers and create your Agent owner wallet. These are the two other FilSnap or Ledger wallet addresses you created in [Part I](glif-agent-website-tutorial-part-i-preparation-setup.md) of this tutorial.&#x20;
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (21).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![Address input](../../../.gitbook/assets/image (21).png)
 
 If you want to use 2 signers only, open the owner settings, set 'Required approvals' to 2, and remove the "Signer 3".
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (112).png" alt=""><figcaption></figcaption></figure></div>
+![Create your Agent on](../../../.gitbook/assets/image (112).png)
 
 Once you click “Create Owner”, you must approve the transaction in MetaMask:
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (113).png" alt="" width="317"><figcaption></figcaption></figure></div>
+![MetaMask prompt](../../../.gitbook/assets/image (113).png)
 
 Great work so far! Once you’ve approved this Agent Owner multisig creation transaction, you’re almost ready to create your Agent smart contract.
 
@@ -72,25 +72,25 @@ In order to create your Agent, we must first wait for your Agent owner multisig 
 If you see “Failed to load address information” under your “owner address”, this is because your Agent owner multisig wallet creation transaction is still pending.
 {% endhint %}
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (22).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![Create your Agent on](../../../.gitbook/assets/image (22).png)
 
 Once your Agent owner multisig creation transaction has confirmed, you should be able to click the “Create Agent” button, and approve the transaction in MetaMask.
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (23).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![MetaMask prompt](../../../.gitbook/assets/image (23).png)
 
 Once you click the “Create Agent” button, you must approve the transaction in MetaMask:
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (117).png" alt="" width="255"><figcaption></figcaption></figure></div>
+![MetaMask prompt](../../../.gitbook/assets/image (117).png)
 
 ***
 
 **Step 5** — wait for your Agent creation transaction to confirm
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (308).png" alt=""><figcaption></figcaption></figure></div>
+![Transaction pending](../../../.gitbook/assets/image (308).png)
 
 **Step 6** — Success! You can see we’ve created a new Agent.
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (310).png" alt=""><figcaption></figcaption></figure></div>
+![Agent creation](../../../.gitbook/assets/image (310).png)
 
 ## Important Agent Information <a href="#b829" id="b829"></a>
 

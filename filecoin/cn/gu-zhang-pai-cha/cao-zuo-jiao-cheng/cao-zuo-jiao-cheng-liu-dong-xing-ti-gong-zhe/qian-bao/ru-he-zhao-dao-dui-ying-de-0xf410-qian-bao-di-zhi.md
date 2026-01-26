@@ -12,7 +12,7 @@
 2. 在GLIF网站的右上角，按下您的钱包地址。
 3. 在下拉菜单中将显示“0x”和对应的“f410”地址。
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure></div>
+![操作教程](../../../../.gitbook/assets/image (34).png)
 
 找到对应的地址后，您就可以使用它从交易所或钱包之间转移您的Filecoin！
 

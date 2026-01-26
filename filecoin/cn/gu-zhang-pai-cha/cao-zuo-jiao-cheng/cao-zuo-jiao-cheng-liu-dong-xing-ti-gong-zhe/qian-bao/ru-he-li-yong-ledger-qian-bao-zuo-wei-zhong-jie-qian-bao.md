@@ -12,17 +12,17 @@ Filecoin生态系统中有各种类型的地址，例如f0、f1、f2、f3和f410
 
 1. 确保您的Ledger已连接到电脑（使用提供的电线），并输入密码解锁。
 
-<figure><img src="../../../../.gitbook/assets/image (91).png" alt=""><figcaption></figcaption></figure>
+![步骤1. 将硬件钱包连接到电脑](../../../../.gitbook/assets/image (91).png)
 
 ## 步骤2. 将您的钱包连接到GLIF
 
 1. 访问[GLIF网站](https://glif.io)，点击屏幕右上角的“**连接钱包**”。您将看到可连接的钱包列表，选择“**Ledger（Filecoin）**”。
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (36).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![步骤2. 将您的钱包连接到GL](https://glif.io)，点击屏幕右上角的“**连...](../../../../.gitbook/assets/image (36).png)
 
 2. 如果您的硬件钱包已解锁并连接，浏览器会弹出一个窗口，询问是否连接HID设备。
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (93).png" alt=""><figcaption></figcaption></figure></div>
+![步骤2. 将您的钱包连接到GL](../../../../.gitbook/assets/image (93).png)
 
 3. 在尝试连接之前，确保设备上的Filecoin应用已打开。
 
@@ -30,26 +30,26 @@ Filecoin生态系统中有各种类型的地址，例如f0、f1、f2、f3和f410
 如果您在 Ledger 中添加 Filecoin 应用时遇到问题，请[查看此处](https://docs.filecoin.io/basics/assets/metamask-setup#install-the-ledger-app)的教程。
 {% endhint %}
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (94).png" alt=""><figcaption></figcaption></figure></div>
+![MetaMask prompt](../../../../.gitbook/assets/image (94).png)
 
 4. 当设备显示“**Filecoin Ready**”时，在浏览器弹出窗口中选择该设备并点击“**连接**”。
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (95).png" alt=""><figcaption></figcaption></figure></div>
+![步骤2. 将您的钱包连接到GL](../../../../.gitbook/assets/image (95).png)
 
 5. 连接后，将在GLIF网站的右上角看到您的硬件钱包Filecoin地址，以及 FIL总余额。
 6. 复制 f1 地址备用。这将是您的第一个Ledger地址。
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (37).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![步骤2. 将您的钱包连接到GL](../../../../.gitbook/assets/image (37).png)
 
 ## 步骤3：生成第二个地址（如有需要）
 
 1. 如果您需要生成第二个地址，点击左上角选择栏的“钱包”。
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (40).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![步骤3：生成第二个地址（如有需](../../../../.gitbook/assets/image (40).png)
 
 2. 点击屏幕左侧的“添加账户”，复制第二个地址备用。
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (39).png" alt="" width="371"><figcaption></figcaption></figure></div>
+![步骤3：生成第二个地址（如有需](../../../../.gitbook/assets/image (39).png)
 
 ## 结论
 

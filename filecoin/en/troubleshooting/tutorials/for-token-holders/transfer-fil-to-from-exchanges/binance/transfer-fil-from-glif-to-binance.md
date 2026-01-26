@@ -14,13 +14,13 @@ You can refer to our [FAQ](../../../../faq/faq-for-liquidity-providers/wallet-co
 2. To transfer your iFIL from the GLIF pool to FIL, follow the[ step-by-step guide](../../using-the-pool/withdraw-fil-from-glif.md) in this tutorial.
 3. After withdrawn FIL, you will receive FIL in your main wallet. Click on "**Wallet"** tab in the GLIF navigation, and you will be able to see the FIL and iFIL balance in the "**Account**" section.
 
-<div align="left"><figure><img src="../../../../../.gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure></div>
+![Token balances](../../../../../.gitbook/assets/image (60).png)
 
 ## Step 2: Locate your recipient address in the exchange
 
 1. Go to your centralized exchange, Binance, and locate FIL in your portfolio. Click "**Deposit**."
 
-<div align="left"><figure><img src="../../../../../.gitbook/assets/image (62).png" alt="" width="306"><figcaption></figcaption></figure></div>
+![Withdraw FIL](../../../../../.gitbook/assets/image (62).png)
 
 2. Select the "**FILEVM**" network if your wallet address starts with "**0x**" or "**f410**." \
    \
@@ -30,11 +30,11 @@ You can refer to our [FAQ](../../../../faq/faq-for-liquidity-providers/wallet-co
 **WARNING**: Choosing the wrong network can result in the loss of funds. Be aware and double-check your address type.
 {% endhint %}
 
-<div align="left"><figure><img src="../../../../../.gitbook/assets/image (393).png" alt="" width="360"><figcaption></figcaption></figure></div>
+![Tutorial step](../../../../../.gitbook/assets/image (393).png)
 
 3. Copy the address provided.
 
-<div align="left"><figure><img src="../../../../../.gitbook/assets/image (63).png" alt="" width="314"><figcaption></figcaption></figure></div>
+![Copy address](../../../../../.gitbook/assets/image (63).png)
 
 {% hint style="danger" %}
 **WARNING**: Before transferring a large amount of funds to an exchange, send a small amount as a test transaction first.
@@ -44,13 +44,13 @@ You can refer to our [FAQ](../../../../faq/faq-for-liquidity-providers/wallet-co
 
 1. In the top right corner of the GLIF website, click "**Send/Forward FIL**." Alternatively, you can use the "**Send**" function in your wallet as well.
 
-<div align="left"><figure><img src="../../../../../.gitbook/assets/image (30).png" alt="" width="375"><figcaption></figcaption></figure></div>
+![Send button](../../../../../.gitbook/assets/image (30).png)
 
 2. Paste your exchange address copied in [step 2](transfer-fil-from-glif-to-binance.md#step-2-locate-your-recipient-address-in-the-exchange).&#x20;
 3. Enter the desired amount of FIL to transfer.
 4. Click **"Send"** and confirm the transaction in your wallet.
 
-<div align="left"><figure><img src="../../../../../.gitbook/assets/image (32).png" alt="" width="375"><figcaption></figcaption></figure></div>
+![Wallet confirmation](../../../../../.gitbook/assets/image (32).png)
 
 5. After the transaction completed, you can check the balance in your exchange.
 

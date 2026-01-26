@@ -16,11 +16,11 @@ No matter which wallet you use, always make sure to back up your secret recovery
 
 1. Visit the [GLIF website](https://www.glif.io) and click on **‘Connect Wallet’** in the top right corner.&#x20;
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (221).png" alt=""><figcaption></figcaption></figure></div>
+![GLIF connect button](../../../../.gitbook/assets/image (221).png)
 
 2. Select the wallet you wish to connect.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (223).png" alt=""><figcaption></figcaption></figure></div>
+![Wallet selection](../../../../.gitbook/assets/image (223).png)
 
 ## Step 3: Add the Filecoin network to your wallet (chrome extensions only)
 
@@ -32,7 +32,7 @@ Using Ledger? Check out our Ledger tutorial [here](../using-the-pool/how-to-depo
 
 2. Click **‘Confirm’**, then click **‘Approve’** in MetaMas&#x6B;**.**
 
-<figure><img src="../../../../.gitbook/assets/image (224).png" alt=""><figcaption></figcaption></figure>
+![Confirm button](../../../../.gitbook/assets/image (224).png)
 
 3. If the prompt to change the network does not pop up, you can follow the steps on[ this website ](https://docs.filecoin.io/basics/assets/metamask-setup)from Filecoin Docs.
 
@@ -42,7 +42,7 @@ This step connects your MetaMask wallet to the Filecoin network. You can switch 
 
 The Filecoin Mainnet should now appear in your network options. Select "**Filecoin Mainnet"**.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (35).png" alt="" width="516"><figcaption></figcaption></figure></div>
+![Connect wallet](../../../../.gitbook/assets/image (35).png)
 
 ## Conclusion
 

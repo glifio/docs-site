@@ -28,7 +28,7 @@ In this part of the tutorial, we will guide you through the process of remove a 
 1. Navigate to the "**Miners**" section on your Agent page.
 2. Click the "trash can" icon next to the miner you want to fund.
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (253).png" alt=""><figcaption></figcaption></figure></div>
+![The button](../../../.gitbook/assets/image (253).png)
 
 3. In the "**Remove a miner from your Agent**" multisig proposal interface, enter the new owner address of the miner.
 4. Review the details and click “**Sign Transaction**.”
@@ -37,15 +37,15 @@ In this part of the tutorial, we will guide you through the process of remove a 
 Credentials are valid for only 5 minutes. If you see the error "_AgentPolice: Invalid Credential_", it means the credentials have expired, so please start over.
 {% endhint %}
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (254).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![Initiate removal](../../../.gitbook/assets/image (254).png)
 
 5. Click “**Send**” and approve the transaction in your wallet.
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (255).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![Approve button](../../../.gitbook/assets/image (255).png)
 
 6. Wait for the transaction to complete. A "**RemoveMiner**" proposal will appear in the "**Agent Owner Proposals**" section.
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (256).png" alt=""><figcaption></figcaption></figure></div>
+![Transaction pending](../../../.gitbook/assets/image (256).png)
 
 ## Step 2: Approve the Proposal
 
@@ -53,12 +53,12 @@ Credentials are valid for only 5 minutes. If you see the error "_AgentPolice: In
 2. Navigate to the "**Agent Owner Proposals"** section and find the "**Withdraw**" proposal.
 3. Click “**Approve Proposal**”
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (246).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![Proposal approval](../../../.gitbook/assets/image (246).png)
 
 4. Confirm the transaction in your wallet.
 5. Wait for the transaction to complete (1–2 minutes). The miner will be removed from your Agent.
 
-<figure><img src="../../../.gitbook/assets/image (257).png" alt=""><figcaption></figcaption></figure>
+![Transaction pending](../../../.gitbook/assets/image (257).png)
 
 ***
 

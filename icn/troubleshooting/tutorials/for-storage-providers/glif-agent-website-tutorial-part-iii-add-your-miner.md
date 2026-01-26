@@ -59,12 +59,12 @@ This is the same for all owner transactions on the agent: they must be initiated
 
 2. Go to the "**Miners**" section in your Agent page. Click “**Add a Miner”**.
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (311).png" alt=""><figcaption></figcaption></figure></div>
+![Add miner form](../../../.gitbook/assets/image (311).png)
 
 3. Enter your miner address in the "**Add a miner to your Agent**" page.
 4. Click "**Sign transaction**".
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (315).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![Sign prompt](../../../.gitbook/assets/image (315).png)
 
 5. After clicking '**Sign transaction**,' a message will be displayed indicating how many minutes remain for this credential. You can also revoke the credential by clicking "**Revoke credential**".
 
@@ -74,11 +74,11 @@ If you do not complete the transaction and **sign the proposal with your other s
 
 6. Click **“Send”** to create a new proposal. You will be prompted to sign the transaction with your currently connected wallet.&#x20;
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (316).png" alt=""><figcaption></figcaption></figure></div>
+![Send button](../../../.gitbook/assets/image (316).png)
 
 7. Approve the transaction in your wallet.
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (317).png" alt="" width="308"><figcaption></figcaption></figure></div>
+![Approval step](../../../.gitbook/assets/image (317).png)
 
 8. Wait for the transaction to complete, which may take 1-2 minutes.&#x20;
 
@@ -88,29 +88,29 @@ Your Agent owner wallet is a multisig wallet which requires multiple signers to 
 
 1. Connect with the other signer wallets. You can find all signer wallets in the "**Required Approvals"** section on your multisig page. These should be the same wallets used in [Part II](glif-agent-website-tutorial-part-ii-create-your-agent.md).
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (323).png" alt=""><figcaption></figcaption></figure></div>
+![Agent creation](../../../.gitbook/assets/image (323).png)
 
 2. Navigate to the "**Multisig**" tab.&#x20;
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (321).png" alt="" width="375"><figcaption></figcaption></figure></div>
+![Approve proposal](../../../.gitbook/assets/image (321).png)
 
 3. The '**AddMiner**' proposal should appear in the "**Multisig proposals**" queue.
 
-<figure><img src="../../../.gitbook/assets/image (318).png" alt=""><figcaption></figcaption></figure>
+![Add miner form](../../../.gitbook/assets/image (318).png)
 
 4. **Select the Proposal** that you just created.
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (325).png" alt="" width="375"><figcaption></figcaption></figure></div>
+![Approve proposal](../../../.gitbook/assets/image (325).png)
 
 5. Click **“Approve proposal”.**
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (326).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![Proposal approval](../../../.gitbook/assets/image (326).png)
 
 6. Confirm the transaction in your wallet.&#x20;
 7. If your multisig requires approval from more than two signers, repeat the same steps using the other signer wallets. Once approved by the required number of signers, the proposal will be executed on-chain. Wait for the transaction confirmation, which may take a few minutes.
 8. Return to your Agent’s page on the GLIF website. You should now see the newly added miner associated with your Agent in the "**Miners**" section.
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (327).png" alt=""><figcaption></figcaption></figure></div>
+![Add miner form](../../../.gitbook/assets/image (327).png)
 
 ***
 

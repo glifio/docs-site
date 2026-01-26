@@ -12,17 +12,17 @@ To obtain a FilSnap wallet, you will need to:
 2. Setup MetaMask by creating a seed phrase. Ensure you securely backup your seed phrase somewhere safe.
 3. Once installed and configured, go to [https://glif.io](https://glif.io/) and click “**Connect Wallet**” in the top right corner. Select “**FilSnap (Filecoin)**” option:
 
-<div align="left"><figure><img src="https://miro.medium.com/v2/resize:fit:700/0*vPKZay4BcRW6TRBw" alt="" width="375"><figcaption></figcaption></figure></div>
+![Connect wallet](https://miro.medium.com/v2/resize:fit:700/0*vPKZay4BcRW6TRBw)
 
 4. Approve GLIF to install and connect to your FILSnap. This will come as 2 separate approvals in the MetaMask:
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (257).png" alt="" width="327"><figcaption></figcaption></figure></div>
+![MetaMask prompt](../../../../.gitbook/assets/image (257).png)
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (256).png" alt="" width="347"><figcaption></figcaption></figure></div>
+![Approval step](../../../../.gitbook/assets/image (256).png)
 
 5. After connecting, you will see your FilSnap wallet's f1 addresses from the top right corner of the GLIF website. Copy the f1 address for later use.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (149).png" alt="" width="375"><figcaption></figcaption></figure></div>
+![Copy address](../../../../.gitbook/assets/image (149).png)
 
 {% hint style="info" %}
 It is highly recommended to **disconnect and reconnect** your newly created FilSnap wallet before transferring any FIL to ensure you understand how to access it in the future, minimizing the risk of losing access to your funds.

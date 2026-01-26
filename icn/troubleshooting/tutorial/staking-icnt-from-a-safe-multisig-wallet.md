@@ -31,11 +31,11 @@ In this tutorial, you will follow these steps:
 1. Connect a wallet that is a signer on your Safe multisig wallet.
 2. From your Safe multisig interface, click "**New transaction**". Then click "**Transaction Builder".**
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure></div>
+![Connect wallet](../../.gitbook/assets/image (5).png)
 
 3. Open the Transaction Builder App in Safe.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (336).png" alt=""><figcaption></figcaption></figure></div>
+![Connect wallet](../../.gitbook/assets/image (336).png)
 
 ***
 
@@ -64,11 +64,11 @@ Please always start with a small amount as a test transaction.
 
 5. Click **“Add new transaction”**.
 
-<div align="left"><figure><img src="../../.gitbook/assets/8.jpg" alt="" width="563"><figcaption></figcaption></figure></div>
+![Approval step](../../.gitbook/assets/8.jpg)
 
 6. You should now see a **Transactions Batch** summary with the `approve` action listed on the right.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (338).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![Approval step](../../.gitbook/assets/image (338).png)
 
 ***
 
@@ -84,14 +84,14 @@ Next, you will create a transaction to deposit ICNT tokens into the GLIF staking
 
 2. The ABI will load automatically. If prompted, choose **"Use Implementation ABI"**, since this is a proxy contract.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (342).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![Tutorial step](../../.gitbook/assets/image (342).png)
 
 3. From the **Contract Method Selector**, choose `deposit`.
 4. Enter the same ICNT amount (in wei) in the **assets (uint256)** field.
 5. In the **receiver (address)** field, enter your Safe wallet address, which will be the recipient of the stICNT.
 6. Click **“Add new transaction”**.
 
-<div align="left"><figure><img src="../../.gitbook/assets/safe 5.png" alt="" width="563"><figcaption></figcaption></figure></div>
+![Tutorial step](../../.gitbook/assets/safe 5.png)
 
 ***
 
@@ -100,7 +100,7 @@ Next, you will create a transaction to deposit ICNT tokens into the GLIF staking
 1. You should now see both transactions , `approve` and `deposit` , listed in your **Transactions Batch** summary.
 2. Click **“Create Batch”**.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="552"><figcaption></figcaption></figure></div>
+![Approval step](../../.gitbook/assets/image (1) (1).png)
 
 ***
 
@@ -108,22 +108,22 @@ Next, you will create a transaction to deposit ICNT tokens into the GLIF staking
 
 1. On the **Review and Confirm** screen, click **“Send Batch”**.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (344).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![Send button](../../.gitbook/assets/image (344).png)
 
 2. In the **Balance Change** section, confirm:
 
 * &#x20;A decrease in ICNT tokens (sent from the Safe wallet)
 * An increase in staked ICNT (stICNT) (received in the Safe wallet)
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (2) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![Tutorial step](../../.gitbook/assets/image (2) (1).png)
 
 3. You can click '**Simulate**' to check whether there are any issues with this transaction.&#x20;
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (2).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![Tutorial step](../../.gitbook/assets/image (2).png)
 
 4. You should see "**Success**" after simulating it.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (4).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![Tutorial step](../../.gitbook/assets/image (4).png)
 
 ***
 
@@ -131,11 +131,11 @@ Next, you will create a transaction to deposit ICNT tokens into the GLIF staking
 
 1. Click **“Continue”** to proceed to the **Review Details** screen.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (346).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![Tutorial step](../../.gitbook/assets/image (346).png)
 
 2. When ready, click **“Sign”** to approve the transaction from your Safe wallet.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (3) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![Approve button](../../.gitbook/assets/image (3) (1).png)
 
 3. Confirm the transaction in your wallet.
 
@@ -145,7 +145,7 @@ You should always match the transaction details you see on the screen with those
 
 4. The batch is now created, pending confirmation from other signers.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (4) (1).png" alt="" width="436"><figcaption></figcaption></figure></div>
+![Approval step](../../.gitbook/assets/image (4) (1).png)
 
 ***
 
@@ -155,7 +155,7 @@ You should always match the transaction details you see on the screen with those
 2. Go to the **Transactions** tab.
 3. Find the pending batch and click **“Confirm”**.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure></div>
+![Confirm button](../../.gitbook/assets/image (5) (1).png)
 
 4. Each signer must review and confirm the transaction, just like in Step 6 with the first signer.
 
@@ -165,7 +165,7 @@ You should always match the transaction details you see on the screen with those
 
 1. Once all required signers have approved, navigate to **Transactions** and click **“Execute”**.
 
-<div align="left"><figure><img src="../../.gitbook/assets/7.jpg" alt=""><figcaption></figcaption></figure></div>
+![Approval step](../../.gitbook/assets/7.jpg)
 
 2. Confirm and review the transaction details.&#x20;
 
@@ -173,12 +173,12 @@ You should always match the transaction details you see on the screen with those
 Please confirm that the wallet that executes your Safe proposal has enough gas fees on the Base chain.
 {% endhint %}
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (7) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![Approval step](../../.gitbook/assets/image (7) (1).png)
 
 3. The transaction will now be processed on-chain.
 4. After confirmation, check your updated balances in the **Assets** tab. You should see both **ICNT** and **stICNT**.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (345).png" alt=""><figcaption></figcaption></figure></div>
+![Balance view](../../.gitbook/assets/image (345).png)
 
 ***
 

@@ -10,11 +10,11 @@ To learn more about the mechanics of withdrawals, click [here](../../../../for-l
 
 1. Visit the [GLIF website](https://www.glif.io) and click on **‘Connect Wallet’** in the top right corner.&#x20;
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (156).png" alt=""><figcaption></figcaption></figure></div>
+![GLIF connect button](../../../../.gitbook/assets/image (156).png)
 
 2. Click on the option to connect your wallet with iFIL.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (158).png" alt=""><figcaption></figcaption></figure></div>
+![Toggle button](../../../../.gitbook/assets/image (158).png)
 
 ## Step 2: Go to the "Pool" page&#x20;
 
@@ -22,7 +22,7 @@ To learn more about the mechanics of withdrawals, click [here](../../../../for-l
 2. Enter the amount of iFIL you want to redeem, and the corresponding amount of FIL to receive will be displayed. Read more about iFIL [here](../../../../for-liquidity-providers/glif-reward-mechanism-ifil.md).
 3. Click **"Approve"**.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (177).png" alt=""><figcaption></figcaption></figure></div>
+![Approve button](../../../../.gitbook/assets/image (177).png)
 
 ## Step 3 : Submit transaction 1 of 2 - approve GLIF pool to transfer
 
@@ -30,35 +30,35 @@ The GLIF smart contract needs permission to spend your iFIL Tokens to process th
 
 1. Click **"Approve".**
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (383).png" alt=""><figcaption></figcaption></figure></div>
+![Approve button](../../../../.gitbook/assets/image (383).png)
 
 2. Click "**Confirm**" - note you can approve just the amount of iFIL you want to redeem, or you can approve "**max**", and not have to do this approval transaction step for withdrawals in the future.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (384).png" alt="" width="331"><figcaption></figcaption></figure></div>
+![Withdraw button](../../../../.gitbook/assets/image (384).png)
 
 ## Step 4: Submit transaction 2 of 2 - Withdraw FIL
 
 1. After a short wait (around 1 to 2 minutes), you should see a transaction success notification appear. After the approval transaction succeeds, you can proceed with the withdrawal - click **'Withdraw'**.&#x20;
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (385).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![Withdraw button](../../../../.gitbook/assets/image (385).png)
 
 2. Click **"Confirm"** in your MetaMask.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (184).png" alt=""><figcaption></figcaption></figure></div>
+![MetaMask prompt](../../../../.gitbook/assets/image (184).png)
 
 3. After a short wait, you will see a transaction completion message in the bottom right corner. Withdrawal success!
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (185).png" alt=""><figcaption></figcaption></figure></div>
+![Transaction pending](../../../../.gitbook/assets/image (185).png)
 
 ## Step 5: Check your FIL balance
 
 After withdrawing FIL, your wallet's FIL balance will increase by the amount of FIL withdrawn. For a more detailed view of your position, click on "**Wallet"** in the GLIF navigation
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure></div>
+![Position view](../../../../.gitbook/assets/image (41).png)
 
 You will be able to see the FIL and iFIL balance in your wallet in the "**Account**" tab.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure></div>
+![Token balances](../../../../.gitbook/assets/image (43).png)
 
 ## Conclusion
 

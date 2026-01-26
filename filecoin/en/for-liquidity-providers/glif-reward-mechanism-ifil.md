@@ -68,4 +68,4 @@ LPs can check their FIL value of iFIL holdings by connecting wallet to GLIF, or 
 
 iFIL returns are shown in "_Tokens section":_
 
-<figure><img src="https://lh7-us.googleusercontent.com/docsz/AD_4nXceJhIlPoW8eiSHHp4UI9OxvJEWmm8ewUaYGqcFYvczUDH-DA5CwEcYqK3mp1aeAMzE7hZ_ZC2D3FhoyjwwpjFT4qxJlbP9TdYjKOKXZKQhtRIvMH8npmLXI8IcnE3RkMV0gZCL3p6azpC0ppONEFnuajA?key=B4TufszgVJXBgC3iG30KYw" alt=""><figcaption></figcaption></figure>
+![Token section](https://lh7-us.googleusercontent.com/docsz/AD_4nXceJhIlPoW8eiSHHp4UI9OxvJEWmm8ewUaYGqcFYvczUDH-DA5CwEcYqK3mp1aeAMzE7hZ_ZC2D3FhoyjwwpjFT4qxJlbP9TdYjKOKXZKQhtRIvMH8npmLXI8IcnE3RkMV0gZCL3p6azpC0ppONEFnuajA?key=B4TufszgVJXBgC3iG30KYw)

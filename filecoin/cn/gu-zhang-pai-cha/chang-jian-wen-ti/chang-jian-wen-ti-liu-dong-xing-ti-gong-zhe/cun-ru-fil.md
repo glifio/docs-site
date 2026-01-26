@@ -18,7 +18,7 @@ iFIL 可以被认为是存入 GLIF 的 FIL 的 「兑换券」。它允许 iFIL 
 
 iFIL 回报显示&#x5728;_「代币」_&#x90E8;分中：
 
-<figure><img src="../../../.gitbook/assets/image (348).png" alt=""><figcaption></figcaption></figure>
+![我在哪里可以看到我在 GLIF](../../../.gitbook/assets/image (348).png)
 
 ## 我在 GLIF 中的收益来自哪里？
 

@@ -35,7 +35,7 @@ The maximum withdrawal amount is displayed here and depends on your DTL. See [do
 
 3. Click “**Withdraw**.”
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (249).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![Withdraw button](../../../.gitbook/assets/image (249).png)
 
 4. Review the details and click “**Sign Transaction**.”
 
@@ -43,15 +43,15 @@ The maximum withdrawal amount is displayed here and depends on your DTL. See [do
 Credentials are valid for only 5 minutes. If you see the error "_AgentPolice: Invalid Credential_", it means the credentials have expired, so please start over.
 {% endhint %}
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (243).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![Withdrawal step](../../../.gitbook/assets/image (243).png)
 
 5. Click “**Send**” and approve the transaction in your wallet.
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (244).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![Approve button](../../../.gitbook/assets/image (244).png)
 
 6. Wait for the transaction to complete. A "**Withdraw**" proposal will appear in the "**Agent Owner Proposals**" section.
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (245).png" alt=""><figcaption></figcaption></figure></div>
+![Transaction pending](../../../.gitbook/assets/image (245).png)
 
 ## Step 2: Approve the Proposal
 
@@ -59,7 +59,7 @@ Credentials are valid for only 5 minutes. If you see the error "_AgentPolice: In
 2. Navigate to the "**Agent Owner Proposals"** section and find the "**Withdraw**" proposal.
 3. Click “**Approve Proposal**”
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (246).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![Proposal approval](../../../.gitbook/assets/image (246).png)
 
 4. Confirm the transaction in your wallet.
 5. Wait for the transaction to complete (1–2 minutes). The FIL will be sent to the recipient wallet.

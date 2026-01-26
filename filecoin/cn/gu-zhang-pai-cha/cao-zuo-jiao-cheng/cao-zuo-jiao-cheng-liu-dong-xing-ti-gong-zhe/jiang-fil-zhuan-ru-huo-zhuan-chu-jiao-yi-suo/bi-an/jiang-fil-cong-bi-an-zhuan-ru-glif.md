@@ -16,18 +16,18 @@ GLIF 与大多数 EVM 钱包兼容。本教程以 MetaMask 钱包为示例，其
 连接钱包后，GLIF 网站左上角将显示“0x” 和 “f410” 地址。如果您的钱包是 “f1” 地址，也会在此处显示。\
 如需详细了解如何将钱包连接到 Filecoin 主网，请[查看此教程](../../qian-bao/ru-he-jiang-qian-bao-lian-jie-dao-filecoin-zhu-wang.md)。
 
-<div align="left"><figure><img src="../../../../../.gitbook/assets/image (221).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![步骤 1：将您的钱包连接至 G](../../../../../.gitbook/assets/image (221).png)
 
 ## 步骤 2：将 Filecoin 发送到 0x 地址钱包
 
 1. 前往您所使用的中心化交易所（币安），在资产列表中找到 FIL。点击 “**提现**”。
 
-<div align="left"><figure><img src="../../../../../.gitbook/assets/image (225).png" alt="" width="364"><figcaption></figcaption></figure></div>
+![步骤 2：将 Filecoin](../../../../../.gitbook/assets/image (225).png)
 
 2. 将网络选择为 “Filecoin”。
 3. 准确输入您的 “0x”/ “f410”/“f1” 钱包地址，并指定您要发送的数量。
 
-<div align="left"><figure><img src="../../../../../.gitbook/assets/image (226).png" alt="" width="348"><figcaption></figcaption></figure></div>
+![步骤 2：将 Filecoin](../../../../../.gitbook/assets/image (226).png)
 
 {% hint style="info" %}
 如果这是您第一次操作，最好先尝试发送少量资金，以防出现任何差错。
@@ -38,9 +38,9 @@ GLIF 与大多数 EVM 钱包兼容。本教程以 MetaMask 钱包为示例，其
 1. 交易完成后，您可以在 GLIF 网站上点击 “钱包” 来查看余额。
 2. 在 “Account” 标签下检查您的 FIL 余额，并在 “Transaction” 标签下查看交易详情。
 
-<div align="left"><figure><img src="../../../../../.gitbook/assets/image (222).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![步骤 3：查看钱包中的 FIL](../../../../../.gitbook/assets/image (222).png)
 
-<figure><img src="../../../../../.gitbook/assets/image (223).png" alt=""><figcaption></figcaption></figure>
+![步骤 3：查看钱包中的 FIL](../../../../../.gitbook/assets/image (223).png)
 
 ## 步骤 4：在GLIF 存入您的 Filecoin
 

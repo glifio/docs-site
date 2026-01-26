@@ -26,7 +26,7 @@
 
 在“**Filecoin 余额**”区域，点击 FIL 余额旁的“**…**”图标，并从下拉菜单中选择“**存入池**”。
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (312).png" alt=""><figcaption></figcaption></figure></div>
+![第二步：从多签钱包中存入 FI](ru-he-shi-yong-duo-qian-q...](../../../../.gitbook/assets/image (312).png)
 
 3\. 输入存款详情
 
@@ -36,22 +36,22 @@
 请注意：FIL 与 iFIL 可能不会是 1:1 比例，具体细节请参考[文档中关于 iFIL 计算](../../../../liu-dong-xing-ti-gong-zhe/glif-jiang-li-ji-zhi-ifil.md)的说明。
 {% endhint %}
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (313).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![第二步：从多签钱包中存入 FI](ru-he-shi-yong-duo-qian-q...](../../../../.gitbook/assets/image (313).png)
 
 4\. 创建多签钱包提案
 
 系统会在您所连接的钱包中弹出确认提示。您需要在钱包中确认该交易以创建提案。
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (316).png" alt="" width="375"><figcaption></figcaption></figure></div>
+![第二步：从多签钱包中存入 FI](ru-he-shi-yong-duo-qian-q...](../../../../.gitbook/assets/image (316).png)
 
 \
 随后，关于向 GLIF 存入 FIL 的交易提案就会生成，需要达到设定的签名人数才能执行。如果要查看或取消提案，请在“多重签名钱包提案”中找到该提案并点击查看。
 
-<figure><img src="../../../../.gitbook/assets/image (318).png" alt=""><figcaption></figcaption></figure>
+![第二步：从多签钱包中存入 FI](ru-he-shi-yong-duo-qian-q...](../../../../.gitbook/assets/image (318).png)
 
 在提案详情中，您可以看到已经完成多少签名，如需取消该提案，可点击“**取消提案**”。
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (320).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![第二步：从多签钱包中存入 FI](ru-he-shi-yong-duo-qian-q...](../../../../.gitbook/assets/image (320).png)
 
 ***
 
@@ -67,7 +67,7 @@
 每个签名人的钱包里都需要少量 FIL（最低 0.001 FIL 即可）来支付 Gas 费用。
 {% endhint %}
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (321).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![第三步：批准多签钱包提案](ru-he-shi-yong-duo-qian-q...](../../../../.gitbook/assets/image (321).png)
 
 2\. 完成存款流程
 
@@ -75,11 +75,11 @@
 
 您可以在多签页面底部的“**交易**”区域查看交易详情。
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (322).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![第三步：批准多签钱包提案](ru-he-shi-yong-duo-qian-q...](../../../../.gitbook/assets/image (322).png)
 
 交易完成后，您的 FIL 将成功存入池中，并会收到相应的 iFIL 代币。您可以在“代币”栏目查看更新后的余额。
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (323).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![第三步：批准多签钱包提案](ru-he-shi-yong-duo-qian-q...](../../../../.gitbook/assets/image (323).png)
 
 恭喜您！您已经成功使用 GLIF 多签钱包将 FIL 存入池中。
 

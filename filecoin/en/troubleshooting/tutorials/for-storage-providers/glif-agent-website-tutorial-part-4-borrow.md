@@ -28,7 +28,7 @@ Before borrowing from GLIF, you must provide collateral to your Agent. There are
 
 If you would like to send FIL directly to your agent, copy your Agent address (f410/0x) from the Agent page. Send FIL to this address from your wallet. Use the “**Send FIL**” option in the top-right dropdown menu. It works like sending FIL to any other wallet.
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (213).png" alt=""><figcaption></figcaption></figure></div>
+![Copy address](../../../.gitbook/assets/image (213).png)
 
 #### 2. Available Balance in a Miner Added to the Agent
 
@@ -54,21 +54,21 @@ See the [docs](../../../for-storage-providers/borrowing-limits-and-dtl.md) here 
 5. Review the APR, new debt amount, daily interest, and updated DTL ratio.
 6. Click "**Borrow**."
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (224).png" alt="" width="375"><figcaption></figcaption></figure></div>
+![Borrow button](../../../.gitbook/assets/image (224).png)
 
 7. Confirm details and click “**Sign Transaction".** A multisig proposal will be created.
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (217).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![Transaction confirmation](../../../.gitbook/assets/image (217).png)
 
 {% hint style="danger" %}
 Credentials are valid for only 5 minutes. If you see this error, it means the credentials have expired, so please start over.
 {% endhint %}
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (212).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![Borrow step](../../../.gitbook/assets/image (212).png)
 
 8. Click “**Send**” and approve the transaction in your wallet.
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (218).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![Approve button](../../../.gitbook/assets/image (218).png)
 
 9. Wait for the transaction to complete. A new proposal will appear in the Agent owner proposals section.
 
@@ -76,7 +76,7 @@ Credentials are valid for only 5 minutes. If you see this error, it means the cr
 Minimum borrow amount is 1 FIL. If you see this error, please check if your borrowing amount is too low.
 {% endhint %}
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (211).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![Borrow form](../../../.gitbook/assets/image (211).png)
 
 ***
 
@@ -85,20 +85,20 @@ Minimum borrow amount is 1 FIL. If you see this error, please check if your borr
 1. Connect to another signer wallet from your Agent’s owner multisig wallet.
 2. Go to the Agent page and locate the proposal in the "**Agent Owner Proposals**" section.
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (221).png" alt=""><figcaption></figcaption></figure></div>
+![Approve proposal](../../../.gitbook/assets/image (221).png)
 
 3. Click “**Approve Proposal**”.
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (219).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![Proposal approval](../../../.gitbook/assets/image (219).png)
 
 4. Confirm the transaction in your wallet.
 5. Wait for completion (may take a few minutes). The Agent’s available balance will update once approved.
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (223).png" alt="" width="375"><figcaption></figcaption></figure></div>
+![Approve proposal](../../../.gitbook/assets/image (223).png)
 
 6. You can also check the new DTL and total debt on the Agent page's dashboard.
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (222).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![Approve proposal](../../../.gitbook/assets/image (222).png)
 
 ***
 

@@ -4,7 +4,7 @@ description: 建立在 $GLF 代币之上的会员奖励计划
 
 # 存储提供商会员卡
 
-<div align="left"><figure><img src="../.gitbook/assets/image (407).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![存储提供商会员卡](../.gitbook/assets/image (407).png)
 
 GLIF+ 会员卡让 $GLF 持有者能够在使用 GLIF 时获得更多权益。对于存储提供商而言，持有 GLIF+ 会员卡代表着更高的借贷额度，以及支付利息时享受返现。立即铸造你的会员卡，激活等级并完成充值，就能提升借贷额度，并在每笔利息支付中开始兑换返现。如果你是 Filecoin 存储提供商，现在就加入计划，让你的 $GLF 发挥更大价值！
 

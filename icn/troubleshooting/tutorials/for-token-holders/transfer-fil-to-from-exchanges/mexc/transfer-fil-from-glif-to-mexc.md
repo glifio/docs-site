@@ -26,7 +26,7 @@ You can refer to our [FAQ](../../../../faq/faq-for-liquidity-providers/wallet-co
 2. To transfer your iFIL from the GLIF pool to FIL, follow the[ step-by-step guide](../../using-the-pool/withdraw-fil-from-glif.md) in this tutorial.
 3. After withdrawn FIL, you will receive FIL in your main wallet. Click on "**Wallet"** tab in the GLIF navigation, and you will be able to see the FIL and iFIL balance in the "**Account**" section.
 
-<div align="left"><figure><img src="../../../../../.gitbook/assets/image (273).png" alt=""><figcaption></figcaption></figure></div>
+![Token balances](../../../../../.gitbook/assets/image (273).png)
 
 ## Step 2: Set up an intermediary wallet (optional)
 
@@ -42,7 +42,7 @@ You can refer to our [FAQ](../../../../faq/faq-for-liquidity-providers/wallet-co
 
 Once done, your intermediary wallet’s address, starting with ‘**f1**’, will be visible in the top right dropdown. Copy this address.
 
-<div align="left"><figure><img src="../../../../../.gitbook/assets/image (39).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![Copy address](../../../../../.gitbook/assets/image (39).png)
 
 ## Step 3: Send FIL from 0x/f410 address (main wallet) to f1 address (Intermediary wallet)
 
@@ -53,13 +53,13 @@ Once done, your intermediary wallet’s address, starting with ‘**f1**’, wil
 Do not use the MetaMask browser extension wallet to send FIL in this step. Otherwise, your MetaMask may be connected to the Ethereum mainnet instead of the Filecoin mainnet.
 {% endhint %}
 
-<div align="left"><figure><img src="../../../../../.gitbook/assets/image (151).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![MetaMask prompt](../../../../../.gitbook/assets/image (151).png)
 
 3. In the "**Forward FIL**" page, paste your **intermediary wallet's f1 address** in the recipient field. This is the wallet created in [Step 2](transfer-fil-from-glif-to-mexc.md#step-2-set-up-an-intermediary-wallet-optional).
 4. Enter the amount of FIL you wish to transfer (start with a small test amount)
 5. Click "**Send**"
 
-<div align="left"><figure><img src="../../../../../.gitbook/assets/image (41).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![Send button](../../../../../.gitbook/assets/image (41).png)
 
 {% hint style="info" %}
 Please ensure you have sufficient FIL for gas fees; 0.001 FIL is usually more than enough.
@@ -73,7 +73,7 @@ Please ensure you have sufficient FIL for gas fees; 0.001 FIL is usually more th
 1. Go to your centralized exchange, MEXC, and locate FIL in your portfolio. Click "**Deposit**."
 2. Copy the "**f1**" address provided.
 
-<div align="left"><figure><img src="../../../../../.gitbook/assets/image (42).png" alt="" width="289"><figcaption></figcaption></figure></div>
+![Copy address](../../../../../.gitbook/assets/image (42).png)
 
 {% hint style="danger" %}
 **WARNING**: Before transferring a large amount of funds to an exchange, send a small amount as a test transaction first.
@@ -84,13 +84,13 @@ Please ensure you have sufficient FIL for gas fees; 0.001 FIL is usually more th
 1. Connect to the intermediary wallet or your main wallet which address starting with "<mark style="background-color:orange;">f1</mark>".&#x20;
 2. In the top right corner of the GLIF website, click "**Send FIL**."&#x20;
 
-<div align="left"><figure><img src="../../../../../.gitbook/assets/image (158).png" alt="" width="375"><figcaption></figcaption></figure></div>
+![Send button](../../../../../.gitbook/assets/image (158).png)
 
 3. Paste your exchange address copied in [step 4.](transfer-fil-from-glif-to-mexc.md#step-4-locate-your-recipient-address-in-the-exchange)&#x20;
 4. Enter the desired amount of FIL to transfer.
 5. Click **"Send"** and confirm the transaction in your wallet.
 
-<div align="left"><figure><img src="../../../../../.gitbook/assets/image (159).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![Wallet confirmation](../../../../../.gitbook/assets/image (159).png)
 
 6. After the transaction is completed, you can check the balance in your exchange.
 

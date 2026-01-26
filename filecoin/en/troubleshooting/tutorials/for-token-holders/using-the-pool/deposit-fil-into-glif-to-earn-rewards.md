@@ -16,11 +16,11 @@ No matter which wallet you use, always make sure to back up your secret recovery
 
 1. Visit the [GLIF website](https://www.glif.io) and click on **‘Connect Wallet’** in the top right corner.&#x20;
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (156).png" alt=""><figcaption></figcaption></figure></div>
+![GLIF connect button](../../../../.gitbook/assets/image (156).png)
 
 2. Select the wallet you wish to connect with that is funded with FIL.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (158).png" alt=""><figcaption></figcaption></figure></div>
+![Wallet selection](../../../../.gitbook/assets/image (158).png)
 
 ## Step 2.5: Add the Filecoin network to your wallet (chrome extensions only)
 
@@ -33,15 +33,15 @@ For detailed instructions on add the Filecoin Mainnet to your wallet, check out 
 1. After connecting your wallet to [GLIF](https://www.glif.io/), your Filecoin balance will appear in the GLIF interface.
 2. Click **"Deposit Filecoin"** in the main page, or go to the **"Pool"** page.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (171).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![Deposit page](../../../../.gitbook/assets/image (171).png)
 
 3. Enter the amount you wish to deposit, and click **‘Deposit’**.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (173).png" alt=""><figcaption></figcaption></figure></div>
+![Amount input](../../../../.gitbook/assets/image (173).png)
 
 4. Then hit **"Send"**.&#x20;
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (382).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![Send confirmation](../../../../.gitbook/assets/image (382).png)
 
 {% hint style="warning" %}
 Please make sure that you leave enough FIL in the wallet to cover gas fees. &#x20;
@@ -49,7 +49,7 @@ Please make sure that you leave enough FIL in the wallet to cover gas fees. &#x2
 
 5. Click **"Confirm"** in your wallet.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (176).png" alt=""><figcaption></figcaption></figure></div>
+![Wallet confirmation](../../../../.gitbook/assets/image (176).png)
 
 ## Step 4: Check your iFIL balance
 
@@ -61,17 +61,17 @@ For more information on iFIL, check out our [docs](https://docs.glif.io/for-liqu
 
 For a more detailed view of your position, click on "**Wallet"** in the GLIF navigation, and you will be able to see the FIL and iFIL associated with your wallet address in the "**Token"** section.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure></div>
+![Position view](../../../../.gitbook/assets/image (38).png)
 
 ## Step 5: Add iFIL to your wallet portfolio (chrome extensions only)
 
 1. If you want to see your iFIL in MetaMask,  you can add the token address to your wallet easily. In **"Token"** section, find the **"..."** sign next to iFIL tokens, and click on "**Add iFIL to MetaMask".**&#x20;
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (175).png" alt=""><figcaption></figcaption></figure></div>
+![Add token dialog](../../../../.gitbook/assets/image (175).png)
 
 2. Click **"Add token"** in MetaMask.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (209).png" alt="" width="352"><figcaption></figcaption></figure></div>
+![Add token dialog](../../../../.gitbook/assets/image (209).png)
 
 ## Conclusion
 
