@@ -177,7 +177,3 @@ Congrats! You’ve successfully claimed your $GLF tokens as an early GLIF commun
 Feel free to join our[ Discord](https://discord.gg/5qsJjsP3Re) and[ Telegram](https://t.me/+iFJuXAMp-Xg5NGIx) or follow us on[ X](https://twitter.com/glifio) for the latest updates.
 
 If you encounter any difficulties, please feel free to contact us through our[ Discord support ticket](https://discord.gg/5qsJjsP3Re). Beware of scammers who may ask you to open a ticket elsewhere or contact you directly. The only official GLIF team members have the role "GLIF" or "Moderator." Stay safe!
-
-<br>
-
-<br>

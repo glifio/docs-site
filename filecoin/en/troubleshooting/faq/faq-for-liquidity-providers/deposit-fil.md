@@ -29,4 +29,3 @@ The GLIF Treasury retains 10% of the pool’s total earnings. These funds are us
 ## **How is LP (Liquidity Provider) charged?**
 
 There are no charges for LPs.
-

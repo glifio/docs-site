@@ -65,4 +65,4 @@ When an Agent wants to take an action like borrowing funds from a pool, it must 
 
 The current default quota is 500,000 FIL for all agents. You can request a quota increase by opening a support ticket in our [Discord](https://discord.gg/5qsJjsP3Re) server (#support-ticket). This mechanism ensures that the team can communicate important upgrades or information to SPs.
 
-For security purposes, the Level 2 Agent's quota is set to 0. This allows us to quickly disable borrowing capabilities for an agent if necessary. This mechanism does not affect most agents.<br>
+For security purposes, the Level 2 Agent's quota is set to 0. This allows us to quickly disable borrowing capabilities for an agent if necessary. This mechanism does not affect most agents.

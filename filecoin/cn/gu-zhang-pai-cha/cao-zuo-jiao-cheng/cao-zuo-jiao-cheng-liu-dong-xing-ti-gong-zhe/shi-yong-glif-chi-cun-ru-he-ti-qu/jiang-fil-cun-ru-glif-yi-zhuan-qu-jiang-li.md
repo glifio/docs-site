@@ -24,11 +24,11 @@
 
 ## 步骤 2.5：将 Filecoin 网络添加到您的钱包（仅限 Chrome 扩展）
 
-如果您选择了 Chrome 插件钱包（如 MetaMask），并且这是您第一次使用，您的钱包可能会提示添加 Filecoin 网络。 
+如果您选择了 Chrome 插件钱包（如 MetaMask），并且这是您第一次使用，您的钱包可能会提示添加 Filecoin 网络。
 
 有关向钱包添加 Filecoin 主网的详细说明，请参阅[此教程](../qian-bao/ru-he-jiang-qian-bao-lian-jie-dao-filecoin-zhu-wang.md)。
 
-## 步骤 3：在 GLIF 上存入您的 Filecoin 
+## 步骤 3：在 GLIF 上存入您的 Filecoin
 
 1. 将钱包连接到 GLIF 后，您的 Filecoin 余额会显示在 GLIF 界面中。
 2. 点击主页上的“**存入**”，或前往“**池**”页面。
@@ -53,12 +53,12 @@
 
 ![步骤 3：在 GLIF 上存入](../../../../.gitbook/assets/image (67).png)
 
-## 步骤 4：查看您的 iFIL 余额 
+## 步骤 4：查看您的 iFIL 余额
 
-存入 FIL 后，您将在一两分钟内收到 iFIL。iFIL 的 FIL 价值代表您的初始存款加上已获得的收益。 
+存入 FIL 后，您将在一两分钟内收到 iFIL。iFIL 的 FIL 价值代表您的初始存款加上已获得的收益。
 
 {% hint style="info" %}
-如需了解 iFIL 的更多信息，请在[此处](../../../../liu-dong-xing-ti-gong-zhe/glif-jiang-li-ji-zhi-ifil.md)查看文档。 
+如需了解 iFIL 的更多信息，请在[此处](../../../../liu-dong-xing-ti-gong-zhe/glif-jiang-li-ji-zhi-ifil.md)查看文档。
 {% endhint %}
 
 如果您想查看更详细的持仓信息，可以点击 GLIF 左上方中的“**钱包**”，在“**代币**”部分查看钱包的 FIL 和 iFIL。
@@ -75,7 +75,7 @@
 
 ![MetaMask prompt](../../../../.gitbook/assets/image (70).png)
 
-## 结论 
+## 结论
 
 恭喜您成功将 FIL 存入 GLIF！ 当您准备提取存款时，需要将 iFIL 返还给 GLIF 才能拿回您的 FIL。
 

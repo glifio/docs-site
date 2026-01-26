@@ -10,8 +10,7 @@
 
 1. 访问 GLIF 网站并点击右上角的 “连接 钱包”。
 
-![步骤 1：连接钱包到 GLIF](<../../../../.gitbook/assets/image (76).png>)<br>
-
+![步骤 1：连接钱包到 GLIF](<../../../../.gitbook/assets/image (76).png>)
 2. 选择您想要连接且已拥有 FIL 的钱包。
 
 ![步骤 1：连接钱包到 GLIF](../../../../.gitbook/assets/image (77).png)
@@ -59,7 +58,7 @@ GLIF 智能合约需要获得权限，才能使用您的 iFIL 代币来处理提
 
 ## 结论
 
-恭喜您成功从 GLIF 提取了 FIL！ 
+恭喜您成功从 GLIF 提取了 FIL！
 
 ## **加入我们的社区！**
 

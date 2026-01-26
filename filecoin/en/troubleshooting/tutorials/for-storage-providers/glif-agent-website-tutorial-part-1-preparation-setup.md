@@ -19,14 +19,14 @@ You can find all the tutorials about using Agents on the **GLIF website** on thi
 You can find the instructions about the Agent's command on the **GLIF Command Line Interface** on this [page](https://github.com/glifio/glif?tab=readme-ov-file#agents---get-started-borrowing).
 {% endhint %}
 
-## GLIF Agents — The Basics <a href="#id-5c66" id="id-5c66"></a>
+## GLIF Agents — The Basics
 
 1. **Agent —** An Agent is a smart contract that borrows FIL from GLIF. You will deploy, own, and operate your Agent smart contract yourself (covered in [Part II](glif-agent-website-tutorial-part-2-create-your-agent.md) of the tutorial). In order to borrow FIL, your Agent needs collateral, which it gets by taking ownership of your Filecoin miner(s). A more detailed description of Agents can be found [here](../../../for-storage-providers/manage-miner-actors-with-agents.md).
 2. **Agent owner** **wallet** — The Agent’s owner wallet is the wallet that controls your Agent. Whoever is in control of your Agent’s owner wallet can operate your Agent. It is very important to keep the Agent’s owner wallet secure, which GLIF will help you do automatically.
 
 When creating an Agent on the GLIF website, your Agent owner wallet will be a Filecoin multisig wallet with at least 2 signers, though 3 signers are recommended. This is the most secure type of wallet you can use to own your Agent.
 
-### Multisig wallets <a href="#id-8184" id="id-8184"></a>
+### Multisig wallets
 
 A **multisig wallet** is a smart contract wallet with multiple signing parties (“signers”) attached to it. Multisigs enforce a minimum number of signers to approve a specific proposal before executing the transaction. Multisig wallets have a proposal/approval flow where:
 
@@ -34,7 +34,7 @@ A **multisig wallet** is a smart contract wallet with multiple signing parties (
 * The other multisig signers must approve the proposal
 * Once the minimum number of signatures have approved the proposal, the transaction executes
 
-### **GLIF Agent Multisig Owner Wallet Configuration** <a href="#id-14c4" id="id-14c4"></a>
+### **GLIF Agent Multisig Owner Wallet Configuration**
 
 Multisig wallets on Filecoin are generally very flexible in their configuration, however, GLIF recommends a specific, more secure configuration with 3 signers:
 
@@ -54,7 +54,7 @@ If you lose any of your signer keys (either Ledger devices or the Filecoin Snap 
 
 ![GLIF Agent Multisig Owner](../../../.gitbook/assets/image (282).png)
 
-## Prepare to Create an Agent <a href="#id-9750" id="id-9750"></a>
+## Prepare to Create an Agent
 
 In order to prepare for Agent creation, you’ll need 3 addresses:
 
@@ -70,7 +70,7 @@ For added security, it’s recommended that you use two separate Ledger devices,
 If you do not want to use your Ledger, you can set up another FilSnap address or burner wallet address as your second or third address. It could work, but using a Ledger is recommended to enhance security.
 {% endhint %}
 
-## Next steps <a href="#id-3bb8" id="id-3bb8"></a>
+## Next steps
 
 Once you have 3 Filecoin wallet addresses:
 

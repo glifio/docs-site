@@ -31,5 +31,3 @@ Managing Storage Provider liquidations is currently manually enforced by the cor
 {% hint style="info" %}
 If an SP's DTL ratio goes above the limit, it is not immediately in danger of liquidation. However, the SP is eligible for administration. If an SP's DTL goes above 92%, it is in danger of liquidation. It is highly recommended to contact the GLIF team immediately if any SP's DTL ratio exceeds the limit.
 {% endhint %}
-
-<br>

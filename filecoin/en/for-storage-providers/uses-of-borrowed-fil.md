@@ -42,5 +42,3 @@ Regardless of if an SP chooses to use borrowed FIL for storage mining or withdra
 ## Key takeaway:&#x20;
 
 When Storage Providers use borrowed FIL from GLIF for storage mining rather than withdrawing out of the system, they can get higher leverage.
-
-<br>

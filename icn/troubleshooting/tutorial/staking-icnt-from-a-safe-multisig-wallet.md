@@ -182,11 +182,11 @@ Please confirm that the wallet that executes your Safe proposal has enough gas f
 
 ***
 
-## **Conclusion** <a href="#conclusion" id="conclusion"></a>
+## **Conclusion**
 
 By following this step-by-step guide, you can successfully deposit your ICNT from a Safe multisig wallet into the GLIF staking pool and start earning rewards! Remember to always double-check addresses and transaction details to ensure the accuracy and security of your funds.
 
-## Join our community! <a href="#join-our-community" id="join-our-community"></a>
+## Join our community!
 
 Feel free to join our [Discord](https://discord.gg/5qsJjsP3Re) and [Telegram](https://t.me/+iFJuXAMp-Xg5NGIx) or follow us on[ X](https://twitter.com/glifio) for the latest updates.
 

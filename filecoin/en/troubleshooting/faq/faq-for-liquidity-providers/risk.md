@@ -17,5 +17,3 @@ GLIF constantly monitors the [liquidation value](../../../for-storage-providers/
 Yes - market fluctuations do not impact your FIL on GLIF.
 
 Market fluctuations generally refer to price volatility within capital markets - for instance, if the price of FIL suddenly jumps in USD terms. GLIF earns FIL-on-FIL rewards for LPs, so the price of FIL relative to other crypto assets is irrelevant in the context of GLIF.&#x20;
-
-<br>

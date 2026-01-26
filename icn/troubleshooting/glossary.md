@@ -50,5 +50,3 @@ $$
 * **Storage Providers (SPs):** Storage Providers (SPs) are individuals or organizations operating one or more ICN miner. Refer [here](/broken/pages/WwbZq6KV6kgCNmS3fivj) for details of what they can do with GLIF.
 * **Termination Fee:** The amount of ICNT that would be lost in a liquidation scenario.
 *   **Withdrawal:** Storage Providers can withdraw ICNT to fund fiat denominated expenses like gas, payroll, rent. When an SP borrows ICNT for withdrawing outside of GLIF, it becomes restricted by DTL faster because borrowed ICNT is _not_ included in the SP's liquidation value. Refer [here](/broken/pages/t4EZeWn7aDAymxcGErfx) for details.
-
-    <br>

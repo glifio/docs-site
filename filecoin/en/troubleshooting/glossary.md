@@ -46,5 +46,3 @@ $$
 * **Storage Providers (SPs):** Storage Providers (SPs) are individuals or organizations operating one or more [Filecoin Miner Actors](https://spec.filecoin.io/systems/filecoin_mining/storage_mining/) (“Miner”). Refer [here](../introduction/protocol-users.md) for details of what they can do with GLIF.
 * **Termination Fee:** The amount of FIL that would be lost in a liquidation scenario.
 *   **Withdrawal:** Storage Providers can withdraw FIL to fund fiat denominated expenses like gas, payroll, rent. When an SP borrows FIL for withdrawing outside of GLIF, it becomes restricted by DTL faster because borrowed FIL is _not_ included in the SP's liquidation value. Refer [here](../for-storage-providers/uses-of-borrowed-fil.md) for details.
-
-    <br>

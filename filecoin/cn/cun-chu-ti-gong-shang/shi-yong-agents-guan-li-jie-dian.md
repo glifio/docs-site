@@ -19,8 +19,7 @@ Agents 是 FEVM 上的智能合约，允许存储提供商 (SP) 抵押 Filecoin 
 
 ## 向 Agents 添加抵押品
 
-Agents 可以在添加抵押品后借款。您可以通过向 Agents 智能合约发送 FIL 或质押一个或多个 Filecoin Miner Actor 来添加抵押品。有关向 Agents 添加抵押品的深入教程将很快发布。<br>
-
+Agents 可以在添加抵押品后借款。您可以通过向 Agents 智能合约发送 FIL 或质押一个或多个 Filecoin Miner Actor 来添加抵押品。有关向 Agents 添加抵押品的深入教程将很快发布。
 {% hint style="info" %}
 要将 Filecoin Miner Actor 质押给 GLIF Agents 智能合约，存储提供商必须将其 Filecoin Miner Actor 的拥有权 (Ownership) 分配给其 GLIF Agents 智能合约的地址
 {% endhint %}
@@ -65,4 +64,3 @@ FVM 运行时并没有提供很多 SP 的完整历史数据。即使提供了，
 目前所有Agent 的默认配额为 500,000 FIL。如需提高配额，可以在我们的 [Discord 服务器](https://discord.gg/5qsJjsP3Re)中提交支持工单 (#support-ticket)。该机制确保团队能够与存储提供商(SP)沟通重要的升级或信息。
 
 出于安全考虑，Level 2 Agent 的配额被设置为 0。这样可以在必要时快速禁用某个 Agent 的借贷功能。大多数 Agent 并不会受该机制影响。\
-<br>

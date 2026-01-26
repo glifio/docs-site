@@ -41,4 +41,4 @@ $$
 
 * **存储提供商 (Storage Provider)**：存储提供商 (SP) 是运营一个或多个 [Filecoin Miner Actor ](https://spec.filecoin.io/systems/filecoin_mining/storage_mining/)的个人或组织。有关他们如可使用 GLIF 的详细信息，请参阅[此处](../jie-shao/xie-yi-mu-biao-yong-hu.md)。
 * **终止费用 (Termination Fee)**：当存储提供商 (SP) 被清算时，需要支付一定数量的 FIL 作为终止罚金
-* **提款 (Withdrawal)**：存储提供商可以提取 FIL，来为以法定货币计价的开支提供资金，如 gas、工资、租金。当 SP 借入 FIL 再提取到 GLIF 之外时，由于借入的 FIL _不包括_ 在 SP 的清算价值中，因此会更快地达到债务对清算价值比 (DTL) 的上限。有关详细信息，请参阅[此处](../cun-chu-ti-gong-shang/jie-ru-fil-yong-tu.md)。<br>
+* **提款 (Withdrawal)**：存储提供商可以提取 FIL，来为以法定货币计价的开支提供资金，如 gas、工资、租金。当 SP 借入 FIL 再提取到 GLIF 之外时，由于借入的 FIL _不包括_ 在 SP 的清算价值中，因此会更快地达到债务对清算价值比 (DTL) 的上限。有关详细信息，请参阅[此处](../cun-chu-ti-gong-shang/jie-ru-fil-yong-tu.md)。

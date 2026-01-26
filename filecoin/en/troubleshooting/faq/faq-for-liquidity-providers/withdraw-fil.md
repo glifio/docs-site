@@ -20,5 +20,3 @@ The pool maintains 10% of its assets as a reserve to facilitate withdrawals for 
 ## Which exchange can support the transfer of FIL from GLIF?
 
 For information on which exchanges currently support FEVM, please check the latest information [here](https://filecointldr.io/how-to-buy-filecoin).
-
-<br>

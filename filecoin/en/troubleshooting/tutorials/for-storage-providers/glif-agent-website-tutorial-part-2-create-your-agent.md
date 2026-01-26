@@ -8,14 +8,14 @@ _If you don’t yet understand the basics of GLIF Agents and the preparation ste
 
 ***
 
-## Agents, Agent Owners, and Login Keys <a href="#def4" id="def4"></a>
+## Agents, Agent Owners, and Login Keys
 
 Before creating your Agent on the website, it’s important to understand 2 “roles” within GLIF. As a brief refresher:
 
 1. **Agent —** An Agent is a smart contract that borrows FIL from GLIF. You will deploy, own, and operate your Agent smart contract yourself (covered in [Part 2](glif-agent-website-tutorial-part-2-create-your-agent.md) of the tutorial). In order to borrow FIL, your Agent needs collateral, which it gets by taking ownership of your Filecoin miner(s). A more detailed description of Agents can be found [here](../../../for-storage-providers/manage-miner-actors-with-agents.md).
 2. **Agent owner** **wallet** — The Agent’s owner wallet is the wallet that controls your Agent. Whoever is in control of your Agent’s owner wallet can operate your Agent. It is very important to keep the Agent’s owner wallet secure, which GLIF will help you do automatically.
 
-## Agent Creation Wizard <a href="#id-7537" id="id-7537"></a>
+## Agent Creation Wizard
 
 In this tutorial, you will:
 
@@ -24,7 +24,7 @@ In this tutorial, you will:
 
 The Agent Creation Wizard on the GLIF website will walk you through these steps. Read on for a guided walkthrough.
 
-## Create your Agent on the website <a href="#ccc3" id="ccc3"></a>
+## Create your Agent on the website
 
 **Step 1 —** go to [https://glif.io/agent](https://glif.io/agent) and click the “**Create new agent**” button on the left hand panel:
 
@@ -92,7 +92,7 @@ Once you click the “Create Agent” button, you must approve the transaction i
 
 ![Agent creation](../../../.gitbook/assets/image (11).png)
 
-## Important Agent Information <a href="#b829" id="b829"></a>
+## Important Agent Information
 
 A couple pieces of important information to note after creating your Agent:
 
@@ -102,7 +102,7 @@ A couple pieces of important information to note after creating your Agent:
 4. **Agent Owner** — The Agent Owner is the multisig wallet that owns your Agent smart contract, which we created at the beginning of this tutorial.
 5. **Agent Operator** — the Agent Operator, to change this address, please refer to [Part 9 ](glif-agent-website-tutorial-part-9-change-operator-address.md)of this tutorial.
 
-## Next Steps <a href="#efe6" id="efe6"></a>
+## Next Steps
 
 Congratulations! You just created your GLIF Agent. To recap, in [Part 2](glif-agent-website-tutorial-part-2-create-your-agent.md) of this tutorial, you should have:
 
