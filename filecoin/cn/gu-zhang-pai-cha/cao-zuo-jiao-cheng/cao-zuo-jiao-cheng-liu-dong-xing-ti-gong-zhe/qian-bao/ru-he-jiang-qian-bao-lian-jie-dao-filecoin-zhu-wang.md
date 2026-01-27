@@ -40,7 +40,7 @@ GLIF兼容[大多数的EVM钱包，](https://filecointldr.io/how-to-buy-filecoin
 
 Filecoin主网现在应出现在网络选项中，选择“**Filecoin Mainnet**”。
 
-![步骤4：选择Filecoin主](https:/...](../../../../.gitbook/assets/image (50).png)
+![步骤4：选择Filecoin主](../../../../.gitbook/assets/image (50).png)
 
 ## 结论
 

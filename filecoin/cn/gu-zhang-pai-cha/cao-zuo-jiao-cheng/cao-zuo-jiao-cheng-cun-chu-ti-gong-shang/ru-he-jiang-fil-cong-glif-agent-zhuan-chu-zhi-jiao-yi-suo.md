@@ -112,7 +112,7 @@
 
 1. 使用[第一步](ru-he-jiang-fil-cong-glif-agent-zhuan-chu-zhi-jiao-yi-suo.md#di-yi-bu-she-zhi-zhong-jie-qian-bao)创建的中介钱包登录 GLIF 网站，然后点击 “**发送 FIL**”。
 
-![第三步：从中间钱包将 FIL](ru-he-jiang-fil-cong-glif-agent-...](../../../.gitbook/assets/image (301).png)
+![第三步：从中间钱包将 FIL](../../../.gitbook/assets/image (301).png)
 
 2. 在收款人栏填入交易所提供的 f1 地址。
 3. 输入要转账的 FIL 数量。
