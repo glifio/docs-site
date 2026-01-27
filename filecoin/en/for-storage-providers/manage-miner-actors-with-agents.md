@@ -5,7 +5,7 @@
 
 Agents are smart contracts on the FEVM that allow Storage Providers (SPs) to collateralize Filecoin Miner Actors (miners) in order to borrow FIL from GLIF. Every Storage Provider deploys and owns their own Agent smart contract. Agents act as intermediaries between SPs and GLIF, allowing SPs to maintain ownership and control over their miner(s) while borrowing from GLIF.
 
-![Borrow form](../.gitbook/assets/image (386).png)
+![Borrow form](../.gitbook/assets/image-386.png)
 
 ## Deploy an Agent
 
@@ -23,7 +23,7 @@ Agents can borrow once they have collateral. You can add collateral simply by se
 
 The more mining power added to an Agent, the greater the Agent's liquidation value, which increases the total amount of FIL the Agent can borrow.
 
-![Add Collateral to an](../.gitbook/assets/image (281).png)
+![Add Collateral to an](../.gitbook/assets/image-281.png)
 
 ## Agent Ownership
 

@@ -27,19 +27,19 @@ In this part of the tutorial, we will guide you through the process of changing 
 1. Navigate to the “**Admin**” section on your Agent page. Make sure you are in the “**Owner mode**”
 2. Click the icon next to the operator.
 
-![The Icon button](../../../.gitbook/assets/image (263).png)
+![The Icon button](../../../.gitbook/assets/image-263.png)
 
 3. In the “**Change Operator of Your Agent**” multisig proposal interface, enter the new operator address for the miner.
 
-![Address input](../../../.gitbook/assets/image (264).png)
+![Address input](../../../.gitbook/assets/image-264.png)
 
 4. Click “**Send**” and approve the transaction in your wallet.
 
-![Approve button](../../../.gitbook/assets/image (265).png)
+![Approve button](../../../.gitbook/assets/image-265.png)
 
 5. Wait for the transaction to complete. A “**Transfer Operator**” proposal will appear in the “**Agent Owner Proposals**” section.
 
-![Transaction pending](../../../.gitbook/assets/image (266).png)
+![Transaction pending](../../../.gitbook/assets/image-266.png)
 
 ### Step 2: Approve the Proposal
 
@@ -47,7 +47,7 @@ In this part of the tutorial, we will guide you through the process of changing 
 2. Navigate to the “**Agent Owner Proposals**” section and find the “**Transfer Operator**” proposal.
 3. Click “**Approve Proposal**”.
 
-![Proposal approval](../../../.gitbook/assets/image (267).png)
+![Proposal approval](../../../.gitbook/assets/image-267.png)
 
 4. Confirm the transaction in your wallet.
 
@@ -57,11 +57,11 @@ In this part of the tutorial, we will guide you through the process of changing 
 2. Navigate to the “**Admin**” section of the Agent page. You will see the address of the pending operator.
 3. Click “**Accept operator role**”.
 
-![Approve proposal](../../../.gitbook/assets/image (269).png)
+![Approve proposal](../../../.gitbook/assets/image-269.png)
 
 4. Click “**Send**”.
 
-![Send button](../../../.gitbook/assets/image (270).png)
+![Send button](../../../.gitbook/assets/image-270.png)
 
 5. Wait for the transaction to complete (1–2 minutes). The updated operator address will appear in the “**Admin**” panel.
 

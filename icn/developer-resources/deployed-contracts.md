@@ -11,6 +11,6 @@
 
 The IPool contract is an ERC4626 vault. It is also an ERC20 token contract (the Pool contract _is also_ the stICNT Token contract)
 
-{% file src="../.gitbook/assets/IPool.abi" %}
+{% file src="../.gitbook/assets/icn-pool.abi" %}
 
-{% file src="../.gitbook/assets/IPeripheryV2.abi" %}
+{% file src="../.gitbook/assets/icn-periphery-v2.abi" %}

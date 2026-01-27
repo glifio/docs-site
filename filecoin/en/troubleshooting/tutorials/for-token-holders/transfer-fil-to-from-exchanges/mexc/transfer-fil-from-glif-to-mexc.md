@@ -25,7 +25,7 @@ This tutorial will guide you through the process of withdraw your iFIL tokens fr
 2. To transfer your iFIL from the GLIF pool to FIL, follow the[ step-by-step guide](../../using-the-pool/withdraw-fil-from-glif.md) in this tutorial.
 3. After withdrawn FIL, you will receive FIL in your main wallet. Click on “**Wallet**” tab in the GLIF navigation, and you will be able to see the FIL and iFIL balance in the “**Account**” section.
 
-![Token balances](../../../../../.gitbook/assets/image (60).png)
+![Token balances](../../../../../.gitbook/assets/image-60.png)
 
 ## Step 2: Set up an intermediary wallet (optional)
 
@@ -41,7 +41,7 @@ This tutorial will guide you through the process of withdraw your iFIL tokens fr
 
 Once done, your intermediary wallet's address, starting with `f1`, will be visible in the top right dropdown. Copy this address.
 
-![Copy address](../../../../../.gitbook/assets/image (44).png)
+![Copy address](../../../../../.gitbook/assets/image-44.png)
 
 ## Step 3: Send FIL from 0x/f410 address (main wallet) to f1 address (Intermediary wallet)
 
@@ -51,13 +51,13 @@ Once done, your intermediary wallet's address, starting with `f1`, will be visib
 > [!CAUTION]
 > Do not use the MetaMask browser extension wallet to send FIL in this step. Otherwise, your MetaMask may be connected to the Ethereum mainnet instead of the Filecoin mainnet.
 
-![MetaMask prompt](../../../../../.gitbook/assets/image (86).png)
+![MetaMask prompt](../../../../../.gitbook/assets/image-86.png)
 
 3. In the “**Forward FIL**” page, paste your **intermediary wallet's f1 address** in the recipient field. This is the wallet created in [Step 2](transfer-fil-from-glif-to-mexc.md#step-2-set-up-an-intermediary-wallet-optional).
 4. Enter the amount of FIL you wish to transfer (start with a small test amount)
 5. Click “**Send**”
 
-![Send button](../../../../../.gitbook/assets/image (46).png)
+![Send button](../../../../../.gitbook/assets/image-46.png)
 
 > [!NOTE]
 > Please ensure you have sufficient FIL for gas fees; 0.001 FIL is usually more than enough.
@@ -70,7 +70,7 @@ Once done, your intermediary wallet's address, starting with `f1`, will be visib
 1. Go to your centralized exchange, MEXC, and locate FIL in your portfolio. Click “**Deposit**.”
 2. Copy the `f1` address provided.
 
-![Copy address](../../../../../.gitbook/assets/image (47).png)
+![Copy address](../../../../../.gitbook/assets/image-47.png)
 
 > [!CAUTION]
 > **WARNING**: Before transferring a large amount of funds to an exchange, send a small amount as a test transaction first.
@@ -80,13 +80,13 @@ Once done, your intermediary wallet's address, starting with `f1`, will be visib
 1. Connect to the intermediary wallet or your main wallet which address starting with `f1`.
 2. In the top right corner of the GLIF website, click “**Send FIL**.”
 
-![Send button](../../../../../.gitbook/assets/image (93).png)
+![Send button](../../../../../.gitbook/assets/image-93.png)
 
 3. Paste your exchange address copied in [step 4.](transfer-fil-from-glif-to-mexc.md#step-4-locate-your-recipient-address-in-the-exchange)
 4. Enter the desired amount of FIL to transfer.
 5. Click “**Send**” and confirm the transaction in your wallet.
 
-![Wallet confirmation](../../../../../.gitbook/assets/image (94).png)
+![Wallet confirmation](../../../../../.gitbook/assets/image-94.png)
 
 6. After the transaction is completed, you can check the balance in your exchange.
 

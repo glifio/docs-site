@@ -27,7 +27,7 @@ To push funds from your Agent to a Miner owned by your Agent for use as pledge c
 1. Navigate to the “**Miners**” section on your Agent page.
 2. Click the downward arrow next to the miner you want to fund.
 
-![The Downward button](../../../.gitbook/assets/image (226).png)
+![The Downward button](../../../.gitbook/assets/image-226.png)
 
 3. In the “**Push Funds to your Miner**” multisig proposal interface, enter the amount to send to your miner.
 4. Click “**Sign Transaction**”.
@@ -35,15 +35,15 @@ To push funds from your Agent to a Miner owned by your Agent for use as pledge c
 > [!WARNING]
 > Credentials are valid for only 5 minutes. If you see the error “_AgentPolice: Invalid Credential_”, it means the credentials have expired, so please start over.
 
-![Initiate push](../../../.gitbook/assets/image (231).png)
+![Initiate push](../../../.gitbook/assets/image-231.png)
 
 5. Click “**Send**” and approve the transaction in your wallet.
 
-![Approve button](../../../.gitbook/assets/image (230).png)
+![Approve button](../../../.gitbook/assets/image-230.png)
 
 6. Wait for the transaction to complete. A “**Push Funds**” proposal will appear in the “**Agent Owner Proposals**” section.
 
-![Transaction pending](../../../.gitbook/assets/image (233).png)
+![Transaction pending](../../../.gitbook/assets/image-233.png)
 
 ### Step 2: Approve the Proposal
 
@@ -51,7 +51,7 @@ To push funds from your Agent to a Miner owned by your Agent for use as pledge c
 2. Navigate to the “**Agent Owner Proposals**” section and find the “Push Funds” proposal.
 3. Click “**Approve Proposal**”.
 
-![Proposal approval](../../../.gitbook/assets/image (234).png)
+![Proposal approval](../../../.gitbook/assets/image-234.png)
 
 4. Confirm the transaction in your wallet.
 5. Wait for the transaction to complete (1–2 minutes). The available balance will be updated: the Agent's available balance will decrease, and the Miner's balance will increase.
@@ -65,7 +65,7 @@ To pull funds from your Miner to your Agent for withdrawing rewards or making a 
 1. Navigate to the “**Miners**” section on your Agent page.
 2. Click the upward arrow next to the miner you want to pull funds from.
 
-![The Upward button](../../../.gitbook/assets/image (236).png)
+![The Upward button](../../../.gitbook/assets/image-236.png)
 
 3. In the “**Pull Funds from your Miner**” multisig proposal interface, enter the amount to withdraw. Amount cannot exceed the miner's available balance.
 4. Click “**Sign Transaction**”.
@@ -73,15 +73,15 @@ To pull funds from your Miner to your Agent for withdrawing rewards or making a 
 > [!WARNING]
 > Credentials are valid for only 5 minutes. If you see the error “_AgentPolice: Invalid Credential_”, it means the credentials have expired, so please start over.
 
-![Withdrawal step](../../../.gitbook/assets/image (238).png)
+![Withdrawal step](../../../.gitbook/assets/image-238.png)
 
 5. Click “**Send**” and approve the transaction in your wallet.
 
-![Approve button](../../../.gitbook/assets/image (239).png)
+![Approve button](../../../.gitbook/assets/image-239.png)
 
 6. Wait for the transaction to complete. A “**Pull Funds**” proposal will appear in the “**Agent Owner Proposals**” section.
 
-![Transaction pending](../../../.gitbook/assets/image (240).png)
+![Transaction pending](../../../.gitbook/assets/image-240.png)
 
 ### Step 2: Approve the Proposal
 
@@ -89,7 +89,7 @@ To pull funds from your Miner to your Agent for withdrawing rewards or making a 
 2. Navigate to the “**Agent Owner Proposals**” section and find the “**Pull Funds**” proposal.
 3. Click “**Approve Proposal”.**
 
-![Proposal approval](../../../.gitbook/assets/image (241).png)
+![Proposal approval](../../../.gitbook/assets/image-241.png)
 
 4. Confirm the transaction in your wallet.
 5. Wait for the transaction to complete (1–2 minutes). The available balance will be updated: the Agent's available balance will increase, and the Miner's balance will decrease.

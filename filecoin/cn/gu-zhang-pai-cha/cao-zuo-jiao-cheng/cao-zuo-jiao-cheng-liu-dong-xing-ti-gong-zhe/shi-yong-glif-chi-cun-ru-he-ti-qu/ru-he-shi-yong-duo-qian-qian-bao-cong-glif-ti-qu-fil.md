@@ -21,13 +21,13 @@
 
 打开 [GLIF 网站](https://glif.io)，进入“**多重签名钱包**”标签页。确保您的钱包已连接，并且查看您的多签钱包。
 
-![第一步：批准 Infinity](../../../../.gitbook/assets/image (325).png)
+![第一步：批准 Infinity](../../../../.gitbook/assets/image-325.png)
 
 2\. 发起提取授权
 
 在“**代币**”区域，点击 iFIL 余额旁边的“**…**”图标。从下拉菜单中选择“**从池中提取**”。
 
-![第一步：批准 Infinity](../../../../.gitbook/assets/image (324).png)
+![第一步：批准 Infinity](../../../../.gitbook/assets/image-324.png)
 
 3\. 输入要提取的数量
 
@@ -36,7 +36,7 @@
 > [!NOTE]
 > 在网站左侧边栏，您会看到第一步 “Approve the Infinity Pool to transfer your iFIL” 。
 
-![第一步：批准 Infinity](../../../../.gitbook/assets/image (327).png)
+![第一步：批准 Infinity](../../../../.gitbook/assets/image-327.png)
 
 4\. 创建授权提案
 
@@ -46,7 +46,7 @@
 
 如果弹窗提示您可点击“**View** Proposal”，请点击查看；若没有弹窗提示，可在多签页面的“**多重签名钱包提案**”中查看提案。
 
-![第一步：批准 Infinity](../../../../.gitbook/assets/image (328).png)
+![第一步：批准 Infinity](../../../../.gitbook/assets/image-328.png)
 
 5\. 其他签名人连接钱包并查看提案
 
@@ -54,7 +54,7 @@
 
 当其他签名人连接到 GLIF 网站后，进入多签页面的“多重签名钱包提案”查看该待批准提案。
 
-![第一步：批准 Infinity](../../../../.gitbook/assets/image (329).png)
+![第一步：批准 Infinity](../../../../.gitbook/assets/image-329.png)
 
 6\. 其他签名人批准提案
 
@@ -63,7 +63,7 @@
 > [!TIP]
 > 每位签名人的钱包中都需要少量 FIL（0.001 FIL 即可）用于支付 Gas 。
 
-![第一步：批准 Infinity](../../../../.gitbook/assets/image (330).png)
+![第一步：批准 Infinity](../../../../.gitbook/assets/image-330.png)
 
 7\. 确认通过
 
@@ -71,7 +71,7 @@
 2. 如果未及时看到更新，可等待几分钟后刷新页面或重新连接钱包。
 3. 您可以在多签页面底部的“交易”区域查看交易详情，“方法” 列会显示 “Approve”。
 
-![第一步：批准 Infinity](../../../../.gitbook/assets/image (333).png)
+![第一步：批准 Infinity](../../../../.gitbook/assets/image-333.png)
 
 ***
 
@@ -83,25 +83,25 @@
 
 返回多签钱包的“代币”区域。点击 iFIL 余额旁的“**…**”图标，再次选择“**从池中提取**”。
 
-![第二步：从 Infinity](../../../../.gitbook/assets/image (334).png)
+![第二步：从 Infinity](../../../../.gitbook/assets/image-334.png)
 
 您会在“Approve the Infinity Pool to transfer your iFIL”处看到一个小的对勾图标，这表明已完成授权，现在可以进行第二步来发起提取。
 
 如果需要提取超过已授权数量的 iFIL，则需重新回到第一步进行授权。
 
-![第二步：从 Infinity](../../../../.gitbook/assets/image (335).png)
+![第二步：从 Infinity](../../../../.gitbook/assets/image-335.png)
 
 2\. 确认提取
 
 现在您会看到第二步 “Withdraw from the Infinity Pool”。检查信息后点击“取款”。
 
-![第二步：从 Infinity](../../../../.gitbook/assets/image (336).png)
+![第二步：从 Infinity](../../../../.gitbook/assets/image-336.png)
 
 3\. 创建新的提取提案
 
 在钱包中确认此笔交易，以创建提案。系统将生成一个新的关于提取交易的多签提案，您可以在“**多重签名钱包提案**”区域查看其详细信息。
 
-![第二步：从 Infinity](../../../../.gitbook/assets/image (337).png)
+![第二步：从 Infinity](../../../../.gitbook/assets/image-337.png)
 
 4\. 批准提取提案
 
@@ -111,7 +111,7 @@
 
 点击“**批准提案**”，并在弹出的钱包中确认批准。
 
-![第二步：从 Infinity](../../../../.gitbook/assets/image (338).png)
+![第二步：从 Infinity](../../../../.gitbook/assets/image-338.png)
 
 5\. 查看交易
 
@@ -119,7 +119,7 @@
 
 您可以在多签页面底部的“交易”区域查看提取交易的详情。
 
-![第二步：从 Infinity](../../../../.gitbook/assets/image (341).png)
+![第二步：从 Infinity](../../../../.gitbook/assets/image-341.png)
 
 6\. 完成提取
 
@@ -127,7 +127,7 @@
 
 您可以在“Filecoin 余额”栏查看更新后的 FIL 余额。
 
-![第二步：从 Infinity](../../../../.gitbook/assets/image (343).png)
+![第二步：从 Infinity](../../../../.gitbook/assets/image-343.png)
 
 **恭喜您！您已经成功使用多签钱包从 GLIF 提取了所存入的 FIL。**
 

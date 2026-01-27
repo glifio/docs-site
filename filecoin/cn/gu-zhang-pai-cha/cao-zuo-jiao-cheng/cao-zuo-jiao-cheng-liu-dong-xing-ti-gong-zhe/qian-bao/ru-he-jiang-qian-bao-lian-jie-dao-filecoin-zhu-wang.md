@@ -15,11 +15,11 @@ GLIF兼容[大多数的EVM钱包，](https://filecointldr.io/how-to-buy-filecoin
 
 1. 点击 [GLIF 网站](https://glif.io)右上角的“**连接钱包**”。
 
-![步骤2：将您的钱包连接到GLI](../../../../.gitbook/assets/image (46).png)
+![步骤2：将您的钱包连接到GLI](../../../../.gitbook/assets/image-46.png)
 
 2. 选择您希望连接的钱包。
 
-![步骤2：将您的钱包连接到GLI](../../../../.gitbook/assets/image (47).png)
+![步骤2：将您的钱包连接到GLI](../../../../.gitbook/assets/image-47.png)
 
 ## 步骤3：将Filecoin网络添加到您的钱包（仅限Chrome插件)
 
@@ -30,7 +30,7 @@ GLIF兼容[大多数的EVM钱包，](https://filecointldr.io/how-to-buy-filecoin
 
 2. 在MetaMask 点击“**确认**”，然后点击“**批准**”。
 
-![MetaMask prompt](../../../../.gitbook/assets/image (48).png)
+![MetaMask prompt](../../../../.gitbook/assets/image-48.png)
 
 3. 如果网络切换的提示未弹出，您可以按照[Filecoin文档网站](https://docs.filecoin.io/basics/assets/metamask-setup)上的步骤操作，添加Filecoin 主网。
 
@@ -40,7 +40,7 @@ GLIF兼容[大多数的EVM钱包，](https://filecointldr.io/how-to-buy-filecoin
 
 Filecoin主网现在应出现在网络选项中，选择“**Filecoin Mainnet**”。
 
-![步骤4：选择Filecoin主](../../../../.gitbook/assets/image (50).png)
+![步骤4：选择Filecoin主](../../../../.gitbook/assets/image-50.png)
 
 ## 结论
 

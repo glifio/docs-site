@@ -14,13 +14,13 @@
 2. 要将您的 iFIL 从 GLIF 池中转换为 FIL，请查看[此教程](../../shi-yong-glif-chi-cun-ru-he-ti-qu/cong-glif-ti-qu-fil.md)。
 3. 提取 FIL 后，您将在钱包中收到 FIL。点击 GLIF 左上方的“钱包”标签，您将能够在 “Account” 部分查看 FIL 和 iFIL 的余额。
 
-![步骤 1：从 GLIF 提取](../../../../../.gitbook/assets/image (229).png)
+![步骤 1：从 GLIF 提取](../../../../../.gitbook/assets/image-229.png)
 
 ## 步骤 2：在交易所中找到您的接收地址
 
 1. 前往您使用的中心化交易所（币安），在您的资产列表中找到 FIL。点击 “**充值**”。
 
-![步骤 2：在交易所中找到您的接](../../../../../.gitbook/assets/image (234).png)
+![步骤 2：在交易所中找到您的接](../../../../../.gitbook/assets/image-234.png)
 
 2. 如果您的钱包地址以 `0x` 或 `f410` 开头，请选择 “**FILEVM**” 网络。\
    如果您的钱包地址以 `f1` 开头，请选择 “**Filecoin**” 网络。
@@ -28,11 +28,11 @@
 > [!CAUTION]
 > 警告：选择错误的网络可能会导致资金丢失。请务必仔细核对您的地址类型。
 
-![步骤 2：在交易所中找到您的接](../../../../../.gitbook/assets/image (239).png)
+![步骤 2：在交易所中找到您的接](../../../../../.gitbook/assets/image-239.png)
 
 3. 复制交易所提供的地址。
 
-![步骤 2：在交易所中找到您的接](../../../../../.gitbook/assets/image (233).png)
+![步骤 2：在交易所中找到您的接](../../../../../.gitbook/assets/image-233.png)
 
 > [!CAUTION]
 > 警告：在向交易所转移大量资金之前，请先发送少量FIL 作为测试交易。
@@ -41,13 +41,13 @@
 
 1. 在 GLIF 网站的右上角，点击 “发送/转发FIL”。或者，您也可以使用钱包内的发送功能。
 
-![步骤 3：将 FIL 从您的钱](../../../../../.gitbook/assets/image (235).png)
+![步骤 3：将 FIL 从您的钱](../../../../../.gitbook/assets/image-235.png)
 
 2. 将您在[步骤 2 ](jiang-fil-cong-glif-zhuan-chu-zhi-bi-an.md#bu-zhou-2-zai-jiao-yi-suo-zhong-zhao-dao-nin-de-jie-shou-di-zhi)中复制的交易所地址粘贴到收款人栏。
 3. 输入您希望转移的 FIL 数量。
 4. 点击 “**发送**” 并在您的钱包中确认交易。
 
-![步骤 3：将 FIL 从您的钱](../../../../../.gitbook/assets/image (237).png)
+![步骤 3：将 FIL 从您的钱](../../../../../.gitbook/assets/image-237.png)
 
 5. 交易完成后，您可以在交易所查看余额。
 

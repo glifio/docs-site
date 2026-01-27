@@ -12,28 +12,28 @@ In this guide, we use a Ledger Nano X. You can either watch the tutorial video o
 
 Make sure you have your device connected to your computer (e.g., with the supplied cable), and enter your pin to unlock it.
 
-![Connect wallet](../../../../.gitbook/assets/image (97).png)
+![Connect wallet](../../../../.gitbook/assets/image-97.png)
 
 ## Step 2. Connect your wallet to GLIF
 
 1. Go to [GLIF website](https://www.glif.io) and click on **Connect Wallet** in the top right of the screen. You will see a list of wallets to connect. Choose “Ledger (Filecoin)”.
 
-![Toggle button](../../../../.gitbook/assets/image (99).png)
+![Toggle button](../../../../.gitbook/assets/image-99.png)
 
 2. If your hardware wallet is unlocked and connected, you will see a pop-up in your browser asking to connect the HID device.
 
-![Connect wallet](../../../../.gitbook/assets/image (100).png)
+![Connect wallet](../../../../.gitbook/assets/image-100.png)
 
 3. Make sure the Filecoin app is open on your device before you try to connect it.
 
 > [!TIP]
 > If you have a problem adding the Filecoin app to your Ledger, please check the tutorial [here](https://docs.filecoin.io/basics/assets/metamask-setup#install-the-ledger-app).
 
-![MetaMask prompt](../../../../.gitbook/assets/image (101).png)
+![MetaMask prompt](../../../../.gitbook/assets/image-101.png)
 
 4. When the device says “Filecoin Ready”, then select the device in the browser popup and hit **Connect**.
 
-![Connect wallet](../../../../.gitbook/assets/image (103).png)
+![Connect wallet](../../../../.gitbook/assets/image-103.png)
 
 5. Once you are connected, you will see your hardware wallet Filecoin address in the top right of the GLIF website, as well as your total FIL balance.
 
@@ -41,18 +41,18 @@ Make sure you have your device connected to your computer (e.g., with the suppli
 
 1. Click “**Deposit Filecoin**” in the main page, or go to the “**Pool**” page.
 
-![Deposit page](../../../../.gitbook/assets/image (48).png)
+![Deposit page](../../../../.gitbook/assets/image-48.png)
 
 2. Enter the amount you wish to deposit, and click “**Deposit**”.
 
 > [!NOTE]
 > Remember that you will need to leave a small amount of FIL in your wallet to cover transaction fees.
 
-![Deposit FIL](../../../../.gitbook/assets/image (104).png)
+![Deposit FIL](../../../../.gitbook/assets/image-104.png)
 
 3. Then hit “**Send**”.
 
-![Send confirmation](../../../../.gitbook/assets/image (381).png)
+![Send confirmation](../../../../.gitbook/assets/image-381.png)
 
 4\. Confirm in your hardware wallet.
 
@@ -62,7 +62,7 @@ Once you have deposited FIL, after a minute or two, you will receive iFIL — th
 
 For a more detailed view of your position, click on “**Wallet**” in the GLIF navigation, and you will be able to see the FIL and iFIL associated with your hardware wallet address in the **Token** section.
 
-![Position view](../../../../.gitbook/assets/image (50).png)
+![Position view](../../../../.gitbook/assets/image-50.png)
 
 Then, you are successfully deposit FIL from Ledger to GLIF! Once you know the steps, it is quite easy.
 

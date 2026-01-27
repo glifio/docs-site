@@ -34,7 +34,7 @@ If your eligible wallet is a multisig wallet, the claiming process is very simil
 
 4. Read the GLIF governance constitution and click “Next”.
 
-![Tutorial step](../../.gitbook/assets/image (394).png)
+![Tutorial step](../../.gitbook/assets/image-394.png)
 
 5. Choose your delegate. Your $GLF tokens represent your governance power, and can be used to vote on GIPs. You can select GLIF Ltd. or another delegate to vote on your behalf, or you may choose to self-delegate. You can change this anytime. If you are unsure what to do, you can simply delegate to Glif Ltd. Click “Next”.
 
@@ -89,15 +89,15 @@ If you would like to claim through the website interface, please follow the inst
 1. Navigate to the [official GLIF website token claim page](https://www.glif.io/en/token)
 2. Connect to your Agent's owner address. Your $GLF airdrop amount will be displayed here. Click “Connect Wallet”. Connect to your Agent's owner wallet. If it is a multisig wallet, connect using one of its signers.
 
-![Add signer form](../../.gitbook/assets/image (374).png)
+![Add signer form](../../.gitbook/assets/image-374.png)
 
 3. Click “Start Claiming”. Please make sure you have enough gas fees in your wallet for the transaction.
 
-![Start claim button](../../.gitbook/assets/image (373).png)
+![Start claim button](../../.gitbook/assets/image-373.png)
 
 4. Read the GLIF governance constitution and click “**Next**”.
 
-![Connect wallet](../../.gitbook/assets/image (370).png)
+![Connect wallet](../../.gitbook/assets/image-370.png)
 
 5. Choose your delegate. Your $GLF tokens represent your governance power. You can select GLIF Ltd. or another delegate to vote on your behalf, or you may choose to self-delegate. You can change this anytime. If you are unsure what to do, you can simply delegate to Glif Ltd.  Click “Next”.
 

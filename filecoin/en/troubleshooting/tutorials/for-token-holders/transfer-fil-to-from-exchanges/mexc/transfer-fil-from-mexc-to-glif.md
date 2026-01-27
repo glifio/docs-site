@@ -37,7 +37,7 @@ This tutorial is specifically for transferring FIL from MEXC. Check this [page](
 
 Once done, your intermediary wallet's address, starting with `f1`, will be visible in the top right dropdown. Copy this address.
 
-![Copy address](../../../../../.gitbook/assets/image (44).png)
+![Copy address](../../../../../.gitbook/assets/image-44.png)
 
 ## Step 2: Send Filecoin from the exchange to the intermediary wallet
 
@@ -49,7 +49,7 @@ Once done, your intermediary wallet's address, starting with `f1`, will be visib
 > [!WARNING]
 > If you are doing this for the first time, it's good practice to send a small amount first in case you make any mistakes.
 
-![Withdrawal step](../../../../../.gitbook/assets/image (45).png)
+![Withdrawal step](../../../../../.gitbook/assets/image-45.png)
 
 Once the transaction is complete, your Filecoin balance will appear in the wallet.
 
@@ -57,11 +57,11 @@ Once the transaction is complete, your Filecoin balance will appear in the walle
 
 1. Once the transaction is completed, you can verify your intermediary wallet balance by clicking the “**Wallet**” tab on the GLIF website.
 
-![Send FIL](../../../../../.gitbook/assets/image (57).png)
+![Send FIL](../../../../../.gitbook/assets/image-57.png)
 
 2. Check your FIL balance in the “**Account**” tab and view transaction details in the “**Transaction**” tab.
 
-![FIL balance](../../../../../.gitbook/assets/image (58).png)
+![FIL balance](../../../../../.gitbook/assets/image-58.png)
 
 ## Step 4: Connect your main wallet to GLIF and Filecoin Mainnet
 
@@ -75,7 +75,7 @@ For detailed instructions on how to connect your wallet to the Filecoin Mainnet,
 1. Once the Filecoin is in your intermediary wallet, connect to your intermediary wallet.
 2. Click the top-right dropdown in GLIF and choose “**Send FIL**”.
 
-![Send button](../../../../../.gitbook/assets/image (167).png)
+![Send button](../../../../../.gitbook/assets/image-167.png)
 
 3. Paste your main wallet address copied in [step 4](transfer-fil-from-mexc-to-glif.md#step-4-connect-your-main-wallet-to-glif-and-filecoin-mainnet), into the recipient field in GLIF and specify the amount to send.
 
@@ -84,7 +84,7 @@ For detailed instructions on how to connect your wallet to the Filecoin Mainnet,
 
 4. Then hit “**Send**”.
 
-![Send confirmation](../../../../../.gitbook/assets/image (169).png)
+![Send confirmation](../../../../../.gitbook/assets/image-169.png)
 
 After a few moments, your Filecoin balance will appear in your main wallet!
 

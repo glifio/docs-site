@@ -1,6 +1,6 @@
 # Quick Guide
 
-![GLIF Logo](.gitbook/assets/long_dark.png)
+![GLIF Logo](.gitbook/assets/logo.png)
 
 * ✅ **Start staking ICNT here:** [https://icn.glif.io](https://icn.glif.io)
 * 🚀 Start here if you are a[ ICNT token holder ](for-liquidity-providers/benefits-for-token-holders.md)and looking to earn [rewards](for-liquidity-providers/reward-mechanism-sticnt.md)
