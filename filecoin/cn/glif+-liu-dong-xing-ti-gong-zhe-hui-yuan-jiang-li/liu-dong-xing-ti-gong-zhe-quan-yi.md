@@ -1,24 +1,3 @@
----
-description: 流动性提供者专属权益概览
-coverY: 0
-layout:
-  width: default
-  cover:
-    visible: false
-    size: full
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
 
 # 流动性提供者权益
 

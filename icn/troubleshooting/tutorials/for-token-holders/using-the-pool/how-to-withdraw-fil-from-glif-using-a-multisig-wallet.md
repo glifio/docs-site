@@ -1,6 +1,3 @@
----
-description: Step-by-step guide to withdrawing deposited FIL from a multisig wallet
----
 
 # How to withdraw FIL from GLIF using a multisig wallet
 

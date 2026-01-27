@@ -1,6 +1,3 @@
----
-description: 使用一個Miner Actor作为其他Miner Actor的抵押品
----
 
 # 节点担保制度
 

@@ -1,8 +1,3 @@
----
-description: >-
-  Agents are unique FEVM smart contracts that Storage Providers use to borrow
-  FIL from GLIF
----
 
 # Manage Miner Actors with Agents
 

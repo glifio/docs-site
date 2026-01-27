@@ -1,6 +1,3 @@
----
-description: 'Step-by-Step Guide: How to Claim $GLF Airdrop'
----
 
 # How to Claim $GLF Airdrop
 

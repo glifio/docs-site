@@ -1,6 +1,3 @@
----
-description: Get started with GLIF and our documentation site.
----
 
 # Quick Guide
 

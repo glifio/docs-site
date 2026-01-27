@@ -1,6 +1,3 @@
----
-description: How much you can borrow from GLIF is decided by the debt-to-liquidation ratio
----
 
 # Borrowing Limits & DTL
 

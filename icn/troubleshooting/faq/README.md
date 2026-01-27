@@ -1,5 +1,2 @@
----
-hidden: true
----
 
 # FAQ

@@ -1,6 +1,3 @@
----
-description: Enable using miners as collateral for other miners
----
 
 # Guarantor Model
 

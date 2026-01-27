@@ -1,6 +1,3 @@
----
-description: A New Way for LPs to Earn FIL Through GLIF+
----
 
 # How FIL Capsules Work
 

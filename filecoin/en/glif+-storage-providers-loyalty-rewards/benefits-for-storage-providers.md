@@ -1,6 +1,3 @@
----
-description: Benefits at a Glance for Storage Providers
----
 
 # Benefits for Storage Providers
 

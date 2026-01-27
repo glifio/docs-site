@@ -1,6 +1,3 @@
----
-description: "一起扩展 GLIF 生态，并赚取 FIL\_胶囊"
----
 
 # GLIF+ LP 会员卡推荐计划
 

@@ -1,6 +1,3 @@
----
-description: How GLIF works to minimize risks
----
 
 # Risks
 

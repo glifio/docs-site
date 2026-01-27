@@ -1,6 +1,3 @@
----
-description: Earn FIL Capsules for Growing the GLIF Ecosystem
----
 
 # GLIF+ LP Referral Program
 

@@ -1,6 +1,3 @@
----
-description: Add your miner to the Agent
----
 
 # GLIF Agent Website Tutorial Part 5 — Moving FIL between Miner and Agent
 

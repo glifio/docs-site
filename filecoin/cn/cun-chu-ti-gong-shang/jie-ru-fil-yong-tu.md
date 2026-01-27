@@ -1,6 +1,3 @@
----
-description: 存储提供商 (SP) 通常需要从 GLIF 借入 FIL 有两个原因：
----
 
 # 借入FIL用途
 

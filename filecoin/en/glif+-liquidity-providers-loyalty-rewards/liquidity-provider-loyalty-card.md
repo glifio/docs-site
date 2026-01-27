@@ -1,6 +1,3 @@
----
-description: A Loyalty Rewards Program powered by $GLF
----
 
 # Liquidity Provider Loyalty Card
 

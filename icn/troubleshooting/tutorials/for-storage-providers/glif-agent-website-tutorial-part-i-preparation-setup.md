@@ -1,8 +1,3 @@
----
-description: >-
-  Understand the main components of GLIF Agents, and get prepared to create an
-  Agent on the GLIF website
----
 
 # GLIF Agent Website Tutorial Part I— Preparation Setup
 

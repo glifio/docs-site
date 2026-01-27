@@ -1,8 +1,3 @@
----
-description: >-
-  Storage Providers (SPs) generally need to borrow FIL from GLIF for two
-  reasons:
----
 
 # Uses of Borrowed FIL
 

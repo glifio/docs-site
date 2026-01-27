@@ -1,6 +1,3 @@
----
-description: Joining GLIF+ as a Liquidity Provider In 3 Easy Steps
----
 
 # How to Join the GLIF+ LP Program
 

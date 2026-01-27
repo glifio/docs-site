@@ -1,6 +1,3 @@
----
-description: SPs must keep track of their DTL ratio to avoid liquidations or restrictions
----
 
 # Liquidations
 

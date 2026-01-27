@@ -1,6 +1,3 @@
----
-description: Add your miner to the Agent
----
 
 # GLIF Agent Website Tutorial Part 3 — Add Your Miner
 

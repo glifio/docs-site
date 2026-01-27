@@ -1,6 +1,3 @@
----
-description: 简单三步，轻松成为 GLIF+ 流动性提供者
----
 
 # 如何加入 GLIF+ LP 计划
 

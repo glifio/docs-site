@@ -1,6 +1,3 @@
----
-description: Liquidity Providers earn rewards by holding iFIL tokens
----
 
 # GLIF Reward Mechanism - iFIL
 

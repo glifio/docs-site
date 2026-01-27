@@ -1,6 +1,3 @@
----
-description: Maximize your Filecoin mining efficiency with GLIF
----
 
 # Benefits for Storage Providers
 

@@ -1,6 +1,3 @@
----
-description: A Loyalty Rewards Program powered by $GLF
----
 
 # Storage Provider Loyalty Card
 

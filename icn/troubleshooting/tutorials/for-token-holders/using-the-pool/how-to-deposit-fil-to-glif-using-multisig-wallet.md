@@ -1,8 +1,3 @@
----
-description: >-
-  Step-by-step guide to create a multisig wallet on GLIF and deposit FIL into
-  GLIF directly from your multisig wallet.
----
 
 # How to deposit FIL to GLIF using multisig wallet
 

@@ -1,6 +1,3 @@
----
-description: Why FIL token holders need to use GLIF to earn rewards
----
 
 # Benefits for token holders
 

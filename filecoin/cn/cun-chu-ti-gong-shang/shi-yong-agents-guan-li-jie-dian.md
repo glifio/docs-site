@@ -1,6 +1,3 @@
----
-description: Agents 是独特的 FEVM 智能合约，存储提供者可以使用 Agents 从 GLIF 借入 FIL
----
 
 # 使用 Agents 管理节点
 

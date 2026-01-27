@@ -1,6 +1,3 @@
----
-description: Liquidity Providers earn rewards by holding stICNT tokens
----
 
 # Reward Mechanism - stICNT
 

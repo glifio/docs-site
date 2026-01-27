@@ -1,8 +1,3 @@
----
-description: >-
-  Liquidation values are used within GLIF to determine borrow limits and
-  liquidations
----
 
 # SP Liquidation Values
 

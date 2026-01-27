@@ -1,6 +1,3 @@
----
-description: Create your Agent on the GLIF Website
----
 
 # GLIF Agent Website Tutorial Part 2 — Create your Agent
 

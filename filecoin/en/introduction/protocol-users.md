@@ -1,6 +1,3 @@
----
-description: GLIF bridges the gap between FIL holders and Storage Providers
----
 
 # Protocol Users
 

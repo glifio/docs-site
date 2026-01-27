@@ -1,7 +1,3 @@
----
-description: Learn how to receive ICNT for your stICNT Tokens
-hidden: true
----
 
 # Exit - Withdraw stICNT
 

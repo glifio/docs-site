@@ -1,6 +1,3 @@
----
-description: 了解GLIF Agent 的基础知识，并准备在GLIF网站上创建Agent
----
 
 # GLIF Agent 网站教程 (1) — 准备设置
 

@@ -1,6 +1,3 @@
----
-description: 流动性提供者通過持有 iFIL 代币以赚取奖励
----
 
 # GLIF 奖励机制 - iFIL
 

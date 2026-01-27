@@ -1,6 +1,3 @@
----
-description: 'Asset security is GLIF''s #1 priority'
----
 
 # Asset Security
 

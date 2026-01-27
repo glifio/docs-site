@@ -1,6 +1,3 @@
----
-description: 通过 GLIF 最大化您的 Filecoin 挖矿效率
----
 
 # 借入FIL
 

@@ -1,6 +1,3 @@
----
-description: Step-by-step guide to depositing ICNT into GLIF from your Safe multisig wallet
----
 
 # Staking ICNT from a Safe multisig wallet
 

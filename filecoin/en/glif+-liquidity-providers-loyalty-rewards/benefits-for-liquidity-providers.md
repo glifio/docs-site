@@ -1,6 +1,3 @@
----
-description: Benefits at a Glance for Liquidity Providers
----
 
 # Benefits for Liquidity Providers
 

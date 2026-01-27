@@ -1,6 +1,3 @@
----
-description: 为何 FIL 持有者要使用 GLIF 赚取奖励
----
 
 # 存入FIL
 

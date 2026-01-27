@@ -1,6 +1,3 @@
----
-description: 使用 GLIF SDK（用 Go 编写）在 GLIF 上构建自己的应用程序
----
 
 # GLIF SDK
 
