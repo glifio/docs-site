@@ -8,10 +8,13 @@
       "Bash(git commit:*)",
       "Bash(git reset:*)",
       "Bash(grep:*)",
+      "Bash(image:*)",
+      "Bash(ls:*)",
       "Bash(node:*)",
       "Bash(python:*)",
       "Bash(python3:*)",
       "Bash(sed:*)",
+      "Bash(test:*)",
       "Bash(xxd:*)"
     ],
     "defaultMode": "acceptEdits"
