@@ -2,7 +2,7 @@
 
 
 
-![GLIF Logo](cn-logo.png)
+![GLIF Logo](logo.png)
 
 * 🚀 如果你是 FIL 持有者并希望获得奖励，请点击[这里](liu-dong-xing-ti-gong-zhe/cun-ru-fil.md)
 * 📦 如果你是存储提供商并希望借入 FIL，请点击[这里](cun-chu-ti-gong-shang/jie-ru-fil.md)

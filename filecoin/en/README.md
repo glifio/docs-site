@@ -1,6 +1,6 @@
 # Quick Guide
 
-![GLIF Logo](en-logo.png)
+![GLIF Logo](logo.png)
 
 * 🚀 Start here if you are a [**FIL token holder**](/broken/pages/lbDhdSl21VPzXy4e3aow) and looking to earn rewards
 * 📦 Learn more if you are a [**Storage Provider**](/broken/pages/734S4U1BiSY1YNxLKl32) and want to borrow FIL
