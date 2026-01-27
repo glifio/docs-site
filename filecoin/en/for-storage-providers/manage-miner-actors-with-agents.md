@@ -46,7 +46,7 @@ The operator key enables operational functions like making payments, managing wo
 
 ## Agent Police
 
-The Agent Police is GLIF’s keeper contract that ensures each Agent stays within debt-to-liquidation (DTL) ratio when executing actions like borrowing or withdrawing FIL. If an Agent violates system rules, the Agent Police is responsible for processing Agent state transitions and liquidations.
+The Agent Police is GLIF's keeper contract that ensures each Agent stays within debt-to-liquidation (DTL) ratio when executing actions like borrowing or withdrawing FIL. If an Agent violates system rules, the Agent Police is responsible for processing Agent state transitions and liquidations.
 
 ## **Agent Data Oracle (ADO)**
 

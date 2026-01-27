@@ -25,7 +25,7 @@
 
 2\. 发起提取授权
 
-在“**代币”**区域，点击 iFIL 余额旁边的“**…**”图标。从下拉菜单中选择“**从池中提取**”。
+在“**代币**”区域，点击 iFIL 余额旁边的“**…**”图标。从下拉菜单中选择“**从池中提取**”。
 
 ![第一步：批准 Infinity](../../../../.gitbook/assets/image (324).png)
 
@@ -34,7 +34,7 @@
 输入想要提取的 iFIL 数量。点击“Approve”，允许 GLIF 池转移您的 iFIL。
 
 > [!NOTE]
-> 在网站左侧边栏，您会看到第一步 "Approve the Infinity Pool to transfer your iFIL" 。
+> 在网站左侧边栏，您会看到第一步 “Approve the Infinity Pool to transfer your iFIL” 。
 
 ![第一步：批准 Infinity](../../../../.gitbook/assets/image (327).png)
 

@@ -1,17 +1,17 @@
 
 # GLIF Agent Website Tutorial Part I— Preparation Setup
 
-In Part I of the GLIF Agent Setup Tutorial, we’re covering two topics:
+In Part I of the GLIF Agent Setup Tutorial, we're covering two topics:
 
 1. Understand the different components of GLIF Agents and the basics of how they work.
 2. Prepare to create an Agent on the GLIF website.
 
-If you already understand the basics and you’re ready to get started creating your Agent on the website, you can skip Part I and go directly to [Part II](glif-agent-website-tutorial-part-ii-create-your-agent.md).
+If you already understand the basics and you're ready to get started creating your Agent on the website, you can skip Part I and go directly to [Part II](glif-agent-website-tutorial-part-ii-create-your-agent.md).
 
 ## GLIF Agents — The Basics
 
 1. **Agent —** An Agent is a smart contract that borrows FIL from GLIF. You will deploy, own, and operate your Agent smart contract yourself (covered in [Part II](glif-agent-website-tutorial-part-ii-create-your-agent.md) of the tutorial). In order to borrow FIL, your Agent needs collateral, which it gets by taking ownership of your Filecoin miner(s). A more detailed description of Agents can be found [here](/broken/pages/omFM6JzI9yZVD3SJxLRM).
-2. **Agent owner** **wallet** — The Agent’s owner wallet is the wallet that controls your Agent. Whoever is in control of your Agent’s owner wallet can operate your Agent. It is very important to keep the Agent’s owner wallet secure, which GLIF will help you do automatically.
+2. **Agent owner** **wallet** — The Agent's owner wallet is the wallet that controls your Agent. Whoever is in control of your Agent's owner wallet can operate your Agent. It is very important to keep the Agent's owner wallet secure, which GLIF will help you do automatically.
 
 When creating an Agent on the GLIF website, your Agent owner wallet will be a Filecoin multisig wallet with at least 2 signers, though 3 signers are recommended. This is the most secure type of wallet you can use to own your Agent.
 
@@ -44,7 +44,7 @@ The GLIF Agent Multisig Owner Wallet is recommended to have a signing threshold 
 
 ## Prepare to Create an Agent
 
-In order to prepare for Agent creation, you’ll need 3 addresses:
+In order to prepare for Agent creation, you'll need 3 addresses:
 
 1. FILSnap Wallet Address 1
 2. FILSnap Wallet Address 2 OR Ledger Address 1 OR Burner Wallet Address 1

@@ -21,26 +21,26 @@
 
 ## 步骤 1：设置中介钱包（如有需要）
 
-**如果您要转移 FIL 的钱包地址以 "f1" 开头：**
+**如果您要转移 FIL 的钱包地址以 “f1” 开头：**
 
 * 您可以直接跳到[步骤 2 ](jiang-fil-cong-mexc-zhuan-ru-glif.md#bu-zhou-2-jiang-filecoin-cong-jiao-yi-suo-fa-song-dao-zhong-jie-qian-bao)和[步骤 6](jiang-fil-cong-mexc-zhuan-ru-glif.md#bu-zhou-5-jiang-filecoin-cong-zhong-jie-qian-bao-zhuan-yi-dao-nin-de-zhu-qian-bao)。
 
-**如果您要转移 FIL 的钱包地址以 "f410" 或 "0x" 开头：**
+**如果您要转移 FIL 的钱包地址以 “f410” 或 “0x” 开头：**
 
 * 您需要使用中介钱包，例如 [FilSnap 钱包](../../qian-bao/ru-he-li-yong-filsnap-qian-bao-zuo-wei-zhong-jie-qian-bao.md)、[Burner钱包](../../qian-bao/ru-he-li-yong-burner-qian-bao-zuo-wei-zhong-jie-qian-bao.md)或 [Ledger](../../qian-bao/ru-he-li-yong-ledger-qian-bao-zuo-wei-zhong-jie-qian-bao.md)。点击链结查看创建不同中介钱包的教程。
-* 这是因为一些交易所，包括 MEXC，还不支持转移到 "**f410**" 或 "**0x**" 地址。请[点击此处](../zai-jiao-yi-suo-he-glif-zhi-jian-zhuan-yi-fil.md)查看详细解释。
+* 这是因为一些交易所，包括 MEXC，还不支持转移到 “**f410**” 或 “**0x**” 地址。请[点击此处](../zai-jiao-yi-suo-he-glif-zhi-jian-zhuan-yi-fil.md)查看详细解释。
 
-完成后，中介钱包的地址（以 "**f1**" 开头）将显示在右上角的下拉菜单。复制此地址。
+完成后，中介钱包的地址（以 “**f1**” 开头）将显示在右上角的下拉菜单。复制此地址。
 
 ![步骤 1：设置中介钱包（如有需](../../../../../.gitbook/assets/image (242).png)
 
 ## 步骤 2：将 Filecoin 从交易所发送到中介钱包
 
-1. 前往您使用的中心化交易所（MEXC），在您的资产列表中找到 FIL。点击 "提币"。
+1. 前往您使用的中心化交易所（MEXC），在您的资产列表中找到 FIL。点击 “提币”。
 
 ![步骤 2：将 Filecoin](../../../../../.gitbook/assets/image (245).png)
 
-2. 选择网络为 "**FIL**"。
+2. 选择网络为 “**FIL**”。
 3. 输入[步骤 1 ](jiang-fil-cong-mexc-zhuan-ru-glif.md#bu-zhou-1-she-zhi-zhong-jie-qian-bao-ru-you-xu-yao)中创建的中介钱包地址。确保复制的地址正确。
 4. 输入您要发送的数量。
 
@@ -53,25 +53,25 @@
 
 ## 步骤 3：检查中介钱包中的 FIL 余额
 
-1. 交易完成后，您可以通过点击 GLIF 网站上的 "钱包" 标签，验证您的中介钱包余额。
+1. 交易完成后，您可以通过点击 GLIF 网站上的 “钱包” 标签，验证您的中介钱包余额。
 
 ![步骤 3：检查中介钱包中的 F](../../../../../.gitbook/assets/image (249).png)
 
-2. 在 "Account" 标签下检查您的 FIL 余额，并在 "Transaction" 标签下查看交易详情。
+2. 在 “Account” 标签下检查您的 FIL 余额，并在 “Transaction” 标签下查看交易详情。
 
 ![步骤 3：检查中介钱包中的 F](../../../../../.gitbook/assets/image (248).png)
 
 ## 步骤 4：将主钱包连接至 GLIF 和 Filecoin 主网
 
 1. 连接您要转移 FIL 的主钱包。
-2. 复制您的账户地址（以 "0x" 或 "f410" 开头的地址）。
+2. 复制您的账户地址（以 “0x” 或 “f410” 开头的地址）。
 
 如需详细了解如何将钱包连接到 Filecoin 主网，请[查看此教程](../../qian-bao/ru-he-jiang-qian-bao-lian-jie-dao-filecoin-zhu-wang.md)。
 
 ## 步骤 5：将 Filecoin 从中介钱包转移到您的主钱包
 
 1. 当 Filecoin 存入中介钱包后，连接到您的中介钱包。
-2. 点击 GLIF 右上角的下拉菜单，选择 "发送 FIL"。
+2. 点击 GLIF 右上角的下拉菜单，选择 “发送 FIL”。
 
 ![步骤 5：将 Filecoin](../../../../../.gitbook/assets/image (252).png)
 
@@ -80,7 +80,7 @@
 > [!TIP]
 > 请确保钱包中留有足够的 FIL 以支付 Gas 费用。
 
-4. 然后点击 "发送"。
+4. 然后点击 “发送”。
 
 ![步骤 5：将 Filecoin](../../../../../.gitbook/assets/image (253).png)
 

@@ -9,7 +9,7 @@ GLIF charges **15% APR** to Storage Providers (SPs) for borrowing.
 
 ## Payments from SP get applied to interest first, then principal
 
-When an Agent makes a payment back to the pool, the proceeds of the payment are applied to the interest balance first, and then the principal balance second.  Once interest is fully paid off, any additional payments are applied to the SP’s principal balance.
+When an Agent makes a payment back to the pool, the proceeds of the payment are applied to the interest balance first, and then the principal balance second.  Once interest is fully paid off, any additional payments are applied to the SP's principal balance.
 
 ## Fee payments accrue over time
 

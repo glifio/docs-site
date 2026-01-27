@@ -1,7 +1,7 @@
 
 # GLIF Agent Website Tutorial Part 8 -  Payment
 
-_If you don’t understand the basics of GLIF Agents, Agent owners, or how to create your Agent on the GLIF website, we suggest starting with_[ ](glif-agent-website-tutorial-part-1-preparation-setup.md)[_Part 1_ ](glif-agent-website-tutorial-part-1-preparation-setup.md)_and_[ _Part 2_ ](glif-agent-website-tutorial-part-2-create-your-agent.md)_of this tutorial series. You can find all the tutorials about using Agents on the **GLIF website** on this_ [_page_](./)_. You can find the instructions about the Agent's command on the **GLIF Command Line Interface** on this_ [_page_](https://github.com/glifio/glif?tab=readme-ov-file#agents---get-started-borrowing)_._
+_If you don't understand the basics of GLIF Agents, Agent owners, or how to create your Agent on the GLIF website, we suggest starting with_[ ](glif-agent-website-tutorial-part-1-preparation-setup.md)[_Part 1_ ](glif-agent-website-tutorial-part-1-preparation-setup.md)_and_[ _Part 2_ ](glif-agent-website-tutorial-part-2-create-your-agent.md)_of this tutorial series. You can find all the tutorials about using Agents on the **GLIF website** on this_ [_page_](./)_. You can find the instructions about the Agent's command on the **GLIF Command Line Interface** on this_ [_page_](https://github.com/glifio/glif?tab=readme-ov-file#agents---get-started-borrowing)_._
 
 ***
 
@@ -25,16 +25,16 @@ After borrowing, Storage Providers are expected to make a payment when they have
 
 ### Step 1: Initiate Payment proposal
 
-1. Navigate to the right-side panel on your Agent page. Click the "**Pay**" tab.
+1. Navigate to the right-side panel on your Agent page. Click the “**Pay**” tab.
 2. Enter the amount to pay. To complete the payment, your Agent must have a sufficient balance.
 3. Click “**Pay**.”
 
 ![Payment form](../../../.gitbook/assets/image (248).png)
 
-4. In the "**Pay FIL from your agent**" multisig proposal interface, review the details and click “**Sign Transaction**.”
+4. In the “**Pay FIL from your agent**” multisig proposal interface, review the details and click “**Sign Transaction**.”
 
 > [!WARNING]
-> Credentials are valid for only 5 minutes. If you see the error "_AgentPolice: Invalid Credential_", it means the credentials have expired, so please start over.
+> Credentials are valid for only 5 minutes. If you see the error “_AgentPolice: Invalid Credential_”, it means the credentials have expired, so please start over.
 
 ![Initiate payment](../../../.gitbook/assets/image (250).png)
 
@@ -42,14 +42,14 @@ After borrowing, Storage Providers are expected to make a payment when they have
 
 ![Approve button](../../../.gitbook/assets/image (251).png)
 
-6. Wait for the transaction to complete. A "**Pay**" proposal will appear in the "**Agent Owner Proposals**" section.
+6. Wait for the transaction to complete. A “**Pay**” proposal will appear in the “**Agent Owner Proposals**” section.
 
 ![Transaction pending](../../../.gitbook/assets/image (252).png)
 
 ### Step 2: Approve the Proposal
 
-1. Connect to another approver wallet from your Agent’s owner multisig wallet.
-2. Navigate to the "**Agent Owner Proposals"** section and find the "**Pay**" proposal.
+1. Connect to another approver wallet from your Agent's owner multisig wallet.
+2. Navigate to the “**Agent Owner Proposals**” section and find the “**Pay**” proposal.
 3. Click “**Approve Proposal**”
 
 ![Proposal approval](../../../.gitbook/assets/image (246).png)
@@ -82,7 +82,7 @@ As this will ensure _all_ the principal is paid off, and no tiny amounts of atto
 
 ## Congratulations!
 
-You’ve successfully made a payment to GLIF!
+You've successfully made a payment to GLIF!
 
 ## **Next Steps:**
 

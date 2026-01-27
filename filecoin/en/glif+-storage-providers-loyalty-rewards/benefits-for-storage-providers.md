@@ -19,7 +19,7 @@ Today, SPs who want to realize FIL from their $GLF typically swap $GLF→$FIL on
 
 #### How it works:
 
-1. You’ve borrowed from GLIF and have interest due.
+1. You've borrowed from GLIF and have interest due.
 2. You hold an active GLIF+ Loyalty Card (see activation steps in [next section](how-to-join-glif+-sp-program.md)).
 3. You fund your Card with $GLF for cash back.
 
@@ -38,7 +38,7 @@ Once funded, up to 10% of every interest payment can be redeemed with your $GLF.
 
 ### **TWAP Pricing**
 
-DEX prices can be volatile. For security, cash back uses a 7-day time-weighted average price (TWAP) for $GLF. Short-term price spikes do not impact the TWAP. Tier premiums are applied over the program’s TWAP price.
+DEX prices can be volatile. For security, cash back uses a 7-day time-weighted average price (TWAP) for $GLF. Short-term price spikes do not impact the TWAP. Tier premiums are applied over the program's TWAP price.
 
 ### Cash back Vault
 

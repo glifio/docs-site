@@ -11,19 +11,19 @@ This tutorial will guide you through the process of withdraw your iFIL tokens fr
 
 1. Connect your wallet to GLIF, which was used to deposit into GLIF and holds iFIL.
 2. To transfer your iFIL from the GLIF pool to FIL, follow the[ step-by-step guide](../../using-the-pool/withdraw-fil-from-glif.md) in this tutorial.
-3. After withdrawn FIL, you will receive FIL in your main wallet. Click on "**Wallet"** tab in the GLIF navigation, and you will be able to see the FIL and iFIL balance in the "**Account**" section.
+3. After withdrawn FIL, you will receive FIL in your main wallet. Click on “**Wallet**” tab in the GLIF navigation, and you will be able to see the FIL and iFIL balance in the “**Account**” section.
 
 ![Token balances](../../../../../.gitbook/assets/image (60).png)
 
 ## Step 2: Locate your recipient address in the exchange
 
-1. Go to your centralized exchange, Binance, and locate FIL in your portfolio. Click "**Deposit**."
+1. Go to your centralized exchange, Binance, and locate FIL in your portfolio. Click “**Deposit**.”
 
 ![Withdraw FIL](../../../../../.gitbook/assets/image (62).png)
 
-2. Select the "**FILEVM**" network if your wallet address starts with "**0x**" or "**f410**." \
+2. Select the “**FILEVM**” network if your wallet address starts with “**0x**” or “**f410**.” \
    \
-   Select the "**Filecoin**" network if your wallet address starts with "**f1**."
+   Select the “**Filecoin**” network if your wallet address starts with “**f1**.”
 
 > [!CAUTION]
 > **WARNING**: Choosing the wrong network can result in the loss of funds. Be aware and double-check your address type.
@@ -39,13 +39,13 @@ This tutorial will guide you through the process of withdraw your iFIL tokens fr
 
 ## Step 3: Send FIL from your wallet to exchange
 
-1. In the top right corner of the GLIF website, click "**Send/Forward FIL**." Alternatively, you can use the "**Send**" function in your wallet as well.
+1. In the top right corner of the GLIF website, click “**Send/Forward FIL**.” Alternatively, you can use the “**Send**” function in your wallet as well.
 
 ![Send button](../../../../../.gitbook/assets/image (30).png)
 
 2. Paste your exchange address copied in [step 2](transfer-fil-from-glif-to-binance.md#step-2-locate-your-recipient-address-in-the-exchange).
 3. Enter the desired amount of FIL to transfer.
-4. Click **"Send"** and confirm the transaction in your wallet.
+4. Click “**Send**” and confirm the transaction in your wallet.
 
 ![Wallet confirmation](../../../../../.gitbook/assets/image (32).png)
 

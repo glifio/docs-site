@@ -13,7 +13,7 @@ In this tutorial we will use MetaMask, but you can find a similar tutorial using
 
 ## Step 2: Connect your wallet to GLIF
 
-1. Visit the [GLIF website](https://www.glif.io) and click on **‘Connect Wallet’** in the top right corner.
+1. Visit the [GLIF website](https://www.glif.io) and click on “**Connect Wallet**” in the top right corner.
 
 ![GLIF connect button](../../../../.gitbook/assets/image (221).png)
 
@@ -30,22 +30,22 @@ For detailed instructions on add the Filecoin Mainnet to your wallet, check out 
 ## Step 3: Deposit your Filecoin with GLIF
 
 1. After connecting your wallet to [GLIF](https://www.glif.io/), your Filecoin balance will appear in the GLIF interface.
-2. Click **"Deposit Filecoin"** in the main page, or go to the **"Pool"** page.
+2. Click “**Deposit Filecoin**” in the main page, or go to the “**Pool**” page.
 
 ![Deposit page](../../../../.gitbook/assets/image (236).png)
 
-3. Enter the amount you wish to deposit, and click **‘Deposit’**.
+3. Enter the amount you wish to deposit, and click “**Deposit**”.
 
 ![Amount input](../../../../.gitbook/assets/image (238).png)
 
-4. Then hit **"Send"**.
+4. Then hit “**Send**”.
 
 ![Send confirmation](../../../../.gitbook/assets/image (303).png)
 
 > [!WARNING]
 > Please make sure that you leave enough FIL in the wallet to cover gas fees.
 
-5. Click **"Confirm"** in your wallet.
+5. Click “**Confirm**” in your wallet.
 
 ![Wallet confirmation](../../../../.gitbook/assets/image (241).png)
 
@@ -56,17 +56,17 @@ After depositing FIL, you will receive iFIL within a minute or two. The FIL valu
 > [!NOTE]
 > For more information on iFIL, check out our [docs](https://docs.glif.io/for-liquidity-providers/glif-reward-mechanism-ifil).
 
-For a more detailed view of your position, click on "**Wallet"** in the GLIF navigation, and you will be able to see the FIL and iFIL associated with your wallet address in the "**Token"** section.
+For a more detailed view of your position, click on “**Wallet**” in the GLIF navigation, and you will be able to see the FIL and iFIL associated with your wallet address in the “**Token**” section.
 
 ![Position view](../../../../.gitbook/assets/image (33).png)
 
 ## Step 5: Add iFIL to your wallet portfolio (chrome extensions only)
 
-1. If you want to see your iFIL in MetaMask,  you can add the token address to your wallet easily. In **"Token"** section, find the **"..."** sign next to iFIL tokens, and click on "**Add iFIL to MetaMask".**
+1. If you want to see your iFIL in MetaMask,  you can add the token address to your wallet easily. In “**Token**” section, find the “**...**” sign next to iFIL tokens, and click on “**Add iFIL to MetaMask”.**
 
 ![Add token dialog](../../../../.gitbook/assets/image (240).png)
 
-2. Click **"Add token"** in MetaMask.
+2. Click “**Add token**” in MetaMask.
 
 ![Add token dialog](../../../../.gitbook/assets/image (144).png)
 

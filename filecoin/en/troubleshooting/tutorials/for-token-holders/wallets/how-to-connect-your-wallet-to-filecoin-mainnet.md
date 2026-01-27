@@ -13,7 +13,7 @@ In this tutorial we will use MetaMask, but you can find a similar tutorial using
 
 ## Step 2: Connect your wallet to GLIF
 
-1. Visit the [GLIF website](https://www.glif.io) and click on **‘Connect Wallet’** in the top right corner.
+1. Visit the [GLIF website](https://www.glif.io) and click on “**Connect Wallet**” in the top right corner.
 
 ![GLIF connect button](../../../../.gitbook/assets/image (156).png)
 
@@ -28,7 +28,7 @@ In this tutorial we will use MetaMask, but you can find a similar tutorial using
 > [!TIP]
 > Using Ledger? Check out our Ledger tutorial [here](../using-the-pool/how-to-deposit-filecoin-from-a-hardware-wallet-with-glif.md).
 
-2. Click **‘Confirm’**, then click **‘Approve’** in MetaMask**.**
+2. Click “**Confirm**”, then click “**Approve**” in MetaMask**.**
 
 ![Confirm button](../../../../.gitbook/assets/image (159).png)
 
@@ -38,7 +38,7 @@ This step connects your MetaMask wallet to the Filecoin network. You can switch 
 
 ## Step 4: Choose Filecoin Mainnet
 
-The Filecoin Mainnet should now appear in your network options. Select "**Filecoin Mainnet"**.
+The Filecoin Mainnet should now appear in your network options. Select “**Filecoin Mainnet**”.
 
 ![Connect wallet](../../../../.gitbook/assets/image (40).png)
 

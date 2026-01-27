@@ -15,7 +15,7 @@ If GLIF dips into the exit reserves, Storage Providers cannot borrow FIL from th
 
 ## What is the Exit Reserve Ratio?
 
-The pool maintains 10% of its assets as a reserve to facilitate withdrawals for Liquidity Providers (also known as "exits").
+The pool maintains 10% of its assets as a reserve to facilitate withdrawals for Liquidity Providers (also known as “exits”).
 
 ## Which exchange can support the transfer of FIL from GLIF?
 

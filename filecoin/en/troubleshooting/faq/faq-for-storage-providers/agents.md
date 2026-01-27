@@ -4,7 +4,7 @@
 
 Agents are smart contracts that allow Storage Providers (SPs) to collateralize their Filecoin Miner Actors to borrow FIL. Agents act as intermediaries between SPs and GLIF, allowing SPs to maintain ownership and control over their Miner Actors while borrowing from GLIF.
 
-Agents are the only smart contracts that are allowed to borrow FIL from the pool. When an Agent borrows FIL from the pool, it can either withdraw it out of the system, or send it to one of the Agent’s pledged miners to use in the Filecoin Storage Mining process.
+Agents are the only smart contracts that are allowed to borrow FIL from the pool. When an Agent borrows FIL from the pool, it can either withdraw it out of the system, or send it to one of the Agent's pledged miners to use in the Filecoin Storage Mining process.
 
 Read [here](../../../for-storage-providers/manage-miner-actors-with-agents.md) for more details.
 
@@ -14,7 +14,7 @@ The [guarantor model](../../../for-storage-providers/guarantor-model.md) allows 
 
 ## What are the responsibilities of the Agent owner and Agent operator keys?
 
-Just like the Filecoin Miner Actor’s owner, worker, and control addresses, GLIF Agents have an owner and operator address with different permissions:
+Just like the Filecoin Miner Actor's owner, worker, and control addresses, GLIF Agents have an owner and operator address with different permissions:
 
 * **Owner Key**: Manages sensitive actions like borrowing, withdrawing,  and adding/removing miner actors from the Agent.
 * **Operator Key**: Handles payments, worker addresses, and day to day operations.
@@ -23,7 +23,7 @@ Read [here](../../../for-storage-providers/manage-miner-actors-with-agents.md) f
 
 ## What is the Agent Police and its function?
 
-The Agent Police is GLIF’s keeper contract that ensures each Agent stays within debt-to-liquidation (DTL) ratio when executing actions like borrowing or withdrawing FIL. If an Agent violates system rules, the Agent Police is responsible for processing Agent state transitions and liquidations.
+The Agent Police is GLIF's keeper contract that ensures each Agent stays within debt-to-liquidation (DTL) ratio when executing actions like borrowing or withdrawing FIL. If an Agent violates system rules, the Agent Police is responsible for processing Agent state transitions and liquidations.
 
 ## How to remove a miner from an agent?
 

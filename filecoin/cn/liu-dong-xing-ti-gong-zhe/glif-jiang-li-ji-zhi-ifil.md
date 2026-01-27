@@ -39,7 +39,7 @@ $$
 
 ## 奖励率
 
-存储提供商以 15% 的固定利率从资金池中借入 FIL。 而只有存储提供商借入的 FIL 会产生奖励。借入的 FIL 与资金池中总 FIL 的比例被称为资金池的"利用率"
+存储提供商以 15% 的固定利率从资金池中借入 FIL。 而只有存储提供商借入的 FIL 会产生奖励。借入的 FIL 与资金池中总 FIL 的比例被称为资金池的“利用率”
 
 利用率的计算公式为：
 
@@ -59,6 +59,6 @@ $$
 
 流动性提供者可以通过将钱包连接到 GLIF，或访问特定地址的[钱包](https://www.glif.io/en/wallet)或[多签](https://www.glif.io/en/multisig)页面，来检查其持有的 iFIL 可兌換的 FIL 价值。
 
-iFIL 回报显示在 "_代币"_ 部分中：
+iFIL 回报显示在 “_代币”_ 部分中：
 
 ![查看您的奖励](https://lh7-us.googleusercontent.com/docsz/AD_4nXceJhIlPoW8eiSHHp4UI9OxvJEWmm8ewUaYGqcFYvczUDH-DA5CwEcYqK3mp1aeAMzE7hZ_ZC2D3FhoyjwwpjFT4qxJlbP9TdYjKOKXZKQhtRIvMH8npmLXI8IcnE3RkMV0gZCL3p6azpC0ppONEFnuajA?key=B4TufszgVJXBgC3iG30KYw)

@@ -8,23 +8,23 @@ This guide explains how to create a **burner wallet** as an intermediary wallet 
 
 To obtain a Burner wallet, you will need to:
 
-1. Visit the GLIF website and click **"Connect Wallet"** in the top right corner.
+1. Visit the GLIF website and click “**Connect Wallet**” in the top right corner.
 
 ![GLIF connect button](../../../../.gitbook/assets/image (152).png)
 
-2. Select **"Burner Wallet"** from the options.
+2. Select “**Burner Wallet**” from the options.
 
 ![Wallet selection](../../../../.gitbook/assets/image (110).png)
 
-3. Choose **"Filecoin (f1...)"** as the address type. Click **"Create Seed Phrase"** to generate a new 24-word seed phrase.
+3. Choose “**Filecoin (f1...)**” as the address type. Click “**Create Seed Phrase**” to generate a new 24-word seed phrase.
 
 ![Connect wallet](../../../../.gitbook/assets/image (122).png)
 
-4. Click **"Copy"** and save the seed phrase in a safe place, as it will be used to regain access to the burner wallet if you get disconnected. Then, click **"I've recorded my seed phrase."**
+4. Click “**Copy**” and save the seed phrase in a safe place, as it will be used to regain access to the burner wallet if you get disconnected. Then, click “**I've recorded my seed phrase.**”
 
 ![Tutorial step](../../../../.gitbook/assets/image (123).png)
 
-5. Then, you are required to type in several words from your seed phrase to double-check your record of the seed phrase. Finally, click **"Connect."**
+5. Then, you are required to type in several words from your seed phrase to double-check your record of the seed phrase. Finally, click “**Connect.**”
 
 ![Tutorial step](../../../../.gitbook/assets/image (124).png)
 
@@ -41,7 +41,7 @@ To obtain a Burner wallet, you will need to:
 
 ## Conclusion
 
-Congrats! You have obtained a burner wallet as an intermediary wallet with an "**f1**" address.
+Congrats! You have obtained a burner wallet as an intermediary wallet with an “**f1**” address.
 
 Remember to keep your seed phrase safe and private, and always perform a test transaction before sending a large amount!
 

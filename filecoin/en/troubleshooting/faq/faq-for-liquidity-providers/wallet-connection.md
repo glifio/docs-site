@@ -10,7 +10,7 @@ It should be possible to have multiple wallet extensions installed simultaneousl
 
 ## **I generated a f1 address in my Filecoin account with Ledger, and it seems different from the 0x address that MetaMask uses. I can't see my FIL in the Filecoin network under MetaMask.**
 
-MetaMask doesn't support Filecoin f1 addresses, so you won't be able to see your FIL balance directly in MetaMask if you’re using a native (f1) Filecoin address.
+MetaMask doesn't support Filecoin f1 addresses, so you won't be able to see your FIL balance directly in MetaMask if you're using a native (f1) Filecoin address.
 
 Instead, you can connect your Ledger device directly to GLIF and see your balances on the GLIF website.
 
@@ -28,10 +28,10 @@ Filsnap is a plugin that can be installed inside MetaMask that will produce a na
 
 Certain advanced Filecoin use cases will only work with Filsnap, however, most day to day use cases work with default MetaMask and 0x addresses.
 
-## **Why do I see the error message "Request expired" when I use Ledger to deposit or withdraw?**
+## **Why do I see the error message “Request expired” when I use Ledger to deposit or withdraw?**
 
-After clicking "Send" in the GLIF UI, ensure you check your wallet (the browser extension) to confirm the gas fees and send the transaction. The transaction might expire if the MetaMask popup appears behind the browser window and is not addressed promptly.
+After clicking “Send” in the GLIF UI, ensure you check your wallet (the browser extension) to confirm the gas fees and send the transaction. The transaction might expire if the MetaMask popup appears behind the browser window and is not addressed promptly.
 
 ## I am facing issues while trying to deposit FIL using my Ledger. The transaction failed, stating that it contained invalid data. What should I do?
 
-On your Ledger device, it may prompt "Expert mode required." You need to enable "Expert mode" within the Filecoin App on your Ledger to proceed. This step is necessary because the Ledger does not inherently recognize Ethereum transaction parameters, requiring Expert mode to correctly sign the transactions.
+On your Ledger device, it may prompt “Expert mode required.” You need to enable “Expert mode” within the Filecoin App on your Ledger to proceed. This step is necessary because the Ledger does not inherently recognize Ethereum transaction parameters, requiring Expert mode to correctly sign the transactions.

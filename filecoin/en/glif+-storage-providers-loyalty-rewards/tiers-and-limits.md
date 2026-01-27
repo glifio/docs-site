@@ -12,7 +12,7 @@ Your GLIF+ Tier is determined by the amount of $GLF you stake, which sets your c
 
 ### **Card costs**
 
-There are 3 "Costs" associated with the GLIF+ Card:
+There are 3 “Costs” associated with the GLIF+ Card:
 
 1. Mint cost - a one-time, **non-refundable fee** paid for creating a Card. It is **not** included in activation fees.
 2. Activation fee (staking requirement) - a $GLF Token lockup that is repaid to the Card owner after downgrading or deactivating the Card. The $GLF used to obtain membership is **refundable** and separate from the $GLF used for cash back redemption.

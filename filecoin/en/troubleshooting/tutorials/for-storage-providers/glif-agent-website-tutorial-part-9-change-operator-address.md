@@ -1,7 +1,7 @@
 
 # GLIF Agent Website Tutorial Part 9- Change operator address
 
-_If you don’t understand the basics of GLIF Agents, Agent owners, or how to create your Agent on the GLIF website, we suggest starting with_[ ](glif-agent-website-tutorial-part-1-preparation-setup.md)[_Part 1_ ](glif-agent-website-tutorial-part-1-preparation-setup.md)_and_[ _Part 2_ ](glif-agent-website-tutorial-part-2-create-your-agent.md)_of this tutorial series. You can find all the tutorials about using Agents on the **GLIF website** on this_ [_page_](./)_. You can find the instructions about the Agent's command on the **GLIF Command Line Interface** on this_ [_page_](https://github.com/glifio/glif?tab=readme-ov-file#agents---get-started-borrowing)_._
+_If you don't understand the basics of GLIF Agents, Agent owners, or how to create your Agent on the GLIF website, we suggest starting with_[ ](glif-agent-website-tutorial-part-1-preparation-setup.md)[_Part 1_ ](glif-agent-website-tutorial-part-1-preparation-setup.md)_and_[ _Part 2_ ](glif-agent-website-tutorial-part-2-create-your-agent.md)_of this tutorial series. You can find all the tutorials about using Agents on the **GLIF website** on this_ [_page_](./)_. You can find the instructions about the Agent's command on the **GLIF Command Line Interface** on this_ [_page_](https://github.com/glifio/glif?tab=readme-ov-file#agents---get-started-borrowing)_._
 
 ***
 
@@ -24,12 +24,12 @@ In this part of the tutorial, we will guide you through the process of changing 
 
 ## Step 1: Initiate Remove Miner Operator Proposal
 
-1. Navigate to the "**Admin**" section on your Agent page. Make sure you are in the "**Owner mode**"
+1. Navigate to the “**Admin**” section on your Agent page. Make sure you are in the “**Owner mode**”
 2. Click the icon next to the operator.
 
 ![The Icon button](../../../.gitbook/assets/image (263).png)
 
-3. In the "**Change Operator of Your Agent**" multisig proposal interface, enter the new operator address for the miner.
+3. In the “**Change Operator of Your Agent**” multisig proposal interface, enter the new operator address for the miner.
 
 ![Address input](../../../.gitbook/assets/image (264).png)
 
@@ -37,14 +37,14 @@ In this part of the tutorial, we will guide you through the process of changing 
 
 ![Approve button](../../../.gitbook/assets/image (265).png)
 
-5. Wait for the transaction to complete. A "**Transfer Operator**" proposal will appear in the "**Agent Owner Proposals**" section.
+5. Wait for the transaction to complete. A “**Transfer Operator**” proposal will appear in the “**Agent Owner Proposals**” section.
 
 ![Transaction pending](../../../.gitbook/assets/image (266).png)
 
 ### Step 2: Approve the Proposal
 
-1. Connect to another approver wallet from your Agent’s owner multisig wallet.
-2. Navigate to the "**Agent Owner Proposals**" section and find the "**Transfer Operator**" proposal.
+1. Connect to another approver wallet from your Agent's owner multisig wallet.
+2. Navigate to the “**Agent Owner Proposals**” section and find the “**Transfer Operator**” proposal.
 3. Click “**Approve Proposal**”.
 
 ![Proposal approval](../../../.gitbook/assets/image (267).png)
@@ -54,8 +54,8 @@ In this part of the tutorial, we will guide you through the process of changing 
 ## Step 3: Accept Operator Role
 
 1. Connect to the proposed operator wallet.
-2. Navigate to the "**Admin**" section of the Agent page. You will see the address of the pending operator.
-3. Click "**Accept operator role**".
+2. Navigate to the “**Admin**” section of the Agent page. You will see the address of the pending operator.
+3. Click “**Accept operator role**”.
 
 ![Approve proposal](../../../.gitbook/assets/image (269).png)
 
@@ -63,13 +63,13 @@ In this part of the tutorial, we will guide you through the process of changing 
 
 ![Send button](../../../.gitbook/assets/image (270).png)
 
-5. Wait for the transaction to complete (1–2 minutes). The updated operator address will appear in the "**Admin**" panel.
+5. Wait for the transaction to complete (1–2 minutes). The updated operator address will appear in the “**Admin**” panel.
 
 ***
 
 ## Congratulations!
 
-You’ve successfully change your operator address!
+You've successfully change your operator address!
 
 ## **Next Steps:**
 

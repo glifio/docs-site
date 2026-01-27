@@ -9,7 +9,7 @@ When an LP deposits ICNT into the pool, they receive a proportionate amount of s
 \
 LPs can exchange stICNT back to ICNT on Uniswap, and later on, directly through the Pool. stICNT can be transferred to other wallets, traded on secondary markets, and used in other DeFi protocols.
 
-There is theoretically no "max supply" of stICNT, since new stICNT will be minted whenever an ICNT token holder deposits tokens into the Pool. Technically speaking, there can never be more than 700,000,000 stICNT, since this is the maximum supply of ICNT.
+There is theoretically no “max supply” of stICNT, since new stICNT will be minted whenever an ICNT token holder deposits tokens into the Pool. Technically speaking, there can never be more than 700,000,000 stICNT, since this is the maximum supply of ICNT.
 
 ## **Calculation of stICNT**
 
@@ -30,7 +30,7 @@ $$
 
 ### **Basic Example:**
 
-1. **stICNT Price:** Let’s imagine a simple scenario where the current price of stICNT is 1 ICNT. So `1 stICNT == 1 ICNT`
+1. **stICNT Price:** Let's imagine a simple scenario where the current price of stICNT is 1 ICNT. So `1 stICNT == 1 ICNT`
 2. **LP Deposits:** An LP deposits 1 ICNT into GLIF and receives 1 stICNT.
 3. **Staking rewards accrue:** As staking rewards accrue, the pool's total assets increase.
 4. **Value Increase:** The stICNT price increases because as more total assets are earned by the pool. If the stICNT value increases by 5%, 1 stICNT is now worth 1.05 ICNT.

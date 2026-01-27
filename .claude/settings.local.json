@@ -2,6 +2,9 @@
   "permissions": {
     "allow": [
       "Bash(find:*)",
+      "Bash(git add:*)",
+      "Bash(git checkout:*)",
+      "Bash(git commit:*)",
       "Bash(grep:*)",
       "Bash(node -e:*)",
       "Bash(python:*)",

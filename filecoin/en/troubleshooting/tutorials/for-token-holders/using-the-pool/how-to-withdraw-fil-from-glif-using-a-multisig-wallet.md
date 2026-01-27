@@ -20,7 +20,7 @@ In this tutorial, a GLIF multisig wallet with deposited FIL, holding iFIL, is cr
 
 1. **Access your multisig wallet**
 
-Go to the [GLIF website](https://glif.io) and navigate to the "**Multisig"** tab.
+Go to the [GLIF website](https://glif.io) and navigate to the “**Multisig**” tab.
 
 ![Approve pool access](../../../../.gitbook/assets/image (310).png)
 
@@ -30,16 +30,16 @@ Ensure your wallet is connected and you are viewing your multisig wallet.
 
 2. **Initiate the withdrawal approval**
 
-Go to the "**Tokens"** section, click on the **"⋯"** button next to your iFIL balance. Select **"Withdraw from Pool"** from the dropdown menu.
+Go to the “**Tokens**” section, click on the “**⋯**” button next to your iFIL balance. Select “**Withdraw from Pool**” from the dropdown menu.
 
 ![Withdraw button](../../../../.gitbook/assets/image (327).png)
 
 3. **Enter withdrawal amount**
 
-Input the amount of iFIL you wish to withdraw. Click **"Approve"** to allow the GLIF Pool to transfer your iFIL.
+Input the amount of iFIL you wish to withdraw. Click “**Approve**” to allow the GLIF Pool to transfer your iFIL.
 
 > [!NOTE]
-> In the left sidebar, you will see that Step 1, **'Approve the Infinity Pool to transfer your iFIL'** is highlighted.
+> In the left sidebar, you will see that Step 1, “**Approve the Infinity Pool to transfer your iFIL**” is highlighted.
 
 ![Approve pool access](../../../../.gitbook/assets/image (1).png)
 
@@ -47,11 +47,11 @@ Input the amount of iFIL you wish to withdraw. Click **"Approve"** to allow the 
 
 A prompt will appear in your connected wallet. Confirm the transaction to create the approval proposal. This step may take a few minutes as the transaction is processed on the network.
 
-You will be able to withdraw your iFIL once the multisig proposal to approve the transfer by the Infinity Pool is approved. There is a '**View Proposal**' button, click it.
+You will be able to withdraw your iFIL once the multisig proposal to approve the transfer by the Infinity Pool is approved. There is a “**View Proposal**” button, click it.
 
 ![Proposal approval](../../../../.gitbook/assets/image (2).png)
 
-You should now see the pending multisig proposal. If not, navigate to the **"Multisig Proposals"** section in your multisig wallet interface.
+You should now see the pending multisig proposal. If not, navigate to the “**Multisig Proposals**” section in your multisig wallet interface.
 
 ![Approve pool access](../../../../.gitbook/assets/image (343).png)
 
@@ -59,13 +59,13 @@ You should now see the pending multisig proposal. If not, navigate to the **"Mul
 
 Now, **the proposer's wallet** should be disconnected. **Other signers** need to connect their wallets and approve the proposal.
 
-Then, navigate to the **"Multisig Proposals"** section in your multisig wallet interface. Locate the pending proposal, created by the proposer (another wallet).
+Then, navigate to the “**Multisig Proposals**” section in your multisig wallet interface. Locate the pending proposal, created by the proposer (another wallet).
 
 ![Approve pool access](../../../../.gitbook/assets/image (3).png)
 
 6. **Other signers approve the proposal**
 
-After selecting the proposal, click '**Approve Proposal**' and confirm the approval in the wallet prompt.
+After selecting the proposal, click “**Approve Proposal**” and confirm the approval in the wallet prompt.
 
 > [!NOTE]
 > Each signer's wallet must have a small amount of FIL to cover the gas fee.
@@ -76,7 +76,7 @@ After selecting the proposal, click '**Approve Proposal**' and confirm the appro
 
 Once the required number of signers have approved, the approval transaction will be executed.If you don't see immediate updates, try refreshing the page or reconnecting your wallet after a few minutes.
 
-You can check the transaction details on the '**Transactions**' page at the bottom of the **Multisig** page, where the method column will display '**Approve**.'
+You can check the transaction details on the '**Transactions“** page at the bottom of the **Multisig** page, where the method column will display **”Approve**.'
 
 ![Approve pool access](../../../../.gitbook/assets/image (277).png)
 
@@ -88,11 +88,11 @@ After completing Step 1, the Infinity Pool is now allowed to transfer the specif
 
 1. **Initiate the withdrawal**
 
-Return to the "**Tokens"** section in your multisig wallet. Click on the **"⋯"** button next to your iFIL balance and select **"Withdraw from Pool"** again.
+Return to the “**Tokens**” section in your multisig wallet. Click on the “**⋯**” button next to your iFIL balance and select “**Withdraw from Pool**” again.
 
 ![Withdraw button](../../../../.gitbook/assets/image (324).png)
 
-You should see a small checkmark next to '**Approve the Infinity Pool to transfer your iFIL"**. Then, you can proceed to **Step 2 to initiate the withdrawal!**
+You should see a small checkmark next to '**Approve the Infinity Pool to transfer your iFIL“**. Then, you can proceed to **Step 2 to initiate the withdrawal!**
 
 If you need to withdraw more than the previously approved amount, you will need to return to Step 1.
 
@@ -100,7 +100,7 @@ If you need to withdraw more than the previously approved amount, you will need 
 
 2. **Confirm withdrawal**
 
-You will now see step 2, **"Withdraw from the Infinity Pool"**. Confirm the details and click **"Withdraw"**.
+You will now see step 2, “**Withdraw from the Infinity Pool**”. Confirm the details and click “**Withdraw**”.
 
 ![Withdraw button](../../../../.gitbook/assets/image (4).png)
 
@@ -108,7 +108,7 @@ You will now see step 2, **"Withdraw from the Infinity Pool"**. Confirm the deta
 
 Confirm the transaction in the wallet to create the proposal.
 
-Then, a new multisig proposal will be created for the withdrawal transaction. You can check the details of this proposal in the "**Multisig proposals**" section.
+Then, a new multisig proposal will be created for the withdrawal transaction. You can check the details of this proposal in the “**Multisig proposals**” section.
 
 ![Create multisig](../../../../.gitbook/assets/image (5).png)
 
@@ -116,19 +116,19 @@ Then, a new multisig proposal will be created for the withdrawal transaction. Yo
 
 Now, _similar to step 1_, **the proposer's wallet** should be disconnected. **Other signers** need to connect their wallets and approve the proposal.
 
-Then, navigate to the **"Multisig Proposals"** section in your multisig wallet interface. Locate the pending proposal, created by the proposer's wallet. Click "**Approve proposal**" and confirm the approval in the **other signers' wallets.**
+Then, navigate to the “**Multisig Proposals**” section in your multisig wallet interface. Locate the pending proposal, created by the proposer's wallet. Click “**Approve proposal**” and confirm the approval in the **other signers' wallets.**
 
 5. **Check the transactions**
 
 Once the required number of signers have approved, the transaction will be executed. Please wait if you cannot see the transaction immediately, as it may take a few minutes for it to be confirmed on the network.
 
-You can check the transaction details in the **"Transactions"** section at the bottom of the multisig page.
+You can check the transaction details in the “**Transactions**” section at the bottom of the multisig page.
 
 ![Approve proposal](../../../../.gitbook/assets/image (6).png)
 
 6. **Complete the Withdrawal**
 
-Once the required approvals are obtained, the withdrawal transaction will be executed. Your iFIL will be converted back to FIL and deposited to your multisig wallet. Check the "**Filecoin Balance"** section to confirm your updated FIL balance.
+Once the required approvals are obtained, the withdrawal transaction will be executed. Your iFIL will be converted back to FIL and deposited to your multisig wallet. Check the “**Filecoin Balance**” section to confirm your updated FIL balance.
 
 ![FIL balance](../../../../.gitbook/assets/image (7).png)
 

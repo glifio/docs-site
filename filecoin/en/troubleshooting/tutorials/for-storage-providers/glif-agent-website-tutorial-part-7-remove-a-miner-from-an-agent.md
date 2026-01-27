@@ -1,7 +1,7 @@
 
 # GLIF Agent Website Tutorial Part 7 - Remove a Miner from an Agent
 
-_If you don’t understand the basics of GLIF Agents, Agent owners, or how to create your Agent on the GLIF website, we suggest starting with_[ ](glif-agent-website-tutorial-part-1-preparation-setup.md)[_Part 1_ ](glif-agent-website-tutorial-part-1-preparation-setup.md)_and_[ _Part 2_ ](glif-agent-website-tutorial-part-2-create-your-agent.md)_of this tutorial series. You can find all the tutorials about using Agents on the **GLIF website** on this_ [_page_](./)_. You can find the instructions about the Agent's command on the **GLIF Command Line Interface** on this_ [_page_](https://github.com/glifio/glif?tab=readme-ov-file#agents---get-started-borrowing)_._
+_If you don't understand the basics of GLIF Agents, Agent owners, or how to create your Agent on the GLIF website, we suggest starting with_[ ](glif-agent-website-tutorial-part-1-preparation-setup.md)[_Part 1_ ](glif-agent-website-tutorial-part-1-preparation-setup.md)_and_[ _Part 2_ ](glif-agent-website-tutorial-part-2-create-your-agent.md)_of this tutorial series. You can find all the tutorials about using Agents on the **GLIF website** on this_ [_page_](./)_. You can find the instructions about the Agent's command on the **GLIF Command Line Interface** on this_ [_page_](https://github.com/glifio/glif?tab=readme-ov-file#agents---get-started-borrowing)_._
 
 ***
 
@@ -22,16 +22,16 @@ In this part of the tutorial, we will guide you through the process of remove a 
 
 ## Step 1: Initiate Remove Miner Proposal
 
-1. Navigate to the "**Miners**" section on your Agent page.
-2. Click the "trash can" icon next to the miner you want to fund.
+1. Navigate to the “**Miners**” section on your Agent page.
+2. Click the “trash can” icon next to the miner you want to fund.
 
 ![The button](../../../.gitbook/assets/image (253).png)
 
-3. In the "**Remove a miner from your Agent**" multisig proposal interface, enter the new owner address of the miner.
+3. In the “**Remove a miner from your Agent**” multisig proposal interface, enter the new owner address of the miner.
 4. Review the details and click “**Sign Transaction**.”
 
 > [!WARNING]
-> Credentials are valid for only 5 minutes. If you see the error "_AgentPolice: Invalid Credential_", it means the credentials have expired, so please start over.
+> Credentials are valid for only 5 minutes. If you see the error “_AgentPolice: Invalid Credential_”, it means the credentials have expired, so please start over.
 
 ![Initiate removal](../../../.gitbook/assets/image (254).png)
 
@@ -39,14 +39,14 @@ In this part of the tutorial, we will guide you through the process of remove a 
 
 ![Approve button](../../../.gitbook/assets/image (255).png)
 
-6. Wait for the transaction to complete. A "**RemoveMiner**" proposal will appear in the "**Agent Owner Proposals**" section.
+6. Wait for the transaction to complete. A “**RemoveMiner**” proposal will appear in the “**Agent Owner Proposals**” section.
 
 ![Transaction pending](../../../.gitbook/assets/image (256).png)
 
 ## Step 2: Approve the Proposal
 
-1. Connect to another approver wallet from your Agent’s owner multisig wallet.
-2. Navigate to the "**Agent Owner Proposals"** section and find the "**Withdraw**" proposal.
+1. Connect to another approver wallet from your Agent's owner multisig wallet.
+2. Navigate to the “**Agent Owner Proposals**” section and find the “**Withdraw**” proposal.
 3. Click “**Approve Proposal**”
 
 ![Proposal approval](../../../.gitbook/assets/image (246).png)
@@ -60,7 +60,7 @@ In this part of the tutorial, we will guide you through the process of remove a 
 
 ## Congratulations!
 
-You’ve successfully removed a Miner from your Agent!
+You've successfully removed a Miner from your Agent!
 
 ## **Next Steps:**
 

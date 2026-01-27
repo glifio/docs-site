@@ -10,7 +10,7 @@ To be eligible for borrowing, SP must have sufficient FIL to provide as collater
 
 ## How does collateralization work in GLIF?
 
-GLIF constantly monitors the [liquidation value](../../../for-storage-providers/sp-liquidation-values.md) of every SP in the network. If the SP’s borrowed FIL reaches the limit of their liquidation value, the Storage Providers get cut off from borrowing more FIL. At 92%, the Storage Provider is at risk of liquidation. You can read more about the rules [here](../../../for-storage-providers/liquidations.md).
+GLIF constantly monitors the [liquidation value](../../../for-storage-providers/sp-liquidation-values.md) of every SP in the network. If the SP's borrowed FIL reaches the limit of their liquidation value, the Storage Providers get cut off from borrowing more FIL. At 92%, the Storage Provider is at risk of liquidation. You can read more about the rules [here](../../../for-storage-providers/liquidations.md).
 
 ## Is my FIL safe in the event of market fluctuations?
 

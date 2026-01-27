@@ -15,7 +15,7 @@ You can choose from the following options:
 * [**Step 2a: through GLIF website**](how-to-withdraw-fil-from-the-agent-to-an-exchange-at-glif.md#step-1c-creating-an-intermediary-wallet-to-transfer-fil-ledger-wallet)
 * [**Step 2b: through CLI**](how-to-withdraw-fil-from-the-agent-to-an-exchange-at-glif.md#step-2b-withdrawing-from-your-agent-to-the-intermediary-wallet-through-cli)
 
-**Step 3:** [**Transferring FIL from the intermediary wallet to the desired "f1" address on the exchange**](how-to-withdraw-fil-from-the-agent-to-an-exchange-at-glif.md#step-3-transferring-fil-from-the-intermediary-wallet-to-the-desired-f1-address-on-the-exchange)
+**Step 3:** [**Transferring FIL from the intermediary wallet to the desired “f1” address on the exchange**](how-to-withdraw-fil-from-the-agent-to-an-exchange-at-glif.md#step-3-transferring-fil-from-the-intermediary-wallet-to-the-desired-f1-address-on-the-exchange)
 
 > [!IMPORTANT]
 > **Before your send any FIL to any wallet, test it with a small amount of FIL.**
@@ -38,25 +38,25 @@ For details on creating an intermediary wallet, please refer to the tutorial by 
 ## **Step 2a :** Withdrawing from your agent to the intermediary wallet - through GLIF website
 
 1. Connect to one of the wallets that is a signer for your agent's multisig wallet.
-2. Navigate to the "**Withdraw"** tab within the agent.
+2. Navigate to the “**Withdraw**” tab within the agent.
 
 ![Withdrawal step](../../../.gitbook/assets/image (68).png)
 
 3. Enter the intermediary wallet you created in[ Step 1 ](how-to-withdraw-fil-from-the-agent-to-an-exchange-at-glif.md#step-1-setting-up-your-intermediary-wallet)as the recipient.
 4. Enter the amount to withdraw.
-5. Click "**Withdraw**"
+5. Click “**Withdraw**”
 
 > [!WARNING]
 > Wallets with no prior transactions on chain are not supported as the intermediary wallet. Please make some transactions with this wallet before this step.
 
 ![Withdraw FIL](../../../.gitbook/assets/image (66).png)
 
-6. Click "**Sign Transaction"**.
+6. Click “**Sign Transaction**”.
 
 ![Sign prompt](../../../.gitbook/assets/image (71).png)
 
 7. After signing the transaction, you will receive a signed credential that **expires in around 5 minutes**. Complete the transaction within this time.
-8. Click "**Send"**.
+8. Click “**Send**”.
 
 > [!IMPORTANT]
 > If you do not complete the transaction and **sign the proposal with your other signer wallets within 5 minutes**, you will need to repeat this step.
@@ -68,12 +68,12 @@ For details on creating an intermediary wallet, please refer to the tutorial by 
 ![Approval step](../../../.gitbook/assets/image (73).png)
 
 10. Wait for the transaction to be processed. This may take 1-2 minutes.
-11. Sign in to the additional signer wallet in your agent’s multisig wallet.
-12. Click on the proposal just made in the "**Owner Proposals**" tab on the agent page..
+11. Sign in to the additional signer wallet in your agent's multisig wallet.
+12. Click on the proposal just made in the “**Owner Proposals**” tab on the agent page..
 
 ![Toggle button](../../../.gitbook/assets/image (74).png)
 
-13. Click "**Approve proposal**".
+13. Click “**Approve proposal**”.
 
 > [!NOTE]
 > Make sure all signer wallets have **enough gas fees** to proceed with the transaction.
@@ -81,11 +81,11 @@ For details on creating an intermediary wallet, please refer to the tutorial by 
 ![Approve proposal](../../../.gitbook/assets/image (75).png)
 
 14. Wait for the transaction to be processed. This may take 1-2 minutes.
-15. Once the multisig proposal is complete, it will disappear, and a successful transaction will be displayed in the "**Transaction**" tab.
+15. Once the multisig proposal is complete, it will disappear, and a successful transaction will be displayed in the “**Transaction**” tab.
 
 ![Approve proposal](../../../.gitbook/assets/image (77).png)
 
-16. Verify your balance in the intermediary wallet to ensure the transaction was successful on the GLIF **"wallet"** page, or verify it by searching your f1 address on [filfox.info](https://filfox.info/en).
+16. Verify your balance in the intermediary wallet to ensure the transaction was successful on the GLIF “**wallet**” page, or verify it by searching your f1 address on [filfox.info](https://filfox.info/en).
 
 ## **Step 2b :** Withdrawing from your agent to the intermediary wallet - through CLI
 
@@ -106,17 +106,17 @@ For details on creating an intermediary wallet, please refer to the tutorial by 
 
 ![Withdrawal step](../../../.gitbook/assets/image (80).png)
 
-3. Verify your balance in the intermediary wallet to ensure the transaction was successful on the GLIF **"wallet"** page, or verify it by searching your f1 wallet address on [filfox.info](https://filfox.info/en).
+3. Verify your balance in the intermediary wallet to ensure the transaction was successful on the GLIF “**wallet**” page, or verify it by searching your f1 wallet address on [filfox.info](https://filfox.info/en).
 
-## Step 3**:** Transferring FIL from the intermediary wallet to the desired "f1" address on the exchange
+## Step 3**:** Transferring FIL from the intermediary wallet to the desired “f1” address on the exchange
 
-1. Connect to your intermediary wallet made in [step 1](how-to-withdraw-fil-from-the-agent-to-an-exchange-at-glif.md#step-1a-creating-an-intermediary-wallet-burner-wallet). On the GLIF website, click **"Send FIL."**
+1. Connect to your intermediary wallet made in [step 1](how-to-withdraw-fil-from-the-agent-to-an-exchange-at-glif.md#step-1a-creating-an-intermediary-wallet-burner-wallet). On the GLIF website, click “**Send FIL.**”
 
 ![Send button](../../../.gitbook/assets/image (93).png)
 
 2. Paste your f1 address on the exchange in the recipient field.
 3. Enter the desired amount of FIL to transfer.
-4. Click **"Send"** and confirm the transaction.
+4. Click “**Send**” and confirm the transaction.
 
 ![Transaction confirmation](../../../.gitbook/assets/image (94).png)
 

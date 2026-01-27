@@ -1,7 +1,7 @@
 
 # GLIF Agent Website Tutorial Part 6 - Withdraw Rewards / Cash Advance
 
-_If you don’t understand the basics of GLIF Agents, Agent owners, or how to create your Agent on the GLIF website, we suggest starting with_[ ](glif-agent-website-tutorial-part-1-preparation-setup.md)[_Part 1_ ](glif-agent-website-tutorial-part-1-preparation-setup.md)_and_[ _Part 2_ ](glif-agent-website-tutorial-part-2-create-your-agent.md)_of this tutorial series. You can find all the tutorials about using Agents on the **GLIF website** on this_ [_page_](./)_. You can find the instructions about the Agent's command on the **GLIF Command Line Interface** on this_ [_page_](https://github.com/glifio/glif?tab=readme-ov-file#agents---get-started-borrowing)_._
+_If you don't understand the basics of GLIF Agents, Agent owners, or how to create your Agent on the GLIF website, we suggest starting with_[ ](glif-agent-website-tutorial-part-1-preparation-setup.md)[_Part 1_ ](glif-agent-website-tutorial-part-1-preparation-setup.md)_and_[ _Part 2_ ](glif-agent-website-tutorial-part-2-create-your-agent.md)_of this tutorial series. You can find all the tutorials about using Agents on the **GLIF website** on this_ [_page_](./)_. You can find the instructions about the Agent's command on the **GLIF Command Line Interface** on this_ [_page_](https://github.com/glifio/glif?tab=readme-ov-file#agents---get-started-borrowing)_._
 
 ***
 
@@ -23,7 +23,7 @@ You can do this when you meet the DTL requirement on your Agent - to read more a
 
 ## Step 1: Initiate Withdraw Proposal
 
-1. Navigate to the right-side panel on your Agent page. Click the "**Withdraw**" tab.
+1. Navigate to the right-side panel on your Agent page. Click the “**Withdraw**” tab.
 2. Enter the recipient address and the amount to withdraw.
 
 > [!WARNING]
@@ -36,7 +36,7 @@ You can do this when you meet the DTL requirement on your Agent - to read more a
 4. Review the details and click “**Sign Transaction**.”
 
 > [!WARNING]
-> Credentials are valid for only 5 minutes. If you see the error "_AgentPolice: Invalid Credential_", it means the credentials have expired, so please start over.
+> Credentials are valid for only 5 minutes. If you see the error “_AgentPolice: Invalid Credential_”, it means the credentials have expired, so please start over.
 
 ![Withdrawal step](../../../.gitbook/assets/image (243).png)
 
@@ -44,14 +44,14 @@ You can do this when you meet the DTL requirement on your Agent - to read more a
 
 ![Approve button](../../../.gitbook/assets/image (244).png)
 
-6. Wait for the transaction to complete. A "**Withdraw**" proposal will appear in the "**Agent Owner Proposals**" section.
+6. Wait for the transaction to complete. A “**Withdraw**” proposal will appear in the “**Agent Owner Proposals**” section.
 
 ![Transaction pending](../../../.gitbook/assets/image (245).png)
 
 ## Step 2: Approve the Proposal
 
-1. Connect to another approver wallet from your Agent’s owner multisig wallet.
-2. Navigate to the "**Agent Owner Proposals"** section and find the "**Withdraw**" proposal.
+1. Connect to another approver wallet from your Agent's owner multisig wallet.
+2. Navigate to the “**Agent Owner Proposals**” section and find the “**Withdraw**” proposal.
 3. Click “**Approve Proposal**”
 
 ![Proposal approval](../../../.gitbook/assets/image (246).png)
@@ -63,7 +63,7 @@ You can do this when you meet the DTL requirement on your Agent - to read more a
 
 ## Congratulations!
 
-You’ve successfully withdrawn funds from your Agent!
+You've successfully withdrawn funds from your Agent!
 
 ## **Next Steps:**
 

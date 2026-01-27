@@ -16,7 +16,7 @@ Make sure you have your device connected to your computer (e.g., with the suppli
 
 ## Step 2. Connect your wallet to GLIF
 
-1. Go to [GLIF website](https://www.glif.io) and click on **Connect Wallet** in the top right of the screen. You will see a list of wallets to connect. Choose ‘Ledger (Filecoin)’.
+1. Go to [GLIF website](https://www.glif.io) and click on **Connect Wallet** in the top right of the screen. You will see a list of wallets to connect. Choose “Ledger (Filecoin)”.
 
 ![Toggle button](../../../../.gitbook/assets/image (164).png)
 
@@ -31,7 +31,7 @@ Make sure you have your device connected to your computer (e.g., with the suppli
 
 ![MetaMask prompt](../../../../.gitbook/assets/image (166).png)
 
-4. When the device says ‘Filecoin Ready’, then select the device in the browser popup and hit **Connect**.
+4. When the device says “Filecoin Ready”, then select the device in the browser popup and hit **Connect**.
 
 ![Connect wallet](../../../../.gitbook/assets/image (168).png)
 
@@ -39,18 +39,18 @@ Make sure you have your device connected to your computer (e.g., with the suppli
 
 ## Step 3. Deposit your tokens
 
-1. Click **"Deposit Filecoin"** in the main page, or go to the **"Pool"** page.
+1. Click “**Deposit Filecoin**” in the main page, or go to the “**Pool**” page.
 
 ![Deposit page](../../../../.gitbook/assets/image (261).png)
 
-2. Enter the amount you wish to deposit, and click **‘Deposit’**.
+2. Enter the amount you wish to deposit, and click “**Deposit**”.
 
 > [!NOTE]
 > Remember that you will need to leave a small amount of FIL in your wallet to cover transaction fees.
 
 ![Deposit FIL](../../../../.gitbook/assets/image (169).png)
 
-3. Then hit **"Send"**.
+3. Then hit “**Send**”.
 
 ![Send confirmation](../../../../.gitbook/assets/image (302).png)
 
@@ -60,7 +60,7 @@ Make sure you have your device connected to your computer (e.g., with the suppli
 
 Once you have deposited FIL, after a minute or two, you will receive iFIL — this represents your initial deposit plus your earned rewards. For more information on iFIL, check out our [docs](https://docs.glif.io/for-liquidity-providers/glif-reward-mechanism-ifil).
 
-For a more detailed view of your position, click on "**Wallet"** in the GLIF navigation, and you will be able to see the FIL and iFIL associated with your hardware wallet address in the **Token** section.
+For a more detailed view of your position, click on “**Wallet**” in the GLIF navigation, and you will be able to see the FIL and iFIL associated with your hardware wallet address in the **Token** section.
 
 ![Position view](../../../../.gitbook/assets/image (263).png)
 

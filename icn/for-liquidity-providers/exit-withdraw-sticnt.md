@@ -10,7 +10,7 @@ The ICN Pool uses rewards in 2 ways:
 1. For restaking rewards back into the pool to compound yield
 2. For adding exit liquidity to the DEX Pool on Uniswap
 
-Over time, an increasing percentage of rewards are added as DEX liquidity rather than restaked into ICN Protocol - this is called "Protocol owned Liquidity" (or "PoL" for short).
+Over time, an increasing percentage of rewards are added as DEX liquidity rather than restaked into ICN Protocol - this is called “Protocol owned Liquidity” (or “PoL” for short).
 
 ![Protocol Owned Liquidity](../.gitbook/assets/image (6).png)
 
@@ -20,10 +20,10 @@ Eventually, the delegated stakes that are locked on the ICN Protocol will come d
 
 #### Exit Reserve
 
-Once native exits are enabled, the pool will maintain an asset reserve specifically for facilitating stICNT exit. The asset reserve (also known as "exit reserve") is not available for staking activities or for Hardware Providers (HP) to borrow ICNT from. If GLIF’s liquidity dips under the exit reserve requirement, all staking and lending activities are paused until the reserve is rebuilt.
+Once native exits are enabled, the pool will maintain an asset reserve specifically for facilitating stICNT exit. The asset reserve (also known as “exit reserve”) is not available for staking activities or for Hardware Providers (HP) to borrow ICNT from. If GLIF's liquidity dips under the exit reserve requirement, all staking and lending activities are paused until the reserve is rebuilt.
 
 #### Shortest lockup tokens unstaked first
 
-If the exit reserve drops under its minimum requirement, the pool will automatically search for the shortest lockup duration vault to unstake first. It does this because delegated staking positions that are "expired" still earn rewards according to their original lockup periods. For instance, if an ICNT position is made with a 3 month lockup, after 3 months passes, the position still earns rewards and can be unstaked within a 1 day turnaround.
+If the exit reserve drops under its minimum requirement, the pool will automatically search for the shortest lockup duration vault to unstake first. It does this because delegated staking positions that are “expired” still earn rewards according to their original lockup periods. For instance, if an ICNT position is made with a 3 month lockup, after 3 months passes, the position still earns rewards and can be unstaked within a 1 day turnaround.
 
-Therefore, the "shortest lockup tokens unstaked first" strategy means that - all else equal - a 3 month position will be unstaked to refill the exit reserve before a 6 month (or longer) position gets unstaked. The pool effectively tries to unstake the _minumum_ possible amount to satisfy exit requirements.
+Therefore, the “shortest lockup tokens unstaked first” strategy means that - all else equal - a 3 month position will be unstaked to refill the exit reserve before a 6 month (or longer) position gets unstaked. The pool effectively tries to unstake the _minumum_ possible amount to satisfy exit requirements.

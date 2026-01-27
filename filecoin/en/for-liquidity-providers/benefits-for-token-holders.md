@@ -11,4 +11,4 @@ GLIF has the largest amount of Filecoin in its pool, which allows Liquidity Prov
 
 ## Secure Pool Design
 
-GLIF’s top priority is the safety of Liquidity Provider and Storage Provider assets. GLIF has been audited several times, and uses conservative and algorithmic economic policies to minimize risk of loss.
+GLIF's top priority is the safety of Liquidity Provider and Storage Provider assets. GLIF has been audited several times, and uses conservative and algorithmic economic policies to minimize risk of loss.

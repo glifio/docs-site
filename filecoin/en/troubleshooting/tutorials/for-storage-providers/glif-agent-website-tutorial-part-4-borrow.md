@@ -1,7 +1,7 @@
 
 # GLIF Agent Website Tutorial Part 4 — Borrow
 
-_If you don’t understand the basics of GLIF Agents, Agent owners, or how to create your Agent on the GLIF website, we suggest starting with_[ ](glif-agent-website-tutorial-part-1-preparation-setup.md)[_Part 1_ ](glif-agent-website-tutorial-part-1-preparation-setup.md)_and_[ _Part 2_ ](glif-agent-website-tutorial-part-2-create-your-agent.md)_of this tutorial series. You can find all the tutorials about using Agents on the **GLIF website** on this_ [_page_](./)_. You can find the instructions about the Agent's command on the **GLIF Command Line Interface** on this_ [_page_](https://github.com/glifio/glif?tab=readme-ov-file#agents---get-started-borrowing)_._
+_If you don't understand the basics of GLIF Agents, Agent owners, or how to create your Agent on the GLIF website, we suggest starting with_[ ](glif-agent-website-tutorial-part-1-preparation-setup.md)[_Part 1_ ](glif-agent-website-tutorial-part-1-preparation-setup.md)_and_[ _Part 2_ ](glif-agent-website-tutorial-part-2-create-your-agent.md)_of this tutorial series. You can find all the tutorials about using Agents on the **GLIF website** on this_ [_page_](./)_. You can find the instructions about the Agent's command on the **GLIF Command Line Interface** on this_ [_page_](https://github.com/glifio/glif?tab=readme-ov-file#agents---get-started-borrowing)_._
 
 ***
 
@@ -29,14 +29,14 @@ If you would like to send FIL directly to your agent, copy your Agent address (f
 
 #### 2. Available Balance in a Miner Added to the Agent
 
-Please refer to [Part 3](glif-agent-website-tutorial-part-3-add-your-miner.md) of this tutorial series for steps to add a miner to your Agent. Miner’s balance can be used as collateral.
+Please refer to [Part 3](glif-agent-website-tutorial-part-3-add-your-miner.md) of this tutorial series for steps to add a miner to your Agent. Miner's balance can be used as collateral.
 
 ***
 
 Once collateral is added, your borrowing limit (maximum amount you can borrow) will display on the Agent page. This limit varies based on:
 
-* Borrowing method: "**Borrow to Seal**" or "**Borrow to Withdraw.**"
-* Your Agent’s DTL ratio.
+* Borrowing method: “**Borrow to Seal**” or “**Borrow to Withdraw.**”
+* Your Agent's DTL ratio.
 
 See the [docs](../../../for-storage-providers/borrowing-limits-and-dtl.md) here for details.
 
@@ -44,16 +44,16 @@ See the [docs](../../../for-storage-providers/borrowing-limits-and-dtl.md) here 
 
 ## Step 1: Propose a Multisig Proposal to Borrow
 
-1. Connect to one of the approver wallets in your Agent’s owner multisig wallet.
+1. Connect to one of the approver wallets in your Agent's owner multisig wallet.
 2. Navigate to the right-side panel on the Agent page.
-3. Select your borrowing method: "**Borrow to Seal**" or "**Borrow to Withdraw**".
-4. Enter the amount to borrow (must not exceed the "maximum borrow to seal/withdraw" limit).
+3. Select your borrowing method: “**Borrow to Seal**” or “**Borrow to Withdraw**”.
+4. Enter the amount to borrow (must not exceed the “maximum borrow to seal/withdraw” limit).
 5. Review the APR, new debt amount, daily interest, and updated DTL ratio.
-6. Click "**Borrow**."
+6. Click “**Borrow**.”
 
 ![Borrow button](../../../.gitbook/assets/image (224).png)
 
-7. Confirm details and click “**Sign Transaction".** A multisig proposal will be created.
+7. Confirm details and click “**Sign Transaction”.** A multisig proposal will be created.
 
 ![Transaction confirmation](../../../.gitbook/assets/image (217).png)
 
@@ -77,8 +77,8 @@ See the [docs](../../../for-storage-providers/borrowing-limits-and-dtl.md) here 
 
 ## Step 2: Approve the Proposal
 
-1. Connect to another signer wallet from your Agent’s owner multisig wallet.
-2. Go to the Agent page and locate the proposal in the "**Agent Owner Proposals**" section.
+1. Connect to another signer wallet from your Agent's owner multisig wallet.
+2. Go to the Agent page and locate the proposal in the “**Agent Owner Proposals**” section.
 
 ![Approve proposal](../../../.gitbook/assets/image (221).png)
 
@@ -87,7 +87,7 @@ See the [docs](../../../for-storage-providers/borrowing-limits-and-dtl.md) here 
 ![Proposal approval](../../../.gitbook/assets/image (219).png)
 
 4. Confirm the transaction in your wallet.
-5. Wait for completion (may take a few minutes). The Agent’s available balance will update once approved.
+5. Wait for completion (may take a few minutes). The Agent's available balance will update once approved.
 
 ![Approve proposal](../../../.gitbook/assets/image (223).png)
 
@@ -99,7 +99,7 @@ See the [docs](../../../for-storage-providers/borrowing-limits-and-dtl.md) here 
 
 ## Congratulations!
 
-You’ve successfully borrowed FIL to your Agent!
+You've successfully borrowed FIL to your Agent!
 
 ## **Next Steps:**
 

@@ -10,7 +10,7 @@ To be eligible for borrowing, SP must have sufficient ICNT to provide as collate
 
 ## How does collateralization work in GLIF?
 
-GLIF constantly monitors the liquidation value of every SP in the network. If the SP’s borrowed ICNT reaches 75% of their liquidation value, the Storage Providers get cut off from borrowing more ICNT. At 85%, the Storage Provider is at risk of liquidation. You can read more about the rules here.
+GLIF constantly monitors the liquidation value of every SP in the network. If the SP's borrowed ICNT reaches 75% of their liquidation value, the Storage Providers get cut off from borrowing more ICNT. At 85%, the Storage Provider is at risk of liquidation. You can read more about the rules here.
 
 ## Is my ICNT safe in the event of market fluctuations?
 

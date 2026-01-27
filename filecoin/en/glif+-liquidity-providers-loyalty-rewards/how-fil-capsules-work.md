@@ -58,7 +58,7 @@ To illustrate, consider two Card holders: **Bob** and **Alice**.
 
 #### **Determining FIL per Capsule**
 
-If the protocol issues **100 FIL total** for all LP Capsules during a given week , Alice’s Capsule will contain **twice as much FIL** as Bob’s, simply because she has staked **twice the iFIL**.
+If the protocol issues **100 FIL total** for all LP Capsules during a given week , Alice's Capsule will contain **twice as much FIL** as Bob's, simply because she has staked **twice the iFIL**.
 
 #### **Determining the Exchange Rate**
 
@@ -66,10 +66,10 @@ Your **GLF : iFIL staking ratio** determines your premium - the amount of $GLF t
 
 In the example above:
 
-* Bob’s ratio: **10 GLF : 10 iFIL → 1:1 → 1% premium**
-* Alice’s ratio: **2000 GLF : 20 iFIL → 100:1 → 25% premium**
+* Bob's ratio: **10 GLF : 10 iFIL → 1:1 → 1% premium**
+* Alice's ratio: **2000 GLF : 20 iFIL → 100:1 → 25% premium**
 
-Because Alice’s GLF:iFIL ratio is higher, she receives a **higher premium** above the $GLF market 7 day time weighted average price (TWAP) than Bob. The premium ensures that Alice, Bob, and all LPs receive a **better $GLF→FIL rate** than the prior 7-day TWAP when they unlock their Capsules, since they are redeeming $GLF directly with the protocol rather than swapping on a DEX.
+Because Alice's GLF:iFIL ratio is higher, she receives a **higher premium** above the $GLF market 7 day time weighted average price (TWAP) than Bob. The premium ensures that Alice, Bob, and all LPs receive a **better $GLF→FIL rate** than the prior 7-day TWAP when they unlock their Capsules, since they are redeeming $GLF directly with the protocol rather than swapping on a DEX.
 
 > [!NOTE]
 > When you unlock the FIL inside of a Capsule, the associated $GLF tokens used for the unlock are taken from your Card balance. This means that over time, your ratio of GLF : iFIL tokens will decrease unless you add more $GLF tokens to it.

@@ -29,7 +29,7 @@ To obtain a FilSnap wallet, you will need to:
 
 ## Conclusion
 
-Congrats! You have obtained a FilSnap wallet as an intermediary wallet with an "**f1**" address.
+Congrats! You have obtained a FilSnap wallet as an intermediary wallet with an “**f1**” address.
 
 Remember to keep your seed phrase safe and private, and always perform a test transaction before sending a large amount!
 

@@ -1,7 +1,7 @@
 
 # GLIF Agent Website Tutorial Part III — Add Your Miner
 
-_If you don’t understand the basics of GLIF Agents, Agent owners, or how to create your Agent on the GLIF website, we suggest starting with_[ _Part I_ ](glif-agent-website-tutorial-part-i-preparation-setup.md)_and_ [_Part II_](glif-agent-website-tutorial-part-ii-create-your-agent.md) _of this tutorial series._
+_If you don't understand the basics of GLIF Agents, Agent owners, or how to create your Agent on the GLIF website, we suggest starting with_[ _Part I_ ](glif-agent-website-tutorial-part-i-preparation-setup.md)_and_ [_Part II_](glif-agent-website-tutorial-part-ii-create-your-agent.md) _of this tutorial series._
 
 ***
 
@@ -53,21 +53,21 @@ A single Agent can own more than 1 Miner, which increases the aggregate amount a
 >
 > This is the same for all owner transactions on the agent: they must be initiated with a non-Ledger signer.
 
-2. Go to the "**Miners**" section in your Agent page. Click “**Add a Miner”**.
+2. Go to the “**Miners**” section in your Agent page. Click “**Add a Miner**”.
 
 ![Add miner form](../../../.gitbook/assets/image (311).png)
 
-3. Enter your miner address in the "**Add a miner to your Agent**" page.
-4. Click "**Sign transaction**".
+3. Enter your miner address in the “**Add a miner to your Agent**” page.
+4. Click “**Sign transaction**”.
 
 ![Sign prompt](../../../.gitbook/assets/image (315).png)
 
-5. After clicking '**Sign transaction**,' a message will be displayed indicating how many minutes remain for this credential. You can also revoke the credential by clicking "**Revoke credential**".
+5. After clicking '**Sign transaction**,' a message will be displayed indicating how many minutes remain for this credential. You can also revoke the credential by clicking “**Revoke credential**”.
 
 > [!WARNING]
 > If you do not complete the transaction and **sign the proposal with your other signer wallets within 5 minutes**, you will need to repeat this step.
 
-6. Click **“Send”** to create a new proposal. You will be prompted to sign the transaction with your currently connected wallet.
+6. Click “**Send**” to create a new proposal. You will be prompted to sign the transaction with your currently connected wallet.
 
 ![Send button](../../../.gitbook/assets/image (316).png)
 
@@ -81,15 +81,15 @@ A single Agent can own more than 1 Miner, which increases the aggregate amount a
 
 Your Agent owner wallet is a multisig wallet which requires multiple signers to confirm important changes. Now that you have created aproposal to add a miner, you need the other signer(s) to approve it.
 
-1. Connect with the other signer wallets. You can find all signer wallets in the "**Required Approvals"** section on your multisig page. These should be the same wallets used in [Part II](glif-agent-website-tutorial-part-ii-create-your-agent.md).
+1. Connect with the other signer wallets. You can find all signer wallets in the “**Required Approvals**” section on your multisig page. These should be the same wallets used in [Part II](glif-agent-website-tutorial-part-ii-create-your-agent.md).
 
 ![Agent creation](../../../.gitbook/assets/image (323).png)
 
-2. Navigate to the "**Multisig**" tab.
+2. Navigate to the “**Multisig**” tab.
 
 ![Approve proposal](../../../.gitbook/assets/image (321).png)
 
-3. The '**AddMiner**' proposal should appear in the "**Multisig proposals**" queue.
+3. The “**AddMiner**” proposal should appear in the “**Multisig proposals**” queue.
 
 ![Add miner form](../../../.gitbook/assets/image (318).png)
 
@@ -103,7 +103,7 @@ Your Agent owner wallet is a multisig wallet which requires multiple signers to 
 
 6. Confirm the transaction in your wallet.
 7. If your multisig requires approval from more than two signers, repeat the same steps using the other signer wallets. Once approved by the required number of signers, the proposal will be executed on-chain. Wait for the transaction confirmation, which may take a few minutes.
-8. Return to your Agent’s page on the GLIF website. You should now see the newly added miner associated with your Agent in the "**Miners**" section.
+8. Return to your Agent's page on the GLIF website. You should now see the newly added miner associated with your Agent in the “**Miners**” section.
 
 ![Add miner form](../../../.gitbook/assets/image (327).png)
 
@@ -111,7 +111,7 @@ Your Agent owner wallet is a multisig wallet which requires multiple signers to 
 
 ## Congratulations!
 
-You’ve successfully added a miner to your Agent!
+You've successfully added a miner to your Agent!
 
 ## **Next Steps:**
 

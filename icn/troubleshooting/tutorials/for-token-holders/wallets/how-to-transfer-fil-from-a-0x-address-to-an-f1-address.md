@@ -33,7 +33,7 @@ For details on creating an intermediary wallet, please refer to the tutorial by 
 ## Step 2: Send FIL from 0x address (main wallet) to f1 address (intermediary Wallet)
 
 > [!CAUTION]
-> Remember to use the **"Send/Forward FIL" page within GLIF** when you attempt to send from a 0x address to an f1 address.
+> Remember to use the **“Send/Forward FIL” page within GLIF** when you attempt to send from a 0x address to an f1 address.
 >
 > **Do not use the MetaMask browser extension wallet to send FIL in this step.** Otherwise, your MetaMask may be connected to the Ethereum mainnet instead of the Filecoin mainnet.
 
@@ -43,11 +43,11 @@ For details on creating an intermediary wallet, please refer to the tutorial by 
 > * **Tab 1:** Connected to **MetaMask** for sending funds.
 > * **Tab 2:** Connected to a **burner wallet** for receiving funds, then sending them to your **F1 address**.
 
-1. Visit the GLIF website and click **"Connect Wallet."** Select your **main wallet**, which is the one holding your FIL.
+1. Visit the GLIF website and click “**Connect Wallet.**” Select your **main wallet**, which is the one holding your FIL.
 
 ![GLIF connect button](../../../../.gitbook/assets/image (193).png)
 
-2. Connect your main wallet to the Filecoin mainnet. Click "**Connect**".
+2. Connect your main wallet to the Filecoin mainnet. Click “**Connect**”.
 
 ![Mainnet connection](../../../../.gitbook/assets/image (297).png)
 
@@ -55,11 +55,11 @@ For details on creating an intermediary wallet, please refer to the tutorial by 
 
 ![Send FIL](../../../../.gitbook/assets/image (196).png)
 
-4. In the top right corner of GLIF website, click **"Send / Forward FIL"** .
+4. In the top right corner of GLIF website, click “**Send / Forward FIL**” .
 
 ![Send button](../../../../.gitbook/assets/image (151).png)
 
-5. In the "**Forward FIL**" page, paste your **intermediary wallet's f1 address** in the recipient field. This is the wallet created in [Step 1](how-to-transfer-fil-from-a-0x-address-to-an-f1-address.md#step-1-set-up-your-intermediary-wallet). Burner wallet is used as an example here.
+5. In the “**Forward FIL**” page, paste your **intermediary wallet's f1 address** in the recipient field. This is the wallet created in [Step 1](how-to-transfer-fil-from-a-0x-address-to-an-f1-address.md#step-1-set-up-your-intermediary-wallet). Burner wallet is used as an example here.
 6. Enter the amount of FIL you wish to transfer (start with a small test amount).
 
 > [!WARNING]
@@ -67,7 +67,7 @@ For details on creating an intermediary wallet, please refer to the tutorial by 
 
 ![Transfer FIL](../../../../.gitbook/assets/image (153).png)
 
-7. Click **"Confirm"** in MetaMask.
+7. Click “**Confirm**” in MetaMask.
 
 > [!WARNING]
 > Please ensure you have sufficient FIL for gas fees; 0.001 FIL is usually more than enough.
@@ -83,7 +83,7 @@ For details on creating an intermediary wallet, please refer to the tutorial by 
 > 4. Open GLIF website and reconnect your main wallet.
 > 5. Try sending the funds again.
 
-8. In the bottom right corner of the webpage, a notification box will appear, indicating **"Transaction Pending"** and providing you with a tx hash. When the transaction is completed, it will change to **"Transaction Completed".**
+8. In the bottom right corner of the webpage, a notification box will appear, indicating “**Transaction Pending**” and providing you with a tx hash. When the transaction is completed, it will change to **“Transaction Completed”.**
 
 ![Send FIL](../../../../.gitbook/assets/image (154).png)
 
@@ -91,29 +91,29 @@ For details on creating an intermediary wallet, please refer to the tutorial by 
 > The GLIF team **cannot** help you find your tx hash. Please record your tx hash for tracking your transaction.
 
 9. You can check the transaction details on [filfox.info](https://filfox.info/en) by searching the tx hash.
-10. To confirm that the FIL you transferred went to your burner address, click **"internal transfer"** on the [filfox.info](https://filfox.info/en) transaction details page to view the address details. The **"To"** address should match your burner wallet's f1 address.
+10. To confirm that the FIL you transferred went to your burner address, click “**internal transfer**” on the [filfox.info](https://filfox.info/en) transaction details page to view the address details. The “**To**” address should match your burner wallet's f1 address.
 
 ![Transaction confirmation](../../../../.gitbook/assets/image (156).png)
 
-11. Once the transaction is completed, disconnect MetaMask (main wallet). Then, click **"Connect Wallet"** and connect your intermediary wallet by importing the seed phrase you saved earlier.
+11. Once the transaction is completed, disconnect MetaMask (main wallet). Then, click “**Connect Wallet**” and connect your intermediary wallet by importing the seed phrase you saved earlier.
 
-For the burner wallet, remember to choose **"Filecoin (f1...)"** as the address type.
+For the burner wallet, remember to choose “**Filecoin (f1...)**” as the address type.
 
 ![Send FIL](../../../../.gitbook/assets/image (209).png)
 
-12. Check your intermediary wallet balance on the GLIF **"wallet"** page, or verify it by searching your burner wallet's f1 address on [filfox.info](https://filfox.info/en).
+12. Check your intermediary wallet balance on the GLIF “**wallet**” page, or verify it by searching your burner wallet's f1 address on [filfox.info](https://filfox.info/en).
 
 ![Balance view](../../../../.gitbook/assets/image (157).png)
 
 ## Step 3: Transfer FIL from Burner Wallet to your f1 address (final destination)
 
-1. Stay connected to your burner wallet. On the GLIF website, click **"Send FIL."**
+1. Stay connected to your burner wallet. On the GLIF website, click “**Send FIL.**”
 
 ![Send button](../../../../.gitbook/assets/image (158).png)
 
 2. Paste your final f1 destination address in the recipient field.
 3. Enter the desired amount of FIL to transfer.
-4. Click **"Send"** and confirm the transaction.
+4. Click “**Send**” and confirm the transaction.
 
 ![Transaction confirmation](../../../../.gitbook/assets/image (159).png)
 
