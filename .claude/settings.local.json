@@ -1,6 +1,7 @@
 {
   "permissions": {
     "allow": [
+      "Bash(echo:*)",
       "Bash(find:*)",
       "Bash(git add:*)",
       "Bash(git branch:*)",
