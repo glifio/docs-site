@@ -12,7 +12,7 @@ The ICN Pool uses rewards in 2 ways:
 
 Over time, an increasing percentage of rewards are added as DEX liquidity rather than restaked into ICN Protocol - this is called “Protocol owned Liquidity” (or “PoL” for short).
 
-![Protocol Owned Liquidity](../.gitbook/assets/image-6.png)
+![Protocol Owned Liquidity](icn-image-6.png)
 
 ### Native Exits
 
