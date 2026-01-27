@@ -17,9 +17,9 @@ Filecoin生态系统中有各种类型的地址，例如f0、f1、f2、f3和f410
 
 4. 批准GLIF安装并连接到您的FilSnap，这将在MetaMask中以两个单独的要求出现：
 
-![MetaMask prompt](cn-image-105.png)
+![MetaMask prompt](en-image-364.png)
 
-![MetaMask prompt](cn-image-106.png)
+![MetaMask prompt](en-image-363.png)
 
 5. 连接后，您将在GLIF网站的右上角看到FilSnap钱包的f1地址，复制f1地址备用。
 

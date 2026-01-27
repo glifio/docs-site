@@ -115,7 +115,7 @@ If you would like to claim through the website interface, please follow the inst
 
 _If your Agent owner is a **single-signer/EOA wallet**, you do not need to sign any proposal. You can skip directly to_ [_Step 3_](how-to-claim-glf-airdrop.md#step-3-redeem-usdglf-tokens-from-the-nft)_._
 
-![Claim confirmation](en-glf-airdrop-10-claim-confirmation-3.png)
+![Claim confirmation](en-glf-airdrop-05-redeem-glf.png)
 
 2. Click “Admin” and navigate to the “Multisig Proposals” section. You will find a “Claim and Delegate” proposal.
 

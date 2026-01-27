@@ -12,7 +12,7 @@ Filecoin生态系统中有各种类型的地址，例如f0、f1、f2、f3和f410
 
 1. 确保您的Ledger已连接到电脑（使用提供的电线），并输入密码解锁。
 
-![步骤1. 将硬件钱包连接到电脑](cn-image-91.png)
+![步骤1. 将硬件钱包连接到电脑](en-image-97.png)
 
 ## 步骤2. 将您的钱包连接到GLIF
 
@@ -22,18 +22,18 @@ Filecoin生态系统中有各种类型的地址，例如f0、f1、f2、f3和f410
 
 2. 如果您的硬件钱包已解锁并连接，浏览器会弹出一个窗口，询问是否连接HID设备。
 
-![步骤2. 将您的钱包连接到GL](cn-image-93.png)
+![步骤2. 将您的钱包连接到GL](en-image-100.png)
 
 3. 在尝试连接之前，确保设备上的Filecoin应用已打开。
 
 > [!TIP]
 > 如果您在 Ledger 中添加 Filecoin 应用时遇到问题，请[查看此处](https://docs.filecoin.io/basics/assets/metamask-setup#install-the-ledger-app)的教程。
 
-![MetaMask prompt](cn-image-94.png)
+![MetaMask prompt](en-image-101.png)
 
 4. 当设备显示“**Filecoin Ready**”时，在浏览器弹出窗口中选择该设备并点击“**连接**”。
 
-![步骤2. 将您的钱包连接到GL](cn-image-95.png)
+![步骤2. 将您的钱包连接到GL](en-image-103.png)
 
 5. 连接后，将在GLIF网站的右上角看到您的硬件钱包Filecoin地址，以及 FIL总余额。
 6. 复制 f1 地址备用。这将是您的第一个Ledger地址。

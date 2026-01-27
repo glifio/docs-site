@@ -94,17 +94,17 @@
 
 * 第 1 条命令：`glif agent --help`
 
-![2b：通过 CLI 操作](cn-image-298.png)
+![2b：通过 CLI 操作](en-image-78.png)
 
 * 第 2 条命令：`glif agent withdraw --help`
 
-![2b：通过 CLI 操作](cn-image-299.png)
+![2b：通过 CLI 操作](en-image-79.png)
 
 * 第 3 条命令：`glif agent withdraw 100 f1...abc`
   * 将 100 替换为您想提取的数量。
   * 将 f1...abc 替换为您的中介钱包地址。
 
-![2b：通过 CLI 操作](cn-image-300.png)
+![2b：通过 CLI 操作](en-image-80.png)
 
 3. 在 GLIF “钱包” 页面或在 filfox.info 搜索中介钱包的 f1 地址，检查中介钱包余额，以确认交易成功。
 

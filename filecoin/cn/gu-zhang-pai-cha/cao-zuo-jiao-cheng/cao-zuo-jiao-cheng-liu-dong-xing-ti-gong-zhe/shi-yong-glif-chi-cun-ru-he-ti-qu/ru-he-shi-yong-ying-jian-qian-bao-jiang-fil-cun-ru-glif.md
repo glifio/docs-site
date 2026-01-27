@@ -12,7 +12,7 @@
 
 请确保您的设备已使用随附的电线,连接到电脑，并输入 PIN 码解锁。
 
-![步骤 1. 将硬件钱包连接到电](cn-image-91.png)
+![步骤 1. 将硬件钱包连接到电](en-image-97.png)
 
 ## 步骤 2. 将您的钱包连接到 GLIF
 
@@ -22,18 +22,18 @@
 
 2. 如果您的硬件钱包已解锁并连接，您的浏览器会弹出一个窗口，询问是否连接 HID 设备。
 
-![步骤 2. 将您的钱包连接到](cn-image-93.png)
+![步骤 2. 将您的钱包连接到](en-image-100.png)
 
 3. 在尝试连接之前，确保硬件钱包上已打开 Filecoin 应用。
 
 > [!TIP]
 > 如果您在 Ledger 中添加 Filecoin 应用时遇到问题，请[查看此处](https://docs.filecoin.io/basics/assets/metamask-setup#install-the-ledger-app)的教程。
 
-![MetaMask prompt](cn-image-94.png)
+![MetaMask prompt](en-image-101.png)
 
 4. 当设备显示“Filecoin Ready”时，在浏览器弹窗中选择该设备，然后点击“连接”。
 
-![步骤 2. 将您的钱包连接到](cn-image-95.png)
+![步骤 2. 将您的钱包连接到](en-image-103.png)
 
 5. 连接成功后，您会在 GLIF 网站右上角看到您的硬件钱包 Filecoin 地址，以及您的 FIL 总余额。
 
