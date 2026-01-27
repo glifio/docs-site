@@ -18,7 +18,7 @@ Filecoin生态系统中有各种类型的地址，例如f0、f1、f2、f3和f410
 
 1. 访问[GLIF网站](https://glif.io)，点击屏幕右上角的“**连接钱包**”。您将看到可连接的钱包列表，选择“**Ledger（Filecoin）**”。
 
-![步骤2. 将您的钱包连接到GL](https://glif.io)，点击屏幕右上角的“**连...](../../../../.gitbook/assets/image (36).png)
+![步骤2. 将您的钱包连接到GLIF](../../../../.gitbook/assets/image (36).png)
 
 2. 如果您的硬件钱包已解锁并连接，浏览器会弹出一个窗口，询问是否连接HID设备。
 
