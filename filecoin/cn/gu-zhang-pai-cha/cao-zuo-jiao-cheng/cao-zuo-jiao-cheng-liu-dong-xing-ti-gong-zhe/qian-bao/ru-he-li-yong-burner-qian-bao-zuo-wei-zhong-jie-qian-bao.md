@@ -11,27 +11,27 @@ Filecoin生态系统中有各种类型的地址，例如f0、f1、f2、f3和f410
 
 1. 访问GLIF网站并点击右上角的“**连接钱包**”。
 
-![操作教程](../../../../.gitbook/assets/image-219.png)
+![操作教程](cn-image-219.png)
 
 2. 从选项中选择“**Burner Wallet**”。
 
-![操作教程](../../../../.gitbook/assets/image-41.png)
+![操作教程](cn-image-41.png)
 
 3. 选择“**Filecoin (f1...)**”作为地址类型。点击“**创建助记词**”以生成新的24个单词的助记词。
 
-![操作教程](../../../../.gitbook/assets/image-217.png)
+![操作教程](cn-image-217.png)
 
 4. 点击“**复制**”并将助记词保存在安全的地方，因为如果钱包连接断开，将需要用其重新访问Burner钱包。然后，点击“**我已记录我的助记词**”。
 
-![操作教程](../../../../.gitbook/assets/image-220.png)
+![操作教程](cn-image-220.png)
 
 5. 接着，您将输入助记词中的几个单词，以便检查您记录的助记词是否正確。最后，点击“**连接**”。
 
-![操作教程](../../../../.gitbook/assets/image-42.png)
+![操作教程](cn-image-42.png)
 
 6. 连接后，您将看到您的Burner钱包的f1和0x地址。
 
-![操作教程](../../../../.gitbook/assets/image-43.png)
+![操作教程](cn-image-43.png)
 
 7. 复制Burner钱包的f1地址备用。
 

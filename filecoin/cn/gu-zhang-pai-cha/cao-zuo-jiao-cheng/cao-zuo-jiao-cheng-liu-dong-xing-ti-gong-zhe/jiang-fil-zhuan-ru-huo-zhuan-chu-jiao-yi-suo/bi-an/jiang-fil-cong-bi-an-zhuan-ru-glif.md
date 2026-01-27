@@ -15,18 +15,18 @@
 连接钱包后，GLIF 网站左上角将显示`0x` 和 `f410` 地址。如果您的钱包是 `f1` 地址，也会在此处显示。\
 如需详细了解如何将钱包连接到 Filecoin 主网，请[查看此教程](../../qian-bao/ru-he-jiang-qian-bao-lian-jie-dao-filecoin-zhu-wang.md)。
 
-![步骤 1：将您的钱包连接至 G](../../../../../.gitbook/assets/image-221.png)
+![步骤 1：将您的钱包连接至 G](cn-image-221.png)
 
 ## 步骤 2：将 Filecoin 发送到 0x 地址钱包
 
 1. 前往您所使用的中心化交易所（币安），在资产列表中找到 FIL。点击 “**提现**”。
 
-![步骤 2：将 Filecoin](../../../../../.gitbook/assets/image-225.png)
+![步骤 2：将 Filecoin](cn-image-225.png)
 
 2. 将网络选择为 “Filecoin”。
 3. 准确输入您的 `0x`/`f410`/`f1` 钱包地址，并指定您要发送的数量。
 
-![步骤 2：将 Filecoin](../../../../../.gitbook/assets/image-226.png)
+![步骤 2：将 Filecoin](cn-image-226.png)
 
 > [!TIP]
 > 如果这是您第一次操作，最好先尝试发送少量资金，以防出现任何差错。
@@ -36,9 +36,9 @@
 1. 交易完成后，您可以在 GLIF 网站上点击 “钱包” 来查看余额。
 2. 在 “Account” 标签下检查您的 FIL 余额，并在 “Transaction” 标签下查看交易详情。
 
-![步骤 3：查看钱包中的 FIL](../../../../../.gitbook/assets/image-222.png)
+![步骤 3：查看钱包中的 FIL](cn-image-222.png)
 
-![步骤 3：查看钱包中的 FIL](../../../../../.gitbook/assets/image-223.png)
+![步骤 3：查看钱包中的 FIL](cn-image-223.png)
 
 ## 步骤 4：在GLIF 存入您的 Filecoin
 

@@ -15,11 +15,11 @@ In this tutorial we will use MetaMask, but you can find a similar tutorial using
 
 1. Visit the [GLIF website](https://www.glif.io) and click on “**Connect Wallet**” in the top right corner.
 
-![GLIF connect button](../../../../.gitbook/assets/image-156.png)
+![GLIF connect button](en-image-156.png)
 
 2. Select the wallet you wish to connect.
 
-![Wallet selection](../../../../.gitbook/assets/image-158.png)
+![Wallet selection](en-image-158.png)
 
 ## Step 3: Add the Filecoin network to your wallet (chrome extensions only)
 
@@ -30,7 +30,7 @@ In this tutorial we will use MetaMask, but you can find a similar tutorial using
 
 2. Click “**Confirm**”, then click “**Approve**” in MetaMask**.**
 
-![Confirm button](../../../../.gitbook/assets/image-159.png)
+![Confirm button](en-image-159.png)
 
 3. If the prompt to change the network does not pop up, you can follow the steps on[ this website ](https://docs.filecoin.io/basics/assets/metamask-setup)from Filecoin Docs.
 
@@ -40,7 +40,7 @@ This step connects your MetaMask wallet to the Filecoin network. You can switch 
 
 The Filecoin Mainnet should now appear in your network options. Select “**Filecoin Mainnet**”.
 
-![Connect wallet](../../../../.gitbook/assets/image-40.png)
+![Connect wallet](en-image-40.png)
 
 ## Conclusion
 

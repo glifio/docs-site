@@ -16,7 +16,7 @@ Liquidity can be provided by depositing FIL into GLIF on the pool page [here](ht
 
 You can check the FIL value of your iFIL holdings by visiting the [wallet](https://www.glif.io/en/wallet) or [multisig](https://www.glif.io/en/multisig) page of a particular address. FIL earnings will be displayed in the _Tokens section:_
 
-![Token section](../../../.gitbook/assets/image-392.png)
+![Token section](en-image-392.png)
 
 ## Where do my earnings come from in GLIF?
 

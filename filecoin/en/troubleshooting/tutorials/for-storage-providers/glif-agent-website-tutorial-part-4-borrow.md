@@ -25,7 +25,7 @@ Before borrowing from GLIF, you must provide collateral to your Agent. There are
 
 If you would like to send FIL directly to your agent, copy your Agent address (f410/0x) from the Agent page. Send FIL to this address from your wallet. Use the “**Send FIL**” option in the top-right dropdown menu. It works like sending FIL to any other wallet.
 
-![Copy address](../../../.gitbook/assets/image-213.png)
+![Copy address](en-image-213.png)
 
 #### 2. Available Balance in a Miner Added to the Agent
 
@@ -51,27 +51,27 @@ See the [docs](../../../for-storage-providers/borrowing-limits-and-dtl.md) here 
 5. Review the APR, new debt amount, daily interest, and updated DTL ratio.
 6. Click “**Borrow**.”
 
-![Borrow button](../../../.gitbook/assets/image-224.png)
+![Borrow button](en-image-224.png)
 
 7. Confirm details and click “**Sign Transaction”.** A multisig proposal will be created.
 
-![Transaction confirmation](../../../.gitbook/assets/image-217.png)
+![Transaction confirmation](en-image-217.png)
 
 > [!CAUTION]
 > Credentials are valid for only 5 minutes. If you see this error, it means the credentials have expired, so please start over.
 
-![Borrow step](../../../.gitbook/assets/image-212.png)
+![Borrow step](en-image-212.png)
 
 8. Click “**Send**” and approve the transaction in your wallet.
 
-![Approve button](../../../.gitbook/assets/image-218.png)
+![Approve button](en-image-218.png)
 
 9. Wait for the transaction to complete. A new proposal will appear in the Agent owner proposals section.
 
 > [!WARNING]
 > Minimum borrow amount is 1 FIL. If you see this error, please check if your borrowing amount is too low.
 
-![Borrow form](../../../.gitbook/assets/image-211.png)
+![Borrow form](en-image-211.png)
 
 ***
 
@@ -80,20 +80,20 @@ See the [docs](../../../for-storage-providers/borrowing-limits-and-dtl.md) here 
 1. Connect to another signer wallet from your Agent's owner multisig wallet.
 2. Go to the Agent page and locate the proposal in the “**Agent Owner Proposals**” section.
 
-![Approve proposal](../../../.gitbook/assets/image-221.png)
+![Approve proposal](en-image-221.png)
 
 3. Click “**Approve Proposal**”.
 
-![Proposal approval](../../../.gitbook/assets/image-219.png)
+![Proposal approval](en-image-219.png)
 
 4. Confirm the transaction in your wallet.
 5. Wait for completion (may take a few minutes). The Agent's available balance will update once approved.
 
-![Approve proposal](../../../.gitbook/assets/image-223.png)
+![Approve proposal](en-image-223.png)
 
 6. You can also check the new DTL and total debt on the Agent page's dashboard.
 
-![Approve proposal](../../../.gitbook/assets/image-222.png)
+![Approve proposal](en-image-222.png)
 
 ***
 

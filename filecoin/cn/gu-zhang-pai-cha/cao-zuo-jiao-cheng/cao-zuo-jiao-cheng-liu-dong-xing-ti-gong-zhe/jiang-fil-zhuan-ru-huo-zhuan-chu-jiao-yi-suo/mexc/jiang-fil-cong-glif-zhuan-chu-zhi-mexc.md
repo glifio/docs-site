@@ -22,7 +22,7 @@
 2. 要将您的 iFIL 从 GLIF 池中转换为 FIL，请查看[此教程](../../shi-yong-glif-chi-cun-ru-he-ti-qu/cong-glif-ti-qu-fil.md)。
 3. 提取 FIL 后，您将在钱包中收到 FIL。点击 GLIF 左上方的“钱包”标签，您将能够在 “Account” 部分查看 FIL 和 iFIL 的余额。
 
-![步骤 1：从 GLIF 提取](../../../../../.gitbook/assets/image-229.png)
+![步骤 1：从 GLIF 提取](cn-image-229.png)
 
 ## 步骤 2：设置中介钱包（如有需要）
 
@@ -37,7 +37,7 @@
 
 完成后，中介钱包的地址（以 `f1` 开头）将显示在右上角的下拉菜单。复制此地址。
 
-![步骤 2：设置中介钱包（如有需](../../../../../.gitbook/assets/image-242.png)
+![步骤 2：设置中介钱包（如有需](cn-image-242.png)
 
 ## 步骤 3：将 FIL 从 0x/f410 地址（主钱包）发送到 f1 地址（中介钱包）
 
@@ -47,13 +47,13 @@
 > [!WARNING]
 > 此步骤请勿使用 MetaMask 浏览器插件发送 FIL。否则，您的 MetaMask 可能会连接到以太坊主网而不是 Filecoin 主网。
 
-![MetaMask prompt](../../../../../.gitbook/assets/image-256.png)
+![MetaMask prompt](cn-image-256.png)
 
 3. 在 “**转发 FIL**” 页面，将您在[步骤 2 ](jiang-fil-cong-glif-zhuan-chu-zhi-mexc.md#bu-zhou-2-she-zhi-zhong-jie-qian-bao-ru-you-xu-yao)中创建的中介钱包的 f1 地址粘贴到收款人。
 4. 输入您希望转移的 FIL 数量（先发送少量测试金额）。
 5. 点击 “**发送**”。
 
-![步骤 3：将 FIL 从](../../../../../.gitbook/assets/image-260.png)
+![步骤 3：将 FIL 从](cn-image-260.png)
 
 > [!TIP]
 > 请确保您的钱包中留有足够的 FIL 用于支付 Gas 费用；通常 0.001 FIL 就足够了。
@@ -65,11 +65,11 @@
 
 1. 前往您使用的中心化交易所（MEXC），在您的资产列表中找到 FIL。点击 “**充值**”。
 
-![步骤 4：在交易所中找到您的接](../../../../../.gitbook/assets/image-240.png)
+![步骤 4：在交易所中找到您的接](cn-image-240.png)
 
 2. 复制交易所提供的 `f1` 地址。
 
-![步骤 4：在交易所中找到您的接](../../../../../.gitbook/assets/image-261.png)
+![步骤 4：在交易所中找到您的接](cn-image-261.png)
 
 > [!CAUTION]
 > 警告：在向交易所转移大量资金之前，请先发送少量 FIL 作为测试交易。
@@ -79,13 +79,13 @@
 1. 连接到中介钱包或您的主钱包，其地址以 `f1` 开头。
 2. 在 GLIF 网站的右上角，点击 “发送 FIL”。
 
-![步骤 5：将 FIL 从您的钱](../../../../../.gitbook/assets/image-262.png)
+![步骤 5：将 FIL 从您的钱](cn-image-262.png)
 
 3. 将您在[步骤 4 ](jiang-fil-cong-glif-zhuan-chu-zhi-mexc.md#bu-zhou-4-zai-jiao-yi-suo-zhong-zhao-dao-nin-de-jie-shou-di-zhi)中复制的交易所地址粘贴到收件人字段中。
 4. 输入您希望转移的 FIL 数量。
 5. 点击 “**发送**” 并在您的钱包中确认交易。
 
-![步骤 5：将 FIL 从您的钱](../../../../../.gitbook/assets/image-263.png)
+![步骤 5：将 FIL 从您的钱](cn-image-263.png)
 
 6. 交易完成后，您可以在交易所查看余额。
 > [!WARNING]

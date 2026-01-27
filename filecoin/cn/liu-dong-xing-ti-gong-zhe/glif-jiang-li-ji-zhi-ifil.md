@@ -61,4 +61,4 @@ $$
 
 iFIL 回报显示在 “_代币”_ 部分中：
 
-![查看您的奖励](../.gitbook/assets/glif-reward-mechanism-ifil-token-section.png)
+![查看您的奖励](cn-glif-reward-mechanism-ifil-token-section.png)

@@ -1,7 +1,7 @@
 
 # Storage Provider Loyalty Card
 
-![Storage Provider Loyalty Card](../.gitbook/assets/image-8.png)
+![Storage Provider Loyalty Card](en-image-8.png)
 
 GLIF+ Loyalty Cards allow $GLF Token Holders to receive benefits from using GLIF. For Storage Providers, holding a GLIF+ Loyalty Card means increased borrowing limits, and cash back on interest payments. Mint your card, activate a tier, and fund it to increase your borrowing limits and start redeeming cash back on every interest payment. If you're a Filecoin Storage Provider, join the program and put your $GLF to work today!
 

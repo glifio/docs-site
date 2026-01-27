@@ -15,13 +15,13 @@ After connecting your wallet, both the `0x` and `f410` addresses will be display
 
 For detailed instructions on how to connect your wallet to the Filecoin Mainnet, check out this [tutorial](../../wallets/how-to-connect-your-wallet-to-filecoin-mainnet.md).
 
-![Mainnet connection](../../../../../.gitbook/assets/image-55.png)
+![Mainnet connection](en-image-55.png)
 
 ## Step 2: Send Filecoin to the wallet 0x address
 
 1. Go to your centralized exchange, Binance, and locate FIL in your portfolio. Click “**Withdraw**.”
 
-![Withdraw button](../../../../../.gitbook/assets/image-56.png)
+![Withdraw button](en-image-56.png)
 
 2. Select Network as “**Filecoin**”.
 3. Enter your **`0x`/`f410`/`f1`** wallet address accurately and specify the amount you want to send.
@@ -29,19 +29,19 @@ For detailed instructions on how to connect your wallet to the Filecoin Mainnet,
 > [!WARNING]
 > If you are doing this for the first time, it's good practice to send a small amount first in case you make any mistakes.
 
-![Withdrawal step](../../../../../.gitbook/assets/image-53.png)
+![Withdrawal step](en-image-53.png)
 
 ## Step 3: Check FIL balance in your wallet
 
 1. Once the transaction is completed, you can verify your balance by clicking the “**Wallet**” tab on the GLIF website.
 
-![Send FIL](../../../../../.gitbook/assets/image-57.png)
+![Send FIL](en-image-57.png)
 
 2. Check your FIL balance in the “**Account**” tab and view transaction details in the “**Transaction**” tab.
 
-![FIL balance](../../../../../.gitbook/assets/image-58.png)
+![FIL balance](en-image-58.png)
 
-![Send FIL](../../../../../.gitbook/assets/image-59.png)
+![Send FIL](en-image-59.png)
 
 ## Step 4: Deposit your Filecoin with GLIF
 

@@ -65,4 +65,4 @@ LPs can check their FIL value of iFIL holdings by connecting wallet to GLIF, or 
 
 iFIL returns are shown in “_Tokens section”:_
 
-![Token section](../.gitbook/assets/glif-reward-mechanism-ifil-token-section.png)
+![Token section](en-glif-reward-mechanism-ifil-token-section.png)

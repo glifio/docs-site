@@ -13,17 +13,17 @@ Filecoin生态系统中有各种类型的地址，例如f0、f1、f2、f3和f410
 2. 创建助记词并设置MetaMask，确保将助记词安全备份。
 3. 安装并设置完成后，到 [https://glif.io](https://glif.io/) 并点击右上角的“**连接钱包**”。选择“**FilSnap (Filecoin)**”选项：
 
-![操作教程](../../../../.gitbook/assets/image-44.png)
+![操作教程](cn-image-44.png)
 
 4. 批准GLIF安装并连接到您的FilSnap，这将在MetaMask中以两个单独的要求出现：
 
-![MetaMask prompt](../../../../.gitbook/assets/image-105.png)
+![MetaMask prompt](cn-image-105.png)
 
-![MetaMask prompt](../../../../.gitbook/assets/image-106.png)
+![MetaMask prompt](cn-image-106.png)
 
 5. 连接后，您将在GLIF网站的右上角看到FilSnap钱包的f1地址，复制f1地址备用。
 
-![操作教程](../../../../.gitbook/assets/image-45.png)
+![操作教程](cn-image-45.png)
 
 > [!TIP]
 > 强烈建议在转移任何FIL之前断开并重新连接您新创建的FilSnap钱包，以确保您了解如何再次连接，减少不能使用钱包的风险。
