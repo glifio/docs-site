@@ -4,11 +4,10 @@ If your FIL tokens are currently on an exchange and you are eager to utilize it 
 
 This tutorial is specifically for transferring FIL from Binance. Check this [page](../transfer-fil-between-exchange-and-glif.md) for tutorials on other exchanges.
 
-{% hint style="info" %}
-GLIF is compatible with most EVM wallets. This tutorial uses MetaMask wallet as an example; other wallets also work.
-
-You can refer to our [FAQ](../../../../faq/faq-for-liquidity-providers/wallet-connection.md) and [Wallet tutorials](../../wallets/) for more information. If you encounter any trouble, please contact GLIF through a [Discord support ticket](https://discord.gg/5qsJjsP3Re).
-{% endhint %}
+> [!TIP]
+> GLIF is compatible with most EVM wallets. This tutorial uses MetaMask wallet as an example; other wallets also work.
+>
+> You can refer to our [FAQ](../../../../faq/faq-for-liquidity-providers/wallet-connection.md) and [Wallet tutorials](../../wallets/) for more information. If you encounter any trouble, please contact GLIF through a [Discord support ticket](https://discord.gg/5qsJjsP3Re).
 
 ## Step 1: Connect your wallet to GLIF and Filecoin Mainnet
 
@@ -27,9 +26,8 @@ For detailed instructions on how to connect your wallet to the Filecoin Mainnet,
 2. Select Network as "**Filecoin**".
 3. Enter your **"0x"/ "f410"/"f1"** wallet address accurately and specify the amount you want to send.
 
-{% hint style="warning" %}
-If you are doing this for the first time, it's good practice to send a small amount first in case you make any mistakes.
-{% endhint %}
+> [!WARNING]
+> If you are doing this for the first time, it's good practice to send a small amount first in case you make any mistakes.
 
 ![Withdrawal step](../../../../../.gitbook/assets/image (53).png)
 

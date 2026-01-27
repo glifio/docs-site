@@ -2,12 +2,11 @@
 
 本教程将带您将 iFIL 代币从 GLIF 提现到交易所。本教程专门针对将 FIL 转移到 MEXC。请[点击此处](../zai-jiao-yi-suo-he-glif-zhi-jian-zhuan-yi-fil.md)查看其他交易所的教程。
 
-{% hint style="info" %}
-GLIF 与大多数 EVM 钱包兼容。本教程以 MetaMask 钱包为示例，其他钱包同样适用。\
-您可以参考我们的[常见问题](../../../../chang-jian-wen-ti/chang-jian-wen-ti-liu-dong-xing-ti-gong-zhe/)和[钱包教程](../../qian-bao/)以获取更多资讯。
-
-如果您遇到任何问题，请通过[ Discord 支持工单](https://discord.gg/5qsJjsP3Re)与 GLIF 联系。
-{% endhint %}
+> [!NOTE]
+> GLIF 与大多数 EVM 钱包兼容。本教程以 MetaMask 钱包为示例，其他钱包同样适用。\
+> 您可以参考我们的[常见问题](../../../../chang-jian-wen-ti/chang-jian-wen-ti-liu-dong-xing-ti-gong-zhe/)和[钱包教程](../../qian-bao/)以获取更多资讯。
+>
+> 如果您遇到任何问题，请通过[ Discord 支持工单](https://discord.gg/5qsJjsP3Re)与 GLIF 联系。
 
 ## 目录
 
@@ -45,9 +44,8 @@ GLIF 与大多数 EVM 钱包兼容。本教程以 MetaMask 钱包为示例，其
 1. 连接到您的主钱包，即您刚刚从GLIF提取 FIL 的钱包。
 2. 在 GLIF 网站的右上角，点击 “**发送 / 转发 FIL**"。
 
-{% hint style="warning" %}
-此步骤请勿使用 MetaMask 浏览器插件发送 FIL。否则，您的 MetaMask 可能会连接到以太坊主网而不是 Filecoin 主网。
-{% endhint %}
+> [!WARNING]
+> 此步骤请勿使用 MetaMask 浏览器插件发送 FIL。否则，您的 MetaMask 可能会连接到以太坊主网而不是 Filecoin 主网。
 
 ![MetaMask prompt](../../../../../.gitbook/assets/image (256).png)
 
@@ -57,9 +55,8 @@ GLIF 与大多数 EVM 钱包兼容。本教程以 MetaMask 钱包为示例，其
 
 ![步骤 3：将 FIL 从](../../../../../.gitbook/assets/image (260).png)
 
-{% hint style="info" %}
-请确保您的钱包中留有足够的 FIL 用于支付 Gas 费用；通常 0.001 FIL 就足够了。
-{% endhint %}
+> [!TIP]
+> 请确保您的钱包中留有足够的 FIL 用于支付 Gas 费用；通常 0.001 FIL 就足够了。
 
 6. 在您的主钱包中点击 "确认"。
 7. 交易完成后，您可以在 GLIF 的 "**钱包**" 标签中查看中介钱包的余额。
@@ -74,9 +71,8 @@ GLIF 与大多数 EVM 钱包兼容。本教程以 MetaMask 钱包为示例，其
 
 ![步骤 4：在交易所中找到您的接](../../../../../.gitbook/assets/image (261).png)
 
-{% hint style="danger" %}
-警告：在向交易所转移大量资金之前，请先发送少量 FIL 作为测试交易。
-{% endhint %}
+> [!CAUTION]
+> 警告：在向交易所转移大量资金之前，请先发送少量 FIL 作为测试交易。
 
 ## 步骤 5：将 FIL 从您的钱包发送到交易所
 
@@ -92,9 +88,8 @@ GLIF 与大多数 EVM 钱包兼容。本教程以 MetaMask 钱包为示例，其
 ![步骤 5：将 FIL 从您的钱](../../../../../.gitbook/assets/image (263).png)
 
 6. 交易完成后，您可以在交易所查看余额。
-{% hint style="warning" %}
-由于需要较多的区块确认，交易所可能需要约一小时来确认您的转账。如果交易超过一天仍未到账，请尝试联系交易所客服。
-{% endhint %}
+> [!WARNING]
+> 由于需要较多的区块确认，交易所可能需要约一小时来确认您的转账。如果交易超过一天仍未到账，请尝试联系交易所客服。
 
 ## 结论
 

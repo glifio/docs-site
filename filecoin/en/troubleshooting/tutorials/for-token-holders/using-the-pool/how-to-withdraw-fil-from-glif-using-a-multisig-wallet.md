@@ -41,9 +41,8 @@ Go to the "**Tokens"** section, click on the **"⋯"** button next to your iFIL 
 
 Input the amount of iFIL you wish to withdraw. Click **"Approve"** to allow the GLIF Pool to transfer your iFIL.
 
-{% hint style="info" %}
-In the left sidebar, you will see that Step 1, **'Approve the Infinity Pool to transfer your iFIL'** is highlighted.
-{% endhint %}
+> [!NOTE]
+> In the left sidebar, you will see that Step 1, **'Approve the Infinity Pool to transfer your iFIL'** is highlighted.
 
 ![Approve pool access](../../../../.gitbook/assets/image (1).png)
 
@@ -71,9 +70,8 @@ Then, navigate to the **"Multisig Proposals"** section in your multisig wallet i
 
 After selecting the proposal, click '**Approve Proposal**' and confirm the approval in the wallet prompt.
 
-{% hint style="info" %}
-Each signer's wallet must have a small amount of FIL to cover the gas fee.
-{% endhint %}
+> [!NOTE]
+> Each signer's wallet must have a small amount of FIL to cover the gas fee.
 
 ![Approve pool access](../../../../.gitbook/assets/image (323).png)
 

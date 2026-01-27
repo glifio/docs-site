@@ -2,11 +2,10 @@
 
 This tutorial will guide you through the process of withdraw your iFIL tokens from GLIF to an exchange.  This tutorial is specifically for transferring FIL to MEXC. Check this [page](../transfer-fil-between-exchange-and-glif.md) for tutorials on other exchanges.
 
-{% hint style="info" %}
-GLIF is compatible with most EVM wallets. This tutorial uses MetaMask wallet as an example; other wallets also work.
-
-You can refer to our [FAQ](../../../../faq/faq-for-liquidity-providers/wallet-connection.md) and [Wallet tutorials](../../wallets/) for more information. If you encounter any trouble, please contact GLIF through a [Discord support ticket](https://discord.gg/5qsJjsP3Re).
-{% endhint %}
+> [!TIP]
+> GLIF is compatible with most EVM wallets. This tutorial uses MetaMask wallet as an example; other wallets also work.
+>
+> You can refer to our [FAQ](../../../../faq/faq-for-liquidity-providers/wallet-connection.md) and [Wallet tutorials](../../wallets/) for more information. If you encounter any trouble, please contact GLIF through a [Discord support ticket](https://discord.gg/5qsJjsP3Re).
 
 ## Contents
 
@@ -49,9 +48,8 @@ Once done, your intermediary wallet’s address, starting with ‘**f1**’, wil
 1. Connect to your main wallet, which is the one we just withdrew FIL into.
 2. In the top right corner of GLIF website, click **"Send / Forward FIL"** .
 
-{% hint style="danger" %}
-Do not use the MetaMask browser extension wallet to send FIL in this step. Otherwise, your MetaMask may be connected to the Ethereum mainnet instead of the Filecoin mainnet.
-{% endhint %}
+> [!CAUTION]
+> Do not use the MetaMask browser extension wallet to send FIL in this step. Otherwise, your MetaMask may be connected to the Ethereum mainnet instead of the Filecoin mainnet.
 
 ![MetaMask prompt](../../../../../.gitbook/assets/image (86).png)
 
@@ -61,9 +59,8 @@ Do not use the MetaMask browser extension wallet to send FIL in this step. Other
 
 ![Send button](../../../../../.gitbook/assets/image (46).png)
 
-{% hint style="info" %}
-Please ensure you have sufficient FIL for gas fees; 0.001 FIL is usually more than enough.
-{% endhint %}
+> [!NOTE]
+> Please ensure you have sufficient FIL for gas fees; 0.001 FIL is usually more than enough.
 
 6. Click **"Confirm"** in your main wallet.
 7. After the transaction completed, you can check the balance of your intermediary wallet in the "**Wallet**" tab in GLIF.
@@ -75,9 +72,8 @@ Please ensure you have sufficient FIL for gas fees; 0.001 FIL is usually more th
 
 ![Copy address](../../../../../.gitbook/assets/image (47).png)
 
-{% hint style="danger" %}
-**WARNING**: Before transferring a large amount of funds to an exchange, send a small amount as a test transaction first.
-{% endhint %}
+> [!CAUTION]
+> **WARNING**: Before transferring a large amount of funds to an exchange, send a small amount as a test transaction first.
 
 ## Step 5: Send FIL from your wallet to exchange
 
@@ -94,9 +90,8 @@ Please ensure you have sufficient FIL for gas fees; 0.001 FIL is usually more th
 
 6. After the transaction is completed, you can check the balance in your exchange.
 
-{% hint style="warning" %}
-Since it requires a high number of block confirmations, **it may take up to an hour for the exchange to confirm your transfer**. If the transaction does not arrive after more than a day, try contacting the exchange support.
-{% endhint %}
+> [!WARNING]
+> Since it requires a high number of block confirmations, **it may take up to an hour for the exchange to confirm your transfer**. If the transaction does not arrive after more than a day, try contacting the exchange support.
 
 ## Conclusion
 

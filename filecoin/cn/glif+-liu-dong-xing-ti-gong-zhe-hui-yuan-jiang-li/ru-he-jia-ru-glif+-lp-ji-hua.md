@@ -27,9 +27,8 @@ description: 简单三步，轻松成为 GLIF+ 流动性提供者
 
 你可以随时追加质押代币，不会产生任何罚金或费用。
 
-{% hint style="info" %}
-你的 GLF:iFIL 比例必须 **≥ 1:1**，卡片才会保持激活状态。
-{% endhint %}
+> [!IMPORTANT]
+> 你的 GLF:iFIL 比例必须 **≥ 1:1**，卡片才会保持激活状态。
 
 #### iFIL 与 $GLF 如何影响奖励
 

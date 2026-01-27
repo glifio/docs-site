@@ -16,17 +16,15 @@
 
 ![如何在 GLIF 上创建多签钱](../../../../.gitbook/assets/image (306).png)
 
-{% hint style="info" %}
-确保您的钱包中有一些 FIL 用于支付 Gas 费。
-{% endhint %}
+> [!TIP]
+> 确保您的钱包中有一些 FIL 用于支付 Gas 费。
 
 4. **添加多签签名人**
 
 将希望纳入该多签钱包的签名人地址添加进去。如果要添加更多签名人，可点击“**添加签名者**”。
 
-{% hint style="info" %}
-请注意：不支持将以太坊地址用作多签签名人，您需要使用有效的 f1 地址（例如 [FilSnap](ru-he-li-yong-filsnap-qian-bao-zuo-wei-zhong-jie-qian-bao.md)、[Ledger](ru-he-li-yong-ledger-qian-bao-zuo-wei-zhong-jie-qian-bao.md) 或 [Burner](ru-he-li-yong-burner-qian-bao-zuo-wei-zhong-jie-qian-bao.md) 钱包）。
-{% endhint %}
+> [!IMPORTANT]
+> 请注意：不支持将以太坊地址用作多签签名人，您需要使用有效的 f1 地址（例如 [FilSnap](ru-he-li-yong-filsnap-qian-bao-zuo-wei-zhong-jie-qian-bao.md)、[Ledger](ru-he-li-yong-ledger-qian-bao-zuo-wei-zhong-jie-qian-bao.md) 或 [Burner](ru-he-li-yong-burner-qian-bao-zuo-wei-zhong-jie-qian-bao.md) 钱包）。
 
 接下来，设置交易所需批准，并输入存款金额。如果需要，还可以配置vesting schedule (非必需)。确认无误后，点击“**发送**”。
 

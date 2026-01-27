@@ -44,17 +44,15 @@ Let's take a look at how borrowing for sealing and withdrawing affect your DTL r
    * You **keep** the FIL within your Agent and its miners.
    * Both your **debt** and **liquidation value** **increase** by the borrowed amount.
 
-{% hint style="info" %}
-Pledged FIL from sealing incurs a hypothetical "termination fee" - which is the amount of FIL that would be lost in a liquidation scenario. As a result, using borrowed FIL for sealing slightly decreases the Agent's liquidation value. However, the Agent's liquidation value increases every time one of its miners' earns a block reward.
-{% endhint %}
+> [!NOTE]
+> Pledged FIL from sealing incurs a hypothetical "termination fee" - which is the amount of FIL that would be lost in a liquidation scenario. As a result, using borrowed FIL for sealing slightly decreases the Agent's liquidation value. However, the Agent's liquidation value increases every time one of its miners' earns a block reward.
 
 2. **Borrow FIL for withdrawing:**
    * When you borrow FIL for withdrawing, the borrowed amount is **removed** from your Agent.
    * Your **debt** increases, but your **liquidation value decreases** by the withdrawn amount.
 
-{% hint style="info" %}
-Your DTL will gradually rise as interest accumulates.
-{% endhint %}
+> [!NOTE]
+> Your DTL will gradually rise as interest accumulates.
 
 ### Key Takeaways:
 

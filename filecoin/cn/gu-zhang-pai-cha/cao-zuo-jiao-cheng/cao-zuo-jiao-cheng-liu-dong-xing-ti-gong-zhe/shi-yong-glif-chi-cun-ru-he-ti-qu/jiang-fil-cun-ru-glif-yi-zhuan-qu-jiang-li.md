@@ -8,9 +8,8 @@
 
 在本教程中，我们将以 MetaMask 为例，如果您想使用 Ledger，也可以在[此处](ru-he-shi-yong-ying-jian-qian-bao-jiang-fil-cun-ru-glif.md)找到相应的教程。
 
-{% hint style="info" %}
-无论使用哪种钱包，都请务必妥善备份并安全保管您的助记词，切勿与他人分享。**GLIF 团队的任何成员都不会向您索要私钥或助记词。**
-{% endhint %}
+> [!IMPORTANT]
+> 无论使用哪种钱包，都请务必妥善备份并安全保管您的助记词，切勿与他人分享。**GLIF 团队的任何成员都不会向您索要私钥或助记词。**
 
 ## 步骤 2：将您的钱包连接到 GLIF
 
@@ -45,9 +44,8 @@
 
 ![步骤 3：在 GLIF 上存入](../../../../.gitbook/assets/image (66).png)
 
-{% hint style="warning" %}
-请确保您的钱包中留有足够的 FIL 来支付 Gas 费用。
-{% endhint %}
+> [!WARNING]
+> 请确保您的钱包中留有足够的 FIL 来支付 Gas 费用。
 
 5. 在您的钱包中点击“**确认**”。
 
@@ -57,9 +55,8 @@
 
 存入 FIL 后，您将在一两分钟内收到 iFIL。iFIL 的 FIL 价值代表您的初始存款加上已获得的收益。
 
-{% hint style="info" %}
-如需了解 iFIL 的更多信息，请在[此处](../../../../liu-dong-xing-ti-gong-zhe/glif-jiang-li-ji-zhi-ifil.md)查看文档。
-{% endhint %}
+> [!NOTE]
+> 如需了解 iFIL 的更多信息，请在[此处](../../../../liu-dong-xing-ti-gong-zhe/glif-jiang-li-ji-zhi-ifil.md)查看文档。
 
 如果您想查看更详细的持仓信息，可以点击 GLIF 左上方中的“**钱包**”，在“**代币**”部分查看钱包的 FIL 和 iFIL。
 

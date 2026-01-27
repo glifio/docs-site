@@ -2,9 +2,8 @@
 
 If your FIL tokens are currently on an exchange and you are eager to utilize them to earn rewards by depositing to GLIF, or if you want to withdraw from GLIF to an exchange, this guide will simplify the process for you.
 
-{% hint style="warning" %}
-**WARNING**: Before transferring a large amount of funds to an exchange, send a small amount as a test transaction first.
-{% endhint %}
+> [!WARNING]
+> **WARNING**: Before transferring a large amount of funds to an exchange, send a small amount as a test transaction first.
 
 ## Understand Filecoin Address Types
 
@@ -20,9 +19,8 @@ To use applications on the FVM, you may need to have FIL inside an "**f410"** or
 
 An "**f1"** wallet address is generated from a secp256k public key. The "**f1**" address is widely recognized by most exchanges. However, some centralized exchanges recognize only "**f1**" addresses and may not yet support receiving Filecoin directly from "**f410**" or "**0x**" type addresses as they do not recognize them as valid Filecoin destinations.
 
-{% hint style="info" %}
-To check if your exchange supports transferring Filecoin to/from "**f410**" or "**0x**" type addresses, refer to the most up-to-date information [here](https://filecointldr.io/how-to-buy-filecoin).
-{% endhint %}
+> [!TIP]
+> To check if your exchange supports transferring Filecoin to/from "**f410**" or "**0x**" type addresses, refer to the most up-to-date information [here](https://filecointldr.io/how-to-buy-filecoin).
 
 ## Step-by-step guide
 
@@ -35,9 +33,8 @@ Before conducting any transactions between your wallet and an exchange, **check 
   * [Transfer FIL from MEXC to GLIF](mexc/transfer-fil-from-mexc-to-glif.md)
   * [Transfer FIL from GLIF to MEXC](mexc/transfer-fil-from-glif-to-mexc.md)
 
-{% hint style="danger" %}
-**WARNING**: Certain exchanges like Bybit, MEXC, Binance US and others do not support transfers from 0x style Filecoin addresses yet. Before transferring any funds to an exchange, send a test transaction first.
-{% endhint %}
+> [!CAUTION]
+> **WARNING**: Certain exchanges like Bybit, MEXC, Binance US and others do not support transfers from 0x style Filecoin addresses yet. Before transferring any funds to an exchange, send a test transaction first.
 
 ***
 

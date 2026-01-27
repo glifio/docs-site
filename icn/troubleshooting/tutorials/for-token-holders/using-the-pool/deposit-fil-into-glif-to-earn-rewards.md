@@ -8,9 +8,8 @@ To deposit FIL to GLIF, you first need to choose a wallet that supports FIL. GLI
 
 In this tutorial we will use MetaMask, but you can find a similar tutorial using Ledger [here](how-to-deposit-filecoin-from-a-hardware-wallet-with-glif.md).
 
-{% hint style="info" %}
-No matter which wallet you use, always make sure to back up your secret recovery phrase, store it securely, and never share it with anyone. **No one from the GLIF team will ever ask you for private keys or seed phrases.**
-{% endhint %}
+> [!IMPORTANT]
+> No matter which wallet you use, always make sure to back up your secret recovery phrase, store it securely, and never share it with anyone. **No one from the GLIF team will ever ask you for private keys or seed phrases.**
 
 ## Step 2: Connect your wallet to GLIF
 
@@ -43,9 +42,8 @@ For detailed instructions on add the Filecoin Mainnet to your wallet, check out 
 
 ![Send confirmation](../../../../.gitbook/assets/image (303).png)
 
-{% hint style="warning" %}
-Please make sure that you leave enough FIL in the wallet to cover gas fees. 
-{% endhint %}
+> [!WARNING]
+> Please make sure that you leave enough FIL in the wallet to cover gas fees.
 
 5. Click **"Confirm"** in your wallet.
 
@@ -55,9 +53,8 @@ Please make sure that you leave enough FIL in the wallet to cover gas fees.
 
 After depositing FIL, you will receive iFIL within a minute or two. The FIL value of your iFIL represents your initial deposit plus any earned rewards.
 
-{% hint style="info" %}
-For more information on iFIL, check out our [docs](https://docs.glif.io/for-liquidity-providers/glif-reward-mechanism-ifil).
-{% endhint %}
+> [!NOTE]
+> For more information on iFIL, check out our [docs](https://docs.glif.io/for-liquidity-providers/glif-reward-mechanism-ifil).
 
 For a more detailed view of your position, click on "**Wallet"** in the GLIF navigation, and you will be able to see the FIL and iFIL associated with your wallet address in the "**Token"** section.
 

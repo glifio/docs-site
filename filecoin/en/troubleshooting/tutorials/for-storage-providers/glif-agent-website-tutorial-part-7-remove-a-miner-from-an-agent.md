@@ -33,9 +33,8 @@ In this part of the tutorial, we will guide you through the process of remove a 
 3. In the "**Remove a miner from your Agent**" multisig proposal interface, enter the new owner address of the miner.
 4. Review the details and click “**Sign Transaction**.”
 
-{% hint style="warning" %}
-Credentials are valid for only 5 minutes. If you see the error "_AgentPolice: Invalid Credential_", it means the credentials have expired, so please start over.
-{% endhint %}
+> [!WARNING]
+> Credentials are valid for only 5 minutes. If you see the error "_AgentPolice: Invalid Credential_", it means the credentials have expired, so please start over.
 
 ![Initiate removal](../../../.gitbook/assets/image (254).png)
 

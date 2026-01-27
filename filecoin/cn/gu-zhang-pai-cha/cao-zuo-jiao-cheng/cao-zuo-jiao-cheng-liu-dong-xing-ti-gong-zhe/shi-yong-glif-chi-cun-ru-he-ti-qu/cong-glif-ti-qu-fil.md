@@ -2,9 +2,8 @@
 
 本教程将示范如何在 GLIF 用 iFIL 代币提取 FIL，而从 GLIF 提取 FIL 需要进行 2 笔交易。
 
-{% hint style="info" %}
-请[点击此处](../../../../liu-dong-xing-ti-gong-zhe/ti-qu-fil.md)，了解更多关于提取机制。
-{% endhint %}
+> [!NOTE]
+> 请[点击此处](../../../../liu-dong-xing-ti-gong-zhe/ti-qu-fil.md)，了解更多关于提取机制。
 
 ## 步骤 1：连接钱包到 GLIF
 

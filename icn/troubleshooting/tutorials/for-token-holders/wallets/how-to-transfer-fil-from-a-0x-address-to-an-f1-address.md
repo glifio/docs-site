@@ -2,9 +2,8 @@
 
 To send FIL from a 0x address to an f1 address, you will need to use an intermediary wallet such as a [FilSnap wallet](how-to-obtain-a-filsnap-wallet-as-the-intermediary-wallet.md), [burner wallet](how-to-obtain-a-burner-wallet-as-the-intermediary-wallet.md), or [Ledger](how-to-obtain-a-ledger-wallet-as-the-intermediary-wallet.md), which facilitates the necessary conversions. This guide will walk you through the process of creating an intermediary wallet and using it as an intermediary to transfer FIL from your 0x address to the desired f1 address.
 
-{% hint style="info" %}
-This tutorial uses MetaMask wallet as an example, as it works better with FEVM; other wallets also work.You can refer to our [FAQ](../../../faq/faq-for-liquidity-providers/wallet-connection.md) if you encounter any trouble or please contact GLIF through a [Discord support ticket](https://discord.gg/5qsJjsP3Re).
-{% endhint %}
+> [!NOTE]
+> This tutorial uses MetaMask wallet as an example, as it works better with FEVM; other wallets also work.You can refer to our [FAQ](../../../faq/faq-for-liquidity-providers/wallet-connection.md) if you encounter any trouble or please contact GLIF through a [Discord support ticket](https://discord.gg/5qsJjsP3Re).
 
 ## Contents
 
@@ -16,11 +15,10 @@ This guide will walk you through:
 
 **Step 3:** [**Transfer FIL from Burner Wallet to your f1 address (final destination)**](how-to-transfer-fil-from-a-0x-address-to-an-f1-address.md#step-3-transfer-fil-from-burner-wallet-to-your-f1-address-final-destination)
 
-{% hint style="info" %}
-**Before your send any FIL to any wallet, test it with a small amount of FIL.**
-
-No matter which wallet you use, always make sure to back up your secret recovery phrase, store it securely, and never share it with anyone.
-{% endhint %}
+> [!IMPORTANT]
+> **Before your send any FIL to any wallet, test it with a small amount of FIL.**
+>
+> No matter which wallet you use, always make sure to back up your secret recovery phrase, store it securely, and never share it with anyone.
 
 ## Step 1: Set Up Your Intermediary Wallet
 
@@ -34,18 +32,16 @@ For details on creating an intermediary wallet, please refer to the tutorial by 
 
 ## Step 2: Send FIL from 0x address (main wallet) to f1 address (intermediary Wallet)
 
-{% hint style="danger" %}
-Remember to use the **"Send/Forward FIL" page within GLIF** when you attempt to send from a 0x address to an f1 address.
+> [!CAUTION]
+> Remember to use the **"Send/Forward FIL" page within GLIF** when you attempt to send from a 0x address to an f1 address.
+>
+> **Do not use the MetaMask browser extension wallet to send FIL in this step.** Otherwise, your MetaMask may be connected to the Ethereum mainnet instead of the Filecoin mainnet.
 
-**Do not use the MetaMask browser extension wallet to send FIL in this step.** Otherwise, your MetaMask may be connected to the Ethereum mainnet instead of the Filecoin mainnet.
-{% endhint %}
-
-{% hint style="info" %}
-It will be easier to manage the transaction if you open **two tabs**:
-
-* **Tab 1:** Connected to **MetaMask** for sending funds.
-* **Tab 2:** Connected to a **burner wallet** for receiving funds, then sending them to your **F1 address**.
-{% endhint %}
+> [!TIP]
+> It will be easier to manage the transaction if you open **two tabs**:
+>
+> * **Tab 1:** Connected to **MetaMask** for sending funds.
+> * **Tab 2:** Connected to a **burner wallet** for receiving funds, then sending them to your **F1 address**.
 
 1. Visit the GLIF website and click **"Connect Wallet."** Select your **main wallet**, which is the one holding your FIL.
 
@@ -66,37 +62,33 @@ It will be easier to manage the transaction if you open **two tabs**:
 5. In the "**Forward FIL**" page, paste your **intermediary wallet's f1 address** in the recipient field. This is the wallet created in [Step 1](how-to-transfer-fil-from-a-0x-address-to-an-f1-address.md#step-1-set-up-your-intermediary-wallet). Burner wallet is used as an example here.
 6. Enter the amount of FIL you wish to transfer (start with a small test amount).
 
-{% hint style="warning" %}
-**Before your send any FIL to the burner wallet, test it with a small amount of FIL.**
-{% endhint %}
+> [!WARNING]
+> **Before your send any FIL to the burner wallet, test it with a small amount of FIL.**
 
 ![Transfer FIL](../../../../.gitbook/assets/image (153).png)
 
 7. Click **"Confirm"** in MetaMask.
 
-{% hint style="warning" %}
-Please ensure you have sufficient FIL for gas fees; 0.001 FIL is usually more than enough.
-{% endhint %}
+> [!WARNING]
+> Please ensure you have sufficient FIL for gas fees; 0.001 FIL is usually more than enough.
 
 ![Send FIL](../../../../.gitbook/assets/image (200).png)
 
-{% hint style="info" %}
-If you are unable to get a confirmation in your main wallet (e.g. MetaMask), there may be an internal error. Try these steps:
-
-1. Restart your browser.
-2. Sign back into your main wallet.
-3. Ensure your main wallet is connected to the Filecoin Mainnet.
-4. Open GLIF website and reconnect your main wallet.
-5. Try sending the funds again.
-{% endhint %}
+> [!TIP]
+> If you are unable to get a confirmation in your main wallet (e.g. MetaMask), there may be an internal error. Try these steps:
+>
+> 1. Restart your browser.
+> 2. Sign back into your main wallet.
+> 3. Ensure your main wallet is connected to the Filecoin Mainnet.
+> 4. Open GLIF website and reconnect your main wallet.
+> 5. Try sending the funds again.
 
 8. In the bottom right corner of the webpage, a notification box will appear, indicating **"Transaction Pending"** and providing you with a tx hash. When the transaction is completed, it will change to **"Transaction Completed".**
 
 ![Send FIL](../../../../.gitbook/assets/image (154).png)
 
-{% hint style="info" %}
-The GLIF team **cannot** help you find your tx hash. Please record your tx hash for tracking your transaction.
-{% endhint %}
+> [!IMPORTANT]
+> The GLIF team **cannot** help you find your tx hash. Please record your tx hash for tracking your transaction.
 
 9. You can check the transaction details on [filfox.info](https://filfox.info/en) by searching the tx hash.
 10. To confirm that the FIL you transferred went to your burner address, click **"internal transfer"** on the [filfox.info](https://filfox.info/en) transaction details page to view the address details. The **"To"** address should match your burner wallet's f1 address.

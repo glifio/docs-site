@@ -23,9 +23,8 @@ Please find the detailed tutorial for agent [here](../troubleshooting/tutorials/
 
 Agents can borrow once they have collateral. You can add collateral simply by sending FIL to an Agent smart contract, or by pledging one or more Filecoin Miner Actors. In depth tutorials will be posted soon for adding collateral to Agents.
 
-{% hint style="info" %}
-To pledge a Filecoin Miner Actor to a GLIF Agent smart contract, the Storage Provider must assign Ownership of their Filecoin Miner Actor to the address of their GLIF Agent smart contract.
-{% endhint %}
+> [!NOTE]
+> To pledge a Filecoin Miner Actor to a GLIF Agent smart contract, the Storage Provider must assign Ownership of their Filecoin Miner Actor to the address of their GLIF Agent smart contract.
 
 The more mining power added to an Agent, the greater the Agent's liquidation value, which increases the total amount of FIL the Agent can borrow.
 
@@ -35,9 +34,8 @@ The more mining power added to an Agent, the greater the Agent's liquidation val
 
 The Storage Provider that deploys an Agent is in complete and total control of the Agent. If the Storage Provider loses its Agent ownership keys, there is nothing the GLIF team can do to recover the Storage Providers assets.
 
-{% hint style="info" %}
-It is extremely important that Storage Providers manage and backup their Agent keys in a secure and responsible way
-{% endhint %}
+> [!IMPORTANT]
+> It is extremely important that Storage Providers manage and backup their Agent keys in a secure and responsible way
 
 ## Agent Owner and Operator Keys
 

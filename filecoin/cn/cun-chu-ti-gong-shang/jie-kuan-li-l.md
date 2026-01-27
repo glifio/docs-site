@@ -4,9 +4,8 @@
 
 GLIF 向存储提供商 (SP) 的借款收取 **15%** 的年利率 (APR) 。
 
-{% hint style="info" %}
-在过去的 12 个月，GLIF 的借款年利率 (APR) 一直固定在 15%。但是随着算力从 Filecoin 网络中退出，Filecoin 的基础奖励机制一直在下降。GLIF 团队目前正在考虑根据 Filecoin 网络奖励的减少来改变利率。
-{% endhint %}
+> [!NOTE]
+> 在过去的 12 个月，GLIF 的借款年利率 (APR) 一直固定在 15%。但是随着算力从 Filecoin 网络中退出，Filecoin 的基础奖励机制一直在下降。GLIF 团队目前正在考虑根据 Filecoin 网络奖励的减少来改变利率。
 
 ## SP 的付款首先应用于支付利息，然后是本金
 

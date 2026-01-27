@@ -35,9 +35,8 @@ To push funds from your Agent to a Miner owned by your Agent for use as pledge c
 3. In the "**Push Funds to your Miner**" multisig proposal interface, enter the amount to send to your miner.
 4. Click “**Sign Transaction**”.
 
-{% hint style="warning" %}
-Credentials are valid for only 5 minutes. If you see the error "_AgentPolice: Invalid Credential_", it means the credentials have expired, so please start over.
-{% endhint %}
+> [!WARNING]
+> Credentials are valid for only 5 minutes. If you see the error "_AgentPolice: Invalid Credential_", it means the credentials have expired, so please start over.
 
 ![Initiate push](../../../.gitbook/assets/image (231).png)
 
@@ -74,9 +73,8 @@ To pull funds from your Miner to your Agent for withdrawing rewards or making a 
 3. In the "**Pull Funds from your Miner**" multisig proposal interface, enter the amount to withdraw. Amount cannot exceed the miner’s available balance.
 4. Click “**Sign Transaction**”.
 
-{% hint style="warning" %}
-Credentials are valid for only 5 minutes. If you see the error "_AgentPolice: Invalid Credential_", it means the credentials have expired, so please start over.
-{% endhint %}
+> [!WARNING]
+> Credentials are valid for only 5 minutes. If you see the error "_AgentPolice: Invalid Credential_", it means the credentials have expired, so please start over.
 
 ![Withdrawal step](../../../.gitbook/assets/image (238).png)
 

@@ -42,9 +42,8 @@ The GLIF Agent Multisig Owner Wallet is recommended to have a signing threshold 
 2. Signer 2 (“the approver”) approves the transaction proposed in step 1
 3. The transaction executes successfully
 
-{% hint style="info" %}
-If you lose any of your signer keys (either Ledger devices or the Filecoin Snap wallet) then you can easily replace it with a new one! This is why Multisig wallets are a more secure way to own your Agent.
-{% endhint %}
+> [!NOTE]
+> If you lose any of your signer keys (either Ledger devices or the Filecoin Snap wallet) then you can easily replace it with a new one! This is why Multisig wallets are a more secure way to own your Agent.
 
 ![GLIF Agent Multisig Owner](../../../.gitbook/assets/image (43).png)
 
@@ -58,11 +57,10 @@ In order to prepare for Agent creation, you’ll need 3 addresses:
 
 For details on obtaining a [FilSnap](../for-token-holders/wallets/how-to-obtain-a-filsnap-wallet-as-the-intermediary-wallet.md), [Burner](../for-token-holders/wallets/how-to-obtain-a-burner-wallet-as-the-intermediary-wallet.md), or [Ledger](../for-token-holders/wallets/how-to-obtain-a-ledger-wallet-as-the-intermediary-wallet.md) wallet address, please refer to the tutorial by clicking the link.
 
-{% hint style="info" %}
-For added security, it’s recommended that you use two separate Ledger devices, but it is OK to start with 1 Ledger Device and then switch to use 2 separate Ledger devices soon after.
-
-If you do not want to use your Ledger, you can set up another FilSnap address or burner wallet address as your second or third address. It could work, but using a Ledger is recommended to enhance security.
-{% endhint %}
+> [!TIP]
+> For added security, it's recommended that you use two separate Ledger devices, but it is OK to start with 1 Ledger Device and then switch to use 2 separate Ledger devices soon after.
+>
+> If you do not want to use your Ledger, you can set up another FilSnap address or burner wallet address as your second or third address. It could work, but using a Ledger is recommended to enhance security.
 
 ## Next steps
 

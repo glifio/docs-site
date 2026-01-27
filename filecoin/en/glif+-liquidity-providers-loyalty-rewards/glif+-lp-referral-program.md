@@ -15,9 +15,8 @@ Each successful referral grants the referrer a **Referral Capsule**. These Capsu
 * **Issuance**: Capsules are **issued instantly** when the referred user mints a Card.
 * **Validity**: Capsules remain valid for **14 days**.
 
-{% hint style="info" %}
-Referral Capsules are independent of standard iFIL staking ratios and  $GLF premium rules. Each referral is worth the same fixed 5 FIL Capsule regardless of staking amount.
-{% endhint %}
+> [!NOTE]
+> Referral Capsules are independent of standard iFIL staking ratios and  $GLF premium rules. Each referral is worth the same fixed 5 FIL Capsule regardless of staking amount.
 
 ### Requirements
 

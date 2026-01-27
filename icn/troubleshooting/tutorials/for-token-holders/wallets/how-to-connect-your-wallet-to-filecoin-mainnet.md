@@ -8,9 +8,8 @@ GLIF is compatible with [most EVM wallets](https://filecointldr.io/how-to-buy-fi
 
 In this tutorial we will use MetaMask, but you can find a similar tutorial using Ledger [here](../using-the-pool/how-to-deposit-filecoin-from-a-hardware-wallet-with-glif.md).
 
-{% hint style="info" %}
-No matter which wallet you use, always make sure to back up your secret recovery phrase, store it securely, and never share it with anyone. No one from the GLIF team will ever ask you for private keys or seed phrases.
-{% endhint %}
+> [!IMPORTANT]
+> No matter which wallet you use, always make sure to back up your secret recovery phrase, store it securely, and never share it with anyone. No one from the GLIF team will ever ask you for private keys or seed phrases.
 
 ## Step 2: Connect your wallet to GLIF
 
@@ -26,9 +25,8 @@ No matter which wallet you use, always make sure to back up your secret recovery
 
 1. After choosing a chrome extension wallet (e.g. MetaMask) from the list of wallets, you may see a prompt appear in your wallet asking you to add the Filecoin network.
 
-{% hint style="info" %}
-Using Ledger? Check out our Ledger tutorial [here](../using-the-pool/how-to-deposit-filecoin-from-a-hardware-wallet-with-glif.md).
-{% endhint %}
+> [!TIP]
+> Using Ledger? Check out our Ledger tutorial [here](../using-the-pool/how-to-deposit-filecoin-from-a-hardware-wallet-with-glif.md).
 
 2. Click **‘Confirm’**, then click **‘Approve’** in MetaMask**.**
 

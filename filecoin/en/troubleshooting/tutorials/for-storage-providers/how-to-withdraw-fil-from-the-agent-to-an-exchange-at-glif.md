@@ -17,15 +17,13 @@ You can choose from the following options:
 
 **Step 3:** [**Transferring FIL from the intermediary wallet to the desired "f1" address on the exchange**](how-to-withdraw-fil-from-the-agent-to-an-exchange-at-glif.md#step-3-transferring-fil-from-the-intermediary-wallet-to-the-desired-f1-address-on-the-exchange)
 
-{% hint style="info" %}
-**Before your send any FIL to any wallet, test it with a small amount of FIL.**
+> [!IMPORTANT]
+> **Before your send any FIL to any wallet, test it with a small amount of FIL.**
+>
+> No matter which wallet you use, always make sure to back up your secret recovery phrase, store it securely, and never share it with anyone.
 
-No matter which wallet you use, always make sure to back up your secret recovery phrase, store it securely, and never share it with anyone.
-{% endhint %}
-
-{% hint style="warning" %}
-When withdrawing FIL from **the agent** using multisig wallets, you have five minutes to finish the proposal, from **proposing** it to approving the transaction. Missing the window means starting the process again.
-{% endhint %}
+> [!WARNING]
+> When withdrawing FIL from **the agent** using multisig wallets, you have five minutes to finish the proposal, from **proposing** it to approving the transaction. Missing the window means starting the process again.
 
 ## Step 1: Setting up your intermediary wallet
 
@@ -48,9 +46,8 @@ For details on creating an intermediary wallet, please refer to the tutorial by 
 4. Enter the amount to withdraw.
 5. Click "**Withdraw**"
 
-{% hint style="warning" %}
-Wallets with no prior transactions on chain are not supported as the intermediary wallet. Please make some transactions with this wallet before this step.
-{% endhint %}
+> [!WARNING]
+> Wallets with no prior transactions on chain are not supported as the intermediary wallet. Please make some transactions with this wallet before this step.
 
 ![Withdraw FIL](../../../.gitbook/assets/image (66).png)
 
@@ -61,9 +58,8 @@ Wallets with no prior transactions on chain are not supported as the intermediar
 7. After signing the transaction, you will receive a signed credential that **expires in around 5 minutes**. Complete the transaction within this time.
 8. Click "**Send"**.
 
-{% hint style="info" %}
-If you do not complete the transaction and **sign the proposal with your other signer wallets within 5 minutes**, you will need to repeat this step.
-{% endhint %}
+> [!IMPORTANT]
+> If you do not complete the transaction and **sign the proposal with your other signer wallets within 5 minutes**, you will need to repeat this step.
 
 ![Withdrawal step](../../../.gitbook/assets/image (83).png)
 
@@ -79,9 +75,8 @@ If you do not complete the transaction and **sign the proposal with your other s
 
 13. Click "**Approve proposal**".
 
-{% hint style="info" %}
-Make sure all signer wallets have **enough gas fees** to proceed with the transaction.
-{% endhint %}
+> [!NOTE]
+> Make sure all signer wallets have **enough gas fees** to proceed with the transaction.
 
 ![Approve proposal](../../../.gitbook/assets/image (75).png)
 

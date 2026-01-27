@@ -2,11 +2,10 @@
 
 This tutorial will guide you through the process of withdraw your iFIL tokens from GLIF to an exchange.  This tutorial is specifically for transferring FIL to Binance. Check this [page](../transfer-fil-between-exchange-and-glif.md) for tutorials on other exchanges.
 
-{% hint style="warning" %}
-GLIF is compatible with most EVM wallets. This tutorial uses MetaMask wallet as an example; other wallets also work.
-
-You can refer to our [FAQ](../../../../faq/faq-for-liquidity-providers/wallet-connection.md) and [Wallet tutorials](../../wallets/) for more information. If you encounter any trouble, please contact GLIF through a [Discord support ticket](https://discord.gg/5qsJjsP3Re).
-{% endhint %}
+> [!WARNING]
+> GLIF is compatible with most EVM wallets. This tutorial uses MetaMask wallet as an example; other wallets also work.
+>
+> You can refer to our [FAQ](../../../../faq/faq-for-liquidity-providers/wallet-connection.md) and [Wallet tutorials](../../wallets/) for more information. If you encounter any trouble, please contact GLIF through a [Discord support ticket](https://discord.gg/5qsJjsP3Re).
 
 ## Step 1: Withdrawing FIL from GLIF to your wallet
 
@@ -26,9 +25,8 @@ You can refer to our [FAQ](../../../../faq/faq-for-liquidity-providers/wallet-co
    \
    Select the "**Filecoin**" network if your wallet address starts with "**f1**."
 
-{% hint style="danger" %}
-**WARNING**: Choosing the wrong network can result in the loss of funds. Be aware and double-check your address type.
-{% endhint %}
+> [!CAUTION]
+> **WARNING**: Choosing the wrong network can result in the loss of funds. Be aware and double-check your address type.
 
 ![Tutorial step](../../../../../.gitbook/assets/image (393).png)
 
@@ -36,9 +34,8 @@ You can refer to our [FAQ](../../../../faq/faq-for-liquidity-providers/wallet-co
 
 ![Copy address](../../../../../.gitbook/assets/image (63).png)
 
-{% hint style="danger" %}
-**WARNING**: Before transferring a large amount of funds to an exchange, send a small amount as a test transaction first.
-{% endhint %}
+> [!CAUTION]
+> **WARNING**: Before transferring a large amount of funds to an exchange, send a small amount as a test transaction first.
 
 ## Step 3: Send FIL from your wallet to exchange
 
@@ -54,9 +51,8 @@ You can refer to our [FAQ](../../../../faq/faq-for-liquidity-providers/wallet-co
 
 5. After the transaction completed, you can check the balance in your exchange.
 
-{% hint style="warning" %}
-Since it requires a high number of block confirmations, **it may take up to an hour for the exchange to confirm your transfer**. If the transaction does not arrive after more than a day, try contacting the exchange support.
-{% endhint %}
+> [!WARNING]
+> Since it requires a high number of block confirmations, **it may take up to an hour for the exchange to confirm your transfer**. If the transaction does not arrive after more than a day, try contacting the exchange support.
 
 ## Conclusion
 

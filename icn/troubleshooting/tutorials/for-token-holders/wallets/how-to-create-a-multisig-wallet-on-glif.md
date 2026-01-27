@@ -18,17 +18,15 @@ Ensure you have a Filecoin-compatible wallet with an f1 wallet address, such as 
 
 ![Create multisig](../../../../.gitbook/assets/image (94).png)
 
-{% hint style="info" %}
-You need some FIL in your wallet to cover the gas fee.
-{% endhint %}
+> [!NOTE]
+> You need some FIL in your wallet to cover the gas fee.
 
 4. **Add multisig signers**
 
 Add the addresses of the signers you want to include in the multisig wallet. If you want more signers, click "**Add signer**".
 
-{% hint style="info" %}
-Pleaese remember that Ethereum addresses are not allowed as multisig signers. You need valid f1 addresses such as a [FilSnap wallet](how-to-obtain-a-filsnap-wallet-as-the-intermediary-wallet.md), [Ledger](how-to-obtain-a-ledger-wallet-as-the-intermediary-wallet.md), or a [burner wallet](how-to-obtain-a-burner-wallet-as-the-intermediary-wallet.md) to sign the multisig.
-{% endhint %}
+> [!IMPORTANT]
+> Pleaese remember that Ethereum addresses are not allowed as multisig signers. You need valid f1 addresses such as a [FilSnap wallet](how-to-obtain-a-filsnap-wallet-as-the-intermediary-wallet.md), [Ledger](how-to-obtain-a-ledger-wallet-as-the-intermediary-wallet.md), or a [burner wallet](how-to-obtain-a-burner-wallet-as-the-intermediary-wallet.md) to sign the multisig.
 
 Next, set the required number of approvals for transactions and enter the deposit amount. Additionally, you can configure a vesting schedule if needed (optional). Review the details and click **"Send".**
 

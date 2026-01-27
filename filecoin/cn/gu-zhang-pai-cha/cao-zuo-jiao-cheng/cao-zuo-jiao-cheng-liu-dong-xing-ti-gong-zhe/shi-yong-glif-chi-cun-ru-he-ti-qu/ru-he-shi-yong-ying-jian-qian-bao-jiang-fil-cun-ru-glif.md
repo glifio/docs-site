@@ -26,9 +26,8 @@
 
 3. 在尝试连接之前，确保硬件钱包上已打开 Filecoin 应用。
 
-{% hint style="info" %}
-如果您在 Ledger 中添加 Filecoin 应用时遇到问题，请[查看此处](https://docs.filecoin.io/basics/assets/metamask-setup#install-the-ledger-app)的教程。
-{% endhint %}
+> [!TIP]
+> 如果您在 Ledger 中添加 Filecoin 应用时遇到问题，请[查看此处](https://docs.filecoin.io/basics/assets/metamask-setup#install-the-ledger-app)的教程。
 
 ![MetaMask prompt](../../../../.gitbook/assets/image (94).png)
 
@@ -46,9 +45,8 @@
 
 2. 输入您要存入的数量，然后点击“**存款**”。
 
-{% hint style="info" %}
-请记得留出少量 FIL 用于支付Gas费用。
-{% endhint %}
+> [!TIP]
+> 请记得留出少量 FIL 用于支付Gas费用。
 
 ![步骤 3. 存入您的代币](../../../../.gitbook/assets/image (73).png)
 

@@ -60,9 +60,8 @@ See the [docs](../../../for-storage-providers/borrowing-limits-and-dtl.md) here 
 
 ![Transaction confirmation](../../../.gitbook/assets/image (217).png)
 
-{% hint style="danger" %}
-Credentials are valid for only 5 minutes. If you see this error, it means the credentials have expired, so please start over.
-{% endhint %}
+> [!CAUTION]
+> Credentials are valid for only 5 minutes. If you see this error, it means the credentials have expired, so please start over.
 
 ![Borrow step](../../../.gitbook/assets/image (212).png)
 
@@ -72,9 +71,8 @@ Credentials are valid for only 5 minutes. If you see this error, it means the cr
 
 9. Wait for the transaction to complete. A new proposal will appear in the Agent owner proposals section.
 
-{% hint style="warning" %}
-Minimum borrow amount is 1 FIL. If you see this error, please check if your borrowing amount is too low.
-{% endhint %}
+> [!WARNING]
+> Minimum borrow amount is 1 FIL. If you see this error, please check if your borrowing amount is too low.
 
 ![Borrow form](../../../.gitbook/assets/image (211).png)
 

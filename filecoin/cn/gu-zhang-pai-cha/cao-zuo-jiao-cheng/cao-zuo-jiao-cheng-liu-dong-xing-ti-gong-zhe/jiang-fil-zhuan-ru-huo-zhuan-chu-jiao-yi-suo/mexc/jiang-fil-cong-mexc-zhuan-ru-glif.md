@@ -4,12 +4,11 @@
 
 本教程专门针对从 MEXC 转移 FIL。请[点击此处](../)查看其他交易所的教程。
 
-{% hint style="info" %}
-GLIF 与大多数 EVM 钱包兼容。本教程以 MetaMask 钱包为示例，其他钱包同样适用。\
-您可以参考我们的[常见问题](../../../../chang-jian-wen-ti/chang-jian-wen-ti-liu-dong-xing-ti-gong-zhe/)和[钱包教程](../../qian-bao/)以获取更多资讯。
-
-如果您遇到任何问题，请通过[ Discord 支持工单](https://discord.gg/5qsJjsP3Re)与 GLIF 联系。
-{% endhint %}
+> [!NOTE]
+> GLIF 与大多数 EVM 钱包兼容。本教程以 MetaMask 钱包为示例，其他钱包同样适用。\
+> 您可以参考我们的[常见问题](../../../../chang-jian-wen-ti/chang-jian-wen-ti-liu-dong-xing-ti-gong-zhe/)和[钱包教程](../../qian-bao/)以获取更多资讯。
+>
+> 如果您遇到任何问题，请通过[ Discord 支持工单](https://discord.gg/5qsJjsP3Re)与 GLIF 联系。
 
 ## 目录
 
@@ -45,9 +44,8 @@ GLIF 与大多数 EVM 钱包兼容。本教程以 MetaMask 钱包为示例，其
 3. 输入[步骤 1 ](jiang-fil-cong-mexc-zhuan-ru-glif.md#bu-zhou-1-she-zhi-zhong-jie-qian-bao-ru-you-xu-yao)中创建的中介钱包地址。确保复制的地址正确。
 4. 输入您要发送的数量。
 
-{% hint style="warning" %}
-如果这是您第一次操作，建议先发送少量资金以防出现任何错误。
-{% endhint %}
+> [!WARNING]
+> 如果这是您第一次操作，建议先发送少量资金以防出现任何错误。
 
 ![步骤 2：将 Filecoin](../../../../../.gitbook/assets/image (246).png)
 
@@ -79,9 +77,8 @@ GLIF 与大多数 EVM 钱包兼容。本教程以 MetaMask 钱包为示例，其
 
 3. 将您在[步骤 4](jiang-fil-cong-mexc-zhuan-ru-glif.md#bu-zhou-4-jiang-zhu-qian-bao-lian-jie-zhi-glif-he-filecoin-zhu-wang) 中复制的主钱包地址粘贴到收款人栏，并指定要发送的金额。
 
-{% hint style="info" %}
-请确保钱包中留有足够的 FIL 以支付 Gas 费用。
-{% endhint %}
+> [!TIP]
+> 请确保钱包中留有足够的 FIL 以支付 Gas 费用。
 
 4. 然后点击 "发送"。
 

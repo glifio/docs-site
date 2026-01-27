@@ -22,9 +22,8 @@ FIL Capsule rewards are funded by the **GLIF protocol treasury**. Every week, th
 
 * The FIL encapsulated in each Capsule reflects your share of total iFIL staked across all active LP Cards.
 
-{% hint style="info" %}
-At launch, either 1,000 FIL or 20 percent of all FIL earned during each week (whichever is less) is allocated to FIL Capsules.
-{% endhint %}
+> [!NOTE]
+> At launch, either 1,000 FIL or 20 percent of all FIL earned during each week (whichever is less) is allocated to FIL Capsules.
 
 ***
 
@@ -46,9 +45,8 @@ There are generally 3 scenarios to consider:
 3. **Ratio above 100:1**
    * Your premium is capped at +25%.
 
-{% hint style="info" %}
-These parameters will likely change as more data is gathered from real usage to support long-term economic durability and sustainability.
-{% endhint %}
+> [!NOTE]
+> These parameters will likely change as more data is gathered from real usage to support long-term economic durability and sustainability.
 
 ***
 
@@ -76,9 +74,8 @@ In the example above:
 
 Because Alice’s GLF:iFIL ratio is higher, she receives a **higher premium** above the $GLF market 7 day time weighted average price (TWAP) than Bob. The premium ensures that Alice, Bob, and all LPs receive a **better $GLF→FIL rate** than the prior 7-day TWAP when they unlock their Capsules, since they are redeeming $GLF directly with the protocol rather than swapping on a DEX.
 
-{% hint style="info" %}
-When you unlock the FIL inside of a Capsule, the associated $GLF tokens used for the unlock are taken from your Card balance. This means that over time, your ratio of GLF : iFIL tokens will decrease unless you add more $GLF tokens to it.
-{% endhint %}
+> [!NOTE]
+> When you unlock the FIL inside of a Capsule, the associated $GLF tokens used for the unlock are taken from your Card balance. This means that over time, your ratio of GLF : iFIL tokens will decrease unless you add more $GLF tokens to it.
 
 #### Putting It All Together
 

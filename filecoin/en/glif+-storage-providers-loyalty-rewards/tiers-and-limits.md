@@ -18,9 +18,8 @@ There are 3 "Costs" associated with the GLIF+ Card:
 2. Activation fee (staking requirement) - a $GLF Token lockup that is repaid to the Card owner after downgrading or deactivating the Card. The $GLF used to obtain membership is **refundable** and separate from the $GLF used for cash back redemption.
 3. Cash back program vault - a $GLF Token lockup that is repaid to the Card owner whenever the Card owner wants to remove $GLF Tokens from the cash back program. This can be **withdrawn at anytime without penalty**.
 
-{% hint style="info" %}
-$GLF used for interest cash back becomes non-refundable after a swap, and there is no minimum amount required to perform the swap.
-{% endhint %}
+> [!NOTE]
+> $GLF used for interest cash back becomes non-refundable after a swap, and there is no minimum amount required to perform the swap.
 
 ### Tier Management
 
@@ -39,6 +38,5 @@ A Card holder can downgrade their Card to a lower tier, according to the followi
 * If the Card was last activated / upgraded / downgraded less than 3 months ago:
   * The Card can be downgraded with an 8.5% penalty on the staked $GLF Tokens for the Card activation. The Card holder will receive 91.5% of the staked $GLF Token amount
 
-{% hint style="warning" %}
-$GLF Tokens that are locked for Card activations are locked for 3 months by default.
-{% endhint %}
+> [!WARNING]
+> $GLF Tokens that are locked for Card activations are locked for 3 months by default.

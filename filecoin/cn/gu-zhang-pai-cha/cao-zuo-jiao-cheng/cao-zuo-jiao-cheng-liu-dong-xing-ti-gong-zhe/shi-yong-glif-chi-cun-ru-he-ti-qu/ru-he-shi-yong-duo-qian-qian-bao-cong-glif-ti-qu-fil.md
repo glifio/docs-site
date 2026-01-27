@@ -33,9 +33,8 @@
 
 输入想要提取的 iFIL 数量。点击“Approve”，允许 GLIF 池转移您的 iFIL。
 
-{% hint style="info" %}
-在网站左侧边栏，您会看到第一步 “Approve the Infinity Pool to transfer your iFIL” 。
-{% endhint %}
+> [!NOTE]
+> 在网站左侧边栏，您会看到第一步 "Approve the Infinity Pool to transfer your iFIL" 。
 
 ![第一步：批准 Infinity](../../../../.gitbook/assets/image (327).png)
 
@@ -61,9 +60,8 @@
 
 选中相应提案，点击“**批准提案**”，并在弹出的钱包中确认批准。
 
-{% hint style="info" %}
-每位签名人的钱包中都需要少量 FIL（0.001 FIL 即可）用于支付 Gas 。
-{% endhint %}
+> [!TIP]
+> 每位签名人的钱包中都需要少量 FIL（0.001 FIL 即可）用于支付 Gas 。
 
 ![第一步：批准 Infinity](../../../../.gitbook/assets/image (330).png)
 

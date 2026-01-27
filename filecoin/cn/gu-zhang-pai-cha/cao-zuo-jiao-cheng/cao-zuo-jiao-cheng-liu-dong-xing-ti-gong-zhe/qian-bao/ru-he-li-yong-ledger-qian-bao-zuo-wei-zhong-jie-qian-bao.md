@@ -26,9 +26,8 @@ Filecoin生态系统中有各种类型的地址，例如f0、f1、f2、f3和f410
 
 3. 在尝试连接之前，确保设备上的Filecoin应用已打开。
 
-{% hint style="info" %}
-如果您在 Ledger 中添加 Filecoin 应用时遇到问题，请[查看此处](https://docs.filecoin.io/basics/assets/metamask-setup#install-the-ledger-app)的教程。
-{% endhint %}
+> [!TIP]
+> 如果您在 Ledger 中添加 Filecoin 应用时遇到问题，请[查看此处](https://docs.filecoin.io/basics/assets/metamask-setup#install-the-ledger-app)的教程。
 
 ![MetaMask prompt](../../../../.gitbook/assets/image (94).png)
 

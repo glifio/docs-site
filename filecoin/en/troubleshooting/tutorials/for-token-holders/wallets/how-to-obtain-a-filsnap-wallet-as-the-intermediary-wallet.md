@@ -24,9 +24,8 @@ To obtain a FilSnap wallet, you will need to:
 
 ![Copy address](../../../../.gitbook/assets/image (84).png)
 
-{% hint style="info" %}
-It is highly recommended to **disconnect and reconnect** your newly created FilSnap wallet before transferring any FIL to ensure you understand how to access it in the future, minimizing the risk of losing access to your funds.
-{% endhint %}
+> [!TIP]
+> It is highly recommended to **disconnect and reconnect** your newly created FilSnap wallet before transferring any FIL to ensure you understand how to access it in the future, minimizing the risk of losing access to your funds.
 
 ## Conclusion
 

@@ -57,9 +57,8 @@ If your eligible wallet is a multisig wallet, the claiming process is very simil
 
 2. Scroll to the “NFTs” section. You will see an NFT representing your claimed tokens.
 
-{% hint style="warning" %}
-Note that the airdrop vesting schedule is aligned with Filecoin’s block reward schedule: 25% is available immediately, while 75% vests linearly over 180 days.
-{% endhint %}
+> [!WARNING]
+> Note that the airdrop vesting schedule is aligned with Filecoin's block reward schedule: 25% is available immediately, while 75% vests linearly over 180 days.
 
 3. The NFT shows how many tokens are redeemable. Click “Redeem.”
 
@@ -142,9 +141,8 @@ _If your Agent owner is a **single-signer/EOA wallet**, you do not need to sign 
 
 _If your Agent owner is a **single-signer/EOA wallet**, you do not need to sign any proposal. Simply click 'Redeem' on the NFT and confirm the transaction in your wallet. Once the transaction is complete, check your portfolio for $GLF tokens. Your NFT balance will update, and you can redeem tokens again at any time if the NFT still has unredeemed tokens._
 
-{% hint style="warning" %}
-Note that the airdrop vesting schedule is aligned with Filecoin’s block reward schedule: 25% is available immediately, while 75% vests linearly over 180 days.
-{% endhint %}
+> [!WARNING]
+> Note that the airdrop vesting schedule is aligned with Filecoin's block reward schedule: 25% is available immediately, while 75% vests linearly over 180 days.
 
 ![Check balance](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc-rMfrbye5N6wzfFkH92QQ0lqqdjVuY0MkYXC7qS2fpQoHNtUfopZQGAYTCVXeuo7TRZDD8534PGoSQGUYFk3OX3mptuDS0j9_TvEFcwchiuecm8bZgTO1D6bXVncuKR1UAJNQ?key=eIKPXedGtT-lH4EHr-YDBjEV)
 

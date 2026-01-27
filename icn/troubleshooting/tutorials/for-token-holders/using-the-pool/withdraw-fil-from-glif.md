@@ -2,9 +2,8 @@
 
 This tutorial will guide you through the process of using your iFIL tokens to withdraw FIL from GLIF. **Withdrawing FIL from GLIF requires 2 transactions.**
 
-{% hint style="info" %}
-To learn more about the mechanics of withdrawals, click [here](../../../../for-liquidity-providers/exit-withdraw-sticnt.md).
-{% endhint %}
+> [!NOTE]
+> To learn more about the mechanics of withdrawals, click [here](../../../../for-liquidity-providers/exit-withdraw-sticnt.md).
 
 ## Step 1: Connect your wallet to GLIF
 

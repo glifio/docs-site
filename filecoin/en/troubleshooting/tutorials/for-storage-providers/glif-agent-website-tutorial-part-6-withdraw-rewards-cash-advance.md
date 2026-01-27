@@ -29,9 +29,8 @@ You can do this when you meet the DTL requirement on your Agent - to read more a
 1. Navigate to the right-side panel on your Agent page. Click the "**Withdraw**" tab.
 2. Enter the recipient address and the amount to withdraw.
 
-{% hint style="warning" %}
-The maximum withdrawal amount is displayed here and depends on your DTL. See [docs](../../../for-storage-providers/borrowing-limits-and-dtl.md) for details.
-{% endhint %}
+> [!WARNING]
+> The maximum withdrawal amount is displayed here and depends on your DTL. See [docs](../../../for-storage-providers/borrowing-limits-and-dtl.md) for details.
 
 3. Click “**Withdraw**.”
 
@@ -39,9 +38,8 @@ The maximum withdrawal amount is displayed here and depends on your DTL. See [do
 
 4. Review the details and click “**Sign Transaction**.”
 
-{% hint style="warning" %}
-Credentials are valid for only 5 minutes. If you see the error "_AgentPolice: Invalid Credential_", it means the credentials have expired, so please start over.
-{% endhint %}
+> [!WARNING]
+> Credentials are valid for only 5 minutes. If you see the error "_AgentPolice: Invalid Credential_", it means the credentials have expired, so please start over.
 
 ![Withdrawal step](../../../.gitbook/assets/image (243).png)
 

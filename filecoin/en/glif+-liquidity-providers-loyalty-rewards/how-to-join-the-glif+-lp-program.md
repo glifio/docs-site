@@ -26,9 +26,8 @@ To activate a GLIF+ LP Card and receive Capsules, the following staking conditio
 
 There are no penalties or fees for adding additional tokens at any time.
 
-{% hint style="info" %}
-Your GLF : iFIL ratio must be **≥ 1:1** to keep the Card active.
-{% endhint %}
+> [!IMPORTANT]
+> Your GLF : iFIL ratio must be **≥ 1:1** to keep the Card active.
 
 ### How iFIL and $GLF Affect Rewards
 

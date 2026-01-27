@@ -45,22 +45,19 @@ This step gives the GLIF staking pool permission to spend your ICNT tokens.
 
 1. In the **"New Transaction"** section, paste the following ICNT token contract address into the **"Address or ENS Name"** field:
 
-{% hint style="info" %}
-**ICNT Token Contract (Base):** `0xE0Cd4cAcDdcBF4f36e845407CE53E87717b6601d`
-{% endhint %}
+> [!NOTE]
+> **ICNT Token Contract (Base):** `0xE0Cd4cAcDdcBF4f36e845407CE53E87717b6601d`
 
 2. The ABI should load automatically, and the **Contract Method Selector** will show `approve`.
 3. In the **spender (address)** field, enter the following ICNT staking pool address:
 
-{% hint style="info" %}
-**ICNT Staking Pool Address:** `0xAeD7C2eD7Bb84396AfCB55fF72c8F8E87FFb68f3`
-{% endhint %}
+> [!NOTE]
+> **ICNT Staking Pool Address:** `0xAeD7C2eD7Bb84396AfCB55fF72c8F8E87FFb68f3`
 
 4. In the **amount (uint256)** field, enter the number of ICNT tokens you want to stake **in wei**. You can convert your token amount to wei using [this tool](https://etherscan.io/unitconverter).
 
-{% hint style="warning" %}
-Please always start with a small amount as a test transaction.
-{% endhint %}
+> [!WARNING]
+> Please always start with a small amount as a test transaction.
 
 5. Click **“Add new transaction”**.
 
@@ -78,9 +75,8 @@ Next, you will create a transaction to deposit ICNT tokens into the GLIF staking
 
 1. In a new transaction, enter the following **staking pool contract address** into the **"Address or ENS Name"** field:
 
-{% hint style="info" %}
-**ICNT Staking Pool Address:**  `0xAeD7C2eD7Bb84396AfCB55fF72c8F8E87FFb68f3`
-{% endhint %}
+> [!NOTE]
+> **ICNT Staking Pool Address:**  `0xAeD7C2eD7Bb84396AfCB55fF72c8F8E87FFb68f3`
 
 2. The ABI will load automatically. If prompted, choose **"Use Implementation ABI"**, since this is a proxy contract.
 
@@ -139,9 +135,8 @@ Next, you will create a transaction to deposit ICNT tokens into the GLIF staking
 
 3. Confirm the transaction in your wallet.
 
-{% hint style="danger" %}
-You should always match the transaction details you see on the screen with those you are signing in your wallet. Please make sure you understand what you are signing.
-{% endhint %}
+> [!CAUTION]
+> You should always match the transaction details you see on the screen with those you are signing in your wallet. Please make sure you understand what you are signing.
 
 4. The batch is now created, pending confirmation from other signers.
 
@@ -169,9 +164,8 @@ You should always match the transaction details you see on the screen with those
 
 2. Confirm and review the transaction details.
 
-{% hint style="warning" %}
-Please confirm that the wallet that executes your Safe proposal has enough gas fees on the Base chain.
-{% endhint %}
+> [!WARNING]
+> Please confirm that the wallet that executes your Safe proposal has enough gas fees on the Base chain.
 
 ![Approval step](../../.gitbook/assets/image (7) (1).png)
 

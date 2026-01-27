@@ -33,11 +33,10 @@ Your Agent's `f4` address can be found on the Agent page of the website:
 
 1. Connect to the wallet that is one of the signers of your multisig created in [Part 2](glif-agent-website-tutorial-part-2-create-your-agent.md).
 
-{% hint style="info" %}
-When you propose transactions to your agent using your owner wallet, you must do so with a non-Ledger wallet, such as the Filecoin Snap wallet or a burner wallet. You cannot propose these transactions from a Ledger device. The Ledger can only act as the approver.
-
-This is the same for all owner transactions on the agent: they must be initiated with a non-Ledger signer.
-{% endhint %}
+> [!IMPORTANT]
+> When you propose transactions to your agent using your owner wallet, you must do so with a non-Ledger wallet, such as the Filecoin Snap wallet or a burner wallet. You cannot propose these transactions from a Ledger device. The Ledger can only act as the approver.
+>
+> This is the same for all owner transactions on the agent: they must be initiated with a non-Ledger signer.
 
 2. Go to the "**Miners**" section in your Agent page. Click “**Add a Miner”**.
 
@@ -50,9 +49,8 @@ This is the same for all owner transactions on the agent: they must be initiated
 
 5. After clicking '**Sign transaction**,' a message will be displayed indicating how many minutes remain for this credential. You can also revoke the credential by clicking "**Revoke credential**".
 
-{% hint style="warning" %}
-If you do not complete the transaction and **sign the proposal with your other signer wallets within 5 minutes**, you will need to repeat this step.
-{% endhint %}
+> [!WARNING]
+> If you do not complete the transaction and **sign the proposal with your other signer wallets within 5 minutes**, you will need to repeat this step.
 
 6. Click **“Send”** to create a new proposal. You will be prompted to sign the transaction with your currently connected wallet.
 

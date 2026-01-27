@@ -17,9 +17,8 @@ Active GLIF+ cardholders receive higher borrowing limits, up to 10× leverage. S
 
 Today, SPs who want to realize FIL from their $GLF typically swap $GLF→$FIL on SushiSwap or via our site. The Cash back program is a more efficient alternative: use $GLF to cover a portion of each interest payment and receive FIL back at a premium.
 
-{% hint style="danger" %}
-It is recommended not to withdraw directly to an exchange, since some exchanges may not support the transaction format and this could result in loss of funds. Because all cash back is sent in a single transaction, a test transfer is not possible. For safety, please withdraw to a wallet you own first, confirm the balance, and then send to an exchange if needed.
-{% endhint %}
+> [!CAUTION]
+> It is recommended not to withdraw directly to an exchange, since some exchanges may not support the transaction format and this could result in loss of funds. Because all cash back is sent in a single transaction, a test transfer is not possible. For safety, please withdraw to a wallet you own first, confirm the balance, and then send to an exchange if needed.
 
 #### How it works:
 

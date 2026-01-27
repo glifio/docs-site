@@ -36,9 +36,8 @@ After borrowing, Storage Providers are expected to make a payment when they have
 
 4. In the "**Pay FIL from your agent**" multisig proposal interface, review the details and click “**Sign Transaction**.”
 
-{% hint style="warning" %}
-Credentials are valid for only 5 minutes. If you see the error "_AgentPolice: Invalid Credential_", it means the credentials have expired, so please start over.
-{% endhint %}
+> [!WARNING]
+> Credentials are valid for only 5 minutes. If you see the error "_AgentPolice: Invalid Credential_", it means the credentials have expired, so please start over.
 
 ![Initiate payment](../../../.gitbook/assets/image (250).png)
 
@@ -69,9 +68,8 @@ Credentials are valid for only 5 minutes. If you see the error "_AgentPolice: In
 
 Manually making payments regularly can be annoying. You can set up Autopilot on the Command Line Interface, please check [this page](https://github.com/glifio/glif?tab=readme-ov-file#autopilot) for instructions.
 
-{% hint style="info" %}
-SPs can borrow FIL from GLIF for as long as necessary - whenever SPs are done with their borrowed FIL, they can pay it back anytime to GLIF with no due dates or early repayment fees.
-{% endhint %}
+> [!NOTE]
+> SPs can borrow FIL from GLIF for as long as necessary - whenever SPs are done with their borrowed FIL, they can pay it back anytime to GLIF with no due dates or early repayment fees.
 
 ***
 

@@ -40,9 +40,8 @@ Go to the "**Filecoin Balance"** section, click on the **"⋯"** button next to 
 
 Enter the amount of FIL you wish to deposit. Review the details, including the amount of iFIL you will receive. Click **"Send"**.
 
-{% hint style="info" %}
-The FIL to iFIL ratio may not be 1:1 due to price fluctuations. Refer to this section of the [docs](../../../../for-liquidity-providers/reward-mechanism-sticnt.md) for more details on iFIL calculations.
-{% endhint %}
+> [!NOTE]
+> The FIL to iFIL ratio may not be 1:1 due to price fluctuations. Refer to this section of the [docs](../../../../for-liquidity-providers/reward-mechanism-sticnt.md) for more details on iFIL calculations.
 
 ![Deposit FIL](../../../../.gitbook/assets/image (97).png)
 
@@ -68,9 +67,8 @@ The details will show the number of approvals made so far, and you can also canc
 
 Other signers need to connect their wallets to the GLIF website. To approve the proposal, select the same pending proposal and click **"Approve proposal"**, then confirm the approval in the wallet prompt.
 
-{% hint style="info" %}
-Each signer's wallet must have a small amount of FIL (as little as 0.001 FIL) to cover gas fees.
-{% endhint %}
+> [!NOTE]
+> Each signer's wallet must have a small amount of FIL (as little as 0.001 FIL) to cover gas fees.
 
 ![Approve proposal](../../../../.gitbook/assets/image (100).png)
 

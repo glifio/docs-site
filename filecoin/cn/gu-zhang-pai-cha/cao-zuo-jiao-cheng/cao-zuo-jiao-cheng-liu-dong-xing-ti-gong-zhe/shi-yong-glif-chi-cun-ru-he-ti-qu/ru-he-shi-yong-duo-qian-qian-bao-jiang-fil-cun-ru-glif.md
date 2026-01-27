@@ -32,9 +32,8 @@
 
 输入您想要存入的 FIL 数量。确认存款细节，包括您将收到多少 iFIL。然后点击“**发送**”。
 
-{% hint style="warning" %}
-请注意：FIL 与 iFIL 可能不会是 1:1 比例，具体细节请参考[文档中关于 iFIL 计算](../../../../liu-dong-xing-ti-gong-zhe/glif-jiang-li-ji-zhi-ifil.md)的说明。
-{% endhint %}
+> [!WARNING]
+> 请注意：FIL 与 iFIL 可能不会是 1:1 比例，具体细节请参考[文档中关于 iFIL 计算](../../../../liu-dong-xing-ti-gong-zhe/glif-jiang-li-ji-zhi-ifil.md)的说明。
 
 ![第二步：从多签钱包中存入 FI](ru-he-shi-yong-duo-qian-q...](../../../../.gitbook/assets/image (313).png)
 
@@ -63,9 +62,8 @@
 
 然后在弹出的钱包提示中确认，即可完成审批。
 
-{% hint style="info" %}
-每个签名人的钱包里都需要少量 FIL（最低 0.001 FIL 即可）来支付 Gas 费用。
-{% endhint %}
+> [!TIP]
+> 每个签名人的钱包里都需要少量 FIL（最低 0.001 FIL 即可）来支付 Gas 费用。
 
 ![第三步：批准多签钱包提案](ru-he-shi-yong-duo-qian-q...](../../../../.gitbook/assets/image (321).png)
 

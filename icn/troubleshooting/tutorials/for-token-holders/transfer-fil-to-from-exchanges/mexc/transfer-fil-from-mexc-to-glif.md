@@ -4,11 +4,10 @@ If your FIL tokens are currently on an exchange and you are eager to utilize it 
 
 This tutorial is specifically for transferring FIL from MEXC. Check this [page](../transfer-fil-between-exchange-and-glif.md) for tutorials on other exchanges.
 
-{% hint style="info" %}
-GLIF is compatible with most EVM wallets. This tutorial uses MetaMask wallet as an example; other wallets also work.
-
-You can refer to our [FAQ](../../../../faq/faq-for-liquidity-providers/wallet-connection.md) and [Wallet tutorials](../../wallets/) for more information. If you encounter any trouble, please contact GLIF through a [Discord support ticket](https://discord.gg/5qsJjsP3Re).
-{% endhint %}
+> [!NOTE]
+> GLIF is compatible with most EVM wallets. This tutorial uses MetaMask wallet as an example; other wallets also work.
+>
+> You can refer to our [FAQ](../../../../faq/faq-for-liquidity-providers/wallet-connection.md) and [Wallet tutorials](../../wallets/) for more information. If you encounter any trouble, please contact GLIF through a [Discord support ticket](https://discord.gg/5qsJjsP3Re).
 
 ## Contents
 
@@ -47,9 +46,8 @@ Once done, your intermediary wallet’s address, starting with ‘**f1**’, wil
 3. Enter the intermediary wallet address created in[ step 1](transfer-fil-from-mexc-to-glif.md#step-1-set-up-an-intermediary-wallet-optional). Make sure you have copied the address correctly.
 4. Enter the amount you want to send.
 
-{% hint style="warning" %}
-If you are doing this for the first time, it's good practice to send a small amount first in case you make any mistakes.
-{% endhint %}
+> [!WARNING]
+> If you are doing this for the first time, it's good practice to send a small amount first in case you make any mistakes.
 
 ![Withdrawal step](../../../../../.gitbook/assets/image (40).png)
 
@@ -81,9 +79,8 @@ For detailed instructions on how to connect your wallet to the Filecoin Mainnet,
 
 3. Paste your main wallet address copied in [step 4](transfer-fil-from-mexc-to-glif.md#step-4-connect-your-main-wallet-to-glif-and-filecoin-mainnet), into the recipient field in GLIF and specify the amount to send.
 
-{% hint style="info" %}
-You need to make sure that you leave enough FIL in the wallet to cover gas fees.
-{% endhint %}
+> [!NOTE]
+> You need to make sure that you leave enough FIL in the wallet to cover gas fees.
 
 4. Then hit **‘Send’**.
 

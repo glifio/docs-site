@@ -68,9 +68,8 @@ Great work so far! Once you’ve approved this Agent Owner multisig creation tra
 
 In order to create your Agent, we must first wait for your Agent owner multisig wallet to exist on-chain.
 
-{% hint style="info" %}
-If you see “Failed to load address information” under your “owner address”, this is because your Agent owner multisig wallet creation transaction is still pending.
-{% endhint %}
+> [!NOTE]
+> If you see "Failed to load address information" under your "owner address", this is because your Agent owner multisig wallet creation transaction is still pending.
 
 ![Create your Agent on](../../../.gitbook/assets/image (22).png)
 

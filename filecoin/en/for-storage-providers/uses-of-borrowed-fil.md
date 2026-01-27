@@ -35,9 +35,8 @@ In the example above, the SP's debt has increased from 0 FIL to 100 FIL. However
 
 ***
 
-{% hint style="info" %}
-Regardless of if an SP chooses to use borrowed FIL for storage mining or withdrawals outside of GLIF, the SP's DTL ratio must stay below 75% - 90% (Depends on whether the SP joined the [GLIF+ program](/broken/pages/jt1R92FWbP8KSp3HrRV0)) in order to be approved.
-{% endhint %}
+> [!IMPORTANT]
+> Regardless of if an SP chooses to use borrowed FIL for storage mining or withdrawals outside of GLIF, the SP's DTL ratio must stay below 75% - 90% (Depends on whether the SP joined the [GLIF+ program](/broken/pages/jt1R92FWbP8KSp3HrRV0)) in order to be approved.
 
 ## Key takeaway:
 

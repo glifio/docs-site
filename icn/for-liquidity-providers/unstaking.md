@@ -13,9 +13,8 @@ The Impossible Cloud pool maintains a built-in exit reserve specifically for fac
 
 Each withdrawal carries a 0.5% withdrawal fee, which is fully distributed to remaining stakers in the pool. Due to the compounding of assets in the pool, this fee is generally offset by yield after a short staking period.
 
-{% hint style="info" %}
-Long-term stakers benefit when others withdraw early, as compounded yield offsets the withdrawal fee.
-{% endhint %}
+> [!NOTE]
+> Long-term stakers benefit when others withdraw early, as compounded yield offsets the withdrawal fee.
 
 ### Purpose of the Withdrawal Fee
 

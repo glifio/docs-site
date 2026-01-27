@@ -4,9 +4,8 @@
 
 GLIF charges **15% APR** to Storage Providers (SPs) for borrowing.
 
-{% hint style="info" %}
-The APR has been fixed at 15% for the last 12 months. However, Filecoin's Baseline Reward mechanism has been dropping as power is coming off of the Filecoin network. The GLIF team is currently examining a rate change in accordance with the Filecoin network's decrease in rewards.
-{% endhint %}
+> [!NOTE]
+> The APR has been fixed at 15% for the last 12 months. However, Filecoin's Baseline Reward mechanism has been dropping as power is coming off of the Filecoin network. The GLIF team is currently examining a rate change in accordance with the Filecoin network's decrease in rewards.
 
 ## Payments from SP get applied to interest first, then principal
 
