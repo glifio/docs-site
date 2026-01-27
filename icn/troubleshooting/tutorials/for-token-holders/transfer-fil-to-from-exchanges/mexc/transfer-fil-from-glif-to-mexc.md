@@ -30,12 +30,12 @@ You can refer to our [FAQ](../../../../faq/faq-for-liquidity-providers/wallet-co
 
 ## Step 2: Set up an intermediary wallet (optional)
 
-**If your main wallet holding FIL has an address starting with "**<mark style="background-color:orange;">**f1**</mark>**":**
+**If your main wallet holding FIL has an address starting with `f1...`:**
 
 * You can skip to [Step 4 ](transfer-fil-from-glif-to-mexc.md#step-4-locate-your-recipient-address-in-the-exchange)and [Step 5 ](transfer-fil-from-glif-to-mexc.md#step-5-send-fil-from-your-wallet-to-exchange)directly.
 
 \
-**If your main wallet holding FIL has an address starting with "**<mark style="background-color:orange;">**f410**</mark>**" or "**<mark style="background-color:orange;">**0x**</mark>**":**
+**If your main wallet holding FIL has an address starting with `f410...` or `0x...`:**
 
 * You will need to use an intermediary wallet such as a [FilSnap wallet](../../wallets/how-to-obtain-a-filsnap-wallet-as-the-intermediary-wallet.md), [burner wallet](../../wallets/how-to-obtain-a-burner-wallet-as-the-intermediary-wallet.md), or [Ledger](../../wallets/how-to-obtain-a-ledger-wallet-as-the-intermediary-wallet.md). Check out the step-by-step guide for creating your intermediary wallet by clicking the link.
 * This is because some exchanges, including MEXC, do not support deposit from "f410" or "0x" addresses. Check this [page](../transfer-fil-between-exchange-and-glif.md) for more details.
@@ -81,7 +81,7 @@ Please ensure you have sufficient FIL for gas fees; 0.001 FIL is usually more th
 
 ## Step 5: Send FIL from your wallet to exchange
 
-1. Connect to the intermediary wallet or your main wallet which address starting with "<mark style="background-color:orange;">f1</mark>".&#x20;
+1. Connect to the intermediary wallet or your main wallet which address starting with `f1...`.
 2. In the top right corner of the GLIF website, click "**Send FIL**."
 
 ![Send button](../../../../../.gitbook/assets/image (158).png)

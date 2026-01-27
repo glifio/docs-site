@@ -26,12 +26,12 @@ You can refer to our [FAQ](../../../../faq/faq-for-liquidity-providers/wallet-co
 
 ## Step 1: Set up an intermediary wallet (optional)
 
-**If the wallet you want to transfer FIL to has an address starting with "**<mark style="background-color:orange;">**f1**</mark>**":**
+**If the wallet you want to transfer FIL to has an address starting with `f1...`:**
 
 * You can skip to [Step 2](transfer-fil-from-mexc-to-glif.md#step-2-send-filecoin-from-the-exchange-to-the-intermediary-wallet) and [Step 6](transfer-fil-from-mexc-to-glif.md#step-6-deposit-your-filecoin-with-glif) directly.
 
 \
-**If the wallet you want to transfer FIL to has an address starting with "**<mark style="background-color:orange;">**f410**</mark>**" or "**<mark style="background-color:orange;">**0x**</mark>**":**
+**If the wallet you want to transfer FIL to has an address starting with `f410...` or `0x...`:**
 
 * You will need to use an intermediary wallet such as a [FilSnap wallet](../../wallets/how-to-obtain-a-filsnap-wallet-as-the-intermediary-wallet.md), [burner wallet](../../wallets/how-to-obtain-a-burner-wallet-as-the-intermediary-wallet.md), or [Ledger](../../wallets/how-to-obtain-a-ledger-wallet-as-the-intermediary-wallet.md). Check out the step-by-step guide for creating your intermediary wallet by clicking the link.
 * This is because some exchanges, including MEXC, do not support transfer to "f410" or "0x" addresses. Check this [page](../transfer-fil-between-exchange-and-glif.md) for more details.
