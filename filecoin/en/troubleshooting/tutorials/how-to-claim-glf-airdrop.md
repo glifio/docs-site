@@ -134,7 +134,7 @@ _If your Agent owner is a **single-signer/EOA wallet**, you do not need to sign 
 
 #### Step 3: Redeem $GLF Tokens from the NFT
 
-1. Once all approvers have approved the proposal, click “Portfolio”. Scroll to the 'NFTs' section to view an NFT representing your claimed tokens.
+1. Once all approvers have approved the proposal, click “Portfolio”. Scroll to the “NFTs” section to view an NFT representing your claimed tokens.
 
 _If your Agent owner is a **single-signer/EOA wallet**, you do not need to sign any proposal. Simply click “Redeem” on the NFT and confirm the transaction in your wallet. Once the transaction is complete, check your portfolio for $GLF tokens. Your NFT balance will update, and you can redeem tokens again at any time if the NFT still has unredeemed tokens._
 

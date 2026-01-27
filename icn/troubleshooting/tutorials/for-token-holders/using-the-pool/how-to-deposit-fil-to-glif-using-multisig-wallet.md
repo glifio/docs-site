@@ -50,7 +50,7 @@ Then, a transaction proposal for depositing FIL into GLIF will be created and mu
 
 ![Create multisig](../../../../.gitbook/assets/image (34).png)
 
-The details will show the number of approvals made so far, and you can also cancel the proposal by clicking '**Cancel Proposal' if needed.**
+The details will show the number of approvals made so far, and you can also cancel the proposal by clicking “**Cancel Proposal**” if needed.
 
 ![Approve proposal](../../../../.gitbook/assets/image (99).png)
 

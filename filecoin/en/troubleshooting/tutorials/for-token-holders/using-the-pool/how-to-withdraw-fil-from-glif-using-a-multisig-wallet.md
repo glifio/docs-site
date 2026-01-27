@@ -76,7 +76,7 @@ After selecting the proposal, click “**Approve Proposal**” and confirm the a
 
 Once the required number of signers have approved, the approval transaction will be executed.If you don't see immediate updates, try refreshing the page or reconnecting your wallet after a few minutes.
 
-You can check the transaction details on the '**Transactions“** page at the bottom of the **Multisig** page, where the method column will display **”Approve**.'
+You can check the transaction details on the “**Transactions**” page at the bottom of the **Multisig** page, where the method column will display “**Approve**”.
 
 ![Approve pool access](../../../../.gitbook/assets/image (277).png)
 
@@ -92,7 +92,7 @@ Return to the “**Tokens**” section in your multisig wallet. Click on the “
 
 ![Withdraw button](../../../../.gitbook/assets/image (324).png)
 
-You should see a small checkmark next to '**Approve the Infinity Pool to transfer your iFIL“**. Then, you can proceed to **Step 2 to initiate the withdrawal!**
+You should see a small checkmark next to “**Approve the Infinity Pool to transfer your iFIL**”. Then, you can proceed to **Step 2 to initiate the withdrawal!**
 
 If you need to withdraw more than the previously approved amount, you will need to return to Step 1.
 
