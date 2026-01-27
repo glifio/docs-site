@@ -62,7 +62,7 @@ A single Agent can own more than 1 Miner, which increases the aggregate amount a
 
 ![Sign prompt](../../../.gitbook/assets/image (315).png)
 
-5. After clicking '**Sign transaction**,' a message will be displayed indicating how many minutes remain for this credential. You can also revoke the credential by clicking “**Revoke credential**”.
+5. After clicking “**Sign transaction**”, a message will be displayed indicating how many minutes remain for this credential. You can also revoke the credential by clicking “**Revoke credential**”.
 
 > [!WARNING]
 > If you do not complete the transaction and **sign the proposal with your other signer wallets within 5 minutes**, you will need to repeat this step.

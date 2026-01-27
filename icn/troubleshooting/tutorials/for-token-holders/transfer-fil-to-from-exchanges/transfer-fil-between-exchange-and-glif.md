@@ -9,18 +9,18 @@ If your FIL tokens are currently on an exchange and you are eager to utilize the
 
 Filecoin wallets have five address types: **f0, f1, f2, f3,** and **f410 (or 0x)**
 
-An **f410** address means the first three digits after “f” are “410,” while a **0x** address means the first two characters are “0x.
+An `f410` address means the first three digits after “f” are “410”, while a `0x` address means the first two characters are “0x”.
 
 ### **f410 or 0x address**
 
-To use applications on the FVM, you may need to have FIL inside an “**f410**” or “**0x**” type address . Any “**f410**” wallet address also has an equivalent “**0x**” Ethereum-style address, so you can convert any “**f410**” address into a “**0x**” address, and vice versa. Check out this [tutorial](../wallets/how-to-find-your-corresponding-0x-f410-wallet-address.md) for instructions on how to convert “**0x**” and “**f410**” wallet addresses.
+To use applications on the FVM, you may need to have FIL inside an `f410` or `0x` type address. Any `f410` wallet address also has an equivalent `0x` Ethereum-style address, so you can convert any `f410` address into a `0x` address, and vice versa. Check out this [tutorial](../wallets/how-to-find-your-corresponding-0x-f410-wallet-address.md) for instructions on how to convert `0x` and `f410` wallet addresses.
 
 ### **f1 address**
 
-An “**f1**” wallet address is generated from a secp256k public key. The “**f1**” address is widely recognized by most exchanges. However, some centralized exchanges recognize only “**f1**” addresses and may not yet support receiving Filecoin directly from “**f410**” or “**0x**” type addresses as they do not recognize them as valid Filecoin destinations.
+An `f1` wallet address is generated from a secp256k public key. The `f1` address is widely recognized by most exchanges. However, some centralized exchanges recognize only `f1` addresses and may not yet support receiving Filecoin directly from `f410` or `0x` type addresses as they do not recognize them as valid Filecoin destinations.
 
 > [!TIP]
-> To check if your exchange supports transferring Filecoin to/from “**f410**” or “**0x**” type addresses, refer to the most up-to-date information [here](https://filecointldr.io/how-to-buy-filecoin).
+> To check if your exchange supports transferring Filecoin to/from `f410` or `0x` type addresses, refer to the most up-to-date information [here](https://filecointldr.io/how-to-buy-filecoin).
 
 ## Step-by-step guide
 

@@ -22,7 +22,7 @@ This guide will walk you through:
 
 ## Step 1: Set Up Your Intermediary Wallet
 
-You can choose an intermediary wallet to obtain an **f1** address from the following options:
+You can choose an intermediary wallet to obtain an `f1` address from the following options:
 
 * [Choice A: Burner Wallet](how-to-obtain-a-burner-wallet-as-the-intermediary-wallet.md)
 * [Choice B: FilSnap Wallet](how-to-obtain-a-filsnap-wallet-as-the-intermediary-wallet.md)
@@ -55,7 +55,7 @@ For details on creating an intermediary wallet, please refer to the tutorial by 
 
 ![Send FIL](../../../../.gitbook/assets/image (196).png)
 
-4. In the top right corner of GLIF website, click “**Send / Forward FIL**” .
+4. In the top right corner of GLIF website, click “**Send / Forward FIL**”.
 
 ![Send button](../../../../.gitbook/assets/image (151).png)
 

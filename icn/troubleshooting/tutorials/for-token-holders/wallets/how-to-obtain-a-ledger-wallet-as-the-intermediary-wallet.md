@@ -1,8 +1,8 @@
 # How to obtain a Ledger wallet as the intermediary wallet
 
-The Filecoin ecosystem includes various types of addresses, such as **f0**, **f1**, **f2**, **f3**, and **f410** (or **0x**). Some wallets, like Metamask, only support **0x** addresses, while certain exchanges recognize only **f1** addresses. Due to these differences, some wallets or exchanges may not recognize specific address types as valid Filecoin destinations. In such cases, an intermediary wallet may be needed to act as a bridge.
+The Filecoin ecosystem includes various types of addresses, such as `f0`, `f1`, `f2`, `f3`, and `f410` (or `0x`). Some wallets, like Metamask, only support `0x` addresses, while certain exchanges recognize only `f1` addresses. Due to these differences, some wallets or exchanges may not recognize specific address types as valid Filecoin destinations. In such cases, an intermediary wallet may be needed to act as a bridge.
 
-This guide explains how to use Ledger as an intermediary wallet with an **f1** address, which you can use as a middle point to transfer your FIL from your main wallet to its final destination. Other than Ledger wallet, you can also choose an intermediary wallet to obtain a [burner wallet](how-to-obtain-a-burner-wallet-as-the-intermediary-wallet.md) or [FilSnap wallet](how-to-obtain-a-filsnap-wallet-as-the-intermediary-wallet.md).
+This guide explains how to use Ledger as an intermediary wallet with an `f1` address, which you can use as a middle point to transfer your FIL from your main wallet to its final destination. Other than Ledger wallet, you can also choose an intermediary wallet to obtain a [burner wallet](how-to-obtain-a-burner-wallet-as-the-intermediary-wallet.md) or [FilSnap wallet](how-to-obtain-a-filsnap-wallet-as-the-intermediary-wallet.md).
 
 ## Preparation
 
@@ -52,7 +52,7 @@ Make sure you have your device connected to your computer (e.g., with the suppli
 
 ## Conclusion
 
-Obtaining an intermediary wallet using the Ledger with an **f1** address is a quick process and ensures your transactions proceed smoothly.
+Obtaining an intermediary wallet using the Ledger with an `f1` address is a quick process and ensures your transactions proceed smoothly.
 
 Remember to keep your seed phrase safe and private, and always perform a test transaction before sending a large amount!
 

@@ -44,7 +44,7 @@ Your Agent's `f4` address can be found on the Agent page of the website:
 
 ![Sign prompt](../../../.gitbook/assets/image (16).png)
 
-5. After clicking '**Sign transaction**,' a message will be displayed indicating how many minutes remain for this credential. You can also revoke the credential by clicking “**Revoke credential**”.
+5. After clicking “**Sign transaction**”, a message will be displayed indicating how many minutes remain for this credential. You can also revoke the credential by clicking “**Revoke credential**”.
 
 > [!WARNING]
 > If you do not complete the transaction and **sign the proposal with your other signer wallets within 5 minutes**, you will need to repeat this step.

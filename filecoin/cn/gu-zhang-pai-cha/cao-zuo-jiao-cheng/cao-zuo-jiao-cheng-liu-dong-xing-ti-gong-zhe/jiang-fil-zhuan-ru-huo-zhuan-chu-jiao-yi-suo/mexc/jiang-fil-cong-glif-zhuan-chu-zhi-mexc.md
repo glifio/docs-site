@@ -26,16 +26,16 @@
 
 ## 步骤 2：设置中介钱包（如有需要）
 
-**如果您要转移 FIL 的钱包地址以 “f1” 开头：**
+**如果您要转移 FIL 的钱包地址以 `f1` 开头：**
 
 * 您可以直接跳到步骤 4 和步骤 5。
 
-**如果您要转移 FIL 的钱包地址以 “f410” 或 “0x” 开头：**
+**如果您要转移 FIL 的钱包地址以 `f410` 或 `0x` 开头：**
 
 * 您需要使用中介钱包，例如 [FilSnap 钱包](../../qian-bao/ru-he-li-yong-filsnap-qian-bao-zuo-wei-zhong-jie-qian-bao.md)、[Burner钱包](../../qian-bao/ru-he-li-yong-burner-qian-bao-zuo-wei-zhong-jie-qian-bao.md)或 [Ledger](../../qian-bao/ru-he-li-yong-ledger-qian-bao-zuo-wei-zhong-jie-qian-bao.md)。点击链结查看创建不同中介钱包的教程。
-* 这是因为一些交易所，包括 MEXC，还不支持转移到 “**f410**” 或 “**0x**” 地址。请[点击此处](../zai-jiao-yi-suo-he-glif-zhi-jian-zhuan-yi-fil.md)查看详细解释。
+* 这是因为一些交易所，包括 MEXC，还不支持转移到 `f410` 或 `0x` 地址。请[点击此处](../zai-jiao-yi-suo-he-glif-zhi-jian-zhuan-yi-fil.md)查看详细解释。
 
-完成后，中介钱包的地址（以 “**f1**” 开头）将显示在右上角的下拉菜单。复制此地址。
+完成后，中介钱包的地址（以 `f1` 开头）将显示在右上角的下拉菜单。复制此地址。
 
 ![步骤 2：设置中介钱包（如有需](../../../../../.gitbook/assets/image (242).png)
 
@@ -67,7 +67,7 @@
 
 ![步骤 4：在交易所中找到您的接](../../../../../.gitbook/assets/image (240).png)
 
-2. 复制交易所提供的 “f1” 地址。
+2. 复制交易所提供的 `f1` 地址。
 
 ![步骤 4：在交易所中找到您的接](../../../../../.gitbook/assets/image (261).png)
 
@@ -76,7 +76,7 @@
 
 ## 步骤 5：将 FIL 从您的钱包发送到交易所
 
-1. 连接到中介钱包或您的主钱包，其地址以 “f1” 开头。
+1. 连接到中介钱包或您的主钱包，其地址以 `f1` 开头。
 2. 在 GLIF 网站的右上角，点击 “发送 FIL”。
 
 ![步骤 5：将 FIL 从您的钱](../../../../../.gitbook/assets/image (262).png)

@@ -11,7 +11,7 @@ This tutorial is specifically for transferring FIL from Binance. Check this [pag
 
 ## Step 1: Connect your wallet to GLIF and Filecoin Mainnet
 
-After connecting your wallet, both the “**0x**” and “**f410**” addresses will be displayed in the top left corner of the GLIF website. If your wallet is an “**f1**” wallet address, it will appear here as well.
+After connecting your wallet, both the `0x` and `f410` addresses will be displayed in the top left corner of the GLIF website. If your wallet is an `f1` wallet address, it will appear here as well.
 
 For detailed instructions on how to connect your wallet to the Filecoin Mainnet, check out this [tutorial](../../wallets/how-to-connect-your-wallet-to-filecoin-mainnet.md).
 
@@ -24,7 +24,7 @@ For detailed instructions on how to connect your wallet to the Filecoin Mainnet,
 ![Withdraw button](../../../../../.gitbook/assets/image (56).png)
 
 2. Select Network as “**Filecoin**”.
-3. Enter your **“0x”/ “f410”/“f1”** wallet address accurately and specify the amount you want to send.
+3. Enter your **`0x`/`f410`/`f1`** wallet address accurately and specify the amount you want to send.
 
 > [!WARNING]
 > If you are doing this for the first time, it's good practice to send a small amount first in case you make any mistakes.

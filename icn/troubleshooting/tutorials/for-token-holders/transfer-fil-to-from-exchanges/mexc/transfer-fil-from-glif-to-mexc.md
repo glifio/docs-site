@@ -29,24 +29,24 @@ This tutorial will guide you through the process of withdraw your iFIL tokens fr
 
 ## Step 2: Set up an intermediary wallet (optional)
 
-**If your main wallet holding FIL has an address starting with `f1...`:**
+**If your main wallet holding FIL has an address starting with `f1`:**
 
 * You can skip to [Step 4 ](transfer-fil-from-glif-to-mexc.md#step-4-locate-your-recipient-address-in-the-exchange)and [Step 5 ](transfer-fil-from-glif-to-mexc.md#step-5-send-fil-from-your-wallet-to-exchange)directly.
 
 \
-**If your main wallet holding FIL has an address starting with `f410...` or `0x...`:**
+**If your main wallet holding FIL has an address starting with `f410` or `0x`:**
 
 * You will need to use an intermediary wallet such as a [FilSnap wallet](../../wallets/how-to-obtain-a-filsnap-wallet-as-the-intermediary-wallet.md), [burner wallet](../../wallets/how-to-obtain-a-burner-wallet-as-the-intermediary-wallet.md), or [Ledger](../../wallets/how-to-obtain-a-ledger-wallet-as-the-intermediary-wallet.md). Check out the step-by-step guide for creating your intermediary wallet by clicking the link.
-* This is because some exchanges, including MEXC, do not support deposit from “f410” or “0x” addresses. Check this [page](../transfer-fil-between-exchange-and-glif.md) for more details.
+* This is because some exchanges, including MEXC, do not support deposit from `f410` or `0x` addresses. Check this [page](../transfer-fil-between-exchange-and-glif.md) for more details.
 
-Once done, your intermediary wallet's address, starting with “**f1**”, will be visible in the top right dropdown. Copy this address.
+Once done, your intermediary wallet's address, starting with `f1`, will be visible in the top right dropdown. Copy this address.
 
 ![Copy address](../../../../../.gitbook/assets/image (39).png)
 
 ## Step 3: Send FIL from 0x/f410 address (main wallet) to f1 address (Intermediary wallet)
 
 1. Connect to your main wallet, which is the one we just withdrew FIL into.
-2. In the top right corner of GLIF website, click “**Send / Forward FIL**” .
+2. In the top right corner of GLIF website, click “**Send / Forward FIL**”.
 
 > [!CAUTION]
 > Do not use the MetaMask browser extension wallet to send FIL in this step. Otherwise, your MetaMask may be connected to the Ethereum mainnet instead of the Filecoin mainnet.
@@ -68,7 +68,7 @@ Once done, your intermediary wallet's address, starting with “**f1**”, will 
 ## Step 4: Locate your recipient address in the exchange
 
 1. Go to your centralized exchange, MEXC, and locate FIL in your portfolio. Click “**Deposit**.”
-2. Copy the “**f1**” address provided.
+2. Copy the `f1` address provided.
 
 ![Copy address](../../../../../.gitbook/assets/image (42).png)
 
@@ -77,7 +77,7 @@ Once done, your intermediary wallet's address, starting with “**f1**”, will 
 
 ## Step 5: Send FIL from your wallet to exchange
 
-1. Connect to the intermediary wallet or your main wallet which address starting with `f1...`.
+1. Connect to the intermediary wallet or your main wallet which address starting with `f1`.
 2. In the top right corner of the GLIF website, click “**Send FIL**.”
 
 ![Send button](../../../../../.gitbook/assets/image (158).png)

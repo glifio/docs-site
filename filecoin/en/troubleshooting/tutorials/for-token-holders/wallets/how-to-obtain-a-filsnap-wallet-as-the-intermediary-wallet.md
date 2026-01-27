@@ -1,8 +1,8 @@
 # How to obtain a FilSnap wallet as the intermediary wallet
 
-The Filecoin ecosystem includes various types of addresses, such as **f0**, **f1**, **f2**, **f3**, and **f410** (or **0x**). Some wallets, like Metamask, only support **0x** addresses, while certain exchanges recognize only **f1** addresses. Due to these differences, some wallets or exchanges may not recognize specific address types as valid Filecoin destinations. In such cases, an intermediary wallet may be needed to act as a bridge.
+The Filecoin ecosystem includes various types of addresses, such as `f0`, `f1`, `f2`, `f3`, and `f410` (or `0x`). Some wallets, like Metamask, only support `0x` addresses, while certain exchanges recognize only `f1` addresses. Due to these differences, some wallets or exchanges may not recognize specific address types as valid Filecoin destinations. In such cases, an intermediary wallet may be needed to act as a bridge.
 
-This guide explains how to create a **FilSnap wallet** as an intermediary wallet with an **f1** address, which you can use as a middle point to transfer your FIL from your main wallet to its final destination. Other than a burner wallet, you can also choose an intermediary wallet to obtain a [Ledger wallet](how-to-obtain-a-ledger-wallet-as-the-intermediary-wallet.md) or a [burner wallet](how-to-obtain-a-burner-wallet-as-the-intermediary-wallet.md).
+This guide explains how to create a **FilSnap wallet** as an intermediary wallet with an `f1` address, which you can use as a middle point to transfer your FIL from your main wallet to its final destination. Other than a burner wallet, you can also choose an intermediary wallet to obtain a [Ledger wallet](how-to-obtain-a-ledger-wallet-as-the-intermediary-wallet.md) or a [burner wallet](how-to-obtain-a-burner-wallet-as-the-intermediary-wallet.md).
 
 ## Step-by-step guide
 
@@ -29,7 +29,7 @@ To obtain a FilSnap wallet, you will need to:
 
 ## Conclusion
 
-Congrats! You have obtained a FilSnap wallet as an intermediary wallet with an “**f1**” address.
+Congrats! You have obtained a FilSnap wallet as an intermediary wallet with an `f1` address.
 
 Remember to keep your seed phrase safe and private, and always perform a test transaction before sending a large amount!
 

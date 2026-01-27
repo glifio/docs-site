@@ -21,16 +21,16 @@
 
 ## 步骤 1：设置中介钱包（如有需要）
 
-**如果您要转移 FIL 的钱包地址以 “f1” 开头：**
+**如果您要转移 FIL 的钱包地址以 `f1` 开头：**
 
 * 您可以直接跳到[步骤 2 ](jiang-fil-cong-mexc-zhuan-ru-glif.md#bu-zhou-2-jiang-filecoin-cong-jiao-yi-suo-fa-song-dao-zhong-jie-qian-bao)和[步骤 6](jiang-fil-cong-mexc-zhuan-ru-glif.md#bu-zhou-5-jiang-filecoin-cong-zhong-jie-qian-bao-zhuan-yi-dao-nin-de-zhu-qian-bao)。
 
-**如果您要转移 FIL 的钱包地址以 “f410” 或 “0x” 开头：**
+**如果您要转移 FIL 的钱包地址以 `f410` 或 `0x` 开头：**
 
 * 您需要使用中介钱包，例如 [FilSnap 钱包](../../qian-bao/ru-he-li-yong-filsnap-qian-bao-zuo-wei-zhong-jie-qian-bao.md)、[Burner钱包](../../qian-bao/ru-he-li-yong-burner-qian-bao-zuo-wei-zhong-jie-qian-bao.md)或 [Ledger](../../qian-bao/ru-he-li-yong-ledger-qian-bao-zuo-wei-zhong-jie-qian-bao.md)。点击链结查看创建不同中介钱包的教程。
-* 这是因为一些交易所，包括 MEXC，还不支持转移到 “**f410**” 或 “**0x**” 地址。请[点击此处](../zai-jiao-yi-suo-he-glif-zhi-jian-zhuan-yi-fil.md)查看详细解释。
+* 这是因为一些交易所，包括 MEXC，还不支持转移到 `f410` 或 `0x` 地址。请[点击此处](../zai-jiao-yi-suo-he-glif-zhi-jian-zhuan-yi-fil.md)查看详细解释。
 
-完成后，中介钱包的地址（以 “**f1**” 开头）将显示在右上角的下拉菜单。复制此地址。
+完成后，中介钱包的地址（以 `f1` 开头）将显示在右上角的下拉菜单。复制此地址。
 
 ![步骤 1：设置中介钱包（如有需](../../../../../.gitbook/assets/image (242).png)
 
@@ -64,7 +64,7 @@
 ## 步骤 4：将主钱包连接至 GLIF 和 Filecoin 主网
 
 1. 连接您要转移 FIL 的主钱包。
-2. 复制您的账户地址（以 “0x” 或 “f410” 开头的地址）。
+2. 复制您的账户地址（以 `0x` 或 `f410` 开头的地址）。
 
 如需详细了解如何将钱包连接到 Filecoin 主网，请[查看此教程](../../qian-bao/ru-he-jiang-qian-bao-lian-jie-dao-filecoin-zhu-wang.md)。
 

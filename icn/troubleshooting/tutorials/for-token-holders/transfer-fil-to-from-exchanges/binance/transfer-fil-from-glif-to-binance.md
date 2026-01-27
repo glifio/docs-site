@@ -21,9 +21,8 @@ This tutorial will guide you through the process of withdraw your iFIL tokens fr
 
 ![Withdraw FIL](../../../../../.gitbook/assets/image (275).png)
 
-2. Select the “**FILEVM**” network if your wallet address starts with “**0x**” or “**f410**.” \
-   \
-   Select the “**Filecoin**” network if your wallet address starts with “**f1**.”
+2. Select the “**FILEVM**” network if your wallet address starts with `0x` or `f410`.
+   Select the “**Filecoin**” network if your wallet address starts with `f1`.
 
 > [!CAUTION]
 > **WARNING**: Choosing the wrong network can result in the loss of funds. Be aware and double-check your address type.

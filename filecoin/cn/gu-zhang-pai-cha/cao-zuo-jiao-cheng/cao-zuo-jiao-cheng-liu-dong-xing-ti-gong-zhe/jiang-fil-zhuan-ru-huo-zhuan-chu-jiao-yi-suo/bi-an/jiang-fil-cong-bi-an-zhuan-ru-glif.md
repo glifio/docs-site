@@ -12,7 +12,7 @@
 
 ## 步骤 1：将您的钱包连接至 GLIF 和 Filecoin 主网
 
-连接钱包后，GLIF 网站左上角将显示“0x” 和 “f410” 地址。如果您的钱包是 “f1” 地址，也会在此处显示。\
+连接钱包后，GLIF 网站左上角将显示`0x` 和 `f410` 地址。如果您的钱包是 `f1` 地址，也会在此处显示。\
 如需详细了解如何将钱包连接到 Filecoin 主网，请[查看此教程](../../qian-bao/ru-he-jiang-qian-bao-lian-jie-dao-filecoin-zhu-wang.md)。
 
 ![步骤 1：将您的钱包连接至 G](../../../../../.gitbook/assets/image (221).png)
@@ -24,7 +24,7 @@
 ![步骤 2：将 Filecoin](../../../../../.gitbook/assets/image (225).png)
 
 2. 将网络选择为 “Filecoin”。
-3. 准确输入您的 “0x”/ “f410”/“f1” 钱包地址，并指定您要发送的数量。
+3. 准确输入您的 `0x`/`f410`/`f1` 钱包地址，并指定您要发送的数量。
 
 ![步骤 2：将 Filecoin](../../../../../.gitbook/assets/image (226).png)
 

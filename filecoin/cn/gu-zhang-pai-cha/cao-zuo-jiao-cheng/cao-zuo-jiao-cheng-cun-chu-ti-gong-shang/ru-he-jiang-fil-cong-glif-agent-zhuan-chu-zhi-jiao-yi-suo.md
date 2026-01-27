@@ -13,7 +13,7 @@
 * [2a：通过 GLIF 网站操作](ru-he-jiang-fil-cong-glif-agent-zhuan-chu-zhi-jiao-yi-suo.md#id-2a-tong-guo-glif-wang-zhan-cao-zuo)
 * [2b：通过 CLI 操作](ru-he-jiang-fil-cong-glif-agent-zhuan-chu-zhi-jiao-yi-suo.md#id-2b-tong-guo-cli-cao-zuo)
 
-[第三步：从中介钱包将 FIL 转到交易所的目标 “f1” 地址](ru-he-jiang-fil-cong-glif-agent-zhuan-chu-zhi-jiao-yi-suo.md#di-san-bu-cong-zhong-jian-qian-bao-jiang-fil-zhuan-dao-jiao-yi-suo-de-mu-biao-f1-di-zhi)
+[第三步：从中介钱包将 FIL 转到交易所的目标 `f1` 地址](ru-he-jiang-fil-cong-glif-agent-zhuan-chu-zhi-jiao-yi-suo.md#di-san-bu-cong-zhong-jian-qian-bao-jiang-fil-zhuan-dao-jiao-yi-suo-de-mu-biao-f1-di-zhi)
 
 > [!TIP]
 > 在向任何钱包发送 FIL 之前，最好先用少量 FIL 作为测试交易。
@@ -108,7 +108,7 @@
 
 3. 在 GLIF “钱包” 页面或在 filfox.info 搜索中介钱包的 f1 地址，检查中介钱包余额，以确认交易成功。
 
-## 第三步：从中间钱包将 FIL 转到交易所的目标 “f1” 地址
+## 第三步：从中间钱包将 FIL 转到交易所的目标 `f1` 地址
 
 1. 使用[第一步](ru-he-jiang-fil-cong-glif-agent-zhuan-chu-zhi-jiao-yi-suo.md#di-yi-bu-she-zhi-zhong-jie-qian-bao)创建的中介钱包登录 GLIF 网站，然后点击 “**发送 FIL**”。
 

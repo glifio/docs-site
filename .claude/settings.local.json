@@ -6,7 +6,7 @@
       "Bash(git checkout:*)",
       "Bash(git commit:*)",
       "Bash(grep:*)",
-      "Bash(node -e:*)",
+      "Bash(node:*)",
       "Bash(python:*)",
       "Bash(python3:*)",
       "Bash(xxd:*)"
