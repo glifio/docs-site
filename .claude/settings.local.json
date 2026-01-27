@@ -1,6 +1,7 @@
 {
   "permissions": {
     "allow": [
+      "Bash(curl:*)",
       "Bash(echo:*)",
       "Bash(find:*)",
       "Bash(git add:*)",
