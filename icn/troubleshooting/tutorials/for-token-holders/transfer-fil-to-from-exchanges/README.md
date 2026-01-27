@@ -4,7 +4,7 @@
 
 [Transfer FIL between exchange and GLIF](transfer-fil-between-exchange-and-glif.md)
 
-### Binance:&#x20;
+### Binance:
 
 [Transfer FIL from Binance to GLIF ](binance/transfer-fil-from-binance-to-glif.md)
 

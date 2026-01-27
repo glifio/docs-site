@@ -20,7 +20,7 @@ Before creating your Agent on the website, it’s important to understand 2 “r
 In this tutorial, you will:
 
 1. Create your Agent Owner multisig wallet
-2. Create your Agent smart contract&#x20;
+2. Create your Agent smart contract
 
 The Agent Creation Wizard on the GLIF website will walk you through these steps. Read on for a guided walkthrough.
 
@@ -40,7 +40,7 @@ Once you click the “Connect” button, you must approve GLIF to connect to you
 
 ![Approve button](../../../.gitbook/assets/image (19).png)
 
-Your FilSnap wallet needs some funds to perform the transactions required to create a new Agent.&#x20;
+Your FilSnap wallet needs some funds to perform the transactions required to create a new Agent.
 
 If your wallet is empty, please make a deposit from another wallet using the 'Deposit' button, or send funds to the wallet's address from an exchange. If you encounter any issues with the deposit, check the tutorial [here](../for-token-holders/transfer-fil-to-from-exchanges/).
 
@@ -48,7 +48,7 @@ If your wallet is empty, please make a deposit from another wallet using the 'De
 
 ***
 
-**Step 3** — Enter your two additional wallet addresses (“approver”, “backup”) signers and create your Agent owner wallet. These are the two other FilSnap or Ledger wallet addresses you created in [Part I](glif-agent-website-tutorial-part-i-preparation-setup.md) of this tutorial.&#x20;
+**Step 3** — Enter your two additional wallet addresses (“approver”, “backup”) signers and create your Agent owner wallet. These are the two other FilSnap or Ledger wallet addresses you created in [Part I](glif-agent-website-tutorial-part-i-preparation-setup.md) of this tutorial.
 
 ![Address input](../../../.gitbook/assets/image (21).png)
 
@@ -96,9 +96,9 @@ Once you click the “Create Agent” button, you must approve the transaction i
 
 A couple pieces of important information to note after creating your Agent:
 
-1. **Agent ID** — The Agent ID is a number that GLIF uses internally in its smart contract infrastructure to identify your Agent.&#x20;
-2. **Agent f410 Address** — The Agent f410 address is the smart contract address of your Agent, displayed in a Filecoin native format.&#x20;
-3. **Agent 0x Address** — The Agent 0x address is another representation of the smart contract address of your Agent, dislayed in an Ethereum native format. An Agent’s f410 and 0x addresses are functionally equivalent to each other.&#x20;
+1. **Agent ID** — The Agent ID is a number that GLIF uses internally in its smart contract infrastructure to identify your Agent.
+2. **Agent f410 Address** — The Agent f410 address is the smart contract address of your Agent, displayed in a Filecoin native format.
+3. **Agent 0x Address** — The Agent 0x address is another representation of the smart contract address of your Agent, dislayed in an Ethereum native format. An Agent’s f410 and 0x addresses are functionally equivalent to each other.
 4. **Agent Owner** — The Agent Owner is the multisig wallet that owns your Agent smart contract, which we created at the beginning of this tutorial.
 5. **Agent Operator** — the Agent Operator is written about in more detail in later part of this tutorial.
 

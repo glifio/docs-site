@@ -6,19 +6,19 @@ description: A New Way for LPs to Earn FIL Through GLIF+
 
 ## What are FIL Capsules
 
-A FIL Capsule is an on-chain NFT that _encapsulates a predefined amount of FIL inside it,_ sourced directly from the GLIF protocol treasury.&#x20;
+A FIL Capsule is an on-chain NFT that _encapsulates a predefined amount of FIL inside it,_ sourced directly from the GLIF protocol treasury.
 
-* The encapsulated FIL can be unlocked by providing a fixed amount of $GLF tokens.&#x20;
+* The encapsulated FIL can be unlocked by providing a fixed amount of $GLF tokens.
 * The encapsulated FIL and required $GLF amounts are set at the moment the Capsule is issued and do not change.
 
 ### How to receive new FIL Capsules
 
-* As long as your GLIF+ LP Card remains active, new Capsules are automatically issued to your wallet **every week**, and each Capsule remains valid for **30 days.**&#x20;
+* As long as your GLIF+ LP Card remains active, new Capsules are automatically issued to your wallet **every week**, and each Capsule remains valid for **30 days.**
 * You get to decide when or if you want to unlock FIL Capsules
 
 ### Where FIL Capsule Rewards Come From
 
-FIL Capsule rewards are funded by the **GLIF protocol treasury**. Every week, the protocol allocates a percentage of its FIL earnings to the GLIF+ LP program.&#x20;
+FIL Capsule rewards are funded by the **GLIF protocol treasury**. Every week, the protocol allocates a percentage of its FIL earnings to the GLIF+ LP program.
 
 * The FIL encapsulated in each Capsule reflects your share of total iFIL staked across all active LP Cards.
 

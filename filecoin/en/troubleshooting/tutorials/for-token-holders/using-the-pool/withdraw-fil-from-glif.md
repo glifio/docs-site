@@ -8,7 +8,7 @@ To learn more about the mechanics of withdrawals, click [here](../../../../for-l
 
 ## Step 1: Connect your wallet to GLIF
 
-1. Visit the [GLIF website](https://www.glif.io) and click on **‘Connect Wallet’** in the top right corner.&#x20;
+1. Visit the [GLIF website](https://www.glif.io) and click on **‘Connect Wallet’** in the top right corner.
 
 ![GLIF connect button](../../../../.gitbook/assets/image (156).png)
 
@@ -16,7 +16,7 @@ To learn more about the mechanics of withdrawals, click [here](../../../../for-l
 
 ![Toggle button](../../../../.gitbook/assets/image (158).png)
 
-## Step 2: Go to the "Pool" page&#x20;
+## Step 2: Go to the "Pool" page
 
 1. Within the "Pool" section, find the **"Withdraw"** option.
 2. Enter the amount of iFIL you want to redeem, and the corresponding amount of FIL to receive will be displayed. Read more about iFIL [here](../../../../for-liquidity-providers/glif-reward-mechanism-ifil.md).
@@ -38,7 +38,7 @@ The GLIF smart contract needs permission to spend your iFIL Tokens to process th
 
 ## Step 4: Submit transaction 2 of 2 - Withdraw FIL
 
-1. After a short wait (around 1 to 2 minutes), you should see a transaction success notification appear. After the approval transaction succeeds, you can proceed with the withdrawal - click **'Withdraw'**.&#x20;
+1. After a short wait (around 1 to 2 minutes), you should see a transaction success notification appear. After the approval transaction succeeds, you can proceed with the withdrawal - click **'Withdraw'**.
 
 ![Withdraw button](../../../../.gitbook/assets/image (385).png)
 
@@ -62,7 +62,7 @@ You will be able to see the FIL and iFIL balance in your wallet in the "**Accoun
 
 ## Conclusion
 
-Finally, you have successfully withdrawn your FIL from GLIF!&#x20;
+Finally, you have successfully withdrawn your FIL from GLIF!
 
 ## Join our community!
 

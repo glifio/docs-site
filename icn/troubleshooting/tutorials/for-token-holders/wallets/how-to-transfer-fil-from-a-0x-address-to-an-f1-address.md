@@ -19,7 +19,7 @@ This guide will walk you through:
 {% hint style="info" %}
 **Before your send any FIL to any wallet, test it with a small amount of FIL.**
 
-No matter which wallet you use, always make sure to back up your secret recovery phrase, store it securely, and never share it with anyone.&#x20;
+No matter which wallet you use, always make sure to back up your secret recovery phrase, store it securely, and never share it with anyone.
 {% endhint %}
 
 ## Step 1: Set Up Your Intermediary Wallet
@@ -35,7 +35,7 @@ For details on creating an intermediary wallet, please refer to the tutorial by 
 ## Step 2: Send FIL from 0x address (main wallet) to f1 address (intermediary Wallet)
 
 {% hint style="danger" %}
-Remember to use the **"Send/Forward FIL" page within GLIF** when you attempt to send from a 0x address to an f1 address.&#x20;
+Remember to use the **"Send/Forward FIL" page within GLIF** when you attempt to send from a 0x address to an f1 address.
 
 **Do not use the MetaMask browser extension wallet to send FIL in this step.** Otherwise, your MetaMask may be connected to the Ethereum mainnet instead of the Filecoin mainnet.
 {% endhint %}
@@ -98,12 +98,12 @@ If you are unable to get a confirmation in your main wallet (e.g. MetaMask), the
 The GLIF team **cannot** help you find your tx hash. Please record your tx hash for tracking your transaction.
 {% endhint %}
 
-9. &#x20;You can check the transaction details on [filfox.info](https://filfox.info/en) by searching the tx hash.
+9. You can check the transaction details on [filfox.info](https://filfox.info/en) by searching the tx hash.
 10. To confirm that the FIL you transferred went to your burner address, click **"internal transfer"** on the [filfox.info](https://filfox.info/en) transaction details page to view the address details. The **"To"** address should match your burner wallet's f1 address.
 
 ![Transaction confirmation](../../../../.gitbook/assets/image (156).png)
 
-11. Once the transaction is completed, disconnect MetaMask (main wallet). Then, click **"Connect Wallet"** and connect your intermediary wallet by importing the seed phrase you saved earlier.&#x20;
+11. Once the transaction is completed, disconnect MetaMask (main wallet). Then, click **"Connect Wallet"** and connect your intermediary wallet by importing the seed phrase you saved earlier.
 
 For the burner wallet, remember to choose **"Filecoin (f1...)"** as the address type.
 

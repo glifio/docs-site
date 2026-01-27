@@ -8,7 +8,7 @@ description: >-
 
 ## What are Agents
 
-Agents are smart contracts on the FEVM that allow Storage Providers (SPs) to collateralize Filecoin Miner Actors (miners) in order to borrow FIL from GLIF. Every Storage Provider deploys and owns their own Agent smart contract. Agents act as intermediaries between SPs and GLIF, allowing SPs to maintain ownership and control over their miner(s) while borrowing from GLIF.&#x20;
+Agents are smart contracts on the FEVM that allow Storage Providers (SPs) to collateralize Filecoin Miner Actors (miners) in order to borrow FIL from GLIF. Every Storage Provider deploys and owns their own Agent smart contract. Agents act as intermediaries between SPs and GLIF, allowing SPs to maintain ownership and control over their miner(s) while borrowing from GLIF.
 
 ![Borrow form](../.gitbook/assets/image (386).png)
 
@@ -36,14 +36,14 @@ The more mining power added to an Agent, the greater the Agent's liquidation val
 The Storage Provider that deploys an Agent is in complete and total control of the Agent. If the Storage Provider loses its Agent ownership keys, there is nothing the GLIF team can do to recover the Storage Providers assets.
 
 {% hint style="info" %}
-It is extremely important that Storage Providers manage and backup their Agent keys in a secure and responsible way&#x20;
+It is extremely important that Storage Providers manage and backup their Agent keys in a secure and responsible way
 {% endhint %}
 
 ## Agent Owner and Operator Keys
 
 The GLIF protocol utilizes two distinct keys for managing Agents smart contracts. Only the SP should have access to these keys, and it's important to keep them private and safe. Changes to these keys follow a secure two-step process that involves a proposal by the current holder and acceptance by the new holder.
 
-### **Owner Key:**&#x20;
+### **Owner Key:**
 
 The owner key has executive privileges to move FIL in and out of the Agent. It allows actions such as borrowing, withdrawing funds, adding or removing Miner and changing the operator, typically controlled by Storage Provider management.
 
@@ -51,7 +51,7 @@ The owner key has executive privileges to move FIL in and out of the Agent. It a
 
 The operator key enables operational functions like making payments, managing worker addresses, and moving funds to and from the Agent to any of its Miner.
 
-## Agent Police&#x20;
+## Agent Police
 
 The Agent Police is GLIF’s keeper contract that ensures each Agent stays within debt-to-liquidation (DTL) ratio when executing actions like borrowing or withdrawing FIL. If an Agent violates system rules, the Agent Police is responsible for processing Agent state transitions and liquidations.
 

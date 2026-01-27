@@ -24,7 +24,7 @@ Once your Agent has a Miner pledged to it, the next step is to borrow from GLIF.
 
 Before borrowing from GLIF, you must provide collateral to your Agent. There are two methods to add collateral and unlock borrowing capacity:
 
-#### 1. Available Balance in the Agent&#x20;
+#### 1. Available Balance in the Agent
 
 If you would like to send FIL directly to your agent, copy your Agent address (f410/0x) from the Agent page. Send FIL to this address from your wallet. Use the “**Send FIL**” option in the top-right dropdown menu. It works like sending FIL to any other wallet.
 
@@ -39,9 +39,9 @@ Please refer to [Part 3](glif-agent-website-tutorial-part-3-add-your-miner.md) o
 Once collateral is added, your borrowing limit (maximum amount you can borrow) will display on the Agent page. This limit varies based on:
 
 * Borrowing method: "**Borrow to Seal**" or "**Borrow to Withdraw.**"
-* Your Agent’s DTL ratio.&#x20;
+* Your Agent’s DTL ratio.
 
-See the [docs](../../../for-storage-providers/borrowing-limits-and-dtl.md) here for details.&#x20;
+See the [docs](../../../for-storage-providers/borrowing-limits-and-dtl.md) here for details.
 
 ***
 

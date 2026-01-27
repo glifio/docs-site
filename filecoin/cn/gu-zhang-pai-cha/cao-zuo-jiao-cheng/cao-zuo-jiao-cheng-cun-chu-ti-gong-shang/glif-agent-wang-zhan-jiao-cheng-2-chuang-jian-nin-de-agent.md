@@ -9,7 +9,7 @@ _如果您还不熟悉 GLIF Agent 的基础知识以及在 GLIF 网站上创建 
 在网站上创建 Agent 之前，理解 GLIF 中的两个角色非常重要。简单回顾如下：
 
 1. **Agent** - Agent 是一个从 GLIF 借用 FIL 的智能合约。您将自行部署、拥有并操作该 Agent 智能合约（在本教程的[第二部分](glif-agent-wang-zhan-jiao-cheng-2-chuang-jian-nin-de-agent.md)中介绍）。为了借用 FIL，您的 Agent 需要抵押品，而抵押品来自对您 Filecoin 矿工的拥有权。更详细的 Agent 介绍请参考[此处](../../../cun-chu-ti-gong-shang/shi-yong-agents-guan-li-jie-dian.md)。
-2. **Agent** 拥有者钱&#x5305;**-** Agent 拥有者钱包是控制您的 Agent 的钱包。谁掌控了 Agent Owner Wallet ，就能操作您的 Agent。因此，确保 Agent Owner Wallet的 安全很重要，而 GLIF 将自动帮助您做到这一点。
+2. **Agent** 拥有者钱包**-** Agent 拥有者钱包是控制您的 Agent 的钱包。谁掌控了 Agent Owner Wallet ，就能操作您的 Agent。因此，确保 Agent Owner Wallet的 安全很重要，而 GLIF 将自动帮助您做到这一点。
 
 ## Agent 创建指南
 

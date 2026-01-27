@@ -11,7 +11,7 @@ In Part 1 of the GLIF Agent Setup Tutorial, we are covering two topics:
 1. Understand the different components of GLIF Agents and the basics of how they work.
 2. Prepare to create an Agent on the GLIF website.
 
-If you already understand the basics and you’re ready to get started creating your Agent on the website, you can skip this Part 1 and go directly to[ Part 2](glif-agent-website-tutorial-part-2-create-your-agent.md).&#x20;
+If you already understand the basics and you’re ready to get started creating your Agent on the website, you can skip this Part 1 and go directly to[ Part 2](glif-agent-website-tutorial-part-2-create-your-agent.md).
 
 {% hint style="info" %}
 You can find all the tutorials about using Agents on the **GLIF website** on this [page](./).
@@ -59,7 +59,7 @@ If you lose any of your signer keys (either Ledger devices or the Filecoin Snap 
 In order to prepare for Agent creation, you’ll need 3 addresses:
 
 1. FILSnap Wallet Address 1
-2. FILSnap Wallet Address 2 OR Ledger Address 1 OR Burner Wallet Address 1&#x20;
+2. FILSnap Wallet Address 2 OR Ledger Address 1 OR Burner Wallet Address 1
 3. FILSnap Wallet Address 3 OR Ledger Address 2 OR Burner Wallet Address 2
 
 For details on obtaining a [FilSnap](../for-token-holders/wallets/how-to-obtain-a-filsnap-wallet-as-the-intermediary-wallet.md), [Burner](../for-token-holders/wallets/how-to-obtain-a-burner-wallet-as-the-intermediary-wallet.md), or [Ledger](../for-token-holders/wallets/how-to-obtain-a-ledger-wallet-as-the-intermediary-wallet.md) wallet address, please refer to the tutorial by clicking the link.

@@ -26,7 +26,7 @@ If your eligible wallet is a multisig wallet, the claiming process is very simil
 
 ### Step 1: Start Claiming on the GLIF Website
 
-1. Navigate to the [official GLIF website token claim page](https://www.glif.io/en/token).&#x20;
+1. Navigate to the [official GLIF website token claim page](https://www.glif.io/en/token).
 2. Click “Connect Wallet” to connect your eligible wallet. Your $GLF airdrop amount will be displayed here.
 
 ![GLF amount](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfGaoNBPp2gKfRaglZm6Ae_OPl633Bq2R88eOaxEx-HOFkONueRgo5oHgmSLapYNflOu8UbqhXPIETwhTWYXZfl6158xLBrVAHa7tFmQakh5v3fqcCyTbxkj0mdEkre6KlzWbEqbg?key=eIKPXedGtT-lH4EHr-YDBjEV)
@@ -55,7 +55,7 @@ If your eligible wallet is a multisig wallet, the claiming process is very simil
 
 ![Redeem GLF](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe1D5mBWsfvnpGn6LFGtGvak9RXun2eBe6tODqx5VD0JMV6UPTwQc2HziMScjyklfxOfk87qpy3skF6DezNSSB9HEsCWbHrn9dtG2GVj0Ui0aVgSVsS95041GuCNkDajFFP7-a9UA?key=eIKPXedGtT-lH4EHr-YDBjEV)
 
-2. Scroll to the “NFTs” section. You will see an NFT representing your claimed tokens.&#x20;
+2. Scroll to the “NFTs” section. You will see an NFT representing your claimed tokens.
 
 {% hint style="warning" %}
 Note that the airdrop vesting schedule is aligned with Filecoin’s block reward schedule: 25% is available immediately, while 75% vests linearly over 180 days.
@@ -70,7 +70,7 @@ Note that the airdrop vesting schedule is aligned with Filecoin’s block reward
 ![Send button](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdIPkHH21x7xCuQ-d0Qklg88WIj0tbNNGHRuM6qX9l1jYdyx1qShX1hcWT7MtqBRExLdC0b8IAn96BmkGwfA4XsBO6mVj_53uYq3fw-N_o7AHGsrD92b7kv4NvqDC7VY-mRsz2O5Q?key=eIKPXedGtT-lH4EHr-YDBjEV)
 
 5. Confirm in your wallet and wait for the transaction to be completed (1–2 minutes).
-6. Check the “Tokens” section on your wallet page. Your $GLF tokens will be shown here!&#x20;
+6. Check the “Tokens” section on your wallet page. Your $GLF tokens will be shown here!
 
 ![Token section](https://lh7-rt.googleusercontent.com/docsz/AD_4nXezNHJeq5Y2gI2Uh7dDxXb-BoBNOwgJLy5AyuDDWVKBUVZWCDIRZcxWsp7U69c-BJNOsnKwszgbDVo0zm_QzEwOVIzHeMOypPTgrQ_SC3nDcjIcnEFreUgDCe_v6rp9FEjNHe52?key=eIKPXedGtT-lH4EHr-YDBjEV)
 
@@ -82,7 +82,7 @@ Congrats! You’ve successfully claimed your $GLF tokens as an early GLIF commun
 
 ### Claim Your Airdrop via CLI
 
-If you are an SP and would like to claim your airdrop through the Command Line Interface, you need to [install the v2.4.0 new release](https://github.com/glifio/glif/releases/tag/v2.4.0). Please follow the instruction[ here](https://github.com/glifio/glif/pull/166/files#diff-b335630551682c19a781afebcf4d07bf978fb1f8ac04c6bf87428ed5106870f5).&#x20;
+If you are an SP and would like to claim your airdrop through the Command Line Interface, you need to [install the v2.4.0 new release](https://github.com/glifio/glif/releases/tag/v2.4.0). Please follow the instruction[ here](https://github.com/glifio/glif/pull/166/files#diff-b335630551682c19a781afebcf4d07bf978fb1f8ac04c6bf87428ed5106870f5).
 
 ### Claim Your Airdrop via the GLIF website
 
@@ -113,7 +113,7 @@ If you would like to claim through the website interface, please follow the inst
 
 7. Confirm the transaction in your wallet and wait for the transaction to be completed (1–2 minutes).
 
-#### Step 2: Approve Claim and Delegate proposal&#x20;
+#### Step 2: Approve Claim and Delegate proposal
 
 1. Click “Return to Dashboard” or go to your “Multisig” wallet page.
 
@@ -134,13 +134,13 @@ _If your Agent owner is a **single-signer/EOA wallet**, you do not need to sign 
 
 ![Proposal approval](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd7-1BUFeLwIZhR6txXYa3Fp5goUkAZ9nyIMyrX4QslfelF4xQ1M2c4gqW8zaOJiyPMCOpCCV4MpV4smGqub9AhRSMnLW7wQgUuOTmbCtXwzypZ_WwU4oi5RT1QKQNGa9SylDR6Eg?key=eIKPXedGtT-lH4EHr-YDBjEV)
 
-6. Confirm the transaction in your wallet and wait for the transaction to be completed (1–2 minutes).&#x20;
+6. Confirm the transaction in your wallet and wait for the transaction to be completed (1–2 minutes).
 
 #### Step 3: Redeem $GLF Tokens from the NFT
 
 1. Once all approvers have approved the proposal, click “Portfolio”. Scroll to the 'NFTs' section to view an NFT representing your claimed tokens.
 
-_If your Agent owner is a **single-signer/EOA wallet**, you do not need to sign any proposal. Simply click 'Redeem' on the NFT and confirm the transaction in your wallet. Once the transaction is complete, check your portfolio for $GLF tokens. Your NFT balance will update, and you can redeem tokens again at any time if the NFT still has unredeemed tokens._&#x20;
+_If your Agent owner is a **single-signer/EOA wallet**, you do not need to sign any proposal. Simply click 'Redeem' on the NFT and confirm the transaction in your wallet. Once the transaction is complete, check your portfolio for $GLF tokens. Your NFT balance will update, and you can redeem tokens again at any time if the NFT still has unredeemed tokens._
 
 {% hint style="warning" %}
 Note that the airdrop vesting schedule is aligned with Filecoin’s block reward schedule: 25% is available immediately, while 75% vests linearly over 180 days.
@@ -152,7 +152,7 @@ Note that the airdrop vesting schedule is aligned with Filecoin’s block reward
 
 ![Redeem GLF](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfJ42FFWs1CX8PoJubqF9BlDE_AvuiLXGoxnOyAkYHyA8qmodHtNrF0wEIEavVlxrP9blcevFMeEQnnOEl6m7X7Iw_2pUgk4Y_3KDwBtBNAJ57_G6Xare7TqnnAOKPXH4nDoZTxnQ?key=eIKPXedGtT-lH4EHr-YDBjEV)
 
-3. Click “Send”. A multisig proposal will be initiated to redeem your $GLF tokens. Confirm in your wallet.&#x20;
+3. Click “Send”. A multisig proposal will be initiated to redeem your $GLF tokens. Confirm in your wallet.
 
 ![Wallet confirmation](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdqJ1HxTgX6MzXKL-jDshs1NorVKAt0TNKndMoz2EF0d0M-CzFYrMZWiNBzoi36R5UDD3LVum0L6Pa2ndx_jsYW6wW8qklIqw4i2k7hRtpzE65p-QfcatLkDekYQ1EX4Ar8w2HtyA?key=eIKPXedGtT-lH4EHr-YDBjEV)
 
@@ -166,7 +166,7 @@ Note that the airdrop vesting schedule is aligned with Filecoin’s block reward
 ![Proposal approval](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd7-1BUFeLwIZhR6txXYa3Fp5goUkAZ9nyIMyrX4QslfelF4xQ1M2c4gqW8zaOJiyPMCOpCCV4MpV4smGqub9AhRSMnLW7wQgUuOTmbCtXwzypZ_WwU4oi5RT1QKQNGa9SylDR6Eg?key=eIKPXedGtT-lH4EHr-YDBjEV)
 
 7. Confirm the transaction in your wallet.
-8. After the transaction is completed, check your portfolio for $GLF tokens. The NFT balance will update, and you can redeem tokens again at any time if the NFT still has unredeemed tokens.&#x20;
+8. After the transaction is completed, check your portfolio for $GLF tokens. The NFT balance will update, and you can redeem tokens again at any time if the NFT still has unredeemed tokens.
 
 ![Balance view](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeK_PyVEVxSB1bgBOiBkgsiUeJEPP4f_HARWQarWphtQXHa3Vp5Gbii_LmS4Ma2biFRSVYraK7slLwLyIzPygYswOyqhOR_WeCIuCqFh4qC3p5FeoKAh-dlMaGRMQvLjaHyAz2P3Q?key=eIKPXedGtT-lH4EHr-YDBjEV)
 

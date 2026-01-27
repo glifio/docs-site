@@ -28,7 +28,7 @@ Using an example, imagine the following hypothetical miner:
 The total balance of this miner is 130 FIL, and its maximum termination fee 10 FIL. Therefore, it's liquidation value of this miner would be 120 FIL.
 
 {% hint style="info" %}
-**Storage Providers must keep close track of their liquidation value to determine borrowing limits and avoid liquidations.**&#x20;
+**Storage Providers must keep close track of their liquidation value to determine borrowing limits and avoid liquidations.**
 {% endhint %}
 
 ## Recovery rates

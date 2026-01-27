@@ -31,14 +31,14 @@ Once funded, up to 10% of every interest payment can be redeemed with your $GLF.
 
 #### **Example**
 
-* Imagine you're a Storage Provider with a Silver card, and 1000 FIL in outstanding interest owed to the GLIF Protocol.&#x20;
+* Imagine you're a Storage Provider with a Silver card, and 1000 FIL in outstanding interest owed to the GLIF Protocol.
 * You load up your GLIF+ Loyalty Card with 20000 $GLF Tokens to participate in the cash back program.
 * When you make your interest payment of 1000 FIL, 10% of the payment (100 FIL) is eligible for cash back.
-* The Protocol looks at the current price of GLF:FIL on the market, and applies the Tier premium to the exchange rate.&#x20;
+* The Protocol looks at the current price of GLF:FIL on the market, and applies the Tier premium to the exchange rate.
   * For simplicity purposes, let's say the base price of GLF:FIL ⇒ 1 $GLF : 0.005 FIL
   * The Silver tier premium is +10%, so the premium price for Silver Tier Card holders is 1 $GLF = 0.0055 FIL
   * The Protocol makes the 100 FIL available to the Card holder, in exchange for 18181.8 $GLF Tokens
-* The end effect is that the Storage Provider was able to swap 18181.8 $GLF Tokens for 100 FIL after paying interest. If the SP had tried to swap 18181.8 $GLF Tokens on the DEX for FIL, after fees and slippage, the trade would result in significantly less FIL tokens.&#x20;
+* The end effect is that the Storage Provider was able to swap 18181.8 $GLF Tokens for 100 FIL after paying interest. If the SP had tried to swap 18181.8 $GLF Tokens on the DEX for FIL, after fees and slippage, the trade would result in significantly less FIL tokens.
 
 ### **TWAP Pricing**
 

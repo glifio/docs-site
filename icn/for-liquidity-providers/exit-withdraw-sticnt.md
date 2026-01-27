@@ -5,7 +5,7 @@ hidden: true
 
 # Exit - Withdraw stICNT
 
-Today, the mechanism for redeeming ICNT for stICNT tokens is through our [Uniswap](https://app.uniswap.org/explore/pools/base/0x655c8ae242c2707fa13ab5b093567d3c6f114ad60cae2d5c9adf106670bca15c) pool on Base. stICNT holders can simply swap stICNT for ICNT at the current price quoted by the pool.&#x20;
+Today, the mechanism for redeeming ICNT for stICNT tokens is through our [Uniswap](https://app.uniswap.org/explore/pools/base/0x655c8ae242c2707fa13ab5b093567d3c6f114ad60cae2d5c9adf106670bca15c) pool on Base. stICNT holders can simply swap stICNT for ICNT at the current price quoted by the pool.
 
 ### Protocol Owned Liquidity
 
@@ -28,6 +28,6 @@ Once native exits are enabled, the pool will maintain an asset reserve specifica
 
 #### Shortest lockup tokens unstaked first
 
-If the exit reserve drops under its minimum requirement, the pool will automatically search for the shortest lockup duration vault to unstake first. It does this because delegated staking positions that are "expired" still earn rewards according to their original lockup periods. For instance, if an ICNT position is made with a 3 month lockup, after 3 months passes, the position still earns rewards and can be unstaked within a 1 day turnaround.&#x20;
+If the exit reserve drops under its minimum requirement, the pool will automatically search for the shortest lockup duration vault to unstake first. It does this because delegated staking positions that are "expired" still earn rewards according to their original lockup periods. For instance, if an ICNT position is made with a 3 month lockup, after 3 months passes, the position still earns rewards and can be unstaked within a 1 day turnaround.
 
-Therefore, the "shortest lockup tokens unstaked first" strategy means that - all else equal - a 3 month position will be unstaked to refill the exit reserve before a 6 month (or longer) position gets unstaked. The pool effectively tries to unstake the _minumum_ possible amount to satisfy exit requirements.&#x20;
+Therefore, the "shortest lockup tokens unstaked first" strategy means that - all else equal - a 3 month position will be unstaked to refill the exit reserve before a 6 month (or longer) position gets unstaked. The pool effectively tries to unstake the _minumum_ possible amount to satisfy exit requirements.

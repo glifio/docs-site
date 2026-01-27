@@ -2,9 +2,9 @@
 
 ## What is the role of agents in the GLIF system?
 
-Agents are smart contracts that allow Storage Providers (SPs) to collateralize their Filecoin Miner Actors to borrow FIL. Agents act as intermediaries between SPs and GLIF, allowing SPs to maintain ownership and control over their Miner Actors while borrowing from GLIF.&#x20;
+Agents are smart contracts that allow Storage Providers (SPs) to collateralize their Filecoin Miner Actors to borrow FIL. Agents act as intermediaries between SPs and GLIF, allowing SPs to maintain ownership and control over their Miner Actors while borrowing from GLIF.
 
-Agents are the only smart contracts that are allowed to borrow FIL from the pool. When an Agent borrows FIL from the pool, it can either withdraw it out of the system, or send it to one of the Agent’s pledged miners to use in the Filecoin Storage Mining process.&#x20;
+Agents are the only smart contracts that are allowed to borrow FIL from the pool. When an Agent borrows FIL from the pool, it can either withdraw it out of the system, or send it to one of the Agent’s pledged miners to use in the Filecoin Storage Mining process.
 
 Read [here](../../../for-storage-providers/manage-miner-actors-with-agents.md) for more details.
 
@@ -25,7 +25,7 @@ Read [here](../../../for-storage-providers/manage-miner-actors-with-agents.md) f
 
 The Agent Police is GLIF’s keeper contract that ensures each Agent stays within debt-to-liquidation (DTL) ratio when executing actions like borrowing or withdrawing FIL. If an Agent violates system rules, the Agent Police is responsible for processing Agent state transitions and liquidations.
 
-## How to remove a miner from an agent?&#x20;
+## How to remove a miner from an agent?
 
 **Step 1:**
 
@@ -33,7 +33,7 @@ Propose an ownership change for your miner (miner-id) to set the new-owner-addre
 
 `glif agent miners remove <miner-id> <new-owner-address>`
 
-**Step 2:**&#x20;
+**Step 2:**
 
 Step 2 has to be done outside of GLIF – the new owner address must confirm the ownership change. If you're using Lotus, this command is implemented as:
 

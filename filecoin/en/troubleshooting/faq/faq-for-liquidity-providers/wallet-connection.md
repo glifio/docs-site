@@ -10,9 +10,9 @@ It should be possible to have multiple wallet extensions installed simultaneousl
 
 ## **I generated a f1 address in my Filecoin account with Ledger, and it seems different from the 0x address that MetaMask uses. I can't see my FIL in the Filecoin network under MetaMask.**
 
-MetaMask doesn't support Filecoin f1 addresses, so you won't be able to see your FIL balance directly in MetaMask if you’re using a native (f1) Filecoin address.&#x20;
+MetaMask doesn't support Filecoin f1 addresses, so you won't be able to see your FIL balance directly in MetaMask if you’re using a native (f1) Filecoin address.
 
-Instead, you can connect your Ledger device directly to GLIF and see your balances on the GLIF website.&#x20;
+Instead, you can connect your Ledger device directly to GLIF and see your balances on the GLIF website.
 
 ## When I use Ledger for deposits on GLIF, it produces an f1 address, while using MetaMask generates a 0x address. What's the difference between these address types?
 
@@ -22,7 +22,7 @@ For technical details on different address types, see: [Filecoin Address Types](
 
 There are two ways to use MetaMask x GLIF - default MetaMask and Filsnap.
 
-Default MetaMask works the same as connecting to any EVM network - you must change the network in MetaMask to point to Filecoin Mainnet. See [https://chainlist.org/chain/314](https://chainlist.org/chain/314)&#x20;
+Default MetaMask works the same as connecting to any EVM network - you must change the network in MetaMask to point to Filecoin Mainnet. See [https://chainlist.org/chain/314](https://chainlist.org/chain/314)
 
 Filsnap is a plugin that can be installed inside MetaMask that will produce a native Filecoin address (beginning with f1 instead of 0x).
 

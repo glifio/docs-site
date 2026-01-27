@@ -10,7 +10,7 @@ Agents 是 FEVM 上的智能合约，允许存储提供商 (SP) 抵押 Filecoin 
 
 ![什么是 Agents](../.gitbook/assets/image (376).png)
 
-## 部署 Agents&#x20;
+## 部署 Agents
 
 1. 通过 GLIF [网站](https://glif.io/en/agent)
 2. 通过 GLIF [CLI](https://github.com/glifio/glif)
@@ -49,7 +49,7 @@ GLIF 协议使用两个不同的密钥来管理Agents智能合约。只有存储
 
 操作者密钥具有操作功能的权限，如付款、管理Worker 地址以及在 Agents 与其任何Miner Actor之间移动资金。
 
-## Agents 警察 (Agents Police)&#x20;
+## Agents 警察 (Agents Police)
 
 代理警察 (Agents Police) 是 GLIF 的管理员合约，确保每个 Agents 在执行借款或提取 FIL 等操作时保持在借款与清算价值比 (DTL) 内。如果 Agents 违反系统规则，Agents 警察 (Agents Police) 负责处理Agents状态转换和清算。
 

@@ -7,7 +7,7 @@
 * ❓ Get quick answers in the **FAQ** for [FIL token holders (Liquidity Providers)](troubleshooting/faq/faq-for-liquidity-providers/) and [Storage Providers](troubleshooting/faq/faq-for-storage-providers/)
 * 💳 Learn more about our **GLIF+ Loyalty Card** for [Liquidity Providers](glif+-liquidity-providers-loyalty-rewards/liquidity-provider-loyalty-card.md) and [Storage Providers](glif+-storage-providers-loyalty-rewards/storage-provider-loyalty-card.md)
 * 📘 Learn from step-by-step **tutorials** for [FIL token holders](troubleshooting/tutorials/for-token-holders/) and [Storage Providers](troubleshooting/tutorials/for-storage-providers/)
-* 🔍 Review our [**audits**](for-liquidity-providers/asset-security.md)&#x20;
+* 🔍 Review our [**audits**](for-liquidity-providers/asset-security.md)
 * 🖥️ Take a look at our [**developer resources**](/broken/pages/XV4DLQFIAdZCEph0Hvtw)
 * 🤝 [Connect](troubleshooting/contact-us.md) through [**Discord**](https://discord.com/invite/5qsJjsP3Re) and [**Telegram**](https://t.me/+iFJuXAMp-Xg5NGIx) for support and partnerships
 * 📢  Stay informed with updates on our [**blog**](https://medium.com/@glifio) and [**Twitter**](https://twitter.com/glifio)

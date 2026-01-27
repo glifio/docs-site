@@ -39,6 +39,6 @@ In the example above, the SP's debt has increased from 0 FIL to 100 FIL. However
 Regardless of if an SP chooses to use borrowed FIL for storage mining or withdrawals outside of GLIF, the SP's DTL ratio must stay below 75% - 90% (Depends on whether the SP joined the [GLIF+ program](/broken/pages/jt1R92FWbP8KSp3HrRV0)) in order to be approved.
 {% endhint %}
 
-## Key takeaway:&#x20;
+## Key takeaway:
 
 When Storage Providers use borrowed FIL from GLIF for storage mining rather than withdrawing out of the system, they can get higher leverage.

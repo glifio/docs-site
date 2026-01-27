@@ -4,7 +4,7 @@
 
 GLIF is the foundational DeFi primitive of [Filecoin](https://filecoin.io/) - enabling Filecoin token holders to earn sustainable rewards on their FIL by lending (aka “leasing”) it to a diverse pool of Filecoin miners (also known as “Storage Providers”). Storage Providers (SPs) borrow FIL to use as pledge collateral in Filecoin mining, which helps Storage Providers grow and simultaneously improves the security of the Filecoin network. Similar to "liquid staking" solutions for PoS networks like [Lido](https://lido.fi/) or [Jito](https://www.jito.network/zh-TW/), GLIF solves a major capital inefficiency on the Filecoin network, and is Filecoin's first and most popular DeFi protocol.
 
-The GLIF brand has been a long-term trusted partner of the Filecoin ecosystem since early 2019, receiving more than 4 million dollars in grant funding from Protocol Labs and the Filecoin Foundation to build critical apps and tools for the Filecoin network. Most notably, GLIF built the first Filecoin web wallet and multisig wallet for Filecoin’s Mainnet launch, which are still widely used today across the ecosystem for employee payments, grants, and general day-to-day operations.&#x20;
+The GLIF brand has been a long-term trusted partner of the Filecoin ecosystem since early 2019, receiving more than 4 million dollars in grant funding from Protocol Labs and the Filecoin Foundation to build critical apps and tools for the Filecoin network. Most notably, GLIF built the first Filecoin web wallet and multisig wallet for Filecoin’s Mainnet launch, which are still widely used today across the ecosystem for employee payments, grants, and general day-to-day operations.
 
 Click [here](https://docs.glif.io/) to know more about GLIF.
 
@@ -12,7 +12,7 @@ Click [here](https://docs.glif.io/) to know more about GLIF.
 
 There are a couple ways you can use GLIF as a FIL token holder:
 
-1. Use our built-in wallet or multisig features - GLIF’s [wallet](https://www.glif.io/en/wallet) and [multisig](https://www.glif.io/en/multisig) are used by a large portion of the Filecoin network for sending/receiving/custodying FIL.&#x20;
+1. Use our built-in wallet or multisig features - GLIF’s [wallet](https://www.glif.io/en/wallet) and [multisig](https://www.glif.io/en/multisig) are used by a large portion of the Filecoin network for sending/receiving/custodying FIL.
 2. Deposit FIL into GLIF to earn rewards. You can read more it [here](../../../for-liquidity-providers/glif-reward-mechanism-ifil.md).
 
 ## Why is GLIF important?
@@ -27,7 +27,7 @@ Indeed, miners, or Storage Providers (SPs), do not need to deposit FIL into GLIF
 
 GLIF enables SPs to borrow FIL from a large group of Liquidity Providers (LPs), without giving away any private keys or needing to go through a manual diligence process. Borrowed funds can be used for sealing, or for withdrawing out of the system entirely. In order to become eligible for borrowing, SPs must add collateral to GLIF. SPs can use pledge collateral already locked in their existing miners to borrow FIL, enabling them to scale operations without buying more FIL.
 
-## When SPs borrow from GLIF, what do they use as collateral?&#x20;
+## When SPs borrow from GLIF, what do they use as collateral?
 
 By reusing pledge collateral and vesting rewards already locked in existing miners, Storage Providers (SPs) can efficiently scale their operations without needing to purchase more FIL. The FIL collateral provided by SPs is illiquid, having already been pledged to the Filecoin network for storage mining.
 

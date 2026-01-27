@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-[GLIF Agent Website Tutorial Part I— Preparation Setup](glif-agent-website-tutorial-part-i-preparation-setup.md)&#x20;
+[GLIF Agent Website Tutorial Part I— Preparation Setup](glif-agent-website-tutorial-part-i-preparation-setup.md)
 
 [GLIF Agent Website Tutorial Part Il — Create your Agent ](glif-agent-website-tutorial-part-ii-create-your-agent.md)
 

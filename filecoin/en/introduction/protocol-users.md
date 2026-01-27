@@ -6,7 +6,7 @@ description: GLIF bridges the gap between FIL holders and Storage Providers
 
 ## FIL Liquidity Providers
 
-Liquidity Providers (LPs) are FIL token holders who deposit FIL into GLIF to earn rewards. LPs receive [iFIL](../for-liquidity-providers/glif-reward-mechanism-ifil.md) tokens when they deposit FIL and hold iFIL tokens to earn rewards. Rewards for LPs come from the fees paid by Storage Providers who borrow FIL from GLIF. The value of iFIL increases over time as GLIF accrues more fees from Storage Providers.&#x20;
+Liquidity Providers (LPs) are FIL token holders who deposit FIL into GLIF to earn rewards. LPs receive [iFIL](../for-liquidity-providers/glif-reward-mechanism-ifil.md) tokens when they deposit FIL and hold iFIL tokens to earn rewards. Rewards for LPs come from the fees paid by Storage Providers who borrow FIL from GLIF. The value of iFIL increases over time as GLIF accrues more fees from Storage Providers.
 
 Learn more about becoming a GLIF Liquidity Provider in the [next section](../for-liquidity-providers/benefits-for-token-holders.md), or see our [Liquidity Provider FAQs.](../troubleshooting/faq/faq-for-liquidity-providers/)
 

@@ -34,7 +34,7 @@ Next, set the required number of approvals for transactions and enter the deposi
 
 ![Send button](../../../../.gitbook/assets/image (335).png)
 
-5. **Confirm in wallet**&#x20;
+5. **Confirm in wallet**
 
 A confirmation prompt will appear in your wallet (e.g., FilSnap or Ledger). Click "**Approve**".
 
@@ -48,7 +48,7 @@ After approving the transaction, please wait as it may take a few minutes for it
 
 Once the multisig wallet is created, you can view the multisig wallet address in the left navigation bar. It will start with f2.
 
-If you don't see your multisig wallet immediately, reconnect your wallet and click on the "**Multisig"** tab and check it in the left sidebar.&#x20;
+If you don't see your multisig wallet immediately, reconnect your wallet and click on the "**Multisig"** tab and check it in the left sidebar.
 
 In the multisig page, you can view your token holdings, proposals, required approvals, and transaction history.
 

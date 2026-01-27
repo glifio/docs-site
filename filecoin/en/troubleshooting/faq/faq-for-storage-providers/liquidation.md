@@ -2,9 +2,9 @@
 
 ## What happens if an SP exceeds the **Debt-to-Liquidation (DTL)** limits?
 
-If an SP's **DTL exceeds their limit**, all borrowing and withdrawing functionality will be temporarily disabled until the SP gets back into a healthy financial position. The SP is in the "**administration**" state. The SP is not at immediate risk of liquidation. The GLIF protocol can make payments on behalf of the SP to lower the SP’s debt and help it get back into good standing.&#x20;
+If an SP's **DTL exceeds their limit**, all borrowing and withdrawing functionality will be temporarily disabled until the SP gets back into a healthy financial position. The SP is in the "**administration**" state. The SP is not at immediate risk of liquidation. The GLIF protocol can make payments on behalf of the SP to lower the SP’s debt and help it get back into good standing.
 
-If an SP exceeds the **DTL liquidation threshold (92%)**, it is then at risk of being liquidated. Immediate corrective actions and proactive communication with the GLIF team are essential to avoid liquidation and minimize further losses.&#x20;
+If an SP exceeds the **DTL liquidation threshold (92%)**, it is then at risk of being liquidated. Immediate corrective actions and proactive communication with the GLIF team are essential to avoid liquidation and minimize further losses.
 
 Read [here](../../../for-storage-providers/liquidations.md) for more details.
 

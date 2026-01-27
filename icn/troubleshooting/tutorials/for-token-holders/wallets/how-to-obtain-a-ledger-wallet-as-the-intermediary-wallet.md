@@ -24,7 +24,7 @@ Make sure you have your device connected to your computer (e.g., with the suppli
 
 ![Connect wallet](../../../../.gitbook/assets/image (165).png)
 
-3. Make sure the Filecoin app is open on your device before you try to connect it.&#x20;
+3. Make sure the Filecoin app is open on your device before you try to connect it.
 
 {% hint style="info" %}
 If you have a problem adding the Filecoin app to your Ledger, please check the tutorial [here](https://docs.filecoin.io/basics/assets/metamask-setup#install-the-ledger-app).

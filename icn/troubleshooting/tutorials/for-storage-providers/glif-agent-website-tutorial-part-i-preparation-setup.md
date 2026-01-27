@@ -53,7 +53,7 @@ If you lose any of your signer keys (either Ledger devices or the Filecoin Snap 
 In order to prepare for Agent creation, you’ll need 3 addresses:
 
 1. FILSnap Wallet Address 1
-2. FILSnap Wallet Address 2 OR Ledger Address 1 OR Burner Wallet Address 1&#x20;
+2. FILSnap Wallet Address 2 OR Ledger Address 1 OR Burner Wallet Address 1
 3. FILSnap Wallet Address 3 OR Ledger Address 2 OR Burner Wallet Address 2
 
 For details on obtaining a [FilSnap](../for-token-holders/wallets/how-to-obtain-a-filsnap-wallet-as-the-intermediary-wallet.md), [Burner](../for-token-holders/wallets/how-to-obtain-a-burner-wallet-as-the-intermediary-wallet.md), or [Ledger](../for-token-holders/wallets/how-to-obtain-a-ledger-wallet-as-the-intermediary-wallet.md) wallet address, please refer to the tutorial by clicking the link.

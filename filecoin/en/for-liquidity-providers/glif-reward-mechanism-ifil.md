@@ -6,7 +6,7 @@ description: Liquidity Providers earn rewards by holding iFIL tokens
 
 ## About iFIL
 
-iFIL is GLIF's reward token - an ERC20 token deployed on FEVM. Liquidity Providers (LPs) hold iFIL tokens to earn rewards.&#x20;
+iFIL is GLIF's reward token - an ERC20 token deployed on FEVM. Liquidity Providers (LPs) hold iFIL tokens to earn rewards.
 
 When an LP deposits FIL into the pool, they receive a proportionate amount of iFIL tokens in return, based on the current price of iFIL. As Storage Providers (SPs) accrue interest by borrowing FIL, the price of iFIL increases.
 
@@ -16,7 +16,7 @@ LPs can exchange iFIL back to FIL when they choose to withdraw. iFIL can be tran
 
 The amount of FIL that can be redeemed with 1 iFIL token is calculated by dividing the total accrued assets in the pool by the circulating supply of iFIL tokens. Therefore, the price of iFIL increases every block.
 
-The iFIL price is computed as:&#x20;
+The iFIL price is computed as:
 
 $$
 iFIL Price = Pool Total Assets / iFIL Circulating Supply
@@ -38,23 +38,23 @@ $$
 
 ## Source of rewards
 
-Rewards come from the interest accrued by SPs who borrow FIL from GLIF. The expected interest received from SPs is split proportionately among iFIL holders, and is automatically compounded in GLIF.&#x20;
+Rewards come from the interest accrued by SPs who borrow FIL from GLIF. The expected interest received from SPs is split proportionately among iFIL holders, and is automatically compounded in GLIF.
 
-From an economic perspective, GLIF implements an accrual basis accounting method. In other words, it counts interest that it is owed from SP as part of its total assets before any payments are made. As a result, GLIF LPs earns rewards every block.&#x20;
+From an economic perspective, GLIF implements an accrual basis accounting method. In other words, it counts interest that it is owed from SP as part of its total assets before any payments are made. As a result, GLIF LPs earns rewards every block.
 
 ## Reward rates
 
-SPs borrow FIL from the pool at a fixed interest rate of **15%**.&#x20;
+SPs borrow FIL from the pool at a fixed interest rate of **15%**.
 
 Only borrowed FIL by SP generates rewards. The borrowed FIL proportionate to the total FIL in the pool is referred to as the pool’s “utilization rate”.
 
-* Utilization rate is computed as:&#x20;
+* Utilization rate is computed as:
 
 $$
 Utilization Rate = FIL Borrowed / TotalFIL*100\%
 $$
 
-* The reward distributed to the LP is computed as:&#x20;
+* The reward distributed to the LP is computed as:
 
 $$
 Reward=InterestRatePaidBy SP *UtilizationRate*90\%

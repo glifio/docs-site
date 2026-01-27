@@ -1,11 +1,11 @@
 # Transfer FIL from MEXC to GLIF
 
-If your FIL tokens are currently on an exchange and you are eager to utilize it to earn rewards, and depositing to GLIF, this guide will simplify the process for you.&#x20;
+If your FIL tokens are currently on an exchange and you are eager to utilize it to earn rewards, and depositing to GLIF, this guide will simplify the process for you.
 
 This tutorial is specifically for transferring FIL from MEXC. Check this [page](../transfer-fil-between-exchange-and-glif.md) for tutorials on other exchanges.
 
 {% hint style="info" %}
-GLIF is compatible with most EVM wallets. This tutorial uses MetaMask wallet as an example; other wallets also work.&#x20;
+GLIF is compatible with most EVM wallets. This tutorial uses MetaMask wallet as an example; other wallets also work.
 
 You can refer to our [FAQ](../../../../faq/faq-for-liquidity-providers/wallet-connection.md) and [Wallet tutorials](../../wallets/) for more information. If you encounter any trouble, please contact GLIF through a [Discord support ticket](https://discord.gg/5qsJjsP3Re).
 {% endhint %}
@@ -57,7 +57,7 @@ Once the transaction is complete, your Filecoin balance will appear in the walle
 
 ## Step 3: Check FIL balance in your intermediary wallet
 
-1. Once the transaction is completed, you can verify your intermediary wallet balance by clicking the "**Wallet**" tab on the GLIF website.&#x20;
+1. Once the transaction is completed, you can verify your intermediary wallet balance by clicking the "**Wallet**" tab on the GLIF website.
 
 ![Send FIL](../../../../../.gitbook/assets/image (57).png)
 
@@ -67,7 +67,7 @@ Once the transaction is complete, your Filecoin balance will appear in the walle
 
 ## Step 4: Connect your main wallet to GLIF and Filecoin Mainnet
 
-1. Connect to the main wallet you want to transfer FIL to.&#x20;
+1. Connect to the main wallet you want to transfer FIL to.
 2. Copy your account address (starting with ‘0x’ or 'f410' address).
 
 For detailed instructions on how to connect your wallet to the Filecoin Mainnet, check out this [tutorial](../../wallets/how-to-connect-your-wallet-to-filecoin-mainnet.md).
@@ -79,7 +79,7 @@ For detailed instructions on how to connect your wallet to the Filecoin Mainnet,
 
 ![Send button](../../../../../.gitbook/assets/image (167).png)
 
-3. Paste your main wallet address copied in [step 4](transfer-fil-from-mexc-to-glif.md#step-4-connect-your-main-wallet-to-glif-and-filecoin-mainnet), into the recipient field in GLIF and specify the amount to send.&#x20;
+3. Paste your main wallet address copied in [step 4](transfer-fil-from-mexc-to-glif.md#step-4-connect-your-main-wallet-to-glif-and-filecoin-mainnet), into the recipient field in GLIF and specify the amount to send.
 
 {% hint style="info" %}
 You need to make sure that you leave enough FIL in the wallet to cover gas fees.

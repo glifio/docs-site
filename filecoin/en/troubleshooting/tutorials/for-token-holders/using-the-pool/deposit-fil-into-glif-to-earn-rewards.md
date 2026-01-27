@@ -1,6 +1,6 @@
 # Deposit FIL into GLIF to earn rewards
 
-This guide will show you how to deposit FIL into GLIF, so you can start earning rewards with GLIF.&#x20;
+This guide will show you how to deposit FIL into GLIF, so you can start earning rewards with GLIF.
 
 ## Step 1: Prepare a wallet with FIL on it
 
@@ -14,7 +14,7 @@ No matter which wallet you use, always make sure to back up your secret recovery
 
 ## Step 2: Connect your wallet to GLIF
 
-1. Visit the [GLIF website](https://www.glif.io) and click on **‘Connect Wallet’** in the top right corner.&#x20;
+1. Visit the [GLIF website](https://www.glif.io) and click on **‘Connect Wallet’** in the top right corner.
 
 ![GLIF connect button](../../../../.gitbook/assets/image (156).png)
 
@@ -24,7 +24,7 @@ No matter which wallet you use, always make sure to back up your secret recovery
 
 ## Step 2.5: Add the Filecoin network to your wallet (chrome extensions only)
 
-After choosing a Chrome extension wallet (e.g., MetaMask) from the list of wallets, you may see a prompt in your wallet asking you to add the Filecoin network if this is your first time using it.&#x20;
+After choosing a Chrome extension wallet (e.g., MetaMask) from the list of wallets, you may see a prompt in your wallet asking you to add the Filecoin network if this is your first time using it.
 
 For detailed instructions on add the Filecoin Mainnet to your wallet, check out this [tutorial](../wallets/how-to-connect-your-wallet-to-filecoin-mainnet.md).
 
@@ -39,12 +39,12 @@ For detailed instructions on add the Filecoin Mainnet to your wallet, check out 
 
 ![Amount input](../../../../.gitbook/assets/image (173).png)
 
-4. Then hit **"Send"**.&#x20;
+4. Then hit **"Send"**.
 
 ![Send confirmation](../../../../.gitbook/assets/image (382).png)
 
 {% hint style="warning" %}
-Please make sure that you leave enough FIL in the wallet to cover gas fees. &#x20;
+Please make sure that you leave enough FIL in the wallet to cover gas fees. 
 {% endhint %}
 
 5. Click **"Confirm"** in your wallet.
@@ -65,7 +65,7 @@ For a more detailed view of your position, click on "**Wallet"** in the GLIF nav
 
 ## Step 5: Add iFIL to your wallet portfolio (chrome extensions only)
 
-1. If you want to see your iFIL in MetaMask,  you can add the token address to your wallet easily. In **"Token"** section, find the **"..."** sign next to iFIL tokens, and click on "**Add iFIL to MetaMask".**&#x20;
+1. If you want to see your iFIL in MetaMask,  you can add the token address to your wallet easily. In **"Token"** section, find the **"..."** sign next to iFIL tokens, and click on "**Add iFIL to MetaMask".**
 
 ![Add token dialog](../../../../.gitbook/assets/image (175).png)
 
@@ -77,7 +77,7 @@ For a more detailed view of your position, click on "**Wallet"** in the GLIF nav
 
 Congratulations on successfully depositing FIL to GLIF!
 
-When you are ready to withdraw your deposit, you will need to return your iFIL to GLIF to receive your FIL back. For more details about the withdrawal process, check [here](../../../../for-liquidity-providers/exit-withdraw-fil.md).&#x20;
+When you are ready to withdraw your deposit, you will need to return your iFIL to GLIF to receive your FIL back. For more details about the withdrawal process, check [here](../../../../for-liquidity-providers/exit-withdraw-fil.md).
 
 ## Join our community!
 

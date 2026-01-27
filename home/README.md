@@ -13,7 +13,7 @@ description: Get started with GLIF and our documentation site.
 
 ## What is GLIF?
 
-GLIF enables custom capital markets for Decentralized Phyiscal Infrastructure (DePIN) networks.&#x20;
+GLIF enables custom capital markets for Decentralized Phyiscal Infrastructure (DePIN) networks.
 
 Token holders of specific DePIN network tokens can earn rewards by productively putting them to use with hardware providers in the network.
 
@@ -28,9 +28,9 @@ DePIN networks have unique capital and accessibility challenges:
 * Hardware providers need financing - both in native tokens for staking, and in dollars for buying more hardware. However, it can be risky and expensive to fund these operations. Consequently, hardware provider growth is constrained, and DePIN networks have trouble efficiently scaling.
 * Token holders have no way to productively and sustainably earn rewards on the network, without running hardware themselves. In other words, token holders are "sidelined" - they don't have the skills or hardware necessary to provide resources to a DePIN network, and they have no safe and easy way to put their tokens to work in the network.
 
-**DePIN networks oftentimes face major capital inefficiencies that restrict their growth.**&#x20;
+**DePIN networks oftentimes face major capital inefficiencies that restrict their growth.**
 
-### Solution&#x20;
+### Solution
 
 GLIF exists to solve the capital inefficiences on DePIN networks by:
 

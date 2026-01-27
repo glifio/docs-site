@@ -2,7 +2,7 @@
 
 ## What can I do with GLIF as a Storage Provider?
 
-GLIF enables Storage Providers (SPs) to borrow FIL from a large group of Liquidity Providers (LPs), without giving away any private keys or needing to go through a manual diligence process.&#x20;
+GLIF enables Storage Providers (SPs) to borrow FIL from a large group of Liquidity Providers (LPs), without giving away any private keys or needing to go through a manual diligence process.
 
 Borrowed funds can be used for sealing, or for [withdrawing](../../../for-storage-providers/uses-of-borrowed-fil.md) out of the system entirely. In order to become eligible for borrowing, SPs must add collateral to GLIF. You can read more about the rules [here](../../../for-storage-providers/borrowing-limits-and-dtl.md).
 
@@ -20,8 +20,8 @@ GLIF uses smart contracts that enable SPs to maintain ownership over their miner
 
 ## What is the interest rate for borrowing FIL from GLIF?
 
-The current interest rate is 15% APR. However, as baseline rewards on Filecoin continue to drop, the rate may be lowered in the near future.&#x20;
+The current interest rate is 15% APR. However, as baseline rewards on Filecoin continue to drop, the rate may be lowered in the near future.
 
-## How can SPs withdraw funds from GLIF not used for sealing?&#x20;
+## How can SPs withdraw funds from GLIF not used for sealing?
 
 SPs can withdraw FIL as long as their DTL ratios stays below 75%. If the SP joined the [GLIF+ program ](/broken/pages/jt1R92FWbP8KSp3HrRV0)as a Gold Card member, the DTL increases to 90%. Read [here](../../../for-storage-providers/uses-of-borrowed-fil.md) for more details.

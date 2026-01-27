@@ -3,7 +3,7 @@
 This tutorial will guide you through the process of withdraw your iFIL tokens from GLIF to an exchange.  This tutorial is specifically for transferring FIL to MEXC. Check this [page](../transfer-fil-between-exchange-and-glif.md) for tutorials on other exchanges.
 
 {% hint style="info" %}
-GLIF is compatible with most EVM wallets. This tutorial uses MetaMask wallet as an example; other wallets also work.&#x20;
+GLIF is compatible with most EVM wallets. This tutorial uses MetaMask wallet as an example; other wallets also work.
 
 You can refer to our [FAQ](../../../../faq/faq-for-liquidity-providers/wallet-connection.md) and [Wallet tutorials](../../wallets/) for more information. If you encounter any trouble, please contact GLIF through a [Discord support ticket](https://discord.gg/5qsJjsP3Re).
 {% endhint %}
@@ -46,7 +46,7 @@ Once done, your intermediary wallet’s address, starting with ‘**f1**’, wil
 
 ## Step 3: Send FIL from 0x/f410 address (main wallet) to f1 address (Intermediary wallet)
 
-1. Connect to your main wallet, which is the one we just withdrew FIL into.&#x20;
+1. Connect to your main wallet, which is the one we just withdrew FIL into.
 2. In the top right corner of GLIF website, click **"Send / Forward FIL"** .
 
 {% hint style="danger" %}
@@ -82,11 +82,11 @@ Please ensure you have sufficient FIL for gas fees; 0.001 FIL is usually more th
 ## Step 5: Send FIL from your wallet to exchange
 
 1. Connect to the intermediary wallet or your main wallet which address starting with "<mark style="background-color:orange;">f1</mark>".&#x20;
-2. In the top right corner of the GLIF website, click "**Send FIL**."&#x20;
+2. In the top right corner of the GLIF website, click "**Send FIL**."
 
 ![Send button](../../../../../.gitbook/assets/image (158).png)
 
-3. Paste your exchange address copied in [step 4.](transfer-fil-from-glif-to-mexc.md#step-4-locate-your-recipient-address-in-the-exchange)&#x20;
+3. Paste your exchange address copied in [step 4.](transfer-fil-from-glif-to-mexc.md#step-4-locate-your-recipient-address-in-the-exchange)
 4. Enter the desired amount of FIL to transfer.
 5. Click **"Send"** and confirm the transaction in your wallet.
 

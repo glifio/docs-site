@@ -20,7 +20,7 @@ To obtain a Burner wallet, you will need to:
 
 ![Connect wallet](../../../../.gitbook/assets/image (122).png)
 
-4. Click **"Copy"** and save the seed phrase in a safe place, as it will be used to regain access to the burner wallet if you get disconnected. Then, click **"I've recorded my seed phrase."**&#x20;
+4. Click **"Copy"** and save the seed phrase in a safe place, as it will be used to regain access to the burner wallet if you get disconnected. Then, click **"I've recorded my seed phrase."**
 
 ![Tutorial step](../../../../.gitbook/assets/image (123).png)
 

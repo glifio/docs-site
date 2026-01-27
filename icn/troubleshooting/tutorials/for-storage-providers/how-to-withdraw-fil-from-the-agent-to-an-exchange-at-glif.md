@@ -20,7 +20,7 @@ You can choose from the following options:
 {% hint style="info" %}
 **Before your send any FIL to any wallet, test it with a small amount of FIL.**
 
-No matter which wallet you use, always make sure to back up your secret recovery phrase, store it securely, and never share it with anyone.&#x20;
+No matter which wallet you use, always make sure to back up your secret recovery phrase, store it securely, and never share it with anyone.
 {% endhint %}
 
 {% hint style="warning" %}
@@ -37,7 +37,7 @@ You can choose an intermediary wallet to obtain an **f1** address from the follo
 
 For details on creating an intermediary wallet, please refer to the tutorial by clicking the link above.
 
-## **Step 2a :** Withdrawing from your agent to the intermediary wallet - through GLIF website&#x20;
+## **Step 2a :** Withdrawing from your agent to the intermediary wallet - through GLIF website
 
 1. Connect to one of the wallets that is a signer for your agent's multisig wallet.
 2. Navigate to the "**Withdraw"** tab within the agent.
@@ -72,7 +72,7 @@ If you do not complete the transaction and **sign the proposal with your other s
 ![Approval step](../../../.gitbook/assets/image (286).png)
 
 10. Wait for the transaction to be processed. This may take 1-2 minutes.
-11. Sign in to the additional signer wallet in your agent’s multisig wallet.&#x20;
+11. Sign in to the additional signer wallet in your agent’s multisig wallet.
 12. Click on the proposal just made in the "**Owner Proposals**" tab on the agent page..
 
 ![Toggle button](../../../.gitbook/assets/image (287).png)
@@ -113,7 +113,7 @@ Make sure all signer wallets have **enough gas fees** to proceed with the transa
 
 3. Verify your balance in the intermediary wallet to ensure the transaction was successful on the GLIF **"wallet"** page, or verify it by searching your f1 wallet address on [filfox.info](https://filfox.info/en).
 
-## Step &#x33;**:** Transferring FIL from the intermediary wallet to the desired "f1" address on the exchange
+## Step 3**:** Transferring FIL from the intermediary wallet to the desired "f1" address on the exchange
 
 1. Connect to your intermediary wallet made in [step 1](how-to-withdraw-fil-from-the-agent-to-an-exchange-at-glif.md#step-1a-creating-an-intermediary-wallet-burner-wallet). On the GLIF website, click **"Send FIL."**
 

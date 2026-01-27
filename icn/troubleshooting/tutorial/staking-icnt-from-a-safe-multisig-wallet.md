@@ -16,8 +16,8 @@ You will use the [**Safe Transaction Builder**](https://help.safe.global/en/arti
 In this tutorial, you will follow these steps:
 
 * [Step 1: Connect to a signer wallet and open the Transaction Builder](staking-icnt-from-a-safe-multisig-wallet.md#step-1-connect-to-a-signer-wallet-and-open-the-transaction-builder)
-* [Step 2: Create the First Transaction — `approve`](staking-icnt-from-a-safe-multisig-wallet.md#step-2-create-the-first-transaction-approve)&#x20;
-* [Step 3: Create the Second Transaction — `deposit`](staking-icnt-from-a-safe-multisig-wallet.md#step-3-create-the-second-transaction-deposit)&#x20;
+* [Step 2: Create the First Transaction — `approve`](staking-icnt-from-a-safe-multisig-wallet.md#step-2-create-the-first-transaction-approve)
+* [Step 3: Create the Second Transaction — `deposit`](staking-icnt-from-a-safe-multisig-wallet.md#step-3-create-the-second-transaction-deposit)
 * [Step 4: Review and Create Batch](staking-icnt-from-a-safe-multisig-wallet.md#step-4-review-and-create-batch)
 * [Step 5: Confirm Transaction](staking-icnt-from-a-safe-multisig-wallet.md#step-5-confirm-transaction)
 * [Step 6: Sign](staking-icnt-from-a-safe-multisig-wallet.md#step-6-sign)
@@ -56,7 +56,7 @@ This step gives the GLIF staking pool permission to spend your ICNT tokens.
 **ICNT Staking Pool Address:** `0xAeD7C2eD7Bb84396AfCB55fF72c8F8E87FFb68f3`
 {% endhint %}
 
-4. In the **amount (uint256)** field, enter the number of ICNT tokens you want to stake **in wei**. You can convert your token amount to wei using [this tool](https://etherscan.io/unitconverter).&#x20;
+4. In the **amount (uint256)** field, enter the number of ICNT tokens you want to stake **in wei**. You can convert your token amount to wei using [this tool](https://etherscan.io/unitconverter).
 
 {% hint style="warning" %}
 Please always start with a small amount as a test transaction.
@@ -112,12 +112,12 @@ Next, you will create a transaction to deposit ICNT tokens into the GLIF staking
 
 2. In the **Balance Change** section, confirm:
 
-* &#x20;A decrease in ICNT tokens (sent from the Safe wallet)
+* A decrease in ICNT tokens (sent from the Safe wallet)
 * An increase in staked ICNT (stICNT) (received in the Safe wallet)
 
 ![Tutorial step](../../.gitbook/assets/image (2) (1).png)
 
-3. You can click '**Simulate**' to check whether there are any issues with this transaction.&#x20;
+3. You can click '**Simulate**' to check whether there are any issues with this transaction.
 
 ![Tutorial step](../../.gitbook/assets/image (2).png)
 
@@ -167,7 +167,7 @@ You should always match the transaction details you see on the screen with those
 
 ![Approval step](../../.gitbook/assets/7.jpg)
 
-2. Confirm and review the transaction details.&#x20;
+2. Confirm and review the transaction details.
 
 {% hint style="warning" %}
 Please confirm that the wallet that executes your Safe proposal has enough gas fees on the Base chain.

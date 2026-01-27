@@ -1,6 +1,6 @@
 # 如何加入 GLIF+ SP 计划
 
-## GLIF CLI&#x20;
+## GLIF CLI
 
 GLIF CLI 用户请升级至以下版本： [https://github.com/glifio/glif/releases/tag/v2.5.3](https://github.com/glifio/glif/releases/tag/v2.5.3)
 

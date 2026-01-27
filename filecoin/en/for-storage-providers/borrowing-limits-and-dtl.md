@@ -6,7 +6,7 @@ description: How much you can borrow from GLIF is decided by the debt-to-liquida
 
 ## Debt-to-liquidation (DTL) ratio
 
-Borrowing limits on GLIF are determined by the "debt-to-liquidation" value ratio, or "DTL" for short.&#x20;
+Borrowing limits on GLIF are determined by the "debt-to-liquidation" value ratio, or "DTL" for short.
 
 Computing DTL requires two other metrics:
 
@@ -25,11 +25,11 @@ $$
 LiquidationValue = MinerBalance - MinerMaxTerminationPenalty
 $$
 
-DTL < 100% means that, in a liquidation scenario, GLIF will recover all principal and interest owed to GLIF.&#x20;
+DTL < 100% means that, in a liquidation scenario, GLIF will recover all principal and interest owed to GLIF.
 
 ## Borrow limit: DTL > 75-90%
 
-* To borrow from GLIF, the **maximum DTL ratio ranges from 75% to 90%,** depending on whether the Storage Provider joins the [GLIF+ program](/broken/pages/jt1R92FWbP8KSp3HrRV0).&#x20;
+* To borrow from GLIF, the **maximum DTL ratio ranges from 75% to 90%,** depending on whether the Storage Provider joins the [GLIF+ program](/broken/pages/jt1R92FWbP8KSp3HrRV0).
   * If the Storage Provider does not join the GLIF+ program, the maximum DTL is 75%, meaning their debt cannot exceed 75% of their liquidation value.
   * Storage Providers who join the [GLIF+ program](/broken/pages/jt1R92FWbP8KSp3HrRV0) as Gold Card holders can borrow up to a 90% DTL. Details of GLIF+ program are shown in the [Tiers and Limits table](../glif+-storage-providers-loyalty-rewards/tiers-and-limits.md).
 * If a Storage Provider's DTL ratio goes above the limit, it is not immediately in danger of liquidation. However, they are eligible to be put on "**administration**" and all borrowing and withdrawals of rewards are disabled until the DTL returns to below the limit.

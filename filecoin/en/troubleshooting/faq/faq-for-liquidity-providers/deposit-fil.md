@@ -10,7 +10,7 @@ iFIL can be thought of as a 'redemption ticket' for FIL deposited into GLIF. It 
 
 ## How do I provide liquidity in GLIF? / How do I get iFIL?
 
-Liquidity can be provided by depositing FIL into GLIF on the pool page [here](https://www.glif.io/zh/pool/infinity). In exchange for your deposit, you’ll receive a proportionate amount of [iFIL](../../../for-liquidity-providers/glif-reward-mechanism-ifil.md) tokens at the current iFIL price.&#x20;
+Liquidity can be provided by depositing FIL into GLIF on the pool page [here](https://www.glif.io/zh/pool/infinity). In exchange for your deposit, you’ll receive a proportionate amount of [iFIL](../../../for-liquidity-providers/glif-reward-mechanism-ifil.md) tokens at the current iFIL price.
 
 ## Where can I see my earnings in GLIF?
 

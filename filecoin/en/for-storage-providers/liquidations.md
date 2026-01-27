@@ -10,7 +10,7 @@ description: SPs must keep track of their DTL ratio to avoid liquidations or res
 
 [DTL](borrowing-limits-and-dtl.md) measures the economic security of any SP in the GLIF system because it exposes the collateral status of SPs. A DTL < 100% means an SP is over-collateralized because a liquidation is expected to recover all interest and principal owed by the SP to the pool. In other words, a liquidation would recover >100% of assets owed to LPs.
 
-SPs with a DTL ratio above 92% are in a critical risk zone for liquidation. Immediate corrective actions and proactive communication with the GLIF team are essential to avoid liquidation and minimize further losses.&#x20;
+SPs with a DTL ratio above 92% are in a critical risk zone for liquidation. Immediate corrective actions and proactive communication with the GLIF team are essential to avoid liquidation and minimize further losses.
 
 In the event of a liquidation, all interest and principal is expected to be repaid to the pool on behalf of SPs. If there is excess FIL available after a liquidation, the GLIF treasury charges a 10% liquidation fee on top of the total interest + principal owed to the pool. Any excess FIL after LPs and the GLIF treasury are both repaid is returned to the SP.
 
@@ -26,7 +26,7 @@ Managing Storage Provider liquidations is currently manually enforced by the cor
 ## **Healthy SP criteria**
 
 1. Debt-to-Liquidation (DTL) < 75% to 90% (Depends on [GLIF+ Card Tier](../glif+-storage-providers-loyalty-rewards/tiers-and-limits.md))
-2. Faulty sectors <12% of all active sectors&#x20;
+2. Faulty sectors <12% of all active sectors
 
 {% hint style="info" %}
 If an SP's DTL ratio goes above the limit, it is not immediately in danger of liquidation. However, the SP is eligible for administration. If an SP's DTL goes above 92%, it is in danger of liquidation. It is highly recommended to contact the GLIF team immediately if any SP's DTL ratio exceeds the limit.

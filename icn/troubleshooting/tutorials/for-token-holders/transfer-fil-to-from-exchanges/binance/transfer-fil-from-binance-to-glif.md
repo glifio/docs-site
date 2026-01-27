@@ -1,11 +1,11 @@
 # Transfer FIL from Binance to GLIF
 
-If your FIL tokens are currently on an exchange and you are eager to utilize it to earn rewards, and depositing to GLIF, this guide will simplify the process for you.&#x20;
+If your FIL tokens are currently on an exchange and you are eager to utilize it to earn rewards, and depositing to GLIF, this guide will simplify the process for you.
 
 This tutorial is specifically for transferring FIL from Binance. Check this [page](../transfer-fil-between-exchange-and-glif.md) for tutorials on other exchanges.
 
 {% hint style="info" %}
-GLIF is compatible with most EVM wallets. This tutorial uses MetaMask wallet as an example; other wallets also work.&#x20;
+GLIF is compatible with most EVM wallets. This tutorial uses MetaMask wallet as an example; other wallets also work.
 
 You can refer to our [FAQ](../../../../faq/faq-for-liquidity-providers/wallet-connection.md) and [Wallet tutorials](../../wallets/) for more information. If you encounter any trouble, please contact GLIF through a [Discord support ticket](https://discord.gg/5qsJjsP3Re).
 {% endhint %}
@@ -18,7 +18,7 @@ For detailed instructions on how to connect your wallet to the Filecoin Mainnet,
 
 ![Mainnet connection](../../../../../.gitbook/assets/image (268).png)
 
-## Step 2: Send Filecoin to the wallet 0x address&#x20;
+## Step 2: Send Filecoin to the wallet 0x address
 
 1. Go to your centralized exchange, Binance, and locate FIL in your portfolio. Click "**Withdraw**."
 
@@ -35,7 +35,7 @@ If you are doing this for the first time, it's good practice to send a small amo
 
 ## Step 3: Check FIL balance in your wallet
 
-1. Once the transaction is completed, you can verify your balance by clicking the "**Wallet**" tab on the GLIF website.&#x20;
+1. Once the transaction is completed, you can verify your balance by clicking the "**Wallet**" tab on the GLIF website.
 
 ![Send FIL](../../../../../.gitbook/assets/image (270).png)
 

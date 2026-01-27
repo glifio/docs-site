@@ -41,7 +41,7 @@ Go to the "**Filecoin Balance"** section, click on the **"⋯"** button next to 
 Enter the amount of FIL you wish to deposit. Review the details, including the amount of iFIL you will receive. Click **"Send"**.
 
 {% hint style="info" %}
-The FIL to iFIL ratio may not be 1:1 due to price fluctuations. Refer to this section of the [docs](../../../../for-liquidity-providers/glif-reward-mechanism-ifil.md) for more details on iFIL calculations.&#x20;
+The FIL to iFIL ratio may not be 1:1 due to price fluctuations. Refer to this section of the [docs](../../../../for-liquidity-providers/glif-reward-mechanism-ifil.md) for more details on iFIL calculations.
 {% endhint %}
 
 ![Deposit FIL](../../../../.gitbook/assets/image (336).png)
@@ -52,7 +52,7 @@ A prompt will appear in your connected wallet. Confirm the transaction in your w
 
 ![Transaction confirmation](../../../../.gitbook/assets/image (340).png)
 
-Then, a transaction proposal for depositing FIL into GLIF will be created and must be approved by the required number of signers. If you want to check or cancel your proposal, go to the "**Multisig proposals**" section and simply click on the pending **proposal** to view its details.&#x20;
+Then, a transaction proposal for depositing FIL into GLIF will be created and must be approved by the required number of signers. If you want to check or cancel your proposal, go to the "**Multisig proposals**" section and simply click on the pending **proposal** to view its details.
 
 ![Create multisig](../../../../.gitbook/assets/image (39).png)
 
@@ -69,16 +69,16 @@ The details will show the number of approvals made so far, and you can also canc
 Other signers need to connect their wallets to the GLIF website. To approve the proposal, select the same pending proposal and click **"Approve proposal"**, then confirm the approval in the wallet prompt.
 
 {% hint style="info" %}
-Each signer's wallet must have a small amount of FIL (as little as 0.001 FIL) to cover gas fees.&#x20;
+Each signer's wallet must have a small amount of FIL (as little as 0.001 FIL) to cover gas fees.
 {% endhint %}
 
 ![Approve proposal](../../../../.gitbook/assets/image (339).png)
 
 2. **Complete the Deposit Process**
 
-Once the required number of signers have approved, the transaction will be executed. Please wait if you cannot see the transaction immediately, as it may take a few minutes for it to be confirmed on the network.&#x20;
+Once the required number of signers have approved, the transaction will be executed. Please wait if you cannot see the transaction immediately, as it may take a few minutes for it to be confirmed on the network.
 
-You can check the transaction details in the **"Transactions"** section at the bottom of the multisig page.&#x20;
+You can check the transaction details in the **"Transactions"** section at the bottom of the multisig page.
 
 ![Approve proposal](../../../../.gitbook/assets/image (275).png)
 

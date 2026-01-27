@@ -4,7 +4,7 @@
 
 [Debt-to-Liquidation (DTL)](../../../for-storage-providers/borrowing-limits-and-dtl.md) ratio must be less than 75%. If the SP joined the [GLIF+ program](/broken/pages/jt1R92FWbP8KSp3HrRV0) as a Gold Card member, the DTL increases to 90%. Read [here](../../../for-storage-providers/borrowing-limits-and-dtl.md) for more details.
 
-## What is “liquidation value” and how is it calculated?&#x20;
+## What is “liquidation value” and how is it calculated?
 
 [Liquidation value](../../../for-storage-providers/sp-liquidation-values.md) is the estimated worth of an SP's miners if their sectors were terminated, accounting for penalties and other losses. It is computed as:
 
@@ -40,7 +40,7 @@ $$
 Let's take a look at how borrowing for sealing and withdrawing affect your DTL ratio:
 
 1. **Borrowing FIL for sealing:**
-   * When you borrow FIL for sealing, the borrowed amount is **added** to your Agent.&#x20;
+   * When you borrow FIL for sealing, the borrowed amount is **added** to your Agent.
    * You **keep** the FIL within your Agent and its miners.
    * Both your **debt** and **liquidation value** **increase** by the borrowed amount.
 
@@ -84,6 +84,6 @@ However, if you decide to **withdraw 100 FIL** instead:
 * **Agent Liquidation Value:** 200 FIL
 * **DTL:** 100% ❌
 
-In this case, you cannot withdraw 100 FIL because the DTL is above 75%.&#x20;
+In this case, you cannot withdraw 100 FIL because the DTL is above 75%.
 
 As you can see, withdrawing the FIL increases your DTL ratio much faster, which can limit your borrowing capacity.

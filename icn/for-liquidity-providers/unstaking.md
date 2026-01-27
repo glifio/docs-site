@@ -4,9 +4,9 @@ stICNT holders can redeem their tokens for ICNT directly through GLIF at any tim
 
 ## How it works
 
-The Impossible Cloud pool maintains a built-in exit reserve specifically for facilitating stICNT withdrawal. 10% of the pool’s assets are held in ICNT to ensure liquidity for withdrawals.&#x20;
+The Impossible Cloud pool maintains a built-in exit reserve specifically for facilitating stICNT withdrawal. 10% of the pool’s assets are held in ICNT to ensure liquidity for withdrawals.
 
-* Whenever exit liquidity is available, stICNT holders can redeem ICNT directly from the pool.&#x20;
+* Whenever exit liquidity is available, stICNT holders can redeem ICNT directly from the pool.
 * If the exit reserve ever drops below 10%, the system automatically redirects all rewards and new deposits into the reserve until the target balance is restored.
 
 ## Redemption Fee

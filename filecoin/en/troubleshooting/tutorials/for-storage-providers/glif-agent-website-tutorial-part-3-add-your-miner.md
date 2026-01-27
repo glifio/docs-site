@@ -34,7 +34,7 @@ Your Agent's `f4` address can be found on the Agent page of the website:
 1. Connect to the wallet that is one of the signers of your multisig created in [Part 2](glif-agent-website-tutorial-part-2-create-your-agent.md).
 
 {% hint style="info" %}
-When you propose transactions to your agent using your owner wallet, you must do so with a non-Ledger wallet, such as the Filecoin Snap wallet or a burner wallet. You cannot propose these transactions from a Ledger device. The Ledger can only act as the approver.&#x20;
+When you propose transactions to your agent using your owner wallet, you must do so with a non-Ledger wallet, such as the Filecoin Snap wallet or a burner wallet. You cannot propose these transactions from a Ledger device. The Ledger can only act as the approver.
 
 This is the same for all owner transactions on the agent: they must be initiated with a non-Ledger signer.
 {% endhint %}
@@ -54,7 +54,7 @@ This is the same for all owner transactions on the agent: they must be initiated
 If you do not complete the transaction and **sign the proposal with your other signer wallets within 5 minutes**, you will need to repeat this step.
 {% endhint %}
 
-6. Click **“Send”** to create a new proposal. You will be prompted to sign the transaction with your currently connected wallet.&#x20;
+6. Click **“Send”** to create a new proposal. You will be prompted to sign the transaction with your currently connected wallet.
 
 ![Send button](../../../.gitbook/assets/image (17).png)
 
@@ -62,7 +62,7 @@ If you do not complete the transaction and **sign the proposal with your other s
 
 ![Approval step](../../../.gitbook/assets/image (18).png)
 
-8. Wait for the transaction to complete, which may take 1-2 minutes.&#x20;
+8. Wait for the transaction to complete, which may take 1-2 minutes.
 
 ## Step 3: Approve the proposal by other signers
 
@@ -72,7 +72,7 @@ Your Agent owner wallet is a multisig wallet which requires multiple signers to 
 
 ![Agent creation](../../../.gitbook/assets/image (24).png)
 
-2. Navigate to the "**Multisig**" tab.&#x20;
+2. Navigate to the "**Multisig**" tab.
 
 ![Approve proposal](../../../.gitbook/assets/image (22).png)
 
@@ -88,7 +88,7 @@ Your Agent owner wallet is a multisig wallet which requires multiple signers to 
 
 ![Proposal approval](../../../.gitbook/assets/image (27).png)
 
-6. Confirm the transaction in your wallet.&#x20;
+6. Confirm the transaction in your wallet.
 7. If your multisig requires approval from more than two signers, repeat the same steps using the other signer wallets. Once approved by the required number of signers, the proposal will be executed on-chain. Wait for the transaction confirmation, which may take a few minutes.
 8. Return to your Agent’s page on the GLIF website. You should now see the newly added miner associated with your Agent in the "**Miners**" section.
 
