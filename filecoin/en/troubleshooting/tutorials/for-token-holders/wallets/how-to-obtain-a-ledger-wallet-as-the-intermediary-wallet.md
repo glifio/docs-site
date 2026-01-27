@@ -48,7 +48,7 @@ Make sure you have your device connected to your computer (e.g., with the suppli
 
 2. Click “**Add Account**” on the left side of the screen. Copy the second address for later use if needed.
 
-![Copy address](https://miro.medium.com/v2/resize:fit:700/0*L0iNyYyAE-q7hKvp)
+![Copy address](../../../../.gitbook/assets/how-to-obtain-a-ledger-wallet.png)
 
 ## Conclusion
 

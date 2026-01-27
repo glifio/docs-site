@@ -61,4 +61,4 @@ $$
 
 iFIL 回报显示在 “_代币”_ 部分中：
 
-![查看您的奖励](https://lh7-us.googleusercontent.com/docsz/AD_4nXceJhIlPoW8eiSHHp4UI9OxvJEWmm8ewUaYGqcFYvczUDH-DA5CwEcYqK3mp1aeAMzE7hZ_ZC2D3FhoyjwwpjFT4qxJlbP9TdYjKOKXZKQhtRIvMH8npmLXI8IcnE3RkMV0gZCL3p6azpC0ppONEFnuajA?key=B4TufszgVJXBgC3iG30KYw)
+![查看您的奖励](../.gitbook/assets/glif-reward-mechanism-ifil-token-section.png)

@@ -12,7 +12,7 @@ To obtain a FilSnap wallet, you will need to:
 2. Setup MetaMask by creating a seed phrase. Ensure you securely backup your seed phrase somewhere safe.
 3. Once installed and configured, go to [https://glif.io](https://glif.io/) and click “**Connect Wallet**” in the top right corner. Select “**FilSnap (Filecoin)**” option:
 
-![Connect wallet](https://miro.medium.com/v2/resize:fit:700/0*vPKZay4BcRW6TRBw)
+![Connect wallet](../../../../.gitbook/assets/how-to-obtain-a-filsnap-wallet.png)
 
 4. Approve GLIF to install and connect to your FILSnap. This will come as 2 separate approvals in the MetaMask:
 
