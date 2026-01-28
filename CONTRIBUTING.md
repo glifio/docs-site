@@ -30,9 +30,9 @@ Use standard markdown link syntax: `[text](url)`
 |------|--------|---------|
 | Asset link | Filename only (asset lives in `public/`) | `[audit](audit.pdf)` |
 | External link | Full URL | `[Filecoin](https://filecoin.io)` |
-| Internal doc link | Relative path from the domain folder, **no `.md` extension** | `[rewards](/1-for-liquidity-providers/2-reward-mechanism-sticnt)` |
+| Internal doc link | Relative path from the domain folder, **no `.md` extension** | `[rewards](/1-tokens/2-rewards)` |
 | Anchor link | `#anchor-name` | `[see below](#example-section)` |
-| Internal + anchor | Combines internal path with anchor | `[rewards example](/1-for-liquidity-providers/2-reward-mechanism-sticnt#example-anchor)` |
+| Internal + anchor | Combines internal path with anchor | `[rewards](/1-tokens/2-rewards#staking)` |
 
 ### Anchor names
 
