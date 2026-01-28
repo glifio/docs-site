@@ -28,7 +28,7 @@ Use standard markdown link syntax: `[text](url)`
 
 | Type | Format | Example |
 |------|--------|---------|
-| Asset link | Filename only (asset lives in `public/`) | `[audit report](infinity-pool-audit-consensys.pdf)` |
+| Asset link | Filename only (asset lives in `public/`) | `[audit](audit.pdf)` |
 | External link | Full URL | `[Filecoin](https://filecoin.io)` |
 | Internal doc link | Relative path from the domain folder, **no `.md` extension** | `[rewards](/1-for-liquidity-providers/2-reward-mechanism-sticnt)` |
 | Anchor link | `#anchor-name` | `[see below](#example-section)` |
