@@ -4,10 +4,6 @@ If you have stored your FIL tokens in cold storage, navigating the new Filecoin 
 
 In this guide, we use a Ledger Nano X. You can either watch the tutorial video or follow the step-by-step instructions below.
 
-## How to video: How to deposit FIL tokens from a Ledger Hardware wallet
-
-{% embed url="https://youtu.be/EIMi-aklXX0?si=U3O5nkMWbPba46Ci" %}
-
 ## Step 1. Connect your hardware wallet to your laptop
 
 Make sure you have your device connected to your computer (e.g., with the supplied cable), and enter your pin to unlock it.

@@ -4,10 +4,6 @@
 
 在本教程中，我们使用一台 Ledger Nano X。您可以观看教程视频或按照下面的步骤进行操作。
 
-## 视频教程：如何通过 Ledger 硬件钱包存入 FIL 代币
-
-{% embed url="https://youtu.be/EIMi-aklXX0?si=U3O5nkMWbPba46Ci" %}
-
 ## 步骤 1. 将硬件钱包连接到电脑
 
 请确保您的设备已使用随附的电线,连接到电脑，并输入 PIN 码解锁。
@@ -68,7 +64,7 @@
 
 ## 结论
 
-恭喜您成功将 FIL 存入 GLIF！ 当您准备提取存款时，需要将 iFIL 返还给 GLIF 才能拿回您的 FIL。
+恭喜您成功将 FIL 存入 GLIF！当您准备提取存款时，需要将 iFIL 返还给 GLIF 才能拿回您的 FIL。
 
 有关更多提取流程的详细教程，请[点击此处](cong-glif-ti-qu-fil.md)。
 
