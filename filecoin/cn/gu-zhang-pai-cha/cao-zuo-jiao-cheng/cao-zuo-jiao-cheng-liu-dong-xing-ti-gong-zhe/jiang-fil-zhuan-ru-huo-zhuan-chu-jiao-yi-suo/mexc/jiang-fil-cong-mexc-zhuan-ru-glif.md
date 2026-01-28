@@ -8,7 +8,7 @@
 > GLIF 与大多数 EVM 钱包兼容。本教程以 MetaMask 钱包为示例，其他钱包同样适用。\
 > 您可以参考我们的[常见问题](../../../../chang-jian-wen-ti/chang-jian-wen-ti-liu-dong-xing-ti-gong-zhe/)和[钱包教程](../../qian-bao/)以获取更多资讯。
 >
-> 如果您遇到任何问题，请通过[ Discord 支持工单](https://discord.gg/5qsJjsP3Re)与 GLIF 联系。
+> 如果您遇到任何问题，请通过 [Discord 支持工单](https://discord.gg/5qsJjsP3Re)与 GLIF 联系。
 
 ## 目录
 
@@ -23,7 +23,7 @@
 
 **如果您要转移 FIL 的钱包地址以 `f1` 开头：**
 
-* 您可以直接跳到[步骤 2 ](jiang-fil-cong-mexc-zhuan-ru-glif.md#bu-zhou-2-jiang-filecoin-cong-jiao-yi-suo-fa-song-dao-zhong-jie-qian-bao)和[步骤 6](jiang-fil-cong-mexc-zhuan-ru-glif.md#bu-zhou-5-jiang-filecoin-cong-zhong-jie-qian-bao-zhuan-yi-dao-nin-de-zhu-qian-bao)。
+* 您可以直接跳到[步骤 2](jiang-fil-cong-mexc-zhuan-ru-glif.md#bu-zhou-2-jiang-filecoin-cong-jiao-yi-suo-fa-song-dao-zhong-jie-qian-bao) 和[步骤 6](jiang-fil-cong-mexc-zhuan-ru-glif.md#bu-zhou-5-jiang-filecoin-cong-zhong-jie-qian-bao-zhuan-yi-dao-nin-de-zhu-qian-bao)。
 
 **如果您要转移 FIL 的钱包地址以 `f410` 或 `0x` 开头：**
 
@@ -41,7 +41,7 @@
 ![步骤 2：将 Filecoin](cn-image-245.png)
 
 2. 选择网络为 “**FIL**”。
-3. 输入[步骤 1 ](jiang-fil-cong-mexc-zhuan-ru-glif.md#bu-zhou-1-she-zhi-zhong-jie-qian-bao-ru-you-xu-yao)中创建的中介钱包地址。确保复制的地址正确。
+3. 输入[步骤 1](jiang-fil-cong-mexc-zhuan-ru-glif.md#bu-zhou-1-she-zhi-zhong-jie-qian-bao-ru-you-xu-yao) 中创建的中介钱包地址。确保复制的地址正确。
 4. 输入您要发送的数量。
 
 > [!WARNING]

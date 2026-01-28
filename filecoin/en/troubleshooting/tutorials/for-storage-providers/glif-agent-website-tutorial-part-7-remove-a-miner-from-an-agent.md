@@ -1,6 +1,6 @@
 # GLIF Agent Website Tutorial Part 7 - Remove a Miner from an Agent
 
-_If you don't understand the basics of GLIF Agents, Agent owners, or how to create your Agent on the GLIF website, we suggest starting with_[ ](glif-agent-website-tutorial-part-1-preparation-setup.md)[_Part 1_ ](glif-agent-website-tutorial-part-1-preparation-setup.md)_and_[ _Part 2_ ](glif-agent-website-tutorial-part-2-create-your-agent.md)_of this tutorial series. You can find all the tutorials about using Agents on the **GLIF website** on this_ [_page_](./)_. You can find the instructions about the Agent's command on the **GLIF Command Line Interface** on this_ [_page_](https://github.com/glifio/glif?tab=readme-ov-file#agents---get-started-borrowing)_._
+_If you don't understand the basics of GLIF Agents, Agent owners, or how to create your Agent on the GLIF website, we suggest starting with_ [_Part 1_](glif-agent-website-tutorial-part-1-preparation-setup.md) _and_ [_Part 2_](glif-agent-website-tutorial-part-2-create-your-agent.md) _of this tutorial series. You can find all the tutorials about using Agents on the **GLIF website** on this_ [_page_](./)_. You can find the instructions about the Agent's command on the **GLIF Command Line Interface** on this_ [_page_](https://github.com/glifio/glif?tab=readme-ov-file#agents---get-started-borrowing)_._
 
 ***
 
@@ -63,4 +63,4 @@ You've successfully removed a Miner from your Agent!
 
 ## **Next Steps:**
 
-In [Part 8 ](glif-agent-website-tutorial-part-8-payment.md)of this tutorial, we will show you how to make a payment to GLIF.
+In [Part 8](glif-agent-website-tutorial-part-8-payment.md) of this tutorial, we will show you how to make a payment to GLIF.

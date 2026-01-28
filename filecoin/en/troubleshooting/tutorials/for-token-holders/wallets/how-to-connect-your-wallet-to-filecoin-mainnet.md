@@ -4,7 +4,7 @@ To deposit FIL into GLIF, you first need to choose a wallet that supports FIL an
 
 ## Step 1: Prepare a wallet with FIL on it
 
-GLIF is compatible with [most EVM wallets](https://filecointldr.io/how-to-buy-filecoin) as well as the [FilSnap (MetaMask snap](how-to-obtain-a-filsnap-wallet-as-the-intermediary-wallet.md)[)](how-to-obtain-a-filsnap-wallet-as-the-intermediary-wallet.md) and the[ Ledger in Filecoin App](how-to-obtain-a-ledger-wallet-as-the-intermediary-wallet.md). You can find more information about Filecoin wallets [here](https://filecointldr.io/how-to-buy-filecoin). Make sure to do your own research (DYOR) to select the wallet.
+GLIF is compatible with [most EVM wallets](https://filecointldr.io/how-to-buy-filecoin) as well as the [FilSnap (MetaMask snap](how-to-obtain-a-filsnap-wallet-as-the-intermediary-wallet.md)[)](how-to-obtain-a-filsnap-wallet-as-the-intermediary-wallet.md) and the [Ledger in Filecoin App](how-to-obtain-a-ledger-wallet-as-the-intermediary-wallet.md). You can find more information about Filecoin wallets [here](https://filecointldr.io/how-to-buy-filecoin). Make sure to do your own research (DYOR) to select the wallet.
 
 In this tutorial we will use MetaMask, but you can find a similar tutorial using Ledger [here](../using-the-pool/how-to-deposit-filecoin-from-a-hardware-wallet-with-glif.md).
 
@@ -32,7 +32,7 @@ In this tutorial we will use MetaMask, but you can find a similar tutorial using
 
 ![Confirm button](en-image-159.png)
 
-3. If the prompt to change the network does not pop up, you can follow the steps on[ this website ](https://docs.filecoin.io/basics/assets/metamask-setup)from Filecoin Docs.
+3. If the prompt to change the network does not pop up, you can follow the steps on [this website](https://docs.filecoin.io/basics/assets/metamask-setup) from Filecoin Docs.
 
 This step connects your MetaMask wallet to the Filecoin network. You can switch between networks anytime from within your wallet.
 

@@ -4,7 +4,7 @@
 
 **1. 连接到一个 Filecoin 钱包**
 
-确保您拥有一个兼容 Filecoin 的钱包（带有 f1 钱包地址），例如[ FilSnap 钱包](ru-he-li-yong-filsnap-qian-bao-zuo-wei-zhong-jie-qian-bao.md)、[Ledger](ru-he-li-yong-ledger-qian-bao-zuo-wei-zhong-jie-qian-bao.md) 或 [Burner](ru-he-li-yong-burner-qian-bao-zuo-wei-zhong-jie-qian-bao.md) 钱包。您可以点击相应的链接查看钱包的详细设置教程。
+确保您拥有一个兼容 Filecoin 的钱包（带有 f1 钱包地址），例如 [FilSnap 钱包](ru-he-li-yong-filsnap-qian-bao-zuo-wei-zhong-jie-qian-bao.md)、[Ledger](ru-he-li-yong-ledger-qian-bao-zuo-wei-zhong-jie-qian-bao.md) 或 [Burner](ru-he-li-yong-burner-qian-bao-zuo-wei-zhong-jie-qian-bao.md) 钱包。您可以点击相应的链接查看钱包的详细设置教程。
 
 ![如何在 GLIF 上创建多签钱](cn-image-304.png)
 

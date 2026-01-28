@@ -34,4 +34,4 @@ DTL < 100% means that, in a liquidation scenario, GLIF will recover all principa
 ![Borrow limit: DTL >](en-image-280.png)
 
 > [!WARNING]
-> This graph illustrates the situation for SPs who did not join the GLIF+ program. For those who joined the [GLIF+ program](/broken/pages/jt1R92FWbP8KSp3HrRV0), please refer to the [tier and limit table ](../glif+-storage-providers-loyalty-rewards/tiers-and-limits.md)for details.
+> This graph illustrates the situation for SPs who did not join the GLIF+ program. For those who joined the [GLIF+ program](/broken/pages/jt1R92FWbP8KSp3HrRV0), please refer to the [tier and limit table](../glif+-storage-providers-loyalty-rewards/tiers-and-limits.md) for details.

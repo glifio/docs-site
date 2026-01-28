@@ -9,7 +9,7 @@
 
 本教程将引导您完成：
 
-[步骤1：设置您的中介钱包 ](ru-he-jiang-fil-cong-0x-di-zhi-zhuan-yi-dao-f1-di-zhi.md#bu-zhou-1-she-zhi-nin-de-zhong-jie-qian-bao)
+[步骤1：设置您的中介钱包](ru-he-jiang-fil-cong-0x-di-zhi-zhuan-yi-dao-f1-di-zhi.md#bu-zhou-1-she-zhi-nin-de-zhong-jie-qian-bao)
 
 [步骤2：将FIL从0x地址（MetaMask）发送到f1地址（中介钱包）](ru-he-jiang-fil-cong-0x-di-zhi-zhuan-yi-dao-f1-di-zhi.md#bu-zhou-2-jiang-fil-cong-0x-di-zhi-metamask-fa-song-dao-f1-di-zhi-zhong-jie-qian-bao)
 
@@ -24,11 +24,11 @@
 
 您可以从以下中介钱包选项中，选择一个以获取f1地址：
 
-[选项A：Burner钱包 ](ru-he-li-yong-burner-qian-bao-zuo-wei-zhong-jie-qian-bao.md)
+[选项A：Burner钱包](ru-he-li-yong-burner-qian-bao-zuo-wei-zhong-jie-qian-bao.md)
 
-[选项B：FilSnap钱包 ](ru-he-li-yong-filsnap-qian-bao-zuo-wei-zhong-jie-qian-bao.md)
+[选项B：FilSnap钱包](ru-he-li-yong-filsnap-qian-bao-zuo-wei-zhong-jie-qian-bao.md)
 
-[选项C：Ledger钱包 ](ru-he-li-yong-ledger-qian-bao-zuo-wei-zhong-jie-qian-bao.md)
+[选项C：Ledger钱包](ru-he-li-yong-ledger-qian-bao-zuo-wei-zhong-jie-qian-bao.md)
 
 有关创建中介钱包的详细教程，请点击以上链接。
 

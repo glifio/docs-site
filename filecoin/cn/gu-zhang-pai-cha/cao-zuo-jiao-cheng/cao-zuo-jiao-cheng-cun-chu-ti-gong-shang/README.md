@@ -4,7 +4,7 @@
 
 [GLIF Agent 网站教程 (1) — 准备设置](glif-agent-wang-zhan-jiao-cheng-1-zhun-bei-she-zhi.md)
 
-[GLIF Agent 网站教程 (2) — 创建您的 Agent ](glif-agent-wang-zhan-jiao-cheng-2-chuang-jian-nin-de-agent.md)
+[GLIF Agent 网站教程 (2) — 创建您的 Agent](glif-agent-wang-zhan-jiao-cheng-2-chuang-jian-nin-de-agent.md)
 
 [GLIF Agent 网站教程 (3) — 添加您的矿工](glif-agent-wang-zhan-jiao-cheng-3-tian-jia-nin-de-kuang-gong.md)
 

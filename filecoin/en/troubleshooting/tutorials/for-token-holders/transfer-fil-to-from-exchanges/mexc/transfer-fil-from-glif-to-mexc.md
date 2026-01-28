@@ -22,7 +22,7 @@ This tutorial will guide you through the process of withdraw your iFIL tokens fr
 ## Step 1: Withdrawing FIL from GLIF to your main wallet
 
 1. Connect your main wallet to GLIF, which was used to deposit into GLIF and holds iFIL.
-2. To transfer your iFIL from the GLIF pool to FIL, follow the[ step-by-step guide](../../using-the-pool/withdraw-fil-from-glif.md) in this tutorial.
+2. To transfer your iFIL from the GLIF pool to FIL, follow the [step-by-step guide](../../using-the-pool/withdraw-fil-from-glif.md) in this tutorial.
 3. After withdrawn FIL, you will receive FIL in your main wallet. Click on “**Wallet**” tab in the GLIF navigation, and you will be able to see the FIL and iFIL balance in the “**Account**” section.
 
 ![Token balances](en-image-60.png)
@@ -31,7 +31,7 @@ This tutorial will guide you through the process of withdraw your iFIL tokens fr
 
 **If your main wallet holding FIL has an address starting with `f1`:**
 
-* You can skip to [Step 4 ](transfer-fil-from-glif-to-mexc.md#step-4-locate-your-recipient-address-in-the-exchange)and [Step 5 ](transfer-fil-from-glif-to-mexc.md#step-5-send-fil-from-your-wallet-to-exchange)directly.
+* You can skip to [Step 4](transfer-fil-from-glif-to-mexc.md#step-4-locate-your-recipient-address-in-the-exchange) and [Step 5](transfer-fil-from-glif-to-mexc.md#step-5-send-fil-from-your-wallet-to-exchange) directly.
 
 \
 **If your main wallet holding FIL has an address starting with `f410` or `0x`:**

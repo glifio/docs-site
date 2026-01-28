@@ -14,7 +14,7 @@ In this tutorial, you will follow these three main steps:
 
 ## **Step 1: Create a multisig wallet**
 
-Refer to [this tutorial ](../wallets/how-to-create-a-multisig-wallet-on-glif.md)for detailed **instructions** on creating a multisig wallet.
+Refer to [this tutorial](../wallets/how-to-create-a-multisig-wallet-on-glif.md) for detailed **instructions** on creating a multisig wallet.
 
 ## **Step 2: Deposit FIL from your multisig wallet**
 

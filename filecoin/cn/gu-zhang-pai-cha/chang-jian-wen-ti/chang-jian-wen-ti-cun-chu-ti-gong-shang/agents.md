@@ -22,7 +22,7 @@ Agents 是唯一被允许从资金池中借入 FIL 的智能合约。当 Agents 
 
 ## Agents警察是什么，其功能是什么？
 
-Agents警察 (Agents Police) 是 GLIF 的管理员合约，确保每个 Agents 在执行借款或提取 FIL 等操作时保持在[借款与清算价值比 (DTL) ](../../../cun-chu-ti-gong-shang/jie-kuan-shang-xian-jie-kuan-yu-qing-suan-jia-zhi-bi-dtl.md)限额内。如果Agents 违反系统规则，Agents警察 (Agents Police) 负责处理Agents状态转换和清算。
+Agents警察 (Agents Police) 是 GLIF 的管理员合约，确保每个 Agents 在执行借款或提取 FIL 等操作时保持在[借款与清算价值比 (DTL)](../../../cun-chu-ti-gong-shang/jie-kuan-shang-xian-jie-kuan-yu-qing-suan-jia-zhi-bi-dtl.md) 限额内。如果Agents 违反系统规则，Agents警察 (Agents Police) 负责处理Agents状态转换和清算。
 
 ## 如何从代理中移除矿工？
 

@@ -1,6 +1,6 @@
 # GLIF Agent Website Tutorial Part 8 -  Payment
 
-_If you don't understand the basics of GLIF Agents, Agent owners, or how to create your Agent on the GLIF website, we suggest starting with_[ ](glif-agent-website-tutorial-part-1-preparation-setup.md)[_Part 1_ ](glif-agent-website-tutorial-part-1-preparation-setup.md)_and_[ _Part 2_ ](glif-agent-website-tutorial-part-2-create-your-agent.md)_of this tutorial series. You can find all the tutorials about using Agents on the **GLIF website** on this_ [_page_](./)_. You can find the instructions about the Agent's command on the **GLIF Command Line Interface** on this_ [_page_](https://github.com/glifio/glif?tab=readme-ov-file#agents---get-started-borrowing)_._
+_If you don't understand the basics of GLIF Agents, Agent owners, or how to create your Agent on the GLIF website, we suggest starting with_ [_Part 1_](glif-agent-website-tutorial-part-1-preparation-setup.md) _and_ [_Part 2_](glif-agent-website-tutorial-part-2-create-your-agent.md) _of this tutorial series. You can find all the tutorials about using Agents on the **GLIF website** on this_ [_page_](./)_. You can find the instructions about the Agent's command on the **GLIF Command Line Interface** on this_ [_page_](https://github.com/glifio/glif?tab=readme-ov-file#agents---get-started-borrowing)_._
 
 ***
 
@@ -85,4 +85,4 @@ You've successfully made a payment to GLIF!
 
 ## **Next Steps:**
 
-In[ Part 9](glif-agent-website-tutorial-part-9-change-operator-address.md) of this tutorial, we will show you how to change your operator address.
+In [Part 9](glif-agent-website-tutorial-part-9-change-operator-address.md) of this tutorial, we will show you how to change your operator address.

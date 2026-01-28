@@ -42,7 +42,7 @@ For details on creating an intermediary wallet, please refer to the tutorial by 
 
 ![Withdrawal step](en-image-68.png)
 
-3. Enter the intermediary wallet you created in[ Step 1 ](how-to-withdraw-fil-from-the-agent-to-an-exchange-at-glif.md#step-1-setting-up-your-intermediary-wallet)as the recipient.
+3. Enter the intermediary wallet you created in [Step 1](how-to-withdraw-fil-from-the-agent-to-an-exchange-at-glif.md#step-1-setting-up-your-intermediary-wallet) as the recipient.
 4. Enter the amount to withdraw.
 5. Click “**Withdraw**”
 
@@ -124,7 +124,7 @@ For details on creating an intermediary wallet, please refer to the tutorial by 
 
 ![Transaction complete](en-image-95.png)
 
-6. Once the transaction is completed, you can verify the balance of your final f1 address on[ filfox.info ](https://filfox.info/en)or by pasting your address after [https://www.glif.io/en/address](https://www.glif.io/en/address/your_f1_address)/(your f1 address).
+6. Once the transaction is completed, you can verify the balance of your final f1 address on [filfox.info](https://filfox.info/en) or by pasting your address after [https://www.glif.io/en/address](https://www.glif.io/en/address/your_f1_address)/(your f1 address).
 
 ![Transfer FIL](en-image-96.png)
 

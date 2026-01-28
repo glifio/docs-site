@@ -28,7 +28,7 @@ The Agent Creation Wizard on the GLIF website will walk you through these steps.
 
 ***
 
-**Step 2 —** Connect the “proposer” Filecoin Snap wallet you created in[ Part 1](glif-agent-website-tutorial-part-1-preparation-setup.md) of the tutorial.
+**Step 2 —** Connect the “proposer” Filecoin Snap wallet you created in [Part 1](glif-agent-website-tutorial-part-1-preparation-setup.md) of the tutorial.
 
 ![Agent creation](en-image-348.png)
 
@@ -95,7 +95,7 @@ A couple pieces of important information to note after creating your Agent:
 2. **Agent f410 Address** — The Agent f410 address is the smart contract address of your Agent, displayed in a Filecoin native format.
 3. **Agent 0x Address** — The Agent 0x address is another representation of the smart contract address of your Agent, dislayed in an Ethereum native format. An Agent's f410 and 0x addresses are functionally equivalent to each other.
 4. **Agent Owner** — The Agent Owner is the multisig wallet that owns your Agent smart contract, which we created at the beginning of this tutorial.
-5. **Agent Operator** — the Agent Operator, to change this address, please refer to [Part 9 ](glif-agent-website-tutorial-part-9-change-operator-address.md)of this tutorial.
+5. **Agent Operator** — the Agent Operator, to change this address, please refer to [Part 9](glif-agent-website-tutorial-part-9-change-operator-address.md) of this tutorial.
 
 ## Next Steps
 
@@ -104,4 +104,4 @@ Congratulations! You just created your GLIF Agent. To recap, in [Part 2](glif-ag
 1. Created a new Agent Owner multisig wallet, using your FilSnap wallet and 2 Ledger wallets or buner wallet addresses as signers
 2. Created a new Agent smart contract
 
-In[ ](glif-agent-website-tutorial-part-3-add-your-miner.md)[Part 3](glif-agent-website-tutorial-part-3-add-your-miner.md) of this tutorial, we will show you how to add miners to your Agent.
+In [Part 3](glif-agent-website-tutorial-part-3-add-your-miner.md) of this tutorial, we will show you how to add miners to your Agent.

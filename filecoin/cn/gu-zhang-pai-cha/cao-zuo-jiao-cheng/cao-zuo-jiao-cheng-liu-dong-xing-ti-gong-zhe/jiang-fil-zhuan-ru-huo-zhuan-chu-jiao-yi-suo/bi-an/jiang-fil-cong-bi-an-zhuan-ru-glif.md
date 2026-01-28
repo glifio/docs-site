@@ -8,7 +8,7 @@
 > GLIF 与大多数 EVM 钱包兼容。本教程以 MetaMask 钱包为示例，其他钱包同样适用。\
 > 您可以参考我们的[常见问题](../../../../chang-jian-wen-ti/chang-jian-wen-ti-liu-dong-xing-ti-gong-zhe/)和[钱包教程](../../qian-bao/)以获取更多资讯。
 >
-> 如果您遇到任何问题，请通过[ Discord 支持工单](https://discord.gg/5qsJjsP3Re)与 GLIF 联系。
+> 如果您遇到任何问题，请通过 [Discord 支持工单](https://discord.gg/5qsJjsP3Re)与 GLIF 联系。
 
 ## 步骤 1：将您的钱包连接至 GLIF 和 Filecoin 主网
 

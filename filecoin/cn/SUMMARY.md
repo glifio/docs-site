@@ -9,7 +9,7 @@
 
 * [存入FIL](liu-dong-xing-ti-gong-zhe/cun-ru-fil.md)
 * [GLIF 奖励机制 - iFIL](liu-dong-xing-ti-gong-zhe/glif-jiang-li-ji-zhi-ifil.md)
-* [提取 FIL ](liu-dong-xing-ti-gong-zhe/ti-qu-fil.md)
+* [提取 FIL](liu-dong-xing-ti-gong-zhe/ti-qu-fil.md)
 * [资产安全](liu-dong-xing-ti-gong-zhe/zi-chan-an-quan.md)
 * [风险](liu-dong-xing-ti-gong-zhe/feng-xian.md)
 

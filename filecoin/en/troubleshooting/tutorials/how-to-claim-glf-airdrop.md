@@ -13,7 +13,7 @@ You can read the part that applies to you:
   * [Claim Your Airdrop via CLI](how-to-claim-glf-airdrop.md#claim-your-airdrop-via-cli)
   * [Claim Your Airdrop via the GLIF website](how-to-claim-glf-airdrop.md#claim-your-airdrop-via-the-glif-website)
     * [Step 1: Start Claiming on the GLIF Website](how-to-claim-glf-airdrop.md#step-1-start-claiming-on-the-glif-website-1)
-    * [Step 2: Approve Claim and Delegate proposal ](how-to-claim-glf-airdrop.md#step-2-approve-claim-and-delegate-proposal)
+    * [Step 2: Approve Claim and Delegate proposal](how-to-claim-glf-airdrop.md#step-2-approve-claim-and-delegate-proposal)
     * [Step 3: Redeem $GLF Tokens from the NFT](how-to-claim-glf-airdrop.md#step-3-redeem-usdglf-tokens-from-the-nft)
 
 If your eligible wallet is a multisig wallet, the claiming process is very similar to that of an agent's owner multisig wallet. Please refer to the Storage Provider section.
@@ -77,7 +77,7 @@ Congrats! You've successfully claimed your $GLF tokens as an early GLIF communit
 
 ### Claim Your Airdrop via CLI
 
-If you are an SP and would like to claim your airdrop through the Command Line Interface, you need to [install the v2.4.0 new release](https://github.com/glifio/glif/releases/tag/v2.4.0). Please follow the instruction[ here](https://github.com/glifio/glif/pull/166/files#diff-b335630551682c19a781afebcf4d07bf978fb1f8ac04c6bf87428ed5106870f5).
+If you are an SP and would like to claim your airdrop through the Command Line Interface, you need to [install the v2.4.0 new release](https://github.com/glifio/glif/releases/tag/v2.4.0). Please follow the instruction [here](https://github.com/glifio/glif/pull/166/files#diff-b335630551682c19a781afebcf4d07bf978fb1f8ac04c6bf87428ed5106870f5).
 
 ### Claim Your Airdrop via the GLIF website
 

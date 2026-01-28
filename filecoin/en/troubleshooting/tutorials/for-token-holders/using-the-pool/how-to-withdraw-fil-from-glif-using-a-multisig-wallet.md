@@ -11,7 +11,7 @@ In this tutorial, you will follow these two main steps:
 
 ### **Prerequisites**
 
-In this tutorial, a GLIF multisig wallet with deposited FIL, holding iFIL, is created. If you have not set one up yet, refer to our [previous tutorial ](how-to-deposit-fil-to-glif-using-multisig-wallet.md)on creating a multisig wallet and depositing FIL.
+In this tutorial, a GLIF multisig wallet with deposited FIL, holding iFIL, is created. If you have not set one up yet, refer to our [previous tutorial](how-to-deposit-fil-to-glif-using-multisig-wallet.md) on creating a multisig wallet and depositing FIL.
 
 ***
 

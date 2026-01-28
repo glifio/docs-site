@@ -2,7 +2,7 @@
 
 ## 用于确定借款限额的关键比率是什么？
 
-[借款与清算价值比 (DTL) ](../../../cun-chu-ti-gong-shang/jie-kuan-shang-xian-jie-kuan-yu-qing-suan-jia-zhi-bi-dtl.md)必须低于 75%。您可以在[此处](../../../cun-chu-ti-gong-shang/jie-kuan-shang-xian-jie-kuan-yu-qing-suan-jia-zhi-bi-dtl.md)阅读更多细节。
+[借款与清算价值比 (DTL)](../../../cun-chu-ti-gong-shang/jie-kuan-shang-xian-jie-kuan-yu-qing-suan-jia-zhi-bi-dtl.md) 必须低于 75%。您可以在[此处](../../../cun-chu-ti-gong-shang/jie-kuan-shang-xian-jie-kuan-yu-qing-suan-jia-zhi-bi-dtl.md)阅读更多细节。
 
 ## “清算价值”是什么，如何计算？
 
@@ -18,7 +18,7 @@ $$
 
 ## 借款与清算价值比 (DTL) 如何计算？
 
-[借款与清算价值比 (DTL) ](../../../cun-chu-ti-gong-shang/jie-kuan-shang-xian-jie-kuan-yu-qing-suan-jia-zhi-bi-dtl.md)的计算方式为：
+[借款与清算价值比 (DTL)](../../../cun-chu-ti-gong-shang/jie-kuan-shang-xian-jie-kuan-yu-qing-suan-jia-zhi-bi-dtl.md) 的计算方式为：
 
 $$
 借款与清算价值比 (DTL)  = 债务 / 清算价值

@@ -43,7 +43,7 @@ Once done, your intermediary wallet's address, starting with `f1`, will be visib
 
 1. Go to your centralized exchange, MEXC and locate FIL in your portfolio. Click “**Withdraw**”.
 2. Select Network as “**FIL**”.
-3. Enter the intermediary wallet address created in[ step 1](transfer-fil-from-mexc-to-glif.md#step-1-set-up-an-intermediary-wallet-optional). Make sure you have copied the address correctly.
+3. Enter the intermediary wallet address created in [step 1](transfer-fil-from-mexc-to-glif.md#step-1-set-up-an-intermediary-wallet-optional). Make sure you have copied the address correctly.
 4. Enter the amount you want to send.
 
 > [!WARNING]
@@ -90,7 +90,7 @@ After a few moments, your Filecoin balance will appear in your main wallet!
 
 ## Step 6: Deposit your Filecoin with GLIF
 
-Now, you can deposit your tokens directly from your main wallet to GLIF and start earning rewards! Check the[ step-by-step guide](../../using-the-pool/deposit-fil-into-glif-to-earn-rewards.md) in this tutorial for detailed deposit instructions.
+Now, you can deposit your tokens directly from your main wallet to GLIF and start earning rewards! Check the [step-by-step guide](../../using-the-pool/deposit-fil-into-glif-to-earn-rewards.md) in this tutorial for detailed deposit instructions.
 
 ## Conclusion
 

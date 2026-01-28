@@ -22,4 +22,4 @@ GLIF 使用智能合约，使 SP 在借入 FIL 的同时保持对其Miner Actor 
 
 ## SP 如何从 GLIF 中提取未用于封装的资金？
 
-只要 SP 的[借款与清算价值比 (DTL) ](../../../cun-chu-ti-gong-shang/jie-kuan-shang-xian-jie-kuan-yu-qing-suan-jia-zhi-bi-dtl.md)比率保持在 75% 以下，就可以提取 FIL。您可以在[此处](../../../cun-chu-ti-gong-shang/jie-ru-fil-yong-tu.md)阅读更多相关规则。
+只要 SP 的[借款与清算价值比 (DTL)](../../../cun-chu-ti-gong-shang/jie-kuan-shang-xian-jie-kuan-yu-qing-suan-jia-zhi-bi-dtl.md) 比率保持在 75% 以下，就可以提取 FIL。您可以在[此处](../../../cun-chu-ti-gong-shang/jie-ru-fil-yong-tu.md)阅读更多相关规则。

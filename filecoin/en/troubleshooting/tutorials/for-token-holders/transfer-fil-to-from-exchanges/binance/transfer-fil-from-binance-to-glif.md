@@ -45,7 +45,7 @@ For detailed instructions on how to connect your wallet to the Filecoin Mainnet,
 
 ## Step 4: Deposit your Filecoin with GLIF
 
-Now, you can deposit your tokens directly from your wallet to GLIF and start earning rewards! Check the[ step-by-step guide](../../using-the-pool/deposit-fil-into-glif-to-earn-rewards.md) in this tutorial for detailed deposit instructions.
+Now, you can deposit your tokens directly from your wallet to GLIF and start earning rewards! Check the [step-by-step guide](../../using-the-pool/deposit-fil-into-glif-to-earn-rewards.md) in this tutorial for detailed deposit instructions.
 
 Finally, put your FIL to use and earn rewards with GLIF!
 
