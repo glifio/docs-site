@@ -4,7 +4,7 @@ Guidelines for writing and maintaining documentation in this repository.
 
 ## Markdown syntax
 
-All files use **GitHub-flavored Markdown**.
+All files use [GitHub-flavored Markdown](https://github.github.com/gfm/).
 
 ## File structure rules
 
