@@ -33,3 +33,16 @@ Use standard markdown link syntax: `[text](url)`
 | Internal doc link | Relative path from the domain folder, **no `.md` extension** | `[rewards](/1-for-liquidity-providers/2-reward-mechanism-sticnt)` |
 | Anchor link | `#anchor-name` | `[see below](#example-section)` |
 | Internal + anchor | Combines internal path with anchor | `[rewards example](/1-for-liquidity-providers/2-reward-mechanism-sticnt#example-anchor)` |
+
+### Anchor names
+
+Anchors link to any header in a document. To derive the anchor name from a header:
+
+1. Lowercase the text
+2. Replace spaces with dashes
+3. Remove all non-alphanumeric characters (except dashes)
+4. Collapse consecutive dashes into a single dash
+
+For example:
+- `## Reward Mechanism (stICNT)` becomes `#reward-mechanism-sticnt`
+- `## Step 1 - Connect wallet` becomes `#step-1-connect-wallet`
