@@ -165,9 +165,3 @@ _If your Agent owner is a **single-signer/EOA wallet**, you do not need to sign 
 ![Balance view](en-glf-airdrop-18-balance-view.png)
 
 Congrats! You've successfully claimed your $GLF tokens as an early GLIF community participant. Use this power wisely!
-
-## Contact Us
-
-Feel free to join our[ Discord](https://discord.gg/5qsJjsP3Re) and[ Telegram](https://t.me/+iFJuXAMp-Xg5NGIx) or follow us on[ X](https://twitter.com/glifio) for the latest updates.
-
-If you encounter any difficulties, please feel free to contact us through our[ Discord support ticket](https://discord.gg/5qsJjsP3Re). Beware of scammers who may ask you to open a ticket elsewhere or contact you directly. The only official GLIF team members have the role “GLIF” or “Moderator.” Stay safe!

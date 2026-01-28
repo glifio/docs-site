@@ -38,5 +38,3 @@ Propose an ownership change for your miner (miner-id) to set the new-owner-addre
 Step 2 has to be done outside of GLIF – the new owner address must confirm the ownership change. If you're using Lotus, this command is implemented as:
 
 `lotus actor set-owner --really-do-it …`
-
-If there is any problem, please open a support ticket on [discord](https://discord.gg/5qsJjsP3Re) (support-tickets channel).
