@@ -1,4 +1,3 @@
-
 # Benefits for Storage Providers
 
 GLIF+ Card holders receive two primary benefits:

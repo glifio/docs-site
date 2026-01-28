@@ -1,4 +1,3 @@
-
 # Protocol Users
 
 ## FIL Liquidity Providers

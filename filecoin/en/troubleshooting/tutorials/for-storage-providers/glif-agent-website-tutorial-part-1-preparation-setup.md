@@ -1,4 +1,3 @@
-
 # GLIF Agent Website Tutorial Part 1— Preparation Setup
 
 In Part 1 of the GLIF Agent Setup Tutorial, we are covering two topics:

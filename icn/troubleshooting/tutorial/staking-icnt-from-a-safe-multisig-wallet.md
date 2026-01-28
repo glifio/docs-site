@@ -1,4 +1,3 @@
-
 # Staking ICNT from a Safe multisig wallet
 
 In this tutorial, you will stake ICNT tokens from a [**Safe multisig wallet**](https://app.safe.global/) into the GLIF ICNT staking pool to start earning rewards with GLIF.

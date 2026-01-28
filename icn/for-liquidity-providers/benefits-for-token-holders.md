@@ -1,4 +1,3 @@
-
 # Benefits for token holders
 
 ## **Maximize Yield With No Lockup**

@@ -1,4 +1,3 @@
-
 # GLIF Reward Mechanism - iFIL
 
 ## About iFIL

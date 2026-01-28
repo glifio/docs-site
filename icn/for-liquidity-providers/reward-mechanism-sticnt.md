@@ -1,4 +1,3 @@
-
 # Reward Mechanism - stICNT
 
 ## **About stICNT**

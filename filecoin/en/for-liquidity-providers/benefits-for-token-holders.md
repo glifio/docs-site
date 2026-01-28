@@ -1,4 +1,3 @@
-
 # Benefits for token holders
 
 ## Earn Rewards by Depositing Filecoin

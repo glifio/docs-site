@@ -1,4 +1,3 @@
-
 # Benefits for Liquidity Providers
 
 GLIF+ Liquidity Providers (LPs) Card creates a protocol-driven buyback program. Through this program, the protocol buys $GLF directly from iFIL holders at a premium to the market price, instead of purchasing from public markets.

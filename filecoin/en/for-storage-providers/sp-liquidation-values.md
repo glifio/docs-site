@@ -1,4 +1,3 @@
-
 # SP Liquidation Values
 
 ## Understanding liquidation values

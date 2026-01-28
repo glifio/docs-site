@@ -1,4 +1,3 @@
-
 # Quick Guide
 
 ## Quick Links:

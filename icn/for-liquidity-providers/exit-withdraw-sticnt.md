@@ -1,4 +1,3 @@
-
 # Exit - Withdraw stICNT
 
 Today, the mechanism for redeeming ICNT for stICNT tokens is through our [Uniswap](https://app.uniswap.org/explore/pools/base/0x655c8ae242c2707fa13ab5b093567d3c6f114ad60cae2d5c9adf106670bca15c) pool on Base. stICNT holders can simply swap stICNT for ICNT at the current price quoted by the pool.

@@ -1,4 +1,3 @@
-
 # Glossary
 
 * **Administration:** SPs with a Debt-to-Liquidation (DTL) ratio above 75% are eligible to be put on “administration”, which allows GLIF to pay down the SP's debt using any available balances on the SP's miners. No terminations or penalties occur if a GLIF administrator pays down an SP's debt. Borrowing and withdrawal are also disabled. The goal of the administrator is to recover the SP into good standing with GLIF (DTL < 75%). Refer [here](/broken/pages/6V223lF4bAs3FZjvOgnv) for details.

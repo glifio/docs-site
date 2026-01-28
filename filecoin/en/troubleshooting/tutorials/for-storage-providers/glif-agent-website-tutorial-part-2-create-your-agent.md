@@ -1,4 +1,3 @@
-
 # GLIF Agent Website Tutorial Part 2 — Create your Agent
 
 _If you don't yet understand the basics of GLIF Agents and the preparation steps to get started creating Agents on the GLIF website, we suggest you start by reading_ [_Part 1_](glif-agent-website-tutorial-part-1-preparation-setup.md) _of this tutorial. You can find all the tutorials about using Agents on the GLIF website on this_ [_page_](./)_. You can find the instructions about the Agent's command on the **GLIF Command Line Interface** on this_ [_page_](https://github.com/glifio/glif?tab=readme-ov-file#agents---get-started-borrowing)_._

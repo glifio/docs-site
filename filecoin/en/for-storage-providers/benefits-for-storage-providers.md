@@ -1,4 +1,3 @@
-
 # Benefits for Storage Providers
 
 ## Borrow FIL for storage mining by reusing pledged FIL and vesting rewards

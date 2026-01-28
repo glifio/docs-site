@@ -1,4 +1,3 @@
-
 # How to Claim $GLF Airdrop
 
 The wait is over, $GLF has arrived! It's time to learn how to claim your tokens and start building the first DeFi for DePIN community together. By claiming your $GLF Airdrop, you immediately become a member of the GLIF community! To read more, click [here](https://www.glif.io/en/token).

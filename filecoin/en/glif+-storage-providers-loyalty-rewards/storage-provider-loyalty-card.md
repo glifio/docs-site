@@ -1,4 +1,3 @@
-
 # Storage Provider Loyalty Card
 
 ![Storage Provider Loyalty Card](en-image-8.png)

@@ -1,4 +1,3 @@
-
 # How to withdraw FIL from GLIF using a multisig wallet
 
 Withdrawing FIL from GLIF using a multisig wallet involves a two-step proposal process to ensure security and consensus among wallet signers. This tutorial will guide you through withdrawing your deposited FIL and converting your iFIL back to FIL.

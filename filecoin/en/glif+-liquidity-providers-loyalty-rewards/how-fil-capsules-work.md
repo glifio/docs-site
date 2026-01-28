@@ -1,4 +1,3 @@
-
 # How FIL Capsules Work
 
 ## What are FIL Capsules
