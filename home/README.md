@@ -1,12 +1,3 @@
-# Quick Guide
-
-## Quick Links:
-
-* Filecoin ($FIL) Pool [docs site](https://app.gitbook.com/o/PLyGNYD5OKimSpuvfITm/s/6Q2zGcG6QOSRYiiZgFn5/)
-* Impossible Cloud Network ($ICNT) Pool [docs site](https://app.gitbook.com/o/PLyGNYD5OKimSpuvfITm/s/IQ6sTACB7ZMkh4B5JR6u/)
-* 🤝 [Connect](https://app.gitbook.com/o/PLyGNYD5OKimSpuvfITm/s/6Q2zGcG6QOSRYiiZgFn5/troubleshooting/contact-us) through [Discord](https://discord.com/invite/5qsJjsP3Re) and [Telegram](https://t.me/+iFJuXAMp-Xg5NGIx) for support and partnerships
-* 📢 Stay informed with updates on our [blog](https://medium.com/@glifio) and [Twitter](https://twitter.com/glifio)
-
 ## What is GLIF?
 
 GLIF enables custom capital markets for Decentralized Phyiscal Infrastructure (DePIN) networks.
@@ -37,8 +28,3 @@ GLIF exists to solve the capital inefficiences on DePIN networks by:
 
 * Filecoin (docs)
 * Impossible Cloud Network (docs)
-
-## Stay connected
-
-* 🤝 [Connect](https://app.gitbook.com/o/PLyGNYD5OKimSpuvfITm/s/6Q2zGcG6QOSRYiiZgFn5/troubleshooting/contact-us) through [Discord](https://discord.com/invite/5qsJjsP3Re) and [Telegram](https://t.me/+iFJuXAMp-Xg5NGIx) for support and partnerships
-* 📢 Stay informed with updates on our [blog](https://medium.com/@glifio) and [Twitter](https://twitter.com/glifio)
