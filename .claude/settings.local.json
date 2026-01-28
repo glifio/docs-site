@@ -17,6 +17,7 @@
       "Bash(python3:*)",
       "Bash(sed:*)",
       "Bash(test:*)",
+      "Bash(tree:*)",
       "Bash(xxd:*)"
     ],
     "defaultMode": "acceptEdits"
