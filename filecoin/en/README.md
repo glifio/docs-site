@@ -1,4 +1,4 @@
-# Quick Guide
+# GLIF Documentation
 
 ![GLIF Logo](logo.png)
 

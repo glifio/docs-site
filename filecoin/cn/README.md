@@ -1,4 +1,4 @@
-# 快速导览
+# GLIF Documentation
 
 ![GLIF Logo](logo.png)
 
