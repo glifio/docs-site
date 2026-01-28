@@ -42,5 +42,3 @@ GLIF exists to solve the capital inefficiences on DePIN networks by:
 * 📘 Learn from step-by-step **tutorials** for [FIL token holders](troubleshooting/tutorials/for-token-holders/) and [Storage Providers](troubleshooting/tutorials/for-storage-providers/)
 * 🔍 Review our [**audits**](for-liquidity-providers/asset-security.md)
 * 🖥️ Take a look at our [**developer resources**](/broken/pages/XV4DLQFIAdZCEph0Hvtw)
-* 🤝 [Connect](troubleshooting/contact-us.md) through [**Discord**](https://discord.com/invite/5qsJjsP3Re) and [**Telegram**](https://t.me/+iFJuXAMp-Xg5NGIx) for support and partnerships
-* 📢  Stay informed with updates on our [**blog**](https://medium.com/@glifio) and [**Twitter**](https://twitter.com/glifio)
