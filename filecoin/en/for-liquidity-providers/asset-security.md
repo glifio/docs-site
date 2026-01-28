@@ -10,7 +10,7 @@ Read more about the [economic safety rules](../for-storage-providers/liquidation
 
 GLIF has been building financial infrastructure for Filecoin token holders since 2019. The security of GLIF users has and always will be the top priority. Our DeFi protocol has undergone 5 security evaluations:
 
-* A 10 person week informal review by[ Consensys Diligence](https://consensys.net/diligence/) to give early feedback and design critiques of our architecture
+* A 10 person week informal review by [Consensys Diligence](https://diligence.security) to give early feedback and design critiques of our architecture
 * A 5 person week formal review by the top DeFi auditors at Consensys Diligence [(see report here)](https://4283338172-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FsLhVfzjYL8y6kgO9L4m4%2Fuploads%2FfQBqkjCAaq1sEjA3DgFF%2FConsensysDiligence.pdf?alt=media\&token=04f4aa6c-0e37-41b8-8c93-3cfab7e52847)
 * A 20 person, invite only audit competition run through[ Sherlock](https://www.sherlock.xyz/), with experienced DeFi auditors [(see report here)](https://4283338172-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FsLhVfzjYL8y6kgO9L4m4%2Fuploads%2FfQBqkjCAaq1sEjA3DgFF%2FConsensysDiligence.pdf?alt=media\&token=04f4aa6c-0e37-41b8-8c93-3cfab7e52847)
 * Consensys Diligence V2 protocol audit
