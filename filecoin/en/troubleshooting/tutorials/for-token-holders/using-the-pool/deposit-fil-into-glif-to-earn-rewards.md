@@ -75,9 +75,3 @@ For a more detailed view of your position, click on “**Wallet**” in the GLIF
 Congratulations on successfully depositing FIL to GLIF!
 
 When you are ready to withdraw your deposit, you will need to return your iFIL to GLIF to receive your FIL back. For more details about the withdrawal process, check [here](../../../../for-liquidity-providers/exit-withdraw-fil.md).
-
-## Join our community!
-
-Feel free to join our [Discord](https://discord.gg/5qsJjsP3Re) and [Telegram](https://t.me/+iFJuXAMp-Xg5NGIx) or follow us on[ X](https://twitter.com/glifio) for the latest updates.
-
-If you encounter any difficulties, please feel free to contact us through our [Discord support ticket](https://discord.gg/5qsJjsP3Re).

@@ -102,9 +102,3 @@ You've successfully moved FIL between Miner and Agent!
 ## **Next Steps:**
 
 In [Part 6](glif-agent-website-tutorial-part-6-withdraw-rewards-cash-advance.md) of this tutorial, we will show you how to withdraw funds from the Agent.
-
-## Join our community!
-
-Feel free to join our [Discord](https://discord.gg/5qsJjsP3Re) and [Telegram](https://t.me/+iFJuXAMp-Xg5NGIx) or follow us on[ X](https://twitter.com/glifio) for the latest updates.
-
-If you encounter any difficulties, please feel free to contact us through our [Discord support ticket](https://discord.gg/5qsJjsP3Re).

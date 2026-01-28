@@ -43,9 +43,3 @@ Before conducting any transactions between your wallet and an exchange, **check 
 Now, you can deposit your tokens directly from your exchange to GLIF and start earning rewards! Check the[ step-by-step guide](../using-the-pool/deposit-fil-into-glif-to-earn-rewards.md) in this tutorial for detailed deposit instructions.
 
 Finally, put your FIL to use and earn rewards with GLIF!
-
-## Join our community!
-
-Feel free to join our [Discord](https://discord.gg/5qsJjsP3Re) and [Telegram](https://t.me/+iFJuXAMp-Xg5NGIx) or follow us on[ X](https://twitter.com/glifio) for the latest updates.
-
-If you encounter any difficulties, please feel free to contact us through our [Discord support ticket](https://discord.gg/5qsJjsP3Re).

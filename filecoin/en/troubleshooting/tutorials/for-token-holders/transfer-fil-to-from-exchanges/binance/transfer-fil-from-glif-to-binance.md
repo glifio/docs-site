@@ -56,9 +56,3 @@ This tutorial will guide you through the process of withdraw your iFIL tokens fr
 ## Conclusion
 
 By following this step-by-step guide, you can successfully withdraw FIL from GLIF to your exchange! Remember to always double-check addresses and transaction details to ensure the accuracy and security of your funds.
-
-## Join our community!
-
-Feel free to join our [Discord](https://discord.gg/5qsJjsP3Re) and [Telegram](https://t.me/+iFJuXAMp-Xg5NGIx) or follow us on[ X](https://twitter.com/glifio) for the latest updates.
-
-If you encounter any difficulties, please feel free to contact us through our [Discord support ticket](https://discord.gg/5qsJjsP3Re).

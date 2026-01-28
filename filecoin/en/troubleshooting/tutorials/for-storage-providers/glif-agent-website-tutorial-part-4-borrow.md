@@ -103,9 +103,3 @@ You've successfully borrowed FIL to your Agent!
 ## **Next Steps:**
 
 In [Part 5](glif-agent-website-tutorial-part-5-moving-fil-between-miner-and-agent.md) of this tutorial, we will show you how to move FIL from Miner to Agent and back.
-
-## Join our community!
-
-Feel free to join our [Discord](https://discord.gg/5qsJjsP3Re) and [Telegram](https://t.me/+iFJuXAMp-Xg5NGIx) or follow us on[ X](https://twitter.com/glifio) for the latest updates.
-
-If you encounter any difficulties, please feel free to contact us through our [Discord support ticket](https://discord.gg/5qsJjsP3Re).

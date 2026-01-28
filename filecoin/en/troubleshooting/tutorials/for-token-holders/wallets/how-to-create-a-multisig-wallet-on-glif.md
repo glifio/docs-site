@@ -57,9 +57,3 @@ In the multisig page, you can view your token holdings, proposals, required appr
 By following this step-by-step guide, you can successfully create a multisig wallet! Remember to always double-check addresses and transaction details to ensure the accuracy and security of your funds.
 
 If you want to learn how to **deposit** from the GLIF pool using a multisig wallet, refer to the tutorial [here](../using-the-pool/how-to-deposit-fil-to-glif-using-multisig-wallet.md).
-
-## Join our community!
-
-Feel free to join our [Discord](https://discord.gg/5qsJjsP3Re) and [Telegram](https://t.me/+iFJuXAMp-Xg5NGIx) or follow us on[ X](https://twitter.com/glifio) for the latest updates.
-
-If you encounter any difficulties, please feel free to contact us through our [Discord support ticket](https://discord.gg/5qsJjsP3Re).

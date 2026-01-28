@@ -45,9 +45,3 @@ The Filecoin Mainnet should now appear in your network options. Select “**File
 ## Conclusion
 
 Finally, your wallet is connected to the Filecoin Mainnet. You can now start depositing FIL to use GLIF and earn rewards!
-
-## Join our community!
-
-Feel free to join our [Discord](https://discord.gg/5qsJjsP3Re) and [Telegram](https://t.me/+iFJuXAMp-Xg5NGIx) or follow us on[ X](https://twitter.com/glifio) for the latest updates.
-
-If you encounter any difficulties, please feel free to contact us through our [Discord support ticket](https://discord.gg/5qsJjsP3Re).

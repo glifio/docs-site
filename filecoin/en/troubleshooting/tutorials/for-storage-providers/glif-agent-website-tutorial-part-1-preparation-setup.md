@@ -69,9 +69,3 @@ Once you have 3 Filecoin wallet addresses:
 2. 2 Ledger wallet addresses or burner wallet addresses
 
 Then you are ready to move on to[ ](glif-agent-website-tutorial-part-2-create-your-agent.md)[Part 2](glif-agent-website-tutorial-part-2-create-your-agent.md) of this tutorial.
-
-## Join our community!
-
-Feel free to join our [Discord](https://discord.gg/5qsJjsP3Re) and [Telegram](https://t.me/+iFJuXAMp-Xg5NGIx) or follow us on[ X](https://twitter.com/glifio) for the latest updates.
-
-If you encounter any difficulties, please feel free to contact us through our [Discord support ticket](https://discord.gg/5qsJjsP3Re).

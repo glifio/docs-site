@@ -73,9 +73,3 @@ You've successfully change your operator address!
 ## **Next Steps:**
 
 This is the end of this tutorial series. If you would like to learn how to withdraw FIL from the Agent to an exchange, check out this [tutorial](how-to-withdraw-fil-from-the-agent-to-an-exchange-at-glif.md).
-
-## Join our community!
-
-Feel free to join our [Discord](https://discord.gg/5qsJjsP3Re) and [Telegram](https://t.me/+iFJuXAMp-Xg5NGIx) or follow us on[ X](https://twitter.com/glifio) for the latest updates.
-
-If you encounter any difficulties, please feel free to contact us through our [Discord support ticket](https://discord.gg/5qsJjsP3Re).

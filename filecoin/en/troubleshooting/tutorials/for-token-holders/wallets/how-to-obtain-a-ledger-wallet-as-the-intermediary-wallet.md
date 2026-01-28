@@ -55,9 +55,3 @@ Make sure you have your device connected to your computer (e.g., with the suppli
 Obtaining an intermediary wallet using the Ledger with an `f1` address is a quick process and ensures your transactions proceed smoothly.
 
 Remember to keep your seed phrase safe and private, and always perform a test transaction before sending a large amount!
-
-## Join our community!
-
-Feel free to join our [Discord](https://discord.gg/5qsJjsP3Re) and [Telegram](https://t.me/+iFJuXAMp-Xg5NGIx) or follow us on[ X](https://twitter.com/glifio) for the latest updates.
-
-If you encounter any difficulties, please feel free to contact us through our [Discord support ticket](https://discord.gg/5qsJjsP3Re).

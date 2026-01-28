@@ -65,9 +65,3 @@ Then, you are successfully deposit FIL from Ledger to GLIF! Once you know the st
 ## Conclusion
 
 When you want to withdraw your deposit, you will return your iFIL to GLIF and receive FIL back. Check here for more details about [withdrawal](../../../faq/faq-for-liquidity-providers/withdraw-fil.md). Check the [step-by-step guide](withdraw-fil-from-glif.md) in this tutorial for detailed withdrawal instructions.
-
-## Join our community!
-
-Feel free to join our [Discord](https://discord.gg/5qsJjsP3Re) and [Telegram](https://t.me/+iFJuXAMp-Xg5NGIx) or follow us on[ X](https://twitter.com/glifio) for the latest updates.
-
-If you encounter any difficulties, please feel free to contact us through our [Discord support ticket](https://discord.gg/5qsJjsP3Re).
