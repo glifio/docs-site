@@ -11,14 +11,14 @@ You will use the [**Safe Transaction Builder**](https://help.safe.global/en/arti
 
 In this tutorial, you will follow these steps:
 
-* [Step 1: Connect to a signer wallet and open the Transaction Builder](staking-icnt-from-a-safe-multisig-wallet.md#step-1-connect-to-a-signer-wallet-and-open-the-transaction-builder)
-* [Step 2: Create the First Transaction — `approve`](staking-icnt-from-a-safe-multisig-wallet.md#step-2-create-the-first-transaction-approve)
-* [Step 3: Create the Second Transaction — `deposit`](staking-icnt-from-a-safe-multisig-wallet.md#step-3-create-the-second-transaction-deposit)
-* [Step 4: Review and Create Batch](staking-icnt-from-a-safe-multisig-wallet.md#step-4-review-and-create-batch)
-* [Step 5: Confirm Transaction](staking-icnt-from-a-safe-multisig-wallet.md#step-5-confirm-transaction)
-* [Step 6: Sign](staking-icnt-from-a-safe-multisig-wallet.md#step-6-sign)
-* [Step 7: Get Additional Signatures](staking-icnt-from-a-safe-multisig-wallet.md#step-7-get-additional-signatures)
-* [Step 8: Execute the Transaction](staking-icnt-from-a-safe-multisig-wallet.md#step-8-execute-the-transaction)
+* [Step 1: Connect to a signer wallet and open the Transaction Builder](#step-1-connect-to-a-signer-wallet-and-open-the-transaction-builder)
+* [Step 2: Create the First Transaction — `approve`](#step-2-create-the-first-transaction-approve)
+* [Step 3: Create the Second Transaction — `deposit`](#step-3-create-the-second-transaction-deposit)
+* [Step 4: Review and Create Batch](#step-4-review-and-create-batch)
+* [Step 5: Confirm Transaction](#step-5-confirm-transaction)
+* [Step 6: Sign](#step-6-sign)
+* [Step 7: Get Additional Signatures](#step-7-get-additional-signatures)
+* [Step 8: Execute the Transaction](#step-8-execute-the-transaction)
 
 ***
 
