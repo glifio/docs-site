@@ -2,8 +2,8 @@
 
 To send FIL from a 0x address to an f1 address, you will need to use an intermediary wallet such as a [FilSnap wallet](how-to-obtain-a-filsnap-wallet-as-the-intermediary-wallet.md), [burner wallet](how-to-obtain-a-burner-wallet-as-the-intermediary-wallet.md), or [Ledger](how-to-obtain-a-ledger-wallet-as-the-intermediary-wallet.md), which facilitates the necessary conversions. This guide will walk you through the process of creating an intermediary wallet and using it as an intermediary to transfer FIL from your 0x address to the desired f1 address.
 
-> [!TIP]
-> This tutorial uses MetaMask wallet as an example, as it works better with FEVM; other wallets also work.You can refer to our [FAQ](../../../faq/faq-for-liquidity-providers/wallet-connection.md) if you encounter any trouble or please contact GLIF through a [Discord support ticket](https://discord.gg/5qsJjsP3Re).
+> [!HINT]
+> This tutorial uses MetaMask wallet as an example, as it works better with FEVM; other wallets also work. You can refer to our [FAQ](../../../faq/faq-for-liquidity-providers/wallet-connection.md) if you encounter any trouble or please contact GLIF through a [Discord support ticket](https://discord.gg/5qsJjsP3Re).
 
 ## Contents
 
