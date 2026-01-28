@@ -4,9 +4,6 @@
 
 ## Quick Links
 
-* ✅ **Start staking ICNT here:** [https://icn.glif.io](https://icn.glif.io)
-* 🚀 Start here if you are a [ICNT token holder](for-liquidity-providers/benefits-for-token-holders.md) and looking to earn [rewards](for-liquidity-providers/reward-mechanism-sticnt.md)
-* 🔍 Review our [audits](for-liquidity-providers/audit-report.md)
-* 🖥️ Take a look at our [developer resources](/broken/pages/XV4DLQFIAdZCEph0Hvtw)
-* 🤝 [Connect](troubleshooting/contact-us.md) through [Discord](https://discord.com/invite/5qsJjsP3Re) and [Telegram](https://t.me/+iFJuXAMp-Xg5NGIx) for support and partnerships
-* 📢  Stay informed with updates on our [blog](https://medium.com/@glifio) and [Twitter](https://twitter.com/glifio)
+* 🚀 Start here if you are a [ICNT token holder](/1-for-liquidity-providers/1-benefits-for-token-holders) and looking to earn [rewards](/1-for-liquidity-providers/2-reward-mechanism-sticnt)
+* 🔍 Review our [audits](/1-for-liquidity-providers/5-audit-report)
+* 🖥️ Take a look at our [developer resources](/2-developer-resources)
