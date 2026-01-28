@@ -58,9 +58,3 @@ GLIF 智能合约需要获得权限，才能使用您的 iFIL 代币来处理提
 ## 结论
 
 恭喜您成功从 GLIF 提取了 FIL！
-
-## **加入我们的社区！**
-
-欢迎加入我们的[Discord](https://discord.gg/5qsJjsP3Re)和[Telegram](https://t.me/glifio)，或在[X](https://twitter.com/glifio)上关注我们，以获取最新消息。
-
-如果您遇到任何困难，请随时通过我们的[Discord支持工单](https://discord.gg/5qsJjsP3Re)与我们联系。

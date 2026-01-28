@@ -111,9 +111,3 @@
 您現在可以使用中介钱包，成功将FIL从您的0x地址转移到f1地址！
 
 请务必仔细检查地址和交易详情，以确保资金安全。
-
-## **加入我们的社区！**
-
-欢迎加入我们的[Discord](https://discord.gg/5qsJjsP3Re)和[Telegram](https://t.me/glifio)，或在[X](https://twitter.com/glifio)上关注我们，以获取最新消息。
-
-如果您遇到任何困难，请随时通过我们的[Discord支持工单](https://discord.gg/5qsJjsP3Re)与我们联系。

@@ -55,9 +55,3 @@ Filecoin生态系统中有各种类型的地址，例如f0、f1、f2、f3和f410
 使用带有f1地址的 Ledger 作为中介钱包是很快速的过程，并讓您的交易顺利进行。
 
 请记住保管好钱包助记词，并在发送大量资金之前进行小額测试！
-
-## **加入我们的社区！**
-
-欢迎加入我们的[Discord](https://discord.gg/5qsJjsP3Re)和[Telegram](https://t.me/glifio)，或在[X](https://twitter.com/glifio)上关注我们，以获取最新消息。
-
-如果您遇到任何困难，请随时通过我们的[Discord支持工单](https://discord.gg/5qsJjsP3Re)与我们联系。

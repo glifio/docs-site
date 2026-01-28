@@ -94,9 +94,3 @@
 ## 结论
 
 现在，您成功地将 FIL 从 GLIF 提现至交易所！请务必仔细核对地址和交易细节，以确保资金安全。
-
-## **加入我们的社区！**
-
-欢迎加入我们的[Discord](https://discord.gg/5qsJjsP3Re)和[Telegram](https://t.me/glifio)，或在[X](https://twitter.com/glifio)上关注我们，以获取最新消息。
-
-如果您遇到任何困难，请随时通过我们的[Discord支持工单](https://discord.gg/5qsJjsP3Re)与我们联系。

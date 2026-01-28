@@ -77,9 +77,3 @@
 恭喜您成功将 FIL 存入 GLIF！ 当您准备提取存款时，需要将 iFIL 返还给 GLIF 才能拿回您的 FIL。
 
 有关更多提取流程的详细教程，请[点击此处](cong-glif-ti-qu-fil.md)。
-
-## **加入我们的社区！**
-
-欢迎加入我们的[Discord](https://discord.gg/5qsJjsP3Re)和[Telegram](https://t.me/glifio)，或在[X](https://twitter.com/glifio)上关注我们，以获取最新消息。
-
-如果您遇到任何困难，请随时通过我们的[Discord支持工单](https://discord.gg/5qsJjsP3Re)与我们联系。

@@ -130,9 +130,3 @@
 ## 总结
 
 现在，您可以借助中介钱包，安全地将 FIL 从 Agent 提取到交易所的 f1 地址。记得始终仔细核对地址和交易信息，以确保资金安全。
-
-## **加入我们的社区！**
-
-欢迎加入我们的[Discord](https://discord.gg/5qsJjsP3Re)和[Telegram](https://t.me/glifio)，或在[X](https://twitter.com/glifio)上关注我们，以获取最新消息。
-
-如果您遇到任何困难，请随时通过我们的[Discord支持工单](https://discord.gg/5qsJjsP3Re)与我们联系。

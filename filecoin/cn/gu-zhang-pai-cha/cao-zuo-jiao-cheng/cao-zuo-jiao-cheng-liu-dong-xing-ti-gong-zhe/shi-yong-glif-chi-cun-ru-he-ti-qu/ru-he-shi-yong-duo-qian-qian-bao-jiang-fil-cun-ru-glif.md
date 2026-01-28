@@ -85,9 +85,3 @@
 
 现在，您能够顺利地将多签钱包中的 FIL 存入 GLIF 池，并开始获取收益！记得随时仔细核对地址和交易信息，以确保资金安全。\
 如果您想了解在完成存款后如何从 GLIF 池提取 FIL，请参考我们[下一篇教程](ru-he-shi-yong-duo-qian-qian-bao-cong-glif-ti-qu-fil.md)。
-
-## **加入我们的社区！**
-
-欢迎加入我们的[Discord](https://discord.gg/5qsJjsP3Re)和[Telegram](https://t.me/glifio)，或在[X](https://twitter.com/glifio)上关注我们，以获取最新消息。
-
-如果您遇到任何困难，请随时通过我们的[Discord支持工单](https://discord.gg/5qsJjsP3Re)与我们联系。

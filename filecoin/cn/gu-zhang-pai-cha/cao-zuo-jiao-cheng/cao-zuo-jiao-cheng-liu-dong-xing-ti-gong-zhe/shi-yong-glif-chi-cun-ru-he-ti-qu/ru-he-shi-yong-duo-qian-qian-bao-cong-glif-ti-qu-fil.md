@@ -136,9 +136,3 @@
 现在，您可以顺利地使用多签钱包从 GLIF 池中取回所存入的 FIL。记得随时仔细核对地址和交易信息，以确保资金安全。
 
 如果您想了解如何使用多签钱包向 GLIF 池进行存款，请参见我们[之前的教程](ru-he-shi-yong-duo-qian-qian-bao-jiang-fil-cun-ru-glif.md)。
-
-## **加入我们的社区！**
-
-欢迎加入我们的[Discord](https://discord.gg/5qsJjsP3Re)和[Telegram](https://t.me/glifio)，或在[X](https://twitter.com/glifio)上关注我们，以获取最新消息。
-
-如果您遇到任何困难，请随时通过我们的[Discord支持工单](https://discord.gg/5qsJjsP3Re)与我们联系。
