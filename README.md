@@ -15,3 +15,7 @@ public/              # Static assets (images, PDFs) referenced from docs
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for writing conventions, file naming rules, and link formats.
+
+## Technical documentation
+
+See [TECHNICAL.md](TECHNICAL.md) for architecture details.
