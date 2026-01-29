@@ -6,10 +6,10 @@
 
 ## 借款与清算价值比 (DTL)
 
-GLIF 上的借款限额由 [借款与清算价值比 (简称 DTL)](jie-kuan-shang-xian-jie-kuan-yu-qing-suan-jia-zhi-bi-dtl.md) 决定，计算 DTL 需要两个指标：
+GLIF 上的借款限额由 [借款与清算价值比 (简称 DTL)](/3-cun-chu-ti-gong-shang/3-jie-kuan-shang-xian-jie-kuan-yu-qing-suan-jia-zhi-bi-dtl) 决定，计算 DTL 需要两个指标：
 
 1. 债务 - SP 的未偿还本金加上任何未支付利息
-2. 清算价值 - SP 的 “抵押价值”（按[此处](sp-qing-suan-jia-zhi.md)了解更多）
+2. 清算价值 - SP 的 “抵押价值”（按[此处](/3-cun-chu-ti-gong-shang/2-sp-qing-suan-jia-zhi)了解更多）
 
 $$
 借款与清算价值比 (DTL)  = 债务 / 清算价值

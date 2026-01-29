@@ -4,7 +4,7 @@
 
 ## 清算阈值：借款与清算价值比 (DTL) > 85%
 
-[借款与清算价值比 (DTL)](jie-kuan-shang-xian-jie-kuan-yu-qing-suan-jia-zhi-bi-dtl.md) 用于衡量任何 SP 在 GLIF 系统中的资金安全，因为它代表了 SP 的抵押品情况。借款与清算价值比 (DTL)  < 100% 代表 SP 是过度抵押的，因为清算预计将收回 SP 欠 GLIF 池子的所有利息和本金。换句话说，清算将收回 SP 欠流动性提供者 (LP) 多于 100% 的资产。
+[借款与清算价值比 (DTL)](/3-cun-chu-ti-gong-shang/3-jie-kuan-shang-xian-jie-kuan-yu-qing-suan-jia-zhi-bi-dtl) 用于衡量任何 SP 在 GLIF 系统中的资金安全，因为它代表了 SP 的抵押品情况。借款与清算价值比 (DTL)  < 100% 代表 SP 是过度抵押的，因为清算预计将收回 SP 欠 GLIF 池子的所有利息和本金。换句话说，清算将收回 SP 欠流动性提供者 (LP) 多于 100% 的资产。
 
 债务对清算价值比 (DTL) 高于 85% 的 SP 处于清算的高度风险区。必须立即采取纠正措施，并与 GLIF 团队主动沟通，以避免被清算和最大限度地减少进一步损失。
 

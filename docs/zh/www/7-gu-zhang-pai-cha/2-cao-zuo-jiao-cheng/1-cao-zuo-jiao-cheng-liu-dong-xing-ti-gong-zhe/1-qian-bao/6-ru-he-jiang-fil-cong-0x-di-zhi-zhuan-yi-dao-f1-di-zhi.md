@@ -1,6 +1,6 @@
 # 如何将 FIL 从 0x 地址转移到 f1 地址
 
-要将 FIL 从 0x 地址转移到 f1 地址，您需要使用一个中介钱包，例如[FilSnap钱包](ru-he-li-yong-filsnap-qian-bao-zuo-wei-zhong-jie-qian-bao.md)、[Burner钱包](ru-he-li-yong-burner-qian-bao-zuo-wei-zhong-jie-qian-bao.md)或[Ledger钱包](ru-he-li-yong-ledger-qian-bao-zuo-wei-zhong-jie-qian-bao.md)，协助您在不同格式的地址之间转移FIL。本教程将带您创建中介钱包，并将FIL从您的0x地址转移到最终的f1地址。
+要将 FIL 从 0x 地址转移到 f1 地址，您需要使用一个中介钱包，例如[FilSnap钱包](/7-gu-zhang-pai-cha/2-cao-zuo-jiao-cheng/1-cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/1-qian-bao/4-ru-he-li-yong-filsnap-qian-bao-zuo-wei-zhong-jie-qian-bao)、[Burner钱包](/7-gu-zhang-pai-cha/2-cao-zuo-jiao-cheng/1-cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/1-qian-bao/3-ru-he-li-yong-burner-qian-bao-zuo-wei-zhong-jie-qian-bao)或[Ledger钱包](/7-gu-zhang-pai-cha/2-cao-zuo-jiao-cheng/1-cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/1-qian-bao/2-ru-he-li-yong-ledger-qian-bao-zuo-wei-zhong-jie-qian-bao)，协助您在不同格式的地址之间转移FIL。本教程将带您创建中介钱包，并将FIL从您的0x地址转移到最终的f1地址。
 
 > [!NOTE]
 > 本教程以MetaMask钱包为例，因为它与FEVM兼容性很高，但其他钱包同样适用。如果您遇到任何问题，可以参考我们的[常见问题解答](../../../chang-jian-wen-ti/)，或通过[Discord支持工单](https://discord.gg/5qsJjsP3Re)联系GLIF团队。
@@ -9,11 +9,11 @@
 
 本教程将引导您完成：
 
-[步骤1：设置您的中介钱包](ru-he-jiang-fil-cong-0x-di-zhi-zhuan-yi-dao-f1-di-zhi.md#bu-zhou-1-she-zhi-nin-de-zhong-jie-qian-bao)
+[步骤1：设置您的中介钱包](#bu-zhou-1-she-zhi-nin-de-zhong-jie-qian-bao)
 
-[步骤2：将FIL从0x地址（MetaMask）发送到f1地址（中介钱包）](ru-he-jiang-fil-cong-0x-di-zhi-zhuan-yi-dao-f1-di-zhi.md#bu-zhou-2-jiang-fil-cong-0x-di-zhi-metamask-fa-song-dao-f1-di-zhi-zhong-jie-qian-bao)
+[步骤2：将FIL从0x地址（MetaMask）发送到f1地址（中介钱包）](#bu-zhou-2-jiang-fil-cong-0x-di-zhi-metamask-fa-song-dao-f1-di-zhi-zhong-jie-qian-bao)
 
-[步骤3：将FIL从中介钱包转移到您的f1地址（最终目的地）](ru-he-jiang-fil-cong-0x-di-zhi-zhuan-yi-dao-f1-di-zhi.md#bu-zhou-3-jiang-fil-cong-zhong-jie-qian-bao-zhuan-yi-dao-nin-de-f1-di-zhi-zui-zhong-mu-di-di)
+[步骤3：将FIL从中介钱包转移到您的f1地址（最终目的地）](#bu-zhou-3-jiang-fil-cong-zhong-jie-qian-bao-zhuan-yi-dao-nin-de-f1-di-zhi-zui-zhong-mu-di-di)
 
 > [!TIP]
 > **在向任何钱包发送FIL之前，请先发送少量FIL作为测试。**
@@ -24,11 +24,11 @@
 
 您可以从以下中介钱包选项中，选择一个以获取f1地址：
 
-[选项A：Burner钱包](ru-he-li-yong-burner-qian-bao-zuo-wei-zhong-jie-qian-bao.md)
+[选项A：Burner钱包](/7-gu-zhang-pai-cha/2-cao-zuo-jiao-cheng/1-cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/1-qian-bao/3-ru-he-li-yong-burner-qian-bao-zuo-wei-zhong-jie-qian-bao)
 
-[选项B：FilSnap钱包](ru-he-li-yong-filsnap-qian-bao-zuo-wei-zhong-jie-qian-bao.md)
+[选项B：FilSnap钱包](/7-gu-zhang-pai-cha/2-cao-zuo-jiao-cheng/1-cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/1-qian-bao/4-ru-he-li-yong-filsnap-qian-bao-zuo-wei-zhong-jie-qian-bao)
 
-[选项C：Ledger钱包](ru-he-li-yong-ledger-qian-bao-zuo-wei-zhong-jie-qian-bao.md)
+[选项C：Ledger钱包](/7-gu-zhang-pai-cha/2-cao-zuo-jiao-cheng/1-cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/1-qian-bao/2-ru-he-li-yong-ledger-qian-bao-zuo-wei-zhong-jie-qian-bao)
 
 有关创建中介钱包的详细教程，请点击以上链接。
 
@@ -55,7 +55,7 @@
 
 ![步骤2：将FIL从0x地址](cn-image-54.png)
 
-4. 在“**发送推送FIL**”页面，收款人填写中介钱包的f1地址。这是在[步骤1](ru-he-jiang-fil-cong-0x-di-zhi-zhuan-yi-dao-f1-di-zhi.md#bu-zhou-1-she-zhi-nin-de-zhong-jie-qian-bao)中创建的钱包。例子中使用的是Burner钱包。
+4. 在“**发送推送FIL**”页面，收款人填写中介钱包的f1地址。这是在[步骤1](#bu-zhou-1-she-zhi-nin-de-zhong-jie-qian-bao)中创建的钱包。例子中使用的是Burner钱包。
 5. 输入您希望转移的FIL数量（请先使用少量FIL进行测试）。
 
 > [!WARNING]

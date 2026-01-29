@@ -3,7 +3,7 @@
 This tutorial will guide you through the process of using your iFIL tokens to withdraw FIL from GLIF. **Withdrawing FIL from GLIF requires 2 transactions.**
 
 > [!NOTE]
-> To learn more about the mechanics of withdrawals, click [here](../../../../for-liquidity-providers/exit-withdraw-fil.md).
+> To learn more about the mechanics of withdrawals, click [here](/2-for-liquidity-providers/3-exit-withdraw-fil).
 
 ## Step 1: Connect your wallet to GLIF
 
@@ -18,7 +18,7 @@ This tutorial will guide you through the process of using your iFIL tokens to wi
 ## Step 2: Go to the “Pool” page
 
 1. Within the “Pool” section, find the “**Withdraw**” option.
-2. Enter the amount of iFIL you want to redeem, and the corresponding amount of FIL to receive will be displayed. Read more about iFIL [here](../../../../for-liquidity-providers/glif-reward-mechanism-ifil.md).
+2. Enter the amount of iFIL you want to redeem, and the corresponding amount of FIL to receive will be displayed. Read more about iFIL [here](/2-for-liquidity-providers/2-glif-reward-mechanism-ifil).
 3. Click “**Approve**”.
 
 ![Approve button](en-image-177.png)

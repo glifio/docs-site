@@ -6,13 +6,13 @@
 
 在本教程中，您将完成以下三个主要步骤：
 
-1. [第一步：创建多签钱包](ru-he-shi-yong-duo-qian-qian-bao-jiang-fil-cun-ru-glif.md#di-yi-bu-chuang-jian-duo-qian-qian-bao)
-2. [第二步：从多签钱包中存入 FIL](ru-he-shi-yong-duo-qian-qian-bao-jiang-fil-cun-ru-glif.md#di-er-bu-cong-duo-qian-qian-bao-zhong-cun-ru-fil)
-3. [第三步：批准多签钱包提案](ru-he-shi-yong-duo-qian-qian-bao-jiang-fil-cun-ru-glif.md#di-san-bu-pi-zhun-duo-qian-qian-bao-ti-an)
+1. [第一步：创建多签钱包](#di-yi-bu-chuang-jian-duo-qian-qian-bao)
+2. [第二步：从多签钱包中存入 FIL](#di-er-bu-cong-duo-qian-qian-bao-zhong-cun-ru-fil)
+3. [第三步：批准多签钱包提案](#di-san-bu-pi-zhun-duo-qian-qian-bao-ti-an)
 
 ## 第一步：创建多签钱包
 
-创建多签钱包的详细操作，请参见[本教程](../qian-bao/ru-he-zai-glif-shang-chuang-jian-duo-qian-qian-bao.md)。
+创建多签钱包的详细操作，请参见[本教程](/7-gu-zhang-pai-cha/2-cao-zuo-jiao-cheng/1-cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/1-qian-bao/7-ru-he-zai-glif-shang-chuang-jian-duo-qian-qian-bao)。
 
 ***
 
@@ -33,7 +33,7 @@
 输入您想要存入的 FIL 数量。确认存款细节，包括您将收到多少 iFIL。然后点击“**发送**”。
 
 > [!WARNING]
-> 请注意：FIL 与 iFIL 可能不会是 1:1 比例，具体细节请参考[文档中关于 iFIL 计算](../../../../liu-dong-xing-ti-gong-zhe/glif-jiang-li-ji-zhi-ifil.md)的说明。
+> 请注意：FIL 与 iFIL 可能不会是 1:1 比例，具体细节请参考[文档中关于 iFIL 计算](/2-liu-dong-xing-ti-gong-zhe/2-glif-jiang-li-ji-zhi-ifil)的说明。
 
 ![第二步：从多签钱包中存入 FIL](cn-image-313.png)
 
@@ -84,4 +84,4 @@
 ## 结论
 
 现在，您能够顺利地将多签钱包中的 FIL 存入 GLIF 池，并开始获取收益！记得随时仔细核对地址和交易信息，以确保资金安全。\
-如果您想了解在完成存款后如何从 GLIF 池提取 FIL，请参考我们[下一篇教程](ru-he-shi-yong-duo-qian-qian-bao-cong-glif-ti-qu-fil.md)。
+如果您想了解在完成存款后如何从 GLIF 池提取 FIL，请参考我们[下一篇教程](/7-gu-zhang-pai-cha/2-cao-zuo-jiao-cheng/1-cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/2-shi-yong-glif-chi-cun-ru-he-ti-qu/5-ru-he-shi-yong-duo-qian-qian-bao-cong-glif-ti-qu-fil)。

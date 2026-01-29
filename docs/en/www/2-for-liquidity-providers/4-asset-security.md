@@ -2,9 +2,9 @@
 
 ## Economic security - liquidation mechanism
 
-GLIF economic security is based on Storage Providers (SPs) consistently staying over-collateralized. If an SP breaches its collateral limits, the SP will be liquidated, and the recovered assets paid back to the pool on behalf of SPs before losses occur. GLIF measures collateralization using the [debt-to-liquidation (DTL)](../for-storage-providers/borrowing-limits-and-dtl.md) value ratio, which measures how much an SP has borrowed compared to its liquidation value. Liquidation value is the estimated value of an SP in a [liquidation scenario](../for-storage-providers/liquidations.md), accounting for penalties and other losses.
+GLIF economic security is based on Storage Providers (SPs) consistently staying over-collateralized. If an SP breaches its collateral limits, the SP will be liquidated, and the recovered assets paid back to the pool on behalf of SPs before losses occur. GLIF measures collateralization using the [debt-to-liquidation (DTL)](/3-for-storage-providers/3-borrowing-limits-and-dtl) value ratio, which measures how much an SP has borrowed compared to its liquidation value. Liquidation value is the estimated value of an SP in a [liquidation scenario](/3-for-storage-providers/5-liquidations), accounting for penalties and other losses.
 
-Read more about the [economic safety rules](../for-storage-providers/liquidations.md) here.
+Read more about the [economic safety rules](/3-for-storage-providers/5-liquidations) here.
 
 ## Code security - audits and continuous monitoring
 

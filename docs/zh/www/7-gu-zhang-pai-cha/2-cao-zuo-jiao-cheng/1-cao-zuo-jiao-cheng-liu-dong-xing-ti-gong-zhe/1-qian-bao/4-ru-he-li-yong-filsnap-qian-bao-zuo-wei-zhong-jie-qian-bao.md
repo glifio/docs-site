@@ -3,7 +3,7 @@
 Filecoin生态系统中有各种类型的地址，例如f0、f1、f2、f3和f410（或0x）。某些钱包，如Metamask，仅支持0x地址，而某些交易所仅能识别f1地址。由于这些差异，某些钱包或交易所可能无法将特定的地址类型识别为有效的Filecoin接收地址。在这种情况下，可能需要一个中介钱包来充当桥梁。
 
 \
-本教程解释了如何创建一个带有f1地址的FilSnap钱包，可以用作中转点，将FIL从主钱包转移到最终目的地。除了FilSnap钱包，您还可以选择使用[Ledger钱包](ru-he-li-yong-ledger-qian-bao-zuo-wei-zhong-jie-qian-bao.md)或[Burner钱包](ru-he-li-yong-burner-qian-bao-zuo-wei-zhong-jie-qian-bao.md) 作为中介钱包。
+本教程解释了如何创建一个带有f1地址的FilSnap钱包，可以用作中转点，将FIL从主钱包转移到最终目的地。除了FilSnap钱包，您还可以选择使用[Ledger钱包](/7-gu-zhang-pai-cha/2-cao-zuo-jiao-cheng/1-cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/1-qian-bao/2-ru-he-li-yong-ledger-qian-bao-zuo-wei-zhong-jie-qian-bao)或[Burner钱包](/7-gu-zhang-pai-cha/2-cao-zuo-jiao-cheng/1-cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/1-qian-bao/3-ru-he-li-yong-burner-qian-bao-zuo-wei-zhong-jie-qian-bao) 作为中介钱包。
 
 ## 操作教程
 

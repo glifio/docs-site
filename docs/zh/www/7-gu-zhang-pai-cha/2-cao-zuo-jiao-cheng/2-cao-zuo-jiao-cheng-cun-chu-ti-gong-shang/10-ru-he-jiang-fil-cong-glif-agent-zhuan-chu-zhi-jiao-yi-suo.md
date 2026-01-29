@@ -6,14 +6,14 @@
 
 本教程将为您介绍以下步骤：
 
-[第一步：设置中介钱包](ru-he-jiang-fil-cong-glif-agent-zhuan-chu-zhi-jiao-yi-suo.md#di-yi-bu-she-zhi-zhong-jie-qian-bao)
+[第一步：设置中介钱包](#di-yi-bu-she-zhi-zhong-jie-qian-bao)
 
-[第二步：从 Agent 提取到中介钱包](ru-he-jiang-fil-cong-glif-agent-zhuan-chu-zhi-jiao-yi-suo.md#di-er-bu-cong-agent-ti-qu-dao-zhong-jie-qian-bao)
+[第二步：从 Agent 提取到中介钱包](#di-er-bu-cong-agent-ti-qu-dao-zhong-jie-qian-bao)
 
-* [2a：通过 GLIF 网站操作](ru-he-jiang-fil-cong-glif-agent-zhuan-chu-zhi-jiao-yi-suo.md#id-2a-tong-guo-glif-wang-zhan-cao-zuo)
-* [2b：通过 CLI 操作](ru-he-jiang-fil-cong-glif-agent-zhuan-chu-zhi-jiao-yi-suo.md#id-2b-tong-guo-cli-cao-zuo)
+* [2a：通过 GLIF 网站操作](#id-2a-tong-guo-glif-wang-zhan-cao-zuo)
+* [2b：通过 CLI 操作](#id-2b-tong-guo-cli-cao-zuo)
 
-[第三步：从中介钱包将 FIL 转到交易所的目标 `f1` 地址](ru-he-jiang-fil-cong-glif-agent-zhuan-chu-zhi-jiao-yi-suo.md#di-san-bu-cong-zhong-jian-qian-bao-jiang-fil-zhuan-dao-jiao-yi-suo-de-mu-biao-f1-di-zhi)
+[第三步：从中介钱包将 FIL 转到交易所的目标 `f1` 地址](#di-san-bu-cong-zhong-jian-qian-bao-jiang-fil-zhuan-dao-jiao-yi-suo-de-mu-biao-f1-di-zhi)
 
 > [!TIP]
 > 在向任何钱包发送 FIL 之前，最好先用少量 FIL 作为测试交易。
@@ -27,9 +27,9 @@
 
 您可以从以下选项中选择一个作为中介钱包，以获取 f1 地址：
 
-* [选项 A：Burner 钱包](../cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/qian-bao/ru-he-li-yong-burner-qian-bao-zuo-wei-zhong-jie-qian-bao.md)
-* [选项 B：FilSnap 钱包](../cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/qian-bao/ru-he-li-yong-filsnap-qian-bao-zuo-wei-zhong-jie-qian-bao.md)
-* [选项 C：Ledger 钱包](../cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/qian-bao/ru-he-li-yong-ledger-qian-bao-zuo-wei-zhong-jie-qian-bao.md)
+* [选项 A：Burner 钱包](/7-gu-zhang-pai-cha/2-cao-zuo-jiao-cheng/1-cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/1-qian-bao/3-ru-he-li-yong-burner-qian-bao-zuo-wei-zhong-jie-qian-bao)
+* [选项 B：FilSnap 钱包](/7-gu-zhang-pai-cha/2-cao-zuo-jiao-cheng/1-cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/1-qian-bao/4-ru-he-li-yong-filsnap-qian-bao-zuo-wei-zhong-jie-qian-bao)
+* [选项 C：Ledger 钱包](/7-gu-zhang-pai-cha/2-cao-zuo-jiao-cheng/1-cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/1-qian-bao/2-ru-he-li-yong-ledger-qian-bao-zuo-wei-zhong-jie-qian-bao)
 
 有关创建中介钱包的更多详情，请参见上方链接的教程。
 
@@ -42,7 +42,7 @@
 
 ![2a：通过 GLIF 网站操作](cn-image-286.png)
 
-3. 收款人填入您在[第一步](ru-he-jiang-fil-cong-glif-agent-zhuan-chu-zhi-jiao-yi-suo.md#di-yi-bu-she-zhi-zhong-jie-qian-bao)创建的中介钱包地址。
+3. 收款人填入您在[第一步](#di-yi-bu-she-zhi-zhong-jie-qian-bao)创建的中介钱包地址。
 4. 输入要提取的数量
 5. 点击“**取款**”。
 
@@ -110,7 +110,7 @@
 
 ## 第三步：从中间钱包将 FIL 转到交易所的目标 `f1` 地址
 
-1. 使用[第一步](ru-he-jiang-fil-cong-glif-agent-zhuan-chu-zhi-jiao-yi-suo.md#di-yi-bu-she-zhi-zhong-jie-qian-bao)创建的中介钱包登录 GLIF 网站，然后点击 “**发送 FIL**”。
+1. 使用[第一步](#di-yi-bu-she-zhi-zhong-jie-qian-bao)创建的中介钱包登录 GLIF 网站，然后点击 “**发送 FIL**”。
 
 ![第三步：从中间钱包将 FIL](cn-image-301.png)
 

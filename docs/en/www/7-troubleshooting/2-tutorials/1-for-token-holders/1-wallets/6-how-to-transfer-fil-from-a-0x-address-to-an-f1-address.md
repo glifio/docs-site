@@ -1,19 +1,19 @@
 # How to transfer FIL from a 0x address to an f1 address
 
-To send FIL from a 0x address to an f1 address, you will need to use an intermediary wallet such as a [FilSnap wallet](how-to-obtain-a-filsnap-wallet-as-the-intermediary-wallet.md), [burner wallet](how-to-obtain-a-burner-wallet-as-the-intermediary-wallet.md), or [Ledger](how-to-obtain-a-ledger-wallet-as-the-intermediary-wallet.md), which facilitates the necessary conversions. This guide will walk you through the process of creating an intermediary wallet and using it as an intermediary to transfer FIL from your 0x address to the desired f1 address.
+To send FIL from a 0x address to an f1 address, you will need to use an intermediary wallet such as a [FilSnap wallet](/7-troubleshooting/2-tutorials/1-for-token-holders/1-wallets/4-how-to-obtain-a-filsnap-wallet-as-the-intermediary-wallet), [burner wallet](/7-troubleshooting/2-tutorials/1-for-token-holders/1-wallets/3-how-to-obtain-a-burner-wallet-as-the-intermediary-wallet), or [Ledger](/7-troubleshooting/2-tutorials/1-for-token-holders/1-wallets/2-how-to-obtain-a-ledger-wallet-as-the-intermediary-wallet), which facilitates the necessary conversions. This guide will walk you through the process of creating an intermediary wallet and using it as an intermediary to transfer FIL from your 0x address to the desired f1 address.
 
 > [!HINT]
-> This tutorial uses MetaMask wallet as an example, as it works better with FEVM; other wallets also work. You can refer to our [FAQ](../../../faq/faq-for-liquidity-providers/wallet-connection.md) if you encounter any trouble or please contact GLIF through a [Discord support ticket](https://discord.gg/5qsJjsP3Re).
+> This tutorial uses MetaMask wallet as an example, as it works better with FEVM; other wallets also work. You can refer to our [FAQ](/7-troubleshooting/1-faq/1-for-liquidity-providers/5-wallet-connection) if you encounter any trouble or please contact GLIF through a [Discord support ticket](https://discord.gg/5qsJjsP3Re).
 
 ## Contents
 
 This guide will walk you through:
 
-**Step 1:** [**Set Up Your Intermediary Wallet**](how-to-transfer-fil-from-a-0x-address-to-an-f1-address.md#step-1-set-up-your-burner-wallet-on-glif)
+**Step 1:** [**Set Up Your Intermediary Wallet**](#step-1-set-up-your-burner-wallet-on-glif)
 
-**Step 2:** [**Send FIL from 0x address (MetaMask) to f1 address (intermediary wallet)**](how-to-transfer-fil-from-a-0x-address-to-an-f1-address.md#step-2-send-fil-from-0x-address-main-wallet-to-f1-address-intermediary-wallet)
+**Step 2:** [**Send FIL from 0x address (MetaMask) to f1 address (intermediary wallet)**](#step-2-send-fil-from-0x-address-main-wallet-to-f1-address-intermediary-wallet)
 
-**Step 3:** [**Transfer FIL from Burner Wallet to your f1 address (final destination)**](how-to-transfer-fil-from-a-0x-address-to-an-f1-address.md#step-3-transfer-fil-from-burner-wallet-to-your-f1-address-final-destination)
+**Step 3:** [**Transfer FIL from Burner Wallet to your f1 address (final destination)**](#step-3-transfer-fil-from-burner-wallet-to-your-f1-address-final-destination)
 
 > [!IMPORTANT]
 > **Before your send any FIL to any wallet, test it with a small amount of FIL.**
@@ -24,9 +24,9 @@ This guide will walk you through:
 
 You can choose an intermediary wallet to obtain an `f1` address from the following options:
 
-* [Choice A: Burner Wallet](how-to-obtain-a-burner-wallet-as-the-intermediary-wallet.md)
-* [Choice B: FilSnap Wallet](how-to-obtain-a-filsnap-wallet-as-the-intermediary-wallet.md)
-* [Choice C: Ledger Wallet](how-to-obtain-a-ledger-wallet-as-the-intermediary-wallet.md)
+* [Choice A: Burner Wallet](/7-troubleshooting/2-tutorials/1-for-token-holders/1-wallets/3-how-to-obtain-a-burner-wallet-as-the-intermediary-wallet)
+* [Choice B: FilSnap Wallet](/7-troubleshooting/2-tutorials/1-for-token-holders/1-wallets/4-how-to-obtain-a-filsnap-wallet-as-the-intermediary-wallet)
+* [Choice C: Ledger Wallet](/7-troubleshooting/2-tutorials/1-for-token-holders/1-wallets/2-how-to-obtain-a-ledger-wallet-as-the-intermediary-wallet)
 
 For details on creating an intermediary wallet, please refer to the tutorial by clicking the link.
 
@@ -59,7 +59,7 @@ For details on creating an intermediary wallet, please refer to the tutorial by 
 
 ![Send button](en-image-86.png)
 
-5. In the “**Forward FIL**” page, paste your **intermediary wallet's f1 address** in the recipient field. This is the wallet created in [Step 1](how-to-transfer-fil-from-a-0x-address-to-an-f1-address.md#step-1-set-up-your-intermediary-wallet). Burner wallet is used as an example here.
+5. In the “**Forward FIL**” page, paste your **intermediary wallet's f1 address** in the recipient field. This is the wallet created in [Step 1](#step-1-set-up-your-intermediary-wallet). Burner wallet is used as an example here.
 6. Enter the amount of FIL you wish to transfer (start with a small test amount).
 
 > [!WARNING]

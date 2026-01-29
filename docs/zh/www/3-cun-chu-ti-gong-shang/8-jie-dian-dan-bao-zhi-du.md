@@ -4,4 +4,4 @@
 
 ![节点担保制度](cn-image-377.png)
 
-用作抵押节点的Miner Actor不需要是最终接收借款资金的Miner Actor。在 [Agents](shi-yong-agents-guan-li-jie-dian.md) 部分裡有关于汇总借款能力的更多信息。
+用作抵押节点的Miner Actor不需要是最终接收借款资金的Miner Actor。在 [Agents](/3-cun-chu-ti-gong-shang/7-shi-yong-agents-guan-li-jie-dian) 部分裡有关于汇总借款能力的更多信息。

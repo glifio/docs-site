@@ -6,8 +6,8 @@ GLIF+ Loyalty Cards allow $GLF Token Holders to receive benefits from using GLIF
 
 ## Table of Contents
 
-[Benefits for Storage Providers](benefits-for-storage-providers.md)
+[Benefits for Storage Providers](/5-glif+-storage-providers-loyalty-rewards/2-benefits-for-storage-providers)
 
-[Tiers and Limits](tiers-and-limits.md)
+[Tiers and Limits](/5-glif+-storage-providers-loyalty-rewards/3-tiers-and-limits)
 
-[How to Join GLIF+ SP Program](how-to-join-glif+-sp-program.md)
+[How to Join GLIF+ SP Program](/5-glif+-storage-providers-loyalty-rewards/4-how-to-join-glif+-sp-program)

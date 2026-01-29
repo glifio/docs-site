@@ -6,15 +6,15 @@ Depositing your FIL tokens through a GLIF multisig wallet enhances security and 
 
 In this tutorial, you will follow these three main steps:
 
-[**Step 1: Create a multisig wallet**](how-to-deposit-fil-to-glif-using-multisig-wallet.md#step-1-create-a-multisig-wallet)
+[**Step 1: Create a multisig wallet**](#step-1-create-a-multisig-wallet)
 
-[**Step 2: Deposit FIL from your multisig wallet**](how-to-deposit-fil-to-glif-using-multisig-wallet.md#step-2-deposit-fil-from-your-multisig-wallet)
+[**Step 2: Deposit FIL from your multisig wallet**](#step-2-deposit-fil-from-your-multisig-wallet)
 
-[**Step 3: Approve the multisig proposal**](how-to-deposit-fil-to-glif-using-multisig-wallet.md#step-3-approve-the-multisig-proposal)
+[**Step 3: Approve the multisig proposal**](#step-3-approve-the-multisig-proposal)
 
 ## **Step 1: Create a multisig wallet**
 
-Refer to [this tutorial](../wallets/how-to-create-a-multisig-wallet-on-glif.md) for detailed **instructions** on creating a multisig wallet.
+Refer to [this tutorial](/7-troubleshooting/2-tutorials/1-for-token-holders/1-wallets/7-how-to-create-a-multisig-wallet-on-glif) for detailed **instructions** on creating a multisig wallet.
 
 ## **Step 2: Deposit FIL from your multisig wallet**
 
@@ -35,7 +35,7 @@ Go to the “**Filecoin Balance**” section, click on the “**⋯**” button 
 Enter the amount of FIL you wish to deposit. Review the details, including the amount of iFIL you will receive. Click “**Send**”.
 
 > [!NOTE]
-> The FIL to iFIL ratio may not be 1:1 due to price fluctuations. Refer to this section of the [docs](../../../../for-liquidity-providers/glif-reward-mechanism-ifil.md) for more details on iFIL calculations.
+> The FIL to iFIL ratio may not be 1:1 due to price fluctuations. Refer to this section of the [docs](/2-for-liquidity-providers/2-glif-reward-mechanism-ifil) for more details on iFIL calculations.
 
 ![Deposit FIL](en-image-336.png)
 
@@ -84,4 +84,4 @@ After the transaction is complete, your FIL will be deposited, and you will rece
 
 By following this step-by-step guide, you can successfully deposit your FIL from a multisig wallet into the GLIF pool and start earning rewards! Remember to always double-check addresses and transaction details to ensure the accuracy and security of your funds.
 
-If you want to learn how to **withdraw** from the GLIF pool after making a deposit, refer to our next tutorial [here](how-to-withdraw-fil-from-glif-using-a-multisig-wallet.md).
+If you want to learn how to **withdraw** from the GLIF pool after making a deposit, refer to our next tutorial [here](/7-troubleshooting/2-tutorials/1-for-token-holders/2-using-the-pool/5-how-to-withdraw-fil-from-glif-using-a-multisig-wallet).

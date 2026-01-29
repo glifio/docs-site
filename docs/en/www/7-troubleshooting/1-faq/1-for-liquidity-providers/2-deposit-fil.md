@@ -2,15 +2,15 @@
 
 ## What is iFIL?
 
-iFIL is an ERC20 token deployed on Filecoin that Liquidity Providers (LPs) hold to earn rewards. As long as Storage Providers (SPs) are borrowing FIL from the pool, the value of iFIL increases every block, which translates into rewards for LPs. To learn more, click [here](../../../for-liquidity-providers/glif-reward-mechanism-ifil.md).
+iFIL is an ERC20 token deployed on Filecoin that Liquidity Providers (LPs) hold to earn rewards. As long as Storage Providers (SPs) are borrowing FIL from the pool, the value of iFIL increases every block, which translates into rewards for LPs. To learn more, click [here](/2-for-liquidity-providers/2-glif-reward-mechanism-ifil).
 
 ## How can I earn rewards from holding iFIL?
 
-iFIL can be thought of as a 'redemption ticket' for FIL deposited into GLIF. It allows the iFIL holder to withdraw FIL from the pool. The amount of FIL that can be redeemed with 1 iFIL token increases as the pool earns fees from SPs. To learn more, click [here](../../../for-liquidity-providers/glif-reward-mechanism-ifil.md).
+iFIL can be thought of as a 'redemption ticket' for FIL deposited into GLIF. It allows the iFIL holder to withdraw FIL from the pool. The amount of FIL that can be redeemed with 1 iFIL token increases as the pool earns fees from SPs. To learn more, click [here](/2-for-liquidity-providers/2-glif-reward-mechanism-ifil).
 
 ## How do I provide liquidity in GLIF? / How do I get iFIL?
 
-Liquidity can be provided by depositing FIL into GLIF on the pool page [here](https://www.glif.io/zh/pool/infinity). In exchange for your deposit, you'll receive a proportionate amount of [iFIL](../../../for-liquidity-providers/glif-reward-mechanism-ifil.md) tokens at the current iFIL price.
+Liquidity can be provided by depositing FIL into GLIF on the pool page [here](https://www.glif.io/zh/pool/infinity). In exchange for your deposit, you'll receive a proportionate amount of [iFIL](/2-for-liquidity-providers/2-glif-reward-mechanism-ifil) tokens at the current iFIL price.
 
 ## Where can I see my earnings in GLIF?
 

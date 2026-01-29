@@ -6,15 +6,15 @@ The wait is over, $GLF has arrived! It's time to learn how to claim your tokens 
 
 You can read the part that applies to you:
 
-* [For Liquidity Providers](how-to-claim-glf-airdrop.md#for-liquidity-providers)
-  * [Step 1: Start Claiming on the GLIF Website](how-to-claim-glf-airdrop.md#step-1-start-claiming-on-the-glif-website)
-  * [Step 2: Redeem $GLF Tokens from the NFT](how-to-claim-glf-airdrop.md#step-2-redeem-usdglf-tokens-from-the-nft)
-* [For Storage Providers](how-to-claim-glf-airdrop.md#for-storage-providers)
-  * [Claim Your Airdrop via CLI](how-to-claim-glf-airdrop.md#claim-your-airdrop-via-cli)
-  * [Claim Your Airdrop via the GLIF website](how-to-claim-glf-airdrop.md#claim-your-airdrop-via-the-glif-website)
-    * [Step 1: Start Claiming on the GLIF Website](how-to-claim-glf-airdrop.md#step-1-start-claiming-on-the-glif-website-1)
-    * [Step 2: Approve Claim and Delegate proposal](how-to-claim-glf-airdrop.md#step-2-approve-claim-and-delegate-proposal)
-    * [Step 3: Redeem $GLF Tokens from the NFT](how-to-claim-glf-airdrop.md#step-3-redeem-usdglf-tokens-from-the-nft)
+* [For Liquidity Providers](#for-liquidity-providers)
+  * [Step 1: Start Claiming on the GLIF Website](#step-1-start-claiming-on-the-glif-website)
+  * [Step 2: Redeem $GLF Tokens from the NFT](#step-2-redeem-usdglf-tokens-from-the-nft)
+* [For Storage Providers](#for-storage-providers)
+  * [Claim Your Airdrop via CLI](#claim-your-airdrop-via-cli)
+  * [Claim Your Airdrop via the GLIF website](#claim-your-airdrop-via-the-glif-website)
+    * [Step 1: Start Claiming on the GLIF Website](#step-1-start-claiming-on-the-glif-website-1)
+    * [Step 2: Approve Claim and Delegate proposal](#step-2-approve-claim-and-delegate-proposal)
+    * [Step 3: Redeem $GLF Tokens from the NFT](#step-3-redeem-usdglf-tokens-from-the-nft)
 
 If your eligible wallet is a multisig wallet, the claiming process is very similar to that of an agent's owner multisig wallet. Please refer to the Storage Provider section.
 
@@ -112,7 +112,7 @@ If you would like to claim through the website interface, please follow the inst
 
 1. Click “Return to Dashboard” or go to your “Multisig” wallet page.
 
-_If your Agent owner is a **single-signer/EOA wallet**, you do not need to sign any proposal. You can skip directly to_ [_Step 3_](how-to-claim-glf-airdrop.md#step-3-redeem-usdglf-tokens-from-the-nft)_._
+_If your Agent owner is a **single-signer/EOA wallet**, you do not need to sign any proposal. You can skip directly to_ [_Step 3_](#step-3-redeem-usdglf-tokens-from-the-nft)_._
 
 ![Claim confirmation](en-glf-airdrop-05-redeem-glf.png)
 

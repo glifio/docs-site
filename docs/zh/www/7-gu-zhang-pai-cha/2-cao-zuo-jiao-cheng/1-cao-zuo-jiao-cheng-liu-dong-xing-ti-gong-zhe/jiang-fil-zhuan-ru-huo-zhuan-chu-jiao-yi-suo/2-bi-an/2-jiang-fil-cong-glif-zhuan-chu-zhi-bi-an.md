@@ -1,6 +1,6 @@
 # 将 FIL 从 GLIF 转出至币安
 
-本教程将带您将 iFIL 代币从 GLIF 提现到交易所。本教程专门针对将 FIL 转移到 币安。请[点击此处](../zai-jiao-yi-suo-he-glif-zhi-jian-zhuan-yi-fil.md)查看其他交易所的教程。
+本教程将带您将 iFIL 代币从 GLIF 提现到交易所。本教程专门针对将 FIL 转移到 币安。请[点击此处](/7-gu-zhang-pai-cha/2-cao-zuo-jiao-cheng/1-cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/jiang-fil-zhuan-ru-huo-zhuan-chu-jiao-yi-suo/1-zai-jiao-yi-suo-he-glif-zhi-jian-zhuan-yi-fil)查看其他交易所的教程。
 
 > [!NOTE]
 > GLIF 与大多数 EVM 钱包兼容。本教程以 MetaMask 钱包为示例，其他钱包同样适用。\
@@ -11,7 +11,7 @@
 ## 步骤 1：从 GLIF 提取 FIL 到您的钱包
 
 1. 将您存入 GLIF 并持有 iFIL 的钱包连接到 GLIF。
-2. 要将您的 iFIL 从 GLIF 池中转换为 FIL，请查看[此教程](../../shi-yong-glif-chi-cun-ru-he-ti-qu/cong-glif-ti-qu-fil.md)。
+2. 要将您的 iFIL 从 GLIF 池中转换为 FIL，请查看[此教程](/7-gu-zhang-pai-cha/2-cao-zuo-jiao-cheng/1-cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/2-shi-yong-glif-chi-cun-ru-he-ti-qu/4-cong-glif-ti-qu-fil)。
 3. 提取 FIL 后，您将在钱包中收到 FIL。点击 GLIF 左上方的“钱包”标签，您将能够在 “Account” 部分查看 FIL 和 iFIL 的余额。
 
 ![步骤 1：从 GLIF 提取](cn-image-229.png)
@@ -43,7 +43,7 @@
 
 ![步骤 3：将 FIL 从您的钱](cn-image-235.png)
 
-2. 将您在[步骤 2](jiang-fil-cong-glif-zhuan-chu-zhi-bi-an.md#bu-zhou-2-zai-jiao-yi-suo-zhong-zhao-dao-nin-de-jie-shou-di-zhi) 中复制的交易所地址粘贴到收款人栏。
+2. 将您在[步骤 2](#bu-zhou-2-zai-jiao-yi-suo-zhong-zhao-dao-nin-de-jie-shou-di-zhi) 中复制的交易所地址粘贴到收款人栏。
 3. 输入您希望转移的 FIL 数量。
 4. 点击 “**发送**” 并在您的钱包中确认交易。
 

@@ -1,16 +1,16 @@
 # Transfer FIL from GLIF to Binance
 
-This tutorial will guide you through the process of withdraw your iFIL tokens from GLIF to an exchange.  This tutorial is specifically for transferring FIL to Binance. Check this [page](../transfer-fil-between-exchange-and-glif.md) for tutorials on other exchanges.
+This tutorial will guide you through the process of withdraw your iFIL tokens from GLIF to an exchange.  This tutorial is specifically for transferring FIL to Binance. Check this [page](/7-troubleshooting/2-tutorials/1-for-token-holders/3-transfer-fil-to-from-exchanges/1-transfer-fil-between-exchange-and-glif) for tutorials on other exchanges.
 
 > [!WARNING]
 > GLIF is compatible with most EVM wallets. This tutorial uses MetaMask wallet as an example; other wallets also work.
 >
-> You can refer to our [FAQ](../../../../faq/faq-for-liquidity-providers/wallet-connection.md) and [Wallet tutorials](../../wallets/) for more information. If you encounter any trouble, please contact GLIF through a [Discord support ticket](https://discord.gg/5qsJjsP3Re).
+> You can refer to our [FAQ](..//7-troubleshooting/1-faq/1-for-liquidity-providers/5-wallet-connection) and [Wallet tutorials](../../wallets/) for more information. If you encounter any trouble, please contact GLIF through a [Discord support ticket](https://discord.gg/5qsJjsP3Re).
 
 ## Step 1: Withdrawing FIL from GLIF to your wallet
 
 1. Connect your wallet to GLIF, which was used to deposit into GLIF and holds iFIL.
-2. To transfer your iFIL from the GLIF pool to FIL, follow the [step-by-step guide](../../using-the-pool/withdraw-fil-from-glif.md) in this tutorial.
+2. To transfer your iFIL from the GLIF pool to FIL, follow the [step-by-step guide](/7-troubleshooting/2-tutorials/1-for-token-holders/2-using-the-pool/4-withdraw-fil-from-glif) in this tutorial.
 3. After withdrawn FIL, you will receive FIL in your main wallet. Click on “**Wallet**” tab in the GLIF navigation, and you will be able to see the FIL and iFIL balance in the “**Account**” section.
 
 ![Token balances](en-image-60.png)
@@ -42,7 +42,7 @@ This tutorial will guide you through the process of withdraw your iFIL tokens fr
 
 ![Send button](en-image-30.png)
 
-2. Paste your exchange address copied in [step 2](transfer-fil-from-glif-to-binance.md#step-2-locate-your-recipient-address-in-the-exchange).
+2. Paste your exchange address copied in [step 2](#step-2-locate-your-recipient-address-in-the-exchange).
 3. Enter the desired amount of FIL to transfer.
 4. Click “**Send**” and confirm the transaction in your wallet.
 

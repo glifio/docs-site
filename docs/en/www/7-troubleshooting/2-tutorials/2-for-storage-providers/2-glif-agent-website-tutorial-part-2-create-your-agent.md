@@ -1,6 +1,6 @@
 # GLIF Agent Website Tutorial Part 2 — Create your Agent
 
-_If you don't yet understand the basics of GLIF Agents and the preparation steps to get started creating Agents on the GLIF website, we suggest you start by reading_ [_Part 1_](glif-agent-website-tutorial-part-1-preparation-setup.md) _of this tutorial. You can find all the tutorials about using Agents on the GLIF website on this_ [_page_](./)_. You can find the instructions about the Agent's command on the **GLIF Command Line Interface** on this_ [_page_](https://github.com/glifio/glif?tab=readme-ov-file#agents---get-started-borrowing)_._
+_If you don't yet understand the basics of GLIF Agents and the preparation steps to get started creating Agents on the GLIF website, we suggest you start by reading_ [_Part 1_](/7-troubleshooting/2-tutorials/2-for-storage-providers/1-glif-agent-website-tutorial-part-1-preparation-setup) _of this tutorial. You can find all the tutorials about using Agents on the GLIF website on this_ [_page_](./)_. You can find the instructions about the Agent's command on the **GLIF Command Line Interface** on this_ [_page_](https://github.com/glifio/glif?tab=readme-ov-file#agents---get-started-borrowing)_._
 
 ***
 
@@ -8,7 +8,7 @@ _If you don't yet understand the basics of GLIF Agents and the preparation steps
 
 Before creating your Agent on the website, it's important to understand 2 “roles” within GLIF. As a brief refresher:
 
-1. **Agent —** An Agent is a smart contract that borrows FIL from GLIF. You will deploy, own, and operate your Agent smart contract yourself (covered in [Part 2](glif-agent-website-tutorial-part-2-create-your-agent.md) of the tutorial). In order to borrow FIL, your Agent needs collateral, which it gets by taking ownership of your Filecoin miner(s). A more detailed description of Agents can be found [here](../../../for-storage-providers/manage-miner-actors-with-agents.md).
+1. **Agent —** An Agent is a smart contract that borrows FIL from GLIF. You will deploy, own, and operate your Agent smart contract yourself (covered in [Part 2](/7-troubleshooting/2-tutorials/2-for-storage-providers/2-glif-agent-website-tutorial-part-2-create-your-agent) of the tutorial). In order to borrow FIL, your Agent needs collateral, which it gets by taking ownership of your Filecoin miner(s). A more detailed description of Agents can be found [here](/3-for-storage-providers/7-manage-miner-actors-with-agents).
 2. **Agent owner** **wallet** — The Agent's owner wallet is the wallet that controls your Agent. Whoever is in control of your Agent's owner wallet can operate your Agent. It is very important to keep the Agent's owner wallet secure, which GLIF will help you do automatically.
 
 ## Agent Creation Wizard
@@ -28,7 +28,7 @@ The Agent Creation Wizard on the GLIF website will walk you through these steps.
 
 ***
 
-**Step 2 —** Connect the “proposer” Filecoin Snap wallet you created in [Part 1](glif-agent-website-tutorial-part-1-preparation-setup.md) of the tutorial.
+**Step 2 —** Connect the “proposer” Filecoin Snap wallet you created in [Part 1](/7-troubleshooting/2-tutorials/2-for-storage-providers/1-glif-agent-website-tutorial-part-1-preparation-setup) of the tutorial.
 
 ![Agent creation](en-image-348.png)
 
@@ -44,7 +44,7 @@ If your wallet is empty, please make a deposit from another wallet using the “
 
 ***
 
-**Step 3** — Enter your two additional wallet addresses (“approver”, “backup”) signers and create your Agent owner wallet. These are the two other FilSnap or Ledger wallet addresses you created in [Part 1](glif-agent-website-tutorial-part-1-preparation-setup.md) of this tutorial.
+**Step 3** — Enter your two additional wallet addresses (“approver”, “backup”) signers and create your Agent owner wallet. These are the two other FilSnap or Ledger wallet addresses you created in [Part 1](/7-troubleshooting/2-tutorials/2-for-storage-providers/1-glif-agent-website-tutorial-part-1-preparation-setup) of this tutorial.
 
 ![Address input](en-image-389.png)
 
@@ -95,13 +95,13 @@ A couple pieces of important information to note after creating your Agent:
 2. **Agent f410 Address** — The Agent f410 address is the smart contract address of your Agent, displayed in a Filecoin native format.
 3. **Agent 0x Address** — The Agent 0x address is another representation of the smart contract address of your Agent, dislayed in an Ethereum native format. An Agent's f410 and 0x addresses are functionally equivalent to each other.
 4. **Agent Owner** — The Agent Owner is the multisig wallet that owns your Agent smart contract, which we created at the beginning of this tutorial.
-5. **Agent Operator** — the Agent Operator, to change this address, please refer to [Part 9](glif-agent-website-tutorial-part-9-change-operator-address.md) of this tutorial.
+5. **Agent Operator** — the Agent Operator, to change this address, please refer to [Part 9](/7-troubleshooting/2-tutorials/2-for-storage-providers/9-glif-agent-website-tutorial-part-9-change-operator-address) of this tutorial.
 
 ## Next Steps
 
-Congratulations! You just created your GLIF Agent. To recap, in [Part 2](glif-agent-website-tutorial-part-2-create-your-agent.md) of this tutorial, you should have:
+Congratulations! You just created your GLIF Agent. To recap, in [Part 2](/7-troubleshooting/2-tutorials/2-for-storage-providers/2-glif-agent-website-tutorial-part-2-create-your-agent) of this tutorial, you should have:
 
 1. Created a new Agent Owner multisig wallet, using your FilSnap wallet and 2 Ledger wallets or buner wallet addresses as signers
 2. Created a new Agent smart contract
 
-In [Part 3](glif-agent-website-tutorial-part-3-add-your-miner.md) of this tutorial, we will show you how to add miners to your Agent.
+In [Part 3](/7-troubleshooting/2-tutorials/2-for-storage-providers/3-glif-agent-website-tutorial-part-3-add-your-miner) of this tutorial, we will show you how to add miners to your Agent.

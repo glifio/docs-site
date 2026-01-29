@@ -41,6 +41,6 @@ The amount of $GLF tokens determines the amount of $GLF required to unlock the F
 
 ## 3. Receive FIL Capsules
 
-* Once your Card is active, FIL Capsules will be issued to your wallet automatically. FIL inside each Capsule can be unlocked using $GLF tokens from your staked balance. As long as your Card remains active, Capsules will continue to be issued on schedule. Read more about how FIL Capsules work [here](how-fil-capsules-work.md).
+* Once your Card is active, FIL Capsules will be issued to your wallet automatically. FIL inside each Capsule can be unlocked using $GLF tokens from your staked balance. As long as your Card remains active, Capsules will continue to be issued on schedule. Read more about how FIL Capsules work [here](/4-glif+-liquidity-providers-loyalty-rewards/3-how-fil-capsules-work).
   * **Frequency**: Every week
   * **Validity Duration**: Each Capsule is valid for 30 days

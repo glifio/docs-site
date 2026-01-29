@@ -4,4 +4,4 @@ Sometimes SPs control multiple, individual Miner Actors. Each Miner Actor might 
 
 ![Guarantor Model](en-guarantor-model.webp)
 
-The Miner Actor that serves as the collateral node does not need to be the Miner Actor that ends up receiving borrowed funds. See more information about aggregating borrowing power under the [Agents](manage-miner-actors-with-agents.md) section.
+The Miner Actor that serves as the collateral node does not need to be the Miner Actor that ends up receiving borrowed funds. See more information about aggregating borrowing power under the [Agents](/3-for-storage-providers/7-manage-miner-actors-with-agents) section.

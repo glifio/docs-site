@@ -13,7 +13,7 @@
 ## 步骤 1：将您的钱包连接至 GLIF 和 Filecoin 主网
 
 连接钱包后，GLIF 网站左上角将显示`0x` 和 `f410` 地址。如果您的钱包是 `f1` 地址，也会在此处显示。\
-如需详细了解如何将钱包连接到 Filecoin 主网，请[查看此教程](../../qian-bao/ru-he-jiang-qian-bao-lian-jie-dao-filecoin-zhu-wang.md)。
+如需详细了解如何将钱包连接到 Filecoin 主网，请[查看此教程](/7-gu-zhang-pai-cha/2-cao-zuo-jiao-cheng/1-cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/1-qian-bao/5-ru-he-jiang-qian-bao-lian-jie-dao-filecoin-zhu-wang)。
 
 ![步骤 1：将您的钱包连接至 G](cn-image-221.png)
 
@@ -42,7 +42,7 @@
 
 ## 步骤 4：在GLIF 存入您的 Filecoin
 
-现在，您可以直接从交易所将FIL存入 GLIF 并开始赚取收益！有关存款的详细操作，请查看[此教程](../../shi-yong-glif-chi-cun-ru-he-ti-qu/jiang-fil-cun-ru-glif-yi-zhuan-qu-jiang-li.md)。
+现在，您可以直接从交易所将FIL存入 GLIF 并开始赚取收益！有关存款的详细操作，请查看[此教程](/7-gu-zhang-pai-cha/2-cao-zuo-jiao-cheng/1-cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/2-shi-yong-glif-chi-cun-ru-he-ti-qu/1-jiang-fil-cun-ru-glif-yi-zhuan-qu-jiang-li)。
 
 最后，让您的 FIL 发挥作用并在 GLIF 上赚取收益吧！
 

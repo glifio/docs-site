@@ -1,28 +1,28 @@
 # Transfer FIL from GLIF to MEXC
 
-This tutorial will guide you through the process of withdraw your iFIL tokens from GLIF to an exchange.  This tutorial is specifically for transferring FIL to MEXC. Check this [page](../transfer-fil-between-exchange-and-glif.md) for tutorials on other exchanges.
+This tutorial will guide you through the process of withdraw your iFIL tokens from GLIF to an exchange.  This tutorial is specifically for transferring FIL to MEXC. Check this [page](/7-troubleshooting/2-tutorials/1-for-token-holders/3-transfer-fil-to-from-exchanges/1-transfer-fil-between-exchange-and-glif) for tutorials on other exchanges.
 
 > [!HINT]
 > GLIF is compatible with most EVM wallets. This tutorial uses MetaMask wallet as an example; other wallets also work.
 >
-> You can refer to our [FAQ](../../../../faq/faq-for-liquidity-providers/wallet-connection.md) and [Wallet tutorials](../../wallets/) for more information. If you encounter any trouble, please contact GLIF through a [Discord support ticket](https://discord.gg/5qsJjsP3Re).
+> You can refer to our [FAQ](..//7-troubleshooting/1-faq/1-for-liquidity-providers/5-wallet-connection) and [Wallet tutorials](../../wallets/) for more information. If you encounter any trouble, please contact GLIF through a [Discord support ticket](https://discord.gg/5qsJjsP3Re).
 
 ## Contents
 
-[Step 1: Withdrawing FIL from GLIF to your main wallet](transfer-fil-from-glif-to-mexc.md#step-1-withdrawing-fil-from-glif-to-your-main-wallet)
+[Step 1: Withdrawing FIL from GLIF to your main wallet](#step-1-withdrawing-fil-from-glif-to-your-main-wallet)
 
-[Step 2: Set up an intermediary wallet (optional)](transfer-fil-from-glif-to-mexc.md#step-2-set-up-an-intermediary-wallet-optional)
+[Step 2: Set up an intermediary wallet (optional)](#step-2-set-up-an-intermediary-wallet-optional)
 
-[Step 3: Send FIL from 0x/f410 address (main wallet) to f1 address (Intermediary wallet)](transfer-fil-from-glif-to-mexc.md#step-3-send-fil-from-0x-f410-address-main-wallet-to-f1-address-intermediary-wallet)
+[Step 3: Send FIL from 0x/f410 address (main wallet) to f1 address (Intermediary wallet)](#step-3-send-fil-from-0x-f410-address-main-wallet-to-f1-address-intermediary-wallet)
 
-[Step 4: Locate your recipient address in the exchange](transfer-fil-from-glif-to-mexc.md#step-4-locate-your-recipient-address-in-the-exchange)
+[Step 4: Locate your recipient address in the exchange](#step-4-locate-your-recipient-address-in-the-exchange)
 
-[Step 5: Send FIL from your wallet to exchange](transfer-fil-from-glif-to-mexc.md#step-5-send-fil-from-your-wallet-to-exchange)
+[Step 5: Send FIL from your wallet to exchange](#step-5-send-fil-from-your-wallet-to-exchange)
 
 ## Step 1: Withdrawing FIL from GLIF to your main wallet
 
 1. Connect your main wallet to GLIF, which was used to deposit into GLIF and holds iFIL.
-2. To transfer your iFIL from the GLIF pool to FIL, follow the [step-by-step guide](../../using-the-pool/withdraw-fil-from-glif.md) in this tutorial.
+2. To transfer your iFIL from the GLIF pool to FIL, follow the [step-by-step guide](/7-troubleshooting/2-tutorials/1-for-token-holders/2-using-the-pool/4-withdraw-fil-from-glif) in this tutorial.
 3. After withdrawn FIL, you will receive FIL in your main wallet. Click on “**Wallet**” tab in the GLIF navigation, and you will be able to see the FIL and iFIL balance in the “**Account**” section.
 
 ![Token balances](en-image-60.png)
@@ -31,13 +31,13 @@ This tutorial will guide you through the process of withdraw your iFIL tokens fr
 
 **If your main wallet holding FIL has an address starting with `f1`:**
 
-* You can skip to [Step 4](transfer-fil-from-glif-to-mexc.md#step-4-locate-your-recipient-address-in-the-exchange) and [Step 5](transfer-fil-from-glif-to-mexc.md#step-5-send-fil-from-your-wallet-to-exchange) directly.
+* You can skip to [Step 4](#step-4-locate-your-recipient-address-in-the-exchange) and [Step 5](#step-5-send-fil-from-your-wallet-to-exchange) directly.
 
 \
 **If your main wallet holding FIL has an address starting with `f410` or `0x`:**
 
-* You will need to use an intermediary wallet such as a [FilSnap wallet](../../wallets/how-to-obtain-a-filsnap-wallet-as-the-intermediary-wallet.md), [burner wallet](../../wallets/how-to-obtain-a-burner-wallet-as-the-intermediary-wallet.md), or [Ledger](../../wallets/how-to-obtain-a-ledger-wallet-as-the-intermediary-wallet.md). Check out the step-by-step guide for creating your intermediary wallet by clicking the link.
-* This is because some exchanges, including MEXC, do not support deposit from `f410` or `0x` addresses. Check this [page](../transfer-fil-between-exchange-and-glif.md) for more details.
+* You will need to use an intermediary wallet such as a [FilSnap wallet](/7-troubleshooting/2-tutorials/1-for-token-holders/1-wallets/4-how-to-obtain-a-filsnap-wallet-as-the-intermediary-wallet), [burner wallet](/7-troubleshooting/2-tutorials/1-for-token-holders/1-wallets/3-how-to-obtain-a-burner-wallet-as-the-intermediary-wallet), or [Ledger](/7-troubleshooting/2-tutorials/1-for-token-holders/1-wallets/2-how-to-obtain-a-ledger-wallet-as-the-intermediary-wallet). Check out the step-by-step guide for creating your intermediary wallet by clicking the link.
+* This is because some exchanges, including MEXC, do not support deposit from `f410` or `0x` addresses. Check this [page](/7-troubleshooting/2-tutorials/1-for-token-holders/3-transfer-fil-to-from-exchanges/1-transfer-fil-between-exchange-and-glif) for more details.
 
 Once done, your intermediary wallet's address, starting with `f1`, will be visible in the top right dropdown. Copy this address.
 
@@ -53,7 +53,7 @@ Once done, your intermediary wallet's address, starting with `f1`, will be visib
 
 ![MetaMask prompt](en-image-86.png)
 
-3. In the “**Forward FIL**” page, paste your **intermediary wallet's f1 address** in the recipient field. This is the wallet created in [Step 2](transfer-fil-from-glif-to-mexc.md#step-2-set-up-an-intermediary-wallet-optional).
+3. In the “**Forward FIL**” page, paste your **intermediary wallet's f1 address** in the recipient field. This is the wallet created in [Step 2](#step-2-set-up-an-intermediary-wallet-optional).
 4. Enter the amount of FIL you wish to transfer (start with a small test amount)
 5. Click “**Send**”
 
@@ -82,7 +82,7 @@ Once done, your intermediary wallet's address, starting with `f1`, will be visib
 
 ![Send button](en-image-93.png)
 
-3. Paste your exchange address copied in [step 4.](transfer-fil-from-glif-to-mexc.md#step-4-locate-your-recipient-address-in-the-exchange)
+3. Paste your exchange address copied in [step 4.](#step-4-locate-your-recipient-address-in-the-exchange)
 4. Enter the desired amount of FIL to transfer.
 5. Click “**Send**” and confirm the transaction in your wallet.
 

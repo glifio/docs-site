@@ -6,11 +6,11 @@ Agents are smart contracts that allow Storage Providers (SPs) to collateralize t
 
 Agents are the only smart contracts that are allowed to borrow FIL from the pool. When an Agent borrows FIL from the pool, it can either withdraw it out of the system, or send it to one of the Agent's pledged miners to use in the Filecoin Storage Mining process.
 
-Read [here](../../../for-storage-providers/manage-miner-actors-with-agents.md) for more details.
+Read [here](/3-for-storage-providers/7-manage-miner-actors-with-agents) for more details.
 
 ## How does the guarantor model work?
 
-The [guarantor model](../../../for-storage-providers/guarantor-model.md) allows an SP to use a larger, more valuable Miner Actor as collateral to support borrowing for other Miner Actors. In other words, the miner used as collateral does not also have to be the miner used for sealing.
+The [guarantor model](/3-for-storage-providers/8-guarantor-model) allows an SP to use a larger, more valuable Miner Actor as collateral to support borrowing for other Miner Actors. In other words, the miner used as collateral does not also have to be the miner used for sealing.
 
 ## What are the responsibilities of the Agent owner and Agent operator keys?
 
@@ -19,7 +19,7 @@ Just like the Filecoin Miner Actor's owner, worker, and control addresses, GLIF 
 * **Owner Key**: Manages sensitive actions like borrowing, withdrawing,  and adding/removing miner actors from the Agent.
 * **Operator Key**: Handles payments, worker addresses, and day to day operations.
 
-Read [here](../../../for-storage-providers/manage-miner-actors-with-agents.md) for more details.
+Read [here](/3-for-storage-providers/7-manage-miner-actors-with-agents) for more details.
 
 ## What is the Agent Police and its function?
 

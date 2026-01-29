@@ -4,15 +4,15 @@ $GLF 现已上线！是时候了解如何领取您的代币，共同构建首个
 
 ## **目录**
 
-* [**流动性提供者（LP）**](ru-he-ling-qu-glf-kong-tou.md#liu-dong-xing-ti-gong-zhe-lp)
-  * [步骤 1：在 GLIF 网站上开始领取流程](ru-he-ling-qu-glf-kong-tou.md#bu-zhou-1-zai-glif-wang-zhan-shang-kai-shi-ling-qu-liu-cheng)
-  * [步骤 2：从 NFT 兑换 $GLF 代币](ru-he-ling-qu-glf-kong-tou.md#bu-zhou-2-cong-nft-dui-huan-glf-dai-bi)
-* [**存储提供商（SP）**](ru-he-ling-qu-glf-kong-tou.md#cun-chu-ti-gong-shang-sp)
-  * [通过 CLI 领取空投](ru-he-ling-qu-glf-kong-tou.md#tong-guo-cli-ling-qu-kong-tou)
-  * [通过 GLIF 网站领取空投](ru-he-ling-qu-glf-kong-tou.md#tong-guo-glif-wang-zhan-ling-qu-kong-tou)
-    * [步骤 1：在 GLIF 网站上开始领取流程](ru-he-ling-qu-glf-kong-tou.md#bu-zhou-1-zai-glif-wang-zhan-shang-kai-shi-ling-qu-liu-cheng-1)
-    * [步骤 2：批准领取及委托的多签提案](ru-he-ling-qu-glf-kong-tou.md#bu-zhou-2-pi-zhun-ling-qu-ji-wei-tuo-de-duo-qian-ti-an)
-    * [步骤 3：从 NFT 兑换 $GLF 代币](ru-he-ling-qu-glf-kong-tou.md#bu-zhou-3-cong-nft-dui-huan-glf-dai-bi)
+* [**流动性提供者（LP）**](#liu-dong-xing-ti-gong-zhe-lp)
+  * [步骤 1：在 GLIF 网站上开始领取流程](#bu-zhou-1-zai-glif-wang-zhan-shang-kai-shi-ling-qu-liu-cheng)
+  * [步骤 2：从 NFT 兑换 $GLF 代币](#bu-zhou-2-cong-nft-dui-huan-glf-dai-bi)
+* [**存储提供商（SP）**](#cun-chu-ti-gong-shang-sp)
+  * [通过 CLI 领取空投](#tong-guo-cli-ling-qu-kong-tou)
+  * [通过 GLIF 网站领取空投](#tong-guo-glif-wang-zhan-ling-qu-kong-tou)
+    * [步骤 1：在 GLIF 网站上开始领取流程](#bu-zhou-1-zai-glif-wang-zhan-shang-kai-shi-ling-qu-liu-cheng-1)
+    * [步骤 2：批准领取及委托的多签提案](#bu-zhou-2-pi-zhun-ling-qu-ji-wei-tuo-de-duo-qian-ti-an)
+    * [步骤 3：从 NFT 兑换 $GLF 代币](#bu-zhou-3-cong-nft-dui-huan-glf-dai-bi)
 
 如果您符合空投资格的钱包是多签钱包，领取流程与 Agent 拥有者的多签钱包十分类似，请参考存储提供商的部分。
 
@@ -112,7 +112,7 @@ $GLF 现已上线！是时候了解如何领取您的代币，共同构建首个
 
 1. 点击 “返回控制面板” 或进入 “多重签名钱包” 页面。
 
-_如果您的 Agent 拥有者是**单签/EOA（外部拥有账户）钱包**，则无需签署任何提案，您可以直接跳到_[_第 3 步_](ru-he-ling-qu-glf-kong-tou.md#bu-zhou-3-cong-nft-dui-huan-glf-dai-bi)_。_
+_如果您的 Agent 拥有者是**单签/EOA（外部拥有账户）钱包**，则无需签署任何提案，您可以直接跳到_[_第 3 步_](#bu-zhou-3-cong-nft-dui-huan-glf-dai-bi)_。_
 
 ![步骤 2：批准领取及委托的多签](cn-image-396.png)
 

@@ -13,7 +13,7 @@ An `f410` address means the first three digits after “f” are “410”, whil
 
 ### **f410 or 0x address**
 
-To use applications on the FVM, you may need to have FIL inside an `f410` or `0x` type address. Any `f410` wallet address also has an equivalent `0x` Ethereum-style address, so you can convert any `f410` address into a `0x` address, and vice versa. Check out this [tutorial](../wallets/how-to-find-your-corresponding-0x-f410-wallet-address.md) for instructions on how to convert `0x` and `f410` wallet addresses.
+To use applications on the FVM, you may need to have FIL inside an `f410` or `0x` type address. Any `f410` wallet address also has an equivalent `0x` Ethereum-style address, so you can convert any `f410` address into a `0x` address, and vice versa. Check out this [tutorial](/7-troubleshooting/2-tutorials/1-for-token-holders/1-wallets/1-how-to-find-your-corresponding-0x-f410-wallet-address) for instructions on how to convert `0x` and `f410` wallet addresses.
 
 ### **f1 address**
 
@@ -27,11 +27,11 @@ An `f1` wallet address is generated from a secp256k public key. The `f1` address
 Before conducting any transactions between your wallet and an exchange, **check if your wallet supports the address type you are using.** You can follow the step-by-step guides for different exchanges to learn how to perform the corresponding transaction:
 
 * Binance:
-  * [Transfer FIL from Binance to GLIF](binance/transfer-fil-from-binance-to-glif.md)
-  * [Transfer FIL from GLIF to Binance](binance/transfer-fil-from-glif-to-binance.md)
+  * [Transfer FIL from Binance to GLIF](/7-troubleshooting/2-tutorials/1-for-token-holders/3-transfer-fil-to-from-exchanges/2-binance/1-transfer-fil-from-binance-to-glif)
+  * [Transfer FIL from GLIF to Binance](/7-troubleshooting/2-tutorials/1-for-token-holders/3-transfer-fil-to-from-exchanges/2-binance/2-transfer-fil-from-glif-to-binance)
 * MEXC:
-  * [Transfer FIL from MEXC to GLIF](mexc/transfer-fil-from-mexc-to-glif.md)
-  * [Transfer FIL from GLIF to MEXC](mexc/transfer-fil-from-glif-to-mexc.md)
+  * [Transfer FIL from MEXC to GLIF](/7-troubleshooting/2-tutorials/1-for-token-holders/3-transfer-fil-to-from-exchanges/3-mexc/1-transfer-fil-from-mexc-to-glif)
+  * [Transfer FIL from GLIF to MEXC](/7-troubleshooting/2-tutorials/1-for-token-holders/3-transfer-fil-to-from-exchanges/3-mexc/2-transfer-fil-from-glif-to-mexc)
 
 > [!CAUTION]
 > **WARNING**: Certain exchanges like Bybit, MEXC, Binance US and others do not support transfers from 0x style Filecoin addresses yet. Before transferring any funds to an exchange, send a test transaction first.
@@ -40,6 +40,6 @@ Before conducting any transactions between your wallet and an exchange, **check 
 
 ## Conclusion
 
-Now, you can deposit your tokens directly from your exchange to GLIF and start earning rewards! Check the [step-by-step guide](../using-the-pool/deposit-fil-into-glif-to-earn-rewards.md) in this tutorial for detailed deposit instructions.
+Now, you can deposit your tokens directly from your exchange to GLIF and start earning rewards! Check the [step-by-step guide](/7-troubleshooting/2-tutorials/1-for-token-holders/2-using-the-pool/1-deposit-fil-into-glif-to-earn-rewards) in this tutorial for detailed deposit instructions.
 
 Finally, put your FIL to use and earn rewards with GLIF!

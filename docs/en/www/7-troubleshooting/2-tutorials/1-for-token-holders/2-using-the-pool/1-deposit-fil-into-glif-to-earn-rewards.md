@@ -6,7 +6,7 @@ This guide will show you how to deposit FIL into GLIF, so you can start earning 
 
 To deposit FIL to GLIF, you first need to choose a wallet that supports FIL. GLIF is compatible with [most EVM wallets](https://filecointldr.io/how-to-buy-filecoin). You can find more tutorials about wallets [here](../wallets/). Make sure to do your own research (DYOR) to select the wallet.
 
-In this tutorial we will use MetaMask, but you can find a similar tutorial using Ledger [here](how-to-deposit-filecoin-from-a-hardware-wallet-with-glif.md).
+In this tutorial we will use MetaMask, but you can find a similar tutorial using Ledger [here](/7-troubleshooting/2-tutorials/1-for-token-holders/2-using-the-pool/2-how-to-deposit-filecoin-from-a-hardware-wallet-with-glif).
 
 > [!IMPORTANT]
 > No matter which wallet you use, always make sure to back up your secret recovery phrase, store it securely, and never share it with anyone. **No one from the GLIF team will ever ask you for private keys or seed phrases.**
@@ -25,7 +25,7 @@ In this tutorial we will use MetaMask, but you can find a similar tutorial using
 
 After choosing a Chrome extension wallet (e.g., MetaMask) from the list of wallets, you may see a prompt in your wallet asking you to add the Filecoin network if this is your first time using it.
 
-For detailed instructions on add the Filecoin Mainnet to your wallet, check out this [tutorial](../wallets/how-to-connect-your-wallet-to-filecoin-mainnet.md).
+For detailed instructions on add the Filecoin Mainnet to your wallet, check out this [tutorial](/7-troubleshooting/2-tutorials/1-for-token-holders/1-wallets/5-how-to-connect-your-wallet-to-filecoin-mainnet).
 
 ## Step 3: Deposit your Filecoin with GLIF
 
@@ -74,4 +74,4 @@ For a more detailed view of your position, click on “**Wallet**” in the GLIF
 
 Congratulations on successfully depositing FIL to GLIF!
 
-When you are ready to withdraw your deposit, you will need to return your iFIL to GLIF to receive your FIL back. For more details about the withdrawal process, check [here](../../../../for-liquidity-providers/exit-withdraw-fil.md).
+When you are ready to withdraw your deposit, you will need to return your iFIL to GLIF to receive your FIL back. For more details about the withdrawal process, check [here](/2-for-liquidity-providers/3-exit-withdraw-fil).

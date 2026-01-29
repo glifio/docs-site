@@ -3,7 +3,7 @@
 本教程将示范如何在 GLIF 用 iFIL 代币提取 FIL，而从 GLIF 提取 FIL 需要进行 2 笔交易。
 
 > [!NOTE]
-> 请[点击此处](../../../../liu-dong-xing-ti-gong-zhe/ti-qu-fil.md)，了解更多关于提取机制。
+> 请[点击此处](/2-liu-dong-xing-ti-gong-zhe/3-ti-qu-fil)，了解更多关于提取机制。
 
 ## 步骤 1：连接钱包到 GLIF
 
@@ -17,7 +17,7 @@
 ## 步骤 2：前往 “池” 页面
 
 1. 在 “**池**” 页面中，点击 “**取款**” 选项。
-2. 输入您想要赎回的 iFIL 数量，将会显示相应可获得的 FIL 数量。请[点击此处](../../../../liu-dong-xing-ti-gong-zhe/glif-jiang-li-ji-zhi-ifil.md)了解更多关于 iFIL 的信息。
+2. 输入您想要赎回的 iFIL 数量，将会显示相应可获得的 FIL 数量。请[点击此处](/2-liu-dong-xing-ti-gong-zhe/2-glif-jiang-li-ji-zhi-ifil)了解更多关于 iFIL 的信息。
 3. 点击 “**批准**”。
 
 ![步骤 2：前往 “池” 页面](cn-image-79.png)
