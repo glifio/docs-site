@@ -6,7 +6,7 @@ GLIF is the foundational DeFi primitive of [Filecoin](https://filecoin.io/) - en
 
 The GLIF brand has been a long-term trusted partner of the Filecoin ecosystem since early 2019, receiving more than 4 million dollars in grant funding from Protocol Labs and the Filecoin Foundation to build critical apps and tools for the Filecoin network. Most notably, GLIF built the first Filecoin web wallet and multisig wallet for Filecoin's Mainnet launch, which are still widely used today across the ecosystem for employee payments, grants, and general day-to-day operations.
 
-Click [here](https://docs.glif.io/) to know more about GLIF.
+Click [here](/1-introduction) to know more about GLIF.
 
 ## What can I do with GLIF as a FIL Token Holder?
 
