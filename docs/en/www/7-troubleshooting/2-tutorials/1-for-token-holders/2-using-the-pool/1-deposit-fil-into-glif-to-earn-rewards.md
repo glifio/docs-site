@@ -54,7 +54,7 @@ For detailed instructions on add the Filecoin Mainnet to your wallet, check out 
 After depositing FIL, you will receive iFIL within a minute or two. The FIL value of your iFIL represents your initial deposit plus any earned rewards.
 
 > [!NOTE]
-> For more information on iFIL, check out our [docs](https://docs.glif.io/for-liquidity-providers/glif-reward-mechanism-ifil).
+> For more information on iFIL, check out our [docs](/2-for-liquidity-providers/2-glif-reward-mechanism-ifil).
 
 For a more detailed view of your position, click on “**Wallet**” in the GLIF navigation, and you will be able to see the FIL and iFIL associated with your wallet address in the “**Token**” section.
 

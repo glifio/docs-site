@@ -54,7 +54,7 @@ Make sure you have your device connected to your computer (e.g., with the suppli
 
 ## Step 4. Receive your iFIL
 
-Once you have deposited FIL, after a minute or two, you will receive iFIL — this represents your initial deposit plus your earned rewards. For more information on iFIL, check out our [docs](https://docs.glif.io/for-liquidity-providers/glif-reward-mechanism-ifil).
+Once you have deposited FIL, after a minute or two, you will receive iFIL — this represents your initial deposit plus your earned rewards. For more information on iFIL, check out our [docs](/2-for-liquidity-providers/2-glif-reward-mechanism-ifil).
 
 For a more detailed view of your position, click on “**Wallet**” in the GLIF navigation, and you will be able to see the FIL and iFIL associated with your hardware wallet address in the **Token** section.
 
