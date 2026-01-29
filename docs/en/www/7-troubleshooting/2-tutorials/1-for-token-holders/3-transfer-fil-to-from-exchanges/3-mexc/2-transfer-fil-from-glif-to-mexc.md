@@ -1,11 +1,11 @@
-# Transfer FIL from GLIF to MEXC
+﻿# Transfer FIL from GLIF to MEXC
 
 This tutorial will guide you through the process of withdraw your iFIL tokens from GLIF to an exchange.  This tutorial is specifically for transferring FIL to MEXC. Check this [page](/7-troubleshooting/2-tutorials/1-for-token-holders/3-transfer-fil-to-from-exchanges/1-transfer-fil-between-exchange-and-glif) for tutorials on other exchanges.
 
 > [!HINT]
 > GLIF is compatible with most EVM wallets. This tutorial uses MetaMask wallet as an example; other wallets also work.
 >
-> You can refer to our [FAQ](..//7-troubleshooting/1-faq/1-for-liquidity-providers/5-wallet-connection) and [Wallet tutorials](../../wallets/) for more information. If you encounter any trouble, please contact GLIF through a [Discord support ticket](https://discord.gg/5qsJjsP3Re).
+> You can refer to our [FAQ](/7-troubleshooting/1-faq/1-for-liquidity-providers/5-wallet-connection) and [Wallet tutorials](/7-troubleshooting/2-tutorials/1-for-token-holders/1-wallets) for more information. If you encounter any trouble, please contact GLIF through a [Discord support ticket](https://discord.gg/5qsJjsP3Re).
 
 ## Contents
 

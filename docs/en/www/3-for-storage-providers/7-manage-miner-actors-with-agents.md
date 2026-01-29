@@ -1,4 +1,4 @@
-# Manage Miner Actors with Agents
+﻿# Manage Miner Actors with Agents
 
 ## What are Agents
 
@@ -11,7 +11,7 @@ Agents are smart contracts on the FEVM that allow Storage Providers (SPs) to col
 1. Through GLIF [website](https://glif.io/en/agent)
 2. Through the GLIF [CLI](https://github.com/glifio/glif)
 
-Please find the detailed tutorial for agent [here](../troubleshooting/tutorials/for-storage-providers/).
+Please find the detailed tutorial for agent [here](/7-troubleshooting/2-tutorials/2-for-storage-providers).
 
 ## Add Collateral to an Agent
 

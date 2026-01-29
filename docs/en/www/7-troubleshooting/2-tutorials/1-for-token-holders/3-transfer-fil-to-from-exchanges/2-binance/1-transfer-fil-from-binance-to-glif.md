@@ -1,4 +1,4 @@
-# Transfer FIL from Binance to GLIF
+﻿# Transfer FIL from Binance to GLIF
 
 If your FIL tokens are currently on an exchange and you are eager to utilize it to earn rewards, and depositing to GLIF, this guide will simplify the process for you.
 
@@ -7,7 +7,7 @@ This tutorial is specifically for transferring FIL from Binance. Check this [pag
 > [!HINT]
 > GLIF is compatible with most EVM wallets. This tutorial uses MetaMask wallet as an example; other wallets also work.
 >
-> You can refer to our [FAQ](..//7-troubleshooting/1-faq/1-for-liquidity-providers/5-wallet-connection) and [Wallet tutorials](../../wallets/) for more information. If you encounter any trouble, please contact GLIF through a [Discord support ticket](https://discord.gg/5qsJjsP3Re).
+> You can refer to our [FAQ](/7-troubleshooting/1-faq/1-for-liquidity-providers/5-wallet-connection) and [Wallet tutorials](/7-troubleshooting/2-tutorials/1-for-token-holders/1-wallets) for more information. If you encounter any trouble, please contact GLIF through a [Discord support ticket](https://discord.gg/5qsJjsP3Re).
 
 ## Step 1: Connect your wallet to GLIF and Filecoin Mainnet
 

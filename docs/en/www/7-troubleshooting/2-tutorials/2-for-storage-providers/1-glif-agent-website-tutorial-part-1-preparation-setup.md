@@ -1,4 +1,4 @@
-# GLIF Agent Website Tutorial Part 1— Preparation Setup
+﻿# GLIF Agent Website Tutorial Part 1— Preparation Setup
 
 In Part 1 of the GLIF Agent Setup Tutorial, we are covering two topics:
 
@@ -8,7 +8,7 @@ In Part 1 of the GLIF Agent Setup Tutorial, we are covering two topics:
 If you already understand the basics and you're ready to get started creating your Agent on the website, you can skip this Part 1 and go directly to [Part 2](/7-troubleshooting/2-tutorials/2-for-storage-providers/2-glif-agent-website-tutorial-part-2-create-your-agent).
 
 > [!TIP]
-> You can find all the tutorials about using Agents on the **GLIF website** on this [page](./).
+> You can find all the tutorials about using Agents on the **GLIF website** on this [page](/7-troubleshooting/2-tutorials/2-for-storage-providers).
 >
 > You can find the instructions about the Agent's command on the **GLIF Command Line Interface** on this [page](https://github.com/glifio/glif?tab=readme-ov-file#agents---get-started-borrowing).
 

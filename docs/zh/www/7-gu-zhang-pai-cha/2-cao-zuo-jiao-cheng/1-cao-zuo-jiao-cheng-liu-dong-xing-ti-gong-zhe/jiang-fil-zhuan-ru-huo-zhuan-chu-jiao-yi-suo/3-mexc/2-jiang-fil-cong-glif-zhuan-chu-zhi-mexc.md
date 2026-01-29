@@ -1,10 +1,10 @@
-# 将 FIL 从 GLIF 转出至 MEXC
+﻿# 将 FIL 从 GLIF 转出至 MEXC
 
 本教程将带您将 iFIL 代币从 GLIF 提现到交易所。本教程专门针对将 FIL 转移到 MEXC。请[点击此处](/7-gu-zhang-pai-cha/2-cao-zuo-jiao-cheng/1-cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/jiang-fil-zhuan-ru-huo-zhuan-chu-jiao-yi-suo/1-zai-jiao-yi-suo-he-glif-zhi-jian-zhuan-yi-fil)查看其他交易所的教程。
 
 > [!NOTE]
 > GLIF 与大多数 EVM 钱包兼容。本教程以 MetaMask 钱包为示例，其他钱包同样适用。\
-> 您可以参考我们的[常见问题](../../../../chang-jian-wen-ti/chang-jian-wen-ti-liu-dong-xing-ti-gong-zhe/)和[钱包教程](../../qian-bao/)以获取更多资讯。
+> 您可以参考我们的[常见问题](/7-gu-zhang-pai-cha/1-chang-jian-wen-ti/1-chang-jian-wen-ti-liu-dong-xing-ti-gong-zhe)和[钱包教程](/7-gu-zhang-pai-cha/2-cao-zuo-jiao-cheng/1-cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/1-qian-bao)以获取更多资讯。
 >
 > 如果您遇到任何问题，请通过 [Discord 支持工单](https://discord.gg/5qsJjsP3Re)与 GLIF 联系。
 

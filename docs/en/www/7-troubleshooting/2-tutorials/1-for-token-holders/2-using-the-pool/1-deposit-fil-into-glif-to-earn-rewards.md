@@ -1,10 +1,10 @@
-# Deposit FIL into GLIF to earn rewards
+﻿# Deposit FIL into GLIF to earn rewards
 
 This guide will show you how to deposit FIL into GLIF, so you can start earning rewards with GLIF.
 
 ## Step 1: Prepare a wallet with FIL on it
 
-To deposit FIL to GLIF, you first need to choose a wallet that supports FIL. GLIF is compatible with [most EVM wallets](https://filecointldr.io/how-to-buy-filecoin). You can find more tutorials about wallets [here](../wallets/). Make sure to do your own research (DYOR) to select the wallet.
+To deposit FIL to GLIF, you first need to choose a wallet that supports FIL. GLIF is compatible with [most EVM wallets](https://filecointldr.io/how-to-buy-filecoin). You can find more tutorials about wallets [here](/7-troubleshooting/2-tutorials/1-for-token-holders/1-wallets). Make sure to do your own research (DYOR) to select the wallet.
 
 In this tutorial we will use MetaMask, but you can find a similar tutorial using Ledger [here](/7-troubleshooting/2-tutorials/1-for-token-holders/2-using-the-pool/2-how-to-deposit-filecoin-from-a-hardware-wallet-with-glif).
 

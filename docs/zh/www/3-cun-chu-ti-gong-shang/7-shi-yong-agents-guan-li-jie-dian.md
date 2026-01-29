@@ -1,4 +1,4 @@
-# 使用 Agents 管理节点
+﻿# 使用 Agents 管理节点
 
 ## 什么是 Agents
 
@@ -11,7 +11,7 @@ Agents 是 FEVM 上的智能合约，允许存储提供商 (SP) 抵押 Filecoin 
 1. 通过 GLIF [网站](https://glif.io/en/agent)
 2. 通过 GLIF [CLI](https://github.com/glifio/glif)
 
-请[在此](../gu-zhang-pai-cha/cao-zuo-jiao-cheng/cao-zuo-jiao-cheng-cun-chu-ti-gong-shang/)查看详细的 Agents 相关教程。
+请[在此](/7-gu-zhang-pai-cha/2-cao-zuo-jiao-cheng/2-cao-zuo-jiao-cheng-cun-chu-ti-gong-shang)查看详细的 Agents 相关教程。
 
 ## 向 Agents 添加抵押品
 

@@ -1,6 +1,6 @@
-# GLIF Agent Website Tutorial Part 2 — Create your Agent
+﻿# GLIF Agent Website Tutorial Part 2 — Create your Agent
 
-_If you don't yet understand the basics of GLIF Agents and the preparation steps to get started creating Agents on the GLIF website, we suggest you start by reading_ [_Part 1_](/7-troubleshooting/2-tutorials/2-for-storage-providers/1-glif-agent-website-tutorial-part-1-preparation-setup) _of this tutorial. You can find all the tutorials about using Agents on the GLIF website on this_ [_page_](./)_. You can find the instructions about the Agent's command on the **GLIF Command Line Interface** on this_ [_page_](https://github.com/glifio/glif?tab=readme-ov-file#agents---get-started-borrowing)_._
+_If you don't yet understand the basics of GLIF Agents and the preparation steps to get started creating Agents on the GLIF website, we suggest you start by reading_ [_Part 1_](/7-troubleshooting/2-tutorials/2-for-storage-providers/1-glif-agent-website-tutorial-part-1-preparation-setup) _of this tutorial. You can find all the tutorials about using Agents on the GLIF website on this_ [_page_](/7-troubleshooting/2-tutorials/2-for-storage-providers)_. You can find the instructions about the Agent's command on the **GLIF Command Line Interface** on this_ [_page_](https://github.com/glifio/glif?tab=readme-ov-file#agents---get-started-borrowing)_._
 
 ***
 
@@ -38,7 +38,7 @@ Once you click the “Connect” button, you must approve GLIF to connect to you
 
 Your FilSnap wallet needs some funds to perform the transactions required to create a new Agent.
 
-If your wallet is empty, please make a deposit from another wallet using the “Deposit” button, or send funds to the wallet's address from an exchange. If you encounter any issues with the deposit, check the tutorial [here](../for-token-holders/transfer-fil-to-from-exchanges/).
+If your wallet is empty, please make a deposit from another wallet using the “Deposit” button, or send funds to the wallet's address from an exchange. If you encounter any issues with the deposit, check the tutorial [here](/7-troubleshooting/2-tutorials/1-for-token-holders/3-transfer-fil-to-from-exchanges).
 
 ![Create your Agent on](en-image-388.png)
 

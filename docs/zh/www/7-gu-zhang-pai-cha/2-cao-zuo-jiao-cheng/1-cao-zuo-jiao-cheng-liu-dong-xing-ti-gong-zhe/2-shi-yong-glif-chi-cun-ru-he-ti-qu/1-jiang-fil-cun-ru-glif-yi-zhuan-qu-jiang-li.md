@@ -1,10 +1,10 @@
-# 将 FIL 存入 GLIF 以赚取奖励
+﻿# 将 FIL 存入 GLIF 以赚取奖励
 
 本教程将向您展示如何将 FIL 存入 GLIF，从而开始在 GLIF 上赚取收益。
 
 ## 步骤 1：准备一个已存有 FIL 的钱包
 
-要将 FIL 存入 GLIF，您需要先选择一个支持 FIL 的钱包。GLIF 与[大多数 EVM 钱包](https://filecointldr.io/how-to-buy-filecoin)兼容。您可以在[此处](../qian-bao/)查看更多关于钱包的教程。请务必自行研究（DYOR）后再做选择。
+要将 FIL 存入 GLIF，您需要先选择一个支持 FIL 的钱包。GLIF 与[大多数 EVM 钱包](https://filecointldr.io/how-to-buy-filecoin)兼容。您可以在[此处](/7-gu-zhang-pai-cha/2-cao-zuo-jiao-cheng/1-cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/1-qian-bao)查看更多关于钱包的教程。请务必自行研究（DYOR）后再做选择。
 
 在本教程中，我们将以 MetaMask 为例，如果您想使用 Ledger，也可以在[此处](/7-gu-zhang-pai-cha/2-cao-zuo-jiao-cheng/1-cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/2-shi-yong-glif-chi-cun-ru-he-ti-qu/2-ru-he-shi-yong-ying-jian-qian-bao-jiang-fil-cun-ru-glif)找到相应的教程。
 

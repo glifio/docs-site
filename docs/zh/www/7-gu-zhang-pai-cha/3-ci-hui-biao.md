@@ -1,4 +1,4 @@
-# 词汇表
+﻿# 词汇表
 
 * **管理状态 (Administration)**：DTL 比率高于 75% 的存储提供商 (SP) 有机会被列入管理状态，这允许 GLIF 使用 SP Miner Actor 里任何可用余额来偿还 SP 的债务。如果 GLIF 管理员偿还 SP 的债务，扇区不会被终止或罚款。SP 从 GLIF 借款和提取也会被暂停。管理员的目标是让 SP 恢复至健康状态（DTL < 75%）。有关详细信息，请参阅[此处](/3-cun-chu-ti-gong-shang/5-qing-suan-ji-zhi)。
 * **Agents：**Agents 是 FEVM 上的智能合约，允许存储提供商 (SP) 抵押 Filecoin Miner Actors 以从 GLIF 借入 FIL。Agents 充当 SP 和 GLIF 之间的中介，允许 SP 在从 GLIF 借款的同时保持对其矿工的所有权和控制权。有关详细信息，请参阅[此处](/3-cun-chu-ti-gong-shang/7-shi-yong-agents-guan-li-jie-dian)。
@@ -14,7 +14,7 @@ $$
 
 * **债务(Debt)**：SP 的未偿还本金加上任何未支付的利息。
 * **退出 (Exit)**：代表 iFIL 持有者可以随时从 GLIF 提取 FIL 的过程，前提是资金池有足够的流动性来处理提款。有关详细信息，请参阅[此处](/2-liu-dong-xing-ti-gong-zhe/3-ti-qu-fil)。
-* **GLIF**：GLIF 是 [Filecoin](https://filecoin.io/) DeFi 的先驱，为生态内的DeFi发展奠定基石 - 使 Filecoin (FIL) 持有者能够将其 FIL 借贷(又称“租赁”)给不同的 Filecoin 矿工(又称为“存储提供商”) ，来获得持续的奖励。而存储提供商借入 FIL 作为 Filecoin 挖矿的抵押品，这有助于存储提供商的发展，同时提高了 Filecoin 网络的安全性。GLIF 是 Filecoin生态上最初发展和最受欢迎的 DeFi 协议。有关详细信息，请参阅[此处](/jie-shao)。
+* **GLIF**：GLIF 是 [Filecoin](https://filecoin.io/) DeFi 的先驱，为生态内的DeFi发展奠定基石 - 使 Filecoin (FIL) 持有者能够将其 FIL 借贷(又称“租赁”)给不同的 Filecoin 矿工(又称为“存储提供商”) ，来获得持续的奖励。而存储提供商借入 FIL 作为 Filecoin 挖矿的抵押品，这有助于存储提供商的发展，同时提高了 Filecoin 网络的安全性。GLIF 是 Filecoin生态上最初发展和最受欢迎的 DeFi 协议。有关详细信息，请参阅[此处](/1-jie-shao)。
 * **担保人 (Guarantors)**：一种制度允许单个 SP 将多个Miner Actor聚合在一起，汇总所有Miner Actor的价值和借款能力。这种架构允许具有大量权益价值的大型Miner Actor为一个小得多的Miner Actor提供抵押品以借入资金。有关详细信息，请参阅[此处](/3-cun-chu-ti-gong-shang/8-jie-dian-dan-bao-zhi-du)。
 * **iFIL**：iFIL 是 GLIF 的奖励代币 - 一种部署在 FEVM 上的 ERC20 代币。流动性提供者 (LP) 持有 iFIL 代币以赚取奖励。有关详细信息，请参阅[此处](/2-liu-dong-xing-ti-gong-zhe/2-glif-jiang-li-ji-zhi-ifil)。当前 iFIL 价格的计算方式为：
 
