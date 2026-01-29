@@ -24,4 +24,4 @@ The current interest rate is 15% APR. However, as baseline rewards on Filecoin c
 
 ## How can SPs withdraw funds from GLIF not used for sealing?
 
-SPs can withdraw FIL as long as their DTL ratios stays below 75%. If the SP joined the [GLIF+ program](/broken/pages/jt1R92FWbP8KSp3HrRV0) as a Gold Card member, the DTL increases to 90%. Read [here](../../../for-storage-providers/uses-of-borrowed-fil.md) for more details.
+SPs can withdraw FIL as long as their DTL ratios stays below 75%. If the SP joined the [GLIF+ program](../../../glif+-storage-providers-loyalty-rewards/storage-provider-loyalty-card.md) as a Gold Card member, the DTL increases to 90%. Read [here](../../../for-storage-providers/uses-of-borrowed-fil.md) for more details.

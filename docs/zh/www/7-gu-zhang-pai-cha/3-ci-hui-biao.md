@@ -14,7 +14,7 @@ $$
 
 * **债务(Debt)**：SP 的未偿还本金加上任何未支付的利息。
 * **退出 (Exit)**：代表 iFIL 持有者可以随时从 GLIF 提取 FIL 的过程，前提是资金池有足够的流动性来处理提款。有关详细信息，请参阅[此处](../liu-dong-xing-ti-gong-zhe/ti-qu-fil.md)。
-* **GLIF**：GLIF 是 [Filecoin](https://filecoin.io/) DeFi 的先驱，为生态内的DeFi发展奠定基石 - 使 Filecoin (FIL) 持有者能够将其 FIL 借贷(又称“租赁”)给不同的 Filecoin 矿工(又称为“存储提供商”) ，来获得持续的奖励。而存储提供商借入 FIL 作为 Filecoin 挖矿的抵押品，这有助于存储提供商的发展，同时提高了 Filecoin 网络的安全性。GLIF 是 Filecoin生态上最初发展和最受欢迎的 DeFi 协议。有关详细信息，请参阅[此处](/broken/pages/Iw9RzgdqDQxqXkMsDxnn)。
+* **GLIF**：GLIF 是 [Filecoin](https://filecoin.io/) DeFi 的先驱，为生态内的DeFi发展奠定基石 - 使 Filecoin (FIL) 持有者能够将其 FIL 借贷(又称“租赁”)给不同的 Filecoin 矿工(又称为“存储提供商”) ，来获得持续的奖励。而存储提供商借入 FIL 作为 Filecoin 挖矿的抵押品，这有助于存储提供商的发展，同时提高了 Filecoin 网络的安全性。GLIF 是 Filecoin生态上最初发展和最受欢迎的 DeFi 协议。有关详细信息，请参阅[此处](/jie-shao)。
 * **担保人 (Guarantors)**：一种制度允许单个 SP 将多个Miner Actor聚合在一起，汇总所有Miner Actor的价值和借款能力。这种架构允许具有大量权益价值的大型Miner Actor为一个小得多的Miner Actor提供抵押品以借入资金。有关详细信息，请参阅[此处](../cun-chu-ti-gong-shang/jie-dian-dan-bao-zhi-du.md)。
 * **iFIL**：iFIL 是 GLIF 的奖励代币 - 一种部署在 FEVM 上的 ERC20 代币。流动性提供者 (LP) 持有 iFIL 代币以赚取奖励。有关详细信息，请参阅[此处](../liu-dong-xing-ti-gong-zhe/glif-jiang-li-ji-zhi-ifil.md)。当前 iFIL 价格的计算方式为：
 

@@ -16,7 +16,7 @@ In the event of a liquidation, all interest and principal is expected to be repa
 ### GLIF Administration - DTL > 75% to 90%
 
 * SPs with a DTL ratio above 75% become eligible for “administration”. During administration, borrowing and withdrawing are disabled, and GLIF is allowed to pay down the SP's debt using any available balances on the SP's miners. No terminations or penalties occur when a GLIF administrator pays down an SP's debt. The goal of administration is to return the SP to good standing with GLIF  (DTL < 75%).
-* Storage Providers who join the [GLIF+ program](/broken/pages/jt1R92FWbP8KSp3HrRV0) will be put in “administration” if they exceed their borrowing limit. If the SP joined the GLIF+ program as a Gold Card member, the administration threshold increases to 90%. Refer to the [tier and limit table](../glif+-storage-providers-loyalty-rewards/tiers-and-limits.md) for details.
+* Storage Providers who join the [GLIF+ program](../glif+-storage-providers-loyalty-rewards/storage-provider-loyalty-card.md) will be put in “administration” if they exceed their borrowing limit. If the SP joined the GLIF+ program as a Gold Card member, the administration threshold increases to 90%. Refer to the [tier and limit table](../glif+-storage-providers-loyalty-rewards/tiers-and-limits.md) for details.
 
 ## **Healthy SP criteria**
 

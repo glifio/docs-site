@@ -2,7 +2,7 @@
 
 ## What are the key ratios used to determine borrowing limits?
 
-[Debt-to-Liquidation (DTL)](../../../for-storage-providers/borrowing-limits-and-dtl.md) ratio must be less than 75%. If the SP joined the [GLIF+ program](/broken/pages/jt1R92FWbP8KSp3HrRV0) as a Gold Card member, the DTL increases to 90%. Read [here](../../../for-storage-providers/borrowing-limits-and-dtl.md) for more details.
+[Debt-to-Liquidation (DTL)](../../../for-storage-providers/borrowing-limits-and-dtl.md) ratio must be less than 75%. If the SP joined the [GLIF+ program](../../../glif+-storage-providers-loyalty-rewards/storage-provider-loyalty-card.md) as a Gold Card member, the DTL increases to 90%. Read [here](../../../for-storage-providers/borrowing-limits-and-dtl.md) for more details.
 
 ## What is “liquidation value” and how is it calculated?
 
@@ -30,7 +30,7 @@ These values represent the inverse of the DTL ratio. For example, a 75% DTL corr
 
 ## **If I try to borrow and withdraw 10,000 FIL, and borrow from sealing, how much can I still borrow from GLIF?**
 
-To determine how much you can borrow from GLIF, you need to understand the [Debt-to-Liquidation (DTL) ratio](../../../for-storage-providers/borrowing-limits-and-dtl.md). DTL ratio must be less than 75%. If the SP joined the [GLIF+ program](/broken/pages/jt1R92FWbP8KSp3HrRV0) as a Gold Card member, the DTL increases to 90%. Read [here](../../../for-storage-providers/borrowing-limits-and-dtl.md) for more details.\
+To determine how much you can borrow from GLIF, you need to understand the [Debt-to-Liquidation (DTL) ratio](../../../for-storage-providers/borrowing-limits-and-dtl.md). DTL ratio must be less than 75%. If the SP joined the [GLIF+ program](../../../glif+-storage-providers-loyalty-rewards/storage-provider-loyalty-card.md) as a Gold Card member, the DTL increases to 90%. Read [here](../../../for-storage-providers/borrowing-limits-and-dtl.md) for more details.\
 The DTL ratio is calculated as:
 
 $$
