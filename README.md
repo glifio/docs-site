@@ -2,14 +2,22 @@
 
 Source content for the [glif.io](https://glif.io) and [icn.glif.io](https://icn.glif.io) documentation.
 
-## Folder structure
+## Running locally
 
+```bash
+npm install
+npm run dev
 ```
-docs/
-  {locale}/          # Language code: en, zh
-    {domain}/        # Site domain: www, icn
-      <topic folders and markdown files>
-public/              # Static assets (images, PDFs) referenced from docs
+
+Open [http://localhost:3000](http://localhost:3000).
+
+Other useful commands:
+
+```bash
+npm run build    # Production build
+npm run start    # Start production server
+npm run lint     # Run ESLint
+npm run fix      # Lint and format (ESLint + Prettier)
 ```
 
 ## Contributing
