@@ -56,7 +56,7 @@ $$
 
 ## 查看您的奖励
 
-流动性提供者可以通过将钱包连接到 GLIF，或访问特定地址的[钱包](https://www.glif.io/en/wallet)或[多签](https://www.glif.io/en/multisig)页面，来检查其持有的 iFIL 可兌換的 FIL 价值。
+流动性提供者可以通过将钱包连接到 GLIF，或访问特定地址的[钱包](/wallet)或[多签](/multisig)页面，来检查其持有的 iFIL 可兌換的 FIL 价值。
 
 iFIL 回报显示在 “_代币”_ 部分中：
 

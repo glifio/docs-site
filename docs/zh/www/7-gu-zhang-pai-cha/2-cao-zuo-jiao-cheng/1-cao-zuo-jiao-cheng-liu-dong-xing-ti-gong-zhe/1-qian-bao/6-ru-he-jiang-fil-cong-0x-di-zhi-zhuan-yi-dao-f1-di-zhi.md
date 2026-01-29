@@ -103,7 +103,7 @@
 ![步骤3：将FIL从中介钱包转移](cn-image-60.png)
 
 5. 交易完成后，您可以在GLIF页面的右下角查看交易哈希。
-6. 交易完成后，您可以在https://www.glif.io/en/address/(您的f1地址)，或者[filfox.info](https://filfox.info) ，验证您的最终f1地址余额
+6. 交易完成后，您可以在glif.io/address/(您的f1地址)，或者[filfox.info](https://filfox.info) ，验证您的最终f1地址余额
 7. 恭喜！您的FIL已成功从0x地址转移到您的f1地址！
 
 ## 结论

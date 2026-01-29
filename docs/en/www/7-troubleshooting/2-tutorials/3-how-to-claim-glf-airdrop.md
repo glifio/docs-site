@@ -1,6 +1,6 @@
 # How to Claim $GLF Airdrop
 
-The wait is over, $GLF has arrived! It's time to learn how to claim your tokens and start building the first DeFi for DePIN community together. By claiming your $GLF Airdrop, you immediately become a member of the GLIF community! To read more, click [here](https://www.glif.io/en/token).
+The wait is over, $GLF has arrived! It's time to learn how to claim your tokens and start building the first DeFi for DePIN community together. By claiming your $GLF Airdrop, you immediately become a member of the GLIF community! To read more, click [here](/token).
 
 ## Contents
 
@@ -22,7 +22,7 @@ If your eligible wallet is a multisig wallet, the claiming process is very simil
 
 ### Step 1: Start Claiming on the GLIF Website
 
-1. Navigate to the [official GLIF website token claim page](https://www.glif.io/en/token).
+1. Navigate to the [official GLIF website token claim page](/token).
 2. Click “Connect Wallet” to connect your eligible wallet. Your $GLF airdrop amount will be displayed here.
 
 ![GLF amount](en-glf-airdrop-01-glf-amount.png)
@@ -85,7 +85,7 @@ If you would like to claim through the website interface, please follow the inst
 
 #### Step 1: Start Claiming on the GLIF Website
 
-1. Navigate to the [official GLIF website token claim page](https://www.glif.io/en/token)
+1. Navigate to the [official GLIF website token claim page](/token)
 2. Connect to your Agent's owner address. Your $GLF airdrop amount will be displayed here. Click “Connect Wallet”. Connect to your Agent's owner wallet. If it is a multisig wallet, connect using one of its signers.
 
 ![Add signer form](en-image-374.png)

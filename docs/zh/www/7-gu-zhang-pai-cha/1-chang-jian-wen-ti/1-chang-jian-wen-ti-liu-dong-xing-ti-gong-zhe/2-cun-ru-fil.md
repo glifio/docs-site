@@ -10,11 +10,11 @@ iFIL 可以被认为是存入 GLIF 的 FIL 的 「兑换券」。它允许 iFIL 
 
 ## 我如何在 GLIF 中提供流动性？/ 我如何获得 iFIL？
 
-可以通过GLIF [池子页面](https://www.glif.io/zh/pool/infinity) 将 FIL 存入 GLIF 来提供流动性。作为存款的交换，您将按当前 iFIL 价格获得相应数量的 [iFIL](/docs/2-liu-dong-xing-ti-gong-zhe/2-glif-jiang-li-ji-zhi-ifil) 代币。
+可以通过GLIF [池子页面](/pool/infinity) 将 FIL 存入 GLIF 来提供流动性。作为存款的交换，您将按当前 iFIL 价格获得相应数量的 [iFIL](/docs/2-liu-dong-xing-ti-gong-zhe/2-glif-jiang-li-ji-zhi-ifil) 代币。
 
 ## 我在哪里可以看到我在 GLIF 中的收益？
 
-流动性提供者可以通过将钱包连接到 GLIF，或访问特定地址的[钱包](https://www.glif.io/en/wallet)或[多签](https://www.glif.io/en/multisig)页面，来检查其持有的 iFIL 可兌換的 FIL 价值。
+流动性提供者可以通过将钱包连接到 GLIF，或访问特定地址的[钱包](/wallet)或[多签](/multisig)页面，来检查其持有的 iFIL 可兌換的 FIL 价值。
 
 iFIL 回报显示在_「代币」_部分中：
 

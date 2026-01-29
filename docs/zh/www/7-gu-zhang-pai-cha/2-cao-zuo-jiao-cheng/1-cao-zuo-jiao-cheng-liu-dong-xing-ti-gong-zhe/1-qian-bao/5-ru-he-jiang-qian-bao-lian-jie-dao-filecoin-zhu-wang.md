@@ -13,7 +13,7 @@ GLIF兼容[大多数的EVM钱包，](https://filecointldr.io/how-to-buy-filecoin
 
 ## 步骤2：将您的钱包连接到GLIF
 
-1. 点击 [GLIF 网站](https://glif.io)右上角的“**连接钱包**”。
+1. 点击 [GLIF 网站](/)右上角的“**连接钱包**”。
 
 ![步骤2：将您的钱包连接到GLI](cn-image-46.png)
 

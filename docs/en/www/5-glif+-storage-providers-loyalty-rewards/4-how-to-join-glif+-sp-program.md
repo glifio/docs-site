@@ -7,6 +7,6 @@ For users using the GLIF CLI, please upgrade to the following release:\
 
 ## GLIF Website
 
-GLIF users can now mint Loyalty Cards directly on the website. Minting is available [here](https://glif.io/loyalty).
+GLIF users can now mint Loyalty Cards directly on the website. Minting is available [here](/loyalty).
 
 Please refer to the tutorial for step-by-step guide (coming soon).

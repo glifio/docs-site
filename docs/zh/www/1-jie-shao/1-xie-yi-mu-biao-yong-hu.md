@@ -6,7 +6,7 @@
 
 在[下一节](/docs/2-liu-dong-xing-ti-gong-zhe/1-cun-ru-fil)了解更多关于成为 GLIF 流动性提供者的资讯，或查看[常见问题](/docs/7-gu-zhang-pai-cha/1-chang-jian-wen-ti/1-chang-jian-wen-ti-liu-dong-xing-ti-gong-zhe)。
 
-您可以在我们的[网站](https://www.glif.io/zh/pool/infinity)上将 FIL 存入 GLIF，立即成为 GLIF 流动性提供者，赚取奖励。
+您可以在我们的[网站](/pool/infinity)上将 FIL 存入 GLIF，立即成为 GLIF 流动性提供者，赚取奖励。
 
 ## 存储提供商
 
@@ -14,4 +14,4 @@
 
 作为一个 SP，你可以从大量流动性提供者 (LP) 的手中借入 FIL，而无需交出私钥、签署法律文件或进行 KYC 验证。借入的 FIL 可用于存储挖矿，或从系统中提取出来，于交易所进行交易或出售。SP 可以借入高达其抵押品 3 倍杠杆的FIL。你可以在[这一節](/docs/3-cun-chu-ti-gong-shang/1-jie-ru-fil)了解更多关于作为存储提供者的资讯，或查看[常见问题](/docs/7-gu-zhang-pai-cha/1-chang-jian-wen-ti/2-chang-jian-wen-ti-cun-chu-ti-gong-shang)。
 
-要立即开始从 GLIF 借入 FIL，请在我们的[网站](https://www.glif.io/zh/agent)上创建一个[Agent](/docs/3-cun-chu-ti-gong-shang/7-shi-yong-agents-guan-li-jie-dian)。
+要立即开始从 GLIF 借入 FIL，请在我们的[网站](/agent)上创建一个[Agent](/docs/3-cun-chu-ti-gong-shang/7-shi-yong-agents-guan-li-jie-dian)。

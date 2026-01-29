@@ -22,7 +22,7 @@ The Agent Creation Wizard on the GLIF website will walk you through these steps.
 
 ## Create your Agent on the website
 
-**Step 1 —** go to [https://glif.io/agent](https://glif.io/agent) and click the “**Create new agent**” button on the left hand panel:
+**Step 1 —** go to [glif.io/agent](/agent) and click the “**Create new agent**” button on the left hand panel:
 
 ![Agent creation](en-image-366.png)
 

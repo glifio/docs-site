@@ -12,7 +12,7 @@ Click [here](/docs/1-introduction) to know more about GLIF.
 
 There are a couple ways you can use GLIF as a FIL token holder:
 
-1. Use our built-in wallet or multisig features - GLIF's [wallet](https://www.glif.io/en/wallet) and [multisig](https://www.glif.io/en/multisig) are used by a large portion of the Filecoin network for sending/receiving/custodying FIL.
+1. Use our built-in wallet or multisig features - GLIF's [wallet](/wallet) and [multisig](/multisig) are used by a large portion of the Filecoin network for sending/receiving/custodying FIL.
 2. Deposit FIL into GLIF to earn rewards. You can read more it [here](/docs/2-for-liquidity-providers/2-glif-reward-mechanism-ifil).
 
 ## Why is GLIF important?

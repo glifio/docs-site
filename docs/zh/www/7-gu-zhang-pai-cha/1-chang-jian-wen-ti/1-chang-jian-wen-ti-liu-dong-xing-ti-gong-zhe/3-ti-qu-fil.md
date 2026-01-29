@@ -2,7 +2,7 @@
 
 ## 我可以将我的 iFIL 换回 FIL 吗？
 
-如果资金池有足够的流动性来处理提款，iFIL 持有者可以随时从 GLIF 提取 FIL。您可以通过 [GLIF 网页](https://www.glif.io/zh/pool/infinity)发起此过程。从 GLIF 提取 FIL 需要进行两次交易 (Transaction)：
+如果资金池有足够的流动性来处理提款，iFIL 持有者可以随时从 GLIF 提取 FIL。您可以通过 [GLIF 网页](/pool/infinity)发起此过程。从 GLIF 提取 FIL 需要进行两次交易 (Transaction)：
 
 1. 在步骤 2 中批准 GLIF 智能合约代表您转移 iFIL。
 2. 从 GLIF 提取 FIL。

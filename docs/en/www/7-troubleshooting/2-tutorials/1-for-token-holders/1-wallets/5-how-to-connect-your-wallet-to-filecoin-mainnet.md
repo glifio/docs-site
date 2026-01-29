@@ -13,7 +13,7 @@ In this tutorial we will use MetaMask, but you can find a similar tutorial using
 
 ## Step 2: Connect your wallet to GLIF
 
-1. Visit the [GLIF website](https://www.glif.io) and click on “**Connect Wallet**” in the top right corner.
+1. Visit the [GLIF website](/) and click on “**Connect Wallet**” in the top right corner.
 
 ![GLIF connect button](en-image-156.png)
 

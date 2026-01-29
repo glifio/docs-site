@@ -124,7 +124,7 @@
 
 ![第三步：从中间钱包将 FIL](cn-image-303.png)
 
-6. 等交易完成后，您可前往 [filfox.info](https://filfox.info/) 或在浏览器中输入 https://www.glif.io/en/address/(您的 f1 地址) 来查看最终地址的余额。
+6. 等交易完成后，您可前往 [filfox.info](https://filfox.info/) 或在浏览器中输入 glif.io/address/(您的 f1 地址) 来查看最终地址的余额。
 7. 恭喜！您已经成功将 FIL 从 Agent 提取并转移至交易所的 f1 地址。
 
 ## 总结

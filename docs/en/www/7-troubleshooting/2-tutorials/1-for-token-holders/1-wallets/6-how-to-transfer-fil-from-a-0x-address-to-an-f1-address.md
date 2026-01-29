@@ -121,7 +121,7 @@ For the burner wallet, remember to choose “**Filecoin (f1...)**” as the addr
 
 ![Transaction complete](en-image-95.png)
 
-6. Once the transaction is completed, you can verify the balance of your final f1 address on [filfox.info](https://filfox.info/en) or by pasting your address after [https://www.glif.io/en/address](https://www.glif.io/en/address/your_f1_address)/(your f1 address).
+6. Once the transaction is completed, you can verify the balance of your final f1 address on [filfox.info](https://filfox.info/en) or by pasting your address after [glif.io/address](/address)/(your f1 address).
 7. Congrats! Your FIL has been successfully transferred from a 0x address to your f1 address!
 
 ## Conclusion

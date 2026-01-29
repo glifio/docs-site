@@ -11,7 +11,7 @@ Filecoin生态系统中有各种类型的地址，例如f0、f1、f2、f3和f410
 
 1. 安装 MetaMask Chrome 插件 [https://metamask.io/download/](https://metamask.io/download/)
 2. 创建助记词并设置MetaMask，确保将助记词安全备份。
-3. 安装并设置完成后，到 [https://glif.io](https://glif.io/) 并点击右上角的“**连接钱包**”。选择“**FilSnap (Filecoin)**”选项：
+3. 安装并设置完成后，到 [glif.io](/) 并点击右上角的“**连接钱包**”。选择“**FilSnap (Filecoin)**”选项：
 
 ![操作教程](cn-image-44.png)
 

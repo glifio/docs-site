@@ -10,7 +10,7 @@ To obtain a FilSnap wallet, you will need to:
 
 1. Install MetaMask chrome extension [https://metamask.io/download/](https://metamask.io/download/).
 2. Setup MetaMask by creating a seed phrase. Ensure you securely backup your seed phrase somewhere safe.
-3. Once installed and configured, go to [https://glif.io](https://glif.io/) and click “**Connect Wallet**” in the top right corner. Select “**FilSnap (Filecoin)**” option:
+3. Once installed and configured, go to [glif.io](/) and click “**Connect Wallet**” in the top right corner. Select “**FilSnap (Filecoin)**” option:
 
 ![Connect wallet](en-how-to-obtain-a-filsnap-wallet.png)
 

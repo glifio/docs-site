@@ -16,7 +16,7 @@ Make sure you have your device connected to your computer (e.g., with the suppli
 
 ## Step 2. Connect your wallet to GLIF
 
-1. Go to [GLIF website](https://www.glif.io) and click on **Connect Wallet** in the top right of the screen. You will see a list of wallets to connect. Choose “**Ledger (Filecoin)**”.
+1. Go to [GLIF website](/) and click on **Connect Wallet** in the top right of the screen. You will see a list of wallets to connect. Choose “**Ledger (Filecoin)**”.
 
 ![Toggle button](en-image-99.png)
 

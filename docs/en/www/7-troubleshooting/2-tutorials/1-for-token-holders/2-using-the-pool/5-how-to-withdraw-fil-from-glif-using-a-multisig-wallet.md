@@ -19,7 +19,7 @@ In this tutorial, a GLIF multisig wallet with deposited FIL, holding iFIL, is cr
 
 1. **Access your multisig wallet**
 
-Go to the [GLIF website](https://glif.io) and navigate to the “**Multisig**” tab.
+Go to the [GLIF website](/) and navigate to the “**Multisig**” tab.
 
 ![Approve pool access](en-image-310.png)
 
