@@ -1,6 +1,6 @@
-# GLIF Documentation Site
+# GLIF Documentation
 
-Source content for the [glif.io](https://glif.io) and [icn.glif.io](https://icn.glif.io) documentation sites.
+Source content for the [glif.io](https://glif.io) and [icn.glif.io](https://icn.glif.io) documentation.
 
 ## Folder structure
 
