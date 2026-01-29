@@ -13,12 +13,15 @@
       "Bash(image:*)",
       "Bash(ls:*)",
       "Bash(node:*)",
+      "Bash(npm install:*)",
       "Bash(python:*)",
       "Bash(python3:*)",
       "Bash(sed:*)",
       "Bash(test:*)",
       "Bash(tree:*)",
-      "Bash(xxd:*)"
+      "Bash(xxd:*)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:www.npmjs.com)"
     ],
     "defaultMode": "acceptEdits"
   }
