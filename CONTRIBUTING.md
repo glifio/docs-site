@@ -32,6 +32,7 @@ Use standard markdown link syntax: `[text](url)`
 | External link | Full URL | `[Filecoin](https://filecoin.io)` |
 | Internal doc link | `/docs/` + path from domain folder, **no `.md` extension** | `[rewards](/docs/1-tokens/2-rewards)` |
 | Internal folder link | `/docs/` + path to folder (addresses its `README.md`) | `[tutorials](/docs/1-tokens)` |
+| Internal site link | Path to a non-documentation page on the GLIF website, **no locale or domain** | `[wallet](/wallet)` |
 | Anchor link | `#anchor-name` | `[see below](#example-section)` |
 | Internal + anchor | Combines internal path with anchor | `[rewards](/docs/1-tokens/2-rewards#staking)` |
 
