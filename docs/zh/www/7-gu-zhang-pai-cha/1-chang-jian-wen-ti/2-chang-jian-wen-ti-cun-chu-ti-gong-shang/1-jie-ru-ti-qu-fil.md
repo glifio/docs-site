@@ -1,8 +1,8 @@
-# 借入 & 提取 FIL
+﻿# 借入 & 提取 FIL
 
 ## 作为存储提供商，我可以使用 GLIF 做什么？
 
-GLIF 使存储提供商 (SP) 从大量流动性提供者 (LP) 手中借入 FIL，而无需交出私钥、签署法律文件或进行 KYC 验证。借入的资金可用于封装，或完全从系统中[提取](/3-cun-chu-ti-gong-shang/4-jie-ru-fil-yong-tu)出来。为了获得借款资格，SP 必须向 GLIF 添加抵押品。您可以在[此处](/3-cun-chu-ti-gong-shang/3-jie-kuan-shang-xian-jie-kuan-yu-qing-suan-jia-zhi-bi-dtl)阅读更多相关规则。
+GLIF 使存储提供商 (SP) 从大量流动性提供者 (LP) 手中借入 FIL，而无需交出私钥、签署法律文件或进行 KYC 验证。借入的资金可用于封装，或完全从系统中[提取](/docs/3-cun-chu-ti-gong-shang/4-jie-ru-fil-yong-tu)出来。为了获得借款资格，SP 必须向 GLIF 添加抵押品。您可以在[此处](/docs/3-cun-chu-ti-gong-shang/3-jie-kuan-shang-xian-jie-kuan-yu-qing-suan-jia-zhi-bi-dtl)阅读更多相关规则。
 
 ## 使用已抵押的抵押品借款是如何运作的？
 
@@ -14,7 +14,7 @@ SP 可以提取 FIL 作为运营和投资资金，而无需等待奖励完全释
 
 ## GLIF 如何确保 SP 保留对其资产的拥有权？
 
-GLIF 使用智能合约，使 SP 在借入 FIL 的同时保持对其Miner Actor 的拥有权。您可以在[此处](/3-cun-chu-ti-gong-shang/7-shi-yong-agents-guan-li-jie-dian)阅读更多相关规则。
+GLIF 使用智能合约，使 SP 在借入 FIL 的同时保持对其Miner Actor 的拥有权。您可以在[此处](/docs/3-cun-chu-ti-gong-shang/7-shi-yong-agents-guan-li-jie-dian)阅读更多相关规则。
 
 ## 从 GLIF 借入 FIL 的利率是多少？
 
@@ -22,4 +22,4 @@ GLIF 使用智能合约，使 SP 在借入 FIL 的同时保持对其Miner Actor 
 
 ## SP 如何从 GLIF 中提取未用于封装的资金？
 
-只要 SP 的[借款与清算价值比 (DTL)](/3-cun-chu-ti-gong-shang/3-jie-kuan-shang-xian-jie-kuan-yu-qing-suan-jia-zhi-bi-dtl) 比率保持在 75% 以下，就可以提取 FIL。您可以在[此处](/3-cun-chu-ti-gong-shang/4-jie-ru-fil-yong-tu)阅读更多相关规则。
+只要 SP 的[借款与清算价值比 (DTL)](/docs/3-cun-chu-ti-gong-shang/3-jie-kuan-shang-xian-jie-kuan-yu-qing-suan-jia-zhi-bi-dtl) 比率保持在 75% 以下，就可以提取 FIL。您可以在[此处](/docs/3-cun-chu-ti-gong-shang/4-jie-ru-fil-yong-tu)阅读更多相关规则。

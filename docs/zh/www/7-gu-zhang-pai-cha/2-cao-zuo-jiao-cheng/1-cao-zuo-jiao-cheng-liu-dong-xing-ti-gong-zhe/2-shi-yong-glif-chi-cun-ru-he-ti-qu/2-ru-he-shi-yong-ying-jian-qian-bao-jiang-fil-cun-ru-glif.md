@@ -1,4 +1,4 @@
-# 如何使用硬件钱包将 FIL 存入 GLIF
+﻿# 如何使用硬件钱包将 FIL 存入 GLIF
 
 如果您将 FIL 代币存储在冷钱包中，在使用新的 Filecoin DeFi 应用时可能会觉得困惑。但事实上，这个过程非常简单，我们会向您演示如何操作。
 
@@ -54,7 +54,7 @@
 
 ## 步骤 4. 收到 iFIL
 
-存入 FIL 后，您将在一两分钟内收到 iFIL。iFIL 的 FIL 价值代表您的初始存款加上已获得的收益。如需了解 iFIL 的更多信息，请在[此处](/2-liu-dong-xing-ti-gong-zhe/2-glif-jiang-li-ji-zhi-ifil)查看文档。
+存入 FIL 后，您将在一两分钟内收到 iFIL。iFIL 的 FIL 价值代表您的初始存款加上已获得的收益。如需了解 iFIL 的更多信息，请在[此处](/docs/2-liu-dong-xing-ti-gong-zhe/2-glif-jiang-li-ji-zhi-ifil)查看文档。
 
 如果您想查看更详细的持仓信息，可以点击 GLIF 左上方中的“**钱包**”，在“**代币**”部分查看钱包的 FIL 和 iFIL。
 
@@ -66,4 +66,4 @@
 
 恭喜您成功将 FIL 存入 GLIF！当您准备提取存款时，需要将 iFIL 返还给 GLIF 才能拿回您的 FIL。
 
-有关更多提取流程的详细教程，请[点击此处](/7-gu-zhang-pai-cha/2-cao-zuo-jiao-cheng/1-cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/2-shi-yong-glif-chi-cun-ru-he-ti-qu/4-cong-glif-ti-qu-fil)。
+有关更多提取流程的详细教程，请[点击此处](/docs/7-gu-zhang-pai-cha/2-cao-zuo-jiao-cheng/1-cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/2-shi-yong-glif-chi-cun-ru-he-ti-qu/4-cong-glif-ti-qu-fil)。

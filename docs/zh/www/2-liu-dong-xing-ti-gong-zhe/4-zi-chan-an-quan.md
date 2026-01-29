@@ -1,10 +1,10 @@
-# 资产安全
+﻿# 资产安全
 
 ## 资金安全 - 清算机制
 
-GLIF 的资金安全基于存储提供商 (SP) 始终保持超额抵押。 如果 SP 违反其抵押限额，SP 将被清算，在损失发生之前，收回的资产将代表 SP 偿还给资金池。 GLIF 使用[债务与清算价值比 (DTL](/3-cun-chu-ti-gong-shang/3-jie-kuan-shang-xian-jie-kuan-yu-qing-suan-jia-zhi-bi-dtl)[)](/3-cun-chu-ti-gong-shang/3-jie-kuan-shang-xian-jie-kuan-yu-qing-suan-jia-zhi-bi-dtl)来衡量抵押率，该比率衡量 SP 借入的金额与其清算价值的比例。 清算价值是在[清算情况](/3-cun-chu-ti-gong-shang/5-qing-suan-ji-zhi)下 SP 的预计价值，考虑了罚金和其他损失。
+GLIF 的资金安全基于存储提供商 (SP) 始终保持超额抵押。 如果 SP 违反其抵押限额，SP 将被清算，在损失发生之前，收回的资产将代表 SP 偿还给资金池。 GLIF 使用[债务与清算价值比 (DTL](/docs/3-cun-chu-ti-gong-shang/3-jie-kuan-shang-xian-jie-kuan-yu-qing-suan-jia-zhi-bi-dtl)[)](/docs/3-cun-chu-ti-gong-shang/3-jie-kuan-shang-xian-jie-kuan-yu-qing-suan-jia-zhi-bi-dtl)来衡量抵押率，该比率衡量 SP 借入的金额与其清算价值的比例。 清算价值是在[清算情况](/docs/3-cun-chu-ti-gong-shang/5-qing-suan-ji-zhi)下 SP 的预计价值，考虑了罚金和其他损失。
 
-在此阅读更多关于[资金安全规则](/3-cun-chu-ti-gong-shang/5-qing-suan-ji-zhi)的信息。
+在此阅读更多关于[资金安全规则](/docs/3-cun-chu-ti-gong-shang/5-qing-suan-ji-zhi)的信息。
 
 ## 代码安全 - 审计和持续监控
 

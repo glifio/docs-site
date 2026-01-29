@@ -1,4 +1,4 @@
-# Benefits for Storage Providers
+﻿# Benefits for Storage Providers
 
 GLIF+ Card holders receive two primary benefits:
 
@@ -7,7 +7,7 @@ GLIF+ Card holders receive two primary benefits:
 
 ## Increased borrowing limits
 
-Active GLIF+ cardholders receive higher borrowing limits, up to 10× leverage. See the [Tier Table](/5-glif+-storage-providers-loyalty-rewards/3-tiers-and-limits) for exact limits per status.
+Active GLIF+ cardholders receive higher borrowing limits, up to 10× leverage. See the [Tier Table](/docs/5-glif+-storage-providers-loyalty-rewards/3-tiers-and-limits) for exact limits per status.
 
 ## FIL Interest Cash Back
 
@@ -19,10 +19,10 @@ Today, SPs who want to realize FIL from their $GLF typically swap $GLF→$FIL on
 #### How it works:
 
 1. You've borrowed from GLIF and have interest due.
-2. You hold an active GLIF+ Loyalty Card (see activation steps in [next section](/5-glif+-storage-providers-loyalty-rewards/4-how-to-join-glif+-sp-program)).
+2. You hold an active GLIF+ Loyalty Card (see activation steps in [next section](/docs/5-glif+-storage-providers-loyalty-rewards/4-how-to-join-glif+-sp-program)).
 3. You fund your Card with $GLF for cash back.
 
-Once funded, up to 10% of every interest payment can be redeemed with your $GLF. The protocol swaps your $GLF into FIL at a premium determined by your tier—up to +25% for Gold members. See the [Tier Table](/5-glif+-storage-providers-loyalty-rewards/3-tiers-and-limits) for details.
+Once funded, up to 10% of every interest payment can be redeemed with your $GLF. The protocol swaps your $GLF into FIL at a premium determined by your tier—up to +25% for Gold members. See the [Tier Table](/docs/5-glif+-storage-providers-loyalty-rewards/3-tiers-and-limits) for details.
 
 #### **Example**
 

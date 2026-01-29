@@ -1,4 +1,4 @@
-# Uses of Borrowed FIL
+﻿# Uses of Borrowed FIL
 
 1. To use as pledge collateral for Filecoin storage mining
 2. To fund fiat denominated expenses like gas, payroll, rent
@@ -7,7 +7,7 @@ GLIF allows SPs to use FIL for both of these use cases. If you're looking for a 
 
 ## Borrow FIL for storage mining
 
-When an SP borrows FIL for storage mining, it can borrow more FIL from GLIF because the borrowed FIL is included in the SP's [liquidation value](/3-for-storage-providers/2-sp-liquidation-values). Therefore, the SP is less restricted by the [debt-to-liquidation ratio (DTL)](/3-for-storage-providers/3-borrowing-limits-and-dtl) because the SP's liquidation value grows simultaneously with its debt. For example, imagine the following scenario:
+When an SP borrows FIL for storage mining, it can borrow more FIL from GLIF because the borrowed FIL is included in the SP's [liquidation value](/docs/3-for-storage-providers/2-sp-liquidation-values). Therefore, the SP is less restricted by the [debt-to-liquidation ratio (DTL)](/docs/3-for-storage-providers/3-borrowing-limits-and-dtl) because the SP's liquidation value grows simultaneously with its debt. For example, imagine the following scenario:
 
 1. A Storage Provider comes to GLIF to borrow using a miner with 1000 FIL in liquidation value as collateral. To start, its debt-to-liquidation ratio (DTL) is 0%.
 2. The SP borrows 100 FIL from GLIF, and transfers the 100 FIL to the miner who will use it for pledging new sectors. The 100 FIL is now sitting in the miner's Available Balance.
@@ -30,7 +30,7 @@ In the example above, the SP's debt has increased from 0 FIL to 100 FIL. However
 ***
 
 > [!IMPORTANT]
-> Regardless of if an SP chooses to use borrowed FIL for storage mining or withdrawals outside of GLIF, the SP's DTL ratio must stay below 75% - 90% (Depends on whether the SP joined the [GLIF+ program](/5-glif+-storage-providers-loyalty-rewards/1-storage-provider-loyalty-card)) in order to be approved.
+> Regardless of if an SP chooses to use borrowed FIL for storage mining or withdrawals outside of GLIF, the SP's DTL ratio must stay below 75% - 90% (Depends on whether the SP joined the [GLIF+ program](/docs/5-glif+-storage-providers-loyalty-rewards/1-storage-provider-loyalty-card)) in order to be approved.
 
 ## Key takeaway:
 

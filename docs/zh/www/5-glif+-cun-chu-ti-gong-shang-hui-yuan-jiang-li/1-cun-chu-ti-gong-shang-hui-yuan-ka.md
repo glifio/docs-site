@@ -1,4 +1,4 @@
-# 存储提供商会员卡
+﻿# 存储提供商会员卡
 
 ![存储提供商会员卡](cn-image-407.png)
 
@@ -6,6 +6,6 @@ GLIF+ 会员卡让 $GLF 持有者能够在使用 GLIF 时获得更多权益。�
 
 ## **目录**
 
-* [存储提供商权益](/5-glif+-cun-chu-ti-gong-shang-hui-yuan-jiang-li/2-cun-chu-ti-gong-shang-quan-yi)
-* [等级与限制](/5-glif+-cun-chu-ti-gong-shang-hui-yuan-jiang-li/3-deng-ji-yu-xian-zhi)
-* [如何加入 GLIF+ SP 计划](/5-glif+-cun-chu-ti-gong-shang-hui-yuan-jiang-li/4-ru-he-jia-ru-glif+-sp-ji-hua)
+* [存储提供商权益](/docs/5-glif+-cun-chu-ti-gong-shang-hui-yuan-jiang-li/2-cun-chu-ti-gong-shang-quan-yi)
+* [等级与限制](/docs/5-glif+-cun-chu-ti-gong-shang-hui-yuan-jiang-li/3-deng-ji-yu-xian-zhi)
+* [如何加入 GLIF+ SP 计划](/docs/5-glif+-cun-chu-ti-gong-shang-hui-yuan-jiang-li/4-ru-he-jia-ru-glif+-sp-ji-hua)

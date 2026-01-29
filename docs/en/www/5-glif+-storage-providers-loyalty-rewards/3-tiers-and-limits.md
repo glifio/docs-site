@@ -1,4 +1,4 @@
-# Tiers and Limits
+﻿# Tiers and Limits
 
 Your GLIF+ Tier is determined by the amount of $GLF you stake, which sets your cash back rewards and DTL limits—the higher your status, the bigger the benefits.
 
@@ -8,7 +8,7 @@ Your GLIF+ Tier is determined by the amount of $GLF you stake, which sets your c
 | Silver | 5000             | 250000                   | 10%               | 85.7% (7x)           |
 | Gold   | 5000             | 750000                   | 25%               | 90% (10x)            |
 
-\*DTL = debt-to-liquidation value. Higher DTL corresponds to higher effective leverage. Learn more about DTL [here](/3-for-storage-providers/3-borrowing-limits-and-dtl).
+\*DTL = debt-to-liquidation value. Higher DTL corresponds to higher effective leverage. Learn more about DTL [here](/docs/3-for-storage-providers/3-borrowing-limits-and-dtl).
 
 ### **Card costs**
 

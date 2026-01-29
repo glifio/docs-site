@@ -1,4 +1,4 @@
-# 提取 FIL
+﻿# 提取 FIL
 
 ## 我可以将我的 iFIL 换回 FIL 吗？
 
@@ -7,7 +7,7 @@
 1. 在步骤 2 中批准 GLIF 智能合约代表您转移 iFIL。
 2. 从 GLIF 提取 FIL。
 
-有关详细信息，请参阅[此处](/2-liu-dong-xing-ti-gong-zhe/3-ti-qu-fil)。
+有关详细信息，请参阅[此处](/docs/2-liu-dong-xing-ti-gong-zhe/3-ti-qu-fil)。
 
 ## 如果资金池的储备金不足怎么办？
 

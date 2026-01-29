@@ -1,4 +1,4 @@
-# Risks
+﻿# Risks
 
 ## Smart contract risk
 
@@ -13,6 +13,6 @@ To mitigate smart contract risk, GLIF:
 
 ## Financial Math risk
 
-In the previous [section](/2-for-liquidity-providers/4-asset-security), we discussed liquidation value—the FIL recovered in a liquidation event. A key risk is overestimating the liquidation value of a specific Storage Provider (SP) in the system. In the case of a liquidation value overestimation, the protocol may recover less assets in a liquidation than expected, which could create losses for Liquidity Providers (LP).
+In the previous [section](/docs/2-for-liquidity-providers/4-asset-security), we discussed liquidation value—the FIL recovered in a liquidation event. A key risk is overestimating the liquidation value of a specific Storage Provider (SP) in the system. In the case of a liquidation value overestimation, the protocol may recover less assets in a liquidation than expected, which could create losses for Liquidity Providers (LP).
 
 To mitigate the possibility of overestimation, GLIF monitors are continuously simulating Miner liquidations to check results every 24 hours. Additionally, we written and passed [FIP-98](https://github.com/filecoin-project/FIPs/blob/master/FIPS/fip-0098.md), which massively simplifies the calculation of liquidation values across the network of Storage Providers, making overestimation a very unlikely scenario.

@@ -1,4 +1,4 @@
-# 等级与限制
+﻿# 等级与限制
 
 GLIF+ 的等级取决于你质押的 GLF 数量，这会影响你的返现奖励和 DTL 上限 —— 等级越高，权益越多。
 
@@ -8,7 +8,7 @@ GLIF+ 的等级取决于你质押的 GLF 数量，这会影响你的返现奖励
 | 银卡 | 5000            | 250000          | 10%                          | 85.7% (7x)      |
 | 金卡 | 5000            | 750000          | 25%                          | 90% (10x)       |
 
-\*DTL = 借款与清算价值比。DTL 越高，实际杠杆越大。[在此](/3-cun-chu-ti-gong-shang/3-jie-kuan-shang-xian-jie-kuan-yu-qing-suan-jia-zhi-bi-dtl)进一步了解 DTL。
+\*DTL = 借款与清算价值比。DTL 越高，实际杠杆越大。[在此](/docs/3-cun-chu-ti-gong-shang/3-jie-kuan-shang-xian-jie-kuan-yu-qing-suan-jia-zhi-bi-dtl)进一步了解 DTL。
 
 ### **卡片费用**
 

@@ -1,4 +1,4 @@
-# How to withdraw FIL from the agent to an exchange at GLIF
+﻿# How to withdraw FIL from the agent to an exchange at GLIF
 
 In order to withdraw from a GLIF Agent smart contract to an exchange like Binance, you need to use an intermediary wallet, which can be a **FilSnap, Burner Wallet, or Ledger Wallet**. The strategy is to withdraw FIL from your Agent to your intermediary wallet, and from your intermediary wallet to the exchange. The reason for this approach is due to certain exchanges not yet supporting Filecoin deposits from FEVM smart contracts.
 
@@ -29,9 +29,9 @@ You can choose from the following options:
 
 You can choose an intermediary wallet to obtain an `f1` address from the following options:
 
-* [Choice A: Burner Wallet](/7-troubleshooting/2-tutorials/1-for-token-holders/1-wallets/3-how-to-obtain-a-burner-wallet-as-the-intermediary-wallet)
-* [Choice B: FilSnap Wallet](/7-troubleshooting/2-tutorials/1-for-token-holders/1-wallets/4-how-to-obtain-a-filsnap-wallet-as-the-intermediary-wallet)
-* [Choice C: Ledger Wallet](/7-troubleshooting/2-tutorials/1-for-token-holders/1-wallets/2-how-to-obtain-a-ledger-wallet-as-the-intermediary-wallet)
+* [Choice A: Burner Wallet](/docs/7-troubleshooting/2-tutorials/1-for-token-holders/1-wallets/3-how-to-obtain-a-burner-wallet-as-the-intermediary-wallet)
+* [Choice B: FilSnap Wallet](/docs/7-troubleshooting/2-tutorials/1-for-token-holders/1-wallets/4-how-to-obtain-a-filsnap-wallet-as-the-intermediary-wallet)
+* [Choice C: Ledger Wallet](/docs/7-troubleshooting/2-tutorials/1-for-token-holders/1-wallets/2-how-to-obtain-a-ledger-wallet-as-the-intermediary-wallet)
 
 For details on creating an intermediary wallet, please refer to the tutorial by clicking the link above.
 

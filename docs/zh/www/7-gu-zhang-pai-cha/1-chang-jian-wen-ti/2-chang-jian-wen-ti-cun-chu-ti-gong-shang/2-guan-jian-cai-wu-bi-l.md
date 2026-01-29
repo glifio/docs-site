@@ -1,12 +1,12 @@
-# 关键财务比率
+﻿# 关键财务比率
 
 ## 用于确定借款限额的关键比率是什么？
 
-[借款与清算价值比 (DTL)](/3-cun-chu-ti-gong-shang/3-jie-kuan-shang-xian-jie-kuan-yu-qing-suan-jia-zhi-bi-dtl) 必须低于 75%。您可以在[此处](/3-cun-chu-ti-gong-shang/3-jie-kuan-shang-xian-jie-kuan-yu-qing-suan-jia-zhi-bi-dtl)阅读更多细节。
+[借款与清算价值比 (DTL)](/docs/3-cun-chu-ti-gong-shang/3-jie-kuan-shang-xian-jie-kuan-yu-qing-suan-jia-zhi-bi-dtl) 必须低于 75%。您可以在[此处](/docs/3-cun-chu-ti-gong-shang/3-jie-kuan-shang-xian-jie-kuan-yu-qing-suan-jia-zhi-bi-dtl)阅读更多细节。
 
 ## “清算价值”是什么，如何计算？
 
-[清算价值](/3-cun-chu-ti-gong-shang/2-sp-qing-suan-jia-zhi)是如果矿工的扇区被终止，在減去罚金和其他损失后，存储提供商的Miner Actor可以收回的預计价值。其计算方式为：
+[清算价值](/docs/3-cun-chu-ti-gong-shang/2-sp-qing-suan-jia-zhi)是如果矿工的扇区被终止，在減去罚金和其他损失后，存储提供商的Miner Actor可以收回的預计价值。其计算方式为：
 
 $$
 清算价值 = 矿工余额 - 矿工最大终止罚金
@@ -18,7 +18,7 @@ $$
 
 ## 借款与清算价值比 (DTL) 如何计算？
 
-[借款与清算价值比 (DTL)](/3-cun-chu-ti-gong-shang/3-jie-kuan-shang-xian-jie-kuan-yu-qing-suan-jia-zhi-bi-dtl) 的计算方式为：
+[借款与清算价值比 (DTL)](/docs/3-cun-chu-ti-gong-shang/3-jie-kuan-shang-xian-jie-kuan-yu-qing-suan-jia-zhi-bi-dtl) 的计算方式为：
 
 $$
 借款与清算价值比 (DTL)  = 债务 / 清算价值
@@ -26,7 +26,7 @@ $$
 
 ## **如果我尝试借入并提取 10,000 FIL，并借款用于**封装**，我还能从 GLIF 再借多少？**
 
-要确定您还能从 GLIF 借多少，您需要了解 [**借款与清算价值比** (**DTL)**](/3-cun-chu-ti-gong-shang/3-jie-kuan-shang-xian-jie-kuan-yu-qing-suan-jia-zhi-bi-dtl)。DTL 比率必须低于 75%。详情请阅读[这里](/3-cun-chu-ti-gong-shang/3-jie-kuan-shang-xian-jie-kuan-yu-qing-suan-jia-zhi-bi-dtl)。
+要确定您还能从 GLIF 借多少，您需要了解 [**借款与清算价值比** (**DTL)**](/docs/3-cun-chu-ti-gong-shang/3-jie-kuan-shang-xian-jie-kuan-yu-qing-suan-jia-zhi-bi-dtl)。DTL 比率必须低于 75%。详情请阅读[这里](/docs/3-cun-chu-ti-gong-shang/3-jie-kuan-shang-xian-jie-kuan-yu-qing-suan-jia-zhi-bi-dtl)。
 
 DTL 的计算公式如下：
 
@@ -60,7 +60,7 @@ $$
 * 在 你的Agent 矿工中**借款用于封装**可以让您获得更高的杠杆；而从 Agent 中**借款用于提取**则会显著增加 DTL。
 * 请始终确保 DTL 保持在 75% 以下。
 
-（有关借入FIL 的更多用途，请点击[此处](/3-cun-chu-ti-gong-shang/4-jie-ru-fil-yong-tu)了解详情。）
+（有关借入FIL 的更多用途，请点击[此处](/docs/3-cun-chu-ti-gong-shang/4-jie-ru-fil-yong-tu)了解详情。）
 
 ***
 

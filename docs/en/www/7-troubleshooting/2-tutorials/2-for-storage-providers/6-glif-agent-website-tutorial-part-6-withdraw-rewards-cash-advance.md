@@ -1,6 +1,6 @@
 ﻿# GLIF Agent Website Tutorial Part 6 - Withdraw Rewards / Cash Advance
 
-_If you don't understand the basics of GLIF Agents, Agent owners, or how to create your Agent on the GLIF website, we suggest starting with_ [_Part 1_](/7-troubleshooting/2-tutorials/2-for-storage-providers/1-glif-agent-website-tutorial-part-1-preparation-setup) _and_ [_Part 2_](/7-troubleshooting/2-tutorials/2-for-storage-providers/2-glif-agent-website-tutorial-part-2-create-your-agent) _of this tutorial series. You can find all the tutorials about using Agents on the **GLIF website** on this_ [_page_](/7-troubleshooting/2-tutorials/2-for-storage-providers)_. You can find the instructions about the Agent's command on the **GLIF Command Line Interface** on this_ [_page_](https://github.com/glifio/glif?tab=readme-ov-file#agents---get-started-borrowing)_._
+_If you don't understand the basics of GLIF Agents, Agent owners, or how to create your Agent on the GLIF website, we suggest starting with_ [_Part 1_](/docs/7-troubleshooting/2-tutorials/2-for-storage-providers/1-glif-agent-website-tutorial-part-1-preparation-setup) _and_ [_Part 2_](/docs/7-troubleshooting/2-tutorials/2-for-storage-providers/2-glif-agent-website-tutorial-part-2-create-your-agent) _of this tutorial series. You can find all the tutorials about using Agents on the **GLIF website** on this_ [_page_](/docs/7-troubleshooting/2-tutorials/2-for-storage-providers)_. You can find the instructions about the Agent's command on the **GLIF Command Line Interface** on this_ [_page_](https://github.com/glifio/glif?tab=readme-ov-file#agents---get-started-borrowing)_._
 
 ***
 
@@ -8,15 +8,15 @@ _If you don't understand the basics of GLIF Agents, Agent owners, or how to crea
 
 In the previous parts of this tutorial series, you have created or completed the following:
 
-1. Your Agent Owner multisig wallet ([Part 1](/7-troubleshooting/2-tutorials/2-for-storage-providers/1-glif-agent-website-tutorial-part-1-preparation-setup) & [Part 2](/7-troubleshooting/2-tutorials/2-for-storage-providers/2-glif-agent-website-tutorial-part-2-create-your-agent))
-2. Your Agent smart contract ([Part 1](/7-troubleshooting/2-tutorials/2-for-storage-providers/1-glif-agent-website-tutorial-part-1-preparation-setup) & [Part 2](/7-troubleshooting/2-tutorials/2-for-storage-providers/2-glif-agent-website-tutorial-part-2-create-your-agent))
-3. Adding your miner to the Agent ([Part 3](/7-troubleshooting/2-tutorials/2-for-storage-providers/3-glif-agent-website-tutorial-part-3-add-your-miner))
-4. Borrowing FIL from GLIF ([Part 4](/7-troubleshooting/2-tutorials/2-for-storage-providers/4-glif-agent-website-tutorial-part-4-borrow))
-5. Moving FIL from Miner to Agent and back ([Part 5](/7-troubleshooting/2-tutorials/2-for-storage-providers/5-glif-agent-website-tutorial-part-5-moving-fil-between-miner-and-agent))
+1. Your Agent Owner multisig wallet ([Part 1](/docs/7-troubleshooting/2-tutorials/2-for-storage-providers/1-glif-agent-website-tutorial-part-1-preparation-setup) & [Part 2](/docs/7-troubleshooting/2-tutorials/2-for-storage-providers/2-glif-agent-website-tutorial-part-2-create-your-agent))
+2. Your Agent smart contract ([Part 1](/docs/7-troubleshooting/2-tutorials/2-for-storage-providers/1-glif-agent-website-tutorial-part-1-preparation-setup) & [Part 2](/docs/7-troubleshooting/2-tutorials/2-for-storage-providers/2-glif-agent-website-tutorial-part-2-create-your-agent))
+3. Adding your miner to the Agent ([Part 3](/docs/7-troubleshooting/2-tutorials/2-for-storage-providers/3-glif-agent-website-tutorial-part-3-add-your-miner))
+4. Borrowing FIL from GLIF ([Part 4](/docs/7-troubleshooting/2-tutorials/2-for-storage-providers/4-glif-agent-website-tutorial-part-4-borrow))
+5. Moving FIL from Miner to Agent and back ([Part 5](/docs/7-troubleshooting/2-tutorials/2-for-storage-providers/5-glif-agent-website-tutorial-part-5-moving-fil-between-miner-and-agent))
 
 Sometimes you may need FIL to pay for gas or to sell on exchanges to pay for fiat denominated bills. In this case, you will want to withdraw funds off your Agent, and out of the GLIF Pool. In this part of the tutorial, we will guide you through this process using the GLIF website interface.
 
-You can do this when you meet the DTL requirement on your Agent - to read more about the DTL, see our [docs](/3-for-storage-providers/3-borrowing-limits-and-dtl).
+You can do this when you meet the DTL requirement on your Agent - to read more about the DTL, see our [docs](/docs/3-for-storage-providers/3-borrowing-limits-and-dtl).
 
 ***
 
@@ -26,7 +26,7 @@ You can do this when you meet the DTL requirement on your Agent - to read more a
 2. Enter the recipient address and the amount to withdraw.
 
 > [!WARNING]
-> The maximum withdrawal amount is displayed here and depends on your DTL. See [docs](/3-for-storage-providers/3-borrowing-limits-and-dtl) for details.
+> The maximum withdrawal amount is displayed here and depends on your DTL. See [docs](/docs/3-for-storage-providers/3-borrowing-limits-and-dtl) for details.
 
 3. Click “**Withdraw**.”
 
@@ -66,4 +66,4 @@ You've successfully withdrawn funds from your Agent!
 
 ## **Next Steps:**
 
-In [Part 7](/7-troubleshooting/2-tutorials/2-for-storage-providers/7-glif-agent-website-tutorial-part-7-remove-a-miner-from-an-agent) of this tutorial, we will show you how to remove a miner from an Agent.
+In [Part 7](/docs/7-troubleshooting/2-tutorials/2-for-storage-providers/7-glif-agent-website-tutorial-part-7-remove-a-miner-from-an-agent) of this tutorial, we will show you how to remove a miner from an Agent.

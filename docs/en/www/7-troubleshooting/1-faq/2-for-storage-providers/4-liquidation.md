@@ -1,4 +1,4 @@
-# Liquidation
+﻿# Liquidation
 
 ## What happens if an SP exceeds the **Debt-to-Liquidation (DTL)** limits?
 
@@ -6,7 +6,7 @@ If an SP's **DTL exceeds their limit**, all borrowing and withdrawing functional
 
 If an SP exceeds the **DTL liquidation threshold (92%)**, it is then at risk of being liquidated. Immediate corrective actions and proactive communication with the GLIF team are essential to avoid liquidation and minimize further losses.
 
-Read [here](/3-for-storage-providers/5-liquidations) for more details.
+Read [here](/docs/3-for-storage-providers/5-liquidations) for more details.
 
 ## What tools are available to help SPs manage their borrowing limits?
 

@@ -1,4 +1,4 @@
-# 如何将 FIL从 GLIF Agent 转出至交易所
+﻿# 如何将 FIL从 GLIF Agent 转出至交易所
 
 如果要将 FIL 从 GLIF Agent 智能合约提取到交易所，需要使用一个中间钱包（可以是 FilSnap、Burner Wallet 或 Ledger Wallet）。基本操作是：先从 Agent 提取 FIL 到您的中间钱包，再从中间钱包转移到交易所。这样做的原因是部分交易所目前尚不支持从 FEVM 智能合约直接充值 Filecoin。
 
@@ -27,9 +27,9 @@
 
 您可以从以下选项中选择一个作为中介钱包，以获取 f1 地址：
 
-* [选项 A：Burner 钱包](/7-gu-zhang-pai-cha/2-cao-zuo-jiao-cheng/1-cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/1-qian-bao/3-ru-he-li-yong-burner-qian-bao-zuo-wei-zhong-jie-qian-bao)
-* [选项 B：FilSnap 钱包](/7-gu-zhang-pai-cha/2-cao-zuo-jiao-cheng/1-cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/1-qian-bao/4-ru-he-li-yong-filsnap-qian-bao-zuo-wei-zhong-jie-qian-bao)
-* [选项 C：Ledger 钱包](/7-gu-zhang-pai-cha/2-cao-zuo-jiao-cheng/1-cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/1-qian-bao/2-ru-he-li-yong-ledger-qian-bao-zuo-wei-zhong-jie-qian-bao)
+* [选项 A：Burner 钱包](/docs/7-gu-zhang-pai-cha/2-cao-zuo-jiao-cheng/1-cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/1-qian-bao/3-ru-he-li-yong-burner-qian-bao-zuo-wei-zhong-jie-qian-bao)
+* [选项 B：FilSnap 钱包](/docs/7-gu-zhang-pai-cha/2-cao-zuo-jiao-cheng/1-cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/1-qian-bao/4-ru-he-li-yong-filsnap-qian-bao-zuo-wei-zhong-jie-qian-bao)
+* [选项 C：Ledger 钱包](/docs/7-gu-zhang-pai-cha/2-cao-zuo-jiao-cheng/1-cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/1-qian-bao/2-ru-he-li-yong-ledger-qian-bao-zuo-wei-zhong-jie-qian-bao)
 
 有关创建中介钱包的更多详情，请参见上方链接的教程。
 

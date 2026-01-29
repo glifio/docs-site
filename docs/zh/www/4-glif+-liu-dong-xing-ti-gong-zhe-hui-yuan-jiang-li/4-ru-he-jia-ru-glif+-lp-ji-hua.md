@@ -1,4 +1,4 @@
-# 如何加入 GLIF+ LP 计划
+﻿# 如何加入 GLIF+ LP 计划
 
 按照以下步骤，你即可开始通过 GLIF+ LP 会员卡领取 FIL 奖励。
 
@@ -42,6 +42,6 @@ FIL 会按照所有激活 LP 卡片的 iFIL 质押量按比例分配。质押的
 
 ### 3. 领取 FIL 胶囊
 
-* 当你的会员卡成功激活后，FIL 胶囊会自动发放至你的钱包。胶囊内的 FIL 可使用你已质押的 $GLF 来解锁。只要卡片保持激活状态，胶囊就会持续按周期发放。你可以[点击此处](/4-glif+-liu-dong-xing-ti-gong-zhe-hui-yuan-jiang-li/3-fil-jiao-nang-de-yun-zuo-fang-shi)阅读 FIL 胶囊的详细运作方式。
+* 当你的会员卡成功激活后，FIL 胶囊会自动发放至你的钱包。胶囊内的 FIL 可使用你已质押的 $GLF 来解锁。只要卡片保持激活状态，胶囊就会持续按周期发放。你可以[点击此处](/docs/4-glif+-liu-dong-xing-ti-gong-zhe-hui-yuan-jiang-li/3-fil-jiao-nang-de-yun-zuo-fang-shi)阅读 FIL 胶囊的详细运作方式。
   * **发放周期**：每周
   * **有效期**：每个胶囊的有效期为 30 天
