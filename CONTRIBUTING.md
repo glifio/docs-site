@@ -31,6 +31,7 @@ Use standard markdown link syntax: `[text](url)`
 | Asset link | Filename only (asset lives in `public/`) | `[audit](audit.pdf)` |
 | External link | Full URL | `[Filecoin](https://filecoin.io)` |
 | Internal doc link | Relative path from the domain folder, **no `.md` extension** | `[rewards](/1-tokens/2-rewards)` |
+| Internal folder link | Path to folder (addresses its `README.md`) | `[tutorials](/1-tokens)` |
 | Anchor link | `#anchor-name` | `[see below](#example-section)` |
 | Internal + anchor | Combines internal path with anchor | `[rewards](/1-tokens/2-rewards#staking)` |
 
