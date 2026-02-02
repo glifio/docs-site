@@ -3,11 +3,9 @@ import nextVitals from 'eslint-config-next/core-web-vitals'
 import nextTs from 'eslint-config-next/typescript'
 import prettier from 'eslint-plugin-prettier/recommended'
 
-const eslintConfig = defineConfig([
+export default defineConfig([
   ...nextVitals,
   ...nextTs,
   prettier,
   globalIgnores(['.next/**', 'node_modules/**', 'next-env.d.ts']),
 ])
-
-export default eslintConfig
