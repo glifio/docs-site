@@ -49,6 +49,20 @@ For example:
 - `## Reward Mechanism (stICNT)` becomes `#reward-mechanism-sticnt`
 - `## Step 1 - Connect wallet` becomes `#step-1-connect-wallet`
 
+## Math expressions
+
+LaTeX math expressions are supported via [KaTeX](https://katex.org/). Use `$` for inline math and `$$` for display (block) math:
+
+```md
+The formula $E = mc^2$ is inline.
+
+$$
+\sum_{i=1}^{n} x_i = x_1 + x_2 + \cdots + x_n
+$$
+```
+
+See the [KaTeX supported functions](https://katex.org/docs/supported) for a full reference.
+
 ## Blockquote alerts
 
 GitHub-style blockquote alerts are supported. Start a blockquote with `[!TYPE]` on the first line:
