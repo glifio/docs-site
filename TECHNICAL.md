@@ -14,3 +14,8 @@ This document describes the architecture and implementation of the GLIF document
 - **react-markdown** + **remark-gfm** (tables, strikethrough, autolinks)
 - **remark-github-blockquote-alert** (`> [!NOTE]` / `> [!WARNING]` / etc.)
 - **remark-math** + **rehype-katex** (LaTeX math expressions)
+
+### Tooling
+
+- **ESLint**
+- **Prettier**
