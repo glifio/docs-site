@@ -8,3 +8,8 @@ This document describes the architecture and implementation of the GLIF document
 
 - **Next.js 16** (App Router) + **TypeScript**
 - **Tailwind CSS v4** + **@tailwindcss/typography** (prose styling)
+
+### Markdown rendering
+
+- **react-markdown** + **remark-gfm** (tables, strikethrough, autolinks)
+- **remark-github-blockquote-alert** (`> [!NOTE]` / `> [!WARNING]` / etc.)
