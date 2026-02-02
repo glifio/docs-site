@@ -1,0 +1,17 @@
+{
+  "name": "glif-docs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "prebuild": "npm run lint",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "fix": "eslint --fix ."
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
