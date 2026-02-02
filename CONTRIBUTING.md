@@ -48,3 +48,24 @@ Anchors link to any header in a document. To derive the anchor name from a heade
 For example:
 - `## Reward Mechanism (stICNT)` becomes `#reward-mechanism-sticnt`
 - `## Step 1 - Connect wallet` becomes `#step-1-connect-wallet`
+
+## Blockquote alerts
+
+GitHub-style blockquote alerts are supported. Start a blockquote with `[!TYPE]` on the first line:
+
+```md
+> [!NOTE]
+> Useful background information.
+
+> [!TIP]
+> Helpful advice for best results.
+
+> [!IMPORTANT]
+> Key information the reader should know.
+
+> [!WARNING]
+> Something that could cause problems.
+
+> [!CAUTION]
+> Risk of data loss or other serious consequences.
+```
