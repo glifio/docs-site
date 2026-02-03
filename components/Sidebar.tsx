@@ -2,10 +2,10 @@
 
 interface SidebarProps {
   locale: string
-  domain: string
+  subdomain: string
 }
 
-export const Sidebar = ({ locale, domain }: SidebarProps) => {
+export const Sidebar = ({ locale, subdomain }: SidebarProps) => {
   return (
     <div className='flex flex-col gap-6'>
       <h2>Docs</h2>
