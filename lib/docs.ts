@@ -43,8 +43,11 @@ const getDirDocParams = async (
 
   for (const entry of entries) {
     const fullPath = path.join(dir, entry.name)
+
+    // Recurse into directories
     if (entry.isDirectory())
       params.push(...(await getDirDocParams(locale, subdomain, base, fullPath)))
+    // Handle markdown files
     else if (entry.name.endsWith('.md')) {
       const relativePath = path.relative(base, fullPath)
       const slug = relativePath.replace(/\.md$/, '').split(path.sep)
