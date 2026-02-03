@@ -42,6 +42,19 @@ const getDirDocParams = async (
   const entries = await fs.readdir(dir, { withFileTypes: true })
 
   for (const entry of entries) {
+    const fullPath = path.join(dir, entry.name)
+    if (entry.isDirectory())
+      params.push(...(await getDirDocParams(locale, subdomain, base, fullPath)))
+    else if (entry.name.endsWith('.md')) {
+      const relativePath = path.relative(base, fullPath)
+      const slug = relativePath.replace(/\.md$/, '').split(path.sep)
+
+      // README.md files are served at the folder root
+      if (slug[slug.length - 1] === 'README') slug.pop()
+
+      const url = `/${locale}/${subdomain}/docs/${slug.join('/')}`
+      params.push({ locale, subdomain, slug, url })
+    }
   }
 
   return params
