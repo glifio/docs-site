@@ -77,7 +77,7 @@ export const getDocsTree = async (
   const tree: DocsTree = { title, url, children: [] }
 
   for (const entry of sorted) {
-    const fullPath = path.join(dir, entry.name)
+    const entryPath = path.join(dir, entry.name)
   }
 
   return tree
