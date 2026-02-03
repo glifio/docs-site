@@ -20,6 +20,13 @@ const proxy = async (request: NextRequest) => {
     request.nextUrl.pathname = pathParts.toSpliced(2, 0, 'www').join('/')
     return NextResponse.redirect(request.nextUrl)
   }
+
+  // Redirect if page is missing
+  const page = pathParts.at(3)
+  if (!page) {
+    request.nextUrl.pathname = `${pathname}/docs`
+    return NextResponse.redirect(request.nextUrl)
+  }
 }
 
 export const config = {
