@@ -7,11 +7,11 @@ import { Sidebar } from '@/components/Sidebar'
 
 interface LayoutProps {
   children: ReactNode
-  params: Promise<{ locale: string; domain: string }>
+  params: Promise<{ locale: string; subdomain: string }>
 }
 
 const Layout = async ({ children, params }: LayoutProps) => {
-  const { locale, domain } = await params
+  const { locale, subdomain } = await params
 
   return (
     <html lang={locale}>
@@ -22,7 +22,7 @@ const Layout = async ({ children, params }: LayoutProps) => {
           <div className='flex'>
             {/* Sidebar */}
             <div className='flex-none sticky top-0 w-xs p-8'>
-              <Sidebar locale={locale} domain={domain} />
+              <Sidebar locale={locale} subdomain={subdomain} />
             </div>
             {/* Page */}
             <div className='grow w-full max-w-6xl mx-auto p-8'>{children}</div>
