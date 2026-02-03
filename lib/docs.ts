@@ -58,6 +58,12 @@ export const getDocTitle = (content: string): string => {
   return match ? match[1] : 'Untitled'
 }
 
+export const getDocsTree = async (
+  baseDir: string,
+  baseUrl: string,
+): Promise<DocsTree> => {
+}
+
 export const getAllDocParams = async (): Promise<DocParams[]> => {
   const params: DocParams[] = []
 
