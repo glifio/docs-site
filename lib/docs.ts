@@ -71,6 +71,8 @@ export const getDocsTree = async (
     .then(getDocTitle)
     .catch(() => 'Untitled')
 
+  const tree: DocsTree = { title, url, children: [] }
+
   for (const entry of sorted) {
   }
 }
