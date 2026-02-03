@@ -25,7 +25,7 @@ export const getAllDocParams = async (): Promise<DocParams[]> => {
   for (const locale of locales) {
     for (const subdomain of subdomains) {
       const dir = path.join(DOCS_DIR, locale, subdomain)
-      params.push(...(await getDirDocParams(dir)))
+      params.push(...(await getDirDocParams(locale, subdomain, dir, dir)))
     }
   }
 
