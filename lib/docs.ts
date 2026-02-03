@@ -36,9 +36,10 @@ export const getDoc = async (
   for (const part of slug ?? []) {
     const entries = await fs.readdir(match)
     const entry = entries.find(entry => {
-      const withoutExt = entry.replace(mdExtensionRegex, '')
-      const withoutPrefix = withoutExt.replace(numberPrefixRegex, '')
-      return withoutPrefix === part
+      const entrySlug = entry
+        .replace(mdExtensionRegex, '')
+        .replace(numberPrefixRegex, '')
+      return entrySlug === part
     })
 
     if (!entry) return null
