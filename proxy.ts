@@ -9,7 +9,7 @@ const proxy = async (request: NextRequest) => {
 
   // Redirect if locale is missing
   const locale = pathParts.at(1)
-  if (locales.some(l => l === locale)) {
+  if (!locales.some(l => l === locale)) {
     request.nextUrl.pathname = `/en${pathname}`
     return NextResponse.redirect(request.nextUrl)
   }
