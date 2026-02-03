@@ -41,5 +41,8 @@ const getDirDocParams = async (
   const params: DocParams[] = []
   const entries = await fs.readdir(dir, { withFileTypes: true })
 
+  for (const entry of entries) {
+  }
+
   return params
 }
