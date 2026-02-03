@@ -31,3 +31,15 @@ export const getAllDocParams = async (): Promise<DocParams[]> => {
 
   return params
 }
+
+const getDirDocParams = async (
+  locale: string,
+  subdomain: string,
+  base: string,
+  dir: string,
+): Promise<DocParams[]> => {
+  const params: DocParams[] = []
+  const entries = await fs.readdir(dir, { withFileTypes: true })
+
+  return params
+}
