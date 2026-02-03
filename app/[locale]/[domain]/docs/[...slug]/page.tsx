@@ -9,12 +9,12 @@ import rehypeKatex from 'rehype-katex'
 import { getAllDocParams, getDoc } from '@/lib/docs'
 
 interface PageProps {
-  params: Promise<{ locale: string; domain: string; slug: string[] }>
+  params: Promise<{ locale: string; subdomain: string; slug: string[] }>
 }
 
 const Page = async ({ params }: PageProps) => {
-  const { locale, domain, slug } = await params
-  const doc = await getDoc(locale, domain, slug)
+  const { locale, subdomain, slug } = await params
+  const doc = await getDoc(locale, subdomain, slug)
   if (!doc) notFound()
 
   return (
@@ -34,8 +34,8 @@ export default Page
 export const generateMetadata = async ({
   params,
 }: PageProps): Promise<Metadata> => {
-  const { locale, domain, slug } = await params
-  const doc = await getDoc(locale, domain, slug)
+  const { locale, subdomain, slug } = await params
+  const doc = await getDoc(locale, subdomain, slug)
   return { title: `GLIF Docs \u2013 ${doc ? doc.title : 'Not Found'}` }
 }
 
