@@ -62,6 +62,13 @@ export const getDocsTree = async (
   baseDir: string,
   baseUrl: string,
 ): Promise<DocsTree> => {
+  const entries = await fs.readdir(baseDir, { withFileTypes: true })
+  const sorted = entries.sort((a, b) =>
+    a.name.localeCompare(b.name, undefined, { numeric: true }),
+  )
+
+  for (const entry of sorted) {
+  }
 }
 
 export const getAllDocParams = async (): Promise<DocParams[]> => {
