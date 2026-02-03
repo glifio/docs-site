@@ -114,7 +114,9 @@ const getDirDocParams = async (
 
     // Recurse into directories
     if (entry.isDirectory())
-      params.push(...(await getDirDocParams(locale, subdomain, root, entryPath)))
+      params.push(
+        ...(await getDirDocParams(locale, subdomain, root, entryPath)),
+      )
     // Handle markdown files
     else if (entry.name.endsWith('.md')) {
       const relativePath = path.relative(root, entryPath)
