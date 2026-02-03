@@ -1,15 +1,41 @@
-import type { Metadata } from 'next'
 import './style.css'
+
+import { ReactNode } from 'react'
+import type { Metadata } from 'next'
+
+import { Sidebar } from '@/components/Sidebar'
+
+interface LayoutProps {
+  children: ReactNode
+  params: Promise<{ locale: string; domain: string }>
+}
+
+const Layout = async ({ children, params }: LayoutProps) => {
+  const { locale, domain } = await params
+
+  return (
+    <html lang={locale}>
+      <body className='w-full h-full antialiased bg-white text-gray-900'>
+        {/* Scroll container */}
+        <div className='w-full h-full relative overflow-x-hidden overflow-y-auto'>
+          {/* Sidebar + Page */}
+          <div className='flex'>
+            {/* Sidebar */}
+            <div className='flex-none sticky top-0 w-xs p-8'>
+              <Sidebar locale={locale} domain={domain} />
+            </div>
+            {/* Page */}
+            <div className='grow w-full max-w-6xl mx-auto p-8'>{children}</div>
+          </div>
+        </div>
+      </body>
+    </html>
+  )
+}
+
+export default Layout
 
 export const metadata: Metadata = {
   title: 'GLIF Docs',
   description: 'GLIF documentation',
 }
-
-const RootLayout = ({ children }: { children: React.ReactNode }) => (
-  <html lang='en'>
-    <body className='bg-white text-gray-900 antialiased'>{children}</body>
-  </html>
-)
-
-export default RootLayout
