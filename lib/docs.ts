@@ -10,4 +10,5 @@ interface DocParams {
   locale: string
   domain: string
   slug: string[]
+  url: string
 }
