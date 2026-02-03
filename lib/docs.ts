@@ -10,10 +10,13 @@ const numberPrefixRegex = /^\d+-/
 const mdExtensionRegex = /\.md$/
 const mdTitleRegex = /^#\s+(.+)$/m
 
-export interface DocsTree {
+export interface DocsTree extends DocsLeaf {
+  children: Array<DocsTree | DocsLeaf>
+}
+
+export interface DocsLeaf {
   title: string
   url: string
-  children?: Array<DocsTree>
 }
 
 export interface DocParams {
