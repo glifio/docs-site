@@ -50,7 +50,12 @@ const getDirDocParams = async (
     // Handle markdown files
     else if (entry.name.endsWith('.md')) {
       const relativePath = path.relative(base, fullPath)
-      const slug = relativePath.replace(/\.md$/, '').split(path.sep)
+
+      // Get slug parts and remove number prefixes
+      const slug = relativePath
+        .replace(/\.md$/, '')
+        .split(path.sep)
+        .map(part => part.replace(/^\d+-/, ''))
 
       // README.md files are served at the folder root
       if (slug[slug.length - 1] === 'README') slug.pop()
