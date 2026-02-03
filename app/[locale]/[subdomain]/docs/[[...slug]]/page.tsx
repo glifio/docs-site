@@ -4,7 +4,7 @@ import { DocsPage } from '@/components/DocsPage'
 import { getAllDocParams, getDoc } from '@/lib/docs'
 
 interface PageProps {
-  params: Promise<{ locale: string; subdomain: string; slug: string[] }>
+  params: Promise<{ locale: string; subdomain: string; slug?: string[] }>
 }
 
 const Page = async ({ params }: PageProps) => {
