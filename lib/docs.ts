@@ -106,14 +106,14 @@ const getDirDocParams = async (
   const entries = await fs.readdir(dir, { withFileTypes: true })
 
   for (const entry of entries) {
-    const fullPath = path.join(dir, entry.name)
+    const entryPath = path.join(dir, entry.name)
 
     // Recurse into directories
     if (entry.isDirectory())
-      params.push(...(await getDirDocParams(locale, subdomain, root, fullPath)))
+      params.push(...(await getDirDocParams(locale, subdomain, root, entryPath)))
     // Handle markdown files
     else if (entry.name.endsWith('.md')) {
-      const relativePath = path.relative(root, fullPath)
+      const relativePath = path.relative(root, entryPath)
 
       // Get slug parts and remove number prefixes
       const slug = relativePath
