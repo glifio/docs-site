@@ -16,3 +16,9 @@ interface DocParams {
   slug: string[]
   url: string
 }
+
+export const getAllDocParams = async (): Promise<DocParams[]> => {
+  const params: DocParams[] = []
+
+  return params
+}
