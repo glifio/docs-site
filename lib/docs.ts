@@ -20,5 +20,11 @@ interface DocParams {
 export const getAllDocParams = async (): Promise<DocParams[]> => {
   const params: DocParams[] = []
 
+  for (const locale of locales) {
+    for (const subdomain of subdomains) {
+      const dir = path.join(DOCS_DIR, locale, subdomain)
+    }
+  }
+
   return params
 }
