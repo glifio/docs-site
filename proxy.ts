@@ -1,7 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 
-export const locales = ['en', 'zh'] as const
-export const subdomains = ['www', 'icn'] as const
+import { locales, subdomains } from '@/lib/env'
 
 const proxy = async (request: NextRequest) => {
   // Get request data
