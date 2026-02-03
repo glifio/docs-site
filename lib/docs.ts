@@ -87,7 +87,7 @@ export const getAllDocParams = async (): Promise<DocParams[]> => {
 const getDirDocParams = async (
   locale: string,
   subdomain: string,
-  base: string,
+  root: string,
   dir: string,
 ): Promise<DocParams[]> => {
   const params: DocParams[] = []
@@ -98,10 +98,10 @@ const getDirDocParams = async (
 
     // Recurse into directories
     if (entry.isDirectory())
-      params.push(...(await getDirDocParams(locale, subdomain, base, fullPath)))
+      params.push(...(await getDirDocParams(locale, subdomain, root, fullPath)))
     // Handle markdown files
     else if (entry.name.endsWith('.md')) {
-      const relativePath = path.relative(base, fullPath)
+      const relativePath = path.relative(root, fullPath)
 
       // Get slug parts and remove number prefixes
       const slug = relativePath
