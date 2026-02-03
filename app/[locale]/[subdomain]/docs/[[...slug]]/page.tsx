@@ -1,11 +1,6 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
-import { remarkAlert } from 'remark-github-blockquote-alert'
-import ReactMarkdown from 'react-markdown'
-import remarkGfm from 'remark-gfm'
-import remarkMath from 'remark-math'
-import rehypeKatex from 'rehype-katex'
-
+import { DocsPage } from '@/components/DocsPage'
 import { getAllDocParams, getDoc } from '@/lib/docs'
 
 interface PageProps {
@@ -15,18 +10,7 @@ interface PageProps {
 const Page = async ({ params }: PageProps) => {
   const { locale, subdomain, slug } = await params
   const doc = await getDoc(locale, subdomain, slug)
-  if (!doc) notFound()
-
-  return (
-    <article className='prose prose-gray'>
-      <ReactMarkdown
-        remarkPlugins={[remarkGfm, remarkMath, remarkAlert]}
-        rehypePlugins={[rehypeKatex]}
-      >
-        {doc.content}
-      </ReactMarkdown>
-    </article>
-  )
+  return doc ? <DocsPage>{doc.content}</DocsPage> : notFound()
 }
 
 export default Page
