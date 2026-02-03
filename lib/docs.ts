@@ -59,10 +59,10 @@ export const getDocTitle = (content: string): string => {
 }
 
 export const getDocsTree = async (
-  baseDir: string,
-  baseUrl: string,
+  dir: string,
+  url: string,
 ): Promise<DocsTree> => {
-  const entries = await fs.readdir(baseDir, { withFileTypes: true })
+  const entries = await fs.readdir(dir, { withFileTypes: true })
   const sorted = entries
     .filter(e => e.name !== 'README.md')
     .sort((a, b) => a.name.localeCompare(b.name, undefined, { numeric: true }))
