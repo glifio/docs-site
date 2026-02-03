@@ -20,7 +20,6 @@ export interface DocParams {
   locale: string
   subdomain: string
   slug: string[]
-  url: string
 }
 
 export const getDoc = async (
@@ -117,8 +116,7 @@ const getDirDocParams = async (
       // README.md files are served at the folder root
       if (slug[slug.length - 1] === 'README') slug.pop()
 
-      const url = `/${locale}/${subdomain}/docs/${slug.join('/')}`
-      params.push({ locale, subdomain, slug, url })
+      params.push({ locale, subdomain, slug })
     }
   }
 
