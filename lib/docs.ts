@@ -79,6 +79,9 @@ export const getDocsTree = async (
 
   for (const entry of sorted) {
     const entryPath = path.join(dir, entry.name)
+    const entrySlug = entry.name
+      .replace(mdExtensionRegex, '')
+      .replace(numberPrefixRegex, '')
   }
 
   return tree
