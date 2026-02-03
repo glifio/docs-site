@@ -15,6 +15,7 @@
       "Bash(node:*)",
       "Bash(npm install:*)",
       "Bash(npm run fix:*)",
+      "Bash(npx tsx:*)",
       "Bash(python:*)",
       "Bash(python3:*)",
       "Bash(sed:*)",
