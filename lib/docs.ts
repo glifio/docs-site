@@ -117,11 +117,8 @@ const getDirDocParams = async (
     else if (entry.name.endsWith('.md')) {
       const relativePath = path.relative(root, entryPath)
 
-      // Get slug parts and remove number prefixes
-      const slug = relativePath
-        .replace(mdExtensionRegex, '')
-        .split(path.sep)
-        .map(part => part.replace(numberPrefixRegex, ''))
+      // Get slug parts from path
+      const slug = relativePath.split(path.sep).map(getDocSlug)
 
       // README.md files are served at the folder root
       if (slug[slug.length - 1] === 'README') slug.pop()
