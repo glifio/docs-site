@@ -6,11 +6,9 @@ import { locales, subdomains } from '@/lib/env'
 
 const DOCS_DIR = path.join(process.cwd(), 'docs')
 
-interface Doc {
-  title: string
-  content: string
-  params: DocParams
-}
+const numberPrefixRegex = /^\d+-/
+const mdExtensionRegex = /\.md$/
+const mdTitleRegex = /^#\s+(.+)$/m
 
 interface DocParams {
   locale: string
@@ -22,8 +20,36 @@ interface DocParams {
 export const getDoc = async (
   locale: string,
   subdomain: string,
-  slug: string[],
-): Promise<Doc | null> => {
+  slug?: string[],
+): Promise<string | null> => {
+  let match = path.join(DOCS_DIR, locale, subdomain)
+
+  // Find the file or folder match
+  for (const part of slug ?? []) {
+    const entries = await fs.readdir(match)
+    const entry = entries.find(entry => {
+      const withoutExt = entry.replace(mdExtensionRegex, '')
+      const withoutPrefix = withoutExt.replace(numberPrefixRegex, '')
+      return withoutPrefix === part
+    })
+
+    if (!entry) return null
+    match = path.join(match, entry)
+  }
+
+  // Get the file path, exact match or README.md in folder
+  const file = match.endsWith('.md') ? match : path.join(match, 'README.md')
+
+  try {
+    return await fs.readFile(file, 'utf-8')
+  } catch {
+    return null
+  }
+}
+
+export const getDocTitle = (content: string): string => {
+  const match = content.match(mdTitleRegex)
+  return match ? match[1] : 'Untitled'
 }
 
 export const getAllDocParams = async (): Promise<DocParams[]> => {
@@ -60,9 +86,9 @@ const getDirDocParams = async (
 
       // Get slug parts and remove number prefixes
       const slug = relativePath
-        .replace(/\.md$/, '')
+        .replace(mdExtensionRegex, '')
         .split(path.sep)
-        .map(part => part.replace(/^\d+-/, ''))
+        .map(part => part.replace(numberPrefixRegex, ''))
 
       // README.md files are served at the folder root
       if (slug[slug.length - 1] === 'README') slug.pop()
