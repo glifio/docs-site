@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { DocsPage } from '@/components/DocsPage'
-import { getAllDocParams, getDoc } from '@/lib/docs'
+import { getAllDocParams, getDoc, getDocTitle } from '@/lib/docs'
 
 interface PageProps {
   params: Promise<{ locale: string; subdomain: string; slug?: string[] }>
@@ -10,7 +10,7 @@ interface PageProps {
 const Page = async ({ params }: PageProps) => {
   const { locale, subdomain, slug } = await params
   const doc = await getDoc(locale, subdomain, slug)
-  return doc ? <DocsPage>{doc.content}</DocsPage> : notFound()
+  return doc ? <DocsPage>{doc}</DocsPage> : notFound()
 }
 
 export default Page
@@ -20,7 +20,8 @@ export const generateMetadata = async ({
 }: PageProps): Promise<Metadata> => {
   const { locale, subdomain, slug } = await params
   const doc = await getDoc(locale, subdomain, slug)
-  return { title: `GLIF Docs \u2013 ${doc ? doc.title : 'Not Found'}` }
+  const title = doc ? getDocTitle(doc) : 'Not Found'
+  return { title: `GLIF Docs \u2013 ${title}` }
 }
 
 export const generateStaticParams = getAllDocParams
