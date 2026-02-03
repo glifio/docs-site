@@ -19,6 +19,13 @@ interface DocParams {
   url: string
 }
 
+export const getDoc = async (
+  locale: string,
+  subdomain: string,
+  slug: string[],
+): Promise<Doc | null> => {
+}
+
 export const getAllDocParams = async (): Promise<DocParams[]> => {
   const params: DocParams[] = []
 
