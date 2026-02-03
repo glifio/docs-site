@@ -35,14 +35,9 @@ export const getDoc = async (
   // Find the file or folder match
   for (const part of slug ?? []) {
     const entries = await fs.readdir(match)
-    const entry = entries.find(entry => {
-      const entrySlug = entry
-        .replace(mdExtensionRegex, '')
-        .replace(numberPrefixRegex, '')
-      return entrySlug === part
-    })
-
+    const entry = entries.find(entry => getDocSlug(entry) === part)
     if (!entry) return null
+
     match = path.join(match, entry)
   }
 
@@ -55,6 +50,9 @@ export const getDoc = async (
     return null
   }
 }
+
+export const getDocSlug = (name: string): string =>
+  name.replace(mdExtensionRegex, '').replace(numberPrefixRegex, '')
 
 export const getDocTitle = (content: string): string => {
   const match = content.match(mdTitleRegex)
