@@ -6,10 +6,11 @@ import { DocTree, DocLeaf } from '@/lib/docs'
 interface DocNavProps {
   tree: DocTree
   title?: string
+  small?: boolean
 }
 
-export const DocNav = ({ tree, title }: DocNavProps) => (
-  <nav className='prose prose-gray prose-sm'>
+export const DocNav = ({ tree, title, small }: DocNavProps) => (
+  <nav className={`prose prose-gray ${small ? 'prose-sm' : ''}`}>
     <h2>{title ?? <Link href={tree.url}>{tree.title}</Link>}</h2>
 
     <ul className='pl-0 list-none'>
