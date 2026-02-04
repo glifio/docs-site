@@ -68,8 +68,8 @@ export const getDocContent = async (
   return docPath ? readDocFile(docPath) : null
 }
 
-export const getDocTitle = (content: string): string => {
-  const match = content.match(mdTitleRegex)
+export const getDocTitle = (docContent: string): string => {
+  const match = docContent.match(mdTitleRegex)
   return match ? match[1] : 'Untitled'
 }
 
