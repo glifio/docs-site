@@ -3,9 +3,11 @@ import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import remarkMath from 'remark-math'
 import rehypeKatex from 'rehype-katex'
+import { DocsTree } from '@/lib/docs'
 
 interface DocsPageProps {
   children: string
+  tree: DocsTree | null
 }
 
 export const DocsPage = ({ children }: DocsPageProps) => (
