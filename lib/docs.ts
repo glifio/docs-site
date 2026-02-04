@@ -59,13 +59,7 @@ const getDocMatch = async (
   return { match, isDir }
 }
 
-const getDocFile = async (
-  locale: string,
-  subdomain: string,
-  slug?: string[],
-): Promise<string | null> => {
-  const docMatch = await getDocMatch(locale, subdomain, slug)
-
+const getDocFile = async (docMatch: DocMatch): Promise<string | null> => {
   // Get README.md for folder match
   if (docMatch?.isDir) {
     const readme = path.join(docMatch.match, 'README.md')
@@ -84,7 +78,8 @@ export const getDocContent = async (
   subdomain: string,
   slug?: string[],
 ): Promise<string | null> => {
-  const docFile = await getDocFile(locale, subdomain, slug)
+  const docMatch = await getDocMatch(locale, subdomain, slug)
+  const docFile = docMatch ? await getDocFile(docMatch) : null
   return docFile ? readDocFile(docFile) : null
 }
 
