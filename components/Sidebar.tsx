@@ -1,5 +1,6 @@
 'use client'
 
+import { DocNav } from '@/components/DocNav'
 import { DocTree } from '@/lib/docs'
 
 interface SidebarProps {
@@ -8,10 +9,10 @@ interface SidebarProps {
   tree: DocTree | null
 }
 
-export const Sidebar = ({ locale, subdomain }: SidebarProps) => {
+export const Sidebar = ({ tree }: SidebarProps) => {
   return (
-    <div className='flex flex-col gap-6 prose prose-gray'>
-      <h2>Docs</h2>
-    </div>
+    <nav className='prose prose-gray prose-sm'>
+      {tree && <DocNav tree={tree} title />}
+    </nav>
   )
 }
