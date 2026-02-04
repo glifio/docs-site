@@ -97,8 +97,11 @@ export const getDocTree = async (
   locale: string,
   subdomain: string,
   slug?: string[],
-): Promise<DocsTree> => {
-  const entries = await fs.readdir(dir, { withFileTypes: true })
+): Promise<DocsTree | null> => {
+  const docMatch = await getDocMatch(locale, subdomain, slug)
+  if (!docMatch?.isDir) return null
+
+  const entries = await fs.readdir(docMatch.match, { withFileTypes: true })
   const sorted = entries
     .filter(e => e.name !== 'README.md')
     .sort((a, b) => a.name.localeCompare(b.name, undefined, { numeric: true }))
