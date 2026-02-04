@@ -3,6 +3,7 @@ import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import remarkMath from 'remark-math'
 import rehypeKatex from 'rehype-katex'
+import { DocNav } from '@/components/DocNav'
 import { DocTree } from '@/lib/docs'
 
 interface DocPageProps {
@@ -10,7 +11,7 @@ interface DocPageProps {
   tree: DocTree | null
 }
 
-export const DocPage = ({ children }: DocPageProps) => (
+export const DocPage = ({ children, tree }: DocPageProps) => (
   <article className='prose prose-gray max-w-none'>
     <ReactMarkdown
       remarkPlugins={[remarkGfm, remarkMath, remarkAlert]}
@@ -25,5 +26,7 @@ export const DocPage = ({ children }: DocPageProps) => (
     >
       {children}
     </ReactMarkdown>
+
+    {tree && <DocNav tree={tree} title='Table of Contents' />}
   </article>
 )
