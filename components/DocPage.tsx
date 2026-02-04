@@ -3,15 +3,15 @@ import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import remarkMath from 'remark-math'
 import rehypeKatex from 'rehype-katex'
-import { DocsTree } from '@/lib/docs'
+import { DocTree } from '@/lib/docs'
 
 interface DocPageProps {
   children: string
-  tree: DocsTree | null
+  tree: DocTree | null
 }
 
 export const DocPage = ({ children }: DocPageProps) => (
-  <article className='prose prose-gray'>
+  <article className='prose prose-gray max-w-none'>
     <ReactMarkdown
       remarkPlugins={[remarkGfm, remarkMath, remarkAlert]}
       rehypePlugins={[rehypeKatex]}
