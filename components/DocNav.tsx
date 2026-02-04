@@ -29,7 +29,7 @@ const DocLink = ({ node }: { node: DocTree | DocLeaf }) => (
     <Link href={node.url}>{node.title}</Link>
 
     {'children' in node && (
-      <ul className='ml-1.5 pl-1.5 border-l border-current/20 list-none'>
+      <ul className='ml-1.5 pl-1.5 border-l border-current/25 list-none'>
         {node.children.map(child => (
           <DocLink key={child.url} node={child} />
         ))}
