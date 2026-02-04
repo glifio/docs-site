@@ -71,9 +71,10 @@ export const getDocTitle = (content: string): string => {
   return match ? match[1] : 'Untitled'
 }
 
-export const getDocsTree = async (
-  dir: string,
-  url: string,
+export const getDocTree = async (
+  locale: string,
+  subdomain: string,
+  slug?: string[],
 ): Promise<DocsTree> => {
   const entries = await fs.readdir(dir, { withFileTypes: true })
   const sorted = entries
