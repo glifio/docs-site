@@ -41,9 +41,7 @@ export const Sidebar = ({ locale, subdomain, tree }: SidebarProps) => {
         </select>
       </div>
 
-      <nav className='prose prose-gray prose-sm'>
-        {tree && <DocNav tree={tree} title />}
-      </nav>
+      {tree && <DocNav tree={tree} showTitle />}
     </div>
   )
 }
