@@ -3,7 +3,7 @@ import './style.css'
 import { ReactNode } from 'react'
 import type { Metadata } from 'next'
 import { Sidebar } from '@/components/Sidebar'
-import { getDocsTree } from '@/lib/docs'
+import { getDocTree } from '@/lib/docs'
 
 interface LayoutProps {
   children: ReactNode
@@ -12,7 +12,7 @@ interface LayoutProps {
 
 const Layout = async ({ children, params }: LayoutProps) => {
   const { locale, subdomain } = await params
-  const tree = await getDocsTree(locale, subdomain)
+  const tree = await getDocTree(locale, subdomain)
 
   return (
     <html lang={locale}>
