@@ -47,7 +47,12 @@ export const getDocContent = async (
   }
 
   // Get the file path, exact match or README.md in folder
-  const file = match.endsWith('.md') ? match : path.join(match, 'README.md')
+  const docPath = match.endsWith('.md') ? match : path.join(match, 'README.md')
+  return fs
+    .access(docPath, fs.constants.R_OK)
+    .then(() => docPath)
+    .catch(() => null)
+}
 
   try {
     return await readDocFile(file)
