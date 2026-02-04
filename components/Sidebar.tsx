@@ -41,7 +41,7 @@ export const Sidebar = ({ locale, subdomain, tree }: SidebarProps) => {
         </select>
       </div>
 
-      {tree && <DocNav tree={tree} />}
+      {tree && <DocNav tree={tree} small collapse />}
     </div>
   )
 }
