@@ -33,7 +33,12 @@ const readDocTitle = async (docFile: string): Promise<string> =>
   readDocFile(docFile).then(getDocTitle)
 
 const getDocSlug = (docName: string): string =>
-  docName.replace(mdExtensionRegex, '').replace(numberPrefixRegex, '')
+  docName
+    .toLowerCase()
+    .replace(/\.md$/, '') // Remove .md extension
+    .replace(/^\d+-/, '') // Remove number prefix
+    .replace(/[^a-z0-9-]/g, '') // Remove illegal characters
+    .replace(/-+/g, '-') // Collapse dashes
 
 const getDocUrl = (
   locale: string,
