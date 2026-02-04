@@ -43,10 +43,12 @@ const getDocPath = async (
 
   // Find the file or folder match
   for (const part of slug ?? []) {
-    const entries = await fs.readdir(match)
-    const entry = entries.find(entry => getDocSlug(entry) === part)
-    if (!entry) return null
-    match = path.join(match, entry)
+    const entries = await fs.readdir(match, { withFileTypes: true })
+    const entry = entries.find(entry => getDocSlug(entry.name) === part)
+    if (!entry || !entry.isDirectory() || !entry.name.endsWith('.md'))
+      return null
+
+    match = path.join(match, entry.name)
   }
 
   // Get the file path, exact match or README.md in folder
