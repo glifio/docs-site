@@ -51,12 +51,27 @@ const getDocMatch = async (
     isDir = entry.isDirectory()
   }
 
-  // Get the file path, exact match or README.md in folder
-  const docPath = match.endsWith('.md') ? match : path.join(match, 'README.md')
-  return fs
-    .access(docPath, fs.constants.R_OK)
-    .then(() => docPath)
-    .catch(() => null)
+  return { match, isDir }
+}
+
+const getDocFile = async (
+  locale: string,
+  subdomain: string,
+  slug?: string[],
+): Promise<string | null> => {
+  const docMatch = await getDocMatch(locale, subdomain, slug)
+
+  // Get README.md for folder match
+  if (docMatch?.isDir) {
+    const readme = path.join(docMatch.match, 'README.md')
+    return fs
+      .access(readme, fs.constants.R_OK)
+      .then(() => readme)
+      .catch(() => null)
+  }
+
+  // Get markdown file match
+  return docMatch?.match.endsWith('.md') ? docMatch.match : null
 }
 
 export const getDocContent = async (
