@@ -41,7 +41,7 @@ export const Sidebar = ({ locale, subdomain, tree }: SidebarProps) => {
         </select>
       </div>
 
-      {tree && <DocNav tree={tree} showTitle />}
+      {tree && <DocNav tree={tree} />}
     </div>
   )
 }
