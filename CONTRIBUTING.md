@@ -30,11 +30,25 @@ Use standard markdown link syntax: `[text](url)`
 |------|--------|---------|
 | Asset link | Filename only (asset lives in `public/`) | `[audit](audit.pdf)` |
 | External link | Full URL | `[Filecoin](https://filecoin.io)` |
-| Internal doc link | `/docs/` + path to file, **no number prefixes or `.md` extension** | `[rewards](/docs/tokens/rewards)` |
-| Internal folder link | `/docs/` + path to folder (addresses its `README.md`), **no number prefixes** | `[tokens](/docs/tokens)` |
+| Internal doc link | `/docs/` + URL slug path to file | `[rewards](/docs/tokens/rewards)` |
+| Internal folder link | `/docs/` + URL slug path to folder (addresses its `README.md`) | `[tokens](/docs/tokens)` |
 | Internal site link | Path to a non-documentation page on the GLIF website, **no locale or subdomain** | `[wallet](/wallet)` |
 | Anchor link | `#anchor-name` | `[see below](#example-section)` |
 | Internal + anchor | Combines internal path with anchor | `[staking](/docs/tokens/rewards#staking)` |
+
+### URL slugs
+
+Internal links use slugs derived from file/folder names. To get the slug:
+
+1. Lowercase the text
+2. Remove the `.md` extension
+3. Remove the number prefix (e.g., `1-`, `2-`)
+4. Remove all characters except `a-z`, `0-9`, and `-`
+5. Collapse consecutive dashes into a single dash
+
+For example:
+- `1-for-liquidity-providers/` becomes `for-liquidity-providers`
+- `4-glif+-lp-program.md` becomes `glif-lp-program`
 
 ### Anchor names
 
