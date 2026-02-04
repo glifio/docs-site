@@ -31,7 +31,7 @@ const readDocFile = async (path: string): Promise<string> =>
 const getDocSlug = (name: string): string =>
   name.replace(mdExtensionRegex, '').replace(numberPrefixRegex, '')
 
-export const getDocContent = async (
+const getDocPath = async (
   locale: string,
   subdomain: string,
   slug?: string[],
@@ -54,11 +54,13 @@ export const getDocContent = async (
     .catch(() => null)
 }
 
-  try {
-    return await readDocFile(file)
-  } catch {
-    return null
-  }
+export const getDocContent = async (
+  locale: string,
+  subdomain: string,
+  slug?: string[],
+): Promise<string | null> => {
+  const docPath = await getDocPath(locale, subdomain, slug)
+  return docPath ? readDocFile(docPath) : null
 }
 
 export const getDocTitle = (content: string): string => {
