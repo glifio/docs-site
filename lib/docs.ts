@@ -39,6 +39,12 @@ const readDocTitle = async (docFile: string): Promise<string> =>
 const getDocSlug = (docName: string): string =>
   docName.replace(mdExtensionRegex, '').replace(numberPrefixRegex, '')
 
+const getDocUrl = (
+  locale: string,
+  subdomain: string,
+  slug?: string[],
+): string => `/${locale}/${subdomain}/docs${slug ? `/${slug.join('/')}` : ''}`
+
 const getDocMatch = async (
   locale: string,
   subdomain: string,
@@ -103,18 +109,24 @@ export const getDocTree = async (
 
   const docFile = await getDocFile(docMatch)
   const title = docFile ? await readDocTitle(docFile) : 'Untitled'
+  const url = getDocUrl(locale, subdomain, slug)
   const tree: DocsTree = { title, url, children: [] }
 
   for (const entry of sorted) {
-    const entryPath = path.join(dir, entry.name)
-    const entryUrl = `${url}/${getDocSlug(entry.name)}`
+    const entrySlug = slug
+      ? [...slug, getDocSlug(entry.name)]
+      : [getDocSlug(entry.name)]
 
-    if (entry.isDirectory())
-      tree.children.push(await getDocsTree(entryPath, entryUrl))
+    // Push subtree for directory
+    if (entry.isDirectory()) {
+      const entryTree = await getDocTree(locale, subdomain, entrySlug)
+      if (entryTree) tree.children.push(entryTree)
+    }
+    // Push leaf for markdown file
     else if (entry.name.endsWith('.md'))
       tree.children.push({
-        title: await readDocTitle(entryPath),
-        url: entryUrl,
+        title: await readDocTitle(path.join(docMatch.match, entry.name)),
+        url: getDocUrl(locale, subdomain, entrySlug),
       })
   }
 
