@@ -25,6 +25,11 @@ export interface DocParams {
   slug: string[]
 }
 
+export interface DocMatch {
+  match: string
+  isDir: boolean
+}
+
 const readDocFile = async (docPath: string): Promise<string> =>
   fs.readFile(docPath, 'utf-8').then(content => content.replace(/^\uFEFF/, ''))
 
@@ -79,8 +84,8 @@ export const getDocContent = async (
   subdomain: string,
   slug?: string[],
 ): Promise<string | null> => {
-  const docPath = await getDocPath(locale, subdomain, slug)
-  return docPath ? readDocFile(docPath) : null
+  const docFile = await getDocFile(locale, subdomain, slug)
+  return docFile ? readDocFile(docFile) : null
 }
 
 export const getDocTitle = (docContent: string): string => {
