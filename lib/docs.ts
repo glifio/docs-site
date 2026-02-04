@@ -25,6 +25,9 @@ export interface DocParams {
   slug: string[]
 }
 
+const readDocFile = async (path: string): Promise<string> =>
+  fs.readFile(path, 'utf-8').then(content => content.replace(/^\uFEFF/, ''))
+
 export const getDoc = async (
   locale: string,
   subdomain: string,
@@ -45,7 +48,7 @@ export const getDoc = async (
   const file = match.endsWith('.md') ? match : path.join(match, 'README.md')
 
   try {
-    return await fs.readFile(file, 'utf-8')
+    return await readDocFile(file)
   } catch {
     return null
   }
@@ -68,8 +71,7 @@ export const getDocsTree = async (
     .filter(e => e.name !== 'README.md')
     .sort((a, b) => a.name.localeCompare(b.name, undefined, { numeric: true }))
 
-  const title = await fs
-    .readFile(path.join(dir, 'README.md'), 'utf-8')
+  const title = await readDocFile(path.join(dir, 'README.md'))
     .then(getDocTitle)
     .catch(() => 'Untitled')
 
@@ -83,7 +85,7 @@ export const getDocsTree = async (
       tree.children.push(await getDocsTree(entryPath, entryUrl))
     else if (entry.name.endsWith('.md'))
       tree.children.push({
-        title: getDocTitle(await fs.readFile(entryPath, 'utf-8')),
+        title: getDocTitle(await readDocFile(entryPath)),
         url: entryUrl,
       })
   }
