@@ -5,7 +5,7 @@ import { DocsTree } from '@/lib/docs'
 interface SidebarProps {
   locale: string
   subdomain: string
-  tree: DocsTree
+  tree: DocsTree | null
 }
 
 export const Sidebar = ({ locale, subdomain }: SidebarProps) => {
