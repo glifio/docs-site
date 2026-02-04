@@ -43,7 +43,6 @@ export const getDocContent = async (
     const entries = await fs.readdir(match)
     const entry = entries.find(entry => getDocSlug(entry) === part)
     if (!entry) return null
-
     match = path.join(match, entry)
   }
 
