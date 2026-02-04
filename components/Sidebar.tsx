@@ -1,6 +1,6 @@
 'use client'
 
-import { DocsTree } from '@/lib/docs'
+import { DocTree } from '@/lib/docs'
 
 interface SidebarProps {
   locale: string
