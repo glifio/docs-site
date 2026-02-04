@@ -10,11 +10,11 @@ const numberPrefixRegex = /^\d+-/
 const mdExtensionRegex = /\.md$/
 const mdTitleRegex = /^#\s+(.+)$/m
 
-export interface DocsTree extends DocsLeaf {
-  children: Array<DocsTree | DocsLeaf>
+export interface DocTree extends DocLeaf {
+  children: Array<DocTree | DocLeaf>
 }
 
-export interface DocsLeaf {
+export interface DocLeaf {
   title: string
   url: string
 }
@@ -98,7 +98,7 @@ export const getDocTree = async (
   locale: string,
   subdomain: string,
   slug?: string[],
-): Promise<DocsTree | null> => {
+): Promise<DocTree | null> => {
   const docMatch = await getDocMatch(locale, subdomain, slug)
   if (!docMatch?.isDir) return null
 
@@ -110,7 +110,7 @@ export const getDocTree = async (
   const docFile = await getDocFile(docMatch)
   const title = docFile ? await readDocTitle(docFile) : 'Untitled'
   const url = getDocUrl(locale, subdomain, slug)
-  const tree: DocsTree = { title, url, children: [] }
+  const tree: DocTree = { title, url, children: [] }
 
   for (const entry of sorted) {
     const entrySlug = slug
