@@ -101,7 +101,8 @@ export const getDocTree = async (
     .filter(e => e.name !== 'README.md')
     .sort((a, b) => a.name.localeCompare(b.name, undefined, { numeric: true }))
 
-  const title = await readDocTitle(path.join(dir, 'README.md'))
+  const docFile = await getDocFile(docMatch)
+  const title = docFile ? await readDocTitle(docFile) : 'Untitled'
   const tree: DocsTree = { title, url, children: [] }
 
   for (const entry of sorted) {
