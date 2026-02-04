@@ -6,10 +6,6 @@ import { locales, subdomains } from '@/lib/env'
 
 const DOCS_DIR = path.join(process.cwd(), 'docs')
 
-const numberPrefixRegex = /^\d+-/
-const mdExtensionRegex = /\.md$/
-const mdTitleRegex = /^#\s+(.+)$/m
-
 export interface DocTree extends DocLeaf {
   children: Array<DocTree | DocLeaf>
 }
@@ -90,7 +86,7 @@ export const getDocContent = async (
 }
 
 export const getDocTitle = (docContent: string): string => {
-  const match = docContent.match(mdTitleRegex)
+  const match = docContent.match(/^#\s+(.+)$/m)
   return match ? match[1] : 'Untitled'
 }
 
