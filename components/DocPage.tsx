@@ -20,6 +20,7 @@ export const DocPage = ({ children }: DocPageProps) => (
       components={{
         img: ({ src, alt }) => {
           if (!src || typeof src !== 'string') return null
+          const imgSrc = /^(https?:\/\/|\/)/.test(src) ? src : `/${src}`
         },
       }}
     >
