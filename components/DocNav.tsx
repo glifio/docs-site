@@ -5,16 +5,12 @@ import { DocTree, DocLeaf } from '@/lib/docs'
 
 interface DocNavProps {
   tree: DocTree
-  showTitle?: boolean
+  title?: string
 }
 
-export const DocNav = ({ tree, showTitle }: DocNavProps) => (
+export const DocNav = ({ tree, title }: DocNavProps) => (
   <nav className='prose prose-gray prose-sm'>
-    {showTitle && (
-      <h2>
-        <Link href={tree.url}>{tree.title}</Link>
-      </h2>
-    )}
+    <h2>{title ?? <Link href={tree.url}>{tree.title}</Link>}</h2>
 
     <ul className='pl-0 list-none'>
       {tree.children.map(child => (
