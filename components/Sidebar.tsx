@@ -1,8 +1,11 @@
 'use client'
 
+import { DocsTree } from '@/lib/docs'
+
 interface SidebarProps {
   locale: string
   subdomain: string
+  tree: DocsTree
 }
 
 export const Sidebar = ({ locale, subdomain }: SidebarProps) => {
