@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
-import { DocsPage } from '@/components/DocsPage'
+import { DocPage } from '@/components/DocPage'
 import {
   getAllDocParams,
   getDocContent,
@@ -16,7 +16,7 @@ const Page = async ({ params }: PageProps) => {
   const { locale, subdomain, slug } = await params
   const doc = await getDocContent(locale, subdomain, slug)
   const tree = await getDocTree(locale, subdomain, slug)
-  return doc ? <DocsPage tree={tree}>{doc}</DocsPage> : notFound()
+  return doc ? <DocPage tree={tree}>{doc}</DocPage> : notFound()
 }
 
 export default Page

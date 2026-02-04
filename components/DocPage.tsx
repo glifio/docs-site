@@ -5,12 +5,12 @@ import remarkMath from 'remark-math'
 import rehypeKatex from 'rehype-katex'
 import { DocsTree } from '@/lib/docs'
 
-interface DocsPageProps {
+interface DocPageProps {
   children: string
   tree: DocsTree | null
 }
 
-export const DocsPage = ({ children }: DocsPageProps) => (
+export const DocPage = ({ children }: DocPageProps) => (
   <article className='prose prose-gray'>
     <ReactMarkdown
       remarkPlugins={[remarkGfm, remarkMath, remarkAlert]}
