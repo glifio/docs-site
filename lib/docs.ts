@@ -25,8 +25,8 @@ export interface DocParams {
   slug: string[]
 }
 
-const readDocFile = async (path: string): Promise<string> =>
-  fs.readFile(path, 'utf-8').then(content => content.replace(/^\uFEFF/, ''))
+const readDocFile = async (docPath: string): Promise<string> =>
+  fs.readFile(docPath, 'utf-8').then(content => content.replace(/^\uFEFF/, ''))
 
 const getDocSlug = (name: string): string =>
   name.replace(mdExtensionRegex, '').replace(numberPrefixRegex, '')
