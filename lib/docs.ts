@@ -34,21 +34,22 @@ const readDocTitle = async (docPath: string): Promise<string> =>
 const getDocSlug = (docName: string): string =>
   docName.replace(mdExtensionRegex, '').replace(numberPrefixRegex, '')
 
-const getDocPath = async (
+const getDocMatch = async (
   locale: string,
   subdomain: string,
   slug?: string[],
-): Promise<string | null> => {
+): Promise<DocMatch | null> => {
   let match = path.join(DOCS_DIR, locale, subdomain)
+  let isDir = true
 
   // Find the file or folder match
   for (const part of slug ?? []) {
     const entries = await fs.readdir(match, { withFileTypes: true })
     const entry = entries.find(entry => getDocSlug(entry.name) === part)
-    if (!entry || !entry.isDirectory() || !entry.name.endsWith('.md'))
-      return null
+    if (!entry) return null
 
     match = path.join(match, entry.name)
+    isDir = entry.isDirectory()
   }
 
   // Get the file path, exact match or README.md in folder
