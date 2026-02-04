@@ -28,6 +28,9 @@ export interface DocParams {
 const readDocFile = async (path: string): Promise<string> =>
   fs.readFile(path, 'utf-8').then(content => content.replace(/^\uFEFF/, ''))
 
+const getDocSlug = (name: string): string =>
+  name.replace(mdExtensionRegex, '').replace(numberPrefixRegex, '')
+
 export const getDoc = async (
   locale: string,
   subdomain: string,
@@ -53,9 +56,6 @@ export const getDoc = async (
     return null
   }
 }
-
-export const getDocSlug = (name: string): string =>
-  name.replace(mdExtensionRegex, '').replace(numberPrefixRegex, '')
 
 export const getDocTitle = (content: string): string => {
   const match = content.match(mdTitleRegex)
