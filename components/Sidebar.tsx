@@ -13,9 +13,37 @@ interface SidebarProps {
 
 export const Sidebar = ({ locale, subdomain, tree }: SidebarProps) => {
   const router = useRouter()
+
   return (
-    <nav className='prose prose-gray prose-sm'>
-      {tree && <DocNav tree={tree} title />}
-    </nav>
+    <div className='flex flex-col gap-4'>
+      <div className='flex gap-2'>
+        <select
+          value={locale}
+          onChange={e => router.push(`/${e.target.value}/${subdomain}/docs`)}
+          className='px-2 py-1 text-sm rounded bg-gray-100 text-gray-700'
+        >
+          {locales.map(l => (
+            <option key={l} value={l}>
+              {l.toUpperCase()}
+            </option>
+          ))}
+        </select>
+        <select
+          value={subdomain}
+          onChange={e => router.push(`/${locale}/${e.target.value}/docs`)}
+          className='px-2 py-1 text-sm rounded bg-gray-100 text-gray-700'
+        >
+          {subdomains.map(s => (
+            <option key={s} value={s}>
+              {s.toUpperCase()}
+            </option>
+          ))}
+        </select>
+      </div>
+
+      <nav className='prose prose-gray prose-sm'>
+        {tree && <DocNav tree={tree} title />}
+      </nav>
+    </div>
   )
 }
