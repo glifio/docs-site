@@ -3,8 +3,6 @@ import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import remarkMath from 'remark-math'
 import rehypeKatex from 'rehype-katex'
-import Image from 'next/image'
-
 import { DocTree } from '@/lib/docs'
 
 interface DocPageProps {
@@ -21,6 +19,7 @@ export const DocPage = ({ children }: DocPageProps) => (
         img: ({ src, alt }) => {
           if (!src || typeof src !== 'string') return null
           const imgSrc = /^(https?:\/\/|\/)/.test(src) ? src : `/${src}`
+          return <img src={imgSrc} alt={alt} /> // eslint-disable-line @next/next/no-img-element
         },
       }}
     >
