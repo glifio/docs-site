@@ -30,8 +30,8 @@ Use standard markdown link syntax: `[text](url)`
 |------|--------|---------|
 | Asset link | Filename only (asset lives in `public/`) | `[audit](audit.pdf)` |
 | External link | Full URL | `[Filecoin](https://filecoin.io)` |
-| Internal doc link | `/docs/` + path from subdomain folder, **no `.md` extension** | `[rewards](/docs/1-tokens/2-rewards)` |
-| Internal folder link | `/docs/` + path to folder (addresses its `README.md`) | `[tutorials](/docs/1-tokens)` |
+| Internal doc link | `/docs/` + path to file, **no number prefixes or `.md` extension** | `[rewards](/docs/tokens/rewards)` |
+| Internal folder link | `/docs/` + path to folder (addresses its `README.md`), **no number prefixes** | `[tokens](/docs/tokens)` |
 | Internal site link | Path to a non-documentation page on the GLIF website, **no locale or subdomain** | `[wallet](/wallet)` |
 | Anchor link | `#anchor-name` | `[see below](#example-section)` |
 | Internal + anchor | Combines internal path with anchor | `[staking](/docs/tokens/rewards#staking)` |
