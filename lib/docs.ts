@@ -47,7 +47,6 @@ const getDocMatch = async (
     const entries = await fs.readdir(match, { withFileTypes: true })
     const entry = entries.find(entry => getDocSlug(entry.name) === part)
     if (!entry) return null
-
     match = path.join(match, entry.name)
     isDir = entry.isDirectory()
   }
