@@ -1,4 +1,4 @@
-﻿# Uses of Borrowed FIL
+# Uses of Borrowed FIL
 
 1. To use as pledge collateral for Filecoin storage mining
 2. To fund fiat denominated expenses like gas, payroll, rent

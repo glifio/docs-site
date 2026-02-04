@@ -1,4 +1,4 @@
-﻿# Risk
+# Risk
 
 ## What happens if a Storage Provider fails to meet their obligations?
 

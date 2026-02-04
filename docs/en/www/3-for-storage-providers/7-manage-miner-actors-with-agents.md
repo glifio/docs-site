@@ -1,4 +1,4 @@
-﻿# Manage Miner Actors with Agents
+# Manage Miner Actors with Agents
 
 ## What are Agents
 

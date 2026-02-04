@@ -1,4 +1,4 @@
-﻿# Deposit FIL
+# Deposit FIL
 
 ## What is iFIL?
 

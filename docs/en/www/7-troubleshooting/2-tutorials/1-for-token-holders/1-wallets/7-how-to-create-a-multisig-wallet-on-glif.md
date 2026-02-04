@@ -1,4 +1,4 @@
-﻿# How to create a multisig wallet on GLIF
+# How to create a multisig wallet on GLIF
 
 Using a GLIF multisig wallet to deposit your FIL tokens provides increased security and allows for shared asset management. This tutorial walks you through the steps to set up a multisig wallet.
 

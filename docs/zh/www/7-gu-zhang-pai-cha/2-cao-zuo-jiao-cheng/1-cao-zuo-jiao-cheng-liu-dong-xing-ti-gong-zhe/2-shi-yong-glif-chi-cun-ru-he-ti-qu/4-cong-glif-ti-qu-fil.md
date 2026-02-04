@@ -1,4 +1,4 @@
-﻿# 从 GLIF 提取 FIL
+# 从 GLIF 提取 FIL
 
 本教程将示范如何在 GLIF 用 iFIL 代币提取 FIL，而从 GLIF 提取 FIL 需要进行 2 笔交易。
 

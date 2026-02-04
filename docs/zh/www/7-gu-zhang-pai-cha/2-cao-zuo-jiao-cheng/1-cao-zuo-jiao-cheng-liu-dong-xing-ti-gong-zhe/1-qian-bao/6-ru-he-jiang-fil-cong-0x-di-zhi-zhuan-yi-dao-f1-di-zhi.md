@@ -1,4 +1,4 @@
-﻿# 如何将 FIL 从 0x 地址转移到 f1 地址
+# 如何将 FIL 从 0x 地址转移到 f1 地址
 
 要将 FIL 从 0x 地址转移到 f1 地址，您需要使用一个中介钱包，例如[FilSnap钱包](/docs/7-gu-zhang-pai-cha/2-cao-zuo-jiao-cheng/1-cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/1-qian-bao/4-ru-he-li-yong-filsnap-qian-bao-zuo-wei-zhong-jie-qian-bao)、[Burner钱包](/docs/7-gu-zhang-pai-cha/2-cao-zuo-jiao-cheng/1-cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/1-qian-bao/3-ru-he-li-yong-burner-qian-bao-zuo-wei-zhong-jie-qian-bao)或[Ledger钱包](/docs/7-gu-zhang-pai-cha/2-cao-zuo-jiao-cheng/1-cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/1-qian-bao/2-ru-he-li-yong-ledger-qian-bao-zuo-wei-zhong-jie-qian-bao)，协助您在不同格式的地址之间转移FIL。本教程将带您创建中介钱包，并将FIL从您的0x地址转移到最终的f1地址。
 

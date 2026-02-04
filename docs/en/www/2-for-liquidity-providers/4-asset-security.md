@@ -1,4 +1,4 @@
-﻿# Asset Security
+# Asset Security
 
 ## Economic security - liquidation mechanism
 

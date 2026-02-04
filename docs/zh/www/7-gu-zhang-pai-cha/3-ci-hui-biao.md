@@ -1,4 +1,4 @@
-﻿# 词汇表
+# 词汇表
 
 * **管理状态 (Administration)**：DTL 比率高于 75% 的存储提供商 (SP) 有机会被列入管理状态，这允许 GLIF 使用 SP Miner Actor 里任何可用余额来偿还 SP 的债务。如果 GLIF 管理员偿还 SP 的债务，扇区不会被终止或罚款。SP 从 GLIF 借款和提取也会被暂停。管理员的目标是让 SP 恢复至健康状态（DTL < 75%）。有关详细信息，请参阅[此处](/docs/3-cun-chu-ti-gong-shang/5-qing-suan-ji-zhi)。
 * **Agents：**Agents 是 FEVM 上的智能合约，允许存储提供商 (SP) 抵押 Filecoin Miner Actors 以从 GLIF 借入 FIL。Agents 充当 SP 和 GLIF 之间的中介，允许 SP 在从 GLIF 借款的同时保持对其矿工的所有权和控制权。有关详细信息，请参阅[此处](/docs/3-cun-chu-ti-gong-shang/7-shi-yong-agents-guan-li-jie-dian)。

@@ -1,4 +1,4 @@
-﻿# Deposit FIL into GLIF to earn rewards
+# Deposit FIL into GLIF to earn rewards
 
 This guide will show you how to deposit FIL into GLIF, so you can start earning rewards with GLIF.
 

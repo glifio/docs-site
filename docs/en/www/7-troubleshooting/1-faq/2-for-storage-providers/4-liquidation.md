@@ -1,4 +1,4 @@
-﻿# Liquidation
+# Liquidation
 
 ## What happens if an SP exceeds the **Debt-to-Liquidation (DTL)** limits?
 

@@ -1,4 +1,4 @@
-﻿# GLIF Documentation
+# GLIF Documentation
 
 ![GLIF Logo](logo.png)
 

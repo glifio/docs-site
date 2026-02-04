@@ -1,4 +1,4 @@
-﻿# Agents
+# Agents
 
 ## What is the role of agents in the GLIF system?
 

@@ -1,4 +1,4 @@
-﻿# Withdraw FIL from GLIF
+# Withdraw FIL from GLIF
 
 This tutorial will guide you through the process of using your iFIL tokens to withdraw FIL from GLIF. **Withdrawing FIL from GLIF requires 2 transactions.**
 

@@ -1,4 +1,4 @@
-﻿# Withdraw FIL
+# Withdraw FIL
 
 ## Can I change my iFIL back to FIL?
 

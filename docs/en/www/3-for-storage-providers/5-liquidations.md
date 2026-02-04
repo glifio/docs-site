@@ -1,4 +1,4 @@
-﻿# Liquidations
+# Liquidations
 
 ## Managing Debt-to-Liquidity Ratio to Prevent Liquidation
 

@@ -1,4 +1,4 @@
-﻿# How to deposit FIL to GLIF using multisig wallet
+# How to deposit FIL to GLIF using multisig wallet
 
 Depositing your FIL tokens through a GLIF multisig wallet enhances security and enables collaborative management of your assets. This tutorial will guide you through the process of creating a multisig wallet and depositing your FIL into the GLIF pool using your multisig wallet.
 

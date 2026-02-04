@@ -1,4 +1,4 @@
-﻿# 将 FIL 从 MEXC 转入 GLIF
+# 将 FIL 从 MEXC 转入 GLIF
 
 如果您的 FIL 代币目前存放在交易所，并且您想将其用于赚取收益，将FIL存入 GLIF，那么本教程将帮助您简化流程。
 

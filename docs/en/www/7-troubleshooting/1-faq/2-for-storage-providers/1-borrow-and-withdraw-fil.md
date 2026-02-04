@@ -1,4 +1,4 @@
-﻿# Borrow and Withdraw FIL
+# Borrow and Withdraw FIL
 
 ## What can I do with GLIF as a Storage Provider?
 

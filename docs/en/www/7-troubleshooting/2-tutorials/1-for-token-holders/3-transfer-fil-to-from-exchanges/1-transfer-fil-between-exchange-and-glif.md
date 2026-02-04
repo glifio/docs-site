@@ -1,4 +1,4 @@
-﻿# Transfer FIL between exchange and GLIF
+# Transfer FIL between exchange and GLIF
 
 If your FIL tokens are currently on an exchange and you are eager to utilize them to earn rewards by depositing to GLIF, or if you want to withdraw from GLIF to an exchange, this guide will simplify the process for you.
 

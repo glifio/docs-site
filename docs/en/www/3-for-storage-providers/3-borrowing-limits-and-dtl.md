@@ -1,4 +1,4 @@
-﻿# Borrowing Limits & DTL
+# Borrowing Limits & DTL
 
 ## Debt-to-liquidation (DTL) ratio
 

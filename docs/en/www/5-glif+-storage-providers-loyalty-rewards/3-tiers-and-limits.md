@@ -1,4 +1,4 @@
-﻿# Tiers and Limits
+# Tiers and Limits
 
 Your GLIF+ Tier is determined by the amount of $GLF you stake, which sets your cash back rewards and DTL limits—the higher your status, the bigger the benefits.
 

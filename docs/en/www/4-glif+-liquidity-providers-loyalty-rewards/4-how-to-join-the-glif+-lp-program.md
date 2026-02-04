@@ -1,4 +1,4 @@
-﻿# How to Join the GLIF+ LP Program
+# How to Join the GLIF+ LP Program
 
 Follow the steps below to start receiving FIL rewards through your GLIF+ LP Card.
 

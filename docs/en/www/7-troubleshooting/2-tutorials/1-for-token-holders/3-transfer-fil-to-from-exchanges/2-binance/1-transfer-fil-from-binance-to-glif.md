@@ -1,4 +1,4 @@
-﻿# Transfer FIL from Binance to GLIF
+# Transfer FIL from Binance to GLIF
 
 If your FIL tokens are currently on an exchange and you are eager to utilize it to earn rewards, and depositing to GLIF, this guide will simplify the process for you.
 

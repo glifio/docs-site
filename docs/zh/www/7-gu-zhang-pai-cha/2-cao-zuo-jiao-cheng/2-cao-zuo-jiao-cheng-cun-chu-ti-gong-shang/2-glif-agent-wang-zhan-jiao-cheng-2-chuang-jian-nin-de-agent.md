@@ -1,4 +1,4 @@
-﻿# GLIF Agent 网站教程 (2) — 创建您的 Agent
+# GLIF Agent 网站教程 (2) — 创建您的 Agent
 
 _如果您还不熟悉 GLIF Agent 的基础知识以及在 GLIF 网站上创建 Agent 的准备步骤，建议您先阅读本教程的_[_第一部分_](/docs/7-gu-zhang-pai-cha/2-cao-zuo-jiao-cheng/2-cao-zuo-jiao-cheng-cun-chu-ti-gong-shang/1-glif-agent-wang-zhan-jiao-cheng-1-zhun-bei-she-zhi)_。_
 

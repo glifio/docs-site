@@ -1,4 +1,4 @@
-﻿# How to withdraw FIL from the agent to an exchange at GLIF
+# How to withdraw FIL from the agent to an exchange at GLIF
 
 In order to withdraw from a GLIF Agent smart contract to an exchange like Binance, you need to use an intermediary wallet, which can be a **FilSnap, Burner Wallet, or Ledger Wallet**. The strategy is to withdraw FIL from your Agent to your intermediary wallet, and from your intermediary wallet to the exchange. The reason for this approach is due to certain exchanges not yet supporting Filecoin deposits from FEVM smart contracts.
 

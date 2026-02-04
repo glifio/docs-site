@@ -1,4 +1,4 @@
-﻿# Transfer FIL from GLIF to MEXC
+# Transfer FIL from GLIF to MEXC
 
 This tutorial will guide you through the process of withdraw your iFIL tokens from GLIF to an exchange.  This tutorial is specifically for transferring FIL to MEXC. Check this [page](/docs/7-troubleshooting/2-tutorials/1-for-token-holders/3-transfer-fil-to-from-exchanges/1-transfer-fil-between-exchange-and-glif) for tutorials on other exchanges.
 

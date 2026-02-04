@@ -1,4 +1,4 @@
-﻿# About GLIF
+# About GLIF
 
 ## What is GLIF?
 

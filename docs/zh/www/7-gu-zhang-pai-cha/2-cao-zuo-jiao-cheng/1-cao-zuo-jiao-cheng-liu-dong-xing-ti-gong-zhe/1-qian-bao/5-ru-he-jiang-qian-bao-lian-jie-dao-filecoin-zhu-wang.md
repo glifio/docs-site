@@ -1,4 +1,4 @@
-﻿# 如何将钱包连接到 Filecoin 主网
+# 如何将钱包连接到 Filecoin 主网
 
 要将FIL存入GLIF，您首先需要选择一个支持FIL的钱包，並连接到Filecoin主网。本教程将带您完成将钱包连接到Filecoin主网的过程，以便您可以与GLIF互动。
 

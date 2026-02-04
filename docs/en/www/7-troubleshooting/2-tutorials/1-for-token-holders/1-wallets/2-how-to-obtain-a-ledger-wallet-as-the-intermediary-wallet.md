@@ -1,4 +1,4 @@
-﻿# How to obtain a Ledger wallet as the intermediary wallet
+# How to obtain a Ledger wallet as the intermediary wallet
 
 The Filecoin ecosystem includes various types of addresses, such as `f0`, `f1`, `f2`, `f3`, and `f410` (or `0x`). Some wallets, like Metamask, only support `0x` addresses, while certain exchanges recognize only `f1` addresses. Due to these differences, some wallets or exchanges may not recognize specific address types as valid Filecoin destinations. In such cases, an intermediary wallet may be needed to act as a bridge.
 

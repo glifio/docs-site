@@ -1,4 +1,4 @@
-﻿# Liquidity Provider Loyalty Card
+# Liquidity Provider Loyalty Card
 
 ![Liquidity Provider Loyalty Card](en-image-272.png)
 

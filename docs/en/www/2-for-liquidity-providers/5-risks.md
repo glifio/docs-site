@@ -1,4 +1,4 @@
-﻿# Risks
+# Risks
 
 ## Smart contract risk
 

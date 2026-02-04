@@ -1,4 +1,4 @@
-﻿# How to connect your wallet to Filecoin Mainnet
+# How to connect your wallet to Filecoin Mainnet
 
 To deposit FIL into GLIF, you first need to choose a wallet that supports FIL and connect to Filecoin Mainnet. This tutorial will guide you through the process of connecting your wallet to the Filecoin Mainnet so that you can interact with GLIF.
 

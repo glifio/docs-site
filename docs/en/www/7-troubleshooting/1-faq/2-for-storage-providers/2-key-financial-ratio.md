@@ -1,4 +1,4 @@
-﻿# Key Financial Ratio
+# Key Financial Ratio
 
 ## What are the key ratios used to determine borrowing limits?
 

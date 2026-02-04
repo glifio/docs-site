@@ -1,4 +1,4 @@
-﻿# GLIF Agent 网站教程 (1) — 准备设置
+# GLIF Agent 网站教程 (1) — 准备设置
 
 在 GLIF Agent 教程的第一部分中，我们将涵盖两个主题：
 

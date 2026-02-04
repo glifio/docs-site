@@ -1,4 +1,4 @@
-﻿# How to deposit Filecoin from a hardware wallet with GLIF
+# How to deposit Filecoin from a hardware wallet with GLIF
 
 If you have stored your FIL tokens in cold storage, navigating the new Filecoin DeFi apps may seem confusing. However, it is actually quite simple, and we will show you how to do it.
 

@@ -1,4 +1,4 @@
-﻿# 将 FIL 从 GLIF 转出至 MEXC
+# 将 FIL 从 GLIF 转出至 MEXC
 
 本教程将带您将 iFIL 代币从 GLIF 提现到交易所。本教程专门针对将 FIL 转移到 MEXC。请[点击此处](/docs/7-gu-zhang-pai-cha/2-cao-zuo-jiao-cheng/1-cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/jiang-fil-zhuan-ru-huo-zhuan-chu-jiao-yi-suo/1-zai-jiao-yi-suo-he-glif-zhi-jian-zhuan-yi-fil)查看其他交易所的教程。
 
