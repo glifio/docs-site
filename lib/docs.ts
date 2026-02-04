@@ -78,6 +78,14 @@ export const getDocsTree = async (
   for (const entry of sorted) {
     const entryPath = path.join(dir, entry.name)
     const entryUrl = `${url}/${getDocSlug(entry.name)}`
+
+    if (entry.isDirectory())
+      tree.children.push(await getDocsTree(entryPath, entryUrl))
+    else if (entry.name.endsWith('.md'))
+      tree.children.push({
+        title: getDocTitle(await fs.readFile(entryPath, 'utf-8')),
+        url: entryUrl,
+      })
   }
 
   return tree
