@@ -11,7 +11,7 @@
 
 ## 准备
 
-本教程默认您已经拥有一个存入 FIL 并持有 iFIL 的 GLIF 多签钱包。如果尚未创建，请先参考我们[之前的教程](/docs/7-gu-zhang-pai-cha/2-cao-zuo-jiao-cheng/1-cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/1-qian-bao/7-ru-he-zai-glif-shang-chuang-jian-duo-qian-qian-bao)，以学习[如何创建多签钱包并存入 FIL](/docs/7-gu-zhang-pai-cha/2-cao-zuo-jiao-cheng/1-cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/2-shi-yong-glif-chi-cun-ru-he-ti-qu/3-ru-he-shi-yong-duo-qian-qian-bao-jiang-fil-cun-ru-glif)。
+本教程默认您已经拥有一个存入 FIL 并持有 iFIL 的 GLIF 多签钱包。如果尚未创建，请先参考我们[之前的教程](/docs/gu-zhang-pai-cha/cao-zuo-jiao-cheng/cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/qian-bao/ru-he-zai-glif-shang-chuang-jian-duo-qian-qian-bao)，以学习[如何创建多签钱包并存入 FIL](/docs/gu-zhang-pai-cha/cao-zuo-jiao-cheng/cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/shi-yong-glif-chi-cun-ru-he-ti-qu/ru-he-shi-yong-duo-qian-qian-bao-jiang-fil-cun-ru-glif)。
 
 ***
 
@@ -135,4 +135,4 @@
 
 现在，您可以顺利地使用多签钱包从 GLIF 池中取回所存入的 FIL。记得随时仔细核对地址和交易信息，以确保资金安全。
 
-如果您想了解如何使用多签钱包向 GLIF 池进行存款，请参见我们[之前的教程](/docs/7-gu-zhang-pai-cha/2-cao-zuo-jiao-cheng/1-cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/2-shi-yong-glif-chi-cun-ru-he-ti-qu/3-ru-he-shi-yong-duo-qian-qian-bao-jiang-fil-cun-ru-glif)。
+如果您想了解如何使用多签钱包向 GLIF 池进行存款，请参见我们[之前的教程](/docs/gu-zhang-pai-cha/cao-zuo-jiao-cheng/cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/shi-yong-glif-chi-cun-ru-he-ti-qu/ru-he-shi-yong-duo-qian-qian-bao-jiang-fil-cun-ru-glif)。

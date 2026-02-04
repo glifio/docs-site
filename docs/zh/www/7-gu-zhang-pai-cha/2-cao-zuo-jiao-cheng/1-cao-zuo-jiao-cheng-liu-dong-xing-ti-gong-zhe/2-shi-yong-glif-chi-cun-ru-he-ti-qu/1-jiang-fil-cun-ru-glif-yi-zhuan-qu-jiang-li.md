@@ -4,9 +4,9 @@
 
 ## 步骤 1：准备一个已存有 FIL 的钱包
 
-要将 FIL 存入 GLIF，您需要先选择一个支持 FIL 的钱包。GLIF 与[大多数 EVM 钱包](https://filecointldr.io/how-to-buy-filecoin)兼容。您可以在[此处](/docs/7-gu-zhang-pai-cha/2-cao-zuo-jiao-cheng/1-cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/1-qian-bao)查看更多关于钱包的教程。请务必自行研究（DYOR）后再做选择。
+要将 FIL 存入 GLIF，您需要先选择一个支持 FIL 的钱包。GLIF 与[大多数 EVM 钱包](https://filecointldr.io/how-to-buy-filecoin)兼容。您可以在[此处](/docs/gu-zhang-pai-cha/cao-zuo-jiao-cheng/cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/qian-bao)查看更多关于钱包的教程。请务必自行研究（DYOR）后再做选择。
 
-在本教程中，我们将以 MetaMask 为例，如果您想使用 Ledger，也可以在[此处](/docs/7-gu-zhang-pai-cha/2-cao-zuo-jiao-cheng/1-cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/2-shi-yong-glif-chi-cun-ru-he-ti-qu/2-ru-he-shi-yong-ying-jian-qian-bao-jiang-fil-cun-ru-glif)找到相应的教程。
+在本教程中，我们将以 MetaMask 为例，如果您想使用 Ledger，也可以在[此处](/docs/gu-zhang-pai-cha/cao-zuo-jiao-cheng/cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/shi-yong-glif-chi-cun-ru-he-ti-qu/ru-he-shi-yong-ying-jian-qian-bao-jiang-fil-cun-ru-glif)找到相应的教程。
 
 > [!IMPORTANT]
 > 无论使用哪种钱包，都请务必妥善备份并安全保管您的助记词，切勿与他人分享。**GLIF 团队的任何成员都不会向您索要私钥或助记词。**
@@ -25,7 +25,7 @@
 
 如果您选择了 Chrome 插件钱包（如 MetaMask），并且这是您第一次使用，您的钱包可能会提示添加 Filecoin 网络。
 
-有关向钱包添加 Filecoin 主网的详细说明，请参阅[此教程](/docs/7-gu-zhang-pai-cha/2-cao-zuo-jiao-cheng/1-cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/1-qian-bao/5-ru-he-jiang-qian-bao-lian-jie-dao-filecoin-zhu-wang)。
+有关向钱包添加 Filecoin 主网的详细说明，请参阅[此教程](/docs/gu-zhang-pai-cha/cao-zuo-jiao-cheng/cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/qian-bao/ru-he-jiang-qian-bao-lian-jie-dao-filecoin-zhu-wang)。
 
 ## 步骤 3：在 GLIF 上存入您的 Filecoin
 
@@ -56,7 +56,7 @@
 存入 FIL 后，您将在一两分钟内收到 iFIL。iFIL 的 FIL 价值代表您的初始存款加上已获得的收益。
 
 > [!NOTE]
-> 如需了解 iFIL 的更多信息，请在[此处](/docs/2-liu-dong-xing-ti-gong-zhe/2-glif-jiang-li-ji-zhi-ifil)查看文档。
+> 如需了解 iFIL 的更多信息，请在[此处](/docs/liu-dong-xing-ti-gong-zhe/glif-jiang-li-ji-zhi-ifil)查看文档。
 
 如果您想查看更详细的持仓信息，可以点击 GLIF 左上方中的“**钱包**”，在“**代币**”部分查看钱包的 FIL 和 iFIL。
 
@@ -76,4 +76,4 @@
 
 恭喜您成功将 FIL 存入 GLIF！当您准备提取存款时，需要将 iFIL 返还给 GLIF 才能拿回您的 FIL。
 
-有关更多提取流程的详细教程，请[点击此处](/docs/7-gu-zhang-pai-cha/2-cao-zuo-jiao-cheng/1-cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/2-shi-yong-glif-chi-cun-ru-he-ti-qu/4-cong-glif-ti-qu-fil)。
+有关更多提取流程的详细教程，请[点击此处](/docs/gu-zhang-pai-cha/cao-zuo-jiao-cheng/cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/shi-yong-glif-chi-cun-ru-he-ti-qu/cong-glif-ti-qu-fil)。

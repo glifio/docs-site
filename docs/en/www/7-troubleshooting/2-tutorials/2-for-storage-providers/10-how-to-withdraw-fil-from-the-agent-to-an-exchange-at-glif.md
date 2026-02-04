@@ -29,9 +29,9 @@ You can choose from the following options:
 
 You can choose an intermediary wallet to obtain an `f1` address from the following options:
 
-* [Choice A: Burner Wallet](/docs/7-troubleshooting/2-tutorials/1-for-token-holders/1-wallets/3-how-to-obtain-a-burner-wallet-as-the-intermediary-wallet)
-* [Choice B: FilSnap Wallet](/docs/7-troubleshooting/2-tutorials/1-for-token-holders/1-wallets/4-how-to-obtain-a-filsnap-wallet-as-the-intermediary-wallet)
-* [Choice C: Ledger Wallet](/docs/7-troubleshooting/2-tutorials/1-for-token-holders/1-wallets/2-how-to-obtain-a-ledger-wallet-as-the-intermediary-wallet)
+* [Choice A: Burner Wallet](/docs/troubleshooting/tutorials/for-token-holders/wallets/how-to-obtain-a-burner-wallet-as-the-intermediary-wallet)
+* [Choice B: FilSnap Wallet](/docs/troubleshooting/tutorials/for-token-holders/wallets/how-to-obtain-a-filsnap-wallet-as-the-intermediary-wallet)
+* [Choice C: Ledger Wallet](/docs/troubleshooting/tutorials/for-token-holders/wallets/how-to-obtain-a-ledger-wallet-as-the-intermediary-wallet)
 
 For details on creating an intermediary wallet, please refer to the tutorial by clicking the link above.
 

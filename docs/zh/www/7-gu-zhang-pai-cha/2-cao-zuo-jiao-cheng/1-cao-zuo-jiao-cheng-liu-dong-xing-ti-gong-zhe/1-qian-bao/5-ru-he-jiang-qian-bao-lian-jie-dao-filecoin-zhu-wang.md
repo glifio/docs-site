@@ -6,7 +6,7 @@
 
 GLIF兼容[大多数的EVM钱包，](https://filecointldr.io/how-to-buy-filecoin)以及FilSnap（MetaMask插件）和Ledger中的Filecoin App。您可以在[此处](https://filecointldr.io/how-to-buy-filecoin)找到有关Filecoin钱包的更多信息。请确保在经过充分研究后选择适合的钱包。
 
-在本教程中，我们将使用MetaMask，但您可以在[此处](/docs/7-gu-zhang-pai-cha/2-cao-zuo-jiao-cheng/1-cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/2-shi-yong-glif-chi-cun-ru-he-ti-qu/2-ru-he-shi-yong-ying-jian-qian-bao-jiang-fil-cun-ru-glif)找到使用Ledger的类似教程。
+在本教程中，我们将使用MetaMask，但您可以在[此处](/docs/gu-zhang-pai-cha/cao-zuo-jiao-cheng/cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/shi-yong-glif-chi-cun-ru-he-ti-qu/ru-he-shi-yong-ying-jian-qian-bao-jiang-fil-cun-ru-glif)找到使用Ledger的类似教程。
 
 > [!IMPORTANT]
 > 无论您使用哪种钱包，都请务必备份您的助记词，安全保管，并且永远不要与任何人分享。GLIF团队的任何人都不会要求您提供私钥或助记词。
@@ -26,7 +26,7 @@ GLIF兼容[大多数的EVM钱包，](https://filecointldr.io/how-to-buy-filecoin
 1. 在从钱包列表中选择Chrome插件钱包（例如MetaMask）后，您应会在钱包中看到一个提示，要求您添加Filecoin网络。
 
 > [!TIP]
-> 想使用Ledger吗？请查看我们的[Ledger教程](/docs/7-gu-zhang-pai-cha/2-cao-zuo-jiao-cheng/1-cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/2-shi-yong-glif-chi-cun-ru-he-ti-qu/2-ru-he-shi-yong-ying-jian-qian-bao-jiang-fil-cun-ru-glif)。
+> 想使用Ledger吗？请查看我们的[Ledger教程](/docs/gu-zhang-pai-cha/cao-zuo-jiao-cheng/cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/shi-yong-glif-chi-cun-ru-he-ti-qu/ru-he-shi-yong-ying-jian-qian-bao-jiang-fil-cun-ru-glif)。
 
 2. 在MetaMask 点击“**确认**”，然后点击“**批准**”。
 

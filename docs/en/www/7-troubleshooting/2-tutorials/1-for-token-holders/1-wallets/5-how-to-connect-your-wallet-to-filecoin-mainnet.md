@@ -4,9 +4,9 @@ To deposit FIL into GLIF, you first need to choose a wallet that supports FIL an
 
 ## Step 1: Prepare a wallet with FIL on it
 
-GLIF is compatible with [most EVM wallets](https://filecointldr.io/how-to-buy-filecoin) as well as the [FilSnap (MetaMask snap](/docs/7-troubleshooting/2-tutorials/1-for-token-holders/1-wallets/4-how-to-obtain-a-filsnap-wallet-as-the-intermediary-wallet)[)](/docs/7-troubleshooting/2-tutorials/1-for-token-holders/1-wallets/4-how-to-obtain-a-filsnap-wallet-as-the-intermediary-wallet) and the [Ledger in Filecoin App](/docs/7-troubleshooting/2-tutorials/1-for-token-holders/1-wallets/2-how-to-obtain-a-ledger-wallet-as-the-intermediary-wallet). You can find more information about Filecoin wallets [here](https://filecointldr.io/how-to-buy-filecoin). Make sure to do your own research (DYOR) to select the wallet.
+GLIF is compatible with [most EVM wallets](https://filecointldr.io/how-to-buy-filecoin) as well as the [FilSnap (MetaMask snap](/docs/troubleshooting/tutorials/for-token-holders/wallets/how-to-obtain-a-filsnap-wallet-as-the-intermediary-wallet)[)](/docs/troubleshooting/tutorials/for-token-holders/wallets/how-to-obtain-a-filsnap-wallet-as-the-intermediary-wallet) and the [Ledger in Filecoin App](/docs/troubleshooting/tutorials/for-token-holders/wallets/how-to-obtain-a-ledger-wallet-as-the-intermediary-wallet). You can find more information about Filecoin wallets [here](https://filecointldr.io/how-to-buy-filecoin). Make sure to do your own research (DYOR) to select the wallet.
 
-In this tutorial we will use MetaMask, but you can find a similar tutorial using Ledger [here](/docs/7-troubleshooting/2-tutorials/1-for-token-holders/2-using-the-pool/2-how-to-deposit-filecoin-from-a-hardware-wallet-with-glif).
+In this tutorial we will use MetaMask, but you can find a similar tutorial using Ledger [here](/docs/troubleshooting/tutorials/for-token-holders/using-the-pool/how-to-deposit-filecoin-from-a-hardware-wallet-with-glif).
 
 > [!IMPORTANT]
 > No matter which wallet you use, always make sure to back up your secret recovery phrase, store it securely, and never share it with anyone. No one from the GLIF team will ever ask you for private keys or seed phrases.
@@ -26,7 +26,7 @@ In this tutorial we will use MetaMask, but you can find a similar tutorial using
 1. After choosing a chrome extension wallet (e.g. MetaMask) from the list of wallets, you may see a prompt appear in your wallet asking you to add the Filecoin network.
 
 > [!TIP]
-> Using Ledger? Check out our Ledger tutorial [here](/docs/7-troubleshooting/2-tutorials/1-for-token-holders/2-using-the-pool/2-how-to-deposit-filecoin-from-a-hardware-wallet-with-glif).
+> Using Ledger? Check out our Ledger tutorial [here](/docs/troubleshooting/tutorials/for-token-holders/using-the-pool/how-to-deposit-filecoin-from-a-hardware-wallet-with-glif).
 
 2. Click “**Confirm**”, then click “**Approve**” in MetaMask**.**
 

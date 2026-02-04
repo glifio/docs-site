@@ -2,11 +2,11 @@
 
 如果您的 FIL 代币目前存放在交易所，并且您想将其用于赚取收益，将FIL存入 GLIF，那么本教程将帮助您简化流程。
 
-本教程专门针对从 MEXC 转移 FIL。请[点击此处](/docs/7-gu-zhang-pai-cha/2-cao-zuo-jiao-cheng/1-cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/jiang-fil-zhuan-ru-huo-zhuan-chu-jiao-yi-suo)查看其他交易所的教程。
+本教程专门针对从 MEXC 转移 FIL。请[点击此处](/docs/gu-zhang-pai-cha/cao-zuo-jiao-cheng/cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/jiang-fil-zhuan-ru-huo-zhuan-chu-jiao-yi-suo)查看其他交易所的教程。
 
 > [!NOTE]
 > GLIF 与大多数 EVM 钱包兼容。本教程以 MetaMask 钱包为示例，其他钱包同样适用。\
-> 您可以参考我们的[常见问题](/docs/7-gu-zhang-pai-cha/1-chang-jian-wen-ti/1-chang-jian-wen-ti-liu-dong-xing-ti-gong-zhe)和[钱包教程](/docs/7-gu-zhang-pai-cha/2-cao-zuo-jiao-cheng/1-cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/1-qian-bao)以获取更多资讯。
+> 您可以参考我们的[常见问题](/docs/gu-zhang-pai-cha/chang-jian-wen-ti/chang-jian-wen-ti-liu-dong-xing-ti-gong-zhe)和[钱包教程](/docs/gu-zhang-pai-cha/cao-zuo-jiao-cheng/cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/qian-bao)以获取更多资讯。
 >
 > 如果您遇到任何问题，请通过 [Discord 支持工单](https://discord.gg/5qsJjsP3Re)与 GLIF 联系。
 
@@ -27,8 +27,8 @@
 
 **如果您要转移 FIL 的钱包地址以 `f410` 或 `0x` 开头：**
 
-* 您需要使用中介钱包，例如 [FilSnap 钱包](/docs/7-gu-zhang-pai-cha/2-cao-zuo-jiao-cheng/1-cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/1-qian-bao/4-ru-he-li-yong-filsnap-qian-bao-zuo-wei-zhong-jie-qian-bao)、[Burner钱包](/docs/7-gu-zhang-pai-cha/2-cao-zuo-jiao-cheng/1-cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/1-qian-bao/3-ru-he-li-yong-burner-qian-bao-zuo-wei-zhong-jie-qian-bao)或 [Ledger](/docs/7-gu-zhang-pai-cha/2-cao-zuo-jiao-cheng/1-cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/1-qian-bao/2-ru-he-li-yong-ledger-qian-bao-zuo-wei-zhong-jie-qian-bao)。点击链结查看创建不同中介钱包的教程。
-* 这是因为一些交易所，包括 MEXC，还不支持转移到 `f410` 或 `0x` 地址。请[点击此处](/docs/7-gu-zhang-pai-cha/2-cao-zuo-jiao-cheng/1-cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/jiang-fil-zhuan-ru-huo-zhuan-chu-jiao-yi-suo/1-zai-jiao-yi-suo-he-glif-zhi-jian-zhuan-yi-fil)查看详细解释。
+* 您需要使用中介钱包，例如 [FilSnap 钱包](/docs/gu-zhang-pai-cha/cao-zuo-jiao-cheng/cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/qian-bao/ru-he-li-yong-filsnap-qian-bao-zuo-wei-zhong-jie-qian-bao)、[Burner钱包](/docs/gu-zhang-pai-cha/cao-zuo-jiao-cheng/cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/qian-bao/ru-he-li-yong-burner-qian-bao-zuo-wei-zhong-jie-qian-bao)或 [Ledger](/docs/gu-zhang-pai-cha/cao-zuo-jiao-cheng/cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/qian-bao/ru-he-li-yong-ledger-qian-bao-zuo-wei-zhong-jie-qian-bao)。点击链结查看创建不同中介钱包的教程。
+* 这是因为一些交易所，包括 MEXC，还不支持转移到 `f410` 或 `0x` 地址。请[点击此处](/docs/gu-zhang-pai-cha/cao-zuo-jiao-cheng/cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/jiang-fil-zhuan-ru-huo-zhuan-chu-jiao-yi-suo/zai-jiao-yi-suo-he-glif-zhi-jian-zhuan-yi-fil)查看详细解释。
 
 完成后，中介钱包的地址（以 `f1` 开头）将显示在右上角的下拉菜单。复制此地址。
 
@@ -66,7 +66,7 @@
 1. 连接您要转移 FIL 的主钱包。
 2. 复制您的账户地址（以 `0x` 或 `f410` 开头的地址）。
 
-如需详细了解如何将钱包连接到 Filecoin 主网，请[查看此教程](/docs/7-gu-zhang-pai-cha/2-cao-zuo-jiao-cheng/1-cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/1-qian-bao/5-ru-he-jiang-qian-bao-lian-jie-dao-filecoin-zhu-wang)。
+如需详细了解如何将钱包连接到 Filecoin 主网，请[查看此教程](/docs/gu-zhang-pai-cha/cao-zuo-jiao-cheng/cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/qian-bao/ru-he-jiang-qian-bao-lian-jie-dao-filecoin-zhu-wang)。
 
 ## 步骤 5：将 Filecoin 从中介钱包转移到您的主钱包
 
@@ -88,7 +88,7 @@
 
 ## 步骤 6：在GLIF 存入您的 Filecoin
 
-现在，您可以直接从交易所将FIL存入 GLIF 并开始赚取收益！有关存款的详细操作，请查看[此教程](/docs/7-gu-zhang-pai-cha/2-cao-zuo-jiao-cheng/1-cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/2-shi-yong-glif-chi-cun-ru-he-ti-qu/1-jiang-fil-cun-ru-glif-yi-zhuan-qu-jiang-li)。
+现在，您可以直接从交易所将FIL存入 GLIF 并开始赚取收益！有关存款的详细操作，请查看[此教程](/docs/gu-zhang-pai-cha/cao-zuo-jiao-cheng/cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/shi-yong-glif-chi-cun-ru-he-ti-qu/jiang-fil-cun-ru-glif-yi-zhuan-qu-jiang-li)。
 
 最后，让您的 FIL 发挥作用并在 GLIF 上赚取收益吧！
 

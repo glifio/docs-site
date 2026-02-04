@@ -1,6 +1,6 @@
 # GLIF Agent Website Tutorial Part 3 — Add Your Miner
 
-_If you don't understand the basics of GLIF Agents, Agent owners, or how to create your Agent on the GLIF website, we suggest starting with_ [_Part 1_](/docs/7-troubleshooting/2-tutorials/2-for-storage-providers/1-glif-agent-website-tutorial-part-1-preparation-setup) _and_ [_Part 2_](/docs/7-troubleshooting/2-tutorials/2-for-storage-providers/2-glif-agent-website-tutorial-part-2-create-your-agent) _of this tutorial series. You can find all the tutorials about using Agents on the **GLIF website** on this_ [_page_](/docs/7-troubleshooting/2-tutorials/2-for-storage-providers)_. You can find the instructions about the Agent's command on the **GLIF Command Line Interface** on this_ [_page_](https://github.com/glifio/glif?tab=readme-ov-file#agents---get-started-borrowing)_._
+_If you don't understand the basics of GLIF Agents, Agent owners, or how to create your Agent on the GLIF website, we suggest starting with_ [_Part 1_](/docs/troubleshooting/tutorials/for-storage-providers/glif-agent-website-tutorial-part-1-preparation-setup) _and_ [_Part 2_](/docs/troubleshooting/tutorials/for-storage-providers/glif-agent-website-tutorial-part-2-create-your-agent) _of this tutorial series. You can find all the tutorials about using Agents on the **GLIF website** on this_ [_page_](/docs/troubleshooting/tutorials/for-storage-providers)_. You can find the instructions about the Agent's command on the **GLIF Command Line Interface** on this_ [_page_](https://github.com/glifio/glif?tab=readme-ov-file#agents---get-started-borrowing)_._
 
 ***
 
@@ -27,7 +27,7 @@ Your Agent's `f4` address can be found on the Agent page of the website:
 
 ## Step 2: Propose the “Add Miner” Proposal (Through website UI)
 
-1. Connect to the wallet that is one of the signers of your multisig created in [Part 2](/docs/7-troubleshooting/2-tutorials/2-for-storage-providers/2-glif-agent-website-tutorial-part-2-create-your-agent).
+1. Connect to the wallet that is one of the signers of your multisig created in [Part 2](/docs/troubleshooting/tutorials/for-storage-providers/glif-agent-website-tutorial-part-2-create-your-agent).
 
 > [!IMPORTANT]
 > When you propose transactions to your agent using your owner wallet, you must do so with a non-Ledger wallet, such as the Filecoin Snap wallet or a burner wallet. You cannot propose these transactions from a Ledger device. The Ledger can only act as the approver.
@@ -62,7 +62,7 @@ Your Agent's `f4` address can be found on the Agent page of the website:
 
 Your Agent owner wallet is a multisig wallet which requires multiple signers to confirm important changes. Now that you have created aproposal to add a miner, you need the other signer(s) to approve it.
 
-1. Connect with the other signer wallets. You can find all signer wallets in the “**Required Approvals**” section on your multisig page. These should be the same wallets used in [Part 2](/docs/7-troubleshooting/2-tutorials/2-for-storage-providers/2-glif-agent-website-tutorial-part-2-create-your-agent).
+1. Connect with the other signer wallets. You can find all signer wallets in the “**Required Approvals**” section on your multisig page. These should be the same wallets used in [Part 2](/docs/troubleshooting/tutorials/for-storage-providers/glif-agent-website-tutorial-part-2-create-your-agent).
 
 ![Agent creation](en-image-24.png)
 
@@ -96,4 +96,4 @@ You've successfully added a miner to your Agent!
 
 ## **Next Steps:**
 
-In [Part 4](/docs/7-troubleshooting/2-tutorials/2-for-storage-providers/4-glif-agent-website-tutorial-part-4-borrow) of this tutorial, we will show you how to borrow FIL.
+In [Part 4](/docs/troubleshooting/tutorials/for-storage-providers/glif-agent-website-tutorial-part-4-borrow) of this tutorial, we will show you how to borrow FIL.

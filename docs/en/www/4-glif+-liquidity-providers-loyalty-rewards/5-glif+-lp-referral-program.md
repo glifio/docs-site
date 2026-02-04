@@ -1,6 +1,6 @@
 # GLIF+ LP Referral Program
 
-The GLIF+ Liquidity Provider (LP) Referral mechanism allows Card holders to receive additional FIL Capsules when they invite new users to join the program. When someone mints their own LP Card using your link, you immediately receive a 5 FIL Referral Capsule. This is designed to reward the users who actively participate in and strengthen the ecosystem. For details about FIL Capsules, see the docs [here](/docs/4-glif+-liquidity-providers-loyalty-rewards/3-how-fil-capsules-work).
+The GLIF+ Liquidity Provider (LP) Referral mechanism allows Card holders to receive additional FIL Capsules when they invite new users to join the program. When someone mints their own LP Card using your link, you immediately receive a 5 FIL Referral Capsule. This is designed to reward the users who actively participate in and strengthen the ecosystem. For details about FIL Capsules, see the docs [here](/docs/glif-liquidity-providers-loyalty-rewards/how-fil-capsules-work).
 
 ## **Referral Capsules**
 

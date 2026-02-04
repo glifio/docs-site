@@ -54,7 +54,7 @@ Make sure you have your device connected to your computer (e.g., with the suppli
 
 ## Step 4. Receive your iFIL
 
-Once you have deposited FIL, after a minute or two, you will receive iFIL — this represents your initial deposit plus your earned rewards. For more information on iFIL, check out our [docs](/docs/2-for-liquidity-providers/2-glif-reward-mechanism-ifil).
+Once you have deposited FIL, after a minute or two, you will receive iFIL — this represents your initial deposit plus your earned rewards. For more information on iFIL, check out our [docs](/docs/for-liquidity-providers/glif-reward-mechanism-ifil).
 
 For a more detailed view of your position, click on “**Wallet**” in the GLIF navigation, and you will be able to see the FIL and iFIL associated with your hardware wallet address in the **Token** section.
 
@@ -64,4 +64,4 @@ Then, you are successfully deposit FIL from Ledger to GLIF! Once you know the st
 
 ## Conclusion
 
-When you want to withdraw your deposit, you will return your iFIL to GLIF and receive FIL back. Check here for more details about [withdrawal](/docs/7-troubleshooting/1-faq/1-for-liquidity-providers/3-withdraw-fil). Check the [step-by-step guide](/docs/7-troubleshooting/2-tutorials/1-for-token-holders/2-using-the-pool/4-withdraw-fil-from-glif) in this tutorial for detailed withdrawal instructions.
+When you want to withdraw your deposit, you will return your iFIL to GLIF and receive FIL back. Check here for more details about [withdrawal](/docs/troubleshooting/faq/for-liquidity-providers/withdraw-fil). Check the [step-by-step guide](/docs/troubleshooting/tutorials/for-token-holders/using-the-pool/withdraw-fil-from-glif) in this tutorial for detailed withdrawal instructions.

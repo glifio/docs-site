@@ -2,15 +2,15 @@
 
 ## 什么是 iFIL？
 
-iFIL 是 GLIF 的奖励代币 - 部署在 FEVM 上的 ERC20 代币。流动性提供者（LP）通過持有 iFIL 代币以赚取奖励。只要存储提供商 (SP) 从 GLIF 借入 FIL，iFIL 的价值就会在每个区块增加，转为对 LP 的奖励。有关详细信息，请参阅[此处](/docs/2-liu-dong-xing-ti-gong-zhe/2-glif-jiang-li-ji-zhi-ifil)。
+iFIL 是 GLIF 的奖励代币 - 部署在 FEVM 上的 ERC20 代币。流动性提供者（LP）通過持有 iFIL 代币以赚取奖励。只要存储提供商 (SP) 从 GLIF 借入 FIL，iFIL 的价值就会在每个区块增加，转为对 LP 的奖励。有关详细信息，请参阅[此处](/docs/liu-dong-xing-ti-gong-zhe/glif-jiang-li-ji-zhi-ifil)。
 
 ## 我如何通过持有 iFIL 赚取奖励？
 
-iFIL 可以被认为是存入 GLIF 的 FIL 的 「兑换券」。它允许 iFIL 持有者从池中提取 FIL。随着GLIF 从存储提供商 (SP) 的還款中赚取費用，1 个 iFIL 代币可以兑换的 FIL 数量会增加。有关详细信息，请参阅[此处](/docs/2-liu-dong-xing-ti-gong-zhe/2-glif-jiang-li-ji-zhi-ifil)。
+iFIL 可以被认为是存入 GLIF 的 FIL 的 「兑换券」。它允许 iFIL 持有者从池中提取 FIL。随着GLIF 从存储提供商 (SP) 的還款中赚取費用，1 个 iFIL 代币可以兑换的 FIL 数量会增加。有关详细信息，请参阅[此处](/docs/liu-dong-xing-ti-gong-zhe/glif-jiang-li-ji-zhi-ifil)。
 
 ## 我如何在 GLIF 中提供流动性？/ 我如何获得 iFIL？
 
-可以通过GLIF [池子页面](/pool/infinity) 将 FIL 存入 GLIF 来提供流动性。作为存款的交换，您将按当前 iFIL 价格获得相应数量的 [iFIL](/docs/2-liu-dong-xing-ti-gong-zhe/2-glif-jiang-li-ji-zhi-ifil) 代币。
+可以通过GLIF [池子页面](/pool/infinity) 将 FIL 存入 GLIF 来提供流动性。作为存款的交换，您将按当前 iFIL 价格获得相应数量的 [iFIL](/docs/liu-dong-xing-ti-gong-zhe/glif-jiang-li-ji-zhi-ifil) 代币。
 
 ## 我在哪里可以看到我在 GLIF 中的收益？
 

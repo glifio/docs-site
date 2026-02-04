@@ -27,9 +27,9 @@
 
 您可以从以下选项中选择一个作为中介钱包，以获取 f1 地址：
 
-* [选项 A：Burner 钱包](/docs/7-gu-zhang-pai-cha/2-cao-zuo-jiao-cheng/1-cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/1-qian-bao/3-ru-he-li-yong-burner-qian-bao-zuo-wei-zhong-jie-qian-bao)
-* [选项 B：FilSnap 钱包](/docs/7-gu-zhang-pai-cha/2-cao-zuo-jiao-cheng/1-cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/1-qian-bao/4-ru-he-li-yong-filsnap-qian-bao-zuo-wei-zhong-jie-qian-bao)
-* [选项 C：Ledger 钱包](/docs/7-gu-zhang-pai-cha/2-cao-zuo-jiao-cheng/1-cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/1-qian-bao/2-ru-he-li-yong-ledger-qian-bao-zuo-wei-zhong-jie-qian-bao)
+* [选项 A：Burner 钱包](/docs/gu-zhang-pai-cha/cao-zuo-jiao-cheng/cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/qian-bao/ru-he-li-yong-burner-qian-bao-zuo-wei-zhong-jie-qian-bao)
+* [选项 B：FilSnap 钱包](/docs/gu-zhang-pai-cha/cao-zuo-jiao-cheng/cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/qian-bao/ru-he-li-yong-filsnap-qian-bao-zuo-wei-zhong-jie-qian-bao)
+* [选项 C：Ledger 钱包](/docs/gu-zhang-pai-cha/cao-zuo-jiao-cheng/cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/qian-bao/ru-he-li-yong-ledger-qian-bao-zuo-wei-zhong-jie-qian-bao)
 
 有关创建中介钱包的更多详情，请参见上方链接的教程。
 

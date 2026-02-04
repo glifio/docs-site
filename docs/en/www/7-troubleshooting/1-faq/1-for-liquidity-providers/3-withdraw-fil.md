@@ -7,7 +7,7 @@ iFIL holders can withdraw FIL from GLIF at any time, provided that the pool has 
 1. Approve the GLIF smart contract to transfer iFIL on your behalf in step 2.
 2. Withdraw FIL from GLIF.
 
-To learn more, click [here](/docs/2-for-liquidity-providers/3-exit-withdraw-fil).
+To learn more, click [here](/docs/for-liquidity-providers/exit-withdraw-fil).
 
 ## What if the pool is out of reserve?
 

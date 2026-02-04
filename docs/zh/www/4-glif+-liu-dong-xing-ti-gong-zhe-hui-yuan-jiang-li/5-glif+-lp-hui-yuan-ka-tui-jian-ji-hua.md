@@ -1,6 +1,6 @@
 # GLIF+ LP 会员卡推荐计划
 
-GLIF+ 流动性提供者 (LP) 推荐机制允许持卡人在有邀请新用户加入计划时，获得额外的 FIL 胶囊。任何用户通过您的推荐链接铸造自己的 LP 会员卡后，您将立即收到一个 5 FIL 的推荐胶囊。该机制用于奖励积极参与并支持生态运作的用户。关于 FIL 胶囊的详细说明，可参考[相关文档](/docs/4-glif+-liu-dong-xing-ti-gong-zhe-hui-yuan-jiang-li/3-fil-jiao-nang-de-yun-zuo-fang-shi)。
+GLIF+ 流动性提供者 (LP) 推荐机制允许持卡人在有邀请新用户加入计划时，获得额外的 FIL 胶囊。任何用户通过您的推荐链接铸造自己的 LP 会员卡后，您将立即收到一个 5 FIL 的推荐胶囊。该机制用于奖励积极参与并支持生态运作的用户。关于 FIL 胶囊的详细说明，可参考[相关文档](/docs/glif-liu-dong-xing-ti-gong-zhe-hui-yuan-jiang-li/fil-jiao-nang-de-yun-zuo-fang-shi)。
 
 ## 推荐胶囊
 

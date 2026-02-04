@@ -12,7 +12,7 @@
 
 ## 第一步：创建多签钱包
 
-创建多签钱包的详细操作，请参见[本教程](/docs/7-gu-zhang-pai-cha/2-cao-zuo-jiao-cheng/1-cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/1-qian-bao/7-ru-he-zai-glif-shang-chuang-jian-duo-qian-qian-bao)。
+创建多签钱包的详细操作，请参见[本教程](/docs/gu-zhang-pai-cha/cao-zuo-jiao-cheng/cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/qian-bao/ru-he-zai-glif-shang-chuang-jian-duo-qian-qian-bao)。
 
 ***
 
@@ -33,7 +33,7 @@
 输入您想要存入的 FIL 数量。确认存款细节，包括您将收到多少 iFIL。然后点击“**发送**”。
 
 > [!WARNING]
-> 请注意：FIL 与 iFIL 可能不会是 1:1 比例，具体细节请参考[文档中关于 iFIL 计算](/docs/2-liu-dong-xing-ti-gong-zhe/2-glif-jiang-li-ji-zhi-ifil)的说明。
+> 请注意：FIL 与 iFIL 可能不会是 1:1 比例，具体细节请参考[文档中关于 iFIL 计算](/docs/liu-dong-xing-ti-gong-zhe/glif-jiang-li-ji-zhi-ifil)的说明。
 
 ![第二步：从多签钱包中存入 FIL](cn-image-313.png)
 
@@ -84,4 +84,4 @@
 ## 结论
 
 现在，您能够顺利地将多签钱包中的 FIL 存入 GLIF 池，并开始获取收益！记得随时仔细核对地址和交易信息，以确保资金安全。\
-如果您想了解在完成存款后如何从 GLIF 池提取 FIL，请参考我们[下一篇教程](/docs/7-gu-zhang-pai-cha/2-cao-zuo-jiao-cheng/1-cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/2-shi-yong-glif-chi-cun-ru-he-ti-qu/5-ru-he-shi-yong-duo-qian-qian-bao-cong-glif-ti-qu-fil)。
+如果您想了解在完成存款后如何从 GLIF 池提取 FIL，请参考我们[下一篇教程](/docs/gu-zhang-pai-cha/cao-zuo-jiao-cheng/cao-zuo-jiao-cheng-liu-dong-xing-ti-gong-zhe/shi-yong-glif-chi-cun-ru-he-ti-qu/ru-he-shi-yong-duo-qian-qian-bao-cong-glif-ti-qu-fil)。

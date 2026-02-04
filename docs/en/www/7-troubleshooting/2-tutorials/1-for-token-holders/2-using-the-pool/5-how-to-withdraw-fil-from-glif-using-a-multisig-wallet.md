@@ -11,7 +11,7 @@ In this tutorial, you will follow these two main steps:
 
 ### **Prerequisites**
 
-In this tutorial, a GLIF multisig wallet with deposited FIL, holding iFIL, is created. If you have not set one up yet, refer to our [previous tutorial](/docs/7-troubleshooting/2-tutorials/1-for-token-holders/2-using-the-pool/3-how-to-deposit-fil-to-glif-using-multisig-wallet) on creating a multisig wallet and depositing FIL.
+In this tutorial, a GLIF multisig wallet with deposited FIL, holding iFIL, is created. If you have not set one up yet, refer to our [previous tutorial](/docs/troubleshooting/tutorials/for-token-holders/using-the-pool/how-to-deposit-fil-to-glif-using-multisig-wallet) on creating a multisig wallet and depositing FIL.
 
 ***
 
@@ -139,4 +139,4 @@ By following this step-by-step guide, you can successfully withdraw your deposit
 
 Remember to always double-check addresses and transaction details to ensure the accuracy and security of your funds.
 
-If you want to learn how to **deposit** from the GLIF pool using a multisig wallet, refer to our previous tutorial [here](/docs/7-troubleshooting/2-tutorials/1-for-token-holders/2-using-the-pool/3-how-to-deposit-fil-to-glif-using-multisig-wallet).
+If you want to learn how to **deposit** from the GLIF pool using a multisig wallet, refer to our previous tutorial [here](/docs/troubleshooting/tutorials/for-token-holders/using-the-pool/how-to-deposit-fil-to-glif-using-multisig-wallet).

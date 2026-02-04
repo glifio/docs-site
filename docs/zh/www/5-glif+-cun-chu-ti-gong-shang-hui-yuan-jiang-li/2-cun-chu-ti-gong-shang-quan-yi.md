@@ -7,7 +7,7 @@ GLIF+ 卡持有者将获得两大核心权益：
 
 ## 提升借贷额度
 
-已激活的 GLIF+ 卡持有者将获得更高的借贷上限，最高可达 10 倍杠杆。不同等级对应的具体上限，请参考[等级表](/docs/5-glif+-cun-chu-ti-gong-shang-hui-yuan-jiang-li/3-deng-ji-yu-xian-zhi)。
+已激活的 GLIF+ 卡持有者将获得更高的借贷上限，最高可达 10 倍杠杆。不同等级对应的具体上限，请参考[等级表](/docs/glif-cun-chu-ti-gong-shang-hui-yuan-jiang-li/deng-ji-yu-xian-zhi)。
 
 ## FIL 利息返现
 
@@ -19,10 +19,10 @@ GLIF+ 卡持有者将获得两大核心权益：
 #### 运作流程：
 
 1. 你从 GLIF 借款，需要支付利息
-2. 你持有已激活的 GLIF+ 会员卡 （具体激活步骤请参考[下节](/docs/5-glif+-cun-chu-ti-gong-shang-hui-yuan-jiang-li/4-ru-he-jia-ru-glif+-sp-ji-hua)）
+2. 你持有已激活的 GLIF+ 会员卡 （具体激活步骤请参考[下节](/docs/glif-cun-chu-ti-gong-shang-hui-yuan-jiang-li/ru-he-jia-ru-glif-sp-ji-hua)）
 3. 你为卡片充值 $GLF 开启返现
 
-一旦充值成功，每期利息中最多有 10% 可以用 $GLF 支付。协议会根据你的等级，将 $GLF 兑换为 FIL，并给予溢价 —金卡成员最高可享受 25% 溢价。详情请参见[等级表](/docs/5-glif+-cun-chu-ti-gong-shang-hui-yuan-jiang-li/3-deng-ji-yu-xian-zhi)。
+一旦充值成功，每期利息中最多有 10% 可以用 $GLF 支付。协议会根据你的等级，将 $GLF 兑换为 FIL，并给予溢价 —金卡成员最高可享受 25% 溢价。详情请参见[等级表](/docs/glif-cun-chu-ti-gong-shang-hui-yuan-jiang-li/deng-ji-yu-xian-zhi)。
 
 #### 示例
 

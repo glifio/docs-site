@@ -2,11 +2,11 @@
 
 ## What are the key ratios used to determine borrowing limits?
 
-[Debt-to-Liquidation (DTL)](/docs/3-for-storage-providers/3-borrowing-limits-and-dtl) ratio must be less than 75%. If the SP joined the [GLIF+ program](/docs/5-glif+-storage-providers-loyalty-rewards/1-storage-provider-loyalty-card) as a Gold Card member, the DTL increases to 90%. Read [here](/docs/3-for-storage-providers/3-borrowing-limits-and-dtl) for more details.
+[Debt-to-Liquidation (DTL)](/docs/for-storage-providers/borrowing-limits-and-dtl) ratio must be less than 75%. If the SP joined the [GLIF+ program](/docs/glif-storage-providers-loyalty-rewards/storage-provider-loyalty-card) as a Gold Card member, the DTL increases to 90%. Read [here](/docs/for-storage-providers/borrowing-limits-and-dtl) for more details.
 
 ## What is “liquidation value” and how is it calculated?
 
-[Liquidation value](/docs/3-for-storage-providers/2-sp-liquidation-values) is the estimated worth of an SP's miners if their sectors were terminated, accounting for penalties and other losses. It is computed as:
+[Liquidation value](/docs/for-storage-providers/sp-liquidation-values) is the estimated worth of an SP's miners if their sectors were terminated, accounting for penalties and other losses. It is computed as:
 
 $$
 LiquidationValue = MinerBalance - MinerMaxTerminationPenalty
@@ -18,7 +18,7 @@ $$
 
 ## How is the Debt-to-Liquidation (DTL) ratio calculated?
 
-[DTL](/docs/3-for-storage-providers/3-borrowing-limits-and-dtl) is computed as:
+[DTL](/docs/for-storage-providers/borrowing-limits-and-dtl) is computed as:
 
 $$
 DTL = Debt / LiquidationValue
@@ -30,7 +30,7 @@ These values represent the inverse of the DTL ratio. For example, a 75% DTL corr
 
 ## **If I try to borrow and withdraw 10,000 FIL, and borrow from sealing, how much can I still borrow from GLIF?**
 
-To determine how much you can borrow from GLIF, you need to understand the [Debt-to-Liquidation (DTL) ratio](/docs/3-for-storage-providers/3-borrowing-limits-and-dtl). DTL ratio must be less than 75%. If the SP joined the [GLIF+ program](/docs/5-glif+-storage-providers-loyalty-rewards/1-storage-provider-loyalty-card) as a Gold Card member, the DTL increases to 90%. Read [here](/docs/3-for-storage-providers/3-borrowing-limits-and-dtl) for more details.\
+To determine how much you can borrow from GLIF, you need to understand the [Debt-to-Liquidation (DTL) ratio](/docs/for-storage-providers/borrowing-limits-and-dtl). DTL ratio must be less than 75%. If the SP joined the [GLIF+ program](/docs/glif-storage-providers-loyalty-rewards/storage-provider-loyalty-card) as a Gold Card member, the DTL increases to 90%. Read [here](/docs/for-storage-providers/borrowing-limits-and-dtl) for more details.\
 The DTL ratio is calculated as:
 
 $$
@@ -58,7 +58,7 @@ Let's take a look at how borrowing for sealing and withdrawing affect your DTL r
 
 Borrowing FIL for sealing on one of your Agent's miners allows you to get higher leverage - withdrawing FIL from your Agent significantly increases its DTL. Always remember to keep your DTL under 75%.
 
-For detailed uses of borrowed FIL, read [here](/docs/3-for-storage-providers/4-uses-of-borrowed-fil) for more details.
+For detailed uses of borrowed FIL, read [here](/docs/for-storage-providers/uses-of-borrowed-fil) for more details.
 
 ### Example:
 
