@@ -41,18 +41,36 @@ interface DocNodeProps {
 }
 
 const DocNode = ({ node, collapse, pathname }: DocNodeProps) => {
-  const isFolder = 'children' in node
   const [isOpen, setIsOpen] = useState(false)
+
+  const isFolder = 'children' in node
+  const canCollapse = isFolder && collapse
+
+  const isExact = pathname === node.url
+  const isActive = !isExact && pathname.startsWith(node.url)
 
   return (
     <li>
       <span
         className='flex justify-between items-center'
-        onClick={isFolder ? () => setIsOpen(prev => !prev) : undefined}
+        onClick={canCollapse ? () => setIsOpen(prev => !prev) : undefined}
       >
-        <Link href={node.url}>{node.title}</Link>
+        <Link
+          href={node.url}
+          scroll={false}
+          className={classnames(
+            'no-underline transition-colors',
+            isExact
+              ? 'text-accent'
+              : isActive
+                ? 'text-current'
+                : 'text-current/50',
+          )}
+        >
+          {node.title}
+        </Link>
 
-        {isFolder && (
+        {canCollapse && (
           <span className='p-1.5 cursor-pointer'>
             <svg
               width='12'
@@ -75,7 +93,7 @@ const DocNode = ({ node, collapse, pathname }: DocNodeProps) => {
       {isFolder && (
         <div
           className='grid transition-[grid-template-rows]'
-          style={{ gridTemplateRows: isOpen ? '1fr' : '0fr' }}
+          style={{ gridTemplateRows: !canCollapse || isOpen ? '1fr' : '0fr' }}
         >
           <div className='overflow-hidden'>
             <ul className='ml-1.5 pl-1.5 border-l border-current/25 list-none'>
