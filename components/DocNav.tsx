@@ -50,6 +50,11 @@ const DocNode = ({ node, collapse, pathname }: DocNodeProps) => {
   const isFolder = 'children' in node
   const canCollapse = isFolder && collapse
 
+  // Open folder on routing
+  useEffect(() => {
+    if (canCollapse && pathname.startsWith(node.url)) setIsOpen(true)
+  }, [canCollapse, pathname, node])
+
   return (
     <li>
       <span
