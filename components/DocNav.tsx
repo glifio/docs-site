@@ -23,8 +23,8 @@ export const DocNav = ({ tree, title, small, collapse }: DocNavProps) => {
           <DocNode
             key={child.url}
             node={child}
-            collapse={collapse}
             pathname={pathname}
+            collapse={collapse}
           />
         ))}
       </ul>
