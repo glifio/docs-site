@@ -116,7 +116,7 @@ export const getDocTree = async (
 
   const entries = await fs.readdir(docMatch.match, { withFileTypes: true })
   const sorted = entries
-    .filter(e => e.name !== 'README.md')
+    .filter(e => e.name !== 'README.md' && e.name !== 'FOOTER.md')
     .sort((a, b) => a.name.localeCompare(b.name, undefined, { numeric: true }))
 
   const docFile = await getDocFile(docMatch)
