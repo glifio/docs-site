@@ -41,6 +41,7 @@ interface DocNodeProps {
 
 const DocNode = ({ node, collapse, pathname }: DocNodeProps) => {
   const isFolder = 'children' in node
+  const [isOpen, setIsOpen] = useState(false)
 
   return (
     <li>
