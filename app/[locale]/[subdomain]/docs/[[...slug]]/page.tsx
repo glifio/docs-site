@@ -4,6 +4,7 @@ import { DocPage } from '@/components/DocPage'
 import {
   getAllDocParams,
   getDocContent,
+  getDocFooter,
   getDocTitle,
   getDocTree,
 } from '@/lib/docs'
@@ -14,9 +15,14 @@ interface PageProps {
 
 const Page = async ({ params }: PageProps) => {
   const { locale, subdomain, slug } = await params
-  const doc = await getDocContent(locale, subdomain, slug)
+
+  const content = await getDocContent(locale, subdomain, slug)
+  if (!content) notFound()
+
+  const footer = await getDocFooter(locale, subdomain)
   const tree = await getDocTree(locale, subdomain, slug)
-  return doc ? <DocPage tree={tree}>{doc}</DocPage> : notFound()
+
+  return <DocPage content={content} footer={footer} tree={tree} />
 }
 
 export default Page
