@@ -67,7 +67,7 @@ const DocNode = ({ node, collapse, pathname }: DocNodeProps) => {
           className='grow'
           onClick={e => {
             e.stopPropagation()
-            canCollapse && setIsOpen(true)
+            if (canCollapse) setIsOpen(true)
           }}
         />
 
