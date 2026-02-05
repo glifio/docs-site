@@ -126,7 +126,7 @@ const DocLink = ({ node, pathname, className, onClick }: DocLinkProps) => (
     href={node.url}
     onClick={onClick}
     className={classNames(
-      'no-underline transition-colors',
+      'no-underline transition-colors hover:text-accent',
       pathname === node.url
         ? 'text-accent'
         : pathname.startsWith(node.url)
