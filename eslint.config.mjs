@@ -7,5 +7,6 @@ export default defineConfig([
   ...nextVitals,
   ...nextTs,
   prettier,
+  { rules: { 'react-hooks/set-state-in-effect': 'off' } },
   globalIgnores(['.next/**', 'node_modules/**', 'next-env.d.ts']),
 ])
