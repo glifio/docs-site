@@ -17,7 +17,7 @@ export const DocPage = ({ content, footer, tree }: DocPageProps) => (
   <article className='prose prose-gray max-w-none'>
     <DocMarkdown content={content} />
     {tree && <DocNav tree={tree} title='Table of Contents' />}
-    {footer && <DocMarkdown content={content} />}
+    {footer && <DocMarkdown content={footer} />}
   </article>
 )
 
