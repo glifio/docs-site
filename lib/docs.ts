@@ -90,6 +90,17 @@ export const getDocContent = async (
   return docFile ? readDocFile(docFile) : null
 }
 
+export const getDocFooter = async (
+  locale: string,
+  subdomain: string,
+): Promise<string | null> => {
+  const footer = path.join(DOCS_DIR, locale, subdomain, 'FOOTER.md')
+  return fs
+    .access(footer, fs.constants.R_OK)
+    .then(() => readDocFile(footer))
+    .catch(() => null)
+}
+
 export const getDocTitle = (docContent: string): string => {
   const match = docContent.match(/^#\s+(.+)$/m)
   return match ? match[1] : 'Untitled'
