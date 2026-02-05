@@ -59,6 +59,10 @@ const DocNode = ({ node, collapse, pathname }: DocNodeProps) => {
       >
         <Link
           href={node.url}
+          onClick={e => {
+            e.stopPropagation()
+            setIsOpen(true)
+          }}
           className={classnames(
             'no-underline transition-colors',
             isExact
