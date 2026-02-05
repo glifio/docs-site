@@ -57,7 +57,6 @@ const DocNode = ({ node, collapse, pathname }: DocNodeProps) => {
       >
         <Link
           href={node.url}
-          scroll={false}
           className={classnames(
             'no-underline transition-colors',
             isExact
