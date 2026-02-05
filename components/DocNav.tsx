@@ -19,7 +19,9 @@ export const DocNav = ({ tree, title, small, collapse }: DocNavProps) => {
 
   return (
     <nav className={classNames('prose prose-gray', small && 'prose-sm')}>
-      <h2>{title ?? <DocLink node={tree} pathname={pathname} />}</h2>
+      <h2>
+        {title ?? <DocLink node={tree} pathname={pathname} className='block' />}
+      </h2>
 
       <ul className='pl-0 list-none'>
         {tree.children.map(child => (
@@ -57,6 +59,7 @@ const DocNode = ({ node, collapse, pathname }: DocNodeProps) => {
         <DocLink
           node={node}
           pathname={pathname}
+          className='grow'
           onClick={e => {
             e.stopPropagation()
             setIsOpen(true)
@@ -64,7 +67,7 @@ const DocNode = ({ node, collapse, pathname }: DocNodeProps) => {
         />
 
         {canCollapse && (
-          <span className='p-1.5 cursor-pointer'>
+          <span className='p-1.5 pl-3 cursor-pointer'>
             <svg
               width='12'
               height='12'
