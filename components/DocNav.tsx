@@ -2,7 +2,7 @@
 
 import { MouseEventHandler, useState } from 'react'
 import { usePathname } from 'next/navigation'
-import classnames from 'classnames'
+import classNames from 'classnames'
 import Link from 'next/link'
 
 import { DocTree, DocLeaf } from '@/lib/docs'
@@ -18,7 +18,7 @@ export const DocNav = ({ tree, title, small, collapse }: DocNavProps) => {
   const pathname = usePathname()
 
   return (
-    <nav className={classnames('prose prose-gray', small && 'prose-sm')}>
+    <nav className={classNames('prose prose-gray', small && 'prose-sm')}>
       <h2>{title ?? <DocLink node={tree} pathname={pathname} />}</h2>
 
       <ul className='pl-0 list-none'>
@@ -109,20 +109,22 @@ const DocNode = ({ node, collapse, pathname }: DocNodeProps) => {
 interface DocLinkProps {
   node: DocLeaf
   pathname: string
+  className?: classNames.Argument
   onClick?: MouseEventHandler<HTMLAnchorElement>
 }
 
-const DocLink = ({ node, pathname, onClick }: DocLinkProps) => (
+const DocLink = ({ node, pathname, className, onClick }: DocLinkProps) => (
   <Link
     href={node.url}
     onClick={onClick}
-    className={classnames(
+    className={classNames(
       'no-underline transition-colors',
       pathname === node.url
         ? 'text-accent'
         : pathname.startsWith(node.url)
           ? 'text-current'
           : 'text-current/50',
+      className,
     )}
   >
     {node.title}
