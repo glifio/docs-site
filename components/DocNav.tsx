@@ -43,9 +43,11 @@ interface DocNodeProps {
 const DocNode = ({ node, collapse, pathname }: DocNodeProps) => {
   const [isOpen, setIsOpen] = useState(false)
 
+  // Folder properties
   const isFolder = 'children' in node
   const canCollapse = isFolder && collapse
 
+  // Route properties
   const isExact = pathname === node.url
   const isActive = !isExact && pathname.startsWith(node.url)
 
