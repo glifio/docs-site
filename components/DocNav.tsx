@@ -1,9 +1,10 @@
 'use client'
 
-import Link from 'next/link'
-import classnames from 'classnames'
-import { useState } from 'react'
+import { MouseEventHandler, useState } from 'react'
 import { usePathname } from 'next/navigation'
+import classnames from 'classnames'
+import Link from 'next/link'
+
 import { DocTree, DocLeaf } from '@/lib/docs'
 
 interface DocNavProps {
@@ -18,7 +19,7 @@ export const DocNav = ({ tree, title, small, collapse }: DocNavProps) => {
 
   return (
     <nav className={classnames('prose prose-gray', small && 'prose-sm')}>
-      <h2>{title ?? <Link href={tree.url}>{tree.title}</Link>}</h2>
+      <h2>{title ?? <DocLink node={tree} pathname={pathname} />}</h2>
 
       <ul className='pl-0 list-none'>
         {tree.children.map(child => (
@@ -47,33 +48,20 @@ const DocNode = ({ node, collapse, pathname }: DocNodeProps) => {
   const isFolder = 'children' in node
   const canCollapse = isFolder && collapse
 
-  // Route properties
-  const isExact = pathname === node.url
-  const isActive = !isExact && pathname.startsWith(node.url)
-
   return (
     <li>
       <span
         className='flex justify-between items-center'
         onClick={canCollapse ? () => setIsOpen(prev => !prev) : undefined}
       >
-        <Link
-          href={node.url}
+        <DocLink
+          node={node}
+          pathname={pathname}
           onClick={e => {
             e.stopPropagation()
             setIsOpen(true)
           }}
-          className={classnames(
-            'no-underline transition-colors',
-            isExact
-              ? 'text-accent'
-              : isActive
-                ? 'text-current'
-                : 'text-current/50',
-          )}
-        >
-          {node.title}
-        </Link>
+        />
 
         {canCollapse && (
           <span className='p-1.5 cursor-pointer'>
@@ -117,3 +105,26 @@ const DocNode = ({ node, collapse, pathname }: DocNodeProps) => {
     </li>
   )
 }
+
+interface DocLinkProps {
+  node: DocLeaf
+  pathname: string
+  onClick?: MouseEventHandler<HTMLAnchorElement>
+}
+
+const DocLink = ({ node, pathname, onClick }: DocLinkProps) => (
+  <Link
+    href={node.url}
+    onClick={onClick}
+    className={classnames(
+      'no-underline transition-colors',
+      pathname === node.url
+        ? 'text-accent'
+        : pathname.startsWith(node.url)
+          ? 'text-current'
+          : 'text-current/50',
+    )}
+  >
+    {node.title}
+  </Link>
+)
