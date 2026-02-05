@@ -1,6 +1,6 @@
 'use client'
 
-import { MouseEventHandler, useState } from 'react'
+import { MouseEventHandler, useEffect, useState } from 'react'
 import { usePathname } from 'next/navigation'
 import classNames from 'classnames'
 import Link from 'next/link'
@@ -54,7 +54,7 @@ const DocNode = ({ node, collapse, pathname }: DocNodeProps) => {
     <li>
       <span
         className='flex justify-between items-center'
-        onClick={canCollapse ? () => setIsOpen(prev => !prev) : undefined}
+        onClick={() => canCollapse && setIsOpen(prev => !prev)}
       >
         <DocLink
           node={node}
@@ -62,7 +62,7 @@ const DocNode = ({ node, collapse, pathname }: DocNodeProps) => {
           className='grow'
           onClick={e => {
             e.stopPropagation()
-            setIsOpen(true)
+            canCollapse && setIsOpen(true)
           }}
         />
 
