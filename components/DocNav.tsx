@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import classnames from 'classnames'
 import { usePathname } from 'next/navigation'
 import { DocTree, DocLeaf } from '@/lib/docs'
 
@@ -15,7 +16,7 @@ export const DocNav = ({ tree, title, small, collapse }: DocNavProps) => {
   const pathname = usePathname()
 
   return (
-    <nav className={`prose prose-gray ${small ? 'prose-sm' : ''}`}>
+    <nav className={classnames('prose prose-gray', small && 'prose-sm')}>
       <h2>{title ?? <Link href={tree.url}>{tree.title}</Link>}</h2>
 
       <ul className='pl-0 list-none'>
