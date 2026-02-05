@@ -183,7 +183,7 @@ const getDirDocParams = async (
       const slug = relativePath.split(path.sep).map(getDocSlug)
 
       // README.md files are served at the folder root
-      if (slug[slug.length - 1] === 'README') slug.pop()
+      if (slug[slug.length - 1] === 'readme') slug.pop()
 
       params.push({ locale, subdomain, slug })
     }
