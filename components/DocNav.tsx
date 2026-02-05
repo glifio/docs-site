@@ -47,16 +47,23 @@ const DocNode = ({ node, collapse, pathname }: DocNodeProps) => {
       <Link href={node.url}>{node.title}</Link>
 
       {isFolder && (
-        <ul className='ml-1.5 pl-1.5 border-l border-current/25 list-none'>
-          {node.children.map(child => (
-            <DocNode
-              key={child.url}
-              node={child}
-              pathname={pathname}
-              collapse={collapse}
-            />
-          ))}
-        </ul>
+        <div
+          className='grid transition-[grid-template-rows]'
+          style={{ gridTemplateRows: isOpen ? '1fr' : '0fr' }}
+        >
+          <div className='overflow-hidden'>
+            <ul className='ml-1.5 pl-1.5 border-l border-current/25 list-none'>
+              {node.children.map(child => (
+                <DocNode
+                  key={child.url}
+                  node={child}
+                  pathname={pathname}
+                  collapse={collapse}
+                />
+              ))}
+            </ul>
+          </div>
+        </div>
       )}
     </li>
   )
