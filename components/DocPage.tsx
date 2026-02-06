@@ -50,6 +50,20 @@ interface DocLinkProps {
 }
 
 const DocLink = ({ label, doc, align }: DocLinkProps) => (
+  <Link href={doc.url} className='group'>
+    <button
+      className={classNames(
+        `px-4 py-3 rounded-lg cursor-pointer transition-colors`,
+        'border border-current/25 group-hover:border-accent',
+        align === 'left' ? 'text-left' : 'text-right',
+      )}
+    >
+      <div className='font-semibold text-sm text-current/50'>{label}</div>
+      <div className='transition-colors text-current/75 group-hover:text-current'>
+        {doc.title}
+      </div>
+    </button>
+  </Link>
 )
 
 interface DocMarkdownProps {
