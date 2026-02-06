@@ -27,7 +27,7 @@ export interface DocMatch {
 }
 
 const flattenDocTree = (tree: DocTree): DocLeaf[] => {
-  const leaves: DocLeaf[] = [tree]
+  const leaves: DocLeaf[] = [{ title: tree.title, url: tree.url }]
   for (const child of tree.children) {
     if ('children' in child) leaves.push(...flattenDocTree(child))
     else leaves.push(child)
