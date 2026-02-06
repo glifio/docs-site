@@ -42,6 +42,15 @@ export const DocPage = ({
   </article>
 )
 
+interface DocLinkProps {
+  label: string
+  doc: { title: string; url: string }
+  align: 'start' | 'end'
+}
+
+const DocLink = ({ label, doc, align }: DocLinkProps) => (
+)
+
 interface DocMarkdownProps {
   content: string
 }
