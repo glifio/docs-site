@@ -106,6 +106,24 @@ export const getDocTitle = (docContent: string): string => {
   return match ? match[1] : 'Untitled'
 }
 
+export const getDocPrevNext = async (
+  locale: string,
+  subdomain: string,
+  slug?: string[],
+): Promise<DocPrevNext> => {
+  const tree = await getDocTree(locale, subdomain)
+  if (!tree) return { prev: null, next: null }
+
+  const leaves = flattenDocTree(tree)
+  const currentUrl = getDocUrl(locale, subdomain, slug)
+  const index = leaves.findIndex(leaf => leaf.url === currentUrl)
+
+  return {
+    prev: index > 0 ? leaves[index - 1] : null,
+    next: index < leaves.length - 1 ? leaves[index + 1] : null,
+  }
+}
+
 export const getDocTree = async (
   locale: string,
   subdomain: string,
