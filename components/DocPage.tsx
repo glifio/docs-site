@@ -28,6 +28,16 @@ export const DocPage = ({
 
     {tree && <DocNav tree={tree} title='Table of Contents' />}
 
+    {(prev || next) && (
+      <>
+        <hr />
+        <nav className='not-prose flex justify-between gap-4'>
+          {prev ? <DocLink label='Previous' doc={prev} align='start' /> : <div />}
+          {next ? <DocLink label='Next' doc={next} align='end' /> : <div />}
+        </nav>
+      </>
+    )}
+
     {footer && <DocMarkdown content={footer} />}
   </article>
 )
