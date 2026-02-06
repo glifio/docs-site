@@ -16,18 +16,12 @@ const Layout = async ({ children, params }: LayoutProps) => {
 
   return (
     <html lang={locale}>
-      <body className='w-full h-full antialiased bg-white text-gray-900'>
-        {/* Scroll container */}
-        <div className='w-full h-full relative overflow-x-hidden overflow-y-auto'>
-          {/* Sidebar + Page */}
-          <div className='flex'>
-            {/* Sidebar */}
-            <div className='flex-none sticky top-0 w-xs p-8'>
-              <Sidebar locale={locale} subdomain={subdomain} tree={tree} />
-            </div>
-            {/* Page */}
-            <div className='grow w-full max-w-6xl mx-auto p-8'>{children}</div>
+      <body className='antialiased bg-white text-gray-900'>
+        <div className='flex'>
+          <div className='flex-none sticky top-0 self-start h-screen overflow-y-auto w-xs p-8'>
+            <Sidebar locale={locale} subdomain={subdomain} tree={tree} />
           </div>
+          <div className='grow w-full max-w-6xl mx-auto p-8'>{children}</div>
         </div>
       </body>
     </html>
