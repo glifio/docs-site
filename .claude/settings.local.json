@@ -23,7 +23,8 @@
       "Bash(tree:*)",
       "Bash(xxd:*)",
       "WebFetch(domain:github.com)",
-      "WebFetch(domain:www.npmjs.com)"
+      "WebFetch(domain:www.npmjs.com)",
+      "WebSearch"
     ],
     "defaultMode": "acceptEdits"
   }
