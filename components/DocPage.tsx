@@ -3,6 +3,7 @@ import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import remarkMath from 'remark-math'
 import rehypeKatex from 'rehype-katex'
+import classNames from 'classnames'
 import Link from 'next/link'
 
 import { DocNav } from '@/components/DocNav'
@@ -32,8 +33,8 @@ export const DocPage = ({
       <>
         <hr />
         <nav className='not-prose flex justify-between gap-4'>
-          {prev ? <DocLink label='Previous' doc={prev} align='start' /> : <div />}
-          {next ? <DocLink label='Next' doc={next} align='end' /> : <div />}
+          {prev ? <DocLink label='Previous' doc={prev} align='left' /> : <div />}
+          {next ? <DocLink label='Next' doc={next} align='right' /> : <div />}
         </nav>
       </>
     )}
@@ -45,7 +46,7 @@ export const DocPage = ({
 interface DocLinkProps {
   label: string
   doc: { title: string; url: string }
-  align: 'start' | 'end'
+  align: 'left' | 'right'
 }
 
 const DocLink = ({ label, doc, align }: DocLinkProps) => (
