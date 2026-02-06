@@ -3,6 +3,7 @@ import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import remarkMath from 'remark-math'
 import rehypeKatex from 'rehype-katex'
+import Link from 'next/link'
 
 import { DocNav } from '@/components/DocNav'
 import { DocTree } from '@/lib/docs'
@@ -34,6 +35,30 @@ const DocMarkdown = ({ content }: DocMarkdownProps) => (
     ]}
     rehypePlugins={[rehypeKatex]}
     components={{
+      a: ({ href, children }) => {
+        if (!href) return <a>{children}</a>
+
+        // Internal links
+        if (href.startsWith('/')) return <Link href={href}>{children}</Link>
+
+        // Anchor links
+        if (href.startsWith('#')) return <a href={href}>{children}</a>
+
+        // External links
+        if (/^https?:\/\//.test(href))
+          return (
+            <a href={href} target='_blank' rel='noopener noreferrer'>
+              {children}
+            </a>
+          )
+
+        // Asset links
+        return (
+          <a href={`/${href}`} download>
+            {children}
+          </a>
+        )
+      },
       img: ({ src, alt }) => {
         if (!src || typeof src !== 'string') return null
         const imgSrc = /^(https?:\/\/|\/)/.test(src) ? src : `/${src}`
