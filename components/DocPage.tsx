@@ -27,7 +27,11 @@ interface DocMarkdownProps {
 
 const DocMarkdown = ({ content }: DocMarkdownProps) => (
   <ReactMarkdown
-    remarkPlugins={[remarkGfm, remarkMath, remarkAlert]}
+    remarkPlugins={[
+      remarkGfm,
+      remarkAlert,
+      [remarkMath, { singleDollarTextMath: false }],
+    ]}
     rehypePlugins={[rehypeKatex]}
     components={{
       img: ({ src, alt }) => {
