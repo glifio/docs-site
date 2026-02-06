@@ -106,6 +106,11 @@ export const getDocTitle = (docContent: string): string => {
   return match ? match[1] : 'Untitled'
 }
 
+export interface DocPrevNext {
+  prev: DocLeaf | null
+  next: DocLeaf | null
+}
+
 export const getDocPrevNext = async (
   locale: string,
   subdomain: string,
