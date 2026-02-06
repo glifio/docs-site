@@ -26,6 +26,15 @@ export interface DocMatch {
   isDir: boolean
 }
 
+const flattenDocTree = (tree: DocTree): DocLeaf[] => {
+  const leaves: DocLeaf[] = [tree]
+  for (const child of tree.children) {
+    if ('children' in child) leaves.push(...flattenDocTree(child))
+    else leaves.push(child)
+  }
+  return leaves
+}
+
 const readDocFile = async (docPath: string): Promise<string> =>
   fs.readFile(docPath, 'utf-8').then(content => content.replace(/^\uFEFF/, ''))
 
