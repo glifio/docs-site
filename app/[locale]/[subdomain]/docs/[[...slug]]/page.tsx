@@ -5,6 +5,7 @@ import {
   getAllDocParams,
   getDocContent,
   getDocFooter,
+  getDocPrevNext,
   getDocTitle,
   getDocTree,
 } from '@/lib/docs'
@@ -21,8 +22,17 @@ const Page = async ({ params }: PageProps) => {
 
   const footer = await getDocFooter(locale, subdomain)
   const tree = await getDocTree(locale, subdomain, slug)
+  const { prev, next } = await getDocPrevNext(locale, subdomain, slug)
 
-  return <DocPage content={content} footer={footer} tree={tree} />
+  return (
+    <DocPage
+      content={content}
+      footer={footer}
+      tree={tree}
+      prev={prev}
+      next={next}
+    />
+  )
 }
 
 export default Page
