@@ -6,15 +6,23 @@ import rehypeKatex from 'rehype-katex'
 import Link from 'next/link'
 
 import { DocNav } from '@/components/DocNav'
-import { DocTree } from '@/lib/docs'
+import { DocTree, DocLeaf } from '@/lib/docs'
 
 interface DocPageProps {
   content: string
   footer: string | null
   tree: DocTree | null
+  prev: DocLeaf | null
+  next: DocLeaf | null
 }
 
-export const DocPage = ({ content, footer, tree }: DocPageProps) => (
+export const DocPage = ({
+  content,
+  footer,
+  tree,
+  prev,
+  next,
+}: DocPageProps) => (
   <article className='prose prose-gray max-w-none'>
     <DocMarkdown content={content} />
     {tree && <DocNav tree={tree} title='Table of Contents' />}
