@@ -33,8 +33,8 @@ export const DocPage = ({
       <>
         <hr />
         <nav className='not-prose flex justify-between gap-4'>
-          {prev ? <DocLink label='Previous' doc={prev} align='left' /> : <div />}
-          {next ? <DocLink label='Next' doc={next} align='right' /> : <div />}
+          <DocLink label='Previous' doc={prev} align='left' />
+          <DocLink label='Next' doc={next} align='right' />
         </nav>
       </>
     )}
@@ -45,26 +45,29 @@ export const DocPage = ({
 
 interface DocLinkProps {
   label: string
-  doc: { title: string; url: string }
+  doc: DocLeaf | null
   align: 'left' | 'right'
 }
 
-const DocLink = ({ label, doc, align }: DocLinkProps) => (
-  <Link href={doc.url} className='group'>
-    <button
-      className={classNames(
-        `px-4 py-3 rounded-lg cursor-pointer transition-colors`,
-        'border border-current/25 group-hover:border-accent',
-        align === 'left' ? 'text-left' : 'text-right',
-      )}
-    >
-      <div className='font-semibold text-sm text-current/50'>{label}</div>
-      <div className='transition-colors text-current/75 group-hover:text-current'>
-        {doc.title}
-      </div>
-    </button>
-  </Link>
-)
+const DocLink = ({ label, doc, align }: DocLinkProps) =>
+  doc ? (
+    <Link href={doc.url} className='group'>
+      <button
+        className={classNames(
+          `px-4 py-3 rounded-lg cursor-pointer transition-colors`,
+          'border border-current/25 group-hover:border-accent',
+          align === 'left' ? 'text-left' : 'text-right',
+        )}
+      >
+        <div className='font-semibold text-sm text-current/50'>{label}</div>
+        <div className='transition-colors text-current/75 group-hover:text-current'>
+          {doc.title}
+        </div>
+      </button>
+    </Link>
+  ) : (
+    <div />
+  )
 
 interface DocMarkdownProps {
   content: string
