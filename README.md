@@ -1,20 +1,29 @@
 # GLIF Documentation
 
-Welcome to the GLIF documentation hub.
+Source content for the [glif.io](https://glif.io) and [icn.glif.io](https://icn.glif.io) documentation.
 
-## Documentation Sites
+## Running locally
 
-### [Home](home/README.md)
-General information about GLIF and our mission.
+```bash
+npm install
+npm run dev
+```
 
-### Filecoin Pool Documentation
-- [English](filecoin/en/README.md)
-- [Chinese](filecoin/cn/README.md) _(Coming soon)_
+Open [http://localhost:3000](http://localhost:3000).
 
-### [Impossible Cloud Network (ICN) Pool](icn/README.md)
-_(Coming soon)_
+Other useful commands:
 
-## Quick Links
+```bash
+npm run build    # Production build
+npm run start    # Start production server
+npm run lint     # Run ESLint
+npm run fix      # Lint and format (ESLint + Prettier)
+```
 
-* 🤝 [Connect](https://discord.com/invite/5qsJjsP3Re) through Discord and [Telegram](https://t.me/+iFJuXAMp-Xg5NGIx)
-* 📢 Stay informed on our [blog](https://medium.com/@glifio) and [Twitter](https://twitter.com/glifio)
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for documentation writing conventions.
+
+## Technical documentation
+
+See [TECHNICAL.md](TECHNICAL.md) for architecture details.

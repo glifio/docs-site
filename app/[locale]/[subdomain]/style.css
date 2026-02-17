@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+@import "katex/dist/katex.min.css";
+@import "remark-github-blockquote-alert/alert.css";
+
+@theme {
+  --default-transition-duration: 300ms;
+  --color-accent: #724AFF;
+}
+
+/* Inline code styling */
+.prose :where(code):not(:where(pre code)) {
+  @apply bg-gray-100 px-1.5 py-0.5 rounded text-sm font-mono font-normal;
+}
+
+.prose :where(code):not(:where(pre code))::before,
+.prose :where(code):not(:where(pre code))::after {
+  content: none;
+}

@@ -1,0 +1,97 @@
+# Transfer FIL from MEXC to GLIF
+
+If your FIL tokens are currently on an exchange and you are eager to utilize it to earn rewards, and depositing to GLIF, this guide will simplify the process for you.
+
+This tutorial is specifically for transferring FIL from MEXC. Check this [page](/docs/troubleshooting/tutorials/for-token-holders/transfer-fil-to-from-exchanges/transfer-fil-between-exchange-and-glif) for tutorials on other exchanges.
+
+> [!HINT]
+> GLIF is compatible with most EVM wallets. This tutorial uses MetaMask wallet as an example; other wallets also work.
+>
+> You can refer to our [FAQ](/docs/troubleshooting/faq/for-liquidity-providers/wallet-connection) and [Wallet tutorials](/docs/troubleshooting/tutorials/for-token-holders/wallets) for more information. If you encounter any trouble, please contact GLIF through a [Discord support ticket](https://discord.gg/5qsJjsP3Re).
+
+## Contents
+
+[Step 1: Set up an intermediary wallet (optional)](#step-1-set-up-an-intermediary-wallet-optional)
+
+[Step 2: Send Filecoin from the exchange to the intermediary wallet](#step-2-send-filecoin-from-the-exchange-to-the-intermediary-wallet)
+
+[Step 3: Check FIL balance in your intermediary wallet](#step-3-check-fil-balance-in-your-intermediary-wallet)
+
+[Step 4: Connect your main wallet to GLIF and Filecoin Mainnet](#step-4-connect-your-main-wallet-to-glif-and-filecoin-mainnet)
+
+[Step 5: Transfer Filecoin from the intermediary wallet to your main wallet](#step-5-transfer-filecoin-from-the-intermediary-wallet-to-your-main-wallet)
+
+[Step 6: Deposit your Filecoin with GLIF](#step-6-deposit-your-filecoin-with-glif)
+
+## Step 1: Set up an intermediary wallet (optional)
+
+**If the wallet you want to transfer FIL to has an address starting with `f1`:**
+
+* You can skip to [Step 2](#step-2-send-filecoin-from-the-exchange-to-the-intermediary-wallet) and [Step 6](#step-6-deposit-your-filecoin-with-glif) directly.
+
+\
+**If the wallet you want to transfer FIL to has an address starting with `f410` or `0x`:**
+
+* You will need to use an intermediary wallet such as a [FilSnap wallet](/docs/troubleshooting/tutorials/for-token-holders/wallets/how-to-obtain-a-filsnap-wallet-as-the-intermediary-wallet), [burner wallet](/docs/troubleshooting/tutorials/for-token-holders/wallets/how-to-obtain-a-burner-wallet-as-the-intermediary-wallet), or [Ledger](/docs/troubleshooting/tutorials/for-token-holders/wallets/how-to-obtain-a-ledger-wallet-as-the-intermediary-wallet). Check out the step-by-step guide for creating your intermediary wallet by clicking the link.
+* This is because some exchanges, including MEXC, do not support transfer to `f410` or `0x` addresses. Check this [page](/docs/troubleshooting/tutorials/for-token-holders/transfer-fil-to-from-exchanges/transfer-fil-between-exchange-and-glif) for more details.
+
+Once done, your intermediary wallet's address, starting with `f1`, will be visible in the top right dropdown. Copy this address.
+
+![Copy address](en-image-44.png)
+
+## Step 2: Send Filecoin from the exchange to the intermediary wallet
+
+1. Go to your centralized exchange, MEXC and locate FIL in your portfolio. Click “**Withdraw**”.
+2. Select Network as “**FIL**”.
+3. Enter the intermediary wallet address created in [step 1](#step-1-set-up-an-intermediary-wallet-optional). Make sure you have copied the address correctly.
+4. Enter the amount you want to send.
+
+> [!WARNING]
+> If you are doing this for the first time, it's good practice to send a small amount first in case you make any mistakes.
+
+![Withdrawal step](en-image-45.png)
+
+Once the transaction is complete, your Filecoin balance will appear in the wallet.
+
+## Step 3: Check FIL balance in your intermediary wallet
+
+1. Once the transaction is completed, you can verify your intermediary wallet balance by clicking the “**Wallet**” tab on the GLIF website.
+
+![Send FIL](en-image-57.png)
+
+2. Check your FIL balance in the “**Account**” tab and view transaction details in the “**Transaction**” tab.
+
+![FIL balance](en-image-58.png)
+
+## Step 4: Connect your main wallet to GLIF and Filecoin Mainnet
+
+1. Connect to the main wallet you want to transfer FIL to.
+2. Copy your account address (starting with '0x' or 'f410' address).
+
+For detailed instructions on how to connect your wallet to the Filecoin Mainnet, check out this [tutorial](/docs/troubleshooting/tutorials/for-token-holders/wallets/how-to-connect-your-wallet-to-filecoin-mainnet).
+
+## Step 5: Transfer Filecoin from the intermediary wallet to your main wallet
+
+1. Once the Filecoin is in your intermediary wallet, connect to your intermediary wallet.
+2. Click the top-right dropdown in GLIF and choose “**Send FIL**”.
+
+![Send button](en-image-167.png)
+
+3. Paste your main wallet address copied in [step 4](#step-4-connect-your-main-wallet-to-glif-and-filecoin-mainnet), into the recipient field in GLIF and specify the amount to send.
+
+> [!NOTE]
+> You need to make sure that you leave enough FIL in the wallet to cover gas fees.
+
+4. Then hit “**Send**”.
+
+![Send confirmation](en-image-169.png)
+
+After a few moments, your Filecoin balance will appear in your main wallet!
+
+## Step 6: Deposit your Filecoin with GLIF
+
+Now, you can deposit your tokens directly from your main wallet to GLIF and start earning rewards! Check the [step-by-step guide](/docs/troubleshooting/tutorials/for-token-holders/using-the-pool/deposit-fil-into-glif-to-earn-rewards) in this tutorial for detailed deposit instructions.
+
+## Conclusion
+
+By following this step-by-step guide, you can successfully transfer FIL from your exchange to GLIF! Remember to always double-check addresses and transaction details to ensure the accuracy and security of your funds.
