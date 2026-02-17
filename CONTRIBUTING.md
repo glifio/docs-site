@@ -65,11 +65,9 @@ For example:
 
 ## Math expressions
 
-LaTeX math expressions are supported via [KaTeX](https://katex.org/). Use `$` for inline math and `$$` for display (block) math:
+LaTeX math expressions are supported via [KaTeX](https://katex.org/). Only display (block) math using `$$` is enabled. Inline math (`$...$`) is disabled to prevent conflicts with dollar sign currency notation (e.g. $GLF).
 
 ```md
-The formula $E = mc^2$ is inline.
-
 $$
 \sum_{i=1}^{n} x_i = x_1 + x_2 + \cdots + x_n
 $$
