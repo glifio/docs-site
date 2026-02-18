@@ -173,8 +173,11 @@ const LinkIcon = () => (
   </svg>
 )
 
-// If support for other non-Latin scripts (e.g. Korean),
-// is needed, replace `pinyin-pro` with `transliteration`
+/**
+ * Generate anchor link slugs
+ * If support for other non-Latin scripts (e.g. Korean),
+ * is needed, replace `pinyin-pro` with `transliteration`
+ */
 const rehypeSlugCustom = () => {
   const slugs = new GithubSlugger()
   return (tree: Root) => {
