@@ -98,12 +98,12 @@ const DocMarkdown = ({ content }: DocMarkdownProps) => (
     ]}
     rehypePlugins={[rehypeSlugCustom, rehypeKatex]}
     components={{
-      h1: props => <DocHeading Tag='h1' {...props} />,
-      h2: props => <DocHeading Tag='h2' {...props} />,
-      h3: props => <DocHeading Tag='h3' {...props} />,
-      h4: props => <DocHeading Tag='h4' {...props} />,
-      h5: props => <DocHeading Tag='h5' {...props} />,
-      h6: props => <DocHeading Tag='h6' {...props} />,
+      h1: props => <DocHeader Tag='h1' {...props} />,
+      h2: props => <DocHeader Tag='h2' {...props} />,
+      h3: props => <DocHeader Tag='h3' {...props} />,
+      h4: props => <DocHeader Tag='h4' {...props} />,
+      h5: props => <DocHeader Tag='h5' {...props} />,
+      h6: props => <DocHeader Tag='h6' {...props} />,
       a: ({ href, children }) => {
         if (!href) return <a>{children}</a>
 
@@ -143,13 +143,13 @@ const DocMarkdown = ({ content }: DocMarkdownProps) => (
  * Header with anchor link
  */
 
-type DocHeadingProps = {
+type DocHeaderProps = {
   Tag: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6'
   id?: string
   children?: ReactNode
 }
 
-const DocHeading = ({ Tag, id, children }: DocHeadingProps) => (
+const DocHeader = ({ Tag, id, children }: DocHeaderProps) => (
   <Tag id={id}>
     {id && (
       <a href={`#${id}`} className='anchor-link'>
