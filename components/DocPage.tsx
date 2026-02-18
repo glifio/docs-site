@@ -188,9 +188,7 @@ const rehypeSlugCustom = () => {
 
 const slugifyHeadings = (node: Nodes, slugs: GithubSlugger) => {
   if (isHeading(node))
-    node.properties.id = slugs.slug(
-      pinyin(extractText(node), { toneType: 'none' }),
-    )
+    node.properties.id = slugs.slug(transliterate(extractText(node)))
   if ('children' in node)
     node.children.forEach(child => slugifyHeadings(child, slugs))
 }
@@ -203,3 +201,13 @@ const extractText = (node: Nodes): string => {
   if ('children' in node) return node.children.map(extractText).join('')
   return ''
 }
+
+// Convert Chinese characters to pinyin, leaving non-Chinese text untouched.
+// Pads pinyin with spaces to prevent merging with adjacent characters,
+// and replaces fullwidth punctuation (：, （, ）, etc.) with spaces.
+const transliterate = (text: string) =>
+  text
+    .replace(/[\u4e00-\u9fff]+/g, m => ` ${pinyin(m, { toneType: 'none' })} `)
+    .replace(/[\uff00-\uffef\u3000-\u303f]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
