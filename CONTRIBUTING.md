@@ -32,11 +32,13 @@ Use standard markdown link syntax: `[text](url)`
 | External link | Full URL | `[Filecoin](https://filecoin.io)` |
 | Internal doc link | `/docs/` + URL slug path to file | `[rewards](/docs/tokens/rewards)` |
 | Internal folder link | `/docs/` + URL slug path to folder (addresses its `README.md`) | `[tokens](/docs/tokens)` |
-| Internal site link | Path to a non-documentation page on the GLIF website, **no locale or subdomain** | `[wallet](/wallet)` |
-| Anchor link | `#anchor-name` | `[see below](#example-section)` |
-| Internal + anchor | Combines internal path with anchor | `[staking](/docs/tokens/rewards#staking)` |
+| Internal site link | Path to a non-docs page on the site | `[wallet](/wallet)` |
+| Anchor link | `#` + anchor name (same page only) | `[see below](#example-section)` |
+| Internal + anchor | Internal path + `#` + anchor name (other page) | `[staking](/docs/tokens/rewards#staking)` |
 
-### URL slugs and anchor names
+Internal links (doc, folder, and site) must never include the locale or subdomain segments (e.g. `/en/www/`). The site handles these automatically.
+
+To link to a heading on the **same page**, use a plain anchor link (`#anchor-name`). To link to a heading on a **different page**, use the internal + anchor format (`/docs/path#anchor-name`).
 
 To find the correct slug or anchor name, create the file/folder or heading first, then check the generated URL or anchor in the browser.
 
