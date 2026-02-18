@@ -18,6 +18,8 @@ import { DocTree, DocLeaf } from '@/lib/docs'
  */
 
 interface DocPageProps {
+  locale: string
+  subdomain: string
   content: string
   footer: string | null
   tree: DocTree | null
@@ -26,6 +28,8 @@ interface DocPageProps {
 }
 
 export const DocPage = ({
+  locale,
+  subdomain,
   content,
   footer,
   tree,
