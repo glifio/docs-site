@@ -12,8 +12,8 @@ You will use the [**Safe Transaction Builder**](https://help.safe.global/en/arti
 In this tutorial, you will follow these steps:
 
 * [Step 1: Connect to a signer wallet and open the Transaction Builder](#step-1-connect-to-a-signer-wallet-and-open-the-transaction-builder)
-* [Step 2: Create the First Transaction — `approve`](#step-2-create-the-first-transaction-approve)
-* [Step 3: Create the Second Transaction — `deposit`](#step-3-create-the-second-transaction-deposit)
+* [Step 2: Create the First Transaction — `approve`](#step-2-create-the-first-transaction--approve)
+* [Step 3: Create the Second Transaction — `deposit`](#step-3-create-the-second-transaction--deposit)
 * [Step 4: Review and Create Batch](#step-4-review-and-create-batch)
 * [Step 5: Confirm Transaction](#step-5-confirm-transaction)
 * [Step 6: Sign](#step-6-sign)
