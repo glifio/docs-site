@@ -93,7 +93,7 @@ const DocMarkdown = ({ content }: DocMarkdownProps) => (
       remarkAlert,
       [remarkMath, { singleDollarTextMath: false }],
     ]}
-    rehypePlugins={[rehypeKatex]}
+    rehypePlugins={[rehypeSlugCustom, rehypeKatex]}
     components={{
       h1: HeadingWithAnchor('h1'),
       h2: HeadingWithAnchor('h2'),
