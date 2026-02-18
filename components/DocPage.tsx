@@ -37,7 +37,7 @@ export const DocPage = ({
   next,
 }: DocPageProps) => (
   <article className='prose prose-gray max-w-none'>
-    <DocMarkdown content={content} />
+    <DocMarkdown locale={locale} subdomain={subdomain} content={content} />
 
     {tree && <DocNav tree={tree} title='Table of Contents' />}
 
@@ -51,7 +51,9 @@ export const DocPage = ({
       </>
     )}
 
-    {footer && <DocMarkdown content={footer} />}
+    {footer && (
+      <DocMarkdown locale={locale} subdomain={subdomain} content={footer} />
+    )}
   </article>
 )
 
@@ -90,10 +92,12 @@ const DocLink = ({ label, doc, align }: DocLinkProps) =>
  */
 
 interface DocMarkdownProps {
+  locale: string
+  subdomain: string
   content: string
 }
 
-const DocMarkdown = ({ content }: DocMarkdownProps) => (
+const DocMarkdown = ({ locale, subdomain, content }: DocMarkdownProps) => (
   <ReactMarkdown
     remarkPlugins={[
       remarkGfm,
@@ -112,7 +116,8 @@ const DocMarkdown = ({ content }: DocMarkdownProps) => (
         if (!href) return <a>{children}</a>
 
         // Internal links
-        if (href.startsWith('/')) return <Link href={href}>{children}</Link>
+        if (href.startsWith('/'))
+          return <Link href={`/${locale}/${subdomain}${href}`}>{children}</Link>
 
         // Anchor links
         if (href.startsWith('#')) return <a href={href}>{children}</a>
