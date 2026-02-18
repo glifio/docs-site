@@ -95,6 +95,12 @@ const DocMarkdown = ({ content }: DocMarkdownProps) => (
     ]}
     rehypePlugins={[rehypeKatex]}
     components={{
+      h1: HeadingWithAnchor('h1'),
+      h2: HeadingWithAnchor('h2'),
+      h3: HeadingWithAnchor('h3'),
+      h4: HeadingWithAnchor('h4'),
+      h5: HeadingWithAnchor('h5'),
+      h6: HeadingWithAnchor('h6'),
       a: ({ href, children }) => {
         if (!href) return <a>{children}</a>
 
