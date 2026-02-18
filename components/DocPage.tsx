@@ -13,6 +13,10 @@ import Link from 'next/link'
 import { DocNav } from '@/components/DocNav'
 import { DocTree, DocLeaf } from '@/lib/docs'
 
+/**
+ * Documentation page
+ */
+
 interface DocPageProps {
   content: string
   footer: string | null
@@ -47,6 +51,10 @@ export const DocPage = ({
   </article>
 )
 
+/**
+ * Link to prev / next page
+ */
+
 interface DocLinkProps {
   label: string
   doc: DocLeaf | null
@@ -72,6 +80,10 @@ const DocLink = ({ label, doc, align }: DocLinkProps) =>
   ) : (
     <div />
   )
+
+/**
+ * Markdown rendering
+ */
 
 interface DocMarkdownProps {
   content: string
@@ -126,6 +138,10 @@ const DocMarkdown = ({ content }: DocMarkdownProps) => (
     {content}
   </ReactMarkdown>
 )
+
+/**
+ * Header with anchor link
+ */
 
 type DocHeadingProps = {
   Tag: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6'
