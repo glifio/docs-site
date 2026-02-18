@@ -26,6 +26,8 @@ const Page = async ({ params }: PageProps) => {
 
   return (
     <DocPage
+      locale={locale}
+      subdomain={subdomain}
       content={content}
       footer={footer}
       tree={tree}
