@@ -10,8 +10,8 @@
 
 [第二步：从 Agent 提取到中介钱包](#di-er-bu-cong-agent-ti-qu-dao-zhong-jie-qian-bao)
 
-* [2a：通过 GLIF 网站操作](#id-2a-tong-guo-glif-wang-zhan-cao-zuo)
-* [2b：通过 CLI 操作](#id-2b-tong-guo-cli-cao-zuo)
+* [2a：通过 GLIF 网站操作](#2a-tong-guo-glif-wang-zhan-cao-zuo)
+* [2b：通过 CLI 操作](#2b-tong-guo-cli-cao-zuo)
 
 [第三步：从中介钱包将 FIL 转到交易所的目标 `f1` 地址](#di-san-bu-cong-zhong-jian-qian-bao-jiang-fil-zhuan-dao-jiao-yi-suo-de-mu-biao-f1-di-zhi)
 
