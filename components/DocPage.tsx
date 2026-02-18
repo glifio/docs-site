@@ -135,3 +135,20 @@ const DocMarkdown = ({ content }: DocMarkdownProps) => (
     {content}
   </ReactMarkdown>
 )
+
+type DocHeadingProps = {
+  Tag: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6'
+  id?: string
+  children?: ReactNode
+}
+
+const DocHeading = ({ Tag, id, children }: DocHeadingProps) => (
+  <Tag id={id}>
+    {id && (
+      <a href={`#${id}`} className='anchor-link'>
+        <LinkIcon />
+      </a>
+    )}
+    {children}
+  </Tag>
+)
