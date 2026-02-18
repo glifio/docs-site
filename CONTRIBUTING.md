@@ -36,11 +36,14 @@ Use standard markdown link syntax: `[text](url)`
 | Anchor link | `#` + anchor name (same page only) | `[see below](#example-section)` |
 | Internal + anchor | Internal path + `#` + anchor name (other page) | `[staking](/docs/tokens/rewards#staking)` |
 
-Internal links (doc, folder, and site) must never include the locale or subdomain segments (e.g. `/en/www/`). The site handles these automatically.
+> [!IMPORTANT]
+> Internal links (doc, folder, and site) must never include the locale or subdomain segments (e.g. `/en/www/`). The site handles these automatically.
 
-To link to a heading on the **same page**, use a plain anchor link (`#anchor-name`). To link to a heading on a **different page**, use the internal + anchor format (`/docs/path#anchor-name`).
+> [!IMPORTANT]
+> To link to a heading on the **same page**, use a plain anchor link (`#anchor-name`). To link to a heading on a **different page**, use the internal + anchor format (`/docs/path#anchor-name`).
 
-To find the correct slug or anchor name, create the file/folder or heading first, then check the generated URL or anchor in the browser.
+> [!TIP]
+> To find the correct slug or anchor name, create the file/folder or heading first, then check the generated URL or anchor in the browser.
 
 ## Math expressions
 
