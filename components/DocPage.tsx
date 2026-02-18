@@ -1,8 +1,12 @@
+import type { Nodes, Root } from 'hast'
+import type { ReactNode } from 'react'
 import { remarkAlert } from 'remark-github-blockquote-alert'
+import { pinyin } from 'pinyin-pro'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import remarkMath from 'remark-math'
 import rehypeKatex from 'rehype-katex'
+import GithubSlugger from 'github-slugger'
 import classNames from 'classnames'
 import Link from 'next/link'
 
