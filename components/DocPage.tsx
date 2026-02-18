@@ -95,12 +95,12 @@ const DocMarkdown = ({ content }: DocMarkdownProps) => (
     ]}
     rehypePlugins={[rehypeSlugCustom, rehypeKatex]}
     components={{
-      h1: HeadingWithAnchor('h1'),
-      h2: HeadingWithAnchor('h2'),
-      h3: HeadingWithAnchor('h3'),
-      h4: HeadingWithAnchor('h4'),
-      h5: HeadingWithAnchor('h5'),
-      h6: HeadingWithAnchor('h6'),
+      h1: props => <DocHeading Tag='h1' {...props} />,
+      h2: props => <DocHeading Tag='h2' {...props} />,
+      h3: props => <DocHeading Tag='h3' {...props} />,
+      h4: props => <DocHeading Tag='h4' {...props} />,
+      h5: props => <DocHeading Tag='h5' {...props} />,
+      h6: props => <DocHeading Tag='h6' {...props} />,
       a: ({ href, children }) => {
         if (!href) return <a>{children}</a>
 
