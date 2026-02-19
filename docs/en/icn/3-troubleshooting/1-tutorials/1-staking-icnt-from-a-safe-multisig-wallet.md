@@ -172,6 +172,6 @@ Next, you will create a transaction to deposit ICNT tokens into the GLIF staking
 
 ***
 
-## **Conclusion**
+## Conclusion
 
 By following this step-by-step guide, you can successfully deposit your ICNT from a Safe multisig wallet into the GLIF staking pool and start earning rewards! Remember to always double-check addresses and transaction details to ensure the accuracy and security of your funds.

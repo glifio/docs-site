@@ -35,11 +35,11 @@ The Storage Provider that deploys an Agent is in complete and total control of t
 
 The GLIF protocol utilizes two distinct keys for managing Agents smart contracts. Only the SP should have access to these keys, and it's important to keep them private and safe. Changes to these keys follow a secure two-step process that involves a proposal by the current holder and acceptance by the new holder.
 
-### **Owner Key:**
+### Owner Key:
 
 The owner key has executive privileges to move FIL in and out of the Agent. It allows actions such as borrowing, withdrawing funds, adding or removing Miner and changing the operator, typically controlled by Storage Provider management.
 
-### **Operator Key:**
+### Operator Key:
 
 The operator key enables operational functions like making payments, managing worker addresses, and moving funds to and from the Agent to any of its Miner.
 
@@ -47,7 +47,7 @@ The operator key enables operational functions like making payments, managing wo
 
 The Agent Police is GLIF's keeper contract that ensures each Agent stays within debt-to-liquidation (DTL) ratio when executing actions like borrowing or withdrawing FIL. If an Agent violates system rules, the Agent Police is responsible for processing Agent state transitions and liquidations.
 
-## **Agent Data Oracle (ADO)**
+## Agent Data Oracle (ADO)
 
 The FVM runtime does not provide much rich, contextual, or historical data about SPs. Even if it did, it would be gas intensive in a L1 smart contract environment to make accurate risk computations on-chain. The ADO is an off-chain data aggregator that allows the pools to receive any real-time and/or historical data on SPs securely and at a very low cost. Each pool can receive its own unique data from the ADO, allowing maximum flexibility.
 

@@ -24,7 +24,7 @@ Today, SPs who want to realize FIL from their $GLF typically swap $GLF→$FIL on
 
 Once funded, up to 10% of every interest payment can be redeemed with your $GLF. The protocol swaps your $GLF into FIL at a premium determined by your tier—up to +25% for Gold members. See the [Tier Table](/docs/glif-storage-providers-loyalty-rewards/tiers-and-limits) for details.
 
-#### **Example**
+#### Example
 
 * Imagine you're a Storage Provider with a Silver card, and 1000 FIL in outstanding interest owed to the GLIF Protocol.
 * You load up your GLIF+ Loyalty Card with 20000 $GLF Tokens to participate in the cash back program.
@@ -35,7 +35,7 @@ Once funded, up to 10% of every interest payment can be redeemed with your $GLF.
   * The Protocol makes the 100 FIL available to the Card holder, in exchange for 18181.8 $GLF Tokens
 * The end effect is that the Storage Provider was able to swap 18181.8 $GLF Tokens for 100 FIL after paying interest. If the SP had tried to swap 18181.8 $GLF Tokens on the DEX for FIL, after fees and slippage, the trade would result in significantly less FIL tokens.
 
-### **TWAP Pricing**
+### TWAP Pricing
 
 DEX prices can be volatile. For security, cash back uses a 7-day time-weighted average price (TWAP) for $GLF. Short-term price spikes do not impact the TWAP. Tier premiums are applied over the program's TWAP price.
 

@@ -52,7 +52,7 @@ In the multisig page, you can view your token holdings, proposals, required appr
 
 ![Connect wallet](en-image-295.png)
 
-## **Conclusion**
+## Conclusion
 
 By following this step-by-step guide, you can successfully create a multisig wallet! Remember to always double-check addresses and transaction details to ensure the accuracy and security of your funds.
 

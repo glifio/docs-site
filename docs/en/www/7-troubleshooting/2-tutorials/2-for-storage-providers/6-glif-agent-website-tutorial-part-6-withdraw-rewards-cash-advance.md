@@ -64,6 +64,6 @@ You can do this when you meet the DTL requirement on your Agent - to read more a
 
 You've successfully withdrawn funds from your Agent!
 
-## **Next Steps:**
+## Next Steps:
 
 In [Part 7](/docs/troubleshooting/tutorials/for-storage-providers/glif-agent-website-tutorial-part-7-remove-a-miner-from-an-agent) of this tutorial, we will show you how to remove a miner from an Agent.

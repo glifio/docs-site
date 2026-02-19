@@ -24,11 +24,11 @@ $$
 DTL = Debt / LiquidationValue
 $$
 
-## **What is the meaning of 1x, 2x, 3x leverage on the Agent's dashboard?**
+## What is the meaning of 1x, 2x, 3x leverage on the Agent's dashboard?
 
 These values represent the inverse of the DTL ratio. For example, a 75% DTL corresponds to roughly 4x leverage on collateral.
 
-## **If I try to borrow and withdraw 10,000 FIL, and borrow from sealing, how much can I still borrow from GLIF?**
+## If I try to borrow and withdraw 10,000 FIL, and borrow from sealing, how much can I still borrow from GLIF?
 
 To determine how much you can borrow from GLIF, you need to understand the [Debt-to-Liquidation (DTL) ratio](/docs/for-storage-providers/borrowing-limits-and-dtl). DTL ratio must be less than 75%. If the SP joined the [GLIF+ program](/docs/glif-storage-providers-loyalty-rewards/storage-provider-loyalty-card) as a Gold Card member, the DTL increases to 90%. Read [here](/docs/for-storage-providers/borrowing-limits-and-dtl) for more details.\
 The DTL ratio is calculated as:

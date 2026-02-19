@@ -4,11 +4,11 @@
 
 We suggest using [MetaMask](https://metamask.io/) or [Ledger](https://www.ledger.com/) with the Filecoin app.
 
-## **Why can't I use a certain wallet to deposit or withdraw, e.g., OKX Wallet?**
+## Why can't I use a certain wallet to deposit or withdraw, e.g., OKX Wallet?
 
 It should be possible to have multiple wallet extensions installed simultaneously. However, the conventions for wallets to become detectable are still evolving, and some wallets may not be compatible.
 
-## **I generated a f1 address in my Filecoin account with Ledger, and it seems different from the 0x address that MetaMask uses. I can't see my FIL in the Filecoin network under MetaMask.**
+## I generated a f1 address in my Filecoin account with Ledger, and it seems different from the 0x address that MetaMask uses. I can't see my FIL in the Filecoin network under MetaMask.
 
 MetaMask doesn't support Filecoin f1 addresses, so you won't be able to see your FIL balance directly in MetaMask if you're using a native (f1) Filecoin address.
 
@@ -28,7 +28,7 @@ Filsnap is a plugin that can be installed inside MetaMask that will produce a na
 
 Certain advanced Filecoin use cases will only work with Filsnap, however, most day to day use cases work with default MetaMask and 0x addresses.
 
-## **Why do I see the error message “Request expired” when I use Ledger to deposit or withdraw?**
+## Why do I see the error message “Request expired” when I use Ledger to deposit or withdraw?
 
 After clicking “Send” in the GLIF UI, ensure you check your wallet (the browser extension) to confirm the gas fees and send the transaction. The transaction might expire if the MetaMask popup appears behind the browser window and is not addressed promptly.
 

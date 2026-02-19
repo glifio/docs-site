@@ -55,11 +55,11 @@ To illustrate, consider two Card holders: **Bob** and **Alice**.
 | Bob             | 10               | 10              | 1:1                        |
 | Alice           | 20               | 2000            | 100:1                      |
 
-#### **Determining FIL per Capsule**
+#### Determining FIL per Capsule
 
 If the protocol issues **100 FIL total** for all LP Capsules during a given week , Alice's Capsule will contain **twice as much FIL** as Bob's, simply because she has staked **twice the iFIL**.
 
-#### **Determining the Exchange Rate**
+#### Determining the Exchange Rate
 
 Your **GLF : iFIL staking ratio** determines your premium - the amount of $GLF tokens it costs to unlock the FIL inside your Capsule.
 

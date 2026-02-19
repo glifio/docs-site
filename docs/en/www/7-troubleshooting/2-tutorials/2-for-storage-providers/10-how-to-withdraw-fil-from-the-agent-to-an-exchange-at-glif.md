@@ -35,7 +35,7 @@ You can choose an intermediary wallet to obtain an `f1` address from the followi
 
 For details on creating an intermediary wallet, please refer to the tutorial by clicking the link above.
 
-## **Step 2a :** Withdrawing from your agent to the intermediary wallet - through GLIF website
+## Step 2a: Withdrawing from your agent to the intermediary wallet - through GLIF website
 
 1. Connect to one of the wallets that is a signer for your agent's multisig wallet.
 2. Navigate to the “**Withdraw**” tab within the agent.
@@ -87,7 +87,7 @@ For details on creating an intermediary wallet, please refer to the tutorial by 
 
 16. Verify your balance in the intermediary wallet to ensure the transaction was successful on the GLIF “**wallet**” page, or verify it by searching your f1 address on [filfox.info](https://filfox.info/en).
 
-## **Step 2b :** Withdrawing from your agent to the intermediary wallet - through CLI
+## Step 2b: Withdrawing from your agent to the intermediary wallet - through CLI
 
 1. Open your agent's command line interface.
 2. Use the following commands:
@@ -108,7 +108,7 @@ For details on creating an intermediary wallet, please refer to the tutorial by 
 
 3. Verify your balance in the intermediary wallet to ensure the transaction was successful on the GLIF “**wallet**” page, or verify it by searching your f1 wallet address on [filfox.info](https://filfox.info/en).
 
-## Step 3**:** Transferring FIL from the intermediary wallet to the desired `f1` address on the exchange
+## Step 3: Transferring FIL from the intermediary wallet to the desired `f1` address on the exchange
 
 1. Connect to your intermediary wallet made in [step 1](#step-1-setting-up-your-intermediary-wallet). On the GLIF website, click “**Send FIL.**”
 

@@ -15,7 +15,7 @@ With your Agent now set up, the next step is to add a miner to your Agent. By do
 
 ***
 
-## **Step 1: Proposing an Ownership change (Through lotus)**
+## Step 1: Proposing an Ownership change (Through lotus)
 
 This step occurs outside of GLIF and our command line. Depending on what mining software you use, this step will change. However, if you are running the `lotus-miner` command line, you can run the following command to propose the ownership change:
 
@@ -94,6 +94,6 @@ Your Agent owner wallet is a multisig wallet which requires multiple signers to 
 
 You've successfully added a miner to your Agent!
 
-## **Next Steps:**
+## Next Steps:
 
 In [Part 4](/docs/troubleshooting/tutorials/for-storage-providers/glif-agent-website-tutorial-part-4-borrow) of this tutorial, we will show you how to borrow FIL.

@@ -2,7 +2,7 @@
 
 ## Managing Debt-to-Liquidity Ratio to Prevent Liquidation
 
-### **Liquidation Threshold: Debt-to-liquidation (DTL) > 92%**
+### Liquidation Threshold: Debt-to-liquidation (DTL) > 92%
 
 [DTL](/docs/for-storage-providers/borrowing-limits-and-dtl) measures the economic security of any SP in the GLIF system because it exposes the collateral status of SPs. A DTL < 100% means an SP is over-collateralized because a liquidation is expected to recover all interest and principal owed by the SP to the pool. In other words, a liquidation would recover >100% of assets owed to LPs.
 
@@ -18,7 +18,7 @@ In the event of a liquidation, all interest and principal is expected to be repa
 * SPs with a DTL ratio above 75% become eligible for “administration”. During administration, borrowing and withdrawing are disabled, and GLIF is allowed to pay down the SP's debt using any available balances on the SP's miners. No terminations or penalties occur when a GLIF administrator pays down an SP's debt. The goal of administration is to return the SP to good standing with GLIF  (DTL < 75%).
 * Storage Providers who join the [GLIF+ program](/docs/glif-storage-providers-loyalty-rewards/storage-provider-loyalty-card) will be put in “administration” if they exceed their borrowing limit. If the SP joined the GLIF+ program as a Gold Card member, the administration threshold increases to 90%. Refer to the [tier and limit table](/docs/glif-storage-providers-loyalty-rewards/tiers-and-limits) for details.
 
-## **Healthy SP criteria**
+## Healthy SP criteria
 
 1. Debt-to-Liquidation (DTL) < 75% to 90% (Depends on [GLIF+ Card Tier](/docs/glif-storage-providers-loyalty-rewards/tiers-and-limits))
 2. Faulty sectors <12% of all active sectors

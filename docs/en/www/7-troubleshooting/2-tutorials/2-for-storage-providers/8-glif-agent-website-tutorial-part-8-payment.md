@@ -83,6 +83,6 @@ As this will ensure _all_ the principal is paid off, and no tiny amounts of atto
 
 You've successfully made a payment to GLIF!
 
-## **Next Steps:**
+## Next Steps:
 
 In [Part 9](/docs/troubleshooting/tutorials/for-storage-providers/glif-agent-website-tutorial-part-9-change-operator-address) of this tutorial, we will show you how to change your operator address.

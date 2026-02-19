@@ -61,6 +61,6 @@ In this part of the tutorial, we will guide you through the process of remove a 
 
 You've successfully removed a Miner from your Agent!
 
-## **Next Steps:**
+## Next Steps:
 
 In [Part 8](/docs/troubleshooting/tutorials/for-storage-providers/glif-agent-website-tutorial-part-8-payment) of this tutorial, we will show you how to make a payment to GLIF.

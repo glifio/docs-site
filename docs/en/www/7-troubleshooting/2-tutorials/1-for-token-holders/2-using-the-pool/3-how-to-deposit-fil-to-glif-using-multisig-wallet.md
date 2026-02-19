@@ -12,11 +12,11 @@ In this tutorial, you will follow these three main steps:
 
 [**Step 3: Approve the multisig proposal**](#step-3-approve-the-multisig-proposal)
 
-## **Step 1: Create a multisig wallet**
+## Step 1: Create a multisig wallet
 
 Refer to [this tutorial](/docs/troubleshooting/tutorials/for-token-holders/wallets/how-to-create-a-multisig-wallet-on-glif) for detailed **instructions** on creating a multisig wallet.
 
-## **Step 2: Deposit FIL from your multisig wallet**
+## Step 2: Deposit FIL from your multisig wallet
 
 1. **Navigate to the multisig wallet**
 
@@ -55,7 +55,7 @@ The details will show the number of approvals made so far, and you can also canc
 
 ***
 
-## **Step 3: Approve the multisig proposal**
+## Step 3: Approve the multisig proposal
 
 1. **Approve the Proposal with Other Signers**
 
@@ -80,7 +80,7 @@ After the transaction is complete, your FIL will be deposited, and you will rece
 
 ![Approve proposal](en-image-276.png)
 
-## **Conclusion**
+## Conclusion
 
 By following this step-by-step guide, you can successfully deposit your FIL from a multisig wallet into the GLIF pool and start earning rewards! Remember to always double-check addresses and transaction details to ensure the accuracy and security of your funds.
 

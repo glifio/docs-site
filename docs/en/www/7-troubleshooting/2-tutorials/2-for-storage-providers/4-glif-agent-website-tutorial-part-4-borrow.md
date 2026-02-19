@@ -100,6 +100,6 @@ See the [docs](/docs/for-storage-providers/borrowing-limits-and-dtl) here for de
 
 You've successfully borrowed FIL to your Agent!
 
-## **Next Steps:**
+## Next Steps:
 
 In [Part 5](/docs/troubleshooting/tutorials/for-storage-providers/glif-agent-website-tutorial-part-5-moving-fil-between-miner-and-agent) of this tutorial, we will show you how to move FIL from Miner to Agent and back.

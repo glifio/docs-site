@@ -99,6 +99,6 @@ To pull funds from your Miner to your Agent for withdrawing rewards or making a 
 
 You've successfully moved FIL between Miner and Agent!
 
-## **Next Steps:**
+## Next Steps:
 
 In [Part 6](/docs/troubleshooting/tutorials/for-storage-providers/glif-agent-website-tutorial-part-6-withdraw-rewards-cash-advance) of this tutorial, we will show you how to withdraw funds from the Agent.

@@ -70,6 +70,6 @@ In this part of the tutorial, we will guide you through the process of changing 
 
 You've successfully change your operator address!
 
-## **Next Steps:**
+## Next Steps:
 
 This is the end of this tutorial series. If you would like to learn how to withdraw FIL from the Agent to an exchange, check out this [tutorial](/docs/troubleshooting/tutorials/for-storage-providers/how-to-withdraw-fil-from-the-agent-to-an-exchange-at-glif).

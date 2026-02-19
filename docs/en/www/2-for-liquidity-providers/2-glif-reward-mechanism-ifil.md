@@ -24,7 +24,7 @@ $$
 Pool Total Assets = LP Deposits + Accrued Fees - Treasury Fees
 $$
 
-### **Basic Example:**
+### Basic Example:
 
 1. **iFIL Price:** Let's imagine a simple scenario where the current price of iFIL is 1 FIL. So `1 iFIL == 1 FIL`
 2. **LP Deposits:** An LP deposits 1 FIL into GLIF and receives 1 iFIL.

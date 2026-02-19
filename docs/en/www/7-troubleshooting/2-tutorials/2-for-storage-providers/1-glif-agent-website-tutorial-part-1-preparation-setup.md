@@ -27,7 +27,7 @@ A **multisig wallet** is a smart contract wallet with multiple signing parties (
 * The other multisig signers must approve the proposal
 * Once the minimum number of signatures have approved the proposal, the transaction executes
 
-### **GLIF Agent Multisig Owner Wallet Configuration**
+### GLIF Agent Multisig Owner Wallet Configuration
 
 Multisig wallets on Filecoin are generally very flexible in their configuration, however, GLIF recommends a specific, more secure configuration with 3 signers:
 

@@ -10,7 +10,7 @@ Your GLIF+ Tier is determined by the amount of $GLF you stake, which sets your c
 
 \*DTL = debt-to-liquidation value. Higher DTL corresponds to higher effective leverage. Learn more about DTL [here](/docs/for-storage-providers/borrowing-limits-and-dtl).
 
-## **Card costs**
+## Card costs
 
 There are 3 “Costs” associated with the GLIF+ Card:
 
@@ -25,11 +25,11 @@ There are 3 “Costs” associated with the GLIF+ Card:
 
 Card holders can upgrade/downgrade their Cards according to the following policies:
 
-#### **Upgrades**
+#### Upgrades
 
 A Card holder can upgrade their Card to a higher tier for free at anytime, by providing the higher tier's $GLF Token lockup requirement. Any Card must be activated before it can be upgraded.
 
-#### **Downgrades**
+#### Downgrades
 
 A Card holder can downgrade their Card to a lower tier, according to the following policies:
 

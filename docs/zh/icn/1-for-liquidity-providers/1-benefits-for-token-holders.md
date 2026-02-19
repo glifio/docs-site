@@ -1,6 +1,6 @@
 # Benefits for token holders
 
-## **Maximize Yield With No Lockup**
+## Maximize Yield With No Lockup
 
 Staking directly into Impossible Cloud Network (ICN) requires the depositor to lock tokens for a period of time between 1 day and 4 years. The longer the depositor locks tokens for, the higher the returns.
 

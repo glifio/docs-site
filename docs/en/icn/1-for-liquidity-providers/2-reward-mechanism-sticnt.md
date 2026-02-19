@@ -1,6 +1,6 @@
 # Reward Mechanism - stICNT
 
-## **About stICNT**
+## About stICNT
 
 stICNT is a reward bearing $ICNT token. It's an ERC20 deployed on Base. Liquidity Providers (LPs) hold stICNT tokens to earn rewards.\
 \
@@ -10,7 +10,7 @@ LPs can exchange stICNT back to ICNT on Uniswap, and later on, directly through 
 
 There is theoretically no “max supply” of stICNT, since new stICNT will be minted whenever an ICNT token holder deposits tokens into the Pool. Technically speaking, there can never be more than 700,000,000 stICNT, since this is the maximum supply of ICNT.
 
-## **Calculation of stICNT**
+## Calculation of stICNT
 
 The amount of ICNT that can be redeemed with 1 stICNT token is calculated by dividing the total accrued assets in the pool by the circulating supply of stICNT tokens. Therefore, the price of stICNT increases continuously over time.
 
@@ -27,7 +27,7 @@ $$
 Pool Total Assets = LP Deposits + Accrued Fees - Treasury Fees
 $$
 
-### **Basic Example:**
+### Basic Example:
 
 1. **stICNT Price:** Let's imagine a simple scenario where the current price of stICNT is 1 ICNT. So `1 stICNT == 1 ICNT`
 2. **LP Deposits:** An LP deposits 1 ICNT into GLIF and receives 1 stICNT.

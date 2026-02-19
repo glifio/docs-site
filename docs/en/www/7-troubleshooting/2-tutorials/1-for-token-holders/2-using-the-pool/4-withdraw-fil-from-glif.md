@@ -23,7 +23,7 @@ This tutorial will guide you through the process of using your iFIL tokens to wi
 
 ![Approve button](en-image-177.png)
 
-## Step 3 : Submit transaction 1 of 2 - approve GLIF pool to transfer
+## Step 3: Submit transaction 1 of 2 - approve GLIF pool to transfer
 
 The GLIF smart contract needs permission to spend your iFIL Tokens to process the withdrawal.
 
