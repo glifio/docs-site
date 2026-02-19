@@ -6,11 +6,11 @@ import remarkGfm from 'remark-gfm'
 import remarkMath from 'remark-math'
 import rehypeKatex from 'rehype-katex'
 import GithubSlugger from 'github-slugger'
-import classNames from 'classnames'
 import Link from 'next/link'
 
-import { DocNav } from './DocNav'
+import { DocBtmLink } from './DocBtmLink'
 import { DocHeader } from './DocHeader'
+import { DocNav } from './DocNav'
 import { DocTree, DocLeaf } from '@/lib/docs'
 
 /**
@@ -51,8 +51,8 @@ export const DocPage = ({
       <>
         <hr />
         <nav className='not-prose flex justify-between gap-4'>
-          <DocLink label={tPrev} doc={prev} align='left' />
-          <DocLink label={tNext} doc={next} align='right' />
+          <DocBtmLink label={tPrev} doc={prev} align='left' />
+          <DocBtmLink label={tNext} doc={next} align='right' />
         </nav>
       </>
     )}
@@ -62,36 +62,6 @@ export const DocPage = ({
     )}
   </article>
 )
-
-/**
- * Link to prev / next page
- */
-
-interface DocLinkProps {
-  label: string
-  doc: DocLeaf | null
-  align: 'left' | 'right'
-}
-
-const DocLink = ({ label, doc, align }: DocLinkProps) =>
-  doc ? (
-    <Link href={doc.url} className='group'>
-      <button
-        className={classNames(
-          `px-4 py-3 rounded-lg cursor-pointer transition-colors`,
-          'border border-current/25 group-hover:border-accent',
-          align === 'left' ? 'text-left' : 'text-right',
-        )}
-      >
-        <div className='font-semibold text-sm text-current/50'>{label}</div>
-        <div className='transition-colors text-current/75 group-hover:text-current'>
-          {doc.title}
-        </div>
-      </button>
-    </Link>
-  ) : (
-    <div />
-  )
 
 /**
  * Markdown rendering
