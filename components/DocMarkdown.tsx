@@ -14,23 +14,30 @@ interface DocMarkdownProps {
   locale: string
   subdomain: string
   content: string
+  anchorLinks?: boolean
 }
 
-export const DocMarkdown = ({ locale, subdomain, content }: DocMarkdownProps) => (
+export const DocMarkdown = ({
+  locale,
+  subdomain,
+  content,
+  anchorLinks,
+}: DocMarkdownProps) => (
   <ReactMarkdown
     remarkPlugins={[
       remarkGfm,
       remarkAlert,
       [remarkMath, { singleDollarTextMath: false }],
     ]}
-    rehypePlugins={[rehypeSlugCustom, rehypeKatex]}
+    rehypePlugins={[...(anchorLinks ? [rehypeSlugCustom] : []), rehypeKatex]}
     components={{
-      h1: props => <DocHeader Tag='h1' {...props} />,
-      h2: props => <DocHeader Tag='h2' {...props} />,
-      h3: props => <DocHeader Tag='h3' {...props} />,
-      h4: props => <DocHeader Tag='h4' {...props} />,
-      h5: props => <DocHeader Tag='h5' {...props} />,
-      h6: props => <DocHeader Tag='h6' {...props} />,
+      ...(anchorLinks && {
+        h2: props => <DocHeader Tag='h2' {...props} />,
+        h3: props => <DocHeader Tag='h3' {...props} />,
+        h4: props => <DocHeader Tag='h4' {...props} />,
+        h5: props => <DocHeader Tag='h5' {...props} />,
+        h6: props => <DocHeader Tag='h6' {...props} />,
+      }),
       a: ({ href, children }) => {
         if (!href) return <a>{children}</a>
 

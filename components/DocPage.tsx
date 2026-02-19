@@ -33,7 +33,12 @@ export const DocPage = ({
   tNext,
 }: DocPageProps) => (
   <article className='prose prose-gray max-w-none'>
-    <DocMarkdown locale={locale} subdomain={subdomain} content={content} />
+    <DocMarkdown
+      locale={locale}
+      subdomain={subdomain}
+      content={content}
+      anchorLinks
+    />
 
     {tree && <DocNav tree={tree} title={tNav} rootIndent />}
 
