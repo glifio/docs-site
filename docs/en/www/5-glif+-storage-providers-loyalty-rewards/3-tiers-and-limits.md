@@ -10,7 +10,7 @@ Your GLIF+ Tier is determined by the amount of $GLF you stake, which sets your c
 
 \*DTL = debt-to-liquidation value. Higher DTL corresponds to higher effective leverage. Learn more about DTL [here](/docs/for-storage-providers/borrowing-limits-and-dtl).
 
-### **Card costs**
+## **Card costs**
 
 There are 3 “Costs” associated with the GLIF+ Card:
 
@@ -21,7 +21,7 @@ There are 3 “Costs” associated with the GLIF+ Card:
 > [!NOTE]
 > $GLF used for interest cash back becomes non-refundable after a swap, and there is no minimum amount required to perform the swap.
 
-### Tier Management
+## Tier Management
 
 Card holders can upgrade/downgrade their Cards according to the following policies:
 
