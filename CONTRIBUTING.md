@@ -32,36 +32,17 @@ Use standard markdown link syntax: `[text](url)`
 | External link | Full URL | `[Filecoin](https://filecoin.io)` |
 | Internal doc link | `/docs/` + URL slug path to file | `[rewards](/docs/tokens/rewards)` |
 | Internal folder link | `/docs/` + URL slug path to folder (addresses its `README.md`) | `[tokens](/docs/tokens)` |
-| Internal site link | Path to a non-documentation page on the GLIF website, **no locale or subdomain** | `[wallet](/wallet)` |
-| Anchor link | `#anchor-name` | `[see below](#example-section)` |
-| Internal + anchor | Combines internal path with anchor | `[staking](/docs/tokens/rewards#staking)` |
+| Internal site link | Path to a non-docs page on the site | `[wallet](/wallet)` |
+| Anchor link | `#` + anchor name (same page only) | `[see below](#example-section)` |
+| Internal + anchor | Internal path + `#` + anchor name (other page) | `[staking](/docs/tokens/rewards#staking)` |
 
-### URL slugs
+> [!IMPORTANT]
+> Internal links (doc, folder, and site) must never include the locale or subdomain segments (e.g. `/en/www/`). The site handles these automatically.
+>
+> To link to a heading on the **same page**, use a plain anchor link (`#anchor-name`). To link to a heading on a **different page**, use the internal + anchor format (`/docs/path#anchor-name`).
 
-Internal links use slugs derived from file/folder names. To get the slug:
-
-1. Lowercase the text
-2. Remove the `.md` extension
-3. Remove the number prefix (e.g., `1-`, `2-`)
-4. Remove all characters except `a-z`, `0-9`, and `-`
-5. Collapse consecutive dashes into a single dash
-
-For example:
-- `1-for-liquidity-providers/` becomes `for-liquidity-providers`
-- `4-glif+-lp-program.md` becomes `glif-lp-program`
-
-### Anchor names
-
-Anchors link to any header in a document. To derive the anchor name from a header:
-
-1. Lowercase the text
-2. Replace spaces with dashes
-3. Remove all non-alphanumeric characters (except dashes)
-4. Collapse consecutive dashes into a single dash
-
-For example:
-- `## Reward Mechanism (stICNT)` becomes `#reward-mechanism-sticnt`
-- `## Step 1 - Connect wallet` becomes `#step-1-connect-wallet`
+> [!TIP]
+> To find the correct slug or anchor name, create the file/folder or heading first, then check the generated URL or anchor in the browser.
 
 ## Math expressions
 

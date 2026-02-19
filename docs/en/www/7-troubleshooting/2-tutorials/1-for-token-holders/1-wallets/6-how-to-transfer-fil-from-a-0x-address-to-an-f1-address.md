@@ -9,7 +9,7 @@ To send FIL from a 0x address to an f1 address, you will need to use an intermed
 
 This guide will walk you through:
 
-**Step 1:** [**Set Up Your Intermediary Wallet**](#step-1-set-up-your-burner-wallet-on-glif)
+**Step 1:** [**Set Up Your Intermediary Wallet**](#step-1-set-up-your-intermediary-wallet)
 
 **Step 2:** [**Send FIL from 0x address (MetaMask) to f1 address (intermediary wallet)**](#step-2-send-fil-from-0x-address-main-wallet-to-f1-address-intermediary-wallet)
 

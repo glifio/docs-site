@@ -9,13 +9,13 @@ In this tutorial, you will follow these two main steps:
 
 ***
 
-### **Prerequisites**
+## **Prerequisites**
 
 In this tutorial, a GLIF multisig wallet with deposited FIL, holding iFIL, is created. If you have not set one up yet, refer to our [previous tutorial](/docs/troubleshooting/tutorials/for-token-holders/using-the-pool/how-to-deposit-fil-to-glif-using-multisig-wallet) on creating a multisig wallet and depositing FIL.
 
 ***
 
-### **Step 1: Approve the Infinity Pool to Transfer Your iFIL**
+## **Step 1: Approve the Infinity Pool to Transfer Your iFIL**
 
 1. **Access your multisig wallet**
 
@@ -81,7 +81,7 @@ You can check the transaction details on the “**Transactions**” page at the 
 
 ***
 
-### **Step 2: Withdraw from the Infinity Pool**
+## **Step 2: Withdraw from the Infinity Pool**
 
 After completing Step 1, the Infinity Pool is now allowed to transfer the specified amount of iFIL entered in Step 1.
 

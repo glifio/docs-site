@@ -7,13 +7,13 @@ You will use the [**Safe Transaction Builder**](https://help.safe.global/en/arti
 1. Approve the GLIF pool to spend your Safe's ICNT tokens
 2. Deposit your ICNT tokens from your Safe into the GLIF pool
 
-### Contents
+## Contents
 
 In this tutorial, you will follow these steps:
 
 * [Step 1: Connect to a signer wallet and open the Transaction Builder](#step-1-connect-to-a-signer-wallet-and-open-the-transaction-builder)
-* [Step 2: Create the First Transaction — `approve`](#step-2-create-the-first-transaction-approve)
-* [Step 3: Create the Second Transaction — `deposit`](#step-3-create-the-second-transaction-deposit)
+* [Step 2: Create the First Transaction — `approve`](#step-2-create-the-first-transaction--approve)
+* [Step 3: Create the Second Transaction — `deposit`](#step-3-create-the-second-transaction--deposit)
 * [Step 4: Review and Create Batch](#step-4-review-and-create-batch)
 * [Step 5: Confirm Transaction](#step-5-confirm-transaction)
 * [Step 6: Sign](#step-6-sign)
@@ -22,7 +22,7 @@ In this tutorial, you will follow these steps:
 
 ***
 
-### Step 1: Connect to a signer wallet and open the Transaction Builder
+## Step 1: Connect to a signer wallet and open the Transaction Builder
 
 1. Connect a wallet that is a signer on your Safe multisig wallet.
 2. From your Safe multisig interface, click “**New transaction**”. Then click “**Transaction Builder”.**
@@ -35,7 +35,7 @@ In this tutorial, you will follow these steps:
 
 ***
 
-### Step 2: Create the First Transaction — `approve`
+## Step 2: Create the First Transaction — `approve`
 
 This step gives the GLIF staking pool permission to spend your ICNT tokens.
 
@@ -65,7 +65,7 @@ This step gives the GLIF staking pool permission to spend your ICNT tokens.
 
 ***
 
-### Step 3: Create the Second Transaction — `deposit`
+## Step 3: Create the Second Transaction — `deposit`
 
 Next, you will create a transaction to deposit ICNT tokens into the GLIF staking pool.
 
@@ -87,7 +87,7 @@ Next, you will create a transaction to deposit ICNT tokens into the GLIF staking
 
 ***
 
-### Step 4: Review and Create Batch
+## Step 4: Review and Create Batch
 
 1. You should now see both transactions , `approve` and `deposit` , listed in your **Transactions Batch** summary.
 2. Click “**Create Batch**”.
@@ -96,7 +96,7 @@ Next, you will create a transaction to deposit ICNT tokens into the GLIF staking
 
 ***
 
-### Step 5: Confirm transaction
+## Step 5: Confirm transaction
 
 1. On the **Review and Confirm** screen, click “**Send Batch**”.
 
@@ -119,7 +119,7 @@ Next, you will create a transaction to deposit ICNT tokens into the GLIF staking
 
 ***
 
-### Step 6: Sign
+## Step 6: Sign
 
 1. Click “**Continue**” to proceed to the **Review Details** screen.
 
@@ -140,7 +140,7 @@ Next, you will create a transaction to deposit ICNT tokens into the GLIF staking
 
 ***
 
-### Step 7: Get Additional Signatures
+## Step 7: Get Additional Signatures
 
 1. Connect with your other Safe signers.
 2. Go to the **Transactions** tab.
@@ -152,7 +152,7 @@ Next, you will create a transaction to deposit ICNT tokens into the GLIF staking
 
 ***
 
-### Step 8: Execute the Transaction
+## Step 8: Execute the Transaction
 
 1. Once all required signers have approved, navigate to **Transactions** and click “**Execute**”.
 

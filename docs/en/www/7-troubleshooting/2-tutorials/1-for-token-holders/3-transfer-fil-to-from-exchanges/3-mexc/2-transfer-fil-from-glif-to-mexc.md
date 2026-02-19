@@ -13,7 +13,7 @@ This tutorial will guide you through the process of withdraw your iFIL tokens fr
 
 [Step 2: Set up an intermediary wallet (optional)](#step-2-set-up-an-intermediary-wallet-optional)
 
-[Step 3: Send FIL from 0x/f410 address (main wallet) to f1 address (Intermediary wallet)](#step-3-send-fil-from-0x-f410-address-main-wallet-to-f1-address-intermediary-wallet)
+[Step 3: Send FIL from 0x/f410 address (main wallet) to f1 address (Intermediary wallet)](#step-3-send-fil-from-0xf410-address-main-wallet-to-f1-address-intermediary-wallet)
 
 [Step 4: Locate your recipient address in the exchange](#step-4-locate-your-recipient-address-in-the-exchange)
 

@@ -6,14 +6,14 @@ In order to withdraw from a GLIF Agent smart contract to an exchange like Binanc
 
 This guide will walk you through:
 
-**Step 1:** [**Setting up your intermediary wallet**](#step-1-set-up-your-intermediary-wallet)
+**Step 1:** [**Setting up your intermediary wallet**](#step-1-setting-up-your-intermediary-wallet)
 
 **Step 2: Withdrawing from your agent to the intermediary wallet**
 
 You can choose from the following options:
 
-* [**Step 2a: through GLIF website**](#step-1c-creating-an-intermediary-wallet-to-transfer-fil-ledger-wallet)
-* [**Step 2b: through CLI**](#step-2b-withdrawing-from-your-agent-to-the-intermediary-wallet-through-cli)
+* [**Step 2a: through GLIF website**](#step-2a--withdrawing-from-your-agent-to-the-intermediary-wallet---through-glif-website)
+* [**Step 2b: through CLI**](#step-2b--withdrawing-from-your-agent-to-the-intermediary-wallet---through-cli)
 
 **Step 3:** [**Transferring FIL from the intermediary wallet to the desired `f1` address on the exchange**](#step-3-transferring-fil-from-the-intermediary-wallet-to-the-desired-f1-address-on-the-exchange)
 
@@ -110,7 +110,7 @@ For details on creating an intermediary wallet, please refer to the tutorial by 
 
 ## Step 3**:** Transferring FIL from the intermediary wallet to the desired `f1` address on the exchange
 
-1. Connect to your intermediary wallet made in [step 1](#step-1a-creating-an-intermediary-wallet-burner-wallet). On the GLIF website, click “**Send FIL.**”
+1. Connect to your intermediary wallet made in [step 1](#step-1-setting-up-your-intermediary-wallet). On the GLIF website, click “**Send FIL.**”
 
 ![Send button](en-image-93.png)
 

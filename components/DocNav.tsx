@@ -7,6 +7,10 @@ import Link from 'next/link'
 
 import { DocTree, DocLeaf } from '@/lib/docs'
 
+/**
+ * Navigation tree
+ */
+
 interface DocNavProps {
   tree: DocTree
   title?: string
@@ -36,6 +40,10 @@ export const DocNav = ({ tree, title, small, collapse }: DocNavProps) => {
     </nav>
   )
 }
+
+/**
+ * Navigation section
+ */
 
 interface DocNodeProps {
   node: DocTree | DocLeaf
@@ -113,6 +121,10 @@ const DocNode = ({ node, collapse, pathname }: DocNodeProps) => {
     </li>
   )
 }
+
+/**
+ * Navigation link
+ */
 
 interface DocLinkProps {
   node: DocLeaf
