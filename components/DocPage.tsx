@@ -45,7 +45,7 @@ export const DocPage = ({
   <article className='prose prose-gray max-w-none'>
     <DocMarkdown locale={locale} subdomain={subdomain} content={content} />
 
-    {tree && <DocNav tree={tree} title={tNav} />}
+    {tree && <DocNav tree={tree} title={tNav} rootIndent />}
 
     {(prev || next) && (
       <>

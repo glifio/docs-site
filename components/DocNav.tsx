@@ -16,9 +16,16 @@ interface DocNavProps {
   title?: string
   small?: boolean
   collapse?: boolean
+  rootIndent?: boolean
 }
 
-export const DocNav = ({ tree, title, small, collapse }: DocNavProps) => {
+export const DocNav = ({
+  tree,
+  title,
+  small,
+  collapse,
+  rootIndent,
+}: DocNavProps) => {
   const pathname = usePathname()
 
   return (
@@ -27,7 +34,12 @@ export const DocNav = ({ tree, title, small, collapse }: DocNavProps) => {
         {title ?? <DocLink node={tree} pathname={pathname} className='block' />}
       </h2>
 
-      <ul className='pl-0 list-none'>
+      <ul
+        className={classNames(
+          'list-none',
+          rootIndent ? 'ml-1.5 pl-1.5 border-l border-current/25' : 'pl-0',
+        )}
+      >
         {tree.children.map(child => (
           <DocNode
             key={child.url}
