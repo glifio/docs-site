@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
+      "Bash(basename:*)",
       "Bash(cat:*)",
+      "Bash(comm:*)",
       "Bash(cp:*)",
       "Bash(curl:*)",
       "Bash(echo:*)",
