@@ -9,6 +9,22 @@ import {
   getDocTitle,
   getDocTree,
 } from '@/lib/docs'
+import { isLocale } from '@/lib/env'
+
+const translations = {
+  next: {
+    en: 'Next',
+    zh: '下一页',
+  },
+  previous: {
+    en: 'Previous',
+    zh: '上一页',
+  },
+  'table-of-contents': {
+    en: 'Table of Contents',
+    zh: '目录',
+  },
+}
 
 interface PageProps {
   params: Promise<{ locale: string; subdomain: string; slug?: string[] }>
@@ -16,6 +32,7 @@ interface PageProps {
 
 const Page = async ({ params }: PageProps) => {
   const { locale, subdomain, slug } = await params
+  if (!isLocale(locale)) throw new Error('Invalid locale')
 
   const content = await getDocContent(locale, subdomain, slug)
   if (!content) notFound()
@@ -33,6 +50,9 @@ const Page = async ({ params }: PageProps) => {
       tree={tree}
       prev={prev}
       next={next}
+      tNav={translations['table-of-contents'][locale]}
+      tPrev={translations.previous[locale]}
+      tNext={translations.next[locale]}
     />
   )
 }
@@ -45,7 +65,7 @@ export const generateMetadata = async ({
   const { locale, subdomain, slug } = await params
   const doc = await getDocContent(locale, subdomain, slug)
   const title = doc ? getDocTitle(doc) : 'Not Found'
-  return { title: `GLIF Docs \u2013 ${title}` }
+  return { title: `GLIF \u2013 Docs \u2013 ${title}` }
 }
 
 export const generateStaticParams = getAllDocParams

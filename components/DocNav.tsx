@@ -42,7 +42,7 @@ export const DocNav = ({ tree, title, small, collapse }: DocNavProps) => {
 }
 
 /**
- * Navigation section
+ * Navigation node
  */
 
 interface DocNodeProps {

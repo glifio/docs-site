@@ -25,6 +25,9 @@ interface DocPageProps {
   tree: DocTree | null
   prev: DocLeaf | null
   next: DocLeaf | null
+  tNav: string
+  tPrev: string
+  tNext: string
 }
 
 export const DocPage = ({
@@ -35,18 +38,21 @@ export const DocPage = ({
   tree,
   prev,
   next,
+  tNav,
+  tPrev,
+  tNext,
 }: DocPageProps) => (
   <article className='prose prose-gray max-w-none'>
     <DocMarkdown locale={locale} subdomain={subdomain} content={content} />
 
-    {tree && <DocNav tree={tree} title='Table of Contents' />}
+    {tree && <DocNav tree={tree} title={tNav} />}
 
     {(prev || next) && (
       <>
         <hr />
         <nav className='not-prose flex justify-between gap-4'>
-          <DocLink label='Previous' doc={prev} align='left' />
-          <DocLink label='Next' doc={next} align='right' />
+          <DocLink label={tPrev} doc={prev} align='left' />
+          <DocLink label={tNext} doc={next} align='right' />
         </nav>
       </>
     )}

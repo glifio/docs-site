@@ -5,7 +5,7 @@ interface PageProps {
 }
 
 const getTitle = (slug?: string[]) =>
-  `GLIF${slug ? ` \u2013 ${slug.map(getSlugPart).join(' \u2013 ')}` : ''}`
+  `GLIF${slug?.length ? ` \u2013 ${slug.map(getSlugPart).join(' \u2013 ')}` : ''}`
 
 const getSlugPart = (slug: string): string =>
   slug ? `${slug[0].toUpperCase()}${slug.slice(1)}` : 'Empty'
