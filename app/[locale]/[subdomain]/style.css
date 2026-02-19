@@ -31,3 +31,8 @@
     @apply opacity-100;
   }
 }
+
+/* Revert DPR scaling */
+.dpr-scale {
+  zoom: calc(1 / var(--dpr, 1));
+}

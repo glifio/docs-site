@@ -66,7 +66,8 @@ export const DocMarkdown = ({
       img: ({ src, alt }) => {
         if (!src || typeof src !== 'string') return null
         const imgSrc = /^(https?:\/\/|\/)/.test(src) ? src : `/${src}`
-        return <img src={imgSrc} alt={alt} /> // eslint-disable-line @next/next/no-img-element
+        // eslint-disable-next-line @next/next/no-img-element
+        return <img className='dpr-scale' src={imgSrc} alt={alt} />
       },
     }}
   >
