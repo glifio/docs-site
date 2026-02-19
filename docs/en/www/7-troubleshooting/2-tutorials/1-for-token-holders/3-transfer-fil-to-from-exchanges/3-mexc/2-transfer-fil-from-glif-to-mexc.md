@@ -73,7 +73,7 @@ Once done, your intermediary wallet's address, starting with `f1`, will be visib
 ![Copy address](en-image-47.png)
 
 > [!CAUTION]
-> **WARNING**: Before transferring a large amount of funds to an exchange, send a small amount as a test transaction first.
+> Before transferring a large amount of funds to an exchange, send a small amount as a test transaction first.
 
 ## Step 5: Send FIL from your wallet to exchange
 

@@ -3,7 +3,7 @@
 If your FIL tokens are currently on an exchange and you are eager to utilize them to earn rewards by depositing to GLIF, or if you want to withdraw from GLIF to an exchange, this guide will simplify the process for you.
 
 > [!WARNING]
-> **WARNING**: Before transferring a large amount of funds to an exchange, send a small amount as a test transaction first.
+> Before transferring a large amount of funds to an exchange, send a small amount as a test transaction first.
 
 ## Understand Filecoin Address Types
 
@@ -34,7 +34,7 @@ Before conducting any transactions between your wallet and an exchange, **check 
   * [Transfer FIL from GLIF to MEXC](/docs/troubleshooting/tutorials/for-token-holders/transfer-fil-to-from-exchanges/mexc/transfer-fil-from-glif-to-mexc)
 
 > [!CAUTION]
-> **WARNING**: Certain exchanges like Bybit, MEXC, Binance US and others do not support transfers from 0x style Filecoin addresses yet. Before transferring any funds to an exchange, send a test transaction first.
+> Certain exchanges like Bybit, MEXC, Binance US and others do not support transfers from 0x style Filecoin addresses yet. Before transferring any funds to an exchange, send a test transaction first.
 
 ***
 

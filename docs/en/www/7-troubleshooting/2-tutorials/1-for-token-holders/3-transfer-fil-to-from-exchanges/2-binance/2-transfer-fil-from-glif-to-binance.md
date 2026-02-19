@@ -25,7 +25,7 @@ This tutorial will guide you through the process of withdraw your iFIL tokens fr
    Select the “**Filecoin**” network if your wallet address starts with `f1`.
 
 > [!CAUTION]
-> **WARNING**: Choosing the wrong network can result in the loss of funds. Be aware and double-check your address type.
+> Choosing the wrong network can result in the loss of funds. Be aware and double-check your address type.
 
 ![Tutorial step](en-image-393.png)
 
@@ -34,7 +34,7 @@ This tutorial will guide you through the process of withdraw your iFIL tokens fr
 ![Copy address](en-image-63.png)
 
 > [!CAUTION]
-> **WARNING**: Before transferring a large amount of funds to an exchange, send a small amount as a test transaction first.
+> Before transferring a large amount of funds to an exchange, send a small amount as a test transaction first.
 
 ## Step 3: Send FIL from your wallet to exchange
 
