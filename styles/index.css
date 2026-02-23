@@ -3,6 +3,8 @@
 @import "katex/dist/katex.min.css";
 @import "remark-github-blockquote-alert/alert.css";
 
+@import './utilities/dpr-scale.css';
+
 @theme {
   --default-transition-duration: 300ms;
   --color-accent: #724AFF;
@@ -30,9 +32,4 @@
   &:hover .anchor-link {
     @apply opacity-100;
   }
-}
-
-/* Revert DPR scaling */
-.dpr-scale {
-  zoom: calc(1 / var(--dpr, 1));
 }
