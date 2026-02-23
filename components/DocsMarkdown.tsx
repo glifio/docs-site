@@ -8,21 +8,21 @@ import rehypeKatex from 'rehype-katex'
 import GithubSlugger from 'github-slugger'
 import Link from 'next/link'
 
-import { DocHeader } from './DocHeader'
+import { DocsHeader } from './DocsHeader'
 
-interface DocMarkdownProps {
+interface DocsMarkdownProps {
   locale: string
   subdomain: string
   content: string
   anchorLinks?: boolean
 }
 
-export const DocMarkdown = ({
+export const DocsMarkdown = ({
   locale,
   subdomain,
   content,
   anchorLinks,
-}: DocMarkdownProps) => (
+}: DocsMarkdownProps) => (
   <ReactMarkdown
     remarkPlugins={[
       remarkGfm,
@@ -32,11 +32,11 @@ export const DocMarkdown = ({
     rehypePlugins={[...(anchorLinks ? [rehypeSlugCustom] : []), rehypeKatex]}
     components={{
       ...(anchorLinks && {
-        h2: props => <DocHeader Tag='h2' {...props} />,
-        h3: props => <DocHeader Tag='h3' {...props} />,
-        h4: props => <DocHeader Tag='h4' {...props} />,
-        h5: props => <DocHeader Tag='h5' {...props} />,
-        h6: props => <DocHeader Tag='h6' {...props} />,
+        h2: props => <DocsHeader Tag='h2' {...props} />,
+        h3: props => <DocsHeader Tag='h3' {...props} />,
+        h4: props => <DocsHeader Tag='h4' {...props} />,
+        h5: props => <DocsHeader Tag='h5' {...props} />,
+        h6: props => <DocsHeader Tag='h6' {...props} />,
       }),
       a: ({ href, children }) => {
         if (!href) return <a>{children}</a>
