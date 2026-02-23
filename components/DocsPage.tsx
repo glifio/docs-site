@@ -1,13 +1,13 @@
-import { DocBtmLink } from './DocBtmLink'
-import { DocMarkdown } from './DocMarkdown'
-import { DocNav } from './DocNav'
+import { DocsBtmLink } from './DocsBtmLink'
+import { DocsMarkdown } from './DocsMarkdown'
+import { DocsNav } from './DocsNav'
 import { DocTree, DocLeaf } from '@/lib/docs'
 
 /**
  * Documentation page
  */
 
-interface DocPageProps {
+interface DocsPageProps {
   locale: string
   subdomain: string
   content: string
@@ -20,7 +20,7 @@ interface DocPageProps {
   tNext: string
 }
 
-export const DocPage = ({
+export const DocsPage = ({
   locale,
   subdomain,
   content,
@@ -31,29 +31,29 @@ export const DocPage = ({
   tNav,
   tPrev,
   tNext,
-}: DocPageProps) => (
+}: DocsPageProps) => (
   <article className='prose prose-gray max-w-none'>
-    <DocMarkdown
+    <DocsMarkdown
       locale={locale}
       subdomain={subdomain}
       content={content}
       anchorLinks
     />
 
-    {tree && <DocNav tree={tree} title={tNav} rootIndent />}
+    {tree && <DocsNav tree={tree} title={tNav} rootIndent />}
 
     {(prev || next) && (
       <>
         <hr />
         <nav className='not-prose flex justify-between gap-4'>
-          <DocBtmLink label={tPrev} doc={prev} align='left' />
-          <DocBtmLink label={tNext} doc={next} align='right' />
+          <DocsBtmLink label={tPrev} doc={prev} align='left' />
+          <DocsBtmLink label={tNext} doc={next} align='right' />
         </nav>
       </>
     )}
 
     {footer && (
-      <DocMarkdown locale={locale} subdomain={subdomain} content={footer} />
+      <DocsMarkdown locale={locale} subdomain={subdomain} content={footer} />
     )}
   </article>
 )
