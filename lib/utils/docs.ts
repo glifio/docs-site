@@ -181,6 +181,9 @@ const getDirDocParams = async (
   const entries = await fs.readdir(dir, { withFileTypes: true })
 
   for (const entry of entries) {
+    // Exclude footers for static site generation
+    if (entry.name === 'FOOTER.md') continue
+
     const entryPath = path.join(dir, entry.name)
 
     // Recurse into directories

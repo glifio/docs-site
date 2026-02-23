@@ -29,7 +29,10 @@ export const DocsMarkdown = ({
       remarkAlert,
       [remarkMath, { singleDollarTextMath: false }],
     ]}
-    rehypePlugins={[...(anchorLinks ? [rehypeSlugCustom] : []), rehypeKatex]}
+    rehypePlugins={[
+      ...(anchorLinks ? [rehypeSlugCustom] : []),
+      [rehypeKatex, { strict: katexStrictMode }],
+    ]}
     components={{
       ...(anchorLinks && {
         h2: props => <DocsHeader Tag='h2' {...props} />,
@@ -74,6 +77,10 @@ export const DocsMarkdown = ({
     {content}
   </ReactMarkdown>
 )
+
+// Ignore warnings about Chinese in math blocks
+const katexStrictMode = (errorCode: string) =>
+  errorCode === 'unicodeTextInMathMode' ? 'ignore' : 'warn'
 
 /**
  * Generate anchor link slugs
