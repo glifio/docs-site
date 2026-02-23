@@ -4,7 +4,7 @@ import { ReactNode } from 'react'
 import type { Metadata } from 'next'
 
 import { Sidebar } from './sidebar'
-import { getDocTree } from '@/lib/docs'
+import { getDocTree } from '@/lib/utils/docs'
 
 interface LayoutProps {
   children: ReactNode

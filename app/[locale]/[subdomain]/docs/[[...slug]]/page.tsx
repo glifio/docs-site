@@ -9,7 +9,7 @@ import {
   getDocPrevNext,
   getDocTitle,
   getDocTree,
-} from '@/lib/docs'
+} from '@/lib/utils/docs'
 import { isLocale } from '@/lib/env'
 
 const translations = {

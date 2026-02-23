@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import classNames from 'classnames'
 
-import { DocLeaf } from '@/lib/docs'
+import { DocLeaf } from '@/lib/types/docs'
 
 interface DocsBtmLinkProps {
   label: string
