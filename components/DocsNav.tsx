@@ -5,13 +5,13 @@ import { usePathname } from 'next/navigation'
 import classNames from 'classnames'
 import Link from 'next/link'
 
-import { DocTree, DocLeaf } from '@/lib/docs'
+import { DocLeaf, DocTree } from '@/lib/types/docs'
 
 /**
  * Navigation tree
  */
 
-interface DocNavProps {
+interface DocsNavProps {
   tree: DocTree
   title?: string
   small?: boolean
@@ -19,13 +19,13 @@ interface DocNavProps {
   rootIndent?: boolean
 }
 
-export const DocNav = ({
+export const DocsNav = ({
   tree,
   title,
   small,
   collapse,
   rootIndent,
-}: DocNavProps) => {
+}: DocsNavProps) => {
   const pathname = usePathname()
 
   return (

@@ -1,12 +1,12 @@
 import { ReactNode } from 'react'
 
-interface DocHeaderProps {
+interface DocsHeaderProps {
   Tag: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6'
   id?: string
   children?: ReactNode
 }
 
-export const DocHeader = ({ Tag, id, children }: DocHeaderProps) => (
+export const DocsHeader = ({ Tag, id, children }: DocsHeaderProps) => (
   <Tag id={id}>
     {id && (
       <a href={`#${id}`} className='anchor-link'>
