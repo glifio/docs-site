@@ -2,7 +2,7 @@
 
 import { useRouter } from 'next/navigation'
 import { DocsNav } from '@/components/DocsNav'
-import { DocTree } from '@/lib/docs'
+import { DocTree } from '@/lib/types/docs'
 import { locales, subdomains } from '@/lib/env'
 
 interface SidebarProps {

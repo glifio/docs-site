@@ -1,7 +1,7 @@
 import { DocsBtmLink } from './DocsBtmLink'
 import { DocsMarkdown } from './DocsMarkdown'
 import { DocsNav } from './DocsNav'
-import { DocTree, DocLeaf } from '@/lib/docs'
+import { DocLeaf, DocTree } from '@/lib/types/docs'
 
 /**
  * Documentation page

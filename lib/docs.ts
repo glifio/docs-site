@@ -2,18 +2,10 @@ import 'server-only'
 import * as fs from 'node:fs/promises'
 import * as path from 'node:path'
 
+import { DocLeaf, DocTree } from '@/lib/types/docs'
 import { locales, subdomains } from '@/lib/env'
 
 const DOCS_DIR = path.join(process.cwd(), 'docs')
-
-export interface DocTree extends DocLeaf {
-  children: Array<DocTree | DocLeaf>
-}
-
-export interface DocLeaf {
-  title: string
-  url: string
-}
 
 export interface DocParams {
   locale: string
