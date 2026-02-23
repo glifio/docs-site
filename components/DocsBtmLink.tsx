@@ -3,13 +3,13 @@ import classNames from 'classnames'
 
 import { DocLeaf } from '@/lib/docs'
 
-interface DocBtmLinkProps {
+interface DocsBtmLinkProps {
   label: string
   doc: DocLeaf | null
   align: 'left' | 'right'
 }
 
-export const DocBtmLink = ({ label, doc, align }: DocBtmLinkProps) =>
+export const DocsBtmLink = ({ label, doc, align }: DocsBtmLinkProps) =>
   doc ? (
     <Link href={doc.url} className='group'>
       <button

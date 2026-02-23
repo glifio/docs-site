@@ -11,7 +11,7 @@ import { DocTree, DocLeaf } from '@/lib/docs'
  * Navigation tree
  */
 
-interface DocNavProps {
+interface DocsNavProps {
   tree: DocTree
   title?: string
   small?: boolean
@@ -19,13 +19,13 @@ interface DocNavProps {
   rootIndent?: boolean
 }
 
-export const DocNav = ({
+export const DocsNav = ({
   tree,
   title,
   small,
   collapse,
   rootIndent,
-}: DocNavProps) => {
+}: DocsNavProps) => {
   const pathname = usePathname()
 
   return (
