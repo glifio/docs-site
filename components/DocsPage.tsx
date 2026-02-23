@@ -42,6 +42,10 @@ export const DocsPage = ({
 
     {tree && <DocsNav tree={tree} title={tNav} rootIndent />}
 
+    {footer && (
+      <DocsMarkdown locale={locale} subdomain={subdomain} content={footer} />
+    )}
+
     {(prev || next) && (
       <>
         <hr />
@@ -50,10 +54,6 @@ export const DocsPage = ({
           <DocsBtmLink label={tNext} doc={next} align='right' />
         </nav>
       </>
-    )}
-
-    {footer && (
-      <DocsMarkdown locale={locale} subdomain={subdomain} content={footer} />
     )}
   </article>
 )
