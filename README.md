@@ -1,6 +1,6 @@
 # GLIF Documentation
 
-Source content for the [glif.io](https://glif.io) and [icn.glif.io](https://icn.glif.io) documentation.
+Source content for the GLIF documentation.
 
 ## Running locally
 
