@@ -2,7 +2,8 @@ import './style.css'
 
 import { ReactNode } from 'react'
 import type { Metadata } from 'next'
-import { Sidebar } from '@/components/Sidebar'
+
+import { Sidebar } from './sidebar'
 import { getDocTree } from '@/lib/docs'
 
 interface LayoutProps {

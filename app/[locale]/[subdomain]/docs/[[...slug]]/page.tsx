@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
-import { DocPage } from '@/components/DocPage'
+
+import { DocsPage } from '@/components/DocsPage'
 import {
   getAllDocParams,
   getDocContent,
@@ -42,7 +43,7 @@ const Page = async ({ params }: PageProps) => {
   const { prev, next } = await getDocPrevNext(locale, subdomain, slug)
 
   return (
-    <DocPage
+    <DocsPage
       locale={locale}
       subdomain={subdomain}
       content={content}
