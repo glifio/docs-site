@@ -11,33 +11,32 @@ interface DocsBtmLinkProps {
 
 export const DocsBtmLink = ({ label, doc, align }: DocsBtmLinkProps) =>
   doc ? (
-    <Link href={doc.url} className='group'>
-      <button
+    <Link
+      href={doc.url}
+      className={classNames(
+        'group block px-4 py-3 rounded-lg transition-colors',
+        'border border-current/25 hover:border-accent',
+        align === 'right' && 'text-right',
+      )}
+    >
+      <div
         className={classNames(
-          `px-4 py-3 rounded-lg cursor-pointer transition-colors`,
-          'border border-current/25 group-hover:border-accent',
-          align === 'right' && 'text-right',
+          'flex items-center gap-3 font-semibold transition-colors',
+          'text-sm text-current/50 group-hover:text-accent',
+          align === 'right' && 'flex-row-reverse',
         )}
       >
-        <div
+        <ArrowIcon
           className={classNames(
-            'flex items-center gap-3 font-semibold transition-colors',
-            'text-sm text-current/50 group-hover:text-accent',
-            align === 'right' && 'flex-row-reverse',
+            'flex-none h-4 mt-0.75',
+            align === 'right' && 'rotate-180',
           )}
-        >
-          <ArrowIcon
-            className={classNames(
-              'flex-none h-4 mt-0.75',
-              align === 'right' && 'rotate-180',
-            )}
-          />
-          <span>{label}</span>
-        </div>
-        <div className='transition-colors text-current/75 group-hover:text-current'>
-          {doc.title}
-        </div>
-      </button>
+        />
+        <span>{label}</span>
+      </div>
+      <div className='transition-colors text-current/75 group-hover:text-current'>
+        {doc.title}
+      </div>
     </Link>
   ) : (
     <div />
