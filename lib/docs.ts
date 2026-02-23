@@ -2,21 +2,10 @@ import 'server-only'
 import * as fs from 'node:fs/promises'
 import * as path from 'node:path'
 
-import { DocLeaf, DocTree } from '@/lib/types/docs'
+import { DocLeaf, DocMatch, DocParams, DocTree } from '@/lib/types/docs'
 import { locales, subdomains } from '@/lib/env'
 
 const DOCS_DIR = path.join(process.cwd(), 'docs')
-
-export interface DocParams {
-  locale: string
-  subdomain: string
-  slug: string[]
-}
-
-export interface DocMatch {
-  match: string
-  isDir: boolean
-}
 
 const flattenDocTree = (tree: DocTree): DocLeaf[] => {
   const leaves: DocLeaf[] = [{ title: tree.title, url: tree.url }]
