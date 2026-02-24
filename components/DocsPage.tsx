@@ -18,6 +18,7 @@ interface DocsPageProps {
   tNav: string
   tPrev: string
   tNext: string
+  publicRoot?: `/${string}`
 }
 
 export const DocsPage = ({
@@ -31,19 +32,26 @@ export const DocsPage = ({
   tNav,
   tPrev,
   tNext,
+  publicRoot,
 }: DocsPageProps) => (
   <article className='prose prose-gray max-w-none'>
     <DocsMarkdown
       locale={locale}
       subdomain={subdomain}
       content={content}
+      publicRoot={publicRoot}
       anchorLinks
     />
 
     {tree && <DocsNav tree={tree} title={tNav} rootIndent />}
 
     {footer && (
-      <DocsMarkdown locale={locale} subdomain={subdomain} content={footer} />
+      <DocsMarkdown
+        locale={locale}
+        subdomain={subdomain}
+        content={footer}
+        publicRoot={publicRoot}
+      />
     )}
 
     {(prev || next) && (
