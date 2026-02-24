@@ -76,7 +76,7 @@ export const DocsMarkdown = ({
             ? `${publicRoot}/${src}`
             : `/${src}`
         // eslint-disable-next-line @next/next/no-img-element
-        return <img src={imgSrc} alt={alt} style={{ zoom: 1 / 1.5 }} />
+        return <img src={imgSrc} alt={alt} />
       },
     }}
   >
