@@ -17,13 +17,6 @@ const Layout = async ({ children, params }: LayoutProps) => {
 
   return (
     <html lang={locale}>
-      <head>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `document.documentElement.style.setProperty("--dpr",devicePixelRatio)`,
-          }}
-        />
-      </head>
       <body className='antialiased bg-white text-black'>
         <div className='flex'>
           <div className='flex-none sticky top-0 self-start h-screen overflow-y-auto w-xs p-8'>

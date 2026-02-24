@@ -1,3 +1,0 @@
-@utility dpr-scale {
-  zoom: calc(1 / var(--dpr, 1));
-}
