@@ -46,7 +46,14 @@ export const DocsPage = ({
       isSubdomainHost={isSubdomainHost}
     />
 
-    {tree && <DocsNav tree={tree} title={tNav} rootIndent />}
+    {tree && (
+      <DocsNav
+        tree={tree}
+        title={tNav}
+        rootIndent
+        isSubdomainHost={isSubdomainHost}
+      />
+    )}
 
     {footer && (
       <DocsMarkdown
