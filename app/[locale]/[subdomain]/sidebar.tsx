@@ -1,9 +1,11 @@
 'use client'
 
 import { useRouter } from 'next/navigation'
+
 import { DocsNav } from '@/components/DocsNav'
+import { subdomains } from '@/lib/data/domain'
+import { locales } from '@/lib/data/locale'
 import { DocTree } from '@/lib/types/docs'
-import { locales, subdomains } from '@/lib/env'
 
 interface SidebarProps {
   locale: string

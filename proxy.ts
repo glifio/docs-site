@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 
-import { locales, subdomains } from '@/lib/env'
+import { defaultSubdomain, isSubdomain } from './lib/data/domain'
+import { defaultLocale, isLocale } from './lib/data/locale'
 
 const proxy = async (request: NextRequest) => {
   // Get request data
@@ -9,15 +10,17 @@ const proxy = async (request: NextRequest) => {
 
   // Redirect if locale is missing
   const locale = pathParts.at(1)
-  if (!locales.some(l => l === locale)) {
-    request.nextUrl.pathname = `/en${pathname}`
+  if (!locale || !isLocale(locale)) {
+    request.nextUrl.pathname = `/${defaultLocale}${pathname}`
     return NextResponse.redirect(request.nextUrl)
   }
 
   // Redirect if subdomain is missing
   const subdomain = pathParts.at(2)
-  if (!subdomains.some(s => s === subdomain)) {
-    request.nextUrl.pathname = pathParts.toSpliced(2, 0, 'www').join('/')
+  if (!subdomain || !isSubdomain(subdomain)) {
+    request.nextUrl.pathname = pathParts
+      .toSpliced(2, 0, defaultSubdomain)
+      .join('/')
     return NextResponse.redirect(request.nextUrl)
   }
 

@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 
 import { DocsPage } from '@/components/DocsPage'
+import { isLocale } from '@/lib/data/locale'
 import {
   getAllDocParams,
   getDocContent,
@@ -10,7 +11,6 @@ import {
   getDocTitle,
   getDocTree,
 } from '@/lib/utils/docs'
-import { isLocale } from '@/lib/env'
 
 const translations = {
   next: {
