@@ -1,7 +1,7 @@
 @layer components {
   /* Inline code styling */
   .prose :where(code):not(:where(pre code)) {
-    @apply bg-gray-100 px-1.5 py-0.5 rounded;
+    @apply bg-current/10 px-1.5 py-0.5 rounded;
     @apply text-sm font-mono font-normal;
     @apply before:content-none after:content-none;
   }
