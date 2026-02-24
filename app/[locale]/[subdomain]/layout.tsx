@@ -16,7 +16,7 @@ const Layout = async ({ children, params }: LayoutProps) => {
   const tree = await getDocTree(locale, subdomain)
 
   return (
-    <html lang={locale}>
+    <html lang={locale} suppressHydrationWarning>
       <head>
         <script
           dangerouslySetInnerHTML={{
