@@ -77,8 +77,7 @@ export const DocsMarkdown = ({
         img: ({ src, alt }) => {
           if (!src || typeof src !== 'string') return null
           const imgSrc = /^(https?:\/\/|\/)/.test(src) ? src : fileBase + src
-          // eslint-disable-next-line @next/next/no-img-element
-          return <img src={imgSrc} alt={alt} />
+          return <img src={imgSrc} alt={alt} /> // eslint-disable-line @next/next/no-img-element
         },
       }}
     >
