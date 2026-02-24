@@ -24,7 +24,7 @@ const Layout = async ({ children, params }: LayoutProps) => {
           }}
         />
       </head>
-      <body className='antialiased bg-white text-gray-900'>
+      <body className='antialiased bg-white text-black'>
         <div className='flex'>
           <div className='flex-none sticky top-0 self-start h-screen overflow-y-auto w-xs p-8'>
             <Sidebar locale={locale} subdomain={subdomain} tree={tree} />
