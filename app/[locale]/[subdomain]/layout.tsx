@@ -20,7 +20,7 @@ const Layout = async ({ children, params }: LayoutProps) => {
       <head>
         <script
           dangerouslySetInnerHTML={{
-            __html: `document.documentElement.style.setProperty("--dpr",devicePixelRatio)`,
+            __html: `document.documentElement.style.setProperty('--dpr', window.devicePixelRatio)`,
           }}
         />
       </head>
