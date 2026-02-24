@@ -14,75 +14,78 @@ interface DocsMarkdownProps {
   locale: string
   subdomain: string
   content: string
-  publicRoot?: `/${string}`
   anchorLinks?: boolean
+  publicRoot?: `/${string}`
+  isSubdomainHost?: boolean
 }
 
 export const DocsMarkdown = ({
   locale,
   subdomain,
   content,
-  publicRoot,
   anchorLinks,
-}: DocsMarkdownProps) => (
-  <ReactMarkdown
-    remarkPlugins={[
-      remarkGfm,
-      remarkAlert,
-      [remarkMath, { singleDollarTextMath: false }],
-    ]}
-    rehypePlugins={[
-      ...(anchorLinks ? [rehypeSlugCustom] : []),
-      [rehypeKatex, { strict: katexStrictMode }],
-    ]}
-    components={{
-      ...(anchorLinks && {
-        h2: props => <DocsHeader Tag='h2' {...props} />,
-        h3: props => <DocsHeader Tag='h3' {...props} />,
-        h4: props => <DocsHeader Tag='h4' {...props} />,
-        h5: props => <DocsHeader Tag='h5' {...props} />,
-        h6: props => <DocsHeader Tag='h6' {...props} />,
-      }),
-      a: ({ href, children }) => {
-        if (!href) return <a>{children}</a>
+  publicRoot,
+  isSubdomainHost,
+}: DocsMarkdownProps) => {
+  const fileBase = `${publicRoot ?? ''}/`
+  const linkBase = `/${locale}${isSubdomainHost ? '' : `/${subdomain}`}`
 
-        // Internal links
-        if (href.startsWith('/'))
-          return <Link href={`/${locale}/${subdomain}${href}`}>{children}</Link>
+  return (
+    <ReactMarkdown
+      remarkPlugins={[
+        remarkGfm,
+        remarkAlert,
+        [remarkMath, { singleDollarTextMath: false }],
+      ]}
+      rehypePlugins={[
+        ...(anchorLinks ? [rehypeSlugCustom] : []),
+        [rehypeKatex, { strict: katexStrictMode }],
+      ]}
+      components={{
+        ...(anchorLinks && {
+          h2: props => <DocsHeader Tag='h2' {...props} />,
+          h3: props => <DocsHeader Tag='h3' {...props} />,
+          h4: props => <DocsHeader Tag='h4' {...props} />,
+          h5: props => <DocsHeader Tag='h5' {...props} />,
+          h6: props => <DocsHeader Tag='h6' {...props} />,
+        }),
+        a: ({ href, children }) => {
+          if (!href) return <a>{children}</a>
 
-        // Anchor links
-        if (href.startsWith('#')) return <a href={href}>{children}</a>
+          // Internal links
+          if (href.startsWith('/'))
+            return <Link href={linkBase + href}>{children}</Link>
 
-        // External links
-        if (/^https?:\/\//.test(href))
+          // Anchor links
+          if (href.startsWith('#')) return <a href={href}>{children}</a>
+
+          // External links
+          if (/^https?:\/\//.test(href))
+            return (
+              <a href={href} target='_blank' rel='noopener noreferrer'>
+                {children}
+              </a>
+            )
+
+          // Asset links
           return (
-            <a href={href} target='_blank' rel='noopener noreferrer'>
+            <a href={fileBase + href} download>
               {children}
             </a>
           )
-
-        // Asset links
-        return (
-          <a href={publicRoot ? `${publicRoot}/${href}` : `/${href}`} download>
-            {children}
-          </a>
-        )
-      },
-      img: ({ src, alt }) => {
-        if (!src || typeof src !== 'string') return null
-        const imgSrc = /^(https?:\/\/|\/)/.test(src)
-          ? src
-          : publicRoot
-            ? `${publicRoot}/${src}`
-            : `/${src}`
-        // eslint-disable-next-line @next/next/no-img-element
-        return <img src={imgSrc} alt={alt} />
-      },
-    }}
-  >
-    {content}
-  </ReactMarkdown>
-)
+        },
+        img: ({ src, alt }) => {
+          if (!src || typeof src !== 'string') return null
+          const imgSrc = /^(https?:\/\/|\/)/.test(src) ? src : fileBase + src
+          // eslint-disable-next-line @next/next/no-img-element
+          return <img src={imgSrc} alt={alt} />
+        },
+      }}
+    >
+      {content}
+    </ReactMarkdown>
+  )
+}
 
 // Ignore warnings about Chinese in math blocks
 const katexStrictMode = (errorCode: string) =>
