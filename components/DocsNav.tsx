@@ -17,6 +17,7 @@ interface DocsNavProps {
   small?: boolean
   collapse?: boolean
   rootIndent?: boolean
+  isSubdomainHost?: boolean
 }
 
 export const DocsNav = ({
@@ -25,6 +26,7 @@ export const DocsNav = ({
   small,
   collapse,
   rootIndent,
+  isSubdomainHost,
 }: DocsNavProps) => {
   const pathname = usePathname()
 
