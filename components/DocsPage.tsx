@@ -19,6 +19,7 @@ interface DocsPageProps {
   tPrev: string
   tNext: string
   publicRoot?: `/${string}`
+  isSubdomainHost?: boolean
 }
 
 export const DocsPage = ({
@@ -33,14 +34,16 @@ export const DocsPage = ({
   tPrev,
   tNext,
   publicRoot,
+  isSubdomainHost,
 }: DocsPageProps) => (
   <article className='prose prose-gray max-w-none'>
     <DocsMarkdown
       locale={locale}
       subdomain={subdomain}
       content={content}
-      publicRoot={publicRoot}
       anchorLinks
+      publicRoot={publicRoot}
+      isSubdomainHost={isSubdomainHost}
     />
 
     {tree && <DocsNav tree={tree} title={tNav} rootIndent />}
@@ -51,6 +54,7 @@ export const DocsPage = ({
         subdomain={subdomain}
         content={footer}
         publicRoot={publicRoot}
+        isSubdomainHost={isSubdomainHost}
       />
     )}
 
