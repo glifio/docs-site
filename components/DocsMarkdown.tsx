@@ -14,6 +14,7 @@ interface DocsMarkdownProps {
   locale: string
   subdomain: string
   content: string
+  publicRoot?: `/${string}`
   anchorLinks?: boolean
 }
 
@@ -21,6 +22,7 @@ export const DocsMarkdown = ({
   locale,
   subdomain,
   content,
+  publicRoot,
   anchorLinks,
 }: DocsMarkdownProps) => (
   <ReactMarkdown
@@ -61,14 +63,18 @@ export const DocsMarkdown = ({
 
         // Asset links
         return (
-          <a href={`/${href}`} download>
+          <a href={publicRoot ? `${publicRoot}/${href}` : `/${href}`} download>
             {children}
           </a>
         )
       },
       img: ({ src, alt }) => {
         if (!src || typeof src !== 'string') return null
-        const imgSrc = /^(https?:\/\/|\/)/.test(src) ? src : `/${src}`
+        const imgSrc = /^(https?:\/\/|\/)/.test(src)
+          ? src
+          : publicRoot
+            ? `${publicRoot}/${src}`
+            : `/${src}`
         // eslint-disable-next-line @next/next/no-img-element
         return <img className='dpr-scale' src={imgSrc} alt={alt} />
       },
