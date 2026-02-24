@@ -16,14 +16,7 @@ const Layout = async ({ children, params }: LayoutProps) => {
   const tree = await getDocTree(locale, subdomain)
 
   return (
-    <html lang={locale} suppressHydrationWarning>
-      <head>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `document.documentElement.style.setProperty('--dpr', window.devicePixelRatio)`,
-          }}
-        />
-      </head>
+    <html lang={locale}>
       <body className='antialiased bg-white text-black'>
         <div className='flex'>
           <div className='flex-none sticky top-0 self-start h-screen overflow-y-auto w-xs p-8'>
