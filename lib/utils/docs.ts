@@ -6,9 +6,7 @@ import { subdomains } from '@/lib/data/domain'
 import { locales } from '@/lib/data/locale'
 import { DocLeaf, DocMatch, DocParams, DocTree } from '@/lib/types/docs'
 
-// Resolve docs directory from environment variable
-if (!process.env.DOCS_DIR) throw new Error('DOCS_DIR not set')
-const DOCS_DIR = path.join(process.cwd(), process.env.DOCS_DIR)
+const DOCS_DIR = path.join(process.cwd(), 'docs')
 
 const flattenDocTree = (tree: DocTree): DocLeaf[] => {
   const leaves: DocLeaf[] = [{ title: tree.title, url: tree.url }]
