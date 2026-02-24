@@ -47,7 +47,7 @@ const SelectEnv = <T extends string>({
   <select
     value={value}
     onChange={e => onSelect(e.target.value as T)}
-    className='px-2 py-1 text-sm rounded bg-gray-100 text-gray-700'
+    className='px-2 py-1 text-sm rounded bg-current/10 text-current/75'
   >
     {values.map(v => (
       <option key={v} value={v}>
