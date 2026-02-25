@@ -36,10 +36,15 @@ export const DocsNav = ({
       <h2>
         {title ?? (
           <DocLink
-            node={tree}
+            title={tree.title}
+            href={getDocHref(
+              tree.locale,
+              tree.subdomain,
+              tree.route,
+              isSubdomainHost,
+            )}
             pathname={pathname}
             className='block'
-            isSubdomainHost={isSubdomainHost}
           />
         )}
       </h2>
