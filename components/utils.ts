@@ -1,4 +1,4 @@
-export const getDocUrl = (
+export const getDocHref = (
   locale: string,
   subdomain: string,
   route: string,
