@@ -76,8 +76,8 @@ interface DocNodeProps {
 
 const DocNode = ({
   node,
-  collapse,
   pathname,
+  collapse,
   isSubdomainHost,
 }: DocNodeProps) => {
   const [isOpen, setIsOpen] = useState(false)
