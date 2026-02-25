@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import classNames from 'classnames'
 
-import { getDocUrl } from './utils'
+import { getDocHref } from './utils'
 import { DocLeaf } from '@/lib/types/docs'
 
 interface DocsBtmLinkProps {
@@ -19,7 +19,7 @@ export const DocsBtmLink = ({
 }: DocsBtmLinkProps) =>
   doc ? (
     <Link
-      href={getDocUrl(doc.locale, doc.subdomain, doc.route, isSubdomainHost)}
+      href={getDocHref(doc.locale, doc.subdomain, doc.route, isSubdomainHost)}
       className={classNames(
         'group block px-4 py-3 rounded-lg transition-colors',
         'border border-current/25 hover:border-accent',
