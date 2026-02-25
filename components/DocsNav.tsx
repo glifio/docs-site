@@ -5,7 +5,7 @@ import { usePathname } from 'next/navigation'
 import classNames from 'classnames'
 import Link from 'next/link'
 
-import { getDocUrl } from './utils'
+import { getDocHref } from './utils'
 import { DocLeaf, DocTree } from '@/lib/types/docs'
 
 /**
