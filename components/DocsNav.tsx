@@ -136,10 +136,11 @@ const DocNode = ({
             <ul className='ml-1.5 pl-1.5 border-l border-current/25 list-none'>
               {node.children.map(child => (
                 <DocNode
-                  key={child.url}
+                  key={child.route}
                   node={child}
                   pathname={pathname}
                   collapse={collapse}
+                  isSubdomainHost={isSubdomainHost}
                 />
               ))}
             </ul>
