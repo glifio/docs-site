@@ -32,11 +32,8 @@ const getDocSlug = (docName: string): string =>
     .replace(/[^a-z0-9-]/g, '') // Remove illegal characters
     .replace(/-+/g, '-') // Collapse dashes
 
-const getDocUrl = (
-  locale: string,
-  subdomain: string,
-  slug?: string[],
-): string => `/${locale}/${subdomain}/docs${slug ? `/${slug.join('/')}` : ''}`
+const getDocRoute = (slug?: string[]): string =>
+  `/docs${slug ? `/${slug.join('/')}` : ''}`
 
 const getDocMatch = async (
   locale: string,
