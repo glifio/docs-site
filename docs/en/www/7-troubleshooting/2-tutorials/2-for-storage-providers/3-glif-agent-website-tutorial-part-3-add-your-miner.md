@@ -86,7 +86,7 @@ Your Agent owner wallet is a multisig wallet which requires multiple signers to 
 7. If your multisig requires approval from more than two signers, repeat the same steps using the other signer wallets. Once approved by the required number of signers, the proposal will be executed on-chain. Wait for the transaction confirmation, which may take a few minutes.
 8. Return to your Agent's page on the GLIF website. You should now see the newly added miner associated with your Agent in the “**Miners**” section.
 
-![Add miner form](en-image-28.png "500")
+![Add miner form](en-image-28.png)
 
 ***
 

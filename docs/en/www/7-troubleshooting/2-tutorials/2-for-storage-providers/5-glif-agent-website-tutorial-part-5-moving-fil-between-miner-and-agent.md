@@ -26,7 +26,7 @@ To push funds from your Agent to a Miner owned by your Agent for use as pledge c
 1. Navigate to the “**Miners**” section on your Agent page.
 2. Click the downward arrow next to the miner you want to fund.
 
-![The Downward button](en-image-226.png "500")
+![The Downward button](en-image-226.png)
 
 3. In the “**Push Funds to your Miner**” multisig proposal interface, enter the amount to send to your miner.
 4. Click “**Sign Transaction**”.
