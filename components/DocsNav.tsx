@@ -193,6 +193,6 @@ const DocLink = ({
       className,
     )}
   >
-    {node.title}
+    {title}
   </Link>
 )
