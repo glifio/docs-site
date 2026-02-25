@@ -109,8 +109,8 @@ export const getDocPrevNext = async (
   if (!tree) return { prev: null, next: null }
 
   const leaves = flattenDocTree(tree)
-  const currentUrl = getDocUrl(locale, subdomain, slug)
-  const index = leaves.findIndex(leaf => leaf.url === currentUrl)
+  const route = getDocRoute(slug)
+  const index = leaves.findIndex(leaf => leaf.route === route)
 
   return {
     prev: index > 0 ? leaves[index - 1] : null,
