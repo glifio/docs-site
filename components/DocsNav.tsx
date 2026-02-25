@@ -74,7 +74,12 @@ interface DocNodeProps {
   isSubdomainHost?: boolean
 }
 
-const DocNode = ({ node, collapse, pathname }: DocNodeProps) => {
+const DocNode = ({
+  node,
+  collapse,
+  pathname,
+  isSubdomainHost,
+}: DocNodeProps) => {
   const [isOpen, setIsOpen] = useState(false)
 
   // Folder properties
