@@ -9,7 +9,7 @@ import GithubSlugger from 'github-slugger'
 import Link from 'next/link'
 
 import { DocsHeader } from './DocsHeader'
-import { getDocUrl, getFileUrl, isExtUrl } from './utils'
+import { getDocHref, getFileUrl, isExtUrl } from './utils'
 
 interface DocsMarkdownProps {
   locale: string
@@ -52,7 +52,7 @@ export const DocsMarkdown = ({
         // Internal links
         if (href.startsWith('/'))
           return (
-            <Link href={getDocUrl(locale, subdomain, href, isSubdomainHost)}>
+            <Link href={getDocHref(locale, subdomain, href, isSubdomainHost)}>
               {children}
             </Link>
           )
