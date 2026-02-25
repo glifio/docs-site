@@ -10,7 +10,12 @@ interface DocsBtmLinkProps {
   isSubdomainHost?: boolean
 }
 
-export const DocsBtmLink = ({ label, doc, align }: DocsBtmLinkProps) =>
+export const DocsBtmLink = ({
+  label,
+  doc,
+  align,
+  isSubdomainHost,
+}: DocsBtmLinkProps) =>
   doc ? (
     <Link
       href={doc.url}
