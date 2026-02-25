@@ -102,8 +102,8 @@ const DocNode = ({
 
   // Open folder on routing
   useEffect(() => {
-    if (canCollapse && pathname.startsWith(node.url)) setIsOpen(true)
-  }, [canCollapse, pathname, node])
+    if (canCollapse && pathname.startsWith(href)) setIsOpen(true)
+  }, [canCollapse, href, pathname])
 
   return (
     <li>
