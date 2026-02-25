@@ -101,6 +101,7 @@ const DocNode = ({
           node={node}
           pathname={pathname}
           className='grow'
+          isSubdomainHost={isSubdomainHost}
           onClick={e => {
             e.stopPropagation()
             if (canCollapse) setIsOpen(true)
@@ -159,6 +160,7 @@ interface DocLinkProps {
   node: DocLeaf
   pathname: string
   className?: classNames.Argument
+  isSubdomainHost?: boolean
   onClick?: MouseEventHandler<HTMLAnchorElement>
 }
 
