@@ -149,8 +149,10 @@ export const getDocTree = async (
     // Push leaf for markdown file
     else if (entry.name.endsWith('.md'))
       tree.children.push({
+        locale,
+        subdomain,
+        route: getDocRoute(entrySlug),
         title: await readDocTitle(path.join(docMatch.match, entry.name)),
-        url: getDocUrl(locale, subdomain, entrySlug),
       })
   }
 
