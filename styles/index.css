@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+@import "katex/dist/katex.min.css";
+@import "remark-github-blockquote-alert/alert.css";
+
+@import './components/prose.css';
+
+@theme {
+  --default-transition-duration: 300ms;
+  --color-accent: #724AFF;
+}

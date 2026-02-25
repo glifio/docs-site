@@ -1,9 +1,10 @@
-import './style.css'
+import '@/styles/index.css'
 
 import { ReactNode } from 'react'
 import type { Metadata } from 'next'
-import { Sidebar } from '@/components/Sidebar'
-import { getDocTree } from '@/lib/docs'
+
+import { Sidebar } from './sidebar'
+import { getDocTree } from '@/lib/utils/docs'
 
 interface LayoutProps {
   children: ReactNode
@@ -15,15 +16,8 @@ const Layout = async ({ children, params }: LayoutProps) => {
   const tree = await getDocTree(locale, subdomain)
 
   return (
-    <html lang={locale} suppressHydrationWarning>
-      <head>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `document.documentElement.style.setProperty("--dpr",devicePixelRatio)`,
-          }}
-        />
-      </head>
-      <body className='antialiased bg-white text-gray-900'>
+    <html lang={locale}>
+      <body className='antialiased bg-white text-black'>
         <div className='flex'>
           <div className='flex-none sticky top-0 self-start h-screen overflow-y-auto w-xs p-8'>
             <Sidebar locale={locale} subdomain={subdomain} tree={tree} />

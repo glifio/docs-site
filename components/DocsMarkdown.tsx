@@ -8,35 +8,40 @@ import rehypeKatex from 'rehype-katex'
 import GithubSlugger from 'github-slugger'
 import Link from 'next/link'
 
-import { DocHeader } from './DocHeader'
+import { DocsHeader } from './DocsHeader'
 
-interface DocMarkdownProps {
+interface DocsMarkdownProps {
   locale: string
   subdomain: string
   content: string
+  publicRoot?: `/${string}`
   anchorLinks?: boolean
 }
 
-export const DocMarkdown = ({
+export const DocsMarkdown = ({
   locale,
   subdomain,
   content,
+  publicRoot,
   anchorLinks,
-}: DocMarkdownProps) => (
+}: DocsMarkdownProps) => (
   <ReactMarkdown
     remarkPlugins={[
       remarkGfm,
       remarkAlert,
       [remarkMath, { singleDollarTextMath: false }],
     ]}
-    rehypePlugins={[...(anchorLinks ? [rehypeSlugCustom] : []), rehypeKatex]}
+    rehypePlugins={[
+      ...(anchorLinks ? [rehypeSlugCustom] : []),
+      [rehypeKatex, { strict: katexStrictMode }],
+    ]}
     components={{
       ...(anchorLinks && {
-        h2: props => <DocHeader Tag='h2' {...props} />,
-        h3: props => <DocHeader Tag='h3' {...props} />,
-        h4: props => <DocHeader Tag='h4' {...props} />,
-        h5: props => <DocHeader Tag='h5' {...props} />,
-        h6: props => <DocHeader Tag='h6' {...props} />,
+        h2: props => <DocsHeader Tag='h2' {...props} />,
+        h3: props => <DocsHeader Tag='h3' {...props} />,
+        h4: props => <DocsHeader Tag='h4' {...props} />,
+        h5: props => <DocsHeader Tag='h5' {...props} />,
+        h6: props => <DocsHeader Tag='h6' {...props} />,
       }),
       a: ({ href, children }) => {
         if (!href) return <a>{children}</a>
@@ -58,22 +63,30 @@ export const DocMarkdown = ({
 
         // Asset links
         return (
-          <a href={`/${href}`} download>
+          <a href={publicRoot ? `${publicRoot}/${href}` : `/${href}`} download>
             {children}
           </a>
         )
       },
       img: ({ src, alt }) => {
         if (!src || typeof src !== 'string') return null
-        const imgSrc = /^(https?:\/\/|\/)/.test(src) ? src : `/${src}`
+        const imgSrc = /^(https?:\/\/|\/)/.test(src)
+          ? src
+          : publicRoot
+            ? `${publicRoot}/${src}`
+            : `/${src}`
         // eslint-disable-next-line @next/next/no-img-element
-        return <img className='dpr-scale' src={imgSrc} alt={alt} />
+        return <img src={imgSrc} alt={alt} />
       },
     }}
   >
     {content}
   </ReactMarkdown>
 )
+
+// Ignore warnings about Chinese in math blocks
+const katexStrictMode = (errorCode: string) =>
+  errorCode === 'unicodeTextInMathMode' ? 'ignore' : 'warn'
 
 /**
  * Generate anchor link slugs

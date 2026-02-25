@@ -2,29 +2,11 @@ import 'server-only'
 import * as fs from 'node:fs/promises'
 import * as path from 'node:path'
 
-import { locales, subdomains } from '@/lib/env'
+import { subdomains } from '@/lib/data/domain'
+import { locales } from '@/lib/data/locale'
+import { DocLeaf, DocMatch, DocParams, DocTree } from '@/lib/types/docs'
 
 const DOCS_DIR = path.join(process.cwd(), 'docs')
-
-export interface DocTree extends DocLeaf {
-  children: Array<DocTree | DocLeaf>
-}
-
-export interface DocLeaf {
-  title: string
-  url: string
-}
-
-export interface DocParams {
-  locale: string
-  subdomain: string
-  slug: string[]
-}
-
-export interface DocMatch {
-  match: string
-  isDir: boolean
-}
 
 const flattenDocTree = (tree: DocTree): DocLeaf[] => {
   const leaves: DocLeaf[] = [{ title: tree.title, url: tree.url }]
@@ -200,6 +182,9 @@ const getDirDocParams = async (
   const entries = await fs.readdir(dir, { withFileTypes: true })
 
   for (const entry of entries) {
+    // Exclude footers for static site generation
+    if (entry.name === 'FOOTER.md') continue
+
     const entryPath = path.join(dir, entry.name)
 
     // Recurse into directories
