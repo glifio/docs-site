@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import classNames from 'classnames'
 
+import { getDocUrl } from './utils'
 import { DocLeaf } from '@/lib/types/docs'
 
 interface DocsBtmLinkProps {
