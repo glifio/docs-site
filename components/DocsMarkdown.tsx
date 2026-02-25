@@ -9,6 +9,7 @@ import GithubSlugger from 'github-slugger'
 import Link from 'next/link'
 
 import { DocsHeader } from './DocsHeader'
+import { getDocUrl, getFileUrl, isExtUrl } from './utils'
 
 interface DocsMarkdownProps {
   locale: string
@@ -26,65 +27,64 @@ export const DocsMarkdown = ({
   anchorLinks,
   publicRoot,
   isSubdomainHost,
-}: DocsMarkdownProps) => {
-  const fileBase = `${publicRoot ?? ''}/`
-  const linkBase = `/${locale}${isSubdomainHost ? '' : `/${subdomain}`}`
+}: DocsMarkdownProps) => (
+  <ReactMarkdown
+    remarkPlugins={[
+      remarkGfm,
+      remarkAlert,
+      [remarkMath, { singleDollarTextMath: false }],
+    ]}
+    rehypePlugins={[
+      ...(anchorLinks ? [rehypeSlugCustom] : []),
+      [rehypeKatex, { strict: katexStrictMode }],
+    ]}
+    components={{
+      ...(anchorLinks && {
+        h2: props => <DocsHeader Tag='h2' {...props} />,
+        h3: props => <DocsHeader Tag='h3' {...props} />,
+        h4: props => <DocsHeader Tag='h4' {...props} />,
+        h5: props => <DocsHeader Tag='h5' {...props} />,
+        h6: props => <DocsHeader Tag='h6' {...props} />,
+      }),
+      a: ({ href, children }) => {
+        if (!href) return <a>{children}</a>
 
-  return (
-    <ReactMarkdown
-      remarkPlugins={[
-        remarkGfm,
-        remarkAlert,
-        [remarkMath, { singleDollarTextMath: false }],
-      ]}
-      rehypePlugins={[
-        ...(anchorLinks ? [rehypeSlugCustom] : []),
-        [rehypeKatex, { strict: katexStrictMode }],
-      ]}
-      components={{
-        ...(anchorLinks && {
-          h2: props => <DocsHeader Tag='h2' {...props} />,
-          h3: props => <DocsHeader Tag='h3' {...props} />,
-          h4: props => <DocsHeader Tag='h4' {...props} />,
-          h5: props => <DocsHeader Tag='h5' {...props} />,
-          h6: props => <DocsHeader Tag='h6' {...props} />,
-        }),
-        a: ({ href, children }) => {
-          if (!href) return <a>{children}</a>
-
-          // Internal links
-          if (href.startsWith('/'))
-            return <Link href={linkBase + href}>{children}</Link>
-
-          // Anchor links
-          if (href.startsWith('#')) return <a href={href}>{children}</a>
-
-          // External links
-          if (/^https?:\/\//.test(href))
-            return (
-              <a href={href} target='_blank' rel='noopener noreferrer'>
-                {children}
-              </a>
-            )
-
-          // Asset links
+        // Internal links
+        if (href.startsWith('/'))
           return (
-            <a href={fileBase + href} download>
+            <Link href={getDocUrl(locale, subdomain, href, isSubdomainHost)}>
+              {children}
+            </Link>
+          )
+
+        // Anchor links
+        if (href.startsWith('#')) return <a href={href}>{children}</a>
+
+        // External links
+        if (isExtUrl(href))
+          return (
+            <a href={href} target='_blank' rel='noopener noreferrer'>
               {children}
             </a>
           )
-        },
-        img: ({ src, alt }) => {
-          if (!src || typeof src !== 'string') return null
-          const imgSrc = /^(https?:\/\/|\/)/.test(src) ? src : fileBase + src
-          return <img src={imgSrc} alt={alt} /> // eslint-disable-line @next/next/no-img-element
-        },
-      }}
-    >
-      {content}
-    </ReactMarkdown>
-  )
-}
+
+        // Asset links
+        return (
+          <a href={getFileUrl(href, publicRoot)} download>
+            {children}
+          </a>
+        )
+      },
+      img: ({ src, alt }) => {
+        if (!src || typeof src !== 'string') return null
+        const imgSrc = isExtUrl(src) ? src : getFileUrl(src, publicRoot)
+        return <img src={imgSrc} alt={alt} /> // eslint-disable-line @next/next/no-img-element
+      },
+    }}
+  >
+    {content}
+  </ReactMarkdown>
+)
 
 // Ignore warnings about Chinese in math blocks
 const katexStrictMode = (errorCode: string) =>
