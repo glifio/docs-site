@@ -68,15 +68,16 @@ export const DocsMarkdown = ({
           </a>
         )
       },
-      img: ({ src, alt }) => {
+      img: ({ src, alt, title }) => {
         if (!src || typeof src !== 'string') return null
         const imgSrc = /^(https?:\/\/|\/)/.test(src)
           ? src
           : publicRoot
             ? `${publicRoot}/${src}`
             : `/${src}`
+        const width = title && /^\d+$/.test(title) ? Number(title) : undefined
         // eslint-disable-next-line @next/next/no-img-element
-        return <img src={imgSrc} alt={alt} />
+        return <img src={imgSrc} alt={alt} width={width} />
       },
     }}
   >

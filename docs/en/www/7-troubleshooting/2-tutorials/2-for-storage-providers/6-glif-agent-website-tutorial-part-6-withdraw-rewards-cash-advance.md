@@ -30,22 +30,22 @@ You can do this when you meet the DTL requirement on your Agent - to read more a
 
 3. Click “**Withdraw**.”
 
-![Withdraw button](en-image-249.png)
+![Withdraw button](en-image-249.png "500")
 
 4. Review the details and click “**Sign Transaction**.”
 
 > [!WARNING]
 > Credentials are valid for only 5 minutes. If you see the error “_AgentPolice: Invalid Credential_”, it means the credentials have expired, so please start over.
 
-![Withdrawal step](en-image-243.png)
+![Withdrawal step](en-image-243.png "500")
 
 5. Click “**Send**” and approve the transaction in your wallet.
 
-![Approve button](en-image-244.png)
+![Approve button](en-image-244.png "500")
 
 6. Wait for the transaction to complete. A “**Withdraw**” proposal will appear in the “**Agent Owner Proposals**” section.
 
-![Transaction pending](en-image-245.png)
+![Transaction pending](en-image-245.png "500")
 
 ## Step 2: Approve the Proposal
 
@@ -53,7 +53,7 @@ You can do this when you meet the DTL requirement on your Agent - to read more a
 2. Navigate to the “**Agent Owner Proposals**” section and find the “**Withdraw**” proposal.
 3. Click “**Approve Proposal**”
 
-![Proposal approval](en-image-246.png)
+![Proposal approval](en-image-246.png "500")
 
 4. Confirm the transaction in your wallet.
 5. Wait for the transaction to complete (1–2 minutes). The FIL will be sent to the recipient wallet.

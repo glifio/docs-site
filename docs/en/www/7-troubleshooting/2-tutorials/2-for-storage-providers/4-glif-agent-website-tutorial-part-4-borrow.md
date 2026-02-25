@@ -24,7 +24,7 @@ Before borrowing from GLIF, you must provide collateral to your Agent. There are
 
 If you would like to send FIL directly to your agent, copy your Agent address (f410/0x) from the Agent page. Send FIL to this address from your wallet. Use the “**Send FIL**” option in the top-right dropdown menu. It works like sending FIL to any other wallet.
 
-![Copy address](en-image-213.png)
+![Copy address](en-image-213.png "500")
 
 #### 2. Available Balance in a Miner Added to the Agent
 
@@ -50,27 +50,27 @@ See the [docs](/docs/for-storage-providers/borrowing-limits-and-dtl) here for de
 5. Review the APR, new debt amount, daily interest, and updated DTL ratio.
 6. Click “**Borrow**.”
 
-![Borrow button](en-image-224.png)
+![Borrow button](en-image-224.png "500")
 
 7. Confirm details and click “**Sign Transaction”.** A multisig proposal will be created.
 
-![Transaction confirmation](en-image-217.png)
+![Transaction confirmation](en-image-217.png "500")
 
 > [!CAUTION]
 > Credentials are valid for only 5 minutes. If you see this error, it means the credentials have expired, so please start over.
 
-![Borrow step](en-image-212.png)
+![Borrow step](en-image-212.png "500")
 
 8. Click “**Send**” and approve the transaction in your wallet.
 
-![Approve button](en-image-218.png)
+![Approve button](en-image-218.png "500")
 
 9. Wait for the transaction to complete. A new proposal will appear in the Agent owner proposals section.
 
 > [!WARNING]
 > Minimum borrow amount is 1 FIL. If you see this error, please check if your borrowing amount is too low.
 
-![Borrow form](en-image-211.png)
+![Borrow form](en-image-211.png "500")
 
 ***
 
@@ -79,20 +79,20 @@ See the [docs](/docs/for-storage-providers/borrowing-limits-and-dtl) here for de
 1. Connect to another signer wallet from your Agent's owner multisig wallet.
 2. Go to the Agent page and locate the proposal in the “**Agent Owner Proposals**” section.
 
-![Approve proposal](en-image-221.png)
+![Approve proposal](en-image-221.png "500")
 
 3. Click “**Approve Proposal**”.
 
-![Proposal approval](en-image-219.png)
+![Proposal approval](en-image-219.png "500")
 
 4. Confirm the transaction in your wallet.
 5. Wait for completion (may take a few minutes). The Agent's available balance will update once approved.
 
-![Approve proposal](en-image-223.png)
+![Approve proposal](en-image-223.png "500")
 
 6. You can also check the new DTL and total debt on the Agent page's dashboard.
 
-![Approve proposal](en-image-222.png)
+![Approve proposal](en-image-222.png "500")
 
 ***
 

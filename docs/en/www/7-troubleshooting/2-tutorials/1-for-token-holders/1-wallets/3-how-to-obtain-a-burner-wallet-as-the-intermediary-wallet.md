@@ -10,31 +10,31 @@ To obtain a Burner wallet, you will need to:
 
 1. Visit the GLIF website and click “**Connect Wallet**” in the top right corner.
 
-![GLIF connect button](en-image-152.png)
+![GLIF connect button](en-image-152.png "500")
 
 2. Select “**Burner Wallet**” from the options.
 
-![Wallet selection](en-image-110.png)
+![Wallet selection](en-image-110.png "500")
 
 3. Choose “**Filecoin (f1...)**” as the address type. Click “**Create Seed Phrase**” to generate a new 24-word seed phrase.
 
-![Connect wallet](en-image-122.png)
+![Connect wallet](en-image-122.png "500")
 
 4. Click “**Copy**” and save the seed phrase in a safe place, as it will be used to regain access to the burner wallet if you get disconnected. Then, click “**I've recorded my seed phrase.**”
 
-![Tutorial step](en-image-123.png)
+![Tutorial step](en-image-123.png "500")
 
 5. Then, you are required to type in several words from your seed phrase to double-check your record of the seed phrase. Finally, click “**Connect.**”
 
-![Tutorial step](en-image-124.png)
+![Tutorial step](en-image-124.png "500")
 
 6. After connecting, you will see your burner wallet's f1 and 0x addresses.
 
-![Connect wallet](en-image-85.png)
+![Connect wallet](en-image-85.png "500")
 
 7. Copy the burner wallet's f1 address for later use.
 
-![Copy address](en-image-84.png)
+![Copy address](en-image-84.png "500")
 
 > [!TIP]
 > It is highly recommended to **disconnect and reconnect** your newly created burner wallet before transferring any FIL to ensure you understand how to access it in the future, minimizing the risk of losing access to your funds.

@@ -24,7 +24,7 @@ In this part of the tutorial, we will guide you through the process of remove a 
 1. Navigate to the “**Miners**” section on your Agent page.
 2. Click the “trash can” icon next to the miner you want to fund.
 
-![The button](en-image-253.png)
+![The button](en-image-253.png "500")
 
 3. In the “**Remove a miner from your Agent**” multisig proposal interface, enter the new owner address of the miner.
 4. Review the details and click “**Sign Transaction**.”
@@ -32,15 +32,15 @@ In this part of the tutorial, we will guide you through the process of remove a 
 > [!WARNING]
 > Credentials are valid for only 5 minutes. If you see the error “_AgentPolice: Invalid Credential_”, it means the credentials have expired, so please start over.
 
-![Initiate removal](en-image-254.png)
+![Initiate removal](en-image-254.png "500")
 
 5. Click “**Send**” and approve the transaction in your wallet.
 
-![Approve button](en-image-255.png)
+![Approve button](en-image-255.png "500")
 
 6. Wait for the transaction to complete. A “**RemoveMiner**” proposal will appear in the “**Agent Owner Proposals**” section.
 
-![Transaction pending](en-image-256.png)
+![Transaction pending](en-image-256.png "500")
 
 ## Step 2: Approve the Proposal
 
@@ -48,12 +48,12 @@ In this part of the tutorial, we will guide you through the process of remove a 
 2. Navigate to the “**Agent Owner Proposals**” section and find the “**Withdraw**” proposal.
 3. Click “**Approve Proposal**”
 
-![Proposal approval](en-image-246.png)
+![Proposal approval](en-image-246.png "500")
 
 4. Confirm the transaction in your wallet.
 5. Wait for the transaction to complete (1–2 minutes). The miner will be removed from your Agent.
 
-![Transaction pending](en-image-257.png)
+![Transaction pending](en-image-257.png "500")
 
 ***
 

@@ -28,22 +28,22 @@ After borrowing, Storage Providers are expected to make a payment when they have
 2. Enter the amount to pay. To complete the payment, your Agent must have a sufficient balance.
 3. Click “**Pay**.”
 
-![Payment form](en-image-248.png)
+![Payment form](en-image-248.png "500")
 
 4. In the “**Pay FIL from your agent**” multisig proposal interface, review the details and click “**Sign Transaction**.”
 
 > [!WARNING]
 > Credentials are valid for only 5 minutes. If you see the error “_AgentPolice: Invalid Credential_”, it means the credentials have expired, so please start over.
 
-![Initiate payment](en-image-250.png)
+![Initiate payment](en-image-250.png "500")
 
 5. Click “**Send**” and approve the transaction in your wallet.
 
-![Approve button](en-image-251.png)
+![Approve button](en-image-251.png "500")
 
 6. Wait for the transaction to complete. A “**Pay**” proposal will appear in the “**Agent Owner Proposals**” section.
 
-![Transaction pending](en-image-252.png)
+![Transaction pending](en-image-252.png "500")
 
 ### Step 2: Approve the Proposal
 
@@ -51,12 +51,12 @@ After borrowing, Storage Providers are expected to make a payment when they have
 2. Navigate to the “**Agent Owner Proposals**” section and find the “**Pay**” proposal.
 3. Click “**Approve Proposal**”
 
-![Proposal approval](en-image-246.png)
+![Proposal approval](en-image-246.png "500")
 
 4. Confirm the transaction in your wallet.
 5. Wait for the transaction to complete (1–2 minutes). You will see the total debt updated in the agent panel.
 
-![Transaction pending](en-image-247.png)
+![Transaction pending](en-image-247.png "500")
 
 ***
 

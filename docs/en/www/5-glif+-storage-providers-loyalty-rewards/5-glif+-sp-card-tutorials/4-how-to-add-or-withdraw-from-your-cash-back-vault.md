@@ -4,12 +4,14 @@ This tutorial explains how to add or withdraw $GLF funds from the cash back vaul
 
 For other tutorials on managing your GLIF+ SP Card, see [this page](/docs/glif-storage-providers-loyalty-rewards/glif-sp-card-tutorials).
 
-You can also add or withdraw funds in your GLIF+ cash back vault using the GLIF Command Line Interface (CLI). To do so, upgrade to the [latest release](https://github.com/glifio/glif/releases/tag/v2.5.3). You can find the instructions about the GLIF+ related command on the GLIF CLI on [this page](https://github.com/glifio/glif?tab=readme-ov-file#glif-loyalty-cards).
+> [!NOTE]
+> You can also add or withdraw funds in your GLIF+ cash back vault using the GLIF Command Line Interface (CLI). To do so, upgrade to the [latest release](https://github.com/glifio/glif/releases). You can find the instructions about the GLIF+ related command on the GLIF CLI on [this page](https://github.com/glifio/glif?tab=readme-ov-file#glif-loyalty-cards).
+
 
 In this tutorial, you will be guided through the following steps:
 
-1. Add fund to your cash back vault
-2. Withdraw fund from your cash back vault
+1. [Add fund to your cash back vault](#add-funds-to-your-cash-back-vault)
+2. [Withdraw fund from your cash back vault](#withdraw-funds-from-your-cash-back-vault)
 
 ***
 
@@ -21,37 +23,36 @@ In this tutorial, you will be guided through the following steps:
 
 3. Click the downward arrow to add funds.
 
-4. Choose the source of the deposit. You may deposit from the Card Owner (the multisig wallet) or from your connected single-signature wallet.
+![Cash back balance section with arrow icon](add-cashback-image-1.png "700")
 
-![Cash back balance section with arrow icon](add-cashback-image-1.png)
+4. Choose the source of the deposit. You may deposit from the **Card Owner (the multisig wallet)** or from your connected **single-signature wallet**.
+
 
 5. Enter the amount you want to add to the cash back vault.
 
 6. Click **'Approve GLF Transfer'** and confirm the approval request in your wallet.
 
-![Approve GLF Transfer button](add-cashback-image-2.png)
-
-> [!NOTE]
+> [!WARNING]
 > If the funding source is your single-signature wallet instead of your Card Owner (the multisig wallet), no multisig wallet proposal will be generated. The GLF balance will be sent directly to the card.
+
+![Approve GLF Transfer button](add-cashback-image-2.png "500")
 
 7. Wait for the transaction to be processed. Then click **'Send'** again to execute the actual transfer of funds. Confirm in your wallet.
 
-![Send button to execute the fund transfer](add-cashback-image-3.png)
+![Send button to execute the fund transfer](add-cashback-image-3.png "500")
 
 8. Navigate to the **Proposals** tab. You will see two proposals: **'Approve'** and **'FundGlfVault'**.
 
-![Proposals tab showing Approve and FundGlfVault proposals](add-cashback-image-4.png)
+![Proposals tab showing Approve and FundGlfVault proposals](add-cashback-image-4.png "500")
 
 > [!WARNING]
 > Approve the **'Approve'** proposal first, then approve the **'FundGlfVault'** proposal. Otherwise an error may occur.
 
 9. Approve both proposals in every signer's account and confirm in the wallet. Wait 1 to 2 minutes for the on-chain process to complete.
 
-![Approving both proposals](add-cashback-image-5.png)
-
 10. Once processed, the cash back balance will be updated and the available amount increased.
 
-![Updated cash back balance after adding funds](add-cashback-image-6.png)
+![Approving both proposals](add-cashback-image-5.png "700")
 
 ***
 
@@ -61,23 +62,25 @@ In this tutorial, you will be guided through the following steps:
 
 2. Open the **'Cash Back Balance'** section and click the upward arrow to withdraw funds.
 
+![Updated cash back balance after adding funds](add-cashback-image-6.png "500")
+
 3. Choose the recipient of the withdrawal.
 
 4. Enter the amount you want to remove from the cash back vault.
 
 5. Click **'Send'**.
 
-![Withdraw funds form with Send button](add-cashback-image-7.png)
+![Withdraw funds form with Send button](add-cashback-image-7.png "500")
 
 6. Confirm in your wallet. Wait 1 to 2 minutes for the on-chain process to complete.
 
 7. Approve the **'WithdrawGlfVault'** proposal in every signer's account and confirm in the wallet.
 
-![WithdrawGlfVault proposal in Proposals tab](add-cashback-image-8.png)
+![WithdrawGlfVault proposal in Proposals tab](add-cashback-image-8.png "500")
 
 8. Once processed, the cash back balance will be updated and the available amount reduced.
 
-![Updated cash back balance after withdrawal](add-cashback-image-9.png)
+![Updated cash back balance after withdrawal](add-cashback-image-9.png "500")
 
 ***
 

@@ -2,8 +2,7 @@
 
 ## GLIF CLI
 
-For users using the GLIF CLI, please upgrade to the following release:\
-[https://github.com/glifio/glif/releases/tag/v2.5.3](https://github.com/glifio/glif/releases/tag/v2.5.3)
+For users using the GLIF CLI, please upgrade to the following [release](https://github.com/glifio/glif/releases/tag/v2.5.5)
 
 ## GLIF Website
 

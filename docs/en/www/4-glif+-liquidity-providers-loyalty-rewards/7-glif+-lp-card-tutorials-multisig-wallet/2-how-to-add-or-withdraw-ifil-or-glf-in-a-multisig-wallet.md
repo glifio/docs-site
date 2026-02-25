@@ -1,7 +1,7 @@
 # How to add/withdraw iFIL or GLF in GLIF+ in a multisig wallet
 
 This guide explains how to move GLF or iFIL between your **multisig wallet** and your GLIF+ Loyalty Card. In your GLIF+ LP Card, managing these balances allows you to control your GLF:iFIL ratio and redeem FIL at a higher premium. For details on premium tiers, see [this page](/docs/glif-liquidity-providers-loyalty-rewards/how-fil-capsules-work). For other tutorials on managing your GLIF+ Card, see [this page](/docs/glif-liquidity-providers-loyalty-rewards/glif-lp-card-tutorials-multisig-wallet).
-
+***
 If you are using a single-signature wallet, check [this tutorial](/docs/glif-liquidity-providers-loyalty-rewards/glif-lp-card-tutorials/how-to-add-or-withdraw-ifil-or-glf) for a step by step guide.
 
 > [!NOTE]

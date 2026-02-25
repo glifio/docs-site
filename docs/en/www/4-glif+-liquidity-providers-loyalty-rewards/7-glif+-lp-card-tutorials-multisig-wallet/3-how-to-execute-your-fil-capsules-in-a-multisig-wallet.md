@@ -14,7 +14,7 @@ If you are using a single-signature wallet, check [this tutorial](/docs/glif-liq
 
 2. Find the Capsule you want to execute. The process is the same for both standard Capsules and Referral Capsules. The required amount of GLF is shown inside the Capsule.
 
-> [!WARNING]
+> [!TIP]
 > Please ensure you have enough GLF in your GLIF+ Card balance to unlock that Capsule.
 
 3. Enter the recipient address for the FIL you are redeeming. You can send it to your own wallet, a multisig wallet, or your Agents.

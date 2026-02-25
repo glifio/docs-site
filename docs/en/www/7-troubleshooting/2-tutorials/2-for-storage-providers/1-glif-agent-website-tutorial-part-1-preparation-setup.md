@@ -44,7 +44,7 @@ The GLIF Agent Multisig Owner Wallet is recommended to have a signing threshold 
 > [!TIP]
 > If you lose any of your signer keys (either Ledger devices or the Filecoin Snap wallet) then you can easily replace it with a new one! This is why Multisig wallets are a more secure way to own your Agent.
 
-![GLIF Agent Multisig Owner](en-image-282.png)
+![GLIF Agent Multisig Owner](en-image-282.png "500")
 
 ## Prepare to Create an Agent
 

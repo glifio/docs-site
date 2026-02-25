@@ -4,6 +4,8 @@ This tutorial explains how to mint and activate a GLIF+ LP Card by depositing iF
 
 If you are using a single-signature wallet, check [this tutorial](/docs/glif-liquidity-providers-loyalty-rewards/glif-lp-card-tutorials/how-to-mint-your-glif-lp-card) for a step by step guide.
 
+***
+
 ## Step 1: Start the minting process
 
 1. Go to the **Loyalty** page, or open your **Wallet** page and click **'Mint Today'**.
