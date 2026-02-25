@@ -1,1 +1,1 @@
-# GLIF+ Storage Providers Loyalty Rewards
+# GLIF+ 存储提供商会员奖励
