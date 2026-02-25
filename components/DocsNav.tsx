@@ -51,10 +51,11 @@ export const DocsNav = ({
       >
         {tree.children.map(child => (
           <DocNode
-            key={child.url}
+            key={child.route}
             node={child}
             pathname={pathname}
             collapse={collapse}
+            isSubdomainHost={isSubdomainHost}
           />
         ))}
       </ul>
@@ -70,6 +71,7 @@ interface DocNodeProps {
   node: DocTree | DocLeaf
   pathname: string
   collapse?: boolean
+  isSubdomainHost?: boolean
 }
 
 const DocNode = ({ node, collapse, pathname }: DocNodeProps) => {
