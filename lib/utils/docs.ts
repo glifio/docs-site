@@ -9,7 +9,8 @@ import { DocLeaf, DocMatch, DocParams, DocTree } from '@/lib/types/docs'
 const DOCS_DIR = path.join(process.cwd(), 'docs')
 
 const flattenDocTree = (tree: DocTree): DocLeaf[] => {
-  const leaves: DocLeaf[] = [{ title: tree.title, url: tree.url }]
+  const { locale, subdomain, route, title } = tree
+  const leaves: DocLeaf[] = [{ locale, subdomain, route, title }]
   for (const child of tree.children) {
     if ('children' in child) leaves.push(...flattenDocTree(child))
     else leaves.push(child)
