@@ -54,6 +54,8 @@ const Page = async ({ params }: PageProps) => {
       tNav={translations['table-of-contents'][locale]}
       tPrev={translations.previous[locale]}
       tNext={translations.next[locale]}
+      publicRoot='/'
+      isSubdomainHost={false}
     />
   )
 }
