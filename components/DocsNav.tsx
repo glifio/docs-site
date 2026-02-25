@@ -107,23 +107,20 @@ const DocNode = ({
 
   return (
     <li>
-      <span
-        className='flex justify-between items-center'
-        onClick={() => canCollapse && setIsOpen(prev => !prev)}
-      >
+      <span className='flex items-center'>
         <DocLink
           title={node.title}
           href={href}
           pathname={pathname}
           className='grow'
-          onClick={e => {
-            e.stopPropagation()
-            if (canCollapse) setIsOpen(true)
-          }}
+          onClick={() => canCollapse && setIsOpen(true)}
         />
 
         {canCollapse && (
-          <span className='p-1.5 pl-3 cursor-pointer'>
+          <span
+            className='p-1.5 pl-3 cursor-pointer'
+            onClick={() => setIsOpen(prev => !prev)}
+          >
             <svg
               width='12'
               height='12'
