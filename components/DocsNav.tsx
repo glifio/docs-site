@@ -33,7 +33,14 @@ export const DocsNav = ({
   return (
     <nav className={classNames('prose prose-gray', small && 'prose-sm')}>
       <h2>
-        {title ?? <DocLink node={tree} pathname={pathname} className='block' />}
+        {title ?? (
+          <DocLink
+            node={tree}
+            pathname={pathname}
+            className='block'
+            isSubdomainHost={isSubdomainHost}
+          />
+        )}
       </h2>
 
       <ul
