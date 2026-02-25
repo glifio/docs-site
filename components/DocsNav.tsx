@@ -164,7 +164,13 @@ interface DocLinkProps {
   onClick?: MouseEventHandler<HTMLAnchorElement>
 }
 
-const DocLink = ({ node, pathname, className, onClick }: DocLinkProps) => (
+const DocLink = ({
+  node,
+  pathname,
+  className,
+  isSubdomainHost,
+  onClick,
+}: DocLinkProps) => (
   <Link
     href={node.url}
     onClick={onClick}
