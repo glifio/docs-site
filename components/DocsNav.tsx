@@ -5,6 +5,7 @@ import { usePathname } from 'next/navigation'
 import classNames from 'classnames'
 import Link from 'next/link'
 
+import { getDocUrl } from './utils'
 import { DocLeaf, DocTree } from '@/lib/types/docs'
 
 /**
@@ -17,7 +18,7 @@ interface DocsNavProps {
   small?: boolean
   collapse?: boolean
   rootIndent?: boolean
-  isSubdomainHost?: boolean
+  isSubdomainHost: boolean
 }
 
 export const DocsNav = ({
@@ -71,7 +72,7 @@ interface DocNodeProps {
   node: DocTree | DocLeaf
   pathname: string
   collapse?: boolean
-  isSubdomainHost?: boolean
+  isSubdomainHost: boolean
 }
 
 const DocNode = ({
@@ -160,7 +161,7 @@ interface DocLinkProps {
   node: DocLeaf
   pathname: string
   className?: classNames.Argument
-  isSubdomainHost?: boolean
+  isSubdomainHost: boolean
   onClick?: MouseEventHandler<HTMLAnchorElement>
 }
 
@@ -172,7 +173,7 @@ const DocLink = ({
   onClick,
 }: DocLinkProps) => (
   <Link
-    href={node.url}
+    href={getDocUrl(node.locale, node.subdomain, node.route, isSubdomainHost)}
     onClick={onClick}
     className={classNames(
       'no-underline transition-colors hover:text-accent',
