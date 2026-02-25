@@ -87,6 +87,14 @@ const DocNode = ({
   const isFolder = 'children' in node
   const canCollapse = isFolder && collapse
 
+  // Doc URL
+  const href = getDocHref(
+    node.locale,
+    node.subdomain,
+    node.route,
+    isSubdomainHost,
+  )
+
   // Open folder on routing
   useEffect(() => {
     if (canCollapse && pathname.startsWith(node.url)) setIsOpen(true)
@@ -158,28 +166,28 @@ const DocNode = ({
  */
 
 interface DocLinkProps {
-  node: DocLeaf
+  title: string
+  href: string
   pathname: string
   className?: classNames.Argument
-  isSubdomainHost: boolean
   onClick?: MouseEventHandler<HTMLAnchorElement>
 }
 
 const DocLink = ({
-  node,
+  title,
+  href,
   pathname,
   className,
-  isSubdomainHost,
   onClick,
 }: DocLinkProps) => (
   <Link
-    href={getDocUrl(node.locale, node.subdomain, node.route, isSubdomainHost)}
+    href={href}
     onClick={onClick}
     className={classNames(
       'no-underline transition-colors hover:text-accent',
-      pathname === node.url
+      pathname === href
         ? 'text-accent'
-        : pathname.startsWith(node.url)
+        : pathname.startsWith(href)
           ? 'text-current'
           : 'text-current/50',
       className,
