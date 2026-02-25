@@ -112,10 +112,10 @@ const DocNode = ({
         onClick={() => canCollapse && setIsOpen(prev => !prev)}
       >
         <DocLink
-          node={node}
+          title={node.title}
+          href={href}
           pathname={pathname}
           className='grow'
-          isSubdomainHost={isSubdomainHost}
           onClick={e => {
             e.stopPropagation()
             if (canCollapse) setIsOpen(true)
