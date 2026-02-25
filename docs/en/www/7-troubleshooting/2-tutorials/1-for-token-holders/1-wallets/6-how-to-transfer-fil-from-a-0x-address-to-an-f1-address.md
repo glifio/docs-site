@@ -2,7 +2,7 @@
 
 To send FIL from a 0x address to an f1 address, you will need to use an intermediary wallet such as a [FilSnap wallet](/docs/troubleshooting/tutorials/for-token-holders/wallets/how-to-obtain-a-filsnap-wallet-as-the-intermediary-wallet), [burner wallet](/docs/troubleshooting/tutorials/for-token-holders/wallets/how-to-obtain-a-burner-wallet-as-the-intermediary-wallet), or [Ledger](/docs/troubleshooting/tutorials/for-token-holders/wallets/how-to-obtain-a-ledger-wallet-as-the-intermediary-wallet), which facilitates the necessary conversions. This guide will walk you through the process of creating an intermediary wallet and using it as an intermediary to transfer FIL from your 0x address to the desired f1 address.
 
-> [!HINT]
+> [!NOTE]
 > This tutorial uses MetaMask wallet as an example, as it works better with FEVM; other wallets also work. You can refer to our [FAQ](/docs/troubleshooting/faq/for-liquidity-providers/wallet-connection) if you encounter any trouble or please contact GLIF through a [Discord support ticket](https://discord.gg/5qsJjsP3Re).
 
 ## Contents
@@ -121,7 +121,7 @@ For the burner wallet, remember to choose “**Filecoin (f1...)**” as the addr
 
 ![Transaction complete](en-image-95.png)
 
-6. Once the transaction is completed, you can verify the balance of your final f1 address on [filfox.info](https://filfox.info/en) or by pasting your address after [glif.io/address](/address)/(your f1 address).
+6. Once the transaction is completed, you can verify the balance of your final f1 address on [filfox.info](https://filfox.info/en) or by pasting your address after [https://www.glif.io/en/address](https://www.glif.io)/(your f1 address).
 7. Congrats! Your FIL has been successfully transferred from a 0x address to your f1 address!
 
 ## Conclusion

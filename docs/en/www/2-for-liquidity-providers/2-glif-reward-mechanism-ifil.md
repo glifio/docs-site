@@ -60,7 +60,7 @@ $$
 
 ### See your rewards
 
-LPs can check their FIL value of iFIL holdings by connecting wallet to GLIF, or visiting the [wallet](/wallet) or [multisig](/multisig) page of a particular address.
+LPs can check their FIL value of iFIL holdings by connecting wallet to GLIF, or visiting the [wallet](https://www.glif.io/en/wallet) or [multisig](https://www.glif.io/en/multisig) page of a particular address.
 
 iFIL returns are shown in “_Tokens section”:_
 

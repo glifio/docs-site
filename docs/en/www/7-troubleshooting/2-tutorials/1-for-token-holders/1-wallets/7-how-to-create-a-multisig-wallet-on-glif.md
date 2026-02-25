@@ -10,7 +10,7 @@ Ensure you have a Filecoin-compatible wallet with an f1 wallet address, such as 
 
 ![Connect wallet](en-image-286.png)
 
-2. Visit the [GLIF website](/) and navigate to the “**Multisig**” tab
+2. Visit the [GLIF website](https://www.glif.io/en) and navigate to the “**Multisig**” tab
 
 ![Tutorial step](en-image-285.png)
 

@@ -2,7 +2,7 @@
 
 If you have stored your FIL tokens in cold storage, navigating the new Filecoin DeFi apps may seem confusing. However, it is actually quite simple, and we will show you how to do it.
 
-In this guide, we use a Ledger Nano X. You can either watch the tutorial video or follow the step-by-step instructions below.
+In this guide, we use a Ledger Nano X. You can either watch the [tutorial video](https://www.youtube.com/watch?v=EIMi-aklXX0) or follow the step-by-step instructions below.
 
 ## Step 1. Connect your hardware wallet to your laptop
 
@@ -12,7 +12,7 @@ Make sure you have your device connected to your computer (e.g., with the suppli
 
 ## Step 2. Connect your wallet to GLIF
 
-1. Go to [GLIF website](/) and click on **Connect Wallet** in the top right of the screen. You will see a list of wallets to connect. Choose “Ledger (Filecoin)”.
+1. Go to [GLIF website](https://www.glif.io/en) and click on **Connect Wallet** in the top right of the screen. You will see a list of wallets to connect. Choose “Ledger (Filecoin)”.
 
 ![Toggle button](en-image-99.png)
 

@@ -8,7 +8,7 @@ Agents are smart contracts on the FEVM that allow Storage Providers (SPs) to col
 
 ## Deploy an Agent
 
-1. Through GLIF [website](/agent)
+1. Through GLIF [website](https://glif.io/en/agent)
 2. Through the GLIF [CLI](https://github.com/glifio/glif)
 
 Please find the detailed tutorial for agent [here](/docs/troubleshooting/tutorials/for-storage-providers).

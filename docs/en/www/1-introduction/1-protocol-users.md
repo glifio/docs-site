@@ -6,7 +6,7 @@ Liquidity Providers (LPs) are FIL token holders who deposit FIL into GLIF to ear
 
 Learn more about becoming a GLIF Liquidity Provider in the [next section](/docs/for-liquidity-providers/benefits-for-token-holders), or see our [Liquidity Provider FAQs.](/docs/troubleshooting/faq/for-liquidity-providers)
 
-Become a GLIF LP immediately by depositing FIL into GLIF on our [website](/pool/infinity).
+Become a GLIF LP immediately by depositing FIL into GLIF on our [website](https://www.glif.io/en/pool/infinity).
 
 ## Storage Providers
 
@@ -14,4 +14,4 @@ Storage Providers (SPs) are individuals or organizations operating one or more [
 
 As an SP, you can borrow FIL from a large group of LPs without handing over private keys, signing legal documents, or undergoing KYC. Borrowed FIL can be utilized for storage mining or withdrawn out of the system for trading or selling on an exchange. SP can borrow up to 3x leverage on their collateral. You can read more about working with GLIF as a Storage Provider [here](/docs/for-storage-providers/benefits-for-storage-providers), or see our [Storage Provider FAQs](/docs/troubleshooting/faq/for-storage-providers).
 
-To get started borrowing FIL from GLIF immediately, create an Agent on our [website](/agent).
+To get started borrowing FIL from GLIF immediately, create an Agent on our [website](https://www.glif.io/en/agent).
