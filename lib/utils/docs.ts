@@ -131,10 +131,10 @@ export const getDocTree = async (
     .filter(e => e.name !== 'README.md' && e.name !== 'FOOTER.md')
     .sort((a, b) => a.name.localeCompare(b.name, undefined, { numeric: true }))
 
+  const route = getDocRoute(slug)
   const docFile = await getDocFile(docMatch)
   const title = docFile ? await readDocTitle(docFile) : 'Untitled'
-  const url = getDocUrl(locale, subdomain, slug)
-  const tree: DocTree = { title, url, children: [] }
+  const tree: DocTree = { locale, subdomain, route, title, children: [] }
 
   for (const entry of sorted) {
     const entrySlug = slug
