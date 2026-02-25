@@ -69,8 +69,18 @@ export const DocsPage = ({
       <>
         <hr />
         <nav className='not-prose flex justify-between gap-4'>
-          <DocsBtmLink label={tPrev} doc={prev} align='left' />
-          <DocsBtmLink label={tNext} doc={next} align='right' />
+          <DocsBtmLink
+            label={tPrev}
+            doc={prev}
+            align='left'
+            isSubdomainHost={isSubdomainHost}
+          />
+          <DocsBtmLink
+            label={tNext}
+            doc={next}
+            align='right'
+            isSubdomainHost={isSubdomainHost}
+          />
         </nav>
       </>
     )}
