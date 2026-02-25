@@ -18,7 +18,7 @@ export const DocsBtmLink = ({
 }: DocsBtmLinkProps) =>
   doc ? (
     <Link
-      href={doc.url}
+      href={getDocUrl(doc.locale, doc.subdomain, doc.route, isSubdomainHost)}
       className={classNames(
         'group block px-4 py-3 rounded-lg transition-colors',
         'border border-current/25 hover:border-accent',
