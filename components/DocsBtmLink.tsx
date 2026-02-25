@@ -7,6 +7,7 @@ interface DocsBtmLinkProps {
   label: string
   doc: DocLeaf | null
   align: 'left' | 'right'
+  isSubdomainHost?: boolean
 }
 
 export const DocsBtmLink = ({ label, doc, align }: DocsBtmLinkProps) =>
