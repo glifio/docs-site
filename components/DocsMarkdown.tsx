@@ -16,8 +16,8 @@ interface DocsMarkdownProps {
   subdomain: string
   content: string
   anchorLinks?: boolean
-  publicRoot?: `/${string}`
-  isSubdomainHost?: boolean
+  publicRoot: `/${string}`
+  isSubdomainHost: boolean
 }
 
 export const DocsMarkdown = ({
