@@ -18,8 +18,8 @@ interface DocsPageProps {
   tNav: string
   tPrev: string
   tNext: string
-  publicRoot?: `/${string}`
-  isSubdomainHost?: boolean
+  publicRoot: `/${string}`
+  isSubdomainHost: boolean
 }
 
 export const DocsPage = ({
