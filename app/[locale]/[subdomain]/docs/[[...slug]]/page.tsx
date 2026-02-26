@@ -2,15 +2,17 @@ import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 
 import { DocsPage } from '@/components/DocsPage'
+import { subdomains } from '@/lib/data/domain'
 import { isLocale } from '@/lib/data/locale'
 import {
-  getAllDocParams,
+  getDocParams,
   getDocContent,
   getDocFooter,
   getDocPrevNext,
   getDocTitle,
   getDocTree,
 } from '@/lib/utils/docs'
+import { DocParams } from '@/lib/types/docs'
 
 const translations = {
   next: {
