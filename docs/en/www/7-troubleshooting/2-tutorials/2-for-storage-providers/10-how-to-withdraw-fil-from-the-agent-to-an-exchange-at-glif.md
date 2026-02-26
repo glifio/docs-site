@@ -124,7 +124,7 @@ For details on creating an intermediary wallet, please refer to the tutorial by 
 
 ![Transaction complete](en-image-95.png "500")
 
-6. Once the transaction is completed, you can verify the balance of your final f1 address on [filfox.info](https://filfox.info/en) or by pasting your address after [glif.io/address](https://www.glif.io/en/address/your_f1_address)/(your f1 address).
+6. Once the transaction is completed, you can verify the balance of your final f1 address on [filfox.info](https://filfox.info/en) or by pasting your address after [glif.io/address](/address/your_f1_address)/(your f1 address).
 
 ![Transfer FIL](en-image-96.png "500")
 

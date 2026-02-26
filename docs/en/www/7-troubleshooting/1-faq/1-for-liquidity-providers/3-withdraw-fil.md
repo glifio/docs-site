@@ -2,7 +2,7 @@
 
 ## Can I change my iFIL back to FIL?
 
-iFIL holders can withdraw FIL from GLIF at any time, provided that the pool has sufficient liquidity to process the withdrawal. You can initiate this process through the [GLIF web application](https://www.glif.io/en/pool/infinity). Withdrawing FIL from GLIF occurs in 2 transactions:
+iFIL holders can withdraw FIL from GLIF at any time, provided that the pool has sufficient liquidity to process the withdrawal. You can initiate this process through the [GLIF web application](/pool/infinity). Withdrawing FIL from GLIF occurs in 2 transactions:
 
 1. Approve the GLIF smart contract to transfer iFIL on your behalf in step 2.
 2. Withdraw FIL from GLIF.

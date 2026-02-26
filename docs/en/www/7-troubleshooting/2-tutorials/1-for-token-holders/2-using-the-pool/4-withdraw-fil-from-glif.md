@@ -7,7 +7,7 @@ This tutorial will guide you through the process of using your iFIL tokens to wi
 
 ## Step 1: Connect your wallet to GLIF
 
-1. Visit the [GLIF website](https://www.glif.io/en) and click on “**Connect Wallet**” in the top right corner.
+1. Visit the [GLIF website](/) and click on “**Connect Wallet**” in the top right corner.
 
 ![GLIF connect button](en-image-156.png "500")
 

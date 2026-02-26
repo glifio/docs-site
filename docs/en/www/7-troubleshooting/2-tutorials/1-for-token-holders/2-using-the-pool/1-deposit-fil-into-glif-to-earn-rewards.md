@@ -13,7 +13,7 @@ In this tutorial we will use MetaMask, but you can find a similar tutorial using
 
 ## Step 2: Connect your wallet to GLIF
 
-1. Visit the [GLIF website](https://www.glif.io/en) and click on “**Connect Wallet**” in the top right corner.
+1. Visit the [GLIF website](/) and click on “**Connect Wallet**” in the top right corner.
 
 ![GLIF connect button](en-image-156.png "500")
 
@@ -29,7 +29,7 @@ For detailed instructions on add the Filecoin Mainnet to your wallet, check out 
 
 ## Step 3: Deposit your Filecoin with GLIF
 
-1. After connecting your wallet to [GLIF](https://www.glif.io/en), your Filecoin balance will appear in the GLIF interface.
+1. After connecting your wallet to [GLIF](/), your Filecoin balance will appear in the GLIF interface.
 2. Click “**Deposit Filecoin**” in the main page, or go to the “**Pool**” page.
 
 ![Deposit page](en-image-171.png "500")
