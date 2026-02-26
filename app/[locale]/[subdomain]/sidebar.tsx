@@ -30,7 +30,7 @@ export const Sidebar = ({ locale, subdomain, tree }: SidebarProps) => {
           onSelect={s => router.push(`/${locale}/${s}/docs`)}
         />
       </div>
-      {tree && <DocsNav tree={tree} small collapse />}
+      {tree && <DocsNav tree={tree} small collapse isSubdomainHost={false} />}
     </div>
   )
 }
