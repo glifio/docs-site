@@ -2,7 +2,6 @@ import 'server-only'
 import * as fs from 'node:fs/promises'
 import * as path from 'node:path'
 
-import { subdomains } from '@/lib/data/domain'
 import { locales } from '@/lib/data/locale'
 import { DocLeaf, DocMatch, DocParams, DocTree } from '@/lib/types/docs'
 
@@ -159,14 +158,12 @@ export const getDocTree = async (
   return tree
 }
 
-export const getAllDocParams = async (): Promise<DocParams[]> => {
+export const getDocParams = async (subdomain: string): Promise<DocParams[]> => {
   const params: DocParams[] = []
 
   for (const locale of locales) {
-    for (const subdomain of subdomains) {
-      const dir = path.join(DOCS_DIR, locale, subdomain)
-      params.push(...(await getDirDocParams(locale, subdomain, dir, dir)))
-    }
+    const dir = path.join(DOCS_DIR, locale, subdomain)
+    params.push(...(await getDirDocParams(locale, subdomain, dir, dir)))
   }
 
   return params

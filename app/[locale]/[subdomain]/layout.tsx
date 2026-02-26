@@ -1,7 +1,6 @@
 import '@/styles/index.css'
 
 import { ReactNode } from 'react'
-import type { Metadata } from 'next'
 
 import { Sidebar } from './sidebar'
 import { getDocTree } from '@/lib/utils/docs'
@@ -30,8 +29,3 @@ const Layout = async ({ children, params }: LayoutProps) => {
 }
 
 export default Layout
-
-export const metadata: Metadata = {
-  title: 'GLIF Docs',
-  description: 'GLIF documentation',
-}
