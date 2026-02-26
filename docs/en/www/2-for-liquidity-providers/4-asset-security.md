@@ -12,7 +12,7 @@ GLIF has been building financial infrastructure for Filecoin token holders since
 
 * A 10 person week informal review by [Consensys Diligence](https://diligence.security) to give early feedback and design critiques of our architecture
 * A 5 person week formal review by the top DeFi auditors at Consensys Diligence [(see report here)](infinity-pool-audit-consensys.pdf)
-* A 20 person, invite only audit competition run through [Sherlock](https://www.sherlock.xyz/), with experienced DeFi auditors [(see report here)](infinity-pool-audit-consensys.pdf)
+* A 20 person, invite only audit competition run through [Sherlock](https://www.sherlock.xyz/), with experienced DeFi auditors [(see report here)](infinity-pool-audit-sherlock.pdf)
 * Consensys Diligence V2 protocol audit
 * Hexens V2 protocol audit (report will be uploaded once finished)
 

@@ -5,6 +5,7 @@ import { usePathname } from 'next/navigation'
 import classNames from 'classnames'
 import Link from 'next/link'
 
+import { getDocHref } from './utils'
 import { DocLeaf, DocTree } from '@/lib/types/docs'
 
 /**
@@ -17,6 +18,7 @@ interface DocsNavProps {
   small?: boolean
   collapse?: boolean
   rootIndent?: boolean
+  isSubdomainHost: boolean
 }
 
 export const DocsNav = ({
@@ -25,13 +27,26 @@ export const DocsNav = ({
   small,
   collapse,
   rootIndent,
+  isSubdomainHost,
 }: DocsNavProps) => {
   const pathname = usePathname()
 
   return (
     <nav className={classNames('prose prose-gray', small && 'prose-sm')}>
       <h2>
-        {title ?? <DocLink node={tree} pathname={pathname} className='block' />}
+        {title ?? (
+          <DocLink
+            title={tree.title}
+            href={getDocHref(
+              tree.locale,
+              tree.subdomain,
+              tree.route,
+              isSubdomainHost,
+            )}
+            pathname={pathname}
+            className='block'
+          />
+        )}
       </h2>
 
       <ul
@@ -42,10 +57,11 @@ export const DocsNav = ({
       >
         {tree.children.map(child => (
           <DocNode
-            key={child.url}
+            key={child.route}
             node={child}
             pathname={pathname}
             collapse={collapse}
+            isSubdomainHost={isSubdomainHost}
           />
         ))}
       </ul>
@@ -61,38 +77,50 @@ interface DocNodeProps {
   node: DocTree | DocLeaf
   pathname: string
   collapse?: boolean
+  isSubdomainHost: boolean
 }
 
-const DocNode = ({ node, collapse, pathname }: DocNodeProps) => {
+const DocNode = ({
+  node,
+  pathname,
+  collapse,
+  isSubdomainHost,
+}: DocNodeProps) => {
   const [isOpen, setIsOpen] = useState(false)
 
   // Folder properties
   const isFolder = 'children' in node
   const canCollapse = isFolder && collapse
 
+  // Doc URL
+  const href = getDocHref(
+    node.locale,
+    node.subdomain,
+    node.route,
+    isSubdomainHost,
+  )
+
   // Open folder on routing
   useEffect(() => {
-    if (canCollapse && pathname.startsWith(node.url)) setIsOpen(true)
-  }, [canCollapse, pathname, node])
+    if (canCollapse && pathname.startsWith(href)) setIsOpen(true)
+  }, [canCollapse, href, pathname])
 
   return (
     <li>
-      <span
-        className='flex justify-between items-center'
-        onClick={() => canCollapse && setIsOpen(prev => !prev)}
-      >
+      <span className='flex items-center'>
         <DocLink
-          node={node}
+          title={node.title}
+          href={href}
           pathname={pathname}
           className='grow'
-          onClick={e => {
-            e.stopPropagation()
-            if (canCollapse) setIsOpen(true)
-          }}
+          onClick={() => canCollapse && setIsOpen(true)}
         />
 
         {canCollapse && (
-          <span className='p-1.5 pl-3 cursor-pointer'>
+          <span
+            className='p-1.5 pl-3 cursor-pointer'
+            onClick={() => setIsOpen(prev => !prev)}
+          >
             <svg
               width='12'
               height='12'
@@ -120,10 +148,11 @@ const DocNode = ({ node, collapse, pathname }: DocNodeProps) => {
             <ul className='ml-1.5 pl-1.5 border-l border-current/25 list-none'>
               {node.children.map(child => (
                 <DocNode
-                  key={child.url}
+                  key={child.route}
                   node={child}
                   pathname={pathname}
                   collapse={collapse}
+                  isSubdomainHost={isSubdomainHost}
                 />
               ))}
             </ul>
@@ -139,26 +168,33 @@ const DocNode = ({ node, collapse, pathname }: DocNodeProps) => {
  */
 
 interface DocLinkProps {
-  node: DocLeaf
+  title: string
+  href: string
   pathname: string
   className?: classNames.Argument
   onClick?: MouseEventHandler<HTMLAnchorElement>
 }
 
-const DocLink = ({ node, pathname, className, onClick }: DocLinkProps) => (
+const DocLink = ({
+  title,
+  href,
+  pathname,
+  className,
+  onClick,
+}: DocLinkProps) => (
   <Link
-    href={node.url}
+    href={href}
     onClick={onClick}
     className={classNames(
       'no-underline transition-colors hover:text-accent',
-      pathname === node.url
+      pathname === href
         ? 'text-accent'
-        : pathname.startsWith(node.url)
+        : pathname.startsWith(href)
           ? 'text-current'
           : 'text-current/50',
       className,
     )}
   >
-    {node.title}
+    {title}
   </Link>
 )

@@ -9,7 +9,8 @@ import { DocLeaf, DocMatch, DocParams, DocTree } from '@/lib/types/docs'
 const DOCS_DIR = path.join(process.cwd(), 'docs')
 
 const flattenDocTree = (tree: DocTree): DocLeaf[] => {
-  const leaves: DocLeaf[] = [{ title: tree.title, url: tree.url }]
+  const { locale, subdomain, route, title } = tree
+  const leaves: DocLeaf[] = [{ locale, subdomain, route, title }]
   for (const child of tree.children) {
     if ('children' in child) leaves.push(...flattenDocTree(child))
     else leaves.push(child)
@@ -31,11 +32,8 @@ const getDocSlug = (docName: string): string =>
     .replace(/[^a-z0-9-]/g, '') // Remove illegal characters
     .replace(/-+/g, '-') // Collapse dashes
 
-const getDocUrl = (
-  locale: string,
-  subdomain: string,
-  slug?: string[],
-): string => `/${locale}/${subdomain}/docs${slug ? `/${slug.join('/')}` : ''}`
+const getDocRoute = (slug?: string[]): string =>
+  `/docs${slug ? `/${slug.join('/')}` : ''}`
 
 const getDocMatch = async (
   locale: string,
@@ -111,8 +109,8 @@ export const getDocPrevNext = async (
   if (!tree) return { prev: null, next: null }
 
   const leaves = flattenDocTree(tree)
-  const currentUrl = getDocUrl(locale, subdomain, slug)
-  const index = leaves.findIndex(leaf => leaf.url === currentUrl)
+  const route = getDocRoute(slug)
+  const index = leaves.findIndex(leaf => leaf.route === route)
 
   return {
     prev: index > 0 ? leaves[index - 1] : null,
@@ -133,10 +131,10 @@ export const getDocTree = async (
     .filter(e => e.name !== 'README.md' && e.name !== 'FOOTER.md')
     .sort((a, b) => a.name.localeCompare(b.name, undefined, { numeric: true }))
 
+  const route = getDocRoute(slug)
   const docFile = await getDocFile(docMatch)
   const title = docFile ? await readDocTitle(docFile) : 'Untitled'
-  const url = getDocUrl(locale, subdomain, slug)
-  const tree: DocTree = { title, url, children: [] }
+  const tree: DocTree = { locale, subdomain, route, title, children: [] }
 
   for (const entry of sorted) {
     const entrySlug = slug
@@ -151,8 +149,10 @@ export const getDocTree = async (
     // Push leaf for markdown file
     else if (entry.name.endsWith('.md'))
       tree.children.push({
+        locale,
+        subdomain,
+        route: getDocRoute(entrySlug),
         title: await readDocTitle(path.join(docMatch.match, entry.name)),
-        url: getDocUrl(locale, subdomain, entrySlug),
       })
   }
 

@@ -18,7 +18,8 @@ interface DocsPageProps {
   tNav: string
   tPrev: string
   tNext: string
-  publicRoot?: `/${string}`
+  publicRoot: `/${string}`
+  isSubdomainHost: boolean
 }
 
 export const DocsPage = ({
@@ -33,17 +34,26 @@ export const DocsPage = ({
   tPrev,
   tNext,
   publicRoot,
+  isSubdomainHost,
 }: DocsPageProps) => (
   <article className='prose prose-gray max-w-none'>
     <DocsMarkdown
       locale={locale}
       subdomain={subdomain}
       content={content}
-      publicRoot={publicRoot}
       anchorLinks
+      publicRoot={publicRoot}
+      isSubdomainHost={isSubdomainHost}
     />
 
-    {tree && <DocsNav tree={tree} title={tNav} rootIndent />}
+    {tree && (
+      <DocsNav
+        tree={tree}
+        title={tNav}
+        rootIndent
+        isSubdomainHost={isSubdomainHost}
+      />
+    )}
 
     {footer && (
       <DocsMarkdown
@@ -51,6 +61,7 @@ export const DocsPage = ({
         subdomain={subdomain}
         content={footer}
         publicRoot={publicRoot}
+        isSubdomainHost={isSubdomainHost}
       />
     )}
 
@@ -58,8 +69,18 @@ export const DocsPage = ({
       <>
         <hr />
         <nav className='not-prose flex justify-between gap-4'>
-          <DocsBtmLink label={tPrev} doc={prev} align='left' />
-          <DocsBtmLink label={tNext} doc={next} align='right' />
+          <DocsBtmLink
+            label={tPrev}
+            doc={prev}
+            align='left'
+            isSubdomainHost={isSubdomainHost}
+          />
+          <DocsBtmLink
+            label={tNext}
+            doc={next}
+            align='right'
+            isSubdomainHost={isSubdomainHost}
+          />
         </nav>
       </>
     )}

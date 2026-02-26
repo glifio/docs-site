@@ -9,21 +9,24 @@ import GithubSlugger from 'github-slugger'
 import Link from 'next/link'
 
 import { DocsHeader } from './DocsHeader'
+import { getDocHref, getFileUrl, isExtUrl } from './utils'
 
 interface DocsMarkdownProps {
   locale: string
   subdomain: string
   content: string
-  publicRoot?: `/${string}`
   anchorLinks?: boolean
+  publicRoot: `/${string}`
+  isSubdomainHost: boolean
 }
 
 export const DocsMarkdown = ({
   locale,
   subdomain,
   content,
-  publicRoot,
   anchorLinks,
+  publicRoot,
+  isSubdomainHost,
 }: DocsMarkdownProps) => (
   <ReactMarkdown
     remarkPlugins={[
@@ -48,13 +51,17 @@ export const DocsMarkdown = ({
 
         // Internal links
         if (href.startsWith('/'))
-          return <Link href={`/${locale}/${subdomain}${href}`}>{children}</Link>
+          return (
+            <Link href={getDocHref(locale, subdomain, href, isSubdomainHost)}>
+              {children}
+            </Link>
+          )
 
         // Anchor links
         if (href.startsWith('#')) return <a href={href}>{children}</a>
 
         // External links
-        if (/^https?:\/\//.test(href))
+        if (isExtUrl(href))
           return (
             <a href={href} target='_blank' rel='noopener noreferrer'>
               {children}
@@ -63,20 +70,15 @@ export const DocsMarkdown = ({
 
         // Asset links
         return (
-          <a href={publicRoot ? `${publicRoot}/${href}` : `/${href}`} download>
+          <a href={getFileUrl(href, publicRoot)} download>
             {children}
           </a>
         )
       },
       img: ({ src, alt }) => {
         if (!src || typeof src !== 'string') return null
-        const imgSrc = /^(https?:\/\/|\/)/.test(src)
-          ? src
-          : publicRoot
-            ? `${publicRoot}/${src}`
-            : `/${src}`
-        // eslint-disable-next-line @next/next/no-img-element
-        return <img src={imgSrc} alt={alt} />
+        const imgSrc = isExtUrl(src) ? src : getFileUrl(src, publicRoot)
+        return <img src={imgSrc} alt={alt} /> // eslint-disable-line @next/next/no-img-element
       },
     }}
   >
