@@ -2,7 +2,6 @@ import 'server-only'
 import * as fs from 'node:fs/promises'
 import * as path from 'node:path'
 
-import { subdomains } from '@/lib/data/domain'
 import { locales } from '@/lib/data/locale'
 import { DocLeaf, DocMatch, DocParams, DocTree } from '@/lib/types/docs'
 
