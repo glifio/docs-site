@@ -1,18 +1,25 @@
 import Link from 'next/link'
 import classNames from 'classnames'
 
+import { getDocHref } from './utils'
 import { DocLeaf } from '@/lib/types/docs'
 
 interface DocsBtmLinkProps {
   label: string
   doc: DocLeaf | null
   align: 'left' | 'right'
+  isSubdomainHost: boolean
 }
 
-export const DocsBtmLink = ({ label, doc, align }: DocsBtmLinkProps) =>
+export const DocsBtmLink = ({
+  label,
+  doc,
+  align,
+  isSubdomainHost,
+}: DocsBtmLinkProps) =>
   doc ? (
     <Link
-      href={doc.url}
+      href={getDocHref(doc.locale, doc.subdomain, doc.route, isSubdomainHost)}
       className={classNames(
         'group block px-4 py-3 rounded-lg transition-colors',
         'border border-current/25 hover:border-accent',

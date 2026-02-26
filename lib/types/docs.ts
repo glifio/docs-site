@@ -3,8 +3,10 @@ export interface DocTree extends DocLeaf {
 }
 
 export interface DocLeaf {
+  locale: string
+  subdomain: string
+  route: string
   title: string
-  url: string
 }
 
 export interface DocParams {
