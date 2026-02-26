@@ -73,4 +73,5 @@ export const generateMetadata = async ({
   return { title: `GLIF \u2013 Docs \u2013 ${title}` }
 }
 
-export const generateStaticParams = getAllDocParams
+export const generateStaticParams = async (): Promise<DocParams[]> =>
+  (await Promise.all(subdomains.map(s => getDocParams(s)))).flat()
