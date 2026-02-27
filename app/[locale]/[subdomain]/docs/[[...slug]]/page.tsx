@@ -5,9 +5,9 @@ import { DocsPage } from '@/components/DocsPage'
 import { subdomains } from '@/lib/data/domain'
 import { isLocale } from '@/lib/data/locale'
 import {
-  getDocParams,
   getDocContent,
   getDocFooter,
+  getDocParams,
   getDocPrevNext,
   getDocTitle,
   getDocTree,
