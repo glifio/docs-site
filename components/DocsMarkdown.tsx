@@ -10,11 +10,13 @@ import Link from 'next/link'
 
 import { DocsHeader } from './DocsHeader'
 import { getDocHref, getFileUrl, isExtUrl } from './utils'
+
+import { Subdomain } from '@/lib/data/domain'
 import { Locale } from '@/lib/data/locale'
 
 interface DocsMarkdownProps {
   locale: Locale
-  subdomain: string
+  subdomain: Subdomain
   content: string
   anchorLinks?: boolean
   publicRoot: `/${string}`
