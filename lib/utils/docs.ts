@@ -159,7 +159,9 @@ export const getDocTree = async (
   return tree
 }
 
-export const getDocParams = async (subdomain: Subdomain): Promise<DocParams[]> => {
+export const getDocParams = async (
+  subdomain: Subdomain,
+): Promise<DocParams[]> => {
   const params: DocParams[] = []
 
   for (const locale of locales) {
