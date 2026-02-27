@@ -1,5 +1,5 @@
 export const getDocHref = (
-  locale: string,
+  locale: Locale,
   subdomain: string,
   route: string,
   isSubdomainHost: boolean,
