@@ -1,23 +1,33 @@
 import { DocsBtmLink } from './DocsBtmLink'
 import { DocsMarkdown } from './DocsMarkdown'
 import { DocsNav } from './DocsNav'
+
+import { Locale } from '@/lib/data/locale'
 import { DocLeaf, DocTree } from '@/lib/types/docs'
 
-/**
- * Documentation page
- */
+const translations = {
+  next: {
+    en: 'Next',
+    zh: '下一页',
+  },
+  previous: {
+    en: 'Previous',
+    zh: '上一页',
+  },
+  'table-of-contents': {
+    en: 'Table of Contents',
+    zh: '目录',
+  },
+}
 
 interface DocsPageProps {
-  locale: string
+  locale: Locale
   subdomain: string
   content: string
   footer: string | null
   tree: DocTree | null
   prev: DocLeaf | null
   next: DocLeaf | null
-  tNav: string
-  tPrev: string
-  tNext: string
   publicRoot: `/${string}`
   isSubdomainHost: boolean
 }
@@ -30,9 +40,6 @@ export const DocsPage = ({
   tree,
   prev,
   next,
-  tNav,
-  tPrev,
-  tNext,
   publicRoot,
   isSubdomainHost,
 }: DocsPageProps) => (
@@ -49,7 +56,7 @@ export const DocsPage = ({
     {tree && (
       <DocsNav
         tree={tree}
-        title={tNav}
+        title={translations['table-of-contents'][locale]}
         rootIndent
         isSubdomainHost={isSubdomainHost}
       />
@@ -70,13 +77,13 @@ export const DocsPage = ({
         <hr />
         <nav className='not-prose flex justify-between gap-4'>
           <DocsBtmLink
-            label={tPrev}
+            label={translations.previous[locale]}
             doc={prev}
             align='left'
             isSubdomainHost={isSubdomainHost}
           />
           <DocsBtmLink
-            label={tNext}
+            label={translations.next[locale]}
             doc={next}
             align='right'
             isSubdomainHost={isSubdomainHost}
