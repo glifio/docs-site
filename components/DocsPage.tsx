@@ -1,6 +1,7 @@
 import { DocsBtmLink } from './DocsBtmLink'
 import { DocsMarkdown } from './DocsMarkdown'
 import { DocsNav } from './DocsNav'
+import { useIsSubdomainHost } from './hooks'
 
 import { Subdomain } from '@/lib/data/domain'
 import { Locale } from '@/lib/data/locale'
@@ -30,7 +31,6 @@ interface DocsPageProps {
   prev: DocLeaf | null
   next: DocLeaf | null
   publicRoot: `/${string}`
-  isSubdomainHost: boolean
 }
 
 export const DocsPage = ({
@@ -42,7 +42,6 @@ export const DocsPage = ({
   prev,
   next,
   publicRoot,
-  isSubdomainHost,
 }: DocsPageProps) => (
   <article className='prose prose-gray max-w-none'>
     <DocsMarkdown
