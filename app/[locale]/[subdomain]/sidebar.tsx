@@ -3,13 +3,13 @@
 import { useRouter } from 'next/navigation'
 
 import { DocsNav } from '@/components/DocsNav'
-import { subdomains } from '@/lib/data/domain'
-import { locales } from '@/lib/data/locale'
+import { Subdomain, subdomains } from '@/lib/data/domain'
+import { Locale, locales } from '@/lib/data/locale'
 import { DocTree } from '@/lib/types/docs'
 
 interface SidebarProps {
-  locale: string
-  subdomain: string
+  locale: Locale
+  subdomain: Subdomain
   tree: DocTree | null
 }
 
@@ -30,7 +30,7 @@ export const Sidebar = ({ locale, subdomain, tree }: SidebarProps) => {
           onSelect={s => router.push(`/${locale}/${s}/docs`)}
         />
       </div>
-      {tree && <DocsNav tree={tree} small collapse isSubdomainHost={false} />}
+      {tree && <DocsNav tree={tree} small collapse />}
     </div>
   )
 }

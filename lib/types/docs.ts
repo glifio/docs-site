@@ -1,17 +1,20 @@
+import { Subdomain } from '@/lib/data/domain'
+import { Locale } from '@/lib/data/locale'
+
 export interface DocTree extends DocLeaf {
   children: Array<DocTree | DocLeaf>
 }
 
 export interface DocLeaf {
-  locale: string
-  subdomain: string
+  locale: Locale
+  subdomain: Subdomain
   route: string
   title: string
 }
 
 export interface DocParams {
-  locale: string
-  subdomain: string
+  locale: Locale
+  subdomain: Subdomain
   slug: string[]
 }
 

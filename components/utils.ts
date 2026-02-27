@@ -1,6 +1,9 @@
+import { Subdomain } from '@/lib/data/domain'
+import { Locale } from '@/lib/data/locale'
+
 export const getDocHref = (
-  locale: string,
-  subdomain: string,
+  locale: Locale,
+  subdomain: Subdomain,
   route: string,
   isSubdomainHost: boolean,
 ) => `/${locale}${isSubdomainHost ? '' : `/${subdomain}`}${route}`
