@@ -14,21 +14,6 @@ import {
 } from '@/lib/utils/docs'
 import { DocParams } from '@/lib/types/docs'
 
-const translations = {
-  next: {
-    en: 'Next',
-    zh: '下一页',
-  },
-  previous: {
-    en: 'Previous',
-    zh: '上一页',
-  },
-  'table-of-contents': {
-    en: 'Table of Contents',
-    zh: '目录',
-  },
-}
-
 interface PageProps {
   params: Promise<{ locale: string; subdomain: string; slug?: string[] }>
 }
@@ -53,9 +38,6 @@ const Page = async ({ params }: PageProps) => {
       tree={tree}
       prev={prev}
       next={next}
-      tNav={translations['table-of-contents'][locale]}
-      tPrev={translations.previous[locale]}
-      tNext={translations.next[locale]}
       publicRoot='/'
       isSubdomainHost={false}
     />
