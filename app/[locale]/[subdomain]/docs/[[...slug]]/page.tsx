@@ -40,7 +40,6 @@ const Page = async ({ params }: PageProps) => {
       prev={prev}
       next={next}
       publicRoot='/'
-      isSubdomainHost={false}
     />
   )
 }
