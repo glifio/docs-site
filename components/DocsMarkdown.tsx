@@ -10,6 +10,7 @@ import Link from 'next/link'
 
 import { DocsHeader } from './DocsHeader'
 import { getDocHref, getFileUrl, isExtUrl } from './utils'
+import { Locale } from '@/lib/data/locale'
 
 interface DocsMarkdownProps {
   locale: Locale
