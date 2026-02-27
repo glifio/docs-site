@@ -3,14 +3,14 @@ export interface DocTree extends DocLeaf {
 }
 
 export interface DocLeaf {
-  locale: string
+  locale: Locale
   subdomain: string
   route: string
   title: string
 }
 
 export interface DocParams {
-  locale: string
+  locale: Locale
   subdomain: string
   slug: string[]
 }
