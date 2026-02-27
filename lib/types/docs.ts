@@ -1,3 +1,4 @@
+import { Subdomain } from '@/lib/data/domain'
 import { Locale } from '@/lib/data/locale'
 
 export interface DocTree extends DocLeaf {
@@ -6,14 +7,14 @@ export interface DocTree extends DocLeaf {
 
 export interface DocLeaf {
   locale: Locale
-  subdomain: string
+  subdomain: Subdomain
   route: string
   title: string
 }
 
 export interface DocParams {
   locale: Locale
-  subdomain: string
+  subdomain: Subdomain
   slug: string[]
 }
 
