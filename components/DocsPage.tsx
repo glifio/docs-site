@@ -1,3 +1,5 @@
+'use client'
+
 import { DocsBtmLink } from './DocsBtmLink'
 import { DocsMarkdown } from './DocsMarkdown'
 import { DocsNav } from './DocsNav'
