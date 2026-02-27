@@ -3,6 +3,7 @@ import '@/styles/index.css'
 import { ReactNode } from 'react'
 
 import { Sidebar } from './sidebar'
+import { isLocale } from '@/lib/data/locale'
 import { getDocTree } from '@/lib/utils/docs'
 
 interface LayoutProps {
@@ -12,6 +13,8 @@ interface LayoutProps {
 
 const Layout = async ({ children, params }: LayoutProps) => {
   const { locale, subdomain } = await params
+  if (!isLocale(locale)) throw new Error('Invalid locale')
+
   const tree = await getDocTree(locale, subdomain)
 
   return (

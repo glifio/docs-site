@@ -50,6 +50,8 @@ export const generateMetadata = async ({
   params,
 }: PageProps): Promise<Metadata> => {
   const { locale, subdomain, slug } = await params
+  if (!isLocale(locale)) throw new Error('Invalid locale')
+
   const doc = await getDocContent(locale, subdomain, slug)
   const title = doc ? getDocTitle(doc) : 'Not Found'
   return { title: `GLIF \u2013 Docs \u2013 ${title}` }

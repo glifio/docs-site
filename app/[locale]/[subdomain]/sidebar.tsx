@@ -4,7 +4,7 @@ import { useRouter } from 'next/navigation'
 
 import { DocsNav } from '@/components/DocsNav'
 import { subdomains } from '@/lib/data/domain'
-import { locales } from '@/lib/data/locale'
+import { Locale, locales } from '@/lib/data/locale'
 import { DocTree } from '@/lib/types/docs'
 
 interface SidebarProps {
