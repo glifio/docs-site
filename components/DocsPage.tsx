@@ -42,54 +42,57 @@ export const DocsPage = ({
   prev,
   next,
   publicRoot,
-}: DocsPageProps) => (
-  <article className='prose prose-gray max-w-none'>
-    <DocsMarkdown
-      locale={locale}
-      subdomain={subdomain}
-      content={content}
-      anchorLinks
-      publicRoot={publicRoot}
-      isSubdomainHost={isSubdomainHost}
-    />
+}: DocsPageProps) => {
+  const isSubdomainHost = useIsSubdomainHost(subdomain)
 
-    {tree && (
-      <DocsNav
-        tree={tree}
-        title={translations['table-of-contents'][locale]}
-        rootIndent
-        isSubdomainHost={isSubdomainHost}
-      />
-    )}
-
-    {footer && (
+  return (
+    <article className='prose prose-gray max-w-none'>
       <DocsMarkdown
         locale={locale}
         subdomain={subdomain}
-        content={footer}
+        content={content}
+        anchorLinks
         publicRoot={publicRoot}
         isSubdomainHost={isSubdomainHost}
       />
-    )}
 
-    {(prev || next) && (
-      <>
-        <hr />
-        <nav className='not-prose flex justify-between gap-4'>
-          <DocsBtmLink
-            label={translations.previous[locale]}
-            doc={prev}
-            align='left'
-            isSubdomainHost={isSubdomainHost}
-          />
-          <DocsBtmLink
-            label={translations.next[locale]}
-            doc={next}
-            align='right'
-            isSubdomainHost={isSubdomainHost}
-          />
-        </nav>
-      </>
-    )}
-  </article>
-)
+      {tree && (
+        <DocsNav
+          tree={tree}
+          title={translations['table-of-contents'][locale]}
+          rootIndent
+        />
+      )}
+
+      {footer && (
+        <DocsMarkdown
+          locale={locale}
+          subdomain={subdomain}
+          content={footer}
+          publicRoot={publicRoot}
+          isSubdomainHost={isSubdomainHost}
+        />
+      )}
+
+      {(prev || next) && (
+        <>
+          <hr />
+          <nav className='not-prose flex justify-between gap-4'>
+            <DocsBtmLink
+              label={translations.previous[locale]}
+              doc={prev}
+              align='left'
+              isSubdomainHost={isSubdomainHost}
+            />
+            <DocsBtmLink
+              label={translations.next[locale]}
+              doc={next}
+              align='right'
+              isSubdomainHost={isSubdomainHost}
+            />
+          </nav>
+        </>
+      )}
+    </article>
+  )
+}
