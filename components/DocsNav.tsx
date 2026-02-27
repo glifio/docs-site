@@ -5,6 +5,7 @@ import { usePathname } from 'next/navigation'
 import classNames from 'classnames'
 import Link from 'next/link'
 
+import { useIsSubdomainHost } from './hooks'
 import { getDocHref } from './utils'
 import { DocLeaf, DocTree } from '@/lib/types/docs'
 
@@ -18,7 +19,6 @@ interface DocsNavProps {
   small?: boolean
   collapse?: boolean
   rootIndent?: boolean
-  isSubdomainHost: boolean
 }
 
 export const DocsNav = ({
@@ -27,9 +27,9 @@ export const DocsNav = ({
   small,
   collapse,
   rootIndent,
-  isSubdomainHost,
 }: DocsNavProps) => {
   const pathname = usePathname()
+  const isSubdomainHost = useIsSubdomainHost(tree.subdomain)
 
   return (
     <nav className={classNames('prose prose-gray', small && 'prose-sm')}>
