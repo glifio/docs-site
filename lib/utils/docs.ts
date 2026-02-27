@@ -2,6 +2,7 @@ import 'server-only'
 import * as fs from 'node:fs/promises'
 import * as path from 'node:path'
 
+import { Subdomain } from '@/lib/data/domain'
 import { Locale, locales } from '@/lib/data/locale'
 import { DocLeaf, DocMatch, DocParams, DocTree } from '@/lib/types/docs'
 
@@ -36,7 +37,7 @@ const getDocRoute = (slug?: string[]): string =>
 
 const getDocMatch = async (
   locale: Locale,
-  subdomain: string,
+  subdomain: Subdomain,
   slug?: string[],
 ): Promise<DocMatch | null> => {
   let match = path.join(DOCS_DIR, locale, subdomain)
@@ -70,7 +71,7 @@ const getDocFile = async (docMatch: DocMatch): Promise<string | null> => {
 
 export const getDocContent = async (
   locale: Locale,
-  subdomain: string,
+  subdomain: Subdomain,
   slug?: string[],
 ): Promise<string | null> => {
   const docMatch = await getDocMatch(locale, subdomain, slug)
@@ -80,7 +81,7 @@ export const getDocContent = async (
 
 export const getDocFooter = async (
   locale: Locale,
-  subdomain: string,
+  subdomain: Subdomain,
 ): Promise<string | null> => {
   const footer = path.join(DOCS_DIR, locale, subdomain, 'FOOTER.md')
   return fs
@@ -101,7 +102,7 @@ export interface DocPrevNext {
 
 export const getDocPrevNext = async (
   locale: Locale,
-  subdomain: string,
+  subdomain: Subdomain,
   slug?: string[],
 ): Promise<DocPrevNext> => {
   const tree = await getDocTree(locale, subdomain)
@@ -119,7 +120,7 @@ export const getDocPrevNext = async (
 
 export const getDocTree = async (
   locale: Locale,
-  subdomain: string,
+  subdomain: Subdomain,
   slug?: string[],
 ): Promise<DocTree | null> => {
   const docMatch = await getDocMatch(locale, subdomain, slug)
@@ -158,7 +159,7 @@ export const getDocTree = async (
   return tree
 }
 
-export const getDocParams = async (subdomain: string): Promise<DocParams[]> => {
+export const getDocParams = async (subdomain: Subdomain): Promise<DocParams[]> => {
   const params: DocParams[] = []
 
   for (const locale of locales) {
@@ -171,7 +172,7 @@ export const getDocParams = async (subdomain: string): Promise<DocParams[]> => {
 
 const getDirDocParams = async (
   locale: Locale,
-  subdomain: string,
+  subdomain: Subdomain,
   root: string,
   dir: string,
 ): Promise<DocParams[]> => {
