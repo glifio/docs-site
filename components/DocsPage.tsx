@@ -2,6 +2,7 @@ import { DocsBtmLink } from './DocsBtmLink'
 import { DocsMarkdown } from './DocsMarkdown'
 import { DocsNav } from './DocsNav'
 
+import { Subdomain } from '@/lib/data/domain'
 import { Locale } from '@/lib/data/locale'
 import { DocLeaf, DocTree } from '@/lib/types/docs'
 
@@ -22,7 +23,7 @@ const translations = {
 
 interface DocsPageProps {
   locale: Locale
-  subdomain: string
+  subdomain: Subdomain
   content: string
   footer: string | null
   tree: DocTree | null
