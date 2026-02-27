@@ -8,7 +8,7 @@ import { locales } from '@/lib/data/locale'
 import { DocTree } from '@/lib/types/docs'
 
 interface SidebarProps {
-  locale: string
+  locale: Locale
   subdomain: string
   tree: DocTree | null
 }
