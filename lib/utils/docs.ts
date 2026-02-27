@@ -2,7 +2,7 @@ import 'server-only'
 import * as fs from 'node:fs/promises'
 import * as path from 'node:path'
 
-import { locales } from '@/lib/data/locale'
+import { Locale, locales } from '@/lib/data/locale'
 import { DocLeaf, DocMatch, DocParams, DocTree } from '@/lib/types/docs'
 
 const DOCS_DIR = path.join(process.cwd(), 'docs')
@@ -35,7 +35,7 @@ const getDocRoute = (slug?: string[]): string =>
   `/docs${slug ? `/${slug.join('/')}` : ''}`
 
 const getDocMatch = async (
-  locale: string,
+  locale: Locale,
   subdomain: string,
   slug?: string[],
 ): Promise<DocMatch | null> => {
@@ -69,7 +69,7 @@ const getDocFile = async (docMatch: DocMatch): Promise<string | null> => {
 }
 
 export const getDocContent = async (
-  locale: string,
+  locale: Locale,
   subdomain: string,
   slug?: string[],
 ): Promise<string | null> => {
@@ -79,7 +79,7 @@ export const getDocContent = async (
 }
 
 export const getDocFooter = async (
-  locale: string,
+  locale: Locale,
   subdomain: string,
 ): Promise<string | null> => {
   const footer = path.join(DOCS_DIR, locale, subdomain, 'FOOTER.md')
@@ -100,7 +100,7 @@ export interface DocPrevNext {
 }
 
 export const getDocPrevNext = async (
-  locale: string,
+  locale: Locale,
   subdomain: string,
   slug?: string[],
 ): Promise<DocPrevNext> => {
@@ -118,7 +118,7 @@ export const getDocPrevNext = async (
 }
 
 export const getDocTree = async (
-  locale: string,
+  locale: Locale,
   subdomain: string,
   slug?: string[],
 ): Promise<DocTree | null> => {
@@ -170,7 +170,7 @@ export const getDocParams = async (subdomain: string): Promise<DocParams[]> => {
 }
 
 const getDirDocParams = async (
-  locale: string,
+  locale: Locale,
   subdomain: string,
   root: string,
   dir: string,
