@@ -1,3 +1,5 @@
+import { Locale } from '@/lib/data/locale'
+
 export interface DocTree extends DocLeaf {
   children: Array<DocTree | DocLeaf>
 }
