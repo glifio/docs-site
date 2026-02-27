@@ -12,7 +12,7 @@ import { DocsHeader } from './DocsHeader'
 import { getDocHref, getFileUrl, isExtUrl } from './utils'
 
 interface DocsMarkdownProps {
-  locale: string
+  locale: Locale
   subdomain: string
   content: string
   anchorLinks?: boolean
