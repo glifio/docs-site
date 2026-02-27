@@ -3,13 +3,13 @@
 import { useRouter } from 'next/navigation'
 
 import { DocsNav } from '@/components/DocsNav'
-import { subdomains } from '@/lib/data/domain'
+import { Subdomain, subdomains } from '@/lib/data/domain'
 import { Locale, locales } from '@/lib/data/locale'
 import { DocTree } from '@/lib/types/docs'
 
 interface SidebarProps {
   locale: Locale
-  subdomain: string
+  subdomain: Subdomain
   tree: DocTree | null
 }
 
