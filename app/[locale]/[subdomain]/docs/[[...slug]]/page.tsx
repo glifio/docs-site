@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 
 import { DocsPage } from '@/components/DocsPage'
-import { subdomains } from '@/lib/data/domain'
+import { isSubdomain, subdomains } from '@/lib/data/domain'
 import { isLocale } from '@/lib/data/locale'
 import {
   getDocContent,
@@ -21,6 +21,7 @@ interface PageProps {
 const Page = async ({ params }: PageProps) => {
   const { locale, subdomain, slug } = await params
   if (!isLocale(locale)) throw new Error('Invalid locale')
+  if (!isSubdomain(subdomain)) throw new Error('Invalid subdomain')
 
   const content = await getDocContent(locale, subdomain, slug)
   if (!content) notFound()
@@ -51,6 +52,7 @@ export const generateMetadata = async ({
 }: PageProps): Promise<Metadata> => {
   const { locale, subdomain, slug } = await params
   if (!isLocale(locale)) throw new Error('Invalid locale')
+  if (!isSubdomain(subdomain)) throw new Error('Invalid subdomain')
 
   const doc = await getDocContent(locale, subdomain, slug)
   const title = doc ? getDocTitle(doc) : 'Not Found'
