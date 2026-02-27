@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react'
 
-import { getSubdomain } from '@/lib/data/domain'
+import { getSubdomain, Subdomain } from '@/lib/data/domain'
 
-export const useIsSubdomainHost = (subdomain: string): boolean => {
+export const useIsSubdomainHost = (subdomain: Subdomain): boolean => {
   const [isSubdomainHost, setIsSubdomainHost] = useState<boolean>(false)
 
   useEffect(
