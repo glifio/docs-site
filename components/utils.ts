@@ -1,3 +1,4 @@
+import { Subdomain } from '@/lib/data/domain'
 import { Locale } from '@/lib/data/locale'
 
 export const getDocHref = (
