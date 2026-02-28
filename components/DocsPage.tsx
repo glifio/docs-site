@@ -1,25 +1,38 @@
+'use client'
+
 import { DocsBtmLink } from './DocsBtmLink'
 import { DocsMarkdown } from './DocsMarkdown'
 import { DocsNav } from './DocsNav'
+import { useIsSubdomainHost } from './hooks'
+
+import { Subdomain } from '@/lib/data/domain'
+import { Locale } from '@/lib/data/locale'
 import { DocLeaf, DocTree } from '@/lib/types/docs'
 
-/**
- * Documentation page
- */
+const translations = {
+  next: {
+    en: 'Next',
+    zh: '下一页',
+  },
+  previous: {
+    en: 'Previous',
+    zh: '上一页',
+  },
+  'table-of-contents': {
+    en: 'Table of Contents',
+    zh: '目录',
+  },
+}
 
 interface DocsPageProps {
-  locale: string
-  subdomain: string
+  locale: Locale
+  subdomain: Subdomain
   content: string
   footer: string | null
   tree: DocTree | null
   prev: DocLeaf | null
   next: DocLeaf | null
-  tNav: string
-  tPrev: string
-  tNext: string
   publicRoot: `/${string}`
-  isSubdomainHost: boolean
 }
 
 export const DocsPage = ({
@@ -30,59 +43,58 @@ export const DocsPage = ({
   tree,
   prev,
   next,
-  tNav,
-  tPrev,
-  tNext,
   publicRoot,
-  isSubdomainHost,
-}: DocsPageProps) => (
-  <article className='prose prose-gray max-w-none'>
-    <DocsMarkdown
-      locale={locale}
-      subdomain={subdomain}
-      content={content}
-      anchorLinks
-      publicRoot={publicRoot}
-      isSubdomainHost={isSubdomainHost}
-    />
+}: DocsPageProps) => {
+  const isSubdomainHost = useIsSubdomainHost(subdomain)
 
-    {tree && (
-      <DocsNav
-        tree={tree}
-        title={tNav}
-        rootIndent
-        isSubdomainHost={isSubdomainHost}
-      />
-    )}
-
-    {footer && (
+  return (
+    <article className='prose prose-gray max-w-none'>
       <DocsMarkdown
         locale={locale}
         subdomain={subdomain}
-        content={footer}
+        content={content}
+        anchorLinks
         publicRoot={publicRoot}
         isSubdomainHost={isSubdomainHost}
       />
-    )}
 
-    {(prev || next) && (
-      <>
-        <hr />
-        <nav className='not-prose flex justify-between gap-4'>
-          <DocsBtmLink
-            label={tPrev}
-            doc={prev}
-            align='left'
-            isSubdomainHost={isSubdomainHost}
-          />
-          <DocsBtmLink
-            label={tNext}
-            doc={next}
-            align='right'
-            isSubdomainHost={isSubdomainHost}
-          />
-        </nav>
-      </>
-    )}
-  </article>
-)
+      {tree && (
+        <DocsNav
+          tree={tree}
+          title={translations['table-of-contents'][locale]}
+          rootIndent
+        />
+      )}
+
+      {footer && (
+        <DocsMarkdown
+          locale={locale}
+          subdomain={subdomain}
+          content={footer}
+          publicRoot={publicRoot}
+          isSubdomainHost={isSubdomainHost}
+        />
+      )}
+
+      {(prev || next) && (
+        <>
+          <hr />
+          <nav className='not-prose flex justify-between gap-4'>
+            <DocsBtmLink
+              label={translations.previous[locale]}
+              doc={prev}
+              align='left'
+              isSubdomainHost={isSubdomainHost}
+            />
+            <DocsBtmLink
+              label={translations.next[locale]}
+              doc={next}
+              align='right'
+              isSubdomainHost={isSubdomainHost}
+            />
+          </nav>
+        </>
+      )}
+    </article>
+  )
+}

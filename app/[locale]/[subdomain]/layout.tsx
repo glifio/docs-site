@@ -1,9 +1,10 @@
 import '@/styles/index.css'
 
 import { ReactNode } from 'react'
-import type { Metadata } from 'next'
 
 import { Sidebar } from './sidebar'
+import { isSubdomain } from '@/lib/data/domain'
+import { isLocale } from '@/lib/data/locale'
 import { getDocTree } from '@/lib/utils/docs'
 
 interface LayoutProps {
@@ -13,6 +14,9 @@ interface LayoutProps {
 
 const Layout = async ({ children, params }: LayoutProps) => {
   const { locale, subdomain } = await params
+  if (!isLocale(locale)) throw new Error('Invalid locale')
+  if (!isSubdomain(subdomain)) throw new Error('Invalid subdomain')
+
   const tree = await getDocTree(locale, subdomain)
 
   return (
@@ -30,8 +34,3 @@ const Layout = async ({ children, params }: LayoutProps) => {
 }
 
 export default Layout
-
-export const metadata: Metadata = {
-  title: 'GLIF Docs',
-  description: 'GLIF documentation',
-}
