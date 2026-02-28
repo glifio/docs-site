@@ -1,32 +1,33 @@
 # 介绍
 
-## What is GLIF?
+## 什么是 GLIF？
 
-GLIF enables custom capital markets for Decentralized Phyiscal Infrastructure (DePIN) networks.
+GLIF 为去中心化物理基础设施（DePIN）网络提供特定的资本市场。
 
-Token holders of specific DePIN network tokens can earn rewards by productively putting them to use with hardware providers in the network.
+特定 DePIN 网络的代币持有者可以通过将代币交由网络中的硬件提供商使用来赚取收益。
 
-Hardware operators borrow against locked stake, hardware receipts, or future revenue, expanding storage, compute, and energy capacity.
+硬件运营商可以通过锁定质押、硬件凭证或未来收益进行借贷，从而扩展存储、计算和能源容量。
 
-Proven on Filecoin with 35M FIL TVL and over $1B USD in cumulative borrow/lend volume, GLIF is now rolling the model out across chains—becoming the essential credit layer for every DePIN network.
+GLIF 已在 Filecoin 上得到验证，TVL 达 3500 万 FIL，累计借贷规模超过 10 亿美元，目前正将该模式推广至多条链，成为每个 DePIN 网络不可或缺的信用层。
 
-### Problem Statement
+### 问题描述
 
-DePIN networks have unique capital and accessibility challenges:
+DePIN 网络面临独特的资本瓶颈，以及拥有很高的准入门槛：
 
-* Hardware providers need financing - both in native tokens for staking, and in dollars for buying more hardware. However, it can be risky and expensive to fund these operations. Consequently, hardware provider growth is constrained, and DePIN networks have trouble efficiently scaling.
-* Token holders have no way to productively and sustainably earn rewards on the network, without running hardware themselves. In other words, token holders are “sidelined” - they don't have the skills or hardware necessary to provide resources to a DePIN network, and they have no safe and easy way to put their tokens to work in the network.
+* **硬件运营商需要融资**——他们既需要原生代币进行质押，也需要法币来购置硬件。然而，为此类业务提供资金往往伴随着高风险与高成本，导致硬件提供商增长受限，DePIN 网络难以实现高效扩张。
+* **代币持有者无法在不自行运行硬件的情况下，以可持续的方式在网络上赚取收益。** 换句话说，代币持有者处于"局外人"的位置——既不具备提供DePIN 网络所需的专业技能或设备，也缺乏安全便捷的途径让手中的资产在网络中产生价值。
 
-**DePIN networks oftentimes face major capital inefficiencies that restrict their growth.**
+**DePIN 网络往往面临严重的资本效率问题，从而限制其发展。**
 
-### Solution
+### 解决方案
 
-GLIF exists to solve the capital inefficiences on DePIN networks by:
+GLIF 致力于解决 DePIN 网络上的资本低效问题，具体方式如下：
 
-* Pooling tokens together to provide capital for staking and (soon) hardware purchases.
-* Lending or staking tokens with hardware providers in order to help them grow, in a safe and secure manner.
+* 将代币集中起来，用于提供质押资本，并且未来还将推出用于硬件采购。
+* 通过向硬件提供者借出或质押代币，以安全可靠的方式支持其发展。
 
-## What networks do we support?
+## 我们支持哪些网络？
 
-* Filecoin (docs)
-* Impossible Cloud Network (docs)
+* Filecoin（[文档](/docs/jie-shao/xie-yi-mu-biao-yong-hu)）
+* Impossible Cloud Network（文档）
+
