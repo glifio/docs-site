@@ -26,19 +26,19 @@ In this part of the tutorial, we will guide you through the process of changing 
 1. Navigate to the “**Admin**” section on your Agent page. Make sure you are in the “**Owner mode**”
 2. Click the icon next to the operator.
 
-![The Icon button](en-image-263.png "500")
+![The Icon button](en-image-263.png)
 
 3. In the “**Change Operator of Your Agent**” multisig proposal interface, enter the new operator address for the miner.
 
-![Address input](en-image-264.png "500")
+![Address input](en-image-264.png)
 
 4. Click “**Send**” and approve the transaction in your wallet.
 
-![Approve button](en-image-265.png "500")
+![Approve button](en-image-265.png)
 
 5. Wait for the transaction to complete. A “**Transfer Operator**” proposal will appear in the “**Agent Owner Proposals**” section.
 
-![Transaction pending](en-image-266.png "500")
+![Transaction pending](en-image-266.png)
 
 ### Step 2: Approve the Proposal
 
@@ -46,7 +46,7 @@ In this part of the tutorial, we will guide you through the process of changing 
 2. Navigate to the “**Agent Owner Proposals**” section and find the “**Transfer Operator**” proposal.
 3. Click “**Approve Proposal**”.
 
-![Proposal approval](en-image-267.png "500")
+![Proposal approval](en-image-267.png)
 
 4. Confirm the transaction in your wallet.
 
@@ -56,11 +56,11 @@ In this part of the tutorial, we will guide you through the process of changing 
 2. Navigate to the “**Admin**” section of the Agent page. You will see the address of the pending operator.
 3. Click “**Accept operator role**”.
 
-![Approve proposal](en-image-269.png "500")
+![Approve proposal](en-image-269.png)
 
 4. Click “**Send**”.
 
-![Send button](en-image-270.png "500")
+![Send button](en-image-270.png)
 
 5. Wait for the transaction to complete (1–2 minutes). The updated operator address will appear in the “**Admin**” panel.
 

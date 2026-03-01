@@ -8,15 +8,15 @@ Using a GLIF multisig wallet to deposit your FIL tokens provides increased secur
 
 Ensure you have a Filecoin-compatible wallet with an f1 wallet address, such as a [FilSnap wallet](/docs/troubleshooting/tutorials/for-token-holders/wallets/how-to-obtain-a-filsnap-wallet-as-the-intermediary-wallet), [Ledger](/docs/troubleshooting/tutorials/for-token-holders/wallets/how-to-obtain-a-ledger-wallet-as-the-intermediary-wallet), or even a [burner wallet](/docs/troubleshooting/tutorials/for-token-holders/wallets/how-to-obtain-a-burner-wallet-as-the-intermediary-wallet). Find the step-by-step guide for setting up these wallets by clicking on them.
 
-![Connect wallet](en-image-286.png "500")
+![Connect wallet](en-image-286.png)
 
 2. Visit the [GLIF website](/) and navigate to the “**Multisig**” tab
 
-![Tutorial step](en-image-285.png "500")
+![Tutorial step](en-image-285.png)
 
 3. Click on “**Create new multisig**” in the left sidebar of the website
 
-![Create multisig](en-image-333.png "500")
+![Create multisig](en-image-333.png)
 
 > [!NOTE]
 > You need some FIL in your wallet to cover the gas fee.
@@ -30,17 +30,17 @@ Add the addresses of the signers you want to include in the multisig wallet. If 
 
 Next, set the required number of approvals for transactions and enter the deposit amount. Additionally, you can configure a vesting schedule if needed (optional). Review the details and click **“Send”.**
 
-![Send button](en-image-335.png "500")
+![Send button](en-image-335.png)
 
 5. **Confirm in wallet**
 
 A confirmation prompt will appear in your wallet (e.g., FilSnap or Ledger). Click “**Approve**”.
 
-![Approve button](en-image-309.png "500")
+![Approve button](en-image-309.png)
 
 After approving the transaction, please wait as it may take a few minutes for it to be confirmed on the network.
 
-![Confirmation result](en-image-293.png "500")
+![Confirmation result](en-image-293.png)
 
 6. **Access Your Multisig Wallet**
 
@@ -50,7 +50,7 @@ If you don't see your multisig wallet immediately, reconnect your wallet and cli
 
 In the multisig page, you can view your token holdings, proposals, required approvals, and transaction history.
 
-![Connect wallet](en-image-295.png "500")
+![Connect wallet](en-image-295.png)
 
 ## Conclusion
 

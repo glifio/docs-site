@@ -12,43 +12,43 @@ To obtain a Ledger wallet address, you will need to setup your Ledger device ([N
 
 Make sure you have your device connected to your computer (e.g., with the supplied cable), and enter your pin to unlock it.
 
-![Connect wallet](en-image-97.png "500")
+![Connect wallet](en-image-97.png)
 
 ## Step 2. Connect your wallet to GLIF
 
 1. Go to [GLIF website](/) and click on **Connect Wallet** in the top right of the screen. You will see a list of wallets to connect. Choose “**Ledger (Filecoin)**”.
 
-![Toggle button](en-image-99.png "500")
+![Toggle button](en-image-99.png)
 
 2. If your hardware wallet is unlocked and connected, you will see a pop-up in your browser asking to connect the HID device.
 
-![Connect wallet](en-image-100.png "500")
+![Connect wallet](en-image-100.png)
 
 3. Make sure the Filecoin app is open on your device before you try to connect it.
 
 > [!TIP]
 > If you have a problem adding the Filecoin app to your Ledger, please check the tutorial [here](https://docs.filecoin.io/basics/assets/metamask-setup#install-the-ledger-app).
 
-![MetaMask prompt](en-image-101.png "500")
+![MetaMask prompt](en-image-101.png)
 
 4. When the device says “**Filecoin Ready**”, then select the device in the browser popup and hit “**Connect**”.
 
-![Connect wallet](en-image-103.png "500")
+![Connect wallet](en-image-103.png)
 
 5. Once you are connected, you will see your hardware wallet Filecoin address in the top right of the GLIF website, as well as your total FIL balance.
 6. Copy the f1 address for later use. This will be your first Ledger address.
 
-![Copy address](en-image-37.png "500")
+![Copy address](en-image-37.png)
 
 ## Step 3: Generate a second address (optional)
 
 1. If you need to generate a second address, click “**Wallet**” in the top left navigation bar.
 
-![Connect wallet](en-image-35.png "500")
+![Connect wallet](en-image-35.png)
 
 2. Click “**Add Account**” on the left side of the screen. Copy the second address for later use if needed.
 
-![Copy address](en-how-to-obtain-a-ledger-wallet.png "500")
+![Copy address](en-how-to-obtain-a-ledger-wallet.png)
 
 ## Conclusion
 
