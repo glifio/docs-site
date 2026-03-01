@@ -8,7 +8,7 @@ _If you don't yet understand the basics of GLIF Agents and the preparation steps
 
 Before creating your Agent on the website, it's important to understand 2 “roles” within GLIF. As a brief refresher:
 
-1. **Agent —** An Agent is a smart contract that borrows FIL from GLIF. You will deploy, own, and operate your Agent smart contract yourself (covered in [Part 2](/docs/troubleshooting/tutorials/for-storage-providers/glif-agent-website-tutorial-part-2-create-your-agent) of the tutorial). In order to borrow FIL, your Agent needs collateral, which it gets by taking ownership of your Filecoin miner(s). A more detailed description of Agents can be found [here](/docs/for-storage-providers/manage-miner-actors-with-agents).
+1. **Agent —** An Agent is a smart contract that borrows FIL from GLIF. You will deploy, own, and operate your Agent smart contract yourself (covered in this tutorial). In order to borrow FIL, your Agent needs collateral, which it gets by taking ownership of your Filecoin miner(s). A more detailed description of Agents can be found [here](/docs/for-storage-providers/manage-miner-actors-with-agents).
 2. **Agent owner** **wallet** — The Agent's owner wallet is the wallet that controls your Agent. Whoever is in control of your Agent's owner wallet can operate your Agent. It is very important to keep the Agent's owner wallet secure, which GLIF will help you do automatically.
 
 ## Agent Creation Wizard
@@ -22,7 +22,7 @@ The Agent Creation Wizard on the GLIF website will walk you through these steps.
 
 ## Create your Agent on the website
 
-**Step 1 —** go to [glif.io/agent](/agent) and click the “**Create new agent**” button on the left hand panel:
+**Step 1 —** go to [glif.io/agent](https://glif.io/agent) and click the “**Create new agent**” button on the left hand panel:
 
 ![Agent creation](en-image-366.png)
 

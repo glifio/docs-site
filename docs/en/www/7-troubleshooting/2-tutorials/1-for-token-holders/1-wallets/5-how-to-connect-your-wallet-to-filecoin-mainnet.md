@@ -13,7 +13,7 @@ In this tutorial we will use MetaMask, but you can find a similar tutorial using
 
 ## Step 2: Connect your wallet to GLIF
 
-1. Visit the [GLIF website](/) and click on “**Connect Wallet**” in the top right corner.
+1. Visit the [GLIF website](https://glif.io) and click on “**Connect Wallet**” in the top right corner.
 
 ![GLIF connect button](en-image-156.png)
 
@@ -28,7 +28,7 @@ In this tutorial we will use MetaMask, but you can find a similar tutorial using
 > [!TIP]
 > Using Ledger? Check out our Ledger tutorial [here](/docs/troubleshooting/tutorials/for-token-holders/using-the-pool/how-to-deposit-filecoin-from-a-hardware-wallet-with-glif).
 
-2. Click “**Confirm**”, then click “**Approve**” in MetaMask**.**
+2. Click “**Confirm**”, then click “**Approve**” in MetaMask.
 
 ![Confirm button](en-image-159.png)
 

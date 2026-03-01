@@ -28,5 +28,5 @@ GLIF exists to solve the capital inefficiences on DePIN networks by:
 
 ## What networks do we support?
 
-* Filecoin (docs)
+* Filecoin ([docs](/docs/introduction/protocol-users))
 * Impossible Cloud Network (docs)

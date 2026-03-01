@@ -74,7 +74,7 @@ Your Agent owner wallet is a multisig wallet which requires multiple signers to 
 
 ![Add miner form](en-image-274.png)
 
-3. **Select the Proposal** that you just created.
+4. **Select the Proposal** that you just created.
 
 ![Approve proposal](en-image-26.png)
 

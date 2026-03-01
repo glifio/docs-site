@@ -10,7 +10,7 @@ This tutorial will guide you through the process of withdraw your iFIL tokens fr
 ## Step 1: Withdrawing FIL from GLIF to your wallet
 
 1. Connect your wallet to GLIF, which was used to deposit into GLIF and holds iFIL.
-2. To transfer your iFIL from the GLIF pool to FIL, follow the [step-by-step guide](/docs/troubleshooting/tutorials/for-token-holders/using-the-pool/withdraw-fil-from-glif) in this tutorial.
+2. To transfer your iFIL to FIL from the GLIF pool, follow the [step-by-step guide](/docs/troubleshooting/tutorials/for-token-holders/using-the-pool/withdraw-fil-from-glif) in this tutorial.
 3. After withdrawn FIL, you will receive FIL in your main wallet. Click on “**Wallet**” tab in the GLIF navigation, and you will be able to see the FIL and iFIL balance in the “**Account**” section.
 
 ![Token balances](en-image-60.png)

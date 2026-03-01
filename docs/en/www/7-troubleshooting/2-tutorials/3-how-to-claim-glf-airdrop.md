@@ -77,7 +77,7 @@ Congrats! You've successfully claimed your $GLF tokens as an early GLIF communit
 
 ### Claim Your Airdrop via CLI
 
-If you are an SP and would like to claim your airdrop through the Command Line Interface, you need to [install the v2.4.0 new release](https://github.com/glifio/glif/releases/tag/v2.4.0). Please follow the instruction [here](https://github.com/glifio/glif/pull/166/files#diff-b335630551682c19a781afebcf4d07bf978fb1f8ac04c6bf87428ed5106870f5).
+If you are an SP and would like to claim your airdrop through the Command Line Interface, you need to [install the new release](https://github.com/glifio/glif/releases/tag/v2.5.5). Please follow the instruction [here](https://github.com/glifio/glif?tab=readme-ov-file#airdrop-plans).
 
 ### Claim Your Airdrop via the GLIF website
 

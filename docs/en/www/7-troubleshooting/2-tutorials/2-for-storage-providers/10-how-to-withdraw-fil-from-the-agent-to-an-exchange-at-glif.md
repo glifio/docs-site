@@ -12,8 +12,8 @@ This guide will walk you through:
 
 You can choose from the following options:
 
-* [**Step 2a: through GLIF website**](#step-2a--withdrawing-from-your-agent-to-the-intermediary-wallet---through-glif-website)
-* [**Step 2b: through CLI**](#step-2b--withdrawing-from-your-agent-to-the-intermediary-wallet---through-cli)
+* [**Step 2a: through GLIF website**](#step-2a-withdrawing-from-your-agent-to-the-intermediary-wallet---through-glif-website)
+* [**Step 2b: through CLI**](#step-2b-withdrawing-from-your-agent-to-the-intermediary-wallet---through-cli)
 
 **Step 3:** [**Transferring FIL from the intermediary wallet to the desired `f1` address on the exchange**](#step-3-transferring-fil-from-the-intermediary-wallet-to-the-desired-f1-address-on-the-exchange)
 
@@ -124,7 +124,7 @@ For details on creating an intermediary wallet, please refer to the tutorial by 
 
 ![Transaction complete](en-image-95.png)
 
-6. Once the transaction is completed, you can verify the balance of your final f1 address on [filfox.info](https://filfox.info/en) or by pasting your address after [glif.io/address](/address)/(your f1 address).
+6. Once the transaction is completed, you can verify the balance of your final f1 address on [filfox.info](https://filfox.info/en) or by pasting your address after [glif.io/address](/address/your_f1_address)/(your f1 address).
 
 ![Transfer FIL](en-image-96.png)
 

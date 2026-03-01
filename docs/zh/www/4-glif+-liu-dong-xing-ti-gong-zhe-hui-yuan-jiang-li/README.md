@@ -1,1 +1,1 @@
-# GLIF+ Liquidity Providers Loyalty Rewards
+# GLIF+ 流动性提供者会员奖励
