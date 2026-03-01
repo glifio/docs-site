@@ -23,7 +23,7 @@ In this tutorial, you will be guided through the following steps:
 
 3. Click the downward arrow to add funds.
 
-![Cash back balance section with arrow icon](add-cashback-image-1.png "700")
+![Cash back balance section with arrow icon](add-cashback-image-1.png)
 
 4. Choose the source of the deposit. You may deposit from the **Card Owner (the multisig wallet)** or from your connected **single-signature wallet**.
 
@@ -52,7 +52,7 @@ In this tutorial, you will be guided through the following steps:
 
 10. Once processed, the cash back balance will be updated and the available amount increased.
 
-![Approving both proposals](add-cashback-image-5.png "700")
+![Approving both proposals](add-cashback-image-5.png)
 
 ***
 
