@@ -51,7 +51,7 @@ export const generateMetadata = async ({
 
   const doc = await getDocContent(docsDir, locale, slug)
   const title = doc ? getDocTitle(doc) : 'Not Found'
-  return { title: `GLIF \u2013 Docs \u2013 ${title}` }
+  return { title: `GLIF x ICN Docs \u2013 ${title}` }
 }
 
 export const generateStaticParams = () => getDocParams(docsDir, locales)
