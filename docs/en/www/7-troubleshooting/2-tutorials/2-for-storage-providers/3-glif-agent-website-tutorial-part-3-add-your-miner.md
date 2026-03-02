@@ -23,7 +23,7 @@ This step occurs outside of GLIF and our command line. Depending on what mining 
 
 Your Agent's `f4` address can be found on the Agent page of the website:
 
-![Tutorial step](en-image-368.png "500")
+![Tutorial step](en-image-368.png)
 
 ## Step 2: Propose the “Add Miner” Proposal (Through website UI)
 
@@ -36,12 +36,12 @@ Your Agent's `f4` address can be found on the Agent page of the website:
 
 2. Go to the “**Miners**” section in your Agent page. Click “**Add a Miner**”.
 
-![Add miner form](en-image-12.png "500")
+![Add miner form](en-image-12.png)
 
 3. Enter your miner address in the “**Add a miner to your Agent**” page.
 4. Click “**Sign transaction**”.
 
-![Sign prompt](en-image-16.png "500")
+![Sign prompt](en-image-16.png)
 
 5. After clicking “**Sign transaction**”, a message will be displayed indicating how many minutes remain for this credential. You can also revoke the credential by clicking “**Revoke credential**”.
 
@@ -50,11 +50,11 @@ Your Agent's `f4` address can be found on the Agent page of the website:
 
 6. Click “**Send**” to create a new proposal. You will be prompted to sign the transaction with your currently connected wallet.
 
-![Send button](en-image-17.png "500")
+![Send button](en-image-17.png)
 
 7. Approve the transaction in your wallet.
 
-![Approval step](en-image-18.png "500")
+![Approval step](en-image-18.png)
 
 8. Wait for the transaction to complete, which may take 1-2 minutes.
 
@@ -64,23 +64,23 @@ Your Agent owner wallet is a multisig wallet which requires multiple signers to 
 
 1. Connect with the other signer wallets. You can find all signer wallets in the “**Required Approvals**” section on your multisig page. These should be the same wallets used in [Part 2](/docs/troubleshooting/tutorials/for-storage-providers/glif-agent-website-tutorial-part-2-create-your-agent).
 
-![Agent creation](en-image-24.png "500")
+![Agent creation](en-image-24.png)
 
 2. Navigate to the “**Multisig**” tab.
 
-![Approve proposal](en-image-22.png "500")
+![Approve proposal](en-image-22.png)
 
 3. The “**AddMiner**” proposal should appear in the “**Agent owner proposals**” queue.
 
-![Add miner form](en-image-274.png "500")
+![Add miner form](en-image-274.png)
 
 4. **Select the Proposal** that you just created.
 
-![Approve proposal](en-image-26.png "500")
+![Approve proposal](en-image-26.png)
 
 5. Click **“Approve proposal”.**
 
-![Proposal approval](en-image-27.png "500")
+![Proposal approval](en-image-27.png)
 
 6. Confirm the transaction in your wallet.
 7. If your multisig requires approval from more than two signers, repeat the same steps using the other signer wallets. Once approved by the required number of signers, the proposal will be executed on-chain. Wait for the transaction confirmation, which may take a few minutes.

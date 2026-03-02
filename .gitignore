@@ -28,3 +28,8 @@ yarn-error.log*
 # vscode
 /.vscode/**/*
 !.vscode/settings.json
+
+# local files
+/docs-site/
+/tutorial/
+docs/zh/www/2-liu-dong-xing-ti-gong-zhe/2-glif-jiang-li-ji-zhi-ifil 2.md

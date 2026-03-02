@@ -12,6 +12,6 @@ Follow this step-by-step guide to complete the process. Once you've followed the
 2. In the top right corner of the GLIF website, navigate to your wallet address.
 3. The `0x` and corresponding `f410` addresses will be displayed in the dropdown menu.
 
-![Connect wallet](en-image-33.png "500")
+![Connect wallet](en-image-33.png)
 
 Once you find your corresponding address, you can use it to transfer your Filecoin from an exchange or between wallets!

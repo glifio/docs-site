@@ -40,7 +40,7 @@ For details on creating an intermediary wallet, please refer to the tutorial by 
 1. Connect to one of the wallets that is a signer for your agent's multisig wallet.
 2. Navigate to the “**Withdraw**” tab within the agent.
 
-![Withdrawal step](en-image-68.png "500")
+![Withdrawal step](en-image-68.png)
 
 3. Enter the intermediary wallet you created in [Step 1](#step-1-setting-up-your-intermediary-wallet) as the recipient.
 4. Enter the amount to withdraw.
@@ -49,11 +49,11 @@ For details on creating an intermediary wallet, please refer to the tutorial by 
 > [!WARNING]
 > Wallets with no prior transactions on chain are not supported as the intermediary wallet. Please make some transactions with this wallet before this step.
 
-![Withdraw FIL](en-image-66.png "500")
+![Withdraw FIL](en-image-66.png)
 
 6. Click “**Sign Transaction**”.
 
-![Sign prompt](en-image-71.png "500")
+![Sign prompt](en-image-71.png)
 
 7. After signing the transaction, you will receive a signed credential that **expires in around 5 minutes**. Complete the transaction within this time.
 8. Click “**Send**”.
@@ -61,29 +61,29 @@ For details on creating an intermediary wallet, please refer to the tutorial by 
 > [!IMPORTANT]
 > If you do not complete the transaction and **sign the proposal with your other signer wallets within 5 minutes**, you will need to repeat this step.
 
-![Withdrawal step](en-image-83.png "500")
+![Withdrawal step](en-image-83.png)
 
 9. Approve the transaction in your wallet.
 
-![Approval step](en-image-73.png "500")
+![Approval step](en-image-73.png)
 
 10. Wait for the transaction to be processed. This may take 1-2 minutes.
 11. Sign in to the additional signer wallet in your agent's multisig wallet.
 12. Click on the proposal just made in the “**Owner Proposals**” tab on the agent page..
 
-![Toggle button](en-image-74.png "500")
+![Toggle button](en-image-74.png)
 
 13. Click “**Approve proposal**”.
 
 > [!NOTE]
 > Make sure all signer wallets have **enough gas fees** to proceed with the transaction.
 
-![Approve proposal](en-image-75.png "500")
+![Approve proposal](en-image-75.png)
 
 14. Wait for the transaction to be processed. This may take 1-2 minutes.
 15. Once the multisig proposal is complete, it will disappear, and a successful transaction will be displayed in the “**Transaction**” tab.
 
-![Approve proposal](en-image-77.png "500")
+![Approve proposal](en-image-77.png)
 
 16. Verify your balance in the intermediary wallet to ensure the transaction was successful on the GLIF “**wallet**” page, or verify it by searching your f1 address on [filfox.info](https://filfox.info/en).
 
@@ -94,17 +94,17 @@ For details on creating an intermediary wallet, please refer to the tutorial by 
 
 * **1st Command**: `glif agent --help`
 
-![Withdrawal step](en-image-78.png "500")
+![Withdrawal step](en-image-78.png)
 
 * **2nd Command**: `glif agent withdraw --help`
 
-![Withdraw FIL](en-image-79.png "500")
+![Withdraw FIL](en-image-79.png)
 
 * **3rd Command**: `glif agent withdraw 100 f1...abc`
   * Replace **100** with the amount you want to withdraw.
   * Replace **f1...abc** with your intermediary wallet address.
 
-![Withdrawal step](en-image-80.png "500")
+![Withdrawal step](en-image-80.png)
 
 3. Verify your balance in the intermediary wallet to ensure the transaction was successful on the GLIF “**wallet**” page, or verify it by searching your f1 wallet address on [filfox.info](https://filfox.info/en).
 
@@ -112,21 +112,21 @@ For details on creating an intermediary wallet, please refer to the tutorial by 
 
 1. Connect to your intermediary wallet made in [step 1](#step-1-setting-up-your-intermediary-wallet). On the GLIF website, click “**Send FIL.**”
 
-![Send button](en-image-93.png "500")
+![Send button](en-image-93.png)
 
 2. Paste your f1 address on the exchange in the recipient field.
 3. Enter the desired amount of FIL to transfer.
 4. Click “**Send**” and confirm the transaction.
 
-![Transaction confirmation](en-image-94.png "500")
+![Transaction confirmation](en-image-94.png)
 
 5. After the transaction completed, you can check the transaction hash in the bottom right corner of the GLIF page.
 
-![Transaction complete](en-image-95.png "500")
+![Transaction complete](en-image-95.png)
 
 6. Once the transaction is completed, you can verify the balance of your final f1 address on [filfox.info](https://filfox.info/en) or by pasting your address after [glif.io/address](/address/your_f1_address)/(your f1 address).
 
-![Transfer FIL](en-image-96.png "500")
+![Transfer FIL](en-image-96.png)
 
 7. Congrats! Your FIL has been successfully withdraw FIL from your agent to your f1 address on the exchange!
 

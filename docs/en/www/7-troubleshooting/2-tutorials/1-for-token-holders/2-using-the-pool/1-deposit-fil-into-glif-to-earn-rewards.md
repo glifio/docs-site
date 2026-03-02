@@ -15,11 +15,11 @@ In this tutorial we will use MetaMask, but you can find a similar tutorial using
 
 1. Visit the [GLIF website](/) and click on “**Connect Wallet**” in the top right corner.
 
-![GLIF connect button](en-image-156.png "500")
+![GLIF connect button](en-image-156.png)
 
 2. Select the wallet you wish to connect with that is funded with FIL.
 
-![Wallet selection](en-image-158.png "500")
+![Wallet selection](en-image-158.png)
 
 ## Step 2.5: Add the Filecoin network to your wallet (chrome extensions only)
 
@@ -32,22 +32,22 @@ For detailed instructions on add the Filecoin Mainnet to your wallet, check out 
 1. After connecting your wallet to [GLIF](/), your Filecoin balance will appear in the GLIF interface.
 2. Click “**Deposit Filecoin**” in the main page, or go to the “**Pool**” page.
 
-![Deposit page](en-image-171.png "500")
+![Deposit page](en-image-171.png)
 
 3. Enter the amount you wish to deposit, and click “**Deposit**”.
 
-![Amount input](en-image-173.png "500")
+![Amount input](en-image-173.png)
 
 4. Then hit “**Send**”.
 
-![Send confirmation](en-image-382.png "500")
+![Send confirmation](en-image-382.png)
 
 > [!WARNING]
 > Please make sure that you leave enough FIL in the wallet to cover gas fees.
 
 5. Click “**Confirm**” in your wallet.
 
-![Wallet confirmation](en-image-176.png "500")
+![Wallet confirmation](en-image-176.png)
 
 ## Step 4: Check your iFIL balance
 
@@ -58,17 +58,17 @@ After depositing FIL, you will receive iFIL within a minute or two. The FIL valu
 
 For a more detailed view of your position, click on “**Wallet**” in the GLIF navigation, and you will be able to see the FIL and iFIL associated with your wallet address in the “**Token**” section.
 
-![Position view](en-image-38.png "500")
+![Position view](en-image-38.png)
 
 ## Step 5: Add iFIL to your wallet portfolio (chrome extensions only)
 
 1. If you want to see your iFIL in MetaMask,  you can add the token address to your wallet easily. In “**Token**” section, find the “**...**” sign next to iFIL tokens, and click on “**Add iFIL to MetaMask”.**
 
-![Add token dialog](en-image-175.png "500")
+![Add token dialog](en-image-175.png)
 
 2. Click “**Add token**” in MetaMask.
 
-![Add token dialog](en-image-209.png "500")
+![Add token dialog](en-image-209.png)
 
 ## Conclusion
 
