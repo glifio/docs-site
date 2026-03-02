@@ -1,14 +1,9 @@
-/* Remove backtick quotes added by Tailwind Typography - must be outside @layer to override */
-.prose :where(code):not(:where(pre code))::before,
-.prose :where(code):not(:where(pre code))::after {
-  content: none;
-}
-
 @layer components {
   /* Inline code styling */
   .prose :where(code):not(:where(pre code)) {
     @apply bg-current/10 px-1.5 py-0.5 rounded;
     @apply text-sm font-mono font-normal;
+    @apply before:content-none! after:content-none!;
   }
 
   /* Heading anchor links */

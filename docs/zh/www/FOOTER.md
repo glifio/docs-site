@@ -6,4 +6,4 @@
 
 💬 如果你遇到任何问题，请在 [Discord](https://discord.com/invite/5qsJjsP3Re) 开启支援工单。
 
-⚠️ 小心诈骗！GLIF 团队成员会有“GLIF”或“Moderator”的标示。
+⚠️ 小心诈骗！GLIF 团队成员会标示为"GLIF"或"Moderator"。

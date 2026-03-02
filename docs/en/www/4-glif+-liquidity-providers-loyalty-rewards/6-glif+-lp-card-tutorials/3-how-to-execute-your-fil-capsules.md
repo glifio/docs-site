@@ -1,6 +1,6 @@
 # How to execute your FIL Capsules
 
-This tutorial explains how to redeem a FIL Capsule by using the required amount of GLF and sending the FIL to your chosen recipient. By executing FIL Capsules, you sell $GLF directly to the protocol at a premium over the market price, rather than selling into the public market.
+This tutorial explains how to redeem a FIL Capsule by using the required amount of GLF and sending the FIL to your chosen recipient. By executing FIL Capsules, the protocol buys $GLF directly from you at a premium to the market price, instead of purchasing from public markets.
 
 For details on how FIL Capsules work, see [this page](/docs/glif-liquidity-providers-loyalty-rewards/how-fil-capsules-work).
 
@@ -12,14 +12,14 @@ If you are using a multisig wallet, check [this tutorial](/docs/glif-liquidity-p
 
 1. Go to the **'Loyalty'** tab and navigate to the **'FIL Capsules'** section.
 
-![Loyalty tab in the navigation bar](execute-capsule-image-1.png "500")
+![Loyalty tab in the navigation bar](execute-capsule-image-1.png)
 
 2. Find the Capsule you want to execute. The process is the same for both standard Capsules and Referral Capsules. The amount of GLF you are selling and the amount of FIL you are buying are displayed in the Capsule.
 
 > [!WARNING]
 > Please make sure you have enough GLF in your GLIF+ Card balance and your Card is active to unlock that Capsule.
 
-![FIL capsules list with Execute button](execute-capsule-image-2.png "500")
+![FIL capsules list with Execute button](execute-capsule-image-2.png)
 
 > [!NOTE]
 > The **premium** shown here is the difference between the capsule's token price and the current price of GLF:FIL on the DEX. You can check [here](/docs/glif-liquidity-providers-loyalty-rewards/how-fil-capsules-work) for a detailed explanation.
@@ -28,7 +28,7 @@ If you are using a multisig wallet, check [this tutorial](/docs/glif-liquidity-p
 
 4. Click **'Execute'**.
 
-![Execute your FIL capsule dialog](execute-capsule-image-3.png "500")
+![Execute your FIL capsule dialog](execute-capsule-image-3.png)
 
 > [!WARNING]
 > It is recommended **not** to withdraw directly to an exchange, since some exchanges may not support the transaction format and this could result in loss of funds. Because all cash back is sent in a single transaction, a test transfer is not possible. For safety, please withdraw to a wallet you own first, confirm the balance, and then send to an exchange if needed.
@@ -37,11 +37,11 @@ If you are using a multisig wallet, check [this tutorial](/docs/glif-liquidity-p
 
 6. After execution, you should see your GLF balance decrease in the Card Summary, and the recipient's FIL balance increase. The details for **"Total Capsules Executed," "Total FIL Received,"** and **"Total GLF Spent"** will be updated under Card Stats.
 
-![Card stats showing updated capsule execution details](execute-capsule-image-4.png "500")
+![Card stats showing updated capsule execution details](execute-capsule-image-4.png)
 
 7. When you return to the **'FIL Capsules'** section, the Capsule should appear as **'Executed'**.
 
-![FIL capsules list showing capsule as Executed](execute-capsule-image-5.png "500")
+![FIL capsules list showing capsule as Executed](execute-capsule-image-5.png)
 
 ***
 

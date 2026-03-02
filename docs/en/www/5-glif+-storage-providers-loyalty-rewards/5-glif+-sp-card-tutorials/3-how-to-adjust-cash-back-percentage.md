@@ -16,26 +16,26 @@ For other tutorials on managing your GLIF+ SP Card, see [this page](/docs/glif-s
 
 The displayed percentage represents the portion of your interest payment that is eligible for cash back. The default maximum is 10%. You may adjust it to a lower percentage.
 
-![Card summary with Cash Back % column and pen icon](adjust-cashback-image-1.png "500")
+![Card summary with Cash Back % column and pen icon](adjust-cashback-image-1.png)
 
 3. Adjust the slider to your desired percentage.
 
 4. Click **'Send'**.
 
-![Cash back percentage slider](adjust-cashback-image-2.png "500")
+![Cash back percentage slider](adjust-cashback-image-2.png)
 
 5. Confirm the transaction in your wallet.
 
 
 6. Click the **'Proposals'** tab. A **'SetPersonalCashBackPercent'** proposal will appear in the Proposals tab.
 
-![SetPersonalCashBackPercent proposal in Proposals tab](adjust-cashback-image-3.png "500")
+![SetPersonalCashBackPercent proposal in Proposals tab](adjust-cashback-image-3.png)
 
 7. Approve the proposal with all multisig signers.
 
 8. Once all approvals are completed, the updated cash back percentage will appear in the Summary.
 
-![Updated cash back percentage in Summary](adjust-cashback-image-4.png "500")
+![Updated cash back percentage in Summary](adjust-cashback-image-4.png)
 
 ***
 

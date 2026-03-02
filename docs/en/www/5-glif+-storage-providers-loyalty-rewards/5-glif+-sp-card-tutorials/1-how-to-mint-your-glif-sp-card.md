@@ -35,13 +35,13 @@ In this tutorial, you will be guided through the following steps:
 
 2. Choose your desired tier from **Bronze, Silver, or Gold**.
 
-2. Review the details to compare leverage, cash back premium, and the stake requirement, which indicates how many $GLF tokens you must stake to activate the selected tier.
+2. Review the details to compare leverage, exchange TWAP benefits, and the stake requirement, which indicates how many $GLF tokens you must stake to activate the selected tier.
 ![Agent address pre-filled](mint-sp-image-2.png)
 
 
 
 > [!NOTE]
-> Higher tiers provide stronger benefits such as higher TWAP exchange rates and higher borrowing leverage. For example, the Gold tier offers a maximum Debt to Liquidation ratio of 90%. For explanations of terms such as TWAP exchange rates or maximum leverage, refer to [this page](/docs/glif-storage-providers-loyalty-rewards/tiers-and-limits).
+> Higher tiers provide stronger benefits such as higher TWAP exchange rates and higher borrowing leverage. For example, the Gold tier offers a maximum Debt to Liquidation ratio of 90%. For explanations of terms such as exchange TWAP or maximum leverage, refer to [this page](/docs/glif-storage-providers-loyalty-rewards/tiers-and-limits).
 
 
 

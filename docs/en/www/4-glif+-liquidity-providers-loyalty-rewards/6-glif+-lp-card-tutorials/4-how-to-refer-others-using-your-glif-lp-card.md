@@ -10,7 +10,7 @@ To learn more about how Referral Capsules work, click [this page](/docs/glif-liq
 
 1. Go to your **'Wallet'** tab. You will see the banner **'Refer a friend, get a free Capsule'**.
 
-![Refer a friend, get a free Capsule banner with share invite link](refer-lp-image-1.png "500")
+![Refer a friend, get a free Capsule banner with share invite link](refer-lp-image-1.png)
 
 2. Click **'Share Invite Link'** or copy the link directly. Share it to your social platforms and friends.
 
