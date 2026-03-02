@@ -1,35 +1,32 @@
 # dependencies
 node_modules/
-/.pnp
-.pnp.*
-
-# next.js
-/.next
 
 # typescript
 *.tsbuildinfo
+
+# next.js
+.next/
 next-env.d.ts
 
-# vercel
-/.vercel
-
-# misc
-.DS_Store
-
-# debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-.pnpm-debug.log*
+# turbo
+.turbo/
 
 # env
+.env
 .env*.local
 
-# vscode
-/.vscode/**/*
-!.vscode/settings.json
+# debug
+pnpm-debug.log*
 
-# local files
-/docs-site/
-/tutorial/
-docs/zh/www/2-liu-dong-xing-ti-gong-zhe/2-glif-jiang-li-ji-zhi-ifil 2.md
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# vercel
+.vercel

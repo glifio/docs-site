@@ -1,0 +1,6 @@
+@import "../../../../packages/shared/styles/index.css";
+@source "../../../../packages/shared";
+
+@theme {
+  --color-accent: var(--color-accent-glif);
+}
