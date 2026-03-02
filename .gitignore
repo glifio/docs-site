@@ -1,0 +1,32 @@
+# dependencies
+node_modules/
+
+# typescript
+*.tsbuildinfo
+
+# next.js
+.next/
+next-env.d.ts
+
+# turbo
+.turbo/
+
+# env
+.env
+.env*.local
+
+# debug
+pnpm-debug.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# vercel
+.vercel

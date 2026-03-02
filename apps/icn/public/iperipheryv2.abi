@@ -1,0 +1,355 @@
+[
+  {
+    "type": "function",
+    "name": "VERSION",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint64",
+        "internalType": "uint64"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "apy",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "claimRewards",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "getActiveNodeListFromICN",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256[]",
+        "internalType": "uint256[]"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "getScalarNodeMap",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "tuple[]",
+        "internalType": "struct IPeripheryV2.NodeInfo[]",
+        "components": [
+          {
+            "name": "nodeId",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "totalDelegated",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "poolDelegated",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "node",
+            "type": "tuple",
+            "internalType": "struct IICNProtocolMini.ScalerNode",
+            "components": [
+              {
+                "name": "status",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "creationDate",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "name",
+                "type": "string",
+                "internalType": "string"
+              },
+              {
+                "name": "totalCapacity",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "utilizedCapacity",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "hpId",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "location",
+                "type": "uint8",
+                "internalType": "enum IICNProtocolMini.LocationCode"
+              },
+              {
+                "name": "clusterId",
+                "type": "string",
+                "internalType": "string"
+              },
+              {
+                "name": "reservationPrice",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "bookingPrice",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "nodeRewardShare",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "hwClass",
+                "type": "string",
+                "internalType": "string"
+              },
+              {
+                "name": "daemonAddress",
+                "type": "address",
+                "internalType": "address"
+              },
+              {
+                "name": "collateralAmount",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "commitmentDuration",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "commitmentStart",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "spIdUnused",
+                "type": "address",
+                "internalType": "address"
+              },
+              {
+                "name": "activationEra",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "startBookingPeriod",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "bookingPeriod",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "spId",
+                "type": "uint256",
+                "internalType": "uint256"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "icnp",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "contract IICNProtocolMini"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "initialize",
+    "inputs": [
+      {
+        "name": "_initialOwner",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_pool",
+        "type": "address",
+        "internalType": "contract IPool"
+      },
+      {
+        "name": "_icnp",
+        "type": "address",
+        "internalType": "contract IICNProtocolMini"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "initializeRewardClaims",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "pool",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "contract IPool"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "setIcnp",
+    "inputs": [
+      {
+        "name": "newIcnp",
+        "type": "address",
+        "internalType": "contract IICNProtocolMini"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "setMaxNodeIdCount",
+    "inputs": [
+      {
+        "name": "maxNodeIdCount",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "setPool",
+    "inputs": [
+      {
+        "name": "newPool",
+        "type": "address",
+        "internalType": "contract IPool"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "shouldClaimRewards",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool",
+        "internalType": "bool"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "shouldFlushDeposits",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool",
+        "internalType": "bool"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "shouldInitializeRewardClaims",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool",
+        "internalType": "bool"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "tvl",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "version",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint64",
+        "internalType": "uint64"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "error",
+    "name": "InvalidParams",
+    "inputs": []
+  }
+]

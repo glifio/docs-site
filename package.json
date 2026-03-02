@@ -1,0 +1,32 @@
+{
+  "name": "@glif/monorepo",
+  "private": true,
+  "packageManager": "pnpm@9.1.2",
+  "engines": {
+    "node": "24.x"
+  },
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "tsc": "turbo run tsc",
+    "lint": "eslint .",
+    "fix": "eslint --fix ."
+  },
+  "devDependencies": {
+    "@formatjs/intl-localematcher": "^0.8.1",
+    "@tailwindcss/postcss": "^4.1.0",
+    "@types/negotiator": "^0.6.4",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "eslint": "^10.0.0",
+    "eslint-config-next": "^16.0.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.5",
+    "negotiator": "^1.0.0",
+    "prettier": "^3.5.3",
+    "turbo": "^2.5.0",
+    "typescript": "^5.8.0"
+  }
+}

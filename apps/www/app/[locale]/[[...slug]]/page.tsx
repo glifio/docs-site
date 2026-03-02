@@ -1,0 +1,57 @@
+import type { Metadata } from 'next'
+import { notFound } from 'next/navigation'
+
+import { DocsPage } from '@glif/shared/components'
+import { isLocale } from '@glif/shared/types'
+import {
+  getDocContent,
+  getDocFooter,
+  getDocParams,
+  getDocPrevNext,
+  getDocTitle,
+  getDocTree,
+} from '@glif/shared/utils-server'
+
+import { docsDir, locales } from '@/config'
+
+interface PageProps {
+  params: Promise<{ locale: string; slug?: string[] }>
+}
+
+const Page = async ({ params }: PageProps) => {
+  const { locale, slug } = await params
+  if (!isLocale(locale)) throw new Error('Invalid locale')
+
+  const content = await getDocContent(docsDir, locale, slug)
+  if (!content) notFound()
+
+  const footer = await getDocFooter(docsDir, locale)
+  const tree = await getDocTree(docsDir, locale, slug)
+  const { prev, next } = await getDocPrevNext(docsDir, locale, slug)
+
+  return (
+    <DocsPage
+      locale={locale}
+      content={content}
+      footer={footer}
+      tree={tree}
+      prev={prev}
+      next={next}
+    />
+  )
+}
+
+export default Page
+
+export const generateMetadata = async ({
+  params,
+}: PageProps): Promise<Metadata> => {
+  const { locale, slug } = await params
+  if (!isLocale(locale)) throw new Error('Invalid locale')
+
+  const doc = await getDocContent(docsDir, locale, slug)
+  const title = doc ? getDocTitle(doc) : 'Not Found'
+  return { title: `GLIF \u2013 Docs \u2013 ${title}` }
+}
+
+export const generateStaticParams = () => getDocParams(docsDir, locales)
