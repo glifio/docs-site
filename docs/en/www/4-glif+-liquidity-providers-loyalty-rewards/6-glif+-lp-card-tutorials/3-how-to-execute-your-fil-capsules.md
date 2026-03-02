@@ -1,6 +1,6 @@
 # How to execute your FIL Capsules
 
-This tutorial explains how to redeem a FIL Capsule by using the required amount of GLF and sending the FIL to your chosen recipient. By executing FIL Capsules, the protocol buys $GLF directly from you at a premium to the market price, instead of purchasing from public markets.
+This tutorial explains how to redeem a FIL Capsule by using the required amount of GLF and sending the FIL to your chosen recipient. By executing FIL Capsules, you sell $GLF directly to the protocol at a premium over the market price, rather than selling into the public market.
 
 For details on how FIL Capsules work, see [this page](/docs/glif-liquidity-providers-loyalty-rewards/how-fil-capsules-work).
 

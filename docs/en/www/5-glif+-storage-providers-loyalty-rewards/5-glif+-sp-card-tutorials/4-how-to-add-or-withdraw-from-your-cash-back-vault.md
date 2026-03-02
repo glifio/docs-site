@@ -86,6 +86,6 @@ In this tutorial, you will be guided through the following steps:
 
 ## Conclusion
 
-Your cash back vault has been successfully updated. You can now manage your GLF funding level and optimize how much FIL cash back you receive when paying interest with your GLIF+ SP Card.
+Your cash back vault has been successfully updated. You can now manage your GLF balance and optimize how much FIL cash back you receive when paying interest with your GLIF+ SP Card.
 
 You may want to check out the other [tutorials](/docs/glif-storage-providers-loyalty-rewards/glif-sp-card-tutorials) to learn more about managing your GLIF+ SP Card.

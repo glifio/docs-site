@@ -4,7 +4,7 @@ Follow the steps below to start receiving FIL rewards through your GLIF+ LP Card
 
 ## 1. Mint a Card
 
-Liquidity Providers can mint a GLIF+ LP Card directly on the GLIF website [here](https://glif.io/loyalty). A step-by-step tutorial will be available here (coming soon).
+Liquidity Providers can mint a GLIF+ LP Card directly on the GLIF website [here](/loyalty). A step-by-step tutorial will be available here (coming soon).
 
 * **Mint cost**: 2,000 $GLF
 * Once minted, the Card becomes **soulbound** to your wallet and is **non-transferable**.

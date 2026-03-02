@@ -21,7 +21,7 @@ Each successful referral grants the referrer a **Referral Capsule**. These Capsu
 
 ### How It Works
 
-1. Mint your GLIF+ LP Card on the [GLIF website](https://glif.io/loyalty)
+1. Mint your GLIF+ LP Card on the [GLIF website](/loyalty)
 2. Access your personal referral link on your GLIF+ dashboard.
 3. Share your link with other LPs. Anyone who mints a Card using your link triggers your reward.
 4. Receive a Referral Capsule instantly. The Capsule with 5 FIL inside of it appears in your wallet and can be unlocked anytime within its 14-day validity window.

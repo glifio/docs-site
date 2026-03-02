@@ -12,6 +12,6 @@
 
 存储提供商（Storage Providers，简称 SP）是运营一个或多个 [Filecoin Miner Acto](https://spec.filecoin.io/systems/filecoin_mining/storage_mining/)[rs](https://spec.filecoin.io/systems/filecoin_mining/storage_mining/)（“矿工”）的个人或组织。SP 提供去中心化的数据存储服务，并使用 GLIF 借入 FIL 用于存储挖矿，这有助于SP成长，同时也有助于保护整个 Filecoin 网络的安全。
 
-作为一个 SP，你可以从大量流动性提供者 (LP) 的手中借入 FIL，而无需交出私钥、签署法律文件或进行 KYC 验证。借入的 FIL 可用于存储挖矿，或从系统中提取出来，于交易所进行交易或出售。SP 可以借入高达其抵押品 3 倍杠杆的FIL。你可以在[这一節](/docs/cun-chu-ti-gong-shang/jie-ru-fil)了解更多关于作为存储提供者的资讯，或查看[常见问题](/docs/gu-zhang-pai-cha/chang-jian-wen-ti/chang-jian-wen-ti-cun-chu-ti-gong-shang)。
+作为一个 SP，你可以从大量流动性提供者 (LP) 的手中借入 FIL，而无需交出私钥、签署法律文件或进行 KYC 验证。借入的 FIL 可用于存储挖矿，或从系统中提取出来，于交易所进行交易或出售。SP 可以借入高达其抵押品 3 倍杠杆的FIL。你可以在[这一节](/docs/cun-chu-ti-gong-shang/jie-ru-fil)了解更多关于作为存储提供者的资讯，或查看[常见问题](/docs/gu-zhang-pai-cha/chang-jian-wen-ti/chang-jian-wen-ti-cun-chu-ti-gong-shang)。
 
 要立即开始从 GLIF 借入 FIL，请在我们的[网站](/agent)上创建一个[Agent](/docs/cun-chu-ti-gong-shang/shi-yong-agents-guan-li-jie-dian)。

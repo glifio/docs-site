@@ -6,7 +6,7 @@ GLIF+ Liquidity Provider Loyalty Cards allow iFIL and $GLF token holders to rece
 
 Liquidity Providers (LPs) can turn iFIL positions and $GLF tokens into a stream of FIL-redeemable rewards. This mechanism is powered by [FIL Capsules](/docs/glif-liquidity-providers-loyalty-rewards/how-fil-capsules-work)—on-chain NFTs that encapsulate a predefined amount of FIL, allowing holders to swap $GLF for FIL at fixed, predetermined rates. Meanwhile, GLIF uses a portion of its Treasury fees to purchase $GLF directly from Card holders at a premium.
 
-Mint your card, stake your tokens, and earn from FIL Capsules. Join the program and put your $GLF and iFIL to work today [here](https://glif.io/loyalty).
+Mint your card, stake your tokens, and earn from FIL Capsules. Join the program and put your $GLF and iFIL to work today [here](/loyalty).
 
 ## Table of Contents
 
