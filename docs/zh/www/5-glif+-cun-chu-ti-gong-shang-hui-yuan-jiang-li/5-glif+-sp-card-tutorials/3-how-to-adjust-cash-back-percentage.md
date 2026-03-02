@@ -17,26 +17,26 @@
 
 显示的百分比代表您的利息支付中符合返现条件的比例。默认最大值为 10%。您可以将其调整至较低的百分比。
 
-![Card summary with Cash Back % column and pen icon](adjust-cashback-image-1.png "500")
+![Card summary with Cash Back % column and pen icon](adjust-cashback-image-1.png)
 
 3. 将滑块调整至您想要的百分比。
 
 4. 点击 **'发送'**。
 
-![Cash back percentage slider](adjust-cashback-image-2.png "500")
+![Cash back percentage slider](adjust-cashback-image-2.png)
 
 5. 在钱包中确认交易。
 
 
 6. 点击 **'提案'** 标签页。**'SetPersonalCashBackPercent'** 提案将出现在提案标签页中。
 
-![SetPersonalCashBackPercent proposal in Proposals tab](adjust-cashback-image-3.png "500")
+![SetPersonalCashBackPercent proposal in Proposals tab](adjust-cashback-image-3.png)
 
 7. 请所有多签签名者批准该提案。
 
 8. 所有批准完成后，更新后的返现比例将显示在摘要中。
 
-![Updated cash back percentage in Summary](adjust-cashback-image-4.png "500")
+![Updated cash back percentage in Summary](adjust-cashback-image-4.png)
 
 ***
 

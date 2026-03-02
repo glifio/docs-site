@@ -12,14 +12,14 @@
 
 1. 前往 **'会员'** 标签页，找到 **'FIL 胶囊'** 部分。
 
-![Loyalty tab in the navigation bar](execute-capsule-image-1.png "500")
+![Loyalty tab in the navigation bar](execute-capsule-image-1.png)
 
 2. 找到您想执行的胶囊。标准胶囊 和推荐胶囊 的操作流程相同。胶囊内显示您将出售的 GLF 数量以及您将获得的 FIL 数量。
 
 > [!WARNING]
 > 请确保您的 GLIF+ 会员卡余额中有足够的 GLF，且您的会员卡处于激活状态，方可解锁该胶囊。
 
-![FIL capsules list with Execute button](execute-capsule-image-2.png "500")
+![FIL capsules list with Execute button](execute-capsule-image-2.png)
 
 > [!NOTE]
 > 此处显示的**溢价**是胶囊的代币价格与 DEX 上当前 GLF:FIL 价格之间的差额。您可以查看[此页面](/docs/glif-liu-dong-xing-ti-gong-zhe-hui-yuan-jiang-li/fil-jiao-nang-de-yun-zuo-fang-shi)获取详细说明。
@@ -28,7 +28,7 @@
 
 4. 点击 **'执行'**。
 
-![Execute your FIL capsules dialog](execute-capsule-image-3.png "500")
+![Execute your FIL capsules dialog](execute-capsule-image-3.png)
 
 > [!WARNING]
 > 建议**不要**直接提取至交易所，因为部分交易所可能不支持该交易格式，可能导致资金损失。由于交易中将发送所有返现，因此无法进行测试转账。为了安全起见，请先提取至您自己的钱包，确认余额后，如有需要再转至交易所。
@@ -37,11 +37,11 @@
 
 6. 执行后，您应能看到会员卡摘要中的 GLF 余额减少，以及接收方 FIL 余额增加。**"已执行的胶囊总数"**、**"累计已获得的 FIL"** 和 **"累计已使用的 GLF"** 的数据将在卡片状态中更新。
 
-![Card stats showing updated capsules execution details](execute-capsule-image-4.png "500")
+![Card stats showing updated capsules execution details](execute-capsule-image-4.png)
 
 7. 返回 **'FIL 胶囊'** 部分时，该胶囊应显示为 **'已执行'**。
 
-![FIL capsules list showing capsules as Executed](execute-capsule-image-5.png "500")
+![FIL capsules list showing capsules as Executed](execute-capsule-image-5.png)
 
 ***
 

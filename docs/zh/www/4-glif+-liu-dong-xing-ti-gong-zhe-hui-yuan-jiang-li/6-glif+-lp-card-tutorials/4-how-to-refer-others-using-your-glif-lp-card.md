@@ -10,7 +10,7 @@
 
 1. 前往您的 **'钱包'** 标签页。您将看到横幅 **'邀请好友，领取免费胶囊奖励'**。
 
-![Refer a friend, get a free Capsule banner with share invite link](refer-lp-image-1.png "500")
+![Refer a friend, get a free Capsule banner with share invite link](refer-lp-image-1.png)
 
 2. 点击 **'分享邀请链接'** 或直接复制链接，分享至您的社交平台和朋友圈。
 

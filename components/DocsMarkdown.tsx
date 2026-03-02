@@ -78,11 +78,10 @@ export const DocsMarkdown = ({
           </a>
         )
       },
-      img: ({ src, alt, title }) => {
+      img: ({ src, alt }) => {
         if (!src || typeof src !== 'string') return null
         const imgSrc = isExtUrl(src) ? src : getFileUrl(src, publicRoot)
-        const width = title && /^\d+$/.test(title) ? Number(title) : undefined
-        return <img src={imgSrc} alt={alt} width={width} /> // eslint-disable-line @next/next/no-img-element
+        return <img src={imgSrc} alt={alt} /> // eslint-disable-line @next/next/no-img-element
       },
     }}
   >

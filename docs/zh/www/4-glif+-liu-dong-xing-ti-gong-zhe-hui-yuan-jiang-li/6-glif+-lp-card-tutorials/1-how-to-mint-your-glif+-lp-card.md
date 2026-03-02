@@ -8,13 +8,13 @@
 
 1. 前往 **'会员'** 页面并点击 **'立即加入GLIF+'**，或打开您的 **'钱包'** 页面并点击 **'立即铸造'**。
 
-![Loyalty page and wallet page with mint button](mint-lp-image-1.png "500")
+![Loyalty page and wallet page with mint button](mint-lp-image-1.png)
 
-![Card owner address field](mint-lp-image-2.png "500")
+![Card owner address field](mint-lp-image-2.png)
 
 2. 输入会员卡持有者的钱包地址。如果您从钱包页面开始，地址应已自动填入。
 
-![iFIL and GLF amount input fields](mint-lp-image-3.png "500")
+![iFIL and GLF amount input fields](mint-lp-image-3.png)
 
 ***
 
@@ -22,22 +22,22 @@
 
 1. 输入您想添加到会员卡的 **iFIL** 和 **GLF** 数量。此金额不包含 **2000 GLF** 的铸造费用。要激活会员卡，GLF 与 iFIL 代币的最低比例须为 1:1。
 
-![Activate my card later toggle](mint-lp-image-4.png "500")
+![Activate my card later toggle](mint-lp-image-4.png)
 
 2. 您也可以选择稍后激活会员卡，此时只需支付 2000 GLF 的铸造费用。
 
-![Membership status showing Inactive when activating later](mint-lp-image-5.png "500")
+![Membership status showing Inactive when activating later](mint-lp-image-5.png)
 
 > [!NOTE]
 > 请确保您有足够的 GLF 来支付铸造费用和存款金额。
 
 3. 左侧的 **'当前应付金额'** 金额显示本次交易将从您钱包扣除的 iFIL 或 GLF 数量。右侧的 **'iFIL / GLF 剩余余额'** 显示交易完成后钱包中剩余的数量。
 
-![Due now and balance remaining summary](mint-lp-image-6.png "500")
+![Due now and balance remaining summary](mint-lp-image-6.png)
 
 4. 点击 **'铸造并激活'**。
 
-![Mint and Activate button](mint-lp-image-7.png "500")
+![Mint and Activate button](mint-lp-image-7.png)
 
 ***
 
@@ -45,15 +45,15 @@
 
 1. 查看待铸造会员卡的详情，包括费用。
 
-![Card summary with membership status, tokens, and mint cost](mint-lp-image-8.png "500")
+![Card summary with membership status, tokens, and mint cost](mint-lp-image-8.png)
 
 2. 点击 **'批准 iFIL 转账'**，并在钱包中确认交易。
 
-![Approve iFIL transfer button](mint-lp-image-9.png "500")
+![Approve iFIL transfer button](mint-lp-image-9.png)
 
 3. 点击 **'批准 GLF 转账'**，并在钱包中确认交易。
 
-![Approve GLF transfer button](mint-lp-image-10.png "500")
+![Approve GLF transfer button](mint-lp-image-10.png)
 
 4. 等待 1 至 2 分钟，直到两笔交易完成。
 
@@ -63,7 +63,7 @@
 
 1. 点击 **'铸造'**。
 
-![Mint button with both approvals completed](mint-lp-image-11.png "500")
+![Mint button with both approvals completed](mint-lp-image-11.png)
 
 2. 在钱包中确认交易。等待 1 至 2 分钟让交易处理完成。
 
@@ -73,15 +73,15 @@
 
 1. 您将被重定向回钱包页面。页面应显示：**'你的会员卡正在铸造中…'** 请等待交易完成。
 
-![Wallet page showing card being minted](mint-lp-image-12.png "500")
+![Wallet page showing card being minted](mint-lp-image-12.png)
 
 2. 铸造完成后，将出现一条横幅，显示：**'邀请好友，领取免费胶囊奖励'**
 
-![Referral banner after minting is complete](mint-lp-image-13.png "500")
+![Referral banner after minting is complete](mint-lp-image-13.png)
 
 3. 找到 **会员** 页面，查看您的 GLIF+ 会员卡，您将在该页面看到您的卡片数据。
 
-![GLIF+ Loyalty Card stats on Loyalty page](mint-lp-image-14.png "500")
+![GLIF+ Loyalty Card stats on Loyalty page](mint-lp-image-14.png)
 
 ***
 

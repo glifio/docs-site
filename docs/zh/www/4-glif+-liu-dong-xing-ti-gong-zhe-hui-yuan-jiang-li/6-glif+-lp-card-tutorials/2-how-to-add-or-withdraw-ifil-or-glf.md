@@ -18,15 +18,15 @@
 
 1. 前往 GLIF 网站的 **'会员'** 标签页，然后找到 **'概要'** 部分。
 
-![GLIF+ Loyalty Card summary section](add-token-image-1.png "500")
+![GLIF+ Loyalty Card summary section](add-token-image-1.png)
 
 2. 在 **'iFIL 余额'** 或 **'GLF 余额'** 旁找到 **'+'** 图标，具体取决于您想转移的代币。
 
-![Add iFIL button next to iFIL balance](add-token-image-2.png "500")
+![Add iFIL button next to iFIL balance](add-token-image-2.png)
 
 3. 输入您想添加的代币数量。余额将从会员卡持有者的钱包地址转出。点击 **'批准 iFIL/GLF 转账'** 提交批准请求。
 
-![Add iFIL to your loyalty card dialog with Approve iFIL transfer button](add-token-image-3.png "500")
+![Add iFIL to your loyalty card dialog with Approve iFIL transfer button](add-token-image-3.png)
 
 4. 在钱包中确认交易。
 
@@ -34,7 +34,7 @@
 
 6. 批准确认后，点击 **'发送'** 执行第二笔交易，完成实际的代币转账。
 
-![Send button to execute the token transfer](add-token-image-4.png "500")
+![Send button to execute the token transfer](add-token-image-4.png)
 
 7. 在钱包中确认第二笔交易。
 
@@ -50,13 +50,13 @@
 
 2. 在 **'iFIL 余额'** 或 **'GLF 余额'** 旁找到 **'–'** 图标，具体取决于您想转移的代币。
 
-![Withdraw iFIL button next to iFIL balance](add-token-image-5.png "500")
+![Withdraw iFIL button next to iFIL balance](add-token-image-5.png)
 
 3. 输入您想提取的代币数量，并输入接收方地址。默认情况下，接收方为会员卡持有者地址。
 
 4. 点击 **'发送'** 发起提取操作。
 
-![Withdraw iFIL from your loyalty card dialog with Send button](add-token-image-6.png "500")
+![Withdraw iFIL from your loyalty card dialog with Send button](add-token-image-6.png)
 
 5. 在钱包中确认交易。
 

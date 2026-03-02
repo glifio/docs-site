@@ -14,11 +14,11 @@
 
 1. 在领取返现奖励之前，您必须先支付所欠的利息，您不一定需要支付全部欠款。
 
-![Interest payment screen](claim-cashback-image-1.png "500")
+![Interest payment screen](claim-cashback-image-1.png)
 
 2. 您获得的返现奖励金额取决于所支付的利息金额、您设置的返现比例以及您的等级。您可以在会员卡摘要中查看这些参数。
 
-![Loyalty Card summary with cash back parameters](claim-cashback-image-2.png "500")
+![Loyalty Card summary with cash back parameters](claim-cashback-image-2.png)
 
 > [!NOTE]
 > 查看[此教程](/docs/glif-cun-chu-ti-gong-shang-hui-yuan-jiang-li/glif-sp-card-tutorials/how-to-adjust-cash-back-percentage)了解如何调整返现比例，以及查看[此教程](/docs/glif-cun-chu-ti-gong-shang-hui-yuan-jiang-li/glif-sp-card-tutorials/how-to-add-or-withdraw-from-your-cash-back-vault)了解如何向返现金库添加资金。
@@ -27,24 +27,24 @@
 
 4. 点击 **'领取'**。
 
-![Available FIL reward with Claim and Send buttons](claim-cashback-image-3.png "500")
+![Available FIL reward with Claim and Send buttons](claim-cashback-image-3.png)
 
 5. 选择奖励 FIL 应发送至的接收方地址。
 
 6. 点击 **'发送'**。
 
-![Recipient address selection](claim-cashback-image-4.png "500")
+![Recipient address selection](claim-cashback-image-4.png)
 
 7. 系统将自动创建一个 **'ClaimCashBack'** 提案。
 
-![ClaimCashBack proposal in Proposals tab](claim-cashback-image-5.png "500")
+![ClaimCashBack proposal in Proposals tab](claim-cashback-image-5.png)
 
 8. 连接每个签名者并批准提案。所有签名者必须批准提案方可执行。
 
 
 9. 交易处理完成后，您的返现余额金库中的 $GLF 数量将减少，奖励 FIL 将发送至所选接收方地址。领取完成后，返现奖励余额将重置为零。
 
-![Updated cash back balance after claim](claim-cashback-image-6.png "500")
+![Updated cash back balance after claim](claim-cashback-image-6.png)
 
 ***
 
