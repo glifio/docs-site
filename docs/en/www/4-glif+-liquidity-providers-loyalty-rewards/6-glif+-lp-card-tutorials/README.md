@@ -1,1 +1,0 @@
-# GLIF+ LP Card Tutorials
