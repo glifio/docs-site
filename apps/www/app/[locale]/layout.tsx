@@ -15,7 +15,7 @@ interface LayoutProps {
 
 const Layout = async ({ children, params }: LayoutProps) => {
   const { locale } = await params
-  if (!isLocale(locale)) throw new Error('Invalid locale')
+  if (!isLocale(locale)) throw new Error(`Invalid locale: ${locale}`)
 
   const tree = await getDocTree(docsDir, locale)
   return (

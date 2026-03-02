@@ -20,7 +20,7 @@ interface PageProps {
 
 const Page = async ({ params }: PageProps) => {
   const { locale, slug } = await params
-  if (!isLocale(locale)) throw new Error('Invalid locale')
+  if (!isLocale(locale)) throw new Error(`Invalid locale: ${locale}`)
 
   const content = await getDocContent(docsDir, locale, slug)
   if (!content) notFound()
@@ -47,7 +47,7 @@ export const generateMetadata = async ({
   params,
 }: PageProps): Promise<Metadata> => {
   const { locale, slug } = await params
-  if (!isLocale(locale)) throw new Error('Invalid locale')
+  if (!isLocale(locale)) throw new Error(`Invalid locale: ${locale}`)
 
   const doc = await getDocContent(docsDir, locale, slug)
   const title = doc ? getDocTitle(doc) : 'Not Found'
