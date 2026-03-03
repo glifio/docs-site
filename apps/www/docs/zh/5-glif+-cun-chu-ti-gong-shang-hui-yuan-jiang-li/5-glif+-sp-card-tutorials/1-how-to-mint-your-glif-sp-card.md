@@ -18,7 +18,7 @@
 - [步骤 7：查看已铸造的会员卡](#bu-zhou-7-cha-kan-yi-zhu-zao-de-hui-yuan-ka)
 
 ***
-#操作步骤
+# 操作步骤
 
 ## 步骤 1：选择您的 Agent
 
