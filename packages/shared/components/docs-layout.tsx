@@ -26,13 +26,13 @@ export const DocsLayout = async ({
       <div className='flex'>
         <div
           className={classNames(
-            'flex-none sticky w-xs p-8 overflow-y-auto',
+            'flex-none sticky w-xs p-6 overflow-y-auto',
             'top-14.25 h-[calc(100vh-3.5rem-1px)]', // header height + border
           )}
         >
           {tree && <DocsNav tree={tree} small collapse />}
         </div>
-        <div className='grow w-full max-w-6xl mx-auto p-8'>{children}</div>
+        <div className='grow w-full max-w-6xl mx-auto p-6'>{children}</div>
       </div>
     </body>
   </html>
