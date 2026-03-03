@@ -19,6 +19,10 @@ const translations = {
     en: 'Table of Contents',
     zh: '目录',
   },
+  notFound: {
+    en: 'Sorry, the page you are looking for could not be found',
+    zh: '抱歉，无法找到您访问的页面。',
+  },
 } satisfies Translations
 
 export const t = (locale: Locale, key: keyof typeof translations): string => {

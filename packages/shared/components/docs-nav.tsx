@@ -38,7 +38,7 @@ export const DocsNav = ({
       <ul
         className={classNames(
           'list-none',
-          rootIndent ? 'ml-1.5 pl-1.5 border-l border-current/25' : 'pl-0',
+          rootIndent ? 'ml-1.5 pl-2.5 border-l border-current/25' : 'pl-0',
         )}
       >
         {tree.children.map(child => (
@@ -79,7 +79,7 @@ const DocNode = ({ node, pathname, collapse }: DocNodeProps) => {
   }, [pathname, node])
 
   return (
-    <li>
+    <li className='p-0'>
       <span className='flex items-center'>
         <DocLink
           leaf={node}
@@ -117,7 +117,7 @@ const DocNode = ({ node, pathname, collapse }: DocNodeProps) => {
           style={{ gridTemplateRows: isOpen ? '1fr' : '0fr' }}
         >
           <div className='overflow-hidden'>
-            <ul className='ml-1.5 pl-1.5 border-l border-current/25 list-none'>
+            <ul className='ml-1.5 pl-2.5 border-l border-current/25 list-none'>
               {node.children.map(child => (
                 <DocNode
                   key={child.href}

@@ -11,7 +11,7 @@ interface DocsHeaderProps {
 
 export const DocsHeader = ({ locale, locales, icon }: DocsHeaderProps) => (
   <header className='sticky top-0 z-10 bg-white border-b border-current/25'>
-    <div className='flex items-center justify-between px-8 h-14'>
+    <div className='flex items-center justify-between px-6 h-14'>
       <div className='flex items-center gap-3'>
         <a
           href='https://www.glif.io'
