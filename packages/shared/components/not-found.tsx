@@ -2,16 +2,12 @@
 
 import { useParams } from 'next/navigation'
 
-import { Locale, isLocale } from '../types'
+import { isLocale } from '../types'
 import { t } from '../utils'
 
-interface NotFoundProps {
-  defaultLocale: Locale
-}
-
-export const NotFound = ({ defaultLocale }: NotFoundProps) => {
+export const NotFound = () => {
   const { locale } = useParams<{ locale: string }>()
-  const validLocale = isLocale(locale) ? locale : defaultLocale
+  const validLocale = isLocale(locale) ? locale : 'en'
 
   return (
     <article className='prose prose-gray max-w-none'>
