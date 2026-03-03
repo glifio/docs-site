@@ -6,7 +6,7 @@
 
 ## “清算价值”是什么，如何计算？
 
-[清算价值](/cun-chu-ti-gong-shang/sp-qing-suan-jia-zhi)是如果矿工的扇区被终止，在減去罚金和其他损失后，存储提供商的Miner Actor可以收回的預计价值。其计算方式为：
+[清算价值](/cun-chu-ti-gong-shang/sp-qing-suan-jia-zhi)是如果矿工的扇区被终止，在减去罚金和其他损失后，存储提供商的Miner Actor可以收回的预计价值。其计算方式为：
 
 $$
 清算价值 = 矿工余额 - 矿工最大终止罚金

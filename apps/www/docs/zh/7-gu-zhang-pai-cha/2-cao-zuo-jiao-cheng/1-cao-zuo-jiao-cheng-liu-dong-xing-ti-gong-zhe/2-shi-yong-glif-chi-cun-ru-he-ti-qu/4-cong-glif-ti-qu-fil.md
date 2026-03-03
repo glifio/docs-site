@@ -40,7 +40,7 @@ GLIF 智能合约需要获得权限，才能使用您的 iFIL 代币来处理提
 
 ![步骤 4：提交第 2 笔交易（](cn-image-85.png)
 
-2. 在 MetaMask 中点击 “**確認**”。
+2. 在 MetaMask 中点击 “**确认**”。
 
 ![MetaMask prompt](cn-image-86.png)
 
