@@ -79,7 +79,7 @@ const DocNode = ({ node, pathname, collapse }: DocNodeProps) => {
   }, [pathname, node])
 
   return (
-    <li>
+    <li className='p-0'>
       <span className='flex items-center'>
         <DocLink
           leaf={node}
