@@ -1,5 +1,7 @@
 import { NotFound } from '@glif/shared/components'
 
-const NotFoundPage = () => <NotFound />
+import { defaultLocale } from '@/config'
+
+const NotFoundPage = () => <NotFound defaultLocale={defaultLocale} />
 
 export default NotFoundPage
