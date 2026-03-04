@@ -1,3 +1,4 @@
+import type { MetadataRoute } from 'next'
 import * as fs from 'node:fs/promises'
 import * as path from 'node:path'
 
@@ -197,4 +198,36 @@ const getDirDocParams = async (
   }
 
   return params
+}
+
+export const getDocsSitemap = async (
+  siteUrl: string,
+  docsDir: string,
+  locales: Locale[],
+): Promise<MetadataRoute.Sitemap> => {
+  const changeFrequency = 'daily' as const
+  const lastModified = new Date()
+
+  return [
+    // Root with alternates for locales
+    {
+      url: siteUrl,
+      changeFrequency,
+      lastModified,
+      alternates: {
+        languages: Object.fromEntries(
+          locales.map(locale => [locale, `${siteUrl}/${locale}`]),
+        ),
+      },
+    },
+    ...(await getDocParams(docsDir, locales))
+      // Filter out root, already included
+      .filter(({ slug }) => slug.length > 0)
+      // Map doc params to sitemap items
+      .map(({ locale, slug }) => ({
+        url: `${siteUrl}/${locale}/${slug.join('/')}`,
+        changeFrequency,
+        lastModified,
+      })),
+  ]
 }
