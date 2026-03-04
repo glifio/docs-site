@@ -11,7 +11,7 @@ export const GlobalError = ({ error, reset }: GlobalErrorProps) => {
   useEffect(() => console.error(error), [error])
 
   return (
-    <html>
+    <html lang='en'>
       <body>
         <h1>Error</h1>
         <p>{error.message}</p>
