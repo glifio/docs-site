@@ -1,4 +1,4 @@
-import type { MetadataRoute, NextConfig } from 'next'
+import type { Metadata, MetadataRoute, NextConfig } from 'next'
 import * as fs from 'node:fs/promises'
 import * as path from 'node:path'
 
