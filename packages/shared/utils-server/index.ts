@@ -272,6 +272,7 @@ export const getDocMetadata = async (
     applicationName: siteName,
     alternates: { canonical: url },
     icons: { icon: '/meta/favicon.ico' },
+    robots: 'index, follow',
     openGraph: {
       title,
       description,
@@ -290,6 +291,11 @@ export const getDocMetadata = async (
     },
   }
 }
+
+export const get404Metadata = (siteName: string): Metadata => ({
+  title: `${siteName} \u2013 Not Found`,
+  robots: 'noindex',
+})
 
 export const nextConfigHeaders: NextConfig['headers'] = () => [
   {
