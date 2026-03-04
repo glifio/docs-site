@@ -232,6 +232,26 @@ export const getDocsSitemap = async (
   ]
 }
 
+export const getDocMetadata = async (
+  siteName: string,
+  siteUrl: string,
+  docsDir: string,
+  locale: Locale,
+  slug?: string[],
+): Promise<Metadata> => {
+  const doc = await getDocContent(docsDir, locale, slug)
+  const title = `${siteName} \u2013 ${doc ? getDocTitle(doc) : 'Not Found'}`
+  const description = doc ? getDocDescription(doc) : undefined
+  const url = `${siteUrl}/${locale}${slug?.length ? `/${slug.join('/')}` : ''}`
+
+  return {
+    title,
+    description,
+    alternates: { canonical: url },
+    openGraph: { title, description, siteName, locale, url, type: 'article' },
+  }
+}
+
 export const nextConfigHeaders: NextConfig['headers'] = () => [
   {
     source: '/(.*)',
