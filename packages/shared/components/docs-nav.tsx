@@ -97,8 +97,11 @@ const DocNode = ({ node, pathname, collapse }: DocNodeProps) => {
               width='12'
               height='12'
               viewBox='0 0 12 12'
-              className='block transition-transform duration-200'
-              style={{ transform: isOpen ? 'rotate(90deg)' : 'rotate(0deg)' }}
+              aria-hidden='true'
+              className={classNames(
+                'block transition-transform',
+                isOpen && 'rotate-90',
+              )}
             >
               <path
                 d='M4 2 L8 6 L4 10'
