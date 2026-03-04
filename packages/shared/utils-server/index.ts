@@ -278,13 +278,14 @@ export const getDocMetadata = async (
       locale,
       url,
       type: 'article',
-      images: [`${siteUrl}/meta/image.png`],
+      images: `${siteUrl}/meta/image.png`,
     },
     twitter: {
       card: 'summary_large_image',
+      site: '@glifio',
       title,
       description,
-      images: [`${siteUrl}/meta/image.png`],
+      images: `${siteUrl}/meta/image.png`,
     },
   }
 }
