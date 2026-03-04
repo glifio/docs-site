@@ -73,7 +73,7 @@ export const DocsMarkdown = ({
       },
       img: ({ src, alt }) =>
         typeof src === 'string' ? (
-          <img src={isExtUrl(src) ? src : `/${src}`} alt={alt} />
+          <img src={isExtUrl(src) ? src : `/${src}`} alt={alt} loading='lazy' />
         ) : null,
     }}
   >
