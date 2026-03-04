@@ -1,4 +1,4 @@
-import type { MetadataRoute } from 'next'
+import type { MetadataRoute, NextConfig } from 'next'
 import * as fs from 'node:fs/promises'
 import * as path from 'node:path'
 
@@ -231,3 +231,14 @@ export const getDocsSitemap = async (
       })),
   ]
 }
+
+export const nextConfigHeaders: NextConfig['headers'] = () => [
+  {
+    source: '/(.*)',
+    headers: [
+      { key: 'X-Content-Type-Options', value: 'nosniff' },
+      { key: 'X-Frame-Options', value: 'SAMEORIGIN' },
+      { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
+    ],
+  },
+]
