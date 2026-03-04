@@ -39,8 +39,9 @@ export const metadata: Metadata = {
 
 const IcnLink = () => (
   <a
-    href='https://icn.glif.io'
     target='_blank'
+    href='https://icn.glif.io'
+    rel='noopener noreferrer'
     className='text-current hover:text-accent transition-colors'
   >
     <IcnLogo />
@@ -54,6 +55,7 @@ const IcnLogo = () => (
     viewBox='0 0 56 56'
     fill='currentColor'
     xmlns='http://www.w3.org/2000/svg'
+    aria-hidden='true'
   >
     <path d='M56 28C56 43.464 43.464 56 28 56C12.536 56 0 43.464 0 28C0 12.536 12.536 0 28 0C43.464 0 56 12.536 56 28Z' />
     <rect
