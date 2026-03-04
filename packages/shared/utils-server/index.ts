@@ -234,6 +234,7 @@ export const getDocsSitemap = async (
       url: siteUrl,
       changeFrequency,
       lastModified,
+      priority: 1,
       alternates: {
         languages: Object.fromEntries(
           locales.map(locale => [locale, `${siteUrl}/${locale}`]),
@@ -248,6 +249,7 @@ export const getDocsSitemap = async (
         url: `${siteUrl}/${locale}/${slug.join('/')}`,
         changeFrequency,
         lastModified,
+        priority: Math.max(0.1, 1 - slug.length * 0.1),
       })),
   ]
 }
