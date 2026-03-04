@@ -95,6 +95,26 @@ export const getDocFooter = async (
 export const getDocTitle = (content: string): string =>
   content.match(/^#\s+(.+)$/m)?.at(1) ?? 'Untitled'
 
+export const getDocDescription = (content: string): string | undefined => {
+  for (const line of content.split('\n')) {
+    const trimmed = line.trim()
+    if (
+      trimmed &&
+      !trimmed.startsWith('#') &&
+      !trimmed.startsWith('![') &&
+      !trimmed.startsWith('<') &&
+      !trimmed.startsWith('|') &&
+      !trimmed.startsWith('---') &&
+      !trimmed.startsWith('```')
+    ) {
+      const text = trimmed
+        .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1') // [text](url) → text
+        .replace(/[*_`~]+/g, '') // bold/italic/code/strikethrough
+      return text.length > 160 ? `${text.slice(0, 157)}...` : text
+    }
+  }
+}
+
 export const getDocPrevNext = async (
   docsDir: string,
   locale: Locale,
