@@ -20,7 +20,7 @@ Use standard markdown image syntax: `![alt text](url)`
 | Type | Format | Example |
 |------|--------|---------|
 | External image | Full URL | `![diagram](https://example.com/diagram.png)` |
-| Local image | Filename only (file lives in `public/`) | `![GLIF Logo](logo.png)` |
+| Local image | Filename only (file lives in `public/docs/img/`) | `![GLIF Logo](logo.png)` |
 
 ## Links
 
@@ -28,7 +28,7 @@ Use standard markdown link syntax: `[text](url)`
 
 | Type | Format | Example |
 |------|--------|---------|
-| Asset link | Filename only (asset lives in `public/`) | `[audit](audit.pdf)` |
+| Asset link | Filename only (asset lives in `public/docs/file/`) | `[audit](audit.pdf)` |
 | External link | Full URL | `[GLIF](https://www.glif.io)` |
 | Internal link | `/` + URL slug path to file or folder | `[rewards](/tokens/rewards)` |
 | Anchor link | `#` + anchor name (same page only) | `[see below](#example-section)` |
