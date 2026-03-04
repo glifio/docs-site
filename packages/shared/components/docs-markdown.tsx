@@ -66,14 +66,18 @@ export const DocsMarkdown = ({
 
         // Asset links
         return (
-          <a href={`/${href}`} download>
+          <a href={`/docs/file/${href}`} download>
             {children}
           </a>
         )
       },
       img: ({ src, alt }) =>
         typeof src === 'string' ? (
-          <img src={isExtUrl(src) ? src : `/${src}`} alt={alt} loading='lazy' />
+          <img
+            src={isExtUrl(src) ? src : `/docs/img/${src}`}
+            alt={alt}
+            loading='lazy'
+          />
         ) : null,
     }}
   >
