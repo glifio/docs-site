@@ -1,4 +1,4 @@
-import type { MetadataRoute } from 'next'
+import type { Metadata, MetadataRoute, NextConfig } from 'next'
 import * as fs from 'node:fs/promises'
 import * as path from 'node:path'
 
@@ -92,8 +92,28 @@ export const getDocFooter = async (
     .catch(() => null)
 }
 
-export const getDocTitle = (docContent: string): string =>
-  docContent.match(/^#\s+(.+)$/m)?.at(1) ?? 'Untitled'
+export const getDocTitle = (content: string): string =>
+  content.match(/^#\s+(.+)$/m)?.at(1) ?? 'Untitled'
+
+export const getDocDescription = (content: string): string | undefined => {
+  for (const line of content.split('\n')) {
+    const trimmed = line.trim()
+    if (
+      trimmed &&
+      !trimmed.startsWith('#') &&
+      !trimmed.startsWith('![') &&
+      !trimmed.startsWith('<') &&
+      !trimmed.startsWith('|') &&
+      !trimmed.startsWith('---') &&
+      !trimmed.startsWith('```')
+    ) {
+      const text = trimmed
+        .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1') // [text](url) → text
+        .replace(/[*_`~]+/g, '') // bold/italic/code/strikethrough
+      return text.length > 160 ? `${text.slice(0, 157)}...` : text
+    }
+  }
+}
 
 export const getDocPrevNext = async (
   docsDir: string,
@@ -231,3 +251,34 @@ export const getDocsSitemap = async (
       })),
   ]
 }
+
+export const getDocMetadata = async (
+  siteName: string,
+  siteUrl: string,
+  docsDir: string,
+  locale: Locale,
+  slug?: string[],
+): Promise<Metadata> => {
+  const doc = await getDocContent(docsDir, locale, slug)
+  const title = `${siteName} \u2013 ${doc ? getDocTitle(doc) : 'Not Found'}`
+  const description = doc ? getDocDescription(doc) : undefined
+  const url = `${siteUrl}/${locale}${slug?.length ? `/${slug.join('/')}` : ''}`
+
+  return {
+    title,
+    description,
+    alternates: { canonical: url },
+    openGraph: { title, description, siteName, locale, url, type: 'article' },
+  }
+}
+
+export const nextConfigHeaders: NextConfig['headers'] = () => [
+  {
+    source: '/(.*)',
+    headers: [
+      { key: 'X-Content-Type-Options', value: 'nosniff' },
+      { key: 'X-Frame-Options', value: 'SAMEORIGIN' },
+      { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
+    ],
+  },
+]

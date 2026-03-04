@@ -89,16 +89,21 @@ const DocNode = ({ node, pathname, collapse }: DocNodeProps) => {
         />
 
         {canCollapse && (
-          <span
+          <button
             className='p-1.5 pl-3 cursor-pointer'
             onClick={() => setIsOpen(prev => !prev)}
+            aria-expanded={isOpen}
+            aria-label={isOpen ? 'Collapse section' : 'Expand section'}
           >
             <svg
               width='12'
               height='12'
               viewBox='0 0 12 12'
-              className='block transition-transform duration-200'
-              style={{ transform: isOpen ? 'rotate(90deg)' : 'rotate(0deg)' }}
+              aria-hidden='true'
+              className={classNames(
+                'block transition-transform',
+                isOpen && 'rotate-90',
+              )}
             >
               <path
                 d='M4 2 L8 6 L4 10'
@@ -107,7 +112,7 @@ const DocNode = ({ node, pathname, collapse }: DocNodeProps) => {
                 strokeWidth='1.5'
               />
             </svg>
-          </span>
+          </button>
         )}
       </span>
 
@@ -150,20 +155,21 @@ const DocLink = ({
   pathname,
   className,
   onClick,
-}: DocLinkProps) => (
-  <Link
-    href={href}
-    onClick={onClick}
-    className={classNames(
-      'no-underline transition-colors hover:text-accent',
-      isPathnameMatch(pathname, href, true)
-        ? 'text-accent'
-        : isPathnameMatch(pathname, href)
-          ? 'text-current'
-          : 'text-current/50',
-      className,
-    )}
-  >
-    {title}
-  </Link>
-)
+}: DocLinkProps) => {
+  const isPage = isPathnameMatch(pathname, href, true)
+  const isParent = isPathnameMatch(pathname, href)
+  return (
+    <Link
+      href={href}
+      onClick={onClick}
+      aria-current={isPage ? 'page' : undefined}
+      className={classNames(
+        'no-underline transition-colors hover:text-accent',
+        isPage ? 'text-accent' : isParent ? 'text-current' : 'text-current/50',
+        className,
+      )}
+    >
+      {title}
+    </Link>
+  )
+}

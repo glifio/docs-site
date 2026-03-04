@@ -32,7 +32,7 @@ export const DocsLayout = async ({
         >
           {tree && <DocsNav tree={tree} small collapse />}
         </div>
-        <div className='grow w-full max-w-6xl mx-auto p-6'>{children}</div>
+        <main className='grow w-full max-w-6xl mx-auto p-6'>{children}</main>
       </div>
     </body>
   </html>
