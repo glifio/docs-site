@@ -1,4 +1,3 @@
-import { Metadata } from 'next'
 import { ReactNode } from 'react'
 
 import { DocsLayout } from '@glif/shared/components'
@@ -32,10 +31,6 @@ const Layout = async ({ children, params }: LayoutProps) => {
 }
 
 export default Layout
-
-export const metadata: Metadata = {
-  icons: { icon: '/meta/favicon.ico' },
-}
 
 const IcnLink = () => (
   <a

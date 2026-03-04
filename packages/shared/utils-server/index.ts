@@ -234,6 +234,7 @@ export const getDocsSitemap = async (
       url: siteUrl,
       changeFrequency,
       lastModified,
+      priority: 1,
       alternates: {
         languages: Object.fromEntries(
           locales.map(locale => [locale, `${siteUrl}/${locale}`]),
@@ -248,6 +249,7 @@ export const getDocsSitemap = async (
         url: `${siteUrl}/${locale}/${slug.join('/')}`,
         changeFrequency,
         lastModified,
+        priority: Math.max(0.1, 1 - slug.length * 0.1),
       })),
   ]
 }
@@ -267,10 +269,33 @@ export const getDocMetadata = async (
   return {
     title,
     description,
+    applicationName: siteName,
     alternates: { canonical: url },
-    openGraph: { title, description, siteName, locale, url, type: 'article' },
+    icons: { icon: '/meta/favicon.ico' },
+    robots: 'index, follow',
+    openGraph: {
+      title,
+      description,
+      siteName,
+      locale,
+      url,
+      type: 'article',
+      images: `${siteUrl}/meta/image.png`,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      site: '@glifio',
+      title,
+      description,
+      images: `${siteUrl}/meta/image.png`,
+    },
   }
 }
+
+export const get404Metadata = (siteName: string): Metadata => ({
+  title: `${siteName} \u2013 Not Found`,
+  robots: 'noindex',
+})
 
 export const nextConfigHeaders: NextConfig['headers'] = () => [
   {
