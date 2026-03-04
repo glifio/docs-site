@@ -1,4 +1,3 @@
-import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 
 import { DocsPage } from '@glif/shared/components'
@@ -6,13 +5,13 @@ import { isLocale } from '@glif/shared/types'
 import {
   getDocContent,
   getDocFooter,
+  getDocMetadata,
   getDocParams,
   getDocPrevNext,
-  getDocTitle,
   getDocTree,
 } from '@glif/shared/utils-server'
 
-import { docsDir, locales } from '@/config'
+import { docsDir, locales, siteName, siteUrl } from '@/config'
 
 interface PageProps {
   params: Promise<{ locale: string; slug?: string[] }>
@@ -43,15 +42,10 @@ const Page = async ({ params }: PageProps) => {
 
 export default Page
 
-export const generateMetadata = async ({
-  params,
-}: PageProps): Promise<Metadata> => {
+export const generateMetadata = async ({ params }: PageProps) => {
   const { locale, slug } = await params
   if (!isLocale(locale)) throw new Error(`Invalid locale: ${locale}`)
-
-  const doc = await getDocContent(docsDir, locale, slug)
-  const title = doc ? getDocTitle(doc) : 'Not Found'
-  return { title: `GLIF x ICN Docs \u2013 ${title}` }
+  return getDocMetadata(siteName, siteUrl, docsDir, locale, slug)
 }
 
 export const generateStaticParams = () => getDocParams(docsDir, locales)
