@@ -269,6 +269,7 @@ export const getDocMetadata = async (
   return {
     title,
     description,
+    applicationName: siteName,
     alternates: { canonical: url },
     icons: { icon: '/meta/favicon.ico' },
     openGraph: {
