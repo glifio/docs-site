@@ -92,8 +92,8 @@ export const getDocFooter = async (
     .catch(() => null)
 }
 
-export const getDocTitle = (docContent: string): string =>
-  docContent.match(/^#\s+(.+)$/m)?.at(1) ?? 'Untitled'
+export const getDocTitle = (content: string): string =>
+  content.match(/^#\s+(.+)$/m)?.at(1) ?? 'Untitled'
 
 export const getDocPrevNext = async (
   docsDir: string,
