@@ -89,9 +89,11 @@ const DocNode = ({ node, pathname, collapse }: DocNodeProps) => {
         />
 
         {canCollapse && (
-          <span
+          <button
             className='p-1.5 pl-3 cursor-pointer'
             onClick={() => setIsOpen(prev => !prev)}
+            aria-expanded={isOpen}
+            aria-label={isOpen ? 'Collapse section' : 'Expand section'}
           >
             <svg
               width='12'
@@ -110,7 +112,7 @@ const DocNode = ({ node, pathname, collapse }: DocNodeProps) => {
                 strokeWidth='1.5'
               />
             </svg>
-          </span>
+          </button>
         )}
       </span>
 
