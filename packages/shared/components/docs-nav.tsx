@@ -150,20 +150,21 @@ const DocLink = ({
   pathname,
   className,
   onClick,
-}: DocLinkProps) => (
-  <Link
-    href={href}
-    onClick={onClick}
-    className={classNames(
-      'no-underline transition-colors hover:text-accent',
-      isPathnameMatch(pathname, href, true)
-        ? 'text-accent'
-        : isPathnameMatch(pathname, href)
-          ? 'text-current'
-          : 'text-current/50',
-      className,
-    )}
-  >
-    {title}
-  </Link>
-)
+}: DocLinkProps) => {
+  const isPage = isPathnameMatch(pathname, href, true)
+  const isParent = isPathnameMatch(pathname, href)
+  return (
+    <Link
+      href={href}
+      onClick={onClick}
+      aria-current={isPage ? 'page' : undefined}
+      className={classNames(
+        'no-underline transition-colors hover:text-accent',
+        isPage ? 'text-accent' : isParent ? 'text-current' : 'text-current/50',
+        className,
+      )}
+    >
+      {title}
+    </Link>
+  )
+}
