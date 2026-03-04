@@ -10,7 +10,7 @@ export type Translation = Record<'en', string> & Partial<Record<Locale, string>>
 export type Translations = Record<string, Translation>
 
 export interface DocTree extends DocLeaf {
-  children: Array<DocTree | DocLeaf>
+  children: (DocTree | DocLeaf)[]
 }
 
 export interface DocLeaf {
