@@ -270,7 +270,22 @@ export const getDocMetadata = async (
     title,
     description,
     alternates: { canonical: url },
-    openGraph: { title, description, siteName, locale, url, type: 'article' },
+    icons: { icon: '/meta/favicon.ico' },
+    openGraph: {
+      title,
+      description,
+      siteName,
+      locale,
+      url,
+      type: 'article',
+      images: [`${siteUrl}/meta/image.png`],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: [`${siteUrl}/meta/image.png`],
+    },
   }
 }
 
