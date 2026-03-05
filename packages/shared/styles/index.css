@@ -19,7 +19,7 @@
 
   /* Heading anchor links */
   .prose :where(h1, h2, h3, h4, h5, h6) {
-    @apply relative;
+    @apply relative scroll-mt-20;
 
     & .anchor-link {
       @apply absolute p-2 top-1/2 right-full -translate-y-1/2;
