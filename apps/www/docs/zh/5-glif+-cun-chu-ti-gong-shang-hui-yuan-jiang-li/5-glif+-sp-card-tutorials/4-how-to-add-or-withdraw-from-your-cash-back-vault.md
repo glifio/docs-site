@@ -24,7 +24,7 @@
 
 3. 点击向下箭头以添加资金。
 
-![Cash back balance section with arrow icon](add-cashback-image-1.png)
+![Cash back balance section with arrow icon](add-cashback-image-1.webp)
 
 4. 选择存款来源。您可以从**会员卡持有者（多签钱包）**或您已连接的**单签钱包**进行存款。
 
@@ -36,15 +36,15 @@
 > [!WARNING]
 > 如果资金来源是您的单签钱包而非会员卡持有者（多签钱包），则不会生成多签钱包提案。GLF 余额将直接发送至会员卡。
 
-![Approve GLF Transfer button](add-cashback-image-2.png)
+![Approve GLF Transfer button](add-cashback-image-2.webp)
 
 7. 等待交易处理完成。然后再次点击 **'发送'** 以执行实际的资金转账。在钱包中确认。
 
-![Send button to execute the fund transfer](add-cashback-image-3.png)
+![Send button to execute the fund transfer](add-cashback-image-3.webp)
 
 8. 找到 **提案** 标签页。您将看到两个提案：**'Approve'** 和 **'FundGlfVault'**。
 
-![Proposals tab showing Approve and FundGlfVault proposals](add-cashback-image-4.png)
+![Proposals tab showing Approve and FundGlfVault proposals](add-cashback-image-4.webp)
 
 > [!WARNING]
 > 请先批准 **'Approve'** 提案，再批准 **'FundGlfVault'** 提案，否则可能发生错误。
@@ -53,7 +53,7 @@
 
 10. 处理完成后，返现余额将更新，可用金额将增加。
 
-![Approving both proposals](add-cashback-image-5.png)
+![Approving both proposals](add-cashback-image-5.webp)
 
 ***
 
@@ -63,7 +63,7 @@
 
 2. 打开 **'返现余额'** 部分并点击向上箭头以提取资金。
 
-![Updated cash back balance after adding funds](add-cashback-image-6.png)
+![Updated cash back balance after adding funds](add-cashback-image-6.webp)
 
 3. 选择提取资金的接收方。
 
@@ -71,17 +71,17 @@
 
 5. 点击 **'发送'**。
 
-![Withdraw funds form with Send button](add-cashback-image-7.png)
+![Withdraw funds form with Send button](add-cashback-image-7.webp)
 
 6. 在钱包中确认。等待 1 至 2 分钟让链上流程完成。
 
 7. 在每个签名者账户中批准 **'WithdrawGlfVault'** 提案，并在钱包中确认。
 
-![WithdrawGlfVault proposal in Proposals tab](add-cashback-image-8.png)
+![WithdrawGlfVault proposal in Proposals tab](add-cashback-image-8.webp)
 
 8. 处理完成后，返现余额将更新，可用金额将减少。
 
-![Updated cash back balance after withdrawal](add-cashback-image-9.png)
+![Updated cash back balance after withdrawal](add-cashback-image-9.webp)
 
 ***
 

@@ -26,7 +26,7 @@
 
 2. 点击 **'铸造'**。
 
-![Loyalty tab with Mint button](mint-sp-image-1.png)
+![Loyalty tab with Mint button](mint-sp-image-1.webp)
 
 ***
 
@@ -37,7 +37,7 @@
 2. 从 **铜卡、银卡或金卡** 中选择您想要的等级。
 
 2. 在此查看详情，比较杠杆率、返现溢价以及质押要求（即您必须质押多少 $GLF 代币才能激活所选等级）。
-![Agent address pre-filled](mint-sp-image-2.png)
+![Agent address pre-filled](mint-sp-image-2.webp)
 
 > [!NOTE]
 > 更高等级提供更强大的福利，例如更高的 TWAP 兑换率和更高的借贷杠杆。例如，金卡等级的最高债务与清算比率 (DTL)为 90%。有关 TWAP 兑换率或最高DTL杠杆等术语的解释，请参阅[此页面](/glif-cun-chu-ti-gong-shang-hui-yuan-jiang-li/deng-ji-yu-xian-zhi)。
@@ -51,7 +51,7 @@
 1. 输入您想放入返现金库的 $GLF 数量。
 
 此处显示的最大金额代表您在扣除铸造费用和质押要求后，可存入返现金库的 $GLF 数量。
-![Tier selection with comparison table](mint-sp-image-3.png)
+![Tier selection with comparison table](mint-sp-image-3.webp)
 
 >[!NOTE]
 > 返现金库中的 $GLF 可用于支付每次利息的一部分，并以溢价获得 FIL。您也可以随时向金库存入或提取 GLF。为金库充值**是可选的**，并非铸造会员卡的必要条件。
@@ -67,17 +67,17 @@
    - **返现金库充值**：您选择存入返现机制的 $GLF 数量。
 
 2. 点击 **'铸造并激活'**。
-![Tier comparison details](mint-sp-image-4.png)
+![Tier comparison details](mint-sp-image-4.webp)
 
 3. 查看详情并点击 **'批准'**。
 
-![Mint and Activate button with cost summary](mint-sp-image-6.png)
+![Mint and Activate button with cost summary](mint-sp-image-6.webp)
 
 4. 在钱包中确认交易。等待一至两分钟让交易处理完成。
 
 5. 批准交易成功提交并确认后，激活的紫色图标将从 **'批准'** 切换至 **'铸造'**。点击 **'铸造'** 生成另一个提案。
 
-![Cash back vault amount entry](mint-sp-image-5.png)
+![Cash back vault amount entry](mint-sp-image-5.webp)
 
 
 
@@ -91,7 +91,7 @@
 
 3. 系统将生成一个多签 **'Approve'** 提案和一个 **'MintActivateAndFund'** 提案。
 
-![Approve then Mint button flow](mint-sp-image-7.png)
+![Approve then Mint button flow](mint-sp-image-7.webp)
 
 
 
@@ -99,7 +99,7 @@
 
 5. 点击 **'批准提案'** 并在钱包中确认。
 
-![Proposals tab showing Approve and MintActivateAndFund proposals](mint-sp-image-8.png)
+![Proposals tab showing Approve and MintActivateAndFund proposals](mint-sp-image-8.webp)
 
 6. 请每个签名者批准提案。所有签名者必须批准提案方可执行。等待一至两分钟让交易处理完成。
 
@@ -107,7 +107,7 @@
 
 > [!WARNING]
 > 如果您在此阶段看到错误，这是因为在 **'Approve'** 提案被所有其他签名者批准之前，**'MintActivateAndFund'** 提案无法被批准。请等待 **'Approve'** 提案完全批准后再继续。
-![Approve proposal button](mint-sp-image-9.png)
+![Approve proposal button](mint-sp-image-9.webp)
 
 ***
 
@@ -117,11 +117,11 @@
 
 2. 找到 **'MintActivateAndFund'** 提案。
 
-![Error message for premature MintActivateAndFund approval](mint-sp-image-10.png)
+![Error message for premature MintActivateAndFund approval](mint-sp-image-10.webp)
 
 3. 点击 **'批准提案'** 并在钱包中确认。
 
-![MintActivateAndFund proposal](mint-sp-image-11.png)
+![MintActivateAndFund proposal](mint-sp-image-11.webp)
 
 4. 请每个签名者批准提案。
 
@@ -135,7 +135,7 @@
 
 2. 您现在应能看到您的 GLIF+ SP 会员卡已铸造，并显示您所选的等级。
 
-![Minted GLIF+ SP Card](mint-sp-image-12.png)
+![Minted GLIF+ SP Card](mint-sp-image-12.webp)
 
 ***
 

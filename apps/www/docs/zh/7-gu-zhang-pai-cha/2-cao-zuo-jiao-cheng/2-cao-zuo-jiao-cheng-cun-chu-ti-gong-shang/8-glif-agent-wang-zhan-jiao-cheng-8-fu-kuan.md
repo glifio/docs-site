@@ -28,22 +28,22 @@ _如果您还不了解 GLIF Agent 的基础概念、Agent 拥有者，或如何�
 2. 输入要支付的金额。请确保 Agent 中有足够的余额来完成付款。
 3. 点击“**支付**”。
 
-![第一步： 发起付款提案](cn-image-14.png)
+![第一步： 发起付款提案](cn-image-14.webp)
 
 4. 在“**从您的Agent中支付FIL**”多签提案界面中，核对细节后点击“**签署交易**”。
 
 > [!WARNING]
 > 凭证仅在 5 分钟内有效。若出现“AgentPolice: Invalid Credential”错误，表示凭证已过期，请重新开始。
 
-![第一步： 发起付款提案](cn-image-15.png)
+![第一步： 发起付款提案](cn-image-15.webp)
 
 5. 点击“**发送**”，并在钱包中批准交易。
 
-![第一步： 发起付款提案](cn-image-16.png)
+![第一步： 发起付款提案](cn-image-16.webp)
 
 6. 等待交易完成。一个“**Pay**”提案会出现在“**Agent 拥有者提案**”部分。
 
-![第一步：发起付款提案](cn-glif-agent-wang-zhan-jiao-cheng-8-fu-kuan.png)
+![第一步：发起付款提案](cn-glif-agent-wang-zhan-jiao-cheng-8-fu-kuan.webp)
 
 ### 第二步： 审批提案
 
@@ -51,12 +51,12 @@ _如果您还不了解 GLIF Agent 的基础概念、Agent 拥有者，或如何�
 2. 在“**Agent 拥有者提案**”部分找到“**Pay**”提案。
 3. 点击“**批准提案**”。
 
-![第二步： 审批提案](cn-image-1.png)
+![第二步： 审批提案](cn-image-1.webp)
 
 4. 在钱包中确认交易。
 5. 等待交易完成（约 1–2 分钟）。完成后，您将在 Agent 面板中看到总债务已减少。
 
-![第二步： 审批提案](cn-image-13.png)
+![第二步： 审批提案](cn-image-13.webp)
 
 ***
 

@@ -18,15 +18,15 @@ In this tutorial, you will be guided through the following steps:
 
 1. Go to the **'Loyalty'** tab on the GLIF website, then navigate to the **'Summary'** section.
 
-![GLIF+ Loyalty Card summary section](add-token-image-1.png)
+![GLIF+ Loyalty Card summary section](add-token-image-1.webp)
 
 2. Find the **'+'** icon next to your **'iFIL balance'** or **'GLF balance'**, depending on which token you want to move.
 
-![Add iFIL button next to iFIL balance](add-token-image-2.png)
+![Add iFIL button next to iFIL balance](add-token-image-2.webp)
 
 3. Enter the amount of the token you want to add. The balance will be moved from the Card Owner wallet address. Click **'Approve iFIL/GLF transfer'** to submit the approval.
 
-![Add iFIL to your loyalty card dialog with Approve iFIL transfer button](add-token-image-3.png)
+![Add iFIL to your loyalty card dialog with Approve iFIL transfer button](add-token-image-3.webp)
 
 4. Confirm the transaction in your wallet.
 
@@ -34,7 +34,7 @@ In this tutorial, you will be guided through the following steps:
 
 6. Once the approval is confirmed, click **'Send'** to execute the second transaction, which performs the actual token transfer.
 
-![Send button to execute the token transfer](add-token-image-4.png)
+![Send button to execute the token transfer](add-token-image-4.webp)
 
 7. Confirm the second transaction in your wallet.
 
@@ -50,13 +50,13 @@ In this tutorial, you will be guided through the following steps:
 
 2. Find the **'–'** icon next to your **'iFIL balance'** or **'GLF balance'**, depending on which token you want to move.
 
-![Withdraw iFIL button next to iFIL balance](add-token-image-5.png)
+![Withdraw iFIL button next to iFIL balance](add-token-image-5.webp)
 
 3. Enter the amount of the token you want to withdraw, and enter the recipient address. By default, the recipient is the Card Owner address.
 
 4. Click **'Send'** to initiate the withdrawal.
 
-![Withdraw iFIL from your loyalty card dialog with Send button](add-token-image-6.png)
+![Withdraw iFIL from your loyalty card dialog with Send button](add-token-image-6.webp)
 
 5. Confirm the transaction in your wallet.
 

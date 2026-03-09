@@ -1,6 +1,6 @@
 # GLIF stICNT Documentation
 
-![GLIF Logo](logo.png)
+![GLIF Logo](logo.webp)
 
 ## Quick Links
 

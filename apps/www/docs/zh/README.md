@@ -1,6 +1,6 @@
 # GLIF 文档
 
-![GLIF Logo](logo.png)
+![GLIF Logo](logo.webp)
 
 ## Quick Links
 

@@ -42,7 +42,7 @@ GLIF 建议在多签钱包中将签名阈值设置为 2——也就是说，需�
 > [!TIP]
 > 如果您丢失了任意一个签名人的私钥（无论是 Ledger 设备、Filecoin Snap 钱包等），都可以轻松将其替换为新的私钥！这也是为什么多签钱包让您更安全地拥有 Agent。
 
-![GLIF Agent 多重签名](en-image-282.png)
+![GLIF Agent 多重签名](en-image-282.webp)
 
 ## 准备创建 Agent
 

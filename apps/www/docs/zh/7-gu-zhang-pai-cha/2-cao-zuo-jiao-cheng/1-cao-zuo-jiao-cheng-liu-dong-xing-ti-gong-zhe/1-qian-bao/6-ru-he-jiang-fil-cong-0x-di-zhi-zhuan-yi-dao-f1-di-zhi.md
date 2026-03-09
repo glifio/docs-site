@@ -41,19 +41,19 @@
 
 1. 访问GLIF网站并点击“**连接钱包**”。选择您持有FIL的主钱包。
 
-![步骤2：将FIL从0x地址](cn-image-51.png)
+![步骤2：将FIL从0x地址](cn-image-51.webp)
 
 2. 将您的主钱包连接到Filecoin主网，点击“**连接”。**
 
-![步骤2：将FIL从0x地址](cn-image-52.png)
+![步骤2：将FIL从0x地址](cn-image-52.webp)
 
 3. 如果您看到此页面，表示您的钱包已连接。
 
-![步骤2：将FIL从0x地址](cn-image-53.png)
+![步骤2：将FIL从0x地址](cn-image-53.webp)
 
 4. 在GLIF网站的右上角，点击“**发送/转发FIL**”。
 
-![步骤2：将FIL从0x地址](cn-image-54.png)
+![步骤2：将FIL从0x地址](cn-image-54.webp)
 
 5. 在“**发送推送FIL**”页面，收款人填写中介钱包的f1地址。这是在[步骤1](#bu-zhou-1-she-zhi-nin-de-zhong-jie-qian-bao)中创建的钱包。例子中使用的是Burner钱包。
 
@@ -62,7 +62,7 @@
 > [!WARNING]
 > 在向Burner钱包发送FIL之前，请先发送少量FIL作为测试。
 
-![步骤2：将FIL从0x地址](cn-image-30.png)
+![步骤2：将FIL从0x地址](cn-image-30.webp)
 
 7. 在MetaMask钱包中点击“**确认**”。
 
@@ -71,7 +71,7 @@
 
 8. 在网页的右下角，会出现一个通知框，显示“交易待处理”并提供一个交易哈希。当交易完成时，它将变为“交易已完成”。
 
-![步骤2：将FIL从0x地址](cn-image-55.png)
+![步骤2：将FIL从0x地址](cn-image-55.webp)
 
 > [!NOTE]
 > GLIF团队无法帮助您查找交易哈希。请记录您的交易哈希以跟踪您的交易。
@@ -79,29 +79,29 @@
 9. 您可以通过在[filfox.info](https://filfox.info)上搜索交易哈希来查看交易详情。
 10. 要确认您转移的FIL已到达您的中介钱包地址，请在[filfox.info](https://filfox.info)的交易详情页面点击“**内部转帐**”，“**接收方**”的地址应与您的Burner钱包的f1地址匹配
 
-![步骤2：将FIL从0x地址](cn-image-56.png)
+![步骤2：将FIL从0x地址](cn-image-56.webp)
 
 11. 交易完成后，断开MetaMask（主钱包）的连接。然后，点击“**连接钱包**”，并导入之前保存的助记词以连接中介钱包。 点击“**导入助记词**”。
 
 如果你使用的是Burner钱包，请记得选择“**Filecoin (f1...)**”作为地址类型。
 
-![步骤2：将FIL从0x地址](cn-image-57.png)
+![步骤2：将FIL从0x地址](cn-image-57.webp)
 
 12. 在GLIF的“**钱包**”页面查看您的中介钱包余额，或通过在[filfox.info](https://filfox.info)上搜索中介钱包的f1地址。
 
-![步骤2：将FIL从0x地址](cn-image-58.png)
+![步骤2：将FIL从0x地址](cn-image-58.webp)
 
 ## 步骤3：将FIL从中介钱包转移到您的f1地址（最终目的地）
 
 1. 保持连接到您的中介钱包。在GLIF网站上，点击“**发送FIL**”。
 
-![步骤3：将FIL从中介钱包转移](cn-image-59.png)
+![步骤3：将FIL从中介钱包转移](cn-image-59.webp)
 
 2. 收款人填写您的f1地址（最终目的地）。
 3. 输入您希望转移的FIL数量。
 4. 点击“**发送**”并在钱包确认交易。
 
-![步骤3：将FIL从中介钱包转移](cn-image-60.png)
+![步骤3：将FIL从中介钱包转移](cn-image-60.webp)
 
 5. 交易完成后，您可以在GLIF页面的右下角查看交易哈希。
 6. 交易完成后，您可以在 `glif.io/address/(您的 f1 地址)`，或者[filfox.info](https://filfox.info) ，验证您的最终f1地址余额

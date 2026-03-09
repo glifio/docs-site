@@ -8,28 +8,28 @@
 
 请确保您的设备已使用随附的电线,连接到电脑，并输入 PIN 码解锁。
 
-![步骤 1. 将硬件钱包连接到电](en-image-97.png)
+![步骤 1. 将硬件钱包连接到电](en-image-97.webp)
 
 ## 步骤 2. 将您的钱包连接到 GLIF
 
 1. 在 [GLIF 官网](https://www.glif.io/zh)上，点击屏幕右上角的“**连接钱包**”。在可连接的钱包列表中选择“**Ledger (Filecoin)**”。
 
-![步骤 2. 将您的钱包连接到](cn-image-71.png)
+![步骤 2. 将您的钱包连接到](cn-image-71.webp)
 
 2. 如果您的硬件钱包已解锁并连接，您的浏览器会弹出一个窗口，询问是否连接 HID 设备。
 
-![步骤 2. 将您的钱包连接到](en-image-100.png)
+![步骤 2. 将您的钱包连接到](en-image-100.webp)
 
 3. 在尝试连接之前，确保硬件钱包上已打开 Filecoin 应用。
 
 > [!TIP]
 > 如果您在 Ledger 中添加 Filecoin 应用时遇到问题，请[查看此处](https://docs.filecoin.io/basics/assets/metamask-setup#install-the-ledger-app)的教程。
 
-![MetaMask prompt](en-image-101.png)
+![MetaMask prompt](en-image-101.webp)
 
 4. 当设备显示“Filecoin Ready”时，在浏览器弹窗中选择该设备，然后点击“连接”。
 
-![步骤 2. 将您的钱包连接到](en-image-103.png)
+![步骤 2. 将您的钱包连接到](en-image-103.webp)
 
 5. 连接成功后，您会在 GLIF 网站右上角看到您的硬件钱包 Filecoin 地址，以及您的 FIL 总余额。
 
@@ -37,18 +37,18 @@
 
 1. 点击主页上的“**存入**”，或前往“**池**”页面。
 
-![步骤 3. 存入您的代币](cn-image-72.png)
+![步骤 3. 存入您的代币](cn-image-72.webp)
 
 2. 输入您要存入的数量，然后点击“**存款**”。
 
 > [!TIP]
 > 请记得留出少量 FIL 用于支付Gas费用。
 
-![步骤 3. 存入您的代币](cn-image-73.png)
+![步骤 3. 存入您的代币](cn-image-73.webp)
 
 3. 接着点击“**发送**”。
 
-![步骤 3. 存入您的代币](cn-image-74.png)
+![步骤 3. 存入您的代币](cn-image-74.webp)
 
 4\. 在硬件钱包上确认该笔交易。
 
@@ -58,7 +58,7 @@
 
 如果您想查看更详细的持仓信息，可以点击 GLIF 左上方中的“**钱包**”，在“**代币**”部分查看钱包的 FIL 和 iFIL。
 
-![步骤 4. 收到 iFIL](cn-image-75.png)
+![步骤 4. 收到 iFIL](cn-image-75.webp)
 
 这样，您就成功地将 FIL 从 Ledger 存入 GLIF！熟悉这些步骤后就会发现，整个过程相当简单。
 

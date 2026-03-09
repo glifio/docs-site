@@ -25,7 +25,7 @@ In this tutorial, you will be guided through the following steps:
 
 2. Click **'Mint'**.
 
-![Loyalty tab with Mint button](mint-sp-image-1.png)
+![Loyalty tab with Mint button](mint-sp-image-1.webp)
 
 ***
 
@@ -36,7 +36,7 @@ In this tutorial, you will be guided through the following steps:
 2. Choose your desired tier from **Bronze, Silver, or Gold**.
 
 2. Review the details to compare leverage, exchange TWAP benefits, and the stake requirement, which indicates how many $GLF tokens you must stake to activate the selected tier.
-![Agent address pre-filled](mint-sp-image-2.png)
+![Agent address pre-filled](mint-sp-image-2.webp)
 
 
 
@@ -52,7 +52,7 @@ In this tutorial, you will be guided through the following steps:
 1. Enter the amount of $GLF you want to put into the cash back vault.
 
 The maximum amount shown here represents the $GLF you have, after deducting the mint cost and the stake requirement to deposit into the cash back vault. 
-![Tier selection with comparison table](mint-sp-image-3.png)
+![Tier selection with comparison table](mint-sp-image-3.webp)
 
 >[!NOTE]
 > GLF in this vault allows you to cover part of each interest payment and receive FIL at a premium. You may add or withdraw GLF from the vault at any time. Funding the vault is optional and not required to mint the card.
@@ -70,17 +70,17 @@ The maximum amount shown here represents the $GLF you have, after deducting the 
    - **Cash back vault funding**: $GLF you choose to deposit for the cash back mechanism.
 
 2. Click **'Mint and activate'**.
-![Tier comparison details](mint-sp-image-4.png)
+![Tier comparison details](mint-sp-image-4.webp)
 
 3. Review the details and click **'Approve'**.
 
-![Mint and Activate button with cost summary](mint-sp-image-6.png)
+![Mint and Activate button with cost summary](mint-sp-image-6.webp)
 
 4. Confirm the transaction in your wallet. Wait one to two minutes for the transaction to process.
 
 5. After the approval transaction is successfully submitted and confirmed, the active purple icon switches from **'Approve'** to **'Mint'**. Click **'Mint'** to generate another proposal.
 
-![Cash back vault amount entry](mint-sp-image-5.png)
+![Cash back vault amount entry](mint-sp-image-5.webp)
 
 
 
@@ -94,7 +94,7 @@ The maximum amount shown here represents the $GLF you have, after deducting the 
 
 3. The system will generate a multisig **'Approve'** proposal and a **'MintActivateAndFund'** proposal.
 
-![Approve then Mint button flow](mint-sp-image-7.png)
+![Approve then Mint button flow](mint-sp-image-7.webp)
 
 
 
@@ -102,7 +102,7 @@ The maximum amount shown here represents the $GLF you have, after deducting the 
 
 5. Click **'Approve proposal'** and confirm in your wallet.
 
-![Proposals tab showing Approve and MintActivateAndFund proposals](mint-sp-image-8.png)
+![Proposals tab showing Approve and MintActivateAndFund proposals](mint-sp-image-8.webp)
 
 6. Connect each signer and approve the proposal. All signers must approve the proposal for it to be executed. Wait one to two minutes for the transaction to process.
 
@@ -110,7 +110,7 @@ The maximum amount shown here represents the $GLF you have, after deducting the 
 
 > [!WARNING]
 > If you see an error at this stage, it is because the **'MintActivateAndFund'** proposal cannot be approved until the **'Approve'** proposal is approved by all other signers. Please wait until the **'Approve'** proposal is fully approved before proceeding.
-![Approve proposal button](mint-sp-image-9.png)
+![Approve proposal button](mint-sp-image-9.webp)
 
 ***
 
@@ -120,11 +120,11 @@ The maximum amount shown here represents the $GLF you have, after deducting the 
 
 2. Locate the **'MintActivateAndFund'** proposal.
 
-![Error message for premature MintActivateAndFund approval](mint-sp-image-10.png)
+![Error message for premature MintActivateAndFund approval](mint-sp-image-10.webp)
 
 3. Click **'Approve proposal'** and confirm in your wallet.
 
-![MintActivateAndFund proposal](mint-sp-image-11.png)
+![MintActivateAndFund proposal](mint-sp-image-11.webp)
 
 4. Repeat this step for all remaining signers.
 
@@ -138,7 +138,7 @@ The maximum amount shown here represents the $GLF you have, after deducting the 
 
 2. You should now see your GLIF+ SP Card minted and showing the tier you selected.
 
-![Minted GLIF+ SP Card](mint-sp-image-12.png)
+![Minted GLIF+ SP Card](mint-sp-image-12.webp)
 
 ***
 

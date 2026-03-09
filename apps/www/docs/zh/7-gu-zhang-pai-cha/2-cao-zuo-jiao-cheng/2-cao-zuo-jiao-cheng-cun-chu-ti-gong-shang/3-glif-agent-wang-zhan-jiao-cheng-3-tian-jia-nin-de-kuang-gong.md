@@ -24,7 +24,7 @@ _如果您还不了解 GLIF Agent 的基础概念、Agent 拥有者，或如何�
 
 您可以在 GLIF 网站的 Agent 页面找到您的 Agent 的 `f4` 地址：
 
-![第一步：提出所有权变更提案（通](cn-image-408.png)
+![第一步：提出所有权变更提案（通](cn-image-408.webp)
 
 ## 第二步：发起 “添加矿工” 提案 (通过GLIF网站)
 
@@ -38,12 +38,12 @@ _如果您还不了解 GLIF Agent 的基础概念、Agent 拥有者，或如何�
 
 2. 在 Agent 页面中，进入“**矿工**”部分，点击“**添加矿工**”。
 
-![第二步：发起 “添加矿工” 提](cn-image-409.png)
+![第二步：发起 “添加矿工” 提](cn-image-409.webp)
 
 3. 在“**向您的Agent添加一个矿工**”页面中输入您的矿工地址。
 4. 点击“**签署交易**”。
 
-![第二步：发起 “添加矿工” 提](cn-image-410.png)
+![第二步：发起 “添加矿工” 提](cn-image-410.webp)
 
 5. 点击“**签署交易**”后，系统会显示该凭证剩余的有效时间（分钟）。\
    若您希望撤销该凭证，可点击“**撤销凭证**”。
@@ -53,11 +53,11 @@ _如果您还不了解 GLIF Agent 的基础概念、Agent 拥有者，或如何�
 
 6. 点击“**发送**”以创建新的提案。您会使用当前连接的钱包签署交易。
 
-![第二步：发起 “添加矿工” 提](cn-image-411.png)
+![第二步：发起 “添加矿工” 提](cn-image-411.webp)
 
 7. 在您的钱包中批准该交易。
 
-![第二步：发起 “添加矿工” 提案](cn-glif-agent-wang-zhan-jiao-cheng-3-tian-jia-nin-de-kuang-gong.png)
+![第二步：发起 “添加矿工” 提案](cn-glif-agent-wang-zhan-jiao-cheng-3-tian-jia-nin-de-kuang-gong.webp)
 
 8. 等待交易完成，通常需要 1–2 分钟。
 
@@ -67,30 +67,30 @@ _如果您还不了解 GLIF Agent 的基础概念、Agent 拥有者，或如何�
 
 1. 使用其他签名钱包登录。您可以在多签页面的“**所需批准**”部分找到所有签名钱包。这些钱包应与[第二部分](/gu-zhang-pai-cha/cao-zuo-jiao-cheng/cao-zuo-jiao-cheng-cun-chu-ti-gong-shang/glif-agent-wang-zhan-jiao-cheng-2-chuang-jian-nin-de-agent)中所使用的相同。
 
-![第三步：由其他签名人审批提案](cn-image-414.png)
+![第三步：由其他签名人审批提案](cn-image-414.webp)
 
 2. 进入“**多重签名钱包**”选项。
 
-![第三步：由其他签名人审批提案](cn-image-416.png)
+![第三步：由其他签名人审批提案](cn-image-416.webp)
 
 3. 在“**Agent 拥有者提案**”中，您应能看到刚刚创建的“**AddMiner**”提案。
 
-![Add miner form](cn-image-420.png)
+![Add miner form](cn-image-420.webp)
 
 4. 选择您刚创建的提案。
 
-![第三步：由其他签名人审批提案](cn-image-417.png)
+![第三步：由其他签名人审批提案](cn-image-417.webp)
 
 5. 点击“**批准提案**”。
 
-![第三步：由其他签名人审批提案](cn-image-419.png)
+![第三步：由其他签名人审批提案](cn-image-419.webp)
 
 6. 在钱包中确认该交易。
 7. 如果您的多签钱包需要超过两位签名人批准，请使用其他签名钱包重复相同的步骤。\
    一旦达到所需的批准数量，提案将会在链上执行。等待交易确认，这通常需要几分钟。
 8. 返回 GLIF 网站的 Agent 页面。此时，您应能在“**矿工**”部分看到新添加的矿工已与您的 Agent 绑定。
 
-![第三步：由其他签名人审批提案](cn-image-421.png)
+![第三步：由其他签名人审批提案](cn-image-421.webp)
 
 ***
 

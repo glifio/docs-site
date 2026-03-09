@@ -31,7 +31,7 @@ DTL < 100% means that, in a liquidation scenario, GLIF will recover all principa
 * If a Storage Provider's DTL ratio goes above the limit, it is not immediately in danger of liquidation. However, they are eligible to be put on “**administration**” and all borrowing and withdrawals of rewards are disabled until the DTL returns to below the limit.
 * If a Storage Provider's **DTL goes above 92%, it is in danger of liquidation**. It is highly recommended to contact the GLIF team immediately if any SP's DTL ratio exceeds the limit.
 
-![Borrow limit: DTL >](en-image-280.png)
+![Borrow limit: DTL >](en-image-280.webp)
 
 > [!WARNING]
 > This graph illustrates the situation for SPs who did not join the GLIF+ program. For those who joined the [GLIF+ program](/glif-storage-providers-loyalty-rewards/storage-provider-loyalty-card), please refer to the [tier and limit table](/glif-storage-providers-loyalty-rewards/tiers-and-limits) for details.

@@ -24,17 +24,17 @@ GLIF 网站上的 Agent 创建指南会逐步指引您完成这些步骤。下�
 
 **第 1 步** — 访问 [glif.io/agent](https://www.glif.io/zh/agent)，点击左侧面板中的“**创建新的Agent**”按钮：
 
-![在GLIF网站上创建您的 Ag](cn-image-265.png)
+![在GLIF网站上创建您的 Ag](cn-image-265.webp)
 
 ***
 
 **第 2 步** — 连接您在本教程[第一部分](/gu-zhang-pai-cha/cao-zuo-jiao-cheng/cao-zuo-jiao-cheng-cun-chu-ti-gong-shang/glif-agent-wang-zhan-jiao-cheng-1-zhun-bei-she-zhi)中创建的“发起者 (proposer)” Filecoin Snap 钱包
 
-![在GLIF网站上创建您的 Ag](cn-image-266.png)
+![在GLIF网站上创建您的 Ag](cn-image-266.webp)
 
 点击“**连接**”按钮后，您需要在钱包中批准 GLIF 与该钱包的连接请求。可能会弹出两次连接请求，请记得都要批准。
 
-![在GLIF网站上创建您的 Ag](cn-image-268.png)
+![在GLIF网站上创建您的 Ag](cn-image-268.webp)
 
 您的 FilSnap 钱包需要一些资金来执行创建新 Agent 所需的交易。
 
@@ -45,15 +45,15 @@ GLIF 网站上的 Agent 创建指南会逐步指引您完成这些步骤。下�
 
 **第 3 步** — 输入额外的两个钱包地址（“审批者（the approver)”、“备用（backup”）作为签名人，并创建您的 Agent 拥有者钱包。这两个地址就是您在本教程[第一部分](/gu-zhang-pai-cha/cao-zuo-jiao-cheng/cao-zuo-jiao-cheng-cun-chu-ti-gong-shang/glif-agent-wang-zhan-jiao-cheng-1-zhun-bei-she-zhi)中创建的另外两个 FilSnap 或 Ledger 钱包地址。
 
-![在GLIF网站上创建您的 Ag](cn-image-269.png)
+![在GLIF网站上创建您的 Ag](cn-image-269.webp)
 
 如果您只想使用 2 个签名人，可在拥有者设置中将“**所需批准**”修改为 2，并删除“**签名者 3**”。
 
-![在GLIF网站上创建您的 Ag](cn-image-270.png)
+![在GLIF网站上创建您的 Ag](cn-image-270.webp)
 
 点击“**创建拥有者**”后，您需要在 MetaMask 中批准这笔交易：
 
-![MetaMask prompt](cn-image-271.png)
+![MetaMask prompt](cn-image-271.webp)
 
 做得很好！当您批准了创建 Agent 拥有者多签钱包的交易后，下一步就要创建 Agent 智能合约了。
 
@@ -63,23 +63,23 @@ GLIF 网站上的 Agent 创建指南会逐步指引您完成这些步骤。下�
 
 在创建您的 Agent 之前，需要先等待 Agent 拥有者多签钱包成功部署到链上。
 
-![在GLIF网站上创建您的 Ag](cn-image-272.png)
+![在GLIF网站上创建您的 Ag](cn-image-272.webp)
 
 当多签钱包创建交易确认后，您就可以点击“**创建 Agent**”按钮，并在 MetaMask 中批准该交易：
 
-![MetaMask prompt](cn-image-273.png)
+![MetaMask prompt](cn-image-273.webp)
 
 ***
 
 第 5 步 — 等待 Agent 创建交易确认
 
-![在GLIF网站上创建您的 Ag](cn-image-274.png)
+![在GLIF网站上创建您的 Ag](cn-image-274.webp)
 
 ***
 
 第 6 步 — 成功！您将看到一个新创建的 Agent。
 
-![在GLIF网站上创建您的 Ag](cn-image-275.png)
+![在GLIF网站上创建您的 Ag](cn-image-275.webp)
 
 ## 重要的 Agent 信息
 

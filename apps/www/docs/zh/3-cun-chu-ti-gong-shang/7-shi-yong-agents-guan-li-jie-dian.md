@@ -4,7 +4,7 @@
 
 Agents 是 FEVM 上的智能合约，允许存储提供商 (SP) 抵押 Filecoin Miner Actor 以从 GLIF 借入 FIL。每个存储提供商 (SP) 都部署并拥有自己的 Agents 智能合约。Agents 充当 SP 和 GLIF 之间的中介，允许 SP 在从 GLIF 借款的同时保持对其矿工的拥有权和控制权。
 
-![什么是 Agents](cn-image-376.png)
+![什么是 Agents](cn-image-376.webp)
 
 ## 部署 Agents
 
@@ -22,7 +22,7 @@ Agents 可以在添加抵押品后借款。您可以通过向 Agents 智能合�
 \
 添加到 Agents 的挖矿算力越多， Agents 的清算价值就越大，从而增加 Agents 可以借入的 FIL 总量。
 
-![向 Agents 添加抵押品](cn-image-375.png)
+![向 Agents 添加抵押品](cn-image-375.webp)
 
 ## Agents 拥有权
 
