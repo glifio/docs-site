@@ -20,7 +20,7 @@ Use standard markdown image syntax: `![alt text](url)`
 | Type | Format | Example |
 |------|--------|---------|
 | External image | Full URL | `![diagram](https://example.com/diagram.png)` |
-| Local image | Filename only (file lives in `public/docs/img/`) | `![GLIF Logo](logo.png)` |
+| Local image | Filename only (file lives in `public/docs/img/`) | `![GLIF Logo](logo.webp)` |
 
 ## Links
 
