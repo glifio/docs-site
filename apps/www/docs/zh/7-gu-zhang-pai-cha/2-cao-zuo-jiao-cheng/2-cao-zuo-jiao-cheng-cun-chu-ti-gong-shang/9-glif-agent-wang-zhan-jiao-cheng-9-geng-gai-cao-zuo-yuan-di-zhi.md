@@ -26,16 +26,16 @@ _如果您还不了解 GLIF Agent 的基础概念、Agent 拥有者，或如何�
 1. 在 Agent 页面中，进入“**管理员**”部分，并确保处于“**拥有者模式**”。
 2. 点击操作员地址旁边的图标。
 
-![第一步：发起更改操作员提案](cn-image-17.png)
+![第一步：发起更改操作员提案](cn-image-17.webp)
 
 3. 在“**更改您的Agent的操作员**”多签提案界面中，输入新的操作员地址。
 4. 点击“**发送**”，并在钱包中批准交易。
 
-![第一步：发起更改操作员提案](cn-image-19.png)
+![第一步：发起更改操作员提案](cn-image-19.webp)
 
 5. 等待交易完成。一个“**Transfer Operator**”提案将显示在“**Agent 拥有者提案**”部分。
 
-![第一步：发起更改操作员提案](cn-glif-agent-wang-zhan-jiao-cheng-9-geng-gai-cao-zuo-yuan-di-zhi_1.png)
+![第一步：发起更改操作员提案](cn-glif-agent-wang-zhan-jiao-cheng-9-geng-gai-cao-zuo-yuan-di-zhi_1.webp)
 
 ## 第二步：审批提案
 
@@ -43,7 +43,7 @@ _如果您还不了解 GLIF Agent 的基础概念、Agent 拥有者，或如何�
 2. 在“**Agent 拥有者提案**”部分找到“**Transfer Operator**”提案。
 3. 点击“**批准提案**”。
 
-![第二步：审批提案](cn-glif-agent-wang-zhan-jiao-cheng-9-geng-gai-cao-zuo-yuan-di-zhi_2.png)
+![第二步：审批提案](cn-glif-agent-wang-zhan-jiao-cheng-9-geng-gai-cao-zuo-yuan-di-zhi_2.webp)
 
 4. 在钱包中确认交易。
 
@@ -53,11 +53,11 @@ _如果您还不了解 GLIF Agent 的基础概念、Agent 拥有者，或如何�
 2. 在 Agent 页面中进入“**管理员**”部分，您将看到待接受的操作员地址。
 3. 点击“**接受操作员角色**”。
 
-![第三步： 接受操作员角色](cn-image-20.png)
+![第三步： 接受操作员角色](cn-image-20.webp)
 
 4. 点击“**发送**”。
 
-![第三步： 接受操作员角色](cn-image-21.png)
+![第三步： 接受操作员角色](cn-image-21.webp)
 
 5. 等待交易完成（约 1–2 分钟）。更新后的操作员地址将显示在“**管理员**”面板中。
 

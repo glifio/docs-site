@@ -40,7 +40,7 @@
 1. 连接作为 Agent 多签钱包签名人的其中一个钱包。
 2. 在 Agent 页面中，找到 “**取款**” 选项。
 
-![2a：通过 GLIF 网站操作](cn-image-286.png)
+![2a：通过 GLIF 网站操作](cn-image-286.webp)
 
 3. 收款人填入您在[第一步](#di-yi-bu-she-zhi-zhong-jie-qian-bao)创建的中介钱包地址。
 4. 输入要提取的数量
@@ -49,11 +49,11 @@
 > [!WARNING]
 > 如果中介钱包在链上没有任何历史交易记录，则不能作为收款地址使用。请在此步骤之前使用此钱包进行一些交易。
 
-![2a：通过 GLIF 网站操作](cn-image-287.png)
+![2a：通过 GLIF 网站操作](cn-image-287.webp)
 
 6. 点击“**签署交易**”发起签名。
 
-![2a：通过 GLIF 网站操作](cn-image-289.png)
+![2a：通过 GLIF 网站操作](cn-image-289.webp)
 
 7. 签完交易后，您会得到一个有效期约 5 分钟的签名凭证，务必在此时间内完成交易。
 8. 点击“发送”。
@@ -61,29 +61,29 @@
 > [!NOTE]
 > 如果超过 5 分钟未完成交易，其他签名人未完成签名，您需要重新开始这个步骤。
 
-![2a：通过 GLIF 网站操作](cn-image-290.png)
+![2a：通过 GLIF 网站操作](cn-image-290.webp)
 
 9. 在钱包中批准这笔交易。
 
-![2a：通过 GLIF 网站操作](cn-image-291.png)
+![2a：通过 GLIF 网站操作](cn-image-291.webp)
 
 10. 等待交易处理完成（大约需要 1-2 分钟）。
 11. 切换到其他签名人钱包。
 12. 在 Agent 页面“**所有者提案**”标签下，找到刚才发起的提案
 
-![2a：通过 GLIF 网站操作](cn-image-292.png)
+![2a：通过 GLIF 网站操作](cn-image-292.webp)
 
 13. 点击“**批准提案**”进行批准。
 
 > [!TIP]
 > 确保所有签名钱包都有足够的 Gas 费用以完成交易。
 
-![2a：通过 GLIF 网站操作](cn-image-295.png)
+![2a：通过 GLIF 网站操作](cn-image-295.webp)
 
 14. 再次等待交易处理完成（大约 1-2 分钟）。
 15. 当多签提案执行完毕后，它会从提案列表中消失，同时在“交易”标签中显示成功记录。
 
-![2a：通过 GLIF 网站操作](cn-image-296.png)
+![2a：通过 GLIF 网站操作](cn-image-296.webp)
 
 16. 在 GLIF “**钱包**” 页面或在 [filfox.info](https://filfox.info) 搜索您的 f1 地址，检查中介钱包余额，以确认交易成功。
 
@@ -94,17 +94,17 @@
 
 * 第 1 条命令：`glif agent --help`
 
-![2b：通过 CLI 操作](en-image-78.png)
+![2b：通过 CLI 操作](en-image-78.webp)
 
 * 第 2 条命令：`glif agent withdraw --help`
 
-![2b：通过 CLI 操作](en-image-79.png)
+![2b：通过 CLI 操作](en-image-79.webp)
 
 * 第 3 条命令：`glif agent withdraw 100 f1...abc`
   * 将 100 替换为您想提取的数量。
   * 将 f1...abc 替换为您的中介钱包地址。
 
-![2b：通过 CLI 操作](en-image-80.png)
+![2b：通过 CLI 操作](en-image-80.webp)
 
 3. 在 GLIF “钱包” 页面或在 filfox.info 搜索中介钱包的 f1 地址，检查中介钱包余额，以确认交易成功。
 
@@ -112,17 +112,17 @@
 
 1. 使用[第一步](#di-yi-bu-she-zhi-zhong-jie-qian-bao)创建的中介钱包登录 GLIF 网站，然后点击 “**发送 FIL**”。
 
-![第三步：从中间钱包将 FIL](cn-image-301.png)
+![第三步：从中间钱包将 FIL](cn-image-301.webp)
 
 2. 在收款人栏填入交易所提供的 f1 地址。
 3. 输入要转账的 FIL 数量。
 4. 点击 “发送” 并确认交易。
 
-![第三步：从中间钱包将 FIL](cn-image-302.png)
+![第三步：从中间钱包将 FIL](cn-image-302.webp)
 
 5. 交易完成后，您可以在 GLIF 页面右下角查看交易哈希。
 
-![第三步：从中间钱包将 FIL](cn-image-303.png)
+![第三步：从中间钱包将 FIL](cn-image-303.webp)
 
 6. 等交易完成后，您可前往 [filfox.info](https://filfox.info/) 或在浏览器中输入 `glif.io/address/(您的 f1 地址)` 来查看最终地址的余额。
 7. 恭喜！您已经成功将 FIL 从 Agent 提取并转移至交易所的 f1 地址。

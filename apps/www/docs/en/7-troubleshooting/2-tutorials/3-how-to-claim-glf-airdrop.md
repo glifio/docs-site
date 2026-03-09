@@ -25,23 +25,23 @@ If your eligible wallet is a multisig wallet, the claiming process is very simil
 1. Navigate to the [official GLIF website token claim page](https://www.glif.io/en/token).
 2. Click “Connect Wallet” to connect your eligible wallet. Your $GLF airdrop amount will be displayed here.
 
-![GLF amount](en-glf-airdrop-01-glf-amount.png)
+![GLF amount](en-glf-airdrop-01-glf-amount.webp)
 
 3. Click “Start Claiming”. Please make sure you have enough gas fees in your wallet for the transaction.
 
-![Start claim button](en-glf-airdrop-02-start-claim.png)
+![Start claim button](en-glf-airdrop-02-start-claim.webp)
 
 4. Read the GLIF governance constitution and click “Next”.
 
-![Tutorial step](en-image-394.png)
+![Tutorial step](en-image-394.webp)
 
 5. Choose your delegate. Your $GLF tokens represent your governance power, and can be used to vote on GIPs. You can select GLIF Ltd. or another delegate to vote on your behalf, or you may choose to self-delegate. You can change this anytime. If you are unsure what to do, you can simply delegate to Glif Ltd. Click “Next”.
 
-![Delegate selection](en-glf-airdrop-03-delegate-selection.png)
+![Delegate selection](en-glf-airdrop-03-delegate-selection.webp)
 
 6. Review your $GLF amount and delegate choice. Click “Claim your tokens”.
 
-![Claim confirmation](en-glf-airdrop-04-claim-confirmation.png)
+![Claim confirmation](en-glf-airdrop-04-claim-confirmation.webp)
 
 7. Confirm the transaction in your wallet and wait for the transaction to be completed (1–2 minutes).
 
@@ -49,7 +49,7 @@ If your eligible wallet is a multisig wallet, the claiming process is very simil
 
 1. Click “Return to Dashboard” or go to your “Wallet” page.
 
-![Redeem GLF](en-glf-airdrop-05-redeem-glf.png)
+![Redeem GLF](en-glf-airdrop-05-redeem-glf.webp)
 
 2. Scroll to the “NFTs” section. You will see an NFT representing your claimed tokens.
 
@@ -58,16 +58,16 @@ If your eligible wallet is a multisig wallet, the claiming process is very simil
 
 3. The NFT shows how many tokens are redeemable. Click “Redeem.”
 
-![Redeem GLF](en-glf-airdrop-06-redeem-glf-2.png)
+![Redeem GLF](en-glf-airdrop-06-redeem-glf-2.webp)
 
 4. The page displays the redeemable amount. Click “Send.”
 
-![Send button](en-glf-airdrop-07-send-button.png)
+![Send button](en-glf-airdrop-07-send-button.webp)
 
 5. Confirm in your wallet and wait for the transaction to be completed (1–2 minutes).
 6. Check the “Tokens” section on your wallet page. Your $GLF tokens will be shown here!
 
-![Token section](en-glf-airdrop-08-token-section.png)
+![Token section](en-glf-airdrop-08-token-section.webp)
 
 Congrats! You've successfully claimed your $GLF tokens as an early GLIF community participant. Use this power wisely!
 
@@ -88,23 +88,23 @@ If you would like to claim through the website interface, please follow the inst
 1. Navigate to the [official GLIF website token claim page](https://www.glif.io/en/token)
 2. Connect to your Agent's owner address. Your $GLF airdrop amount will be displayed here. Click “Connect Wallet”. Connect to your Agent's owner wallet. If it is a multisig wallet, connect using one of its signers.
 
-![Add signer form](en-image-374.png)
+![Add signer form](en-image-374.webp)
 
 3. Click “Start Claiming”. Please make sure you have enough gas fees in your wallet for the transaction.
 
-![Start claim button](en-image-373.png)
+![Start claim button](en-image-373.webp)
 
 4. Read the GLIF governance constitution and click “**Next**”.
 
-![Connect wallet](en-image-370.png)
+![Connect wallet](en-image-370.webp)
 
 5. Choose your delegate. Your $GLF tokens represent your governance power. You can select GLIF Ltd. or another delegate to vote on your behalf, or you may choose to self-delegate. You can change this anytime. If you are unsure what to do, you can simply delegate to Glif Ltd.  Click “Next”.
 
-![Delegate selection](en-glf-airdrop-03-delegate-selection.png)
+![Delegate selection](en-glf-airdrop-03-delegate-selection.webp)
 
 6. Review your $GLF amount and delegate choice. Click “Claim your tokens”.
 
-![Claim confirmation](en-glf-airdrop-09-claim-confirmation-2.png)
+![Claim confirmation](en-glf-airdrop-09-claim-confirmation-2.webp)
 
 7. Confirm the transaction in your wallet and wait for the transaction to be completed (1–2 minutes).
 
@@ -114,20 +114,20 @@ If you would like to claim through the website interface, please follow the inst
 
 _If your Agent owner is a **single-signer/EOA wallet**, you do not need to sign any proposal. You can skip directly to_ [_Step 3_](#step-3-redeem-glf-tokens-from-the-nft)_._
 
-![Claim confirmation](en-glf-airdrop-05-redeem-glf.png)
+![Claim confirmation](en-glf-airdrop-05-redeem-glf.webp)
 
 2. Click “Admin” and navigate to the “Multisig Proposals” section. You will find a “Claim and Delegate” proposal.
 
-![Admin menu](en-glf-airdrop-11-admin-menu.png)
+![Admin menu](en-glf-airdrop-11-admin-menu.webp)
 
 3. Disconnect your current wallet and connect to other approver wallets from your Agent's owner multisig wallet.
 4. Go to the “Multisig” tab, locate the same “Claim and Delegate” proposal in the “Multisig Proposals” section. Click the check mark.
 
-![The Check button](en-glf-airdrop-12-check-button.png)
+![The Check button](en-glf-airdrop-12-check-button.webp)
 
 5. Click “Approve Proposal”.
 
-![Proposal approval](en-glf-airdrop-13-proposal-approval.png)
+![Proposal approval](en-glf-airdrop-13-proposal-approval.webp)
 
 6. Confirm the transaction in your wallet and wait for the transaction to be completed (1–2 minutes).
 
@@ -140,28 +140,28 @@ _If your Agent owner is a **single-signer/EOA wallet**, you do not need to sign 
 > [!WARNING]
 > Note that the airdrop vesting schedule is aligned with Filecoin's block reward schedule: 25% is available immediately, while 75% vests linearly over 180 days.
 
-![Check balance](en-glf-airdrop-14-check-balance.png)
+![Check balance](en-glf-airdrop-14-check-balance.webp)
 
 2. Click “Redeem” to initiate another multisig proposal.
 
-![Redeem GLF](en-glf-airdrop-15-redeem-glf-3.png)
+![Redeem GLF](en-glf-airdrop-15-redeem-glf-3.webp)
 
 3. Click “Send”. A multisig proposal will be initiated to redeem your $GLF tokens. Confirm in your wallet.
 
-![Wallet confirmation](en-glf-airdrop-16-wallet-confirmation.png)
+![Wallet confirmation](en-glf-airdrop-16-wallet-confirmation.webp)
 
 4. After the transaction is completed, go to the “Admin” section. You will see a new “RedeemPlans” proposal.
 
-![Transaction complete](en-glf-airdrop-17-transaction-complete.png)
+![Transaction complete](en-glf-airdrop-17-transaction-complete.webp)
 
 5. Disconnect your current wallet and connect to another approver wallet from your Agent's owner multisig wallet.
 6. Go to the “Multisig” tab, find the “RedeemPlans” proposal in the “Multisig Proposals” section, and click “Approve Proposal”.
 
-![Proposal approval](en-glf-airdrop-13-proposal-approval.png)
+![Proposal approval](en-glf-airdrop-13-proposal-approval.webp)
 
 7. Confirm the transaction in your wallet.
 8. After the transaction is completed, check your portfolio for $GLF tokens. The NFT balance will update, and you can redeem tokens again at any time if the NFT still has unredeemed tokens.
 
-![Balance view](en-glf-airdrop-18-balance-view.png)
+![Balance view](en-glf-airdrop-18-balance-view.webp)
 
 Congrats! You've successfully claimed your $GLF tokens as an early GLIF community participant. Use this power wisely!

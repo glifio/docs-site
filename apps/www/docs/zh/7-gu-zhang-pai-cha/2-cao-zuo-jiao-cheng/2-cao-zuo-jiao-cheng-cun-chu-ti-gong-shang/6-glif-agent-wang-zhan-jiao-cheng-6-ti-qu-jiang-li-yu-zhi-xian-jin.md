@@ -30,22 +30,22 @@ _如果您还不了解 GLIF Agent 的基础概念、Agent 拥有者，或如何�
 
 3. 点击“**提取**”。
 
-![第一步：发起提取提案](cn-image-4.png)
+![第一步：发起提取提案](cn-image-4.webp)
 
 4. 核对详情后，点击“**签署交易**”。
 
 > [!WARNING]
 > 凭证仅在 5 分钟内有效。若出现“_AgentPolice: Invalid Credential_”错误，表示凭证已过期，请重新开始。
 
-![第一步：发起提取提案](cn-image-5.png)
+![第一步：发起提取提案](cn-image-5.webp)
 
 5. 点击“**发送**”，并在钱包中批准交易。
 
-![第一步：发起提取提案](cn-image-6.png)
+![第一步：发起提取提案](cn-image-6.webp)
 
 6. 等待交易完成。一个“**Withdraw**”提案会出现在“**Agent 拥有者提案**”部分。
 
-![第一步：发起提取提案](cn-glif-agent-wang-zhan-jiao-cheng-6-ti-qu-jiang-li-yu-zhi-xian-jin.jpg)
+![第一步：发起提取提案](cn-glif-agent-wang-zhan-jiao-cheng-6-ti-qu-jiang-li-yu-zhi-xian-jin.webp)
 
 ## 第二步: 审批提案
 
@@ -53,7 +53,7 @@ _如果您还不了解 GLIF Agent 的基础概念、Agent 拥有者，或如何�
 2. 在“**Agent 拥有者提案**”部分找到“**Withdraw**”提案。
 3. 点击“**批准提案**”。
 
-![第二步: 审批提案](cn-image-1.png)
+![第二步: 审批提案](cn-image-1.webp)
 
 4. 在钱包中确认交易。
 5. 等待交易完成，通常需要 1 到 2 分钟。完成后，FIL 会被发送至您填写的收款地址。
