@@ -47,7 +47,7 @@ Click "**Withdraw**" and approve the prompt in your wallet. Confirm the transact
 
 After the transaction is completed, this will automatically generate two multisig proposals: "**Approve**" and "**RedeemF**".
 
-![](en-image-3a.webp)
+![](en-image-3b.webp)
 
 5. **Access proposals as another signer**
 
