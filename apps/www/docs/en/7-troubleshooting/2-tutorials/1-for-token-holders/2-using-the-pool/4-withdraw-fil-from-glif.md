@@ -21,7 +21,7 @@ This tutorial will guide you through the process of using your iFIL tokens to wi
 2. Enter the amount of iFIL you want to redeem, and the corresponding amount of FIL to receive will be displayed. Read more about iFIL [here](/for-liquidity-providers/glif-reward-mechanism-ifil).
 3. Click “**Withdraw**”.
 
-![Approve button](en-image-177a.webp)
+![Approve button](en-image-1h.webp)
 
 ## Step 3: Submit transaction 1 of 2 - approve GLIF pool to transfer
 
@@ -29,7 +29,7 @@ The GLIF smart contract needs permission to spend your iFIL Tokens to process th
 
 1. Click **“Approve”.**
 
-![Approve button](en-image-383a.webp)
+![Approve button](en-image-383b.webp)
 
 2. Click “**Confirm**” in your wallet.
 
@@ -37,7 +37,7 @@ The GLIF smart contract needs permission to spend your iFIL Tokens to process th
 
 1.  After the approval transaction succeeds, you can proceed with the withdrawal - click “**Withdraw**”.
 
-![Withdraw button](en-image-385a.webp)
+![Withdraw button](en-image-385b.webp)
 
 2. Click “**Confirm**” in your wallet.
 

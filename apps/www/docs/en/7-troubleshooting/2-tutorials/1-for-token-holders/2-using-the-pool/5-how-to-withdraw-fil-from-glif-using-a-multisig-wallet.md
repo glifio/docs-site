@@ -37,17 +37,17 @@ Confirm the transaction in your connected wallet to proceed.
 
 Wait for the network to complete the transaction.
 
-![](en-image-1a.webp)
+![](en-image-1av2.webp)
 
 4. **Initiate the withdrawal**
 
 Click "**Withdraw**" and approve the prompt in your wallet. Confirm the transaction in your connected wallet to proceed.
 
-![](en-image-2a.webp)
+![](en-image-2av2.webp)
 
 After the transaction is completed, this will automatically generate two multisig proposals: "**Approve**" and "**RedeemF**".
 
-![](en-image-3b.webp)
+![](en-image-3bv2.webp)
 
 5. **Access proposals as another signer**
 
@@ -58,7 +58,7 @@ Click the check mark next to the proposals.
 
  Click "**Approve**" and confirm in the signer’s wallet. Repeat this for all required signers.
 
-![](en-image-4a.webp)
+![](en-image-4av2.webp)
 
 > [!NOTE]
 > You must approve the "Approve" proposal before you can approve the "RedeemF" proposal.
