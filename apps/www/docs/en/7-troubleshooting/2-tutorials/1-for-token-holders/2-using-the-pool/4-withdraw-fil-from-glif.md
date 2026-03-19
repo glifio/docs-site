@@ -17,11 +17,11 @@ This tutorial will guide you through the process of using your iFIL tokens to wi
 
 ## Step 2: Go to the “Pool” page
 
-1. Within the “Pool” section, find the “**Withdraw**” option.
+1. Within the “**Pool**” section, find the “**Withdraw**” option.
 2. Enter the amount of iFIL you want to redeem, and the corresponding amount of FIL to receive will be displayed. Read more about iFIL [here](/for-liquidity-providers/glif-reward-mechanism-ifil).
-3. Click “**Approve**”.
+3. Click “**Withdraw**”.
 
-![Approve button](en-image-177.webp)
+![Approve button](en-image-1h.webp)
 
 ## Step 3: Submit transaction 1 of 2 - approve GLIF pool to transfer
 
@@ -29,29 +29,21 @@ The GLIF smart contract needs permission to spend your iFIL Tokens to process th
 
 1. Click **“Approve”.**
 
-![Approve button](en-image-383.webp)
+![Approve button](en-image-383b.webp)
 
-2. Click “**Confirm**” - note you can approve just the amount of iFIL you want to redeem, or you can approve “**max**”, and not have to do this approval transaction step for withdrawals in the future.
-
-![Withdraw button](en-image-384.webp)
+2. Click “**Confirm**” in your wallet.
 
 ## Step 4: Submit transaction 2 of 2 - Withdraw FIL
 
-1. After a short wait (around 1 to 2 minutes), you should see a transaction success notification appear. After the approval transaction succeeds, you can proceed with the withdrawal - click “**Withdraw**”.
+1.  After the approval transaction succeeds, you can proceed with the withdrawal - click “**Withdraw**”.
 
-![Withdraw button](en-image-385.webp)
+![Withdraw button](en-image-385b.webp)
 
-2. Click “**Confirm**” in your MetaMask.
-
-![MetaMask prompt](en-image-184.webp)
-
-3. After a short wait, you will see a transaction completion message in the bottom right corner. Withdrawal success!
-
-![Transaction pending](en-image-185.webp)
+2. Click “**Confirm**” in your wallet.
 
 ## Step 5: Check your FIL balance
 
-After withdrawing FIL, your wallet's FIL balance will increase by the amount of FIL withdrawn. For a more detailed view of your position, click on “**Wallet**” in the GLIF navigation
+After withdrawing FIL, your wallet's FIL balance will increase by the amount of FIL withdrawn. For a more detailed view of your position, click on “**Wallet**”:
 
 ![Position view](en-image-41.webp)
 
