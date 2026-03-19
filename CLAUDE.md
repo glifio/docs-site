@@ -9,28 +9,22 @@ Documentation site for [GLIF](https://www.glif.io), a DeFi protocol on Filecoin.
 ## Tech stack
 
 - **Monorepo**: pnpm workspaces + Turborepo
-- **Framework**: Next.js (React 19)
-- **Apps**: `apps/www` (main site, port 3000), `apps/icn` (ICN site, port 3001)
-- **Shared package**: `packages/shared` — common components/utilities used by both apps
-- **Node**: 24.x, **pnpm**: 9.1.2
+- **Framework**: Next.js
+- **Apps**: each subdirectory under `apps/` is a separate Next.js site (check `apps/*/package.json` for ports and details)
+- **Shared package**: `packages/shared` — common components/utilities used by all apps
+- Node and pnpm versions are specified in the root `package.json`
 
 ## Repository layout
 
 ```
 apps/
-  www/                    # Main docs site
-    docs/en/              # English markdown docs
-    docs/zh/              # Chinese markdown docs
-    public/docs/img/      # Doc images (local, .webp)
-    public/docs/file/     # Doc assets (PDFs, etc.)
-  icn/                    # ICN docs site
-    docs/en/              # English markdown docs
+  {app}/                  # Each app is a Next.js docs site
+    docs/{locale}/        # Markdown docs per locale (e.g. en/, zh/)
     public/docs/img/      # Doc images
-    public/docs/file/     # Doc assets
+    public/docs/file/     # Doc assets (PDFs, etc.)
 packages/
   shared/                 # Shared components/utilities
-scripts/
-  check-images.sh         # Image integrity checker (see below)
+scripts/                  # Repo-wide scripts (e.g. check-images.sh)
 ```
 
 ## Docs structure
@@ -66,7 +60,7 @@ scripts/
 
 ## Key conventions
 
-- All doc images should be `.webp` format
+- Prefer `.webp` format for doc images
 - When adding images: place the file in the correct app's `public/docs/img/` and reference it by bare filename in markdown
 - When removing images: remove both the file and all markdown references
 - When renaming images: update all markdown references across all locale folders (`en/`, `zh/`)
