@@ -11,7 +11,8 @@
     "dev": "turbo run dev",
     "tsc": "turbo run tsc",
     "lint": "eslint .",
-    "fix": "eslint --fix ."
+    "fix": "eslint --fix .",
+    "check:images": "bash scripts/check-images.sh"
   },
   "devDependencies": {
     "@formatjs/intl-localematcher": "^0.8.1",
