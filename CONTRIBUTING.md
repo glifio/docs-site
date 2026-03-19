@@ -22,6 +22,12 @@ Use standard markdown image syntax: `![alt text](url)`
 | External image | Full URL | `![diagram](https://example.com/diagram.png)` |
 | Local image | Filename only (file lives in `public/docs/img/`) | `![GLIF Logo](logo.webp)` |
 
+When working with images:
+- Prefer `.webp` format
+- When adding: place the file in the correct app's `public/docs/img/` and reference it by bare filename in markdown
+- When removing: remove both the file and all markdown references
+- When renaming: update all markdown references across all locale folders (e.g. `en/`, `zh/`)
+
 ### Image integrity check
 
 Run `pnpm check:images` to verify all images are consistent. The script checks every app for:
