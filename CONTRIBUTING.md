@@ -22,6 +22,15 @@ Use standard markdown image syntax: `![alt text](url)`
 | External image | Full URL | `![diagram](https://example.com/diagram.png)` |
 | Local image | Filename only (file lives in `public/docs/img/`) | `![GLIF Logo](logo.webp)` |
 
+### Image integrity check
+
+Run `pnpm check:images` to verify all images are consistent. The script checks every app for:
+
+- **Missing images**: referenced in markdown but the file doesn't exist in `public/docs/img/`
+- **Orphaned images**: file exists in `public/docs/img/` but no markdown references it
+
+This check also runs automatically on PRs to `main` via GitHub Actions and will block merge on failure. Always run it locally before pushing image-related changes.
+
 ## Links
 
 Use standard markdown link syntax: `[text](url)`
