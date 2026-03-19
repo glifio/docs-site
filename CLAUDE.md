@@ -27,20 +27,15 @@ packages/
 scripts/                  # Repo-wide scripts (e.g. check-images.sh)
 ```
 
-## Docs structure
+## Writing docs
 
-- Every folder has a `README.md`
-- Folders and files (except README.md) use **numbered prefixes** (`1-introduction/`, `2-reward-mechanism.md`)
-- **Kebab-case** for all file/folder names
-- Content is GitHub-flavored Markdown with KaTeX math support
+See `CONTRIBUTING.md` for markdown syntax rules, image/link conventions, and supported features (math, blockquote alerts, etc.). Read it before editing any markdown files.
 
 ## Images and assets
 
-- Local images use **bare filenames** in markdown: `![alt](image.webp)` — no path prefix
-- Image files live in `apps/{app}/public/docs/img/` (flat, no subdirectories currently)
+- Image files live in `apps/{app}/public/docs/img/`
 - Asset files (PDFs) live in `apps/{app}/public/docs/file/`
-- External images use full URLs: `![alt](https://...)`
-- No `<img>` HTML tags — markdown syntax only
+- Markdown references images by **bare filename** — the repo layout above shows where the actual files go
 
 ## Commands
 
@@ -57,11 +52,3 @@ scripts/                  # Repo-wide scripts (e.g. check-images.sh)
 ## CI checks
 
 - **check-images** (`.github/workflows/check-images.yml`): Runs on PRs to `main`. Fails if any app has orphaned images (file exists but no markdown references it) or missing images (markdown references a file that doesn't exist). Run locally with `pnpm check:images`.
-
-## Key conventions
-
-- Prefer `.webp` format for doc images
-- When adding images: place the file in the correct app's `public/docs/img/` and reference it by bare filename in markdown
-- When removing images: remove both the file and all markdown references
-- When renaming images: update all markdown references across all locale folders (`en/`, `zh/`)
-- The `check:images` script will catch any mismatches between referenced and actual images
