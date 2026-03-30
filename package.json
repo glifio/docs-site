@@ -26,6 +26,7 @@
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.5",
     "negotiator": "^1.0.0",
+    "postcss-load-config": "^6.0.1",
     "prettier": "^3.5.3",
     "turbo": "^2.5.0",
     "typescript": "^5.8.0"
