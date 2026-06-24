@@ -8,13 +8,15 @@ Read more about the [economic safety rules](/for-storage-providers/liquidations)
 
 ## Code security - audits and continuous monitoring
 
-GLIF has been building financial infrastructure for Filecoin token holders since 2019. The security of GLIF users has and always will be the top priority. Our DeFi protocol has undergone 5 security evaluations:
+GLIF has been building financial infrastructure for Filecoin token holders since 2019. The security of GLIF users has and always will be the top priority. Our DeFi protocol has undergone 7 security evaluations:
 
 * A 10 person week informal review by [Consensys Diligence](https://diligence.security) to give early feedback and design critiques of our architecture
 * A 5 person week formal review by the top DeFi auditors at Consensys Diligence [(see report here)](infinity-pool-audit-consensys.pdf)
 * A 20 person, invite only audit competition run through [Sherlock](https://www.sherlock.xyz/), with experienced DeFi auditors [(see report here)](infinity-pool-audit-sherlock.pdf)
 * Consensys Diligence V2 protocol audit
-* Hexens V2 protocol audit (report will be uploaded once finished)
+* [Hexens - GLIF LP+ & RWTFuture Contracts (Nov 2025)](https://hexens.io/audit-reports/glif-lpplus-rwtfuture-contracts-nov-2025)
+* [Hexens - GLIF+ NFT (Aug 2025)](https://hexens.io/audit-reports/glif-glif-plus-nft-aug-2025)
+* [Hexens - InfinityPoolV2 & AgentPoliceV2 Migration (Jul 2024)](https://hexens.io/audit-reports/glif-infinitypoolv2-agentpolicev2-migration-jul-2024)
 
 In audition to code audits, GLIF continuously monitors the protocol for collateralization limit breaches and suspicious or unusual activity.
 
